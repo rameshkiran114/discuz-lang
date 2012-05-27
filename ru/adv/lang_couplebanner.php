@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -27,10 +27,10 @@ $lang = array
 	'couplebanner_coupleadid'		=> 'Парное объявление',
 	'couplebanner_coupleadid_comment'	=> 'Укажите ID второго объявления, показываемого в паре с первым',
 	'couplebanner_category'			=> 'Категории портала',
-	'couplebanner_category_comment'		=> 'Укажите категории портала для показа данной рекламы', 
-	'couplebanner_disableclose' => '关闭广告的链接',
-	'couplebanner_disableclose_comment' => '如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
-	'couplebanner_show' => '显示',
-	'couplebanner_hidden' => '隐藏',
+	'couplebanner_category_comment'		=> 'Укажите категории портала для показа данной рекламы',
+	'couplebanner_disableclose'		=> 'Ссылка закрытия рекламы',//'关闭广告的链接',
+	'couplebanner_disableclose_comment'	=> 'Если скрыть ссылку закрытия, то пользователи не смогут закрыть рекламный блок',//'如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
+	'couplebanner_show'			=> 'Показать',//'显示',
+	'couplebanner_hidden'			=> 'Скрыть',//'隐藏',
 );
 

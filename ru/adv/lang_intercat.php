@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -20,6 +20,6 @@ $lang = array
 	'intercat_position'		=> 'Позиция',
 	'intercat_position_comment'	=> 'Выберите местоположение рекламы',
 	'intercat_position_random'	=> 'Случайное место',
-	'intercat_position_fav' => '收藏栏',
+	'intercat_position_fav'		=> 'Избранное',//'收藏栏',
 );
 

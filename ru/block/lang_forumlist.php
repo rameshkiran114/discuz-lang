@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -13,8 +13,8 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'forumlist_fids' => '指定版块',
-	'forumlist_fids_comment' => '填入指定版块的ID(fid)，多个版块之间用逗号(,)分隔',
+	'forumlist_fids'			=> 'Конкретный раздел',//'指定版块',
+	'forumlist_fids_comment'		=> 'Перечислите ID (fid) конкретных разделов, разделяя их запятыми (,)',//'填入指定版块的ID(fid)，多个版块之间用逗号(,)分隔',
 	'forumlist_fups'			=> 'Родительский раздел',
 	'forumlist_fups_comment'		=> 'Укажите родительскую категорию или раздел',
 	'forumlist_titlelength'			=> 'Длина заголовка',

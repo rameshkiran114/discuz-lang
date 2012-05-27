@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -19,7 +19,7 @@ $lang = array
 	'interthread_fids_comment'	=> 'Укажите разделы форума для показа рекламы',
 	'interthread_groups'		=> 'Группы',
 	'interthread_groups_comment'	=> 'Укажите группы, которым будет показана реклама',
-	'interthread_pnumber' => '广告显示楼层',
-	'interthread_pnumber_comment' => '选项 #1 #2 #3 ... 表示帖子楼层，可以按住 CTRL 多选，默认只投放 1 楼',
+	'interthread_pnumber'		=> 'Местоположение рекламы',//'广告显示楼层',
+	'interthread_pnumber_comment'	=> 'Укажите номер постинга: #1 #2 #3... Удерживайте CTRL множественного выбора, по умолчанию - первый постинг.',//'选项 #1 #2 #3 ... 表示帖子楼层，可以按住 CTRL 多选，默认只投放 1 楼',
 );
 

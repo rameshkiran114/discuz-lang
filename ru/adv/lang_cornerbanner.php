@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -24,9 +24,9 @@ $lang = array
 	'cornerbanner_animator_comment'	=> 'Установка режима анимации рекламы',
 	'cornerbanner_category'		=> 'Категории портала',
 	'cornerbanner_category_comment'	=> 'Размещение рекламы в конкретных категориях портала',
-	'cornerbanner_disableclose'	=> 'Закрыть рекламную ссылку',//'关闭广告的链接',
-	'cornerbanner_disableclose_comment' => '如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
-	'cornerbanner_show' => '显示',
-	'cornerbanner_hidden' => '隐藏',
+	'cornerbanner_disableclose'	=> 'Ссылка закрытия рекламы',//'关闭广告的链接',
+	'cornerbanner_disableclose_comment'	=> 'Если скрыть ссылку закрытия, то пользователи не смогут закрыть рекламный блок',//'如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
+	'cornerbanner_show'		=> 'Показать',//'显示',
+	'cornerbanner_hidden'		=> 'Скрыть',//'隐藏',
 );
 

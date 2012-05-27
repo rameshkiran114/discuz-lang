@@ -60,7 +60,7 @@ $lang = array (
 	'time_now'			=> '{$_G[timenow][time]} GMT{$_G[timenow][offset]}',
 	'activation'			=> 'Активация',
 	'admincp'			=> 'Админ-Центр',
-	'changestyle'			=> 'Изменить стиль',
+//See at the bottom!!!	'changestyle'			=> 'Изменить стиль',
   'cloudcp' => '云平台',
 	'default'			=> 'по умолчанию',
 	'forum_manager'			=> 'Управление форумом',
@@ -430,7 +430,10 @@ $lang = array (
 
 //---------------------------
 //Change Language
-	'change_language'	=> 'Изменить язык',
+	'change_language'	=> '',//'Изменить язык:',
+	'change_language_title'	=> 'Изменить язык',
+	'changestyle'		=> '',//'Изменить стиль:',//'切换风格',
+	'changestyle_title'	=> 'Изменить стиль',//'切换风格',
 
 //vot:
 	'new'		=> 'New',//'全新',
@@ -443,6 +446,5 @@ $lang = array (
 	'e_map'		=> 'Map',//'地图',
 	'e_map_insert'	=> 'Insert Google Map',//'插入google地图',
 	'e_map_address'	=> 'Enter address for search: ',//'地址： ',
-
 );
 

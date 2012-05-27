@@ -1,6 +1,6 @@
 <?php
 
-/**+++
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -33,4 +33,3 @@ $lang = array
 	'task_complete_act_newreply_author'	=> 'Ответов на темы автора &quot;{value}&quot;: {num}',
 );
 
-?>

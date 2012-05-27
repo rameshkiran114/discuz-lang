@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -25,10 +25,10 @@ $lang = array
 	'float_position_left'		=> 'Слева',
 	'float_position_right'		=> 'Справа',
 	'float_category'		=> 'Категории портала',
-	'float_category_comment'	=> 'Укажите категории портала для размещения рекламы', 
-	'float_disableclose' => '关闭广告的链接',
-	'float_disableclose_comment' => '如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
-	'float_show' => '显示',
-	'float_hidden' => '隐藏',
+	'float_category_comment'	=> 'Укажите категории портала для размещения рекламы',
+	'float_disableclose'		 => 'Ссылка закрытия рекламы',//'关闭广告的链接',
+	'float_disableclose_comment'	 => 'Если скрыть ссылку закрытия, то пользователи не смогут закрыть рекламный блок',//'如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
+	'float_show'			 => 'Показать',//'显示',
+	'float_hidden'			 => 'Скрыть',//'隐藏',
 );
 
