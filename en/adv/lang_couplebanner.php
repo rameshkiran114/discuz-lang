@@ -29,7 +29,7 @@ $lang = array
 	'couplebanner_category'			=> 'Double Banner Portal Category',//'投放门户频道',
 	'couplebanner_category_comment'		=> 'Set a portal category for show the Double Banner. This take effect only when Ads is assigned to the Portal',//'设置广告投放的频道分类，当广告投放范围中包含“门户”时有效',
 	'couplebanner_disableclose'		=> 'Close advertising link',//'关闭广告的链接',
-	'couplebanner_disableclose_comment'	=> 'If the ad code has built-in shut down the operating, disable the link to close the System Preferences',//'如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
+	'couplebanner_disableclose_comment'	=> 'If you want the Advertising can not be closed, you can disable to show the Close link',//'如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
 	'couplebanner_show'			=> 'Show',//'显示',
 	'couplebanner_hidden'			=> 'Hide',//'隐藏',
 );

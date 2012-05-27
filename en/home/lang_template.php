@@ -1542,15 +1542,3 @@ $lang = array (
 // Added by Valery Votintsev
 	'login_immediately'	=> 'Login Now',//'马上登录',
 );
-//Obsolete
-//	'aim_album'		=> 'Upload to album:',//'上传到:',
-//	'create_new_album'	=> 'Create a new album',//'创建新相册',
-//	'default_album'		=> 'Default Album',//'默认相册',
-//	'file_size'		=> 'File Size',//'文件大小',
-//	'filename'		=> 'File Name',//'文件名',
-//	'select_album'			=> 'Select album',//'选择相册',
-//'upload_attach'		=> '上传附件',
-//	'upload_pic'		=> 'Upload image',//'上传图片',
-//	'click_pic_to_editor'		=> 'Click the image to insert it into the content',//'点击图片可以插入到内容中',
-//'click_filename_to_article'	=> 'Click the file name for add attachment into the article',//'点击文件名将附件添加到文章中',
-

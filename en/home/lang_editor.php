@@ -78,7 +78,7 @@ $lang = array(
 	'editor_prompt_video_flash'	=> 'Flash Animation',//'Flash动画',
 	'editor_prompt_video_media'	=> 'Media Video',//'Media视频',
 	'editor_prompt_video_real'	=> 'Real Video',//'Real视频',
-	'editor_prompt_mp3'		=> 'Mp3 audio',//'mp3 音乐',
+	'editor_prompt_mp3'		=> 'MP3 audio',//'mp3 音乐',
 	'editor_full_screen'		=> 'Full Screen',
 );
 
