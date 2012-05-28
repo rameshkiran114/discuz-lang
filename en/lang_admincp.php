@@ -265,8 +265,8 @@ $lang = array
 	'xml_http_load_failed'		=> 'Communication failure. Please refresh for try again!',//'通信失败，请刷新重新尝试！',
 	'xml_http_data_in_processed'	=> 'Communication success and data being processed ...',//'通信成功，数据正在处理中...',
 
-	'admincp_maptext'		=> 'Navigation Management Center (ESC for exit)',//'管理中心导航(ESC键)',
-	'admincp_maptitle'		=> 'Navigation Management Center',//'管理中心导航',
+	'admincp_maptext'		=> 'Admin CP Navigation Map (ESC for exit)',//'管理中心导航(ESC键)',
+	'admincp_maptitle'		=> 'Admin CP Navigation Map',//'管理中心导航',
 
 	'nav_newwin'			=> 'Open in a new window',//'新窗口打开',
 	'nav_index'			=> 'Home',//'首页',
@@ -5478,7 +5478,7 @@ $lang = array
 
 	'fileperms_check_note'		=> 'Check main files and folders write permissions. Click the button below to start checking.',//'主要检查文件及文件夹的写入权限，点击下面按钮开始进行检查。',
 	'fileperms_check_waiting'	=> 'Check file permissions in progress, please wait ...',//'正在进行文件权限检查，请稍候......',
-	'fileperms_tips'		=> '<li>If after a checkin some file or directory will be marked as "Could not write" (in red list), please immediately use FTP or other tools to modify its properties (for example, set to 777), to ensure that the site functions work properly.</li>',//'<li>如果某个文件或目录被检查到“无法写入”（以红色列出），请即刻通过 FTP 或其他工具修改其属性（例如设置为 777），以确保站点功能的正常使用。</li>',
+	'fileperms_tips'		=> '<li>If after a checking some file or directory will be marked as "Could not write" (in red), please immediately use FTP or other tools to modify its properties (for example, set to 777), to ensure that the site functions work properly.</li>',//'<li>如果某个文件或目录被检查到“无法写入”（以红色列出），请即刻通过 FTP 或其他工具修改其属性（例如设置为 777），以确保站点功能的正常使用。</li>',
 	'fileperms_check_ok'		=> 'All files and directories permissions are correct.',//'文件及目录属性全部正确',
 	'fileperms_unwritable'		=> 'Could not write',//'无法写入',
 

@@ -114,7 +114,7 @@ it is required to verify your mailbox address in order to avoid junk or maliciou
 
 <a href="{url}" target="_blank">{url}</a>
 <br />
-(If the above link is not working, copyn the link URL and paste it into your browser address bar manually)</p>
+(If the above link is not working, copy the link URL and paste it into your browser address bar manually)</p>
 
 <p>Thank you for your visit, we are glad to see you at our site!</p>
 
@@ -136,7 +136,7 @@ You have received this message because you are just has been added as a member<b
 at our forum, which is our current Email address you have registered.<br />
 <br />
 ----------------------------------------------------------------------<br />
-Important!
+Important!<br />
 ----------------------------------------------------------------------<br />
 <br />
 If you are not interested in our Forum or do not intend to become a member, please ignore this message.<br />
@@ -146,7 +146,7 @@ Your Account Information<br />
 ----------------------------------------------------------------------<br />
 <br />
 Forum Name: {bbname}<br />
-Forum Address:{siteurl}<br />
+Forum URL: {siteurl}<br />
 <br />
 User Name: {newusername}<br />
 Password: {newpassword}<br />
@@ -281,8 +281,8 @@ Sincerely yours,<br />
 {bbname} management team.<br />
 {siteurl}',
 
-	'adv_expiration_subject' =>	'Your site ad will be {day} days after the due, Please timely processing',//'您站点的广告将于 {day} 天后到期，请及时处理',
-	'adv_expiration_message' =>	'The following ads on your site will be expired {day} days, please deal with:<br /><br />{advs}',//'您站点的以下广告将于 {day} 天后到期，请及时处理：<br /><br />{advs}',
+	'adv_expiration_subject' => 'Your site ad will be {day} days after the due, Please timely processing',//'您站点的广告将于 {day} 天后到期，请及时处理',
+	'adv_expiration_message' => 'The following ads on your site will be expired {day} days, please deal with:<br /><br />{advs}',//'您站点的以下广告将于 {day} 天后到期，请及时处理：<br /><br />{advs}',
 	'invite_payment_email_message'	=> '
 Thank you for using the {bbname}, ({siteurl}), Your order {orderid} has been paid completed, Order has been validated.<br />
 <br />----------------------------------------------------------------------<br />
