@@ -4,8 +4,13 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_spacecp.php  by Khalid Nahhal, http://www.ar-discuz.com
+ *      $Id: lang_spacecp.php by Valery Votintsev at sources.ru
+ *      Translated to Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
+
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
 
 $lang = array(
 
@@ -40,6 +45,7 @@ $lang = array(
 	'message_can_not_send_13'	=> 'هذه ليست رسالة مجموعة',
 	'message_can_not_send_14'	=> 'هذه ليست رسالة خاصة',
 	'message_can_not_send_15'	=> 'البيانات خاطئة',
+	'message_can_not_send_16'	=> 'You have exceeded the maximum number of PM within 24 hours',//'您超出了24小时内发短消息数量的上限',
 	'message_can_not_send_onlyfriend'	=> 'عذراً , هذا العضو فقط يقبل الأصدقاء الذين قاموا بإرسال رسالة قصيرة له',
 
 
@@ -64,7 +70,7 @@ $lang = array(
 	'event_comment_reply'	=> '\\1 رد على تعليق لك في فعالية',//'\\1 回复了你的活动评论',
 
 	'mail_my'	=> 'تذكير التفاعل مع اصدقائي',
-  	'mail_system'	=> 'إشعارات النظام',
+	'mail_system'	=> 'إشعارات النظام',
 
 	'invite_subject'	=> '{username} دعاك للإنضمام إلى  {sitename}, وان تصبحوا أصدقاء',//'{username}邀请您加入{sitename}，并成为好友',
 	'invite_massage'	=> '<table border="0">
@@ -204,7 +210,7 @@ $lang = array(
 	'do_stat_eventcomment'	=> 'تعليقات فعالية',//'活动评论',
 	'do_stat_eventjoin'	=> 'إنضمامات لفعالية',//'参加活动',
 	'do_stat_sharecomment'	=> 'التعليقات المنشورة',//'分享评论',
-	'do_stat_post'		=> 'الردود',//'主题回帖',
+//	'do_stat_post'		=> 'الردود',//'主题回帖',
 	'do_stat_click'		=> 'المثبت',//'表态',
 	'do_stat_wall'		=> 'الحائط',//'留言',
 	'do_stat_poke'		=> 'التحيات',//'打招呼',
@@ -236,45 +242,51 @@ $lang = array(
 	'logs_credit_update_RCA'	=> 'ردود الفوز',
 	'logs_credit_update_RCB'	=> 'نقاط مكافأة عائدة من ردود',
 	'logs_credit_update_CDC'	=> 'إعادة شحن شيفرة البطاقة/الكوبون',
-
 	'logs_credit_update_RGC'	=> 'Recycled red envelopes',
 	'logs_credit_update_BGC'	=> 'Planted red envelope',
 	'logs_credit_update_AGC'	=> 'الحصول على الحزم الحمراء',
 	'logs_credit_update_RKC'	=> 'PPC',
+	'logs_credit_update_BME'	=> 'Buy Medal',//'购买勋章',
+	'logs_credit_update_RPR'	=> 'Background points rewards and punishments',//'后台积分奖惩',
+	'logs_credit_update_RPZ'	=> 'Background points rewards and punishments clean',//'后台积分奖惩清零',
+	'logs_credit_update_reward_clean'	=> 'Clean',//'清零',
 	'logs_select_operation'	=> 'الرجلاء قم بتحديد عملية',
-	'task_credit'	=> 'نقاط مكافأة مهمة',
+	'task_credit'		=> 'نقاط مكافأة مهمة',
 	'special_3_credit'	=> 'نقاط مكافأة الموضوع تم خصمها',
 	'special_3_best_answer'	=> 'نقاط مكافأة لأفضل إجابة',
-	'magic_credit'	=> 'دعائم عشوائية لكسب النقاط',
+	'magic_credit'		=> 'دعائم عشوائية لكسب النقاط',
 	'magic_space_gift'	=> 'Home planted a red envelope in their own space',
 	'magic_space_re_gift'	=> 'Recovery has not run out of the red envelope',
 	'magic_space_get_gift'	=> 'الوصول إلى الملف الشخصي لتلقي المغلف الأحمر',
 	'credit_transfer'	=> 'ادماج النقل',
 	'credit_transfer_tips'	=> 'إيرادات التحويلات',
 	'credit_exchange_tips_1'	=> 'تطبيق النقاط على عملية التحويل ',
-	'credit_exchange_to'	=> ' تحويلها إلى ',
+	'credit_exchange_to'		=> ' تحويلها إلى ',
 	'credit_exchange_center'	=> 'استرداد النقاط عن طريق UCenter',
-	'attach_sell'	=> 'بيع',
+	'attach_sell'		=> 'بيع',
 	'attach_sell_tips'	=> 'كسب نقاط المرفقات',
-	'attach_buy'	=> 'شراء',
+	'attach_buy'		=> 'شراء',
 	'attach_buy_tips'	=> 'نقاط نفقات المرفقات',
-	'grade_credit'	=> 'تم الحصول على احراز نقاط',
-	'grade_credit2'	=> 'تم خصم نقاط المشاركة التي تم احرازها',
-	'thread_credit'	=> 'نقاط وصول الموضوع',
+	'grade_credit'		=> 'تم الحصول على احراز نقاط',
+	'grade_credit2'		=> 'تم خصم نقاط المشاركة التي تم احرازها',
+	'thread_credit'		=> 'نقاط وصول الموضوع',
 	'thread_credit2'	=> 'نقاط نفقات الموضوع',
-	'buy_credit'	=> 'إعادة شحن النقاط',
-	'buy_usergroup'	=> 'انفاق النقاط لشراء مجموعة أعضاء موسعة',
-	'report_credit'	=> 'Function of the incentive to report',
-	'join'	=> 'إشتراك',
+	'buy_credit'		=> 'إعادة شحن النقاط',
+	'buy_usergroup'		=> 'انفاق النقاط لشراء مجموعة أعضاء موسعة',
+	'buy_medal'			=> 'Buy Medal',//'购买勋章',
+	'report_credit'		=> 'Function of the incentive to report',
+	'join'			=> 'إشتراك',
 	'activity_credit'	=> 'الفعاليات، صافي نقاط',
-	'thread_send'	=> 'Net released',
-	'replycredit'	=> 'توزيع النقاط',
-	'add_credit'	=> 'نقاط مكافأت',
-	'recovery'	=> 'إعادة التدوير',
+	'thread_send'		=> 'Net released',
+	'replycredit'		=> 'توزيع النقاط',
+	'add_credit'		=> 'نقاط مكافأت',
+	'recovery'		=> 'إعادة التدوير',
 	'replycredit_post'	=> 'مكافأت الردود',
 	'replycredit_thread'	=> 'توزيع المشاركات',
-	'card_credit'	=> 'تم اغلاق خاصية إعادة شحن النقاط',
-	'ranklist_top'	=> 'Consumer points to participate in PPC',
+	'card_credit'		=> 'تم اغلاق خاصية إعادة شحن النقاط',
+	'ranklist_top'		=> 'Consumer points to participate in PPC',
+	'admincp_op_credit'		=> 'Credit rewards and punishments operations',//'后台积分奖惩操作',
+	'credit_update_reward_clean'	=> 'Clean',//'清零',
 
 	'profile_unchangeable'		=> 'هذه المعلومات لا يمكنك تعديلها بعد التقديم',//'此项资料提交后不可修改',
 	'profile_is_verifying'		=> 'التحقق من هذه المعلومات',//'此项资料正在审核中',
@@ -285,20 +297,39 @@ $lang = array(
 	'profile_verify_modify_error'	=> 'تمت المصادقة على  {verify} . لا يمكنك التعديل.',//'{verify}已经认证通过不允许修改',
 	'profile_verify_verifying'	=> '{verify} تم التحقق, لا تسطيع التعديل',
 
-//'district_level_0'		=> '- Country -',//'-国家-',
 	'district_level_1'		=> '- الدولة -',//'-省份-',
 	'district_level_2'		=> '- الاقليم -',//'-城市-',
 	'district_level_3'		=> '- المدينة -',//'-州县-',
 	'district_level_4'		=> '- القرية -',//'-乡镇-',
-	'invite_you_to_visit'	=> '{user} قام بدعوتك لزيارة {bbname}',
+	'invite_you_to_visit'		=> '{user} قام بدعوتك لزيارة {bbname}',
+//vot	'district_level_0'		=> '- Country -',//'-国家-',
+	'portal'		=> 'Portal',//'门户',
+	'group'			=> 'Groups',//'群组',
+	'follow'		=> 'Follow',//'广播',
+	'collection'		=> 'Collection',//'淘帖',
+	'guide'			=> 'Guide',//'导读',
+	'feed'			=> 'Feeds',//'动态',
+	'blog'			=> 'Blogs',//'日志',
+	'doing'			=> 'Doings',//'记录',
+	'wall'			=> 'Wall',//'留言板',
+	'homepage'		=> 'Personal Space',//'个人主页',
+	'ranklist'		=> 'RankList',//'排行榜',
+	'select_the_navigation_position'	=> 'Select {type} navigation position',//'选择{type}导航位置',
+	'close_module'		=> 'Close the {type} module',//'关闭{type}功能',
+
+	'follow_add_remark'		=> 'Add remark',//'添加备注',
+	'follow_modify_remark'		=> 'Edit remark',//'修改备注',
+	'follow_specified_group'	=> 'Follow specified group',//'广播专区',
+	'follow_specified_forum'	=> 'Follow specified forum',//'广播专版',
+
+	'filesize_lessthan'		=> 'File size should be less than ',//'文件大小应该小于',
 
 	'spacecp_message_prompt'	=> '(يدعم كود  {msg} , الحد الاقصى 1000 حرف)',//'(支持 {msg} 代码,最大 1000 字)',
 	'card_update_doing'	=> ' <a class="xi2" href="###">[تحديث الأفعال]</a>',
-	'email_acitve_message'	=> '<img src="{imgdir}/mail_inactive.png" alt="لم يتم التحقق" class="vm" /> <span class="xi1">البريد الإلكتروني الجديد({newemail})في انتظار التحقق...</span><br />
-								قام النظام بإرسال رسالة إلكترونية إلى البريد الإلكتروني المراد التحقق منه، يرجى مراجعة البريد الإلكتروني ، للتحقق من التنشيط.<br>
-								إذا كنت لا تتلقى البريد الإلكتروني المراد، يمكنك إستبدال عنوان بريد ، أو<a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">تلقي البريد الإلكتروني المراد مرة أخرى</a>',
-
+	'email_acitve_message'	=> '<img src="{imgdir}/mail_inactive.png" alt="لم يتم التحقق" class="vm" />
+					<span class="xi1">البريد الإلكتروني الجديد({newemail})في انتظار التحقق...</span><br />
+					قام النظام بإرسال رسالة إلكترونية إلى البريد الإلكتروني المراد التحقق منه، يرجى مراجعة البريد الإلكتروني ، للتحقق من التنشيط.<br>
+					إذا كنت لا تتلقى البريد الإلكتروني المراد، يمكنك إستبدال عنوان بريد ، أو<a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">تلقي البريد الإلكتروني المراد مرة أخرى</a>',
 
 );
 
-?>
