@@ -260,8 +260,8 @@ $lang = array
 	'xml_http_load_failed'		=> 'Kommunikationsfehler. Bitte versuche es noch einmal.',
 	'xml_http_data_in_processed'	=> 'Kommunikation erfolgreich. Die Daten werden verarbeitet...',
 	
-	'admincp_maptext'	=> 'Navigation Management Center (ESC)',
-	'admincp_maptitle'	=> 'Navigation Management Center',
+	'admincp_maptext'	=> 'Admin CP Navigation Map (ESC for exit)',
+	'admincp_maptitle'	=> 'Admin CP Navigation Map',
   
 	'nav_newwin'		=> 'Neues Fenster',
 	'nav_index'		=> 'Home',

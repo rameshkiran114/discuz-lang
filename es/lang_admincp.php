@@ -259,8 +259,8 @@ $lang = array
 	'xml_http_load_failed'		=> 'Communication failure. Please refresh for try again!',//'通信失败，请刷新重新尝试！',
 	'xml_http_data_in_processed'	=> 'Communication success and data being processed ...',//'通信成功，数据正在处理中...',
 
-	'admincp_maptext'		=> 'Navigation Management Center (ESC for exit)',//'管理中心导航(ESC键)',
-	'admincp_maptitle'		=> 'Navigation Management Center',//'管理中心导航',
+	'admincp_maptext'		=> 'Admin CP Navigation Map (ESC for exit)',//'管理中心导航(ESC键)',
+	'admincp_maptitle'		=> 'Admin CP Navigation Map',//'管理中心导航',
 
 	'nav_newwin'			=> 'Open in a new window',//'新窗口打开',
 	'nav_index'			=> 'Home',//'首页',

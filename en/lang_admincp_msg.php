@@ -171,7 +171,7 @@ $lang = array (
 	'card_make_rate_succeed'	=> 'Card generation is completed! Click here to generate random card numbers with the same rules! Total generated: {succeed_num} sheets, Failed: {fail_num} sheets',//'卡片生成完毕！按此生成规则随机的卡片号码重复过多！共生成了{succeed_num}张, 失败了{fail_num}张',
 	'card_make_succeed'		=> 'Card generation is completed! Total generated: {succeed_num} sheets, Failed: {fail_num} sheets',//'卡片生成完毕！共生成了{succeed_num}张, 失败了{fail_num}张',
 
-	'hookcheck_nodelhook'		=> 'There is no lost Hook files',//'没有丢失嵌入点的文件',
+	'hookcheck_nodelhook'		=> 'There is NO lost Hook files',//'没有丢失嵌入点的文件',
 	'imagepreview_errorcode_0'	=> 'Image does not meet the treatment conditions, no treatment',//'图片不符合处理条件，无需处理',
 	'imagepreview_errorcode_-1'	=> 'Invalid image, can not handle',//'无效的图片，无法处理',
 	'imagepreview_errorcode_-2'	=> 'No permissions to read and write file, can not handle the image',//'文件读写权限不足，无法处理图片',
