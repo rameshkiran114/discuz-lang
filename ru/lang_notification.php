@@ -63,7 +63,7 @@ $lang = array
 	'group_member_invite'		=> '{actor} пригласил Вас присоединиться к сообществу <a href="forum.php?mod=group&fid={fid}" target="_blank">{groupname}</a>. <a href="{url}" target="_blank">Присоединиться</a>',
 	'group_member_check'		=> 'Ваша заявка на вступление в сообщество <a href="{url}" target="_blank">{groupname}</a> одобрена. <a href="{url}" target="_blank">Посетить</a>',
 	'group_member_check_failed'	=> 'Ваша заявка на вступление в сообщество <a href="{url}" target="_blank">{groupname}</a> отклонена',
-	'group_mod_check' => '您的创建的群组 <a href="{url}" target="_blank">{groupname}</a> 审核通过了，请 <a href="{url}" target="_blank">点击这里访问</a>',
+	'group_mod_check'		=> 'The group you have created "<a href="{url}" target="_blank">{groupname}</a>" was approved, please <a href="{url}" target="_blank">Click here to visit</a>',//'您的创建的群组 <a href="{url}" target="_blank">{groupname}</a> 审核通过了，请 <a href="{url}" target="_blank">点击这里访问</a>',
 
 	'reason_moderate'	=> 'Ваша тема <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> была {modaction}. Модератор: {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -75,13 +75,13 @@ $lang = array
 
 	'reason_ban_post'	=> 'Ваше пост <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> был заблокирован. Модератор: {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
+//	'reason_warn_post' => '您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction}<br />
+//连续 {warningexpiration} 天内累计 {warninglimit} 次警告，您将被自动禁止发言 {warningexpiration} 天。<br />
+//截止至目前，您已被警告 {authorwarnings} 次，请注意！<div class="quote"><blockquote>{reason}</blockquote></div>',
 	'reason_warn_post'	=> 'Ваш пост в <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> был {modaction}! Модератор: {actor}.<br />
 				При получении {warninglimit} предупреждений, в течение {warningexpiration} дней, Вам будет автоматически запрещено отправлять сообщения в течение {warningexpiration} дней.<br />
 				Количество Ваших предупреждений: {authorwarnings}.
 				<div class="quote"><blockquote>{reason}</blockquote></div>',
-//	'reason_warn_post' => '您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction}<br />
-//连续 {warningexpiration} 天内累计 {warninglimit} 次警告，您将被自动禁止发言 {warningexpiration} 天。<br />
-//截止至目前，您已被警告 {authorwarnings} 次，请注意！<div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'reason_move'			=> 'Тема <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> была перемещена в <a href="forum.php?mod=forumdisplay&fid={tofid}" target="_blank">{toname}</a>. Модератор: {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -101,30 +101,30 @@ $lang = array
 
 	'reason_stickdeletereply'	=> 'Ваш ответ в теме <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> был откреплён. Модератор: {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_quickclear' => '您的{cleartype} 被 {actor} 清除 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_quickclear'	=> 'Your {cleartype} was removed by {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的{cleartype} 被 {actor} 清除 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modthreads_delete'		=> 'Ваша тема {threadsubject} не прошла модерацию и была удалена! <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modthreads_delete'	=> 'Ваша тема {threadsubject} не прошла модерацию и была удалена! <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modthreads_validate'		=> 'Ваша тема <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> проверена и опубликована! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Открыть &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modthreads_validate'	=> 'Ваша тема <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> проверена и опубликована! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Открыть &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modreplies_delete'		=> 'Ответ не прошел модерацию и был удален! <p class="summary">Текст: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modreplies_delete'	=> 'Ответ не прошел модерацию и был удален! <p class="summary">Текст: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modreplies_validate'		=> 'Ваш ответ был проверен и опубликован! &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">Открыть &rsaquo;</a> <p class="summary">Текст: <span>{post}</span></p><div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modreplies_validate'	=> 'Ваш ответ был проверен и опубликован! &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">Открыть &rsaquo;</a> <p class="summary">Текст: <span>{post}</span></p><div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'transfer'			=> 'Вы получили {credit} баллов от {actor}. &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">Открыть &rsaquo;</a>
+	'transfer'		=> 'Вы получили {credit} баллов от {actor}. &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">Открыть &rsaquo;</a>
 <p class="summary">{actor} сообщил: <span>{transfermessage}</span></p>',
 
-	'addfunds'			=> 'Ваш запрос на пополнение успешно выполнен! Соответствующая сумма зачислена на Ваш счет.
-					&nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">Открыть &rsaquo;</a>
-					<p class="summary">Номер заказа: <span>{orderid}</span></p>
-					<p class="summary">Оплата: <span>{price} руб.</span></p>
-					<p class="summary">Зачислено баллов: <span>{value}</span></p>',
 //	'addfunds' => '您提交的积分充值请求已完成，相应数额的积分已存入您的积分账户 &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">查看 &rsaquo;</a>
 //<p class="summary">订单号：<span>{orderid}</span></p><p class="summary">支出：<span>人民币 {price} 元</span></p><p class="summary">收入：<span>{value}</span></p>',
+	'addfunds'		=> 'Ваш запрос на пополнение успешно выполнен! Соответствующая сумма зачислена на Ваш счет.
+				&nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">Открыть &rsaquo;</a>
+				<p class="summary">Номер заказа: <span>{orderid}</span></p>
+				<p class="summary">Оплата: <span>{price} руб.</span></p>
+				<p class="summary">Зачислено баллов: <span>{value}</span></p>',
 
 	'rate_reason'		=> '{actor} добавил Вам рейтинг: {ratescore} за Ваш пост <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a>. <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'recommend_note_post' => '恭喜，您的帖子 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被编辑采用',
+	'recommend_note_post'	=> 'Congratulations, Your post <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> was recommended',//'恭喜，您的帖子 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被编辑采用',
 
 	'rate_removereason'	=> '{actor} снял рейтинг {ratescore} за Ваш пост в теме <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a>. <div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -181,8 +181,8 @@ $lang = array
 	'grouplevel_update'	=> 'Поздравляем! Уровень Вашей группы {groupname} был повышен до: {newlevel}',
 
 	'thread_invite'		=> '{actor} приглашает Вас {invitename} <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>. &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Открыть &rsaquo;</a>',
-	'blog_invite' => '{actor} 邀请您查看日志 <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a> &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">查看 &rsaquo;</a>',
-	'article_invite' => '{actor} 邀请您查看文章 <a href="portal.php?mod=view&aid={aid}" target="_blank">{subject}</a> &nbsp; <a href="portal.php?mod=view&aid={aid}" target="_blank" class="lit">查看 &rsaquo;</a>',
+	'blog_invite'		=> '{actor} invited you to view the blog <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a>, &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">View &rsaquo;</a>',//'{actor} 邀请您查看日志 <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a> &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">查看 &rsaquo;</a>',
+	'article_invite'	=> '{actor} invited you to view the article <a href="portal.php?mod=view&aid={aid}" target="_blank">{subject}</a>, &nbsp; <a href="portal.php?mod=view&aid={aid}" target="_blank" class="lit">View &rsaquo;</a>',//'{actor} 邀请您查看文章 <a href="portal.php?mod=view&aid={aid}" target="_blank">{subject}</a> &nbsp; <a href="portal.php?mod=view&aid={aid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 	'invite_friend'		=> 'Поздравляем! Ваше приглашение завершено, и {actor} стал Вашим другом',
 
 	'poke_request'		=> 'Привет от <a href="{fromurl}" class="xi2">{fromusername}</a>: <span class="xw0">{pokemsg}</span>. &nbsp; <a href="home.php?mod=spacecp&ac=poke&op=reply&uid={fromuid}&from=notice" id="a_p_r_{fromuid}" class="xw1" onclick="showWindow(this.id, this.href, \'get\', 0);">Отправить привет</a><span class="pipe">|</span><a href="home.php?mod=spacecp&ac=poke&op=ignore&uid={fromuid}&from=notice" id="a_p_i_{fromuid}" onclick="showWindow(\'pokeignore\', this.href, \'get\', 0);">Игнорировать</a>',
@@ -191,10 +191,10 @@ $lang = array
 	'profile_verify_pass'		=> 'Поздравляем! Ваши данные: {verify} успешно прошли модерацию.',
 	'profile_verify_pass_refusal'	=> 'Извините, но Ваши данные: {verify} были отклонены.',
 	'member_ban_speak'		=> '{user}, Вы переведены в режим Read-Only и не можете отправлять сообщения в течение {day} дн. ("0" означает пожизненный R/O). Причина: {reason}',
-	'member_ban_visit' => '您已被 {user} 禁止访问，期限：{day}天(0：代表永久禁止访问)，禁止访问理由：{reason}',
-	'member_ban_status' => '您已被 {user} 锁定，禁止访问理由：{reason}',
-	'member_follow' => '您关注的人已有{count}条新动态。<a href="home.php?mod=follow">点击查看</a>',
-	'member_follow_add' => '{actor} 收听了您。<a href="home.php?mod=follow&do=follower">点击查看</a>',
+	'member_ban_visit'		=> 'You have been banned by {user} for the period of {day} days (0 means the permanent ban). Ban reason: {reason}',//'您已被 {user} 禁止访问，期限：{day}天(0：代表永久禁止访问)，禁止访问理由：{reason}',
+	'member_ban_status'		=> 'You have been banned by {user}, Ban reason: {reason}',//'您已被 {user} 锁定，禁止访问理由：{reason}',
+	'member_follow'			=> 'There are {count} new feeds from people you follow. <a href="home.php?mod=follow">Click to view</a>',//'您关注的人已有{count}条新动态。<a href="home.php?mod=follow">Click to view</a>',
+	'member_follow_add'		=> '{actor} have folloed to you. <a href="home.php?mod=follow&do=follower">Click to view</a>',//'{actor} 收听了你。<a href="home.php?mod=follow&do=follower">Click to view</a>',
 
 	'member_moderate_invalidate'	=> 'Ваша учетная запись была отклонена администратором. <a href="home.php?mod=spacecp&ac=profile" target="_blank">Заполните заново Ваши данные для регистрации</a><br />Сообщение администратора: <b>{remark}</b>',
 	'member_moderate_validate'	=> 'Поздравляем! Ваша учетная запись была одобрена.<br />Сообщение администратора: <b>{remark}</b>',
@@ -218,25 +218,21 @@ $lang = array
 	'system_notice'			=> '{subject}<p class="summary">{message}</p>',
 	'system_adv_expiration'		=> 'Срок действия следующих рекламных объявлений истекает через {day} дн.<br />{advs}',
 	'report_change_credits'		=> '{actor} проверил Вашу жалобу, Вам добавлено баллов {creditchange}',
-	'at_message' => '<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> 在主题 <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> 中提到了您<div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">现在去看看</a>。',
+	'at_message'			=> '<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> in the thread <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> mentioned of your name <div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">View now</a>.',//'<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> 在主题 <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> 中提到了你<div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">现在去看看</a>。',
 	'new_report'			=> 'Ождают новые жалобы, <a href="admin.php?action=report" target="_blank">Посмотреть</a>?',
 	'new_post_report'		=> 'Ожидание новые жалобы на посты, <a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">Посмотреть</a>',
 	'magics_receive'		=> '{actor} подарил Вам артефакт {magicname}
 					<p class="summary">Сообщение: <span>{msg}</span></p>
 					<p class="mbn"><a href="home.php?mod=magic" target="_blank">Вернуть подарок</a>
 					<span class="pipe">|</span><a href="home.php?mod=magic&action=mybox" target="_blank">Мои артефакты</a></p>',
-//	'magics_receive' => '您收到 {actor} 送给您的道具 {magicname}
-//<p class="summary">{actor} 说：<span>{msg}</span></p>
-//<p class="mbn"><a href="home.php?mod=magic" target="_blank">回赠道具</a>
-//<span class="pipe">|</span><a href="home.php?mod=magic&action=mybox" target="_blank">查看我的道具箱</a></p>',
-	'invite_collection' => '{actor} 邀请您参与维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。<br /> <a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">接受邀请</a>',
-	'collection_removed' => '您参与维护的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 已被 {actor} 关闭。',
-	'exit_collection' => '您已经退出维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。',
-	'collection_becommented' => '您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收到了新评论。',
-	'collection_befollowed' => '您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 有新用户订阅了！',
-	'collection_becollected' => '恭喜您的主题 <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> 被淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收录了！',
+	'invite_collection'		=> '{actor} invite you to join the collecton <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team.<br /><a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">Accept the invitation</a>',//'{actor} 邀请您参与维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。<br /> <a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">接受邀请</a>',
+	'collection_removed'		=> 'Your participation in the collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team was canceled by {actor}.',//'您参与维护的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 已被 {actor} 关闭。',
+	'exit_collection'		=> 'You have successfully exited from the collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team',//'您已经退出维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。',
+	'collection_becommented'	=> 'Your collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> received new comment.',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收到了新评论。',
+	'collection_befollowed'		=> 'Your collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> new user subscribed!',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 有新用户订阅了！',
+	'collection_becollected'	=> 'Congratulations, your thread <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> was added to collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> !',//'恭喜您的主题 <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> 被淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收录了！',
 
-	'pmreportcontent' => '{pmreportcontent}',
+	'pmreportcontent'		=> '{pmreportcontent}',
 
 );
 

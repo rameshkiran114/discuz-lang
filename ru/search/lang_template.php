@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -64,14 +64,14 @@ $lang = array (
 	'search_group_result_keyword'	=> 'Найдено сообществ: <em>$groupnum</em>, записей: $index[num]</em>',
 	'search_group_viewgroup'	=> 'Просмотр сообщества',
 	'threads'			=> 'Темы',
-  'subscribe' => '订阅',
-  'comment' => '评论',
-  'lastupdate' => '最后更新',
+	'subscribe'		=> 'Подписка',//'订阅',
+	'comment'		=> 'Комментировать',//'评论',
+	'lastupdate'		=> 'Обновление',//'最后更新',
 	'return_homepage'	=> 'Назад на главную',
 	'visit_my_space'	=> 'На мою страницу',
 	'album'			=> 'Альбомы',
 	'blog'			=> 'Блоги',
-  'collection' => '淘帖',
+	'collection'		=> 'Коллекции',//'淘帖',
 	'portal'		=> 'Статьи',
 	'quick'			=> 'Быстрый',
 	'search_adv'		=> 'Расширенный',

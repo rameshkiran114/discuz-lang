@@ -15,10 +15,10 @@ $lang = array
 (
 	'nextpage'		=> 'След.',
 	'prevpage'		=> 'Пред.',
-	'pageunit' => '页',
-	'total' => '共',
-	'10k' => '万',
-	'pagejumptip' => '输入页码，按回车快速跳转',
+	'pageunit'		=> 'Pages',//'页',
+	'total'			=> 'Total',//'共',
+	'10k'			=> '10K',//'万',
+	'pagejumptip'		=> 'Enter the page number and press Enter for quick jump',//'输入页码，按回车快速跳转',
 	'date'	=> array(
 		'before'	=> ' назад ',
 		'day'		=> 'дн.',
@@ -208,11 +208,11 @@ $lang = array
 	'title_userapp_index_me'	=> 'Мои приложения',
 	'title_userapp_manage'		=> 'Управление приложением {userapp}',
 
-	'title_collection' => '淘帖',
-	'title_collection_create' => '创建淘专辑',
-	'title_collection_edit' => '编辑淘专辑',
-	'title_collection_comment_list' => '评论列表',
-	'title_collection_followers_list' => '订阅用户列表',
+	'title_collection'		=> 'Collection',//'淘帖',
+	'title_collection_create'	=> 'Create collection',//'创建淘专辑',
+	'title_collection_edit'		=> 'Edit collection',//'编辑淘专辑',
+	'title_collection_comment_list'	=> 'Comment list',//'评论列表',
+	'title_collection_followers_list'	=> 'Followers',//'订阅用户列表',
 
 	'faq'				=> 'Вопросы и ответы',
 	'search'			=> 'Поиск',
@@ -228,7 +228,7 @@ $lang = array
 	'attackevasive_1_message'	=> 'Вы обращаетесь к сайту слишком часто, менее чем через 2 сек.! Пожалуйста, делайте паузы чуть побольше...',
 	'attackevasive_2_subject'	=> 'Доступ к сайту черех проки-сервера запрещён',
 	'attackevasive_2_message'	=> 'В настоящее время доступ к сайту черех проки-сервера запрещён. Пожалуйста, удалите прокси-сервер из Ваших сетевых настроек, и заходите на сайт напрямую.',
-	'attackevasive_4_subject'	=> 'Open the page reload',
+	'attackevasive_4_subject'	=> 'Open the page reload',//'打开页面重载',
 	'attackevasive_4_message'	=> 'Добро пожаловать на сайт! Сейчас Вы будете перенаправлены на соответствующую страницу...',
 
 // Months Names

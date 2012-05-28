@@ -292,7 +292,7 @@ $lang = array
 	'report_noreward'	=> 'Нет наград',
 	'activity_viewimg'	=> 'Посмотреть',//'点击查看',
 
-	'crime_postreason'	=> '{reason} &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="xi2">Details</a>',//'{reason} &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="xi2">查看详情</a>',
+	'crime_postreason'	=> '{reason} &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="xi2">Подробности</a>',//'{reason} &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="xi2">查看详情</a>',
 	'crime_reason'		=> '{reason}',
 
 	'connectguest_message_search'	=> array('Not logged in', 'Logged'),//array('尚未登录', '先登录'),
@@ -300,9 +300,9 @@ $lang = array
 	'connectguest_message_mobile_search'	=> array('Not logged in', 'Logged'),//array('尚未登录', '先登录'),
 	'connectguest_message_mobile_replace'	=> 'Provide your account information or Bind existing account, ',//'在电脑版完善资料或绑定已有帐号，',
 
-	'avatar'		=> 'Avatar',//'头像',
-	'signature'		=> 'Signature',//'签名',
-	'custom_title'		=> 'Custom Title',//'自定义头衔',
+	'avatar'		=> 'Аватар',//'头像',
+	'signature'		=> 'Подпись',//'签名',
+	'custom_title'		=> 'Произвольный титул',//'自定义头衔',
 
 	'forum_guide'		=> 'Guide',//'导读',
 
@@ -313,15 +313,15 @@ $lang = array
 	'patch_unfix_status'	=> 'Not fixed',//'未修复',
 	'patch_fix_failed_status'	=> 'Repair failed',//'修复失败',
 	'patch_fix_right_now'	=> 'Repair right now',//'立即修复',
-	'patch_view_fix_detail'	=> 'Details',//'查看详情',
+	'patch_view_fix_detail'	=> 'Подробности',//'查看详情',
 	'patch_name'		=> 'Vulnerability',//'漏洞名称',
-	'patch_dateline'	=> 'Date',//'发布日期',
-	'patch_status'		=> 'Status',//'当前状态',
+	'patch_dateline'	=> 'Дата',//'发布日期',
+	'patch_status'		=> 'Статус',//'当前状态',
 	'patch_close'		=> 'Close',//'关闭',
 
-	'plugin_title'		=> 'Application update reminder',//'应用更新提醒',
-	'plugin_memo'		=> 'Updates available: <span class="xi1">{number}</span>',//'您有 <span class="xi1">{number}</span> 款应用有可用更新',
-	'plugin_link'		=> 'Update Now',//'现在更新',
+	'plugin_title'		=> 'Наличие обновлений',//'应用更新提醒',
+	'plugin_memo'		=> 'Доступно апдейтов: <span class="xi1">{number}</span>',//'您有 <span class="xi1">{number}</span> 款应用有可用更新',
+	'plugin_link'		=> 'Обновить сейчас',//'现在更新',
 
 );
 

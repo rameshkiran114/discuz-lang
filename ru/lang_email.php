@@ -94,34 +94,36 @@ $lang = array
 команда сайта {bbname}.
 {siteurl}</p>',
 
-	'email_register_subject' =>	'论坛注册地址',
-	'email_register_message' =>	'<br />
-<p>这封信是由 {bbname} 发送的。</p>
+	'email_register_subject' =>	'Forum registration',//'论坛注册地址',
+'email_register_message' =>	'<br />
+<p>This letter is sent from {bbname}.</p>
 
-<p>您收到这封邮件，是由于在 {bbname} 获取了新用户注册地址使用
-了这个邮箱地址。如果您并没有访问过 {bbname}，或没有进行上述操作，请忽
-略这封邮件。您不需要退订或进行其他进一步的操作。</p>
+<p>You have received this message due to somebody (may be you) registered this E-Mail address at {bbname}.
+If you do not want to access to {bbname}, or you did not registered at this site,
+please ignore this message.
+
+You do not need to unsubscribe or do any other further action.</p>
 <br />
 ----------------------------------------------------------------------<br />
-<strong>新用户注册说明</strong><br />
+<strong>New user registration instructions</strong><br />
 ----------------------------------------------------------------------<br />
 <br />
-<p>如果您是 {bbname} 的新用户，或在修改您的注册 Email 时使用了本地址，我们需
-要对您的地址有效性进行验证以避免垃圾邮件或地址被滥用。</p>
+<p>If you are a {bbname} new user, or have modified your registered before Email address,
+it is required to verify your mailbox address in order to avoid junk or malicious e-mail.</p>
 
-<p>您只需点击下面的链接即可进行用户注册，以下链接有效期为3天。过期可以重新请求发送一封新的邮件验证：<br />
+<p>For register just click on the link below. The following link is valid for 3 days. After expired you can request to re-send the activation email to a new e-mail address:<br />
 
 <a href="{url}" target="_blank">{url}</a>
 <br />
-(如果上面不是链接形式，请将该地址手工粘贴到浏览器地址栏再访问)</p>
+(If the above link is not working, copy the link URL and paste it into your browser address bar manually)</p>
 
-<p>感谢您的访问，祝您使用愉快！</p>
+<p>Thank you for your visit, we are glad to see you at our site!</p>
 
 
 <p>
-此致<br />
+Sincerely yours,<br />
 
-{bbname} 管理团队.<br />
+{bbname} management team.<br />
 {siteurl}</p>',
 
 
@@ -180,6 +182,7 @@ P.S.<br />
 то, просим Вас проверить и уточнить дату рождения в Вашем профиле.<br />
 Данное сообщение не будет отправлено повторно, и Вы можете его проигнорировать.<br />
 <br />
+<br />
 С уважением,<br />
 команда сайта {bbname}.<br />
 {siteurl}',
@@ -207,7 +210,7 @@ $message<br />
 
 <br />
 Добро пожаловать на наш сайт {$_G[setting][bbname]}<br />
-$_G[siteurl]!',
+$_G[siteurl]',
 
 	'email_to_invite_subject'	=> 'Приглашение на сайт {$_G[setting][bbname]} от пользователя {$_G[member][username]}',
 	'email_to_invite_message'	=> '<br />
@@ -234,7 +237,7 @@ $message<br />
 Наша команда не отвечает за такие сообщения. Однако мы готовы принять необходимые меры, если Вы считаете это письмо спамом.<br />
 <br />
 Добро пожаловать на наш сайт {$_G[setting][bbname]}<br />
-$_G[siteurl]!',
+$_G[siteurl]',
 
 
 	'moderate_member_subject'	=> 'Сообщение о проверке пользователя',
@@ -285,8 +288,8 @@ $_G[siteurl]!',
 команда сайта {bbname}.<br />
 {siteurl}',
 
-	'adv_expiration_subject'	=> 'Срок размещения рекламы истекает через {day} дн.!',
-	'adv_expiration_message'	=> 'Период размещения Ваших рекламных объявлений заканчивается через {day} дн.<br /><br />{advs}',
+	'adv_expiration_subject' => 'Срок размещения рекламы истекает через {day} дн.!',
+	'adv_expiration_message' => 'Период размещения Ваших рекламных объявлений заканчивается через {day} дн.<br /><br />{advs}',
 	'invite_payment_email_message'	=> '
 Спасибо за посещение сайта {bbname} ({siteurl})!<br />
 Ваш заказ {orderid} на код приглашения оплачен, заказ проверен и одобрен.<br />
