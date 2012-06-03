@@ -308,9 +308,9 @@ $lang = array
 
 	'patch_site_have'	=> 'Your site have',//'您的网站有',
 	'patch_is_fixed'	=> 'Security vulnerabilities, has been fixed',//'个安全漏洞，已修复',
-	'patch_need_fix'	=> 'Security vulnerabilities, please fix as soon as possible',//'个安全漏洞，请尽快修复',
-	'patch_fixed_status'	=> 'Has been fixed',//'已修复',
-	'patch_unfix_status'	=> 'Not fixed',//'未修复',
+	'patch_need_fix'	=> 'Security vulnerabilities',//'个安全漏洞，请尽快修复',
+	'patch_fixed_status'	=> 'Fixed',//'已修复',
+	'patch_unfix_status'	=> 'NOT fixed',//'未修复',
 	'patch_fix_failed_status'	=> 'Repair failed',//'修复失败',
 	'patch_fix_right_now'	=> 'Repair right now',//'立即修复',
 	'patch_view_fix_detail'	=> 'Details',//'查看详情',

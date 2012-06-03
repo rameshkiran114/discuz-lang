@@ -60,7 +60,7 @@ $lang = array (
 	'time_now'			=> '{$_G[timenow][time]} GMT{$_G[timenow][offset]}',
 	'activation'			=> 'Activation',//'激活',
 	'admincp'			=> 'Admin Center',//'管理中心',
-//See at the bottom!!!	'changestyle'			=> 'Change Style',//'切换风格',
+/*vot*/	'changestyle'			=> '',//'Change Style:',//'切换风格',
 	'cloudcp'			=> 'CloudCP',//'云平台',
 	'default'			=> 'Default',//'默认',
 	'forum_manager'			=> 'Forum Moderator:',//'{$_G[setting][navs][2][navname]}管理',
@@ -432,7 +432,6 @@ $lang = array (
 //Change Language
 	'change_language'	=> '',//'Change language:',
 	'change_language_title'	=> 'Change language',
-	'changestyle'		=> '',//'Change Style:',//'切换风格',
 	'changestyle_title'	=> 'Change Style',//'切换风格',
 
 //vot:
@@ -446,5 +445,6 @@ $lang = array (
 	'e_map'		=> 'Map',//'地图',
 	'e_map_insert'	=> 'Insert Google Map',//'插入google地图',
 	'e_map_address'	=> 'Enter address for search: ',//'地址： ',
+
 );
 

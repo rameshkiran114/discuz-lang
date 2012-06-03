@@ -554,6 +554,7 @@ $lang = array (
 	'no_privilege_deluserapp'		=> 'Sorry, you do not have permission to operate this application',//'抱歉，您没有权限操作此应用',
 
 	'email_check_sucess'			=> 'Verify your email({email}) successfully',//'您的邮箱（{email}）验证激活完成了, 请返回',
+/*!*/	'email_check_account_invalid'		=> 'Sorry, the Founder or protected user can not use the mailbox verification. Modify the user information directly.',//'抱歉，受保护用户或创始人不能使用邮箱验证，直接修改用户信息。',
 	'email_check_error'			=> 'E-mail verification link you entered is incorrect. You can profile page, re-verification link to receive new mail.',//'您输入的邮箱验证链接不正确。您可以在个人资料页面，重新接收新的邮箱验证链接。',
 
 	'news_does_not_exist'			=> 'Specified information does not exist',//'指定的信息不存在',
