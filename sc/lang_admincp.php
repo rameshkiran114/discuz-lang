@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_admincp.php 30094 2012-05-10 06:22:44Z zhengqingpeng $
+ *      $Id: lang_admincp.php 30436 2012-05-29 03:35:07Z monkey $
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -3839,7 +3839,7 @@ $lang = array
 	'usergroups_edit_post_allow_down_remote_img_comment' => '远程图片本地化保存',
 	'usergroups_edit_post_allowreplycredit' => '允许设置回帖奖励',
 	'usergroups_edit_post_allowreplycredit_comment' => '允许用户在发布主题时给予回帖者一定的扩展积分奖励。回帖奖励默认积分可在<a href="?action=setting&operation=credits">全局 - 积分设置</a>指定',
-	'usergroups_edit_post_allowsetpublishdate' => '允许设置预发帖时间',
+	'usergroups_edit_post_allowsetpublishdate' => '允许设置定时发布',
 	'usergroups_edit_post_allowsetpublishdate_comment' => '允许用户在发布主题时设置指定的发帖时间。只能设置在每半小时（如 13:00 或 13:30）自动发布。',
 	'usergroups_edit_post_allowcommentcollection' => '允许评论淘专辑',
 	'usergroups_edit_post_allowcommentcollection_comment' => '允许用户在主题和淘专辑页面进行评论。',
@@ -5178,8 +5178,8 @@ $lang = array
 	'ec_alipay_contract_comment' => '如果您的支付宝账号是签约用户，可以选择“是”让论坛使用您自己的商家服务平台。如果您还未签约，<a href="http://act.life.alipay.com/systembiz/discuz/" target="_blank">请点击这里签约</a>',
 	'ec_alipay_securitycode' => '交易安全校验码 (key)',
 	'ec_alipay_securitycode_comment' => '支付宝签约用户可以在此处填写支付宝分配给您的交易安全校验码，此校验码您可以到支付宝官方的商家服务功能处查看',
-'ec_alipay_partner' => '合作者身份 (PID)',
-'ec_alipay_partner_comment' => '支付宝签约用户请在此处填写支付宝分配给您的合作者身份，签约用户的手续费按照您与支付宝官方的签约协议为准。<br/>如果您还未签约，<a href="http://act.life.alipay.com/systembiz/discuz/" target="_blank">请点击这里签约</a>；如果已签约,<a href="https://b.alipay.com/order/pidKey.htm?pid=2088501719138773&product=fastpay" target="_blank">请点击这里获取PID、Key</a>;如果在签约时出现合同模板冲突，请咨询0571-88158090',
+	'ec_alipay_partner' => '合作者身份 (PID)',
+	'ec_alipay_partner_comment' => '支付宝签约用户请在此处填写支付宝分配给您的合作者身份，签约用户的手续费按照您与支付宝官方的签约协议为准。<br/>如果您还未签约，<a href="http://act.life.alipay.com/systembiz/discuz/" target="_blank">请点击这里签约</a>；如果已签约,<a href="https://b.alipay.com/order/pidKey.htm?pid=2088501719138773&product=fastpay" target="_blank">请点击这里获取PID、Key</a>;如果在签约时出现合同模板冲突，请咨询0571-88158090',
 	'ec_alipay_creditdirectpay' => '使用纯即时到帐接口',
 	'ec_alipay_creditdirectpay_comment' => '如果您的签约协议中包含纯即时到帐接口（不是标准双接口）可以选择此项，让积分充值只能使用即时到账方式付款',
 

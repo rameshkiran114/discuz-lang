@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_message.php 30103 2012-05-10 08:13:44Z chenmengshu $
+ *      $Id: lang_message.php 30384 2012-05-25 04:48:52Z liulanbo $
  *
  *      This file is automatically generate
  */
@@ -554,6 +554,7 @@ $lang = array (
   'no_privilege_deluserapp' => '抱歉，您没有权限操作此应用',
 
   'email_check_sucess' => '您的邮箱({email})验证激活成功 ',
+  'email_check_account_invalid' => '抱歉，受保护用户或创始人不能使用邮箱验证，直接修改用户信息。',
   'email_check_error' => '抱歉，您输入的邮箱验证链接不正确。您可以在个人资料页面，重新接收新的邮箱验证链接',
 
   'news_does_not_exist' => '抱歉，您指定的信息不存在',
