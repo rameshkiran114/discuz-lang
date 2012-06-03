@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -729,11 +729,11 @@ $lang = array (
   array (
     'index' =>
     array (
-/*!*/      '发送手机通知' => 'action=members&operation=newsletter&do=mobile',
+/*!*/      'Mobile notification' => 'action=members&operation=newsletter&do=mobile',//'发送手机通知'
     ),
     'text' =>
     array (
-/*!*/      0 => '发送手机通知',
+/*!*/      0 => 'Mobile notification',//'发送手机通知',
     ),
   ),
   66 =>
@@ -1323,11 +1323,11 @@ $lang = array (
   array (
     'index' =>
     array (
-/*!*/      '应用中心' => 'action=cloudaddons',
+/*!*/      'Application Center' => 'action=cloudaddons',//'应用中心'
     ),
     'text' =>
     array (
-/*!*/      0 => '应用中心',
+/*!*/      0 => 'Application Center',//'应用中心',
     ),
   ),
   120 =>
@@ -2945,7 +2945,7 @@ $lang = array (
       15 => 'Select the User Group Manager (this user will have administrative privileges in the group and corresponding forum)',//'选择管理用户组(在群组中具有与论坛中相对应的管理权限)',
       16 => 'forums_edit_posts_allowfeed',
 /*!*/      17 => 'Enable broadcast & feeds',//'允许发送广播和动态',
-/*!*/      18 => ''If is turned on, this allows users to send broadcast and feeds by default. Broadcast whether to send the user can remove the posting. For Privacy Forum it recommended to set to No.',//'开启后默认允许用户发送广播和动态，广播是否发送用户可以在发帖时去掉，隐私版块建议设为否。',
+/*!*/      18 => 'If is turned on, this allows users to send broadcast and feeds by default. Broadcast whether to send the user can remove the posting. For Privacy Forum it recommended to set to No.',//'开启后默认允许用户发送广播和动态，广播是否发送用户可以在发帖时去掉，隐私版块建议设为否。',
     ),
   ),
   187 =>
@@ -3840,8 +3840,8 @@ $lang = array (
 /*!*/      2 => 'Broadcast archive time',//'广播存档时间',
 /*!*/      3 => 'Broadcastings older than this number of days will be moved to the archive table (unit: days)',//'广播超过多少天移入存档表(单位：天)',
       4 => 'setting_follow_base_default_view_profile',
-/*!*/      5 => '默认查看个人资料',
-/*!*/      6 => '该设置对管理员有效，开启后默认管理员查看将直接查看个人资料页面',
+/*!*/      5 => 'Default View Profile',//'默认查看个人资料',
+/*!*/      6 => 'This setting is effective for administrator, after enabling the administrator will view the user profile page by default',//'该设置对管理员有效，开启后默认管理员查看将直接查看个人资料页面',
       7 => 'setting_home_base_feedday',
       8 => 'Number of days to store personal dynamic feeds',//'动态保留天数',
       9 => 'How long to store personal dynamics (default is 7 days). After this number of days all personal dynamic will be cleaned, which can ensure the efficiency of MySQL. Not recommended to set too long.',//'(默认为 7)个人动态的保留天数。超过该天数的个人动态会被清理掉，从而可以保证MySQL的效率。建议不要设置太长',
@@ -3961,8 +3961,8 @@ $lang = array (
       33 => 'Registration name:',//'注册地址:',
       34 => 'Set the site up address mod, default is "Register", change the name of irrigation software helps prevent different from the Discuz! X versions prior to change this setting, do not modify any file name, only This modification can be',//'设置站点注册地址 mod 值，默认为“register”，修改名称有利于防止灌水软件，有别于 Discuz! X 之前的版本更改了此设置，不需要修改任何文件名称，只在此修改即可',
       35 => 'setting_access_register_send_register_url',
-/*!*/      36 => '通过邮件发送注册链接',
-/*!*/      37 => '开启后系统会发一条注册的地址到用户的邮箱，从该地址链接过来的允许注册，同时建议UCenter中开启一个邮箱只允许注册一个帐户注意：只有在站长 - 邮件设置中完成邮件设置，确保邮件能发送成功下可以开启该功能 ',
+/*!*/      36 => 'Send registration link via e-mail',//'通过邮件发送注册链接',
+/*!*/      37 => 'After enabling the system will send a registration URL to the user mailbox. Users came to this URL became registered. Also recommended to make the same settings in UCenter: Enable account registration only by mailbox. Pay attention to: UC server - Mail settings - Ensure that the E-mail sent is enabled.',//'开启后系统会发一条注册的地址到用户的邮箱，从该地址链接过来的允许注册，同时建议UCenter中开启一个邮箱只允许注册一个帐户注意：只有在站长 - 邮件设置中完成邮件设置，确保邮件能发送成功下可以开启该功能 ',
       38 => 'setting_access_register_link_name',
       39 => 'Register link text',//'注册链接文字',
       40 => 'Set the link text for the site registration page, the default is &quot;Register&quot;',//'设置站点注册页的链接文字，默认为“立即注册”',
@@ -3970,11 +3970,11 @@ $lang = array (
       42 => 'Disabled words in Profile',//'用户信息保留关键字',
       43 => 'The words that users can not use in their user information. One Line for each keyword, you can use a wildcard &quot;*&quot;, i.e. &quot;*moderator*&quot; (without quotation marks).',//'用户在其用户信息中无法使用这些关键字。每个关键字一行，可使用通配符 "*" 如 "*版主*"(不含引号)',
       44 => 'setting_access_register_pwlength',
-/*!*/      45 => '密码最小长度',
-/*!*/      46 => '新用户注册时密码最小长度，0或不填为不限制',
+/*!*/      45 => 'Minimal password length',//'密码最小长度',
+/*!*/      46 => 'Set the shortest password length enabled for new user registration, set to 0 for no limits',//'新用户注册时密码最小长度，0或不填为不限制',
       47 => 'setting_access_register_strongpw',
-/*!*/      48 => '强制密码复杂度',
-/*!*/      49 => '新用户注册时密码中必须存在所选字符类型，不选则为无限制',
+/*!*/      48 => 'Force password complexity',//'强制密码复杂度',
+/*!*/      49 => 'Users at regisration must use in the password selected character types. Ddo not choose for unrestricted password',//'新用户注册时密码中必须存在所选字符类型，不选则为无限制',
       50 => 'setting_access_register_verify',
       51 => 'New user registration validation',//'新用户注册验证',
 /*!*/      52 => 'Select &quot;No&quot; if users can directly register; select &quot;Email Verification&quot; for sending a verification email to confirm the Registration; select &quot;manual validation&quot; for administrator manually approve new user registration.',//'选择“无”用户可直接注册成功；选择“Email 验证”将向用户注册 Email 发送一封验证邮件以确认邮箱的有效性（开启“通过邮件发送注册链接”该设置自动通过验证）；选择“人工审核”将由管理员人工逐个确定是否允许新用户注册',
@@ -4058,11 +4058,11 @@ $lang = array (
       6 => 'Site default style',//'站点默认风格',
       7 => 'Default site interface style, visitors and members will use this style as default.',//'站点默认的界面风格，游客和使用默认风格的会员将以此风格显示',
       8 => 'setting_styles_global_home_style',
-/*!*/      9 => '家园展示风格',
-/*!*/      10 => '选择日志、相册、分享、记录、广播展示风格',
+/*!*/      9 => 'Space show style',//'家园展示风格',
+/*!*/      10 => 'Select the display style for bogs, photo albums, sharing, wall, feeds',//'选择日志、相册、分享、记录、广播展示风格',
       11 => 'setting_styles_global_homepage_style',
-/*!*/      12 => '个人主页默认皮肤',
-/*!*/      13 => '选择个人主页默认展示风格',
+/*!*/      12 => 'Personal home page default skin',//'个人主页默认皮肤',
+/*!*/      13 => 'Select the space default display style',//'选择个人主页默认展示风格',
       14 => 'setting_styles_global_navsubhover',
       15 => 'Display header secondary navigation',//'二级导航显示方式',
       16 => 'Set to display the page header of the second navigation. If set to show all the main navigation, secondary navigation, it will be when the mouse moves to the other when the main navigation display their text at the top of the secondary navigation ',//'设置二级导航的显示方式。如果设置为显示所有主导航的二级导航，那么会当鼠标移动到其他主导航文字上方的时候显示它们的二级导航',
@@ -4073,8 +4073,8 @@ $lang = array (
       21 => 'Allow users to switch width style',//'允许用户自由切换',
       22 => 'Set whether to allow users to freely switch width style',//'设置是否允许用户自由切换宽窄风格',
       23 => 'setting_styles_global_jsmenu',
-/*!*/      24 => '论坛显示版块跳转菜单',
-/*!*/      25 => '注意: 当论坛分版块很多时，本功能会严重加重服务器负担',
+/*!*/      24 => 'Show Forum Jump menu',//'论坛显示版块跳转菜单',
+/*!*/      25 => 'Note: If a forum have many sub-forums this function will seriously increase the server loading',//'注意: 当论坛分版块很多时，本功能会严重加重服务器负担',
       26 => 'setting_styles_global_allowfloatwin',
       27 => 'Enable the floating window',//'启用浮动窗口',
       28 => 'Set whar content be displayed in a floating window',//'设置以浮动方式显示的窗口',
@@ -4163,14 +4163,14 @@ $lang = array (
       12 => 'Left side forum navigation width',//'左侧版块导航宽度',
       13 => 'Set the width of the left forum navigation. Set to 0 for do not display the forum navigation on the sidebar',//'设置左侧版块导航的宽度，设置为 0 或者版块开启了边栏时不显示此导航',
       14 => 'setting_styles_forumdisplay_leftsideopen',
-/*!*/      15 => '左侧版块默认展开',
-/*!*/      16 => '设置左侧版块导航是否默认全部展开',
+/*!*/      15 => 'Expand the forum left sidebar by default',//'左侧版块默认展开',
+/*!*/      16 => 'Set the forum left sidebar navigation is expanded by default or not',//'设置左侧版块导航是否默认全部展开',
       17 => 'setting_styles_forumdisplay_globalstick',
       18 => 'Enable Global Stick',//'启用全局置顶',
       19 => 'Select &quot;Yes&quot;. Note of types: Stick-III - the thread will be displayed in all forums; Stick II - Thread will be displayed in a current forum only. Note: This feature will increase the server loading.',//'选择“是”，置顶 III 的主题将在全部论坛显示，置顶 II 的主题将在当前分区中显示。注意: 本功能会加重服务器负担',
       20 => 'setting_styles_forumdisplay_targetblank',
-/*!*/      21 => '“新窗”是否默认勾选',
-/*!*/      22 => '选择“是”则默认情况下主题列表页主题链接在新窗口打开，默认为“否”',
+/*!*/      21 => '"New window" is checked by default',//'“新窗”是否默认勾选',
+/*!*/      22 => 'Select "Yes" for open links at the the thread list page in a new window. The default is "No".',//'选择“是”则默认情况下主题列表页主题链接在新窗口打开，默认为“否”',
       23 => 'setting_styles_forumdisplay_stick',
       24 => 'Stick threads types',//'置顶主题的标识',
       25 => 'Enter enabled stick types: Enabled only English letter &quot;I&quot; (max 3 characters)! Separate types by comma, order level from high to low.',//'以英文状态下的逗号分割，只有三项有效，级别依次为从高至低',
@@ -4672,8 +4672,8 @@ $lang = array (
       34 => 'Collection team size',//'淘帖专辑允许共同维护的人数',
       35 => 'The number of people who can maintain each collection together.',//'每个淘帖专辑可以共同参与维护的人数。',
       36 => 'setting_functions_other_closeforumorderby',
-/*!*/      37 => '关闭主题列表页排序功能',
-/*!*/      38 => '选择“是”用户将只能按默认排序查看，否则，用户自选排序将会增加系统压力。',
+/*!*/      37 => 'Turn off the topic list page sorting functionality',//'关闭主题列表页排序功能',
+/*!*/      38 => 'Select "Yes" for users will view only default sorting. Otherwise user can select the sorting, that will increase the system pressure.',//'选择“是”用户将只能按默认排序查看，否则，用户自选排序将会增加系统压力。',
     ),
   ),
   247 =>
@@ -4752,8 +4752,8 @@ $lang = array (
       19 => 'Enable users to edit own posts',//'允许用户随时编辑的帖子类型',
       20 => 'Selected user groups will not limited by "Edit post time", and can edit posts at any time.',//'被选中的帖子类型将不受用户组中的“编辑帖子时间”限制，任何时刻都可以编辑',
       21 => 'setting_permissions_post_append',
-/*!*/      22 => '启用帖子补充功能',
-/*!*/      23 => '启用后，当用户无法编辑自己的帖子时，可以补充内容',
+/*!*/      22 => 'Enable add post function',//'启用帖子补充功能',
+/*!*/      23 => 'If enabled, then users can not edit your posts, but you can add content',//'启用后，当用户无法编辑自己的帖子时，可以补充内容',
       24 => 'setting_permissions_maxpolloptions',
       25 => 'Max Poll Options:',//'投票最大选项数:',
       26 => 'Set maximum number of vote options in a poll',//'设定发布投票包含的最大选项数',
