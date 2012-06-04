@@ -60,7 +60,7 @@ $lang = array (
 	'time_now'			=> '{$_G[timenow][time]} GMT{$_G[timenow][offset]}',
 	'activation'			=> 'Активация',
 	'admincp'			=> 'Админ-Центр',
-//See at the bottom!!!	'changestyle'			=> 'Изменить стиль',
+/*vot*/	'changestyle'			=> '',//'Изменить стиль',
 	'cloudcp'			=> 'CloudCP',//'云平台',
 	'default'			=> 'по умолчанию',
 	'forum_manager'			=> 'Управление форумом',
@@ -398,11 +398,11 @@ $lang = array (
 
 //---------------------------
 //static/space/t3/style.css
-	'sky'	=> 'Небеса',//'[name]天空[/name]',
+	'sky'		=> 'Небеса',//'[name]天空[/name]',
 
 //---------------------------
 //static/space/t4/style.css
-	'cat'	=> 'Кошки',//'[name]猫猫[/name]',
+	'cat'		=> 'Кошки',//'[name]猫猫[/name]',
 
 //---------------------------
 //static/space/t5/style.css
@@ -432,7 +432,6 @@ $lang = array (
 //Change Language
 	'change_language'	=> '',//'Изменить язык:',
 	'change_language_title'	=> 'Изменить язык',
-	'changestyle'		=> '',//'Изменить стиль:',//'切换风格',
 	'changestyle_title'	=> 'Изменить стиль',//'切换风格',
 
 //vot:
@@ -446,5 +445,6 @@ $lang = array (
 	'e_map'		=> 'Map',//'地图',
 	'e_map_insert'	=> 'Insert Google Map',//'插入google地图',
 	'e_map_address'	=> 'Enter address for search: ',//'地址： ',
+
 );
 

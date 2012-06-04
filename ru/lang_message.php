@@ -554,6 +554,7 @@ $lang = array (
 	'no_privilege_deluserapp'	=> 'У Вас нет прав для удаления данного приложения',
 
 	'email_check_sucess'		=> 'Ваш email ({email}) успешно активирован',
+/*!*/	'email_check_account_invalid'		=> 'Sorry, the Founder or protected user can not use the mailbox verification. Modify the user information directly.',//'抱歉，受保护用户或创始人不能使用邮箱验证，直接修改用户信息。',
 	'email_check_error'		=> 'Неверная ссылка активации Email. Вы можете снова запросить активацию на странице профиля.',
 
 	'news_does_not_exist'		=> 'Указанная информация не существует',
@@ -955,9 +956,9 @@ $lang = array (
 
 	'length_is_not_within_the_scope_of'	=> 'Номера страниц не входят в допустимый диапазон',
 
-	'magics_weight_range_invalid'	=> 'Недостаточный объем: {less}, вернитесь, чтобы изменить',
+	'magics_weight_range_invalid'		=> 'Недостаточный объем: {less}, вернитесь, чтобы изменить',
 	'magics_target_nonexistence'		=> 'Sorry, target does not exist.',//'对不起，您所指定的目标不存在，请返回。',
-	'magics_give_myself'		=> 'Вы не можете использовать эту функцию для самого себя',
+	'magics_give_myself'			=> 'Вы не можете использовать эту функцию для самого себя',
 	'magics_give_weight_range_invalid'	=> 'Недопустимый диапазон веса: {num}, вернитесь, чтобы изменить',
 	'magics_give_succeed'	=> 'Вы подарили {toname} артефакт {magicname}: {num} шт. ',
 	'magics_mod_forbidden'	=> 'Здесь запрещено использование артефакта',
