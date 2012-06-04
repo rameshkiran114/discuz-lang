@@ -350,17 +350,6 @@ $lang = array(
 	'skip_current'			=> 'Skip this step',//'跳过本步',
 	'topic'				=> 'Topic',//'专题',
 
-/*
-// Obsolete:
-	'testdata'			=> 'Add regions data',//'附加数据',
-	'testdata_check_label'		=> 'Install additional regional data (countries/regions/cities)',//'完整地区数据（四级）',
-	'portalstatus'			=> 'Portal status',//'开启门户功能',
-	'portalstatus_check_label'	=> '',
-	'groupstatus'			=> 'Groups status',//'开启群组功能',
-	'groupstatus_check_label'	=> '',
-	'homestatus'			=> 'Home Status',//'开启家园功能',
-	'homestatus_check_label'	=> '',
-*/
 //---------------------------------------------------------------
 // Added by Valery Votintsev
 // 2 vars for language select:
@@ -372,8 +361,6 @@ $lang = array(
 //vot	'install_region_data'		=> 'Install regional data',//'Install regional data',
 
 //---------------------------------------------------------------
-
-
 
 );
 
