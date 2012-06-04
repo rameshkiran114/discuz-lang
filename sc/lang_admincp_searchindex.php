@@ -1341,7 +1341,7 @@ $lang = array (
       0 => '插件',
     ),
   ),
-  114 =>
+/*vot*/  121 =>
   array (
     'index' =>
     array (
