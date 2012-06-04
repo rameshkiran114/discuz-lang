@@ -4,7 +4,8 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_profile.php by Khalid Nahhal, http://www.ar-discuz.com
+ *      $Id: lang_profile.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -24,19 +25,4 @@ $lang = array
 		<li>إضافة المذكورة أعلاه معلوماتك الشخصية.</li>
 		</ul>',
 );
-//Obsolete
-//	'profile_fields'		=> array(
-//		'mp.realname'		=> 'الإسم الحقيقي',//'姓名',
-//		'mp.gender'			=> 'النوع',//'性别',
-//		'mp.birthyear'		=> 'سنة الميلاد',//'生日(年)',
-//		'mp.birthmonth'		=> 'شهر الميلاد',//'生日(月)',
-//		'mp.birthday'		=> 'يوم الميلاد',//'生日(日)',
-//		'mp.bloodtype'		=> 'نوع الدم',//'血型',
-//		'mp.affectivestatus'	=> 'الفئة العاطفية',//'情感状态',
-//		'mp.birthprovince'	=> 'منطقة الميلاد',//'家乡(省)',
-//		'mp.birthcity'		=> 'مدينة الميلاد',//'家乡(市)',
-//		'mp.resideprovince'	=> 'منطقة التواجد',//'居住地(省)',
-//		'mp.residecity'		=> 'مدينة التواجد',//'居住地(市)'
-//	),
-
 

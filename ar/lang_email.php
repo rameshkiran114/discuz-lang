@@ -1,10 +1,11 @@
 <?php
 
-/**
+/**---
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_email.php by Khalid Nahhal, http://www.ar-discuz.com
+ *      $Id: lang_email.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -112,7 +113,7 @@ it is required to verify your mailbox address in order to avoid junk or maliciou
 
 <a href="{url}" target="_blank">{url}</a>
 <br />
-(If the above link is not working, copyn the link URL and paste it into your browser address bar manually)</p>
+(If the above link is not working, copy the link URL and paste it into your browser address bar manually)</p>
 
 <p>Thank you for your visit, we are glad to see you at our site!</p>
 
@@ -289,8 +290,8 @@ $_G[siteurl]',
 {siteurl}',
 
 
-	'adv_expiration_subject' =>	'سوف تكون مدة الإعلان في موقعك  {day} يوم, يرجى الاتفاق',
-	'adv_expiration_message' =>	'الإعلان التالي على موقعك سينتهي خلال {day} يوم, الرجاء الاتفاق:<br /><br />{advs}',
+	'adv_expiration_subject' => 'سوف تكون مدة الإعلان في موقعك  {day} يوم, يرجى الاتفاق',
+	'adv_expiration_message' => 'الإعلان التالي على موقعك سينتهي خلال {day} يوم, الرجاء الاتفاق:<br /><br />{advs}',
 	'invite_payment_email_message'	=> '
 مرحبا بك في  {bbname} ({siteurl}), وقد تم دفع طلبك {orderid} وتم التحقق منه<br />
 <br />----------------------------------------------------------------------<br />

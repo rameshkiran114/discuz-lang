@@ -4,11 +4,14 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_articlelist.php by Khalid Nahhal, http://www.ar-discuz.com
+ *      $Id: lang_articlelist.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
+
 if(!defined('IN_DISCUZ')) {
 	exit('Access Denied');
 }
+
 $lang = array
 (
 	'articlelist_name'		=> 'إعلان في قائمة المقالات بالمجلة',//'门户 文章列表广告',

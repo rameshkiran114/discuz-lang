@@ -1,13 +1,12 @@
 <?php
 
-/**
+/**---
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_template.php by Valery Votintsev at sources.ru
- *      Translated to Arabic by Khalid Nahhal, http://www.ar-discuz.com
  *
- *      This file is automatically generate
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array (
@@ -146,7 +145,7 @@ $lang = array (
 	'operation'			=> 'الإجراء',//'操作',
 	'pass_moderate_time'		=> 'وقت الموافقة',//'通过审核时间',
 	'perpage'			=> 'Items per page',//'显示条数',
-	'perpage_tips'			=> 'Set number of items diplayed at page',//'设置更多页每页显示数据的条数',
+	'perpage_tips'			=> 'Set number of items displayed at page',//'设置更多页每页显示数据的条数',
 	'point'				=> 'Point',//'点',//???????????????
 	'portalcp_block_message1'	=> 'تذكير: لقد قمت بإخفاء البيانات المخرجة, سوف تخرج الكتلة لا شيء; ولكن يمكنك استدعاء قالب الكتلة في الصفحة.',//'提醒： 你选择了隐藏输出，模块不会输出任何内容；但是您可以在页面模板中调用模块的数据。',
 	'portalcp_block_message2'	=> 'أدخل إسم هذا النمط لحفظ هذه الكتلة كقالب عام (للاستخدام في الموديلات الأخرى)',//'输入名称将此样式保存到公共模块模板(以便在其他模块中使用)',
@@ -237,7 +236,7 @@ $lang = array (
 	'category_push_select'		=> 'إختار قسم المقالة:',//'选择一个频道分类：',
 	'portalcp_has_no_category'	=> 'أنت لم تنشئ اي أقسام للمقالات',
 	'portalcp_index_message'	=> 'غير مسموح لك بإدارة اي قسم للمقالات',
-	'block_recommend_data_in_block'		=> 'Data recommended for the block',//'已被推送到的模块',
+	'block_recommend_data_in_block'	=> 'Data recommended for the block',//'已被推送到的模块',
 	'has_no_block'			=> 'لا يوجد شئ لنشر الموديل',
 	'select_block'			=> 'الرجاء إختيار موديل للنشر',
 	'admin_pm'			=> 'Notify author',//'通知作者',

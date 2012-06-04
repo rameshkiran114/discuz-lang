@@ -2,11 +2,11 @@
 	[Discuz!] (C)2001-2009 Comsenz Inc.
 	This is NOT a freeware, use is subject to license terms
 
-	Javascript Language variables for English
+	Javascript Language variables
 
 	$Id: lang_js.js by Valery Votintsev, codersclub.org
 
-	Translated by Khalid Nahhal, http://www.ar-discuz.com
+	Arabic by Khalid Nahhal, http://www.ar-discuz.com
 
 */
 
@@ -159,7 +159,7 @@ var lng = {
 	'today'		: 'اليوم',//'今天',
 	'hours'		: 'ساعات',//'点',
 	'minutes'	: 'دقائق',//'分',
-	'halfhour'	: 'Half hour',//'分',
+	'halfhour'	: 'Half hour',//'半小时',
 	'ok'		: 'Ok',//'OK',
 
 //--------------------------------

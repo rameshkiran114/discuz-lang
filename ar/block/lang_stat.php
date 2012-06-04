@@ -4,8 +4,8 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_blank.php by Khalid Nahhal, http://www.ar-discuz.com
- *      Modified by Valery Votintsev at sources.ru
+ *      $Id: lang_stat.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -30,7 +30,7 @@ $lang = array
 	'stat_option_shares'		=> 'عدد المنشورات',//'分享数',
 
 	'stat_edit_showtitle'		=> 'إسم العرض',//'显示名称',
-'stat_edit_showtitle_detail'	=> 'You can edit the display name following with a corresponding definition for the statistical item',//'你可以编辑以下对应项来自定义各统计项的显示名称',
+	'stat_edit_showtitle_detail'	=> 'You can edit the display name following with a corresponding definition for the statistical item',//'您可以编辑以下对应项来自定义各统计项的显示名称',
 
 	'stat_posts'		=> 'المشاركات',//'帖子',
 	'stat_groups'		=> 'المجموعات',//'群组',
@@ -44,7 +44,5 @@ $lang = array
 	'stat_blogs'		=> 'المدونات',//'日志',
 	'stat_albums'		=> 'الألبومات',//'相册',
 	'stat_pics'		=> 'الصور',//'图片',
-	'stat_shares'		=> 'المنشورات',//'分享'
-//	'stat_option_groupmembers'	=> 'أعضاء المجموعة',
-//	'stat_groupmembers'	=> 'أعضاء المجموعة',
+	'stat_shares'		=> 'المنشورات',//'分享',
 );

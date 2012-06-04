@@ -1,13 +1,12 @@
 <?php
 
-/**
+/**---
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_template.php by Khalid Nahhal, http://www.ar-discuz.com
- *      Modified by Valery Votintsev at sources.ru
+ *      $Id: lang_template.php by Valery Votintsev at sources.ru
  *
- *      This file is automatically generate
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array (
@@ -35,7 +34,7 @@ $lang = array (
 	'order_starttime'	=> 'وقت البدء',//'发布时间',
 	'order_views'		=> 'المشاهدات',//'浏览次数',
 	'post_trade_price'	=> 'السعر',//'商品价格',
- 	'search_allforum'	=> 'جميع الأقسام',//'全部版块',
+	'search_allforum'	=> 'جميع الأقسام',//'全部版块',
 	'search_any_date'	=> 'كل الاوقات',//'全部时间',
 	'search_fulltext'	=> 'نص كامل',//'全文',
 	'search_newer'		=> 'الاجدد',//'以内',
@@ -48,7 +47,7 @@ $lang = array (
 	'search_thread_range_digest'	=> 'مميز',//'精华主题',
 	'search_thread_range_top'	=> 'مواضيع مثبتة',//'置顶主题',
 	'search_time'		=> 'الوقت',//'搜索时间',
- 	'special_activity'	=> 'فعالية',//'活动主题',
+	'special_activity'	=> 'فعالية',//'活动主题',
 	'special_debate'	=> 'موضوع تحدي',//'辩论主题',
 	'special_poll'		=> 'موضوع إستطلاع',//'投票主题',
 	'special_reward'	=> 'موضوع طلب',//'悬赏主题',
@@ -88,17 +87,8 @@ $lang = array (
 	'equal_to'		=> ' يساوي ',//'等于',
 	'lower_than'		=> ' أقل من ',//'小于',
 	'more_than'		=> ' أكثر من ',//'大于',
-	'unlimited'		=> 'غير محدود',//'不限'
+	'unlimited'		=> 'غير محدود',//'不限',
 	'goto_memcp'		=> 'لوحة التحكم',
 	'thread_list_message1'	=> 'يحتوي على مواضيع مخفية,الرجاء الضغط لعرض الكل',
 );
-//	'search_return_normal'		=> 'الرجوع إلى البحث العام',//'返回普通搜索',
-//	'threadtype_option'	=> 'خيار نوع الموضوع',//'分类信息',
-//	'search_info'		=> 'معلومات الترتيب(الأقسام?)',//'分类信息',
-//	'subject'		=> 'الموضوع',//'标题',
-//	'contactus'		=> 'راسلنا',//'联系我们',
-//	'none'			=> 'لاشئ',//'无',
-//	'search_option'		=> 'خيارات البحث',//'搜索选项',
-//	'search_quick'		=> 'بحث سريع',//'便捷搜索',
 
-?>

@@ -1,11 +1,11 @@
 <?php
 
-/**
+/**---
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_blockclass.php by Khalid Nahhal, http://www.ar-discuz.com
- *      Modified by Valery Votintsev at sources.ru
+ *      $Id: lang_blockclass.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -357,15 +357,15 @@ $lang = array(
 	'blockclass_group_script_groupspecified'	=> 'مجموعات محددة',//'指定群组',
 	'blockclass_group_script_group'			=> 'مخصص',//'高级自定义',
 
-	'blockclass_group_thread'			=> 'مواضيع المجموعة',//'群组帖子',
-	'blockclass_groupthread_field_url'		=> 'رابط الموضوع',//'帖子链接',
-	'blockclass_groupthread_field_title'		=> 'عنوان',//'帖子标题',
-	'blockclass_groupthread_field_pic'		=> 'صورة',//'附件图片',
-	'blockclass_groupthread_field_summary'		=> 'ملخص',//'帖子内容',
-	'blockclass_groupthread_field_icon'		=> 'ايقونة',//'帖子图标',
-	'blockclass_groupthread_field_author'		=> 'الكاتب',//'楼主',
-	'blockclass_groupthread_field_authorid'		=> 'رقم الكاتب',//'楼主UID',
-	'blockclass_groupthread_field_avatar'		=> 'الصورة الرمزية للكاتب',//'楼主头像',
+	'blockclass_group_thread'		=> 'مواضيع المجموعة',//'群组帖子',
+	'blockclass_groupthread_field_url'	=> 'رابط الموضوع',//'帖子链接',
+	'blockclass_groupthread_field_title'	=> 'عنوان',//'帖子标题',
+	'blockclass_groupthread_field_pic'	=> 'صورة',//'附件图片',
+	'blockclass_groupthread_field_summary'	=> 'ملخص',//'帖子内容',
+	'blockclass_groupthread_field_icon'	=> 'ايقونة',//'帖子图标',
+	'blockclass_groupthread_field_author'	=> 'الكاتب',//'楼主',
+	'blockclass_groupthread_field_authorid'	=> 'رقم الكاتب',//'楼主UID',
+	'blockclass_groupthread_field_avatar'	=> 'الصورة الرمزية للكاتب',//'楼主头像',
 	'blockclass_groupthread_field_avatar_middle'	=> 'صورة رمزية متوسطة',//'楼主头像(中)',
 	'blockclass_groupthread_field_avatar_big'	=> 'صورة رمزية كبيرة',//'楼主头像（大）',
 	'blockclass_groupthread_field_posts'		=> 'إجمالي مشاركات الموضوع',//'主题帖子总数',
@@ -384,10 +384,10 @@ $lang = array(
 	'blockclass_groupthread_script_groupthreadspecified'	=> 'مواضيع محددة',//'指定主题',
 	'blockclass_groupthread_script_groupthread'		=> 'مخصص',//'高级自定义',
 
-	'blockclass_group_trade'			=> 'المنتجات',//'群组商品',
-	'blockclass_grouptrade_field_title'		=> 'إسم المنتج',//'商品名称',
-	'blockclass_grouptrade_field_url'		=> 'وصلة',//'商品链接',
-	'blockclass_grouptrade_field_summary'		=> 'ملخص',//'商品说明',
+	'blockclass_group_trade'		=> 'المنتجات',//'群组商品',
+	'blockclass_grouptrade_field_title'	=> 'إسم المنتج',//'商品名称',
+	'blockclass_grouptrade_field_url'	=> 'وصلة',//'商品链接',
+	'blockclass_grouptrade_field_summary'	=> 'ملخص',//'商品说明',
 	'blockclass_grouptrade_field_pic'		=> 'صورة',//'商品图片地址',
 	'blockclass_grouptrade_field_totalitems'	=> 'قابل للبيع',//'商品累计售出数',
 	'blockclass_grouptrade_field_author'		=> 'البائع',//'商品卖家',

@@ -1,11 +1,11 @@
 <?php
 
-/**
+/**---
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_core.php by Khalid Nahhal, http://www.ar-discuz.com
- *      Modified by Valery Votintsev at sources.ru
+ *      $Id: lang_core.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -42,10 +42,10 @@ $lang = array
 		6 => 'السبت',//'周六',
 		7 => 'الأحد',//'周日',
 	),
-	'dot'	 	=> '. ',//'、',//!!!!!!!!!! Have to add spaces ?????????
+	'dot'		=> '. ',//'、',//!!!!!!!!!! Have to add spaces ?????????
 	'archive'	=> 'الارشيف',//'存档',
-	'portal' 	=> 'المجلة',//'文章',
-	'end'	 	=> 'النهاية',//'末尾',
+	'portal'	=> 'المجلة',//'文章',
+	'end'		=> 'النهاية',//'末尾',
 
 	'seccode_image_tips'		=> 'اكتب الحروف من خلال الصورة<br />',//'输入下图中的字符<br />',
 	'seccode_image_ani_tips'	=> 'اكتب الاحرف من الصورة<br />',//'输入下面动画图片中最大的字符<br />',

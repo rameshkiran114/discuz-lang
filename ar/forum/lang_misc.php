@@ -4,11 +4,11 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_misc.php by Khalid Nahhal, http://www.ar-discuz.com
- *      Modified by Valery Votintsev at sources.ru
+ *      $Id: lang_misc.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
- if(!defined('IN_DISCUZ')) {
+if(!defined('IN_DISCUZ')) {
 	exit('Access Denied');
 }
 
@@ -40,7 +40,7 @@ $lang = array
 	'post_thread'			=> 'إضافة موضوع',//'的帖子',
 
 	'price'				=> 'السعر',
-	'pay_view'			=> 'السجل',  //销售记录
+	'pay_view'			=> 'السجل',//销售记录
 	'attachment_buy'		=> 'شراء',
 
 	'post_trade_yuan'		=> ' وحدة ',//'元',
@@ -151,15 +151,15 @@ $lang = array
 	'google_site_1'			=> 'في المنتدى',//'站内搜索',
 	'google_sa'			=> 'بحث',//'搜索',
 
-	'modcp_logs_action_home'		=> 'لوحة التحكم ',//'面板首页',
-	'modcp_logs_action_moderate'		=> 'إشراف',//'审核',
-	'modcp_logs_action_member'		=> 'تعديل عضو',//'用户管理',
-	'modcp_logs_action_forumaccess'		=> 'صلاحيات العضو',//'用户权限',
-	'modcp_logs_action_thread'		=> 'إدارة المواضيع',//'主题管理',
-	'modcp_logs_action_forum'		=> 'ادار الأقسام',//'版块管理',
+	'modcp_logs_action_home'	=> 'لوحة التحكم ',//'面板首页',
+	'modcp_logs_action_moderate'	=> 'إشراف',//'审核',
+	'modcp_logs_action_member'	=> 'تعديل عضو',//'用户管理',
+	'modcp_logs_action_forumaccess'	=> 'صلاحيات العضو',//'用户权限',
+	'modcp_logs_action_thread'	=> 'إدارة المواضيع',//'主题管理',
+	'modcp_logs_action_forum'	=> 'ادار الأقسام',//'版块管理',
 	'modcp_logs_action_announcement'	=> 'الإعلانات',//'公告',
-	'modcp_logs_action_log'			=> 'إدارة المدونات',//'管理日志',
-	'modcp_logs_action_stat'		=> 'إحصائيات المشرفين',//'管理统计',
+	'modcp_logs_action_log'		=> 'إدارة المدونات',//'管理日志',
+	'modcp_logs_action_stat'	=> 'إحصائيات المشرفين',//'管理统计',
 
 	'modcp_logs_action_login'	=> 'تسجيل الدخول',//'登录',
 
@@ -296,7 +296,7 @@ $lang = array
 	'crime_postreason'	=> '{reason} &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="xi2">التفاصيل</a>',
 	'crime_reason'		=> '{reason}',
 
-	'connectguest_message_search'		=> array('لم يتم تسجيل الدخول', 'تم تسجيل الدخول'),
+	'connectguest_message_search'	=> array('لم يتم تسجيل الدخول', 'تم تسجيل الدخول'),
 	'connectguest_message_replace'	=> array('Not yet <a href="member.php?mod=connect">Improve current account</a> or <a href="member.php?mod=connect&ac=bind">Bind existing account</a>', 'You need to <a href="member.php?mod=connect">Improve account information</a> or <a href="member.php?mod=connect&ac=bind">Bind existing account</a> '),//array('尚未 <a href="member.php?mod=connect">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind">绑定已有帐号</a> ', '您需要先 <a href="member.php?mod=connect">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind">绑定已有帐号</a> '),
 	'connectguest_message_mobile_search'	=> array('لم يتم تسجيل الدخول', 'تم تسجيل الدخول'),
 	'connectguest_message_mobile_replace'	=> 'Provide your account information or Bind existing account, ',//'在电脑版完善资料或绑定已有帐号，',

@@ -7,7 +7,7 @@
  *      $Id: lang_country.php by Valery Votintsev
  *      			http://codersclub.org/discuzx/
  *
- *	Translated to Arabic by Khalid EL-Nahhal , http://ar-discuz.com
+ *	Arabic by Khalid EL-Nahhal , http://ar-discuz.com
  */
 
 $lang = array(

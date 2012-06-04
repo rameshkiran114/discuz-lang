@@ -1,11 +1,11 @@
 <?php
 
-/**
+/**---
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_admincp_msg.php by Valery Votintsev, codersclub.org
- *      Translated to Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  *
  *      This file is automatically generate
  */

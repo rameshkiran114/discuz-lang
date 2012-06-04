@@ -4,11 +4,14 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_modaction.php by Khalid Nahhal, http://www.ar-discuz.com
+ *      $Id: lang_modaction.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
+
 if(!defined('IN_DISCUZ')) {
 	exit('Access Denied');
 }
+
 $lang = array
 (
 
@@ -71,8 +74,8 @@ $lang = array
 	'WRN'	=> 'تحذير',//'警告',
 	'UWN'	=> 'إزالة التحذير',//'解除警告',
 
-	'SPA'	=> ' تثبيت ',//'鉴定为',
-	'SPD'	=> ' إلغاء التثبيت ',//'撤销鉴定',
+	'SPA'	=> ' تثبيت ',//'添加图章',
+	'SPD'	=> ' إلغاء التثبيت ',//'撤销图章',
 
 	'SLA'	=> 'إضافة أيقونة',//'添加图标',
 	'SLD'	=> 'إزالة أيقونة',//'撤销图标',

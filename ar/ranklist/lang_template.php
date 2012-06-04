@@ -4,14 +4,13 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_template.php by Khalid Nahhal, http://www.ar-discuz.com
- *      Modified by Valery Votintsev at sources.ru
+ *      $Id: lang_template.php by Valery Votintsev at sources.ru
  *
- *      This file is automatically generate
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array (
- 	'all'				=> 'الكل',//'全部',
+	'all'				=> 'الكل',//'全部',
 	'have'				=> ' يملك ',//'已有',
 	'homepage'			=> 'الصفحة الرئيسية',//'首页',
 	'hot'				=> 'نشيط',//'热度',

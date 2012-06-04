@@ -4,12 +4,14 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_couplebanner.php by Khalid Nahhal, http://www.ar-discuz.com
+ *      $Id: lang_couplebanner.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
+
 if(!defined('IN_DISCUZ')) {
 	exit('Access Denied');
 }
- 
+
 $lang = array
 (
 	'couplebanner_name'			=> 'إعلان عام مزدوج',//'全局 对联广告',
@@ -28,7 +30,7 @@ $lang = array
 	'couplebanner_category'			=> 'المجلة',
 	'couplebanner_category_comment'		=> 'حدد المجلة التي تريد إظهار الإعلان فيها',
 	'couplebanner_disableclose'		=> 'إغلاق وصلة الإعلان',
-'couplebanner_disableclose_comment'	=> 'If the ad code has built-in shut down the operating, disable the link to close the System Preferences',
+	'couplebanner_disableclose_comment'	=> 'If you want the Advertising can not be closed, you can disable to show the Close link',//'如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
 	'couplebanner_show'			=> 'إظهار',
 	'couplebanner_hidden'			=> 'إخفاء',
 );

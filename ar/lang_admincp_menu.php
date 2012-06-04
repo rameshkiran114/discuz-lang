@@ -1,11 +1,11 @@
 <?php
 
-/**
+/**---
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_admincp_menu.php by Khalid Nahhal, http://www.ar-discuz.com
- *      Modified by Valery Votintsev at sources.ru
+ *      $Id: lang_admincp_menu.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -33,7 +33,7 @@ $lang = array
 	'header_portal'		=> 'المجلة',//'门户',
 	'header_group'		=> 'المجموعات الاجتماعية',//'群组',
 	'header_founder'	=> 'المدير',//'站长',
-	'header_cloudaddons'		=> 'الاضافات',//'扩展中心',
+	'header_cloudaddons'	=> 'الاضافات',//'应用中心',
 
 
 	'menu_home'			=> 'لوحة تحكم الإدارة',//'管理中心首页',
@@ -131,7 +131,7 @@ $lang = array
 	'menu_patch'			=> 'Security Center',//'安全中心',
 	'menu_upgrade'			=> 'Online Upgrade',//'在线升级',
 
-	'menu_addons'			=> 'الاضافات',//'扩展中心',
+	'menu_addons'			=> 'الاضافات',//'应用中心',
 	'menu_plugins'			=> 'الهاكات',//'插件',
 	'menu_tasks'			=> 'المهام',//'站点任务',
 	'menu_magics'			=> 'الدعائم',//'道具中心',
@@ -175,13 +175,13 @@ $lang = array
 	'menu_misc_cron'		=> 'الجدولة الدورية',//'计划任务',
 
 	'menu_article'		=> 'إدارة المقالات',//'文章管理',
-	'menu_portalcategory'	=> 'أقسام المدونات',//'日志分类',
-	'menu_blogcategory'	=> 'أقسام المدونات',
+	'menu_portalcategory'	=> 'أقسام المدونات',//'文章分类',
+	'menu_blogcategory'	=> 'أقسام المدونات',//'日志分类',
 	'menu_albumcategory'	=> 'أقسام الألبومات',//'相册分类',
 	'menu_block'		=> 'المربعات الجانبية',//'模块管理',
 	'menu_blockstyle'	=> 'ستايلات المربعات الجانبية',//'模块样式',
 	'menu_portalpermission'		=> 'Portal permissions',//'权限列表',
-	'menu_blockxml'		=> '3rd-party موديلات ',
+	'menu_blockxml'		=> '3rd-party موديلات ',//'第三方模块',
 	'menu_topic'		=> 'إدارة المواضيع',//'专题管理',
 	'menu_diytemplate'	=> 'إدارة استايل مخصص',//'DIY页面管理',
 

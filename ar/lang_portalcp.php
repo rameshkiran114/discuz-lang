@@ -1,10 +1,11 @@
 <?php
 
-/**
+/**---
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_portalcp.php  by Khalid Nahhal, http://www.ar-discuz.com
+ *      $Id: lang_portalcp.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -32,8 +33,8 @@ $lang = array(
 	'article_noexist'		=> 'المقالة المطلوبة غير موجودة',//'指定的文章不存在，请检查',
 	'article_noallowed'		=> 'أنت لا تملك الصلاحيات لعمل هذه العملية للمقالة',//'你没有权限对指定的文章进行操作',
 	'article_publish_noallowed'	=> 'أنت لا تملك الصلاحيات لنشر مقالة',//'你没有权限进行文章发布操作',
-'article_category_empty' => '抱歉，栏目不能为空',
-'article_edit_nopermission' => '抱歉，您没有权限进行当前文章操作',
+	'article_category_empty'	=> 'Sorry, the category can not be empty',//'抱歉，栏目不能为空',
+	'article_edit_nopermission'	=> 'Sorry, you do not have permission to edit current article',//'抱歉，您没有权限进行当前文章操作',
 	'article_publish'		=> 'نشر مقالة',//'发布文章',
 	'article_manage'		=> 'إدارة مقالة',//'管理文章',
 	'article_tag'			=> 'الكلمات الدلالية',//'标签',
@@ -43,8 +44,8 @@ $lang = array(
 	'article_pushplus_info'		=> '<p><center><i><a href="{url}" class="xg1 xs1">هذه المقالة مقدمة من  {author}</a></i><center></p>',
 
 	'diytemplate_name_null'		=> '[غير مكتمل]',//'[未填写]',
-'portal_view_name'		=> ' 文章查看页',
-'forum_viewthread_name'		=> ' 帖子查看页',
+	'portal_view_name'		=> ' Article view page',//' 文章查看页',
+	'forum_viewthread_name'		=> ' Posts View Page',//' 帖子查看页',
 	'portal/index'			=> 'الرئيسية',//'文章首页',
 	'portal/list'			=> 'قائمة المقالات',//'文章列表页(公共)',
 	'portal/view'			=> 'المقالة, رؤية الصفحة (عام)',//'文章查看页(公共)',
@@ -87,17 +88,17 @@ $lang = array(
 	'ranklist/thread'		=> 'أعلى المواضيع',//'帖子排行榜页',
 	'ranklist/member'		=> 'أعلى الأعضاء',//'用户排行榜页',
 	'other_page'			=> 'موديلات غير  DIY ',//'非DIY模块',
-	'upload'	=> 'رفع',
-	'remote'	=> 'من رابط',
-	'portal_index'	=> 'رئيسية المجلة',
+	'upload'		=> 'رفع',
+	'remote'		=> 'من رابط',
+	'portal_index'		=> 'رئيسية المجلة',
 	'portal_topic_blue'	=> 'الاستايل الازرق',
 	'portal_topic_green'	=> 'الاستايل الاخضر',
 	'portal_topic_grey'	=> 'الاستايل الرمادي',
 	'portal_topic_red'	=> 'الاستايل الاحمر',
 
-'itemtypename0'			=> '自动',
-'itemtypename1'			=> '<span style="color: #FF0000">固定</span>',
-'itemtypename2'			=> '<span style="color: #00BFFF">编辑</span>',
-'itemtypename3'			=> '<span style="color: #0000FF">推送</span>',
+	'itemtypename0'			=> 'Auto',//'自动',
+	'itemtypename1'			=> '<span style="color: #FF0000">Fixed</span>',//'<span style="color: #FF0000">固定</span>',
+	'itemtypename2'			=> '<span style="color: #00BFFF">Edit</span>',//'<span style="color: #00BFFF">编辑</span>',
+	'itemtypename3'			=> '<span style="color: #0000FF">Push</span>',//'<span style="color: #0000FF">推送</span>',
 
 );

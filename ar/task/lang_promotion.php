@@ -4,7 +4,8 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_promotion.php by Khalid Nahhal, http://www.ar-discuz.com
+ *      $Id: lang_promotion.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array
@@ -15,4 +16,3 @@ $lang = array
 	'promotion_complete_var_iplimit_comment'	=> 'لإكمال المهمة، وتعزيز ما لا يقل عن هذا العدد من IP في اليوم الواحد.',
 );
 
-?>

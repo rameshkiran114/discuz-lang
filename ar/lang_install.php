@@ -4,9 +4,9 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: install_lang.php by Valery Votintsev at sources.ru
+ *      $Id: lang_install.php by Valery Votintsev at sources.ru
  *
- *	Arabic Language Pack by Khalid Nahhal, http://www.ar-discuz.com
+ *	Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 define('UC_VERNAME', 'النسخة العربية');
@@ -247,7 +247,7 @@ $lang = array(
 	'init_gift_task'	=> 'Init Gift Task',//'红包类任务',
 	'init_avatar_task'	=> 'Avatar Task',//'头像类任务',
 
-	'license'	=> '<div class="license"><h1>Chinese version of license agreement applies to Chinese users</h1>
+	'license'	=> '<div class="license"><h1>License agreement</h1>
 
 <p>Copyright (c) 2001-2010, Hong Sing Imagination (Beijing) Technology Co., Ltd. All rights reserved.</p>
 

@@ -1,11 +1,11 @@
 <?php
 
-/**
+/**---
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_spacecp.php by Valery Votintsev at sources.ru
- *      Translated to Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -242,8 +242,8 @@ $lang = array(
 	'logs_credit_update_RCA'	=> 'ردود الفوز',
 	'logs_credit_update_RCB'	=> 'نقاط مكافأة عائدة من ردود',
 	'logs_credit_update_CDC'	=> 'إعادة شحن شيفرة البطاقة/الكوبون',
-	'logs_credit_update_RGC'	=> 'Recycled red envelopes',
-	'logs_credit_update_BGC'	=> 'Planted red envelope',
+	'logs_credit_update_RGC'	=> 'Remove Gift',//'回收红包',
+	'logs_credit_update_BGC'	=> 'Return Gift',//'埋下红包',
 	'logs_credit_update_AGC'	=> 'الحصول على الحزم الحمراء',
 	'logs_credit_update_RKC'	=> 'PPC',
 	'logs_credit_update_BME'	=> 'Buy Medal',//'购买勋章',
@@ -255,8 +255,8 @@ $lang = array(
 	'special_3_credit'	=> 'نقاط مكافأة الموضوع تم خصمها',
 	'special_3_best_answer'	=> 'نقاط مكافأة لأفضل إجابة',
 	'magic_credit'		=> 'دعائم عشوائية لكسب النقاط',
-	'magic_space_gift'	=> 'Home planted a red envelope in their own space',
-	'magic_space_re_gift'	=> 'Recovery has not run out of the red envelope',
+	'magic_space_gift'		=> 'Own Space red envelopes',//'在自已空间首页埋下红包',
+	'magic_space_re_gift'		=> 'Gift recycling can not run for the red envelope',//'回收还没有用完的红包',
 	'magic_space_get_gift'	=> 'الوصول إلى الملف الشخصي لتلقي المغلف الأحمر',
 	'credit_transfer'	=> 'ادماج النقل',
 	'credit_transfer_tips'	=> 'إيرادات التحويلات',
@@ -274,17 +274,17 @@ $lang = array(
 	'buy_credit'		=> 'إعادة شحن النقاط',
 	'buy_usergroup'		=> 'انفاق النقاط لشراء مجموعة أعضاء موسعة',
 	'buy_medal'			=> 'Buy Medal',//'购买勋章',
-	'report_credit'		=> 'Function of the incentive to report',
+	'report_credit'			=> 'Rewards and punishments report',//'举报功能中的奖惩',
 	'join'			=> 'إشتراك',
 	'activity_credit'	=> 'الفعاليات، صافي نقاط',
-	'thread_send'		=> 'Net released',
+	'thread_send'			=> 'Post thread deduct points',//'扣除发表',
 	'replycredit'		=> 'توزيع النقاط',
 	'add_credit'		=> 'نقاط مكافأت',
 	'recovery'		=> 'إعادة التدوير',
 	'replycredit_post'	=> 'مكافأت الردود',
 	'replycredit_thread'	=> 'توزيع المشاركات',
 	'card_credit'		=> 'تم اغلاق خاصية إعادة شحن النقاط',
-	'ranklist_top'		=> 'Consumer points to participate in PPC',
+	'ranklist_top'			=> 'Spend points to participate in bid ranking',//'参加竞价排名消费积分',
 	'admincp_op_credit'		=> 'Credit rewards and punishments operations',//'后台积分奖惩操作',
 	'credit_update_reward_clean'	=> 'Clean',//'清零',
 

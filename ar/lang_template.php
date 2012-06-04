@@ -1,12 +1,12 @@
 <?php
 
-/**
+/**---
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_template.php by Valery Votintsev at sources.ru
  *
- *      Translated to Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array (
@@ -60,7 +60,7 @@ $lang = array (
 	'time_now'			=> 'بتوقيت جرينتش  {$_G[timenow][offset]}, {$_G[timenow][time]}',
 	'activation'			=> 'التفعيل',//'激活',
 	'admincp'			=> 'لوحة الإدارة',//'管理中心',
-//See at the bottom!!!	'changestyle'			=> 'تغيير النمط',
+/*vot*/	'changestyle'			=> '',//'تغيير النمط',
 	'cloudcp'			=> 'CloudCP',//'云平台',
 	'default'			=> 'الافتراضي',
 	'forum_manager'			=> 'المشرف: Forum',//'论坛管理',
@@ -432,7 +432,6 @@ $lang = array (
 //Change Language
 	'change_language'	=> '',//'تغيير اللغة',//'Change language:',
 	'change_language_title'	=> 'تغيير اللغة',
-	'changestyle'		=> '',//'تغيير النمط',//'Change Style:',
 	'changestyle_title'	=> 'تغيير النمط',
 
 //vot:
@@ -446,5 +445,6 @@ $lang = array (
 	'e_map'		=> 'خريطة',//'地图',
 	'e_map_insert'	=> 'إداراج خريطة جوجل',//'插入google地图',
 	'e_map_address'	=> 'أدخل مكان البحث: ',//'地址： ',
+
 );
 

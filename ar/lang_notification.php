@@ -1,11 +1,11 @@
 <?php
 
-/**+++
+/**---
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_notification.php by Khalid Nahhal, http://www.ar-discuz.com
- *      Modified by Valery Votintsev at sources.ru
+ *      $Id: lang_notification.php by Valery Votintsev at sources.ru
+ *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -188,12 +188,12 @@ $lang = array
 	'profile_verify_pass_refusal'	=> 'للاسف, تم رفض البيانات المقدمة  ({verify})  ',//'很遗憾，你填写的{verify}资料审核被拒绝了',
 	'member_ban_speak'		=> 'قد يحق لك التحدث {user}, المدة : {day}(0: نيابة عن هفوة دائمة), حظر من المشاركة بسبب: {reason}',//'你已被 {user} 禁止发言，期限：{day}天(0：代表永久禁言)，禁言理由：{reason}',
 	'member_ban_visit'		=> 'You have been banned by {user} for the period of {day} days (0 means the permanent ban). Ban reason: {reason}',//'您已被 {user} 禁止访问，期限：{day}天(0：代表永久禁止访问)，禁止访问理由：{reason}',
-'member_ban_status'		=> '您已被 {user} 锁定，禁止访问理由：{reason}',//'您已被 {user} 锁定，禁止访问理由：{reason}',
-'member_follow'			=> '您关注的人已有{count}条新动态。<a href="home.php?mod=follow">Click to view</a>',
-'member_follow_add'		=> '{actor} 收听了你。<a href="home.php?mod=follow&do=follower">Click to view</a>',
+	'member_ban_status'		=> 'You have been banned by {user}, Ban reason: {reason}',//'您已被 {user} 锁定，禁止访问理由：{reason}',
+	'member_follow'			=> 'There are {count} new feeds from people you follow. <a href="home.php?mod=follow">Click to view</a>',//'您关注的人已有{count}条新动态。<a href="home.php?mod=follow">Click to view</a>',
+	'member_follow_add'		=> '{actor} have folloed to you. <a href="home.php?mod=follow&do=follower">Click to view</a>',//'{actor} 收听了你。<a href="home.php?mod=follow&do=follower">Click to view</a>',
 
-	'member_moderate_invalidate'		=> 'تم رفض حسابك من قبل المدير , الرجاء  <a href="home.php?mod=spacecp&ac=profile">إعادة تقديم معلومات التسجيل مرة أخرى </a>.<br />ملاحظة المدير: <b>{remark}</b>',//'你的账号未能通过管理员的审核，请<a href="home.php?mod=spacecp&ac=profile">重新提交注册信息</a>。<br />管理员留言: <b>{remark}</b>',
-	'member_moderate_validate'		=> 'تم الموافقة على حسابك .<br />ملاحظة المدير : <b>{remark}</b>',//'你的账号已经通过审核。<br />管理员留言: <b>{remark}</b>',
+	'member_moderate_invalidate'	=> 'تم رفض حسابك من قبل المدير , الرجاء  <a href="home.php?mod=spacecp&ac=profile">إعادة تقديم معلومات التسجيل مرة أخرى </a>.<br />ملاحظة المدير: <b>{remark}</b>',//'你的账号未能通过管理员的审核，请<a href="home.php?mod=spacecp&ac=profile">重新提交注册信息</a>。<br />管理员留言: <b>{remark}</b>',
+	'member_moderate_validate'	=> 'تم الموافقة على حسابك .<br />ملاحظة المدير : <b>{remark}</b>',//'你的账号已经通过审核。<br />管理员留言: <b>{remark}</b>',
 	'member_moderate_invalidate_no_remark'	=> 'تم رفض حسابك من قبل المدير , الرجاء  <a href="home.php?mod=spacecp&ac=profile">إعادة تقديم معلومات التسجيل مرة أخرى </a>.',//'你的账号未能通过管理员的审核，请<a href="home.php?mod=spacecp&ac=profile">重新提交注册信息</a>。',
 	'member_moderate_validate_no_remark'	=> 'تم الموافقة على حسابك .',//'你的账号已经通过审核。',
 	'manage_verifythread'		=> 'موضوع جديد في الإنتظار, <a href="admin.php?action=moderate&operation=threads&dateline=all"> معاينة الآن </a>',
@@ -214,21 +214,21 @@ $lang = array
 	'system_notice'			=> '{subject}<p class="summary">{message}</p>',
 	'system_adv_expiration'		=> 'الإعلان التالي سوف ينتهي خلال {day} يوم. الرجاء الاتفاق مع:<br />{advs}',
 	'report_change_credits'		=> '{actor} تعامل مع تقريرا خاص بك, نقاطك {creditchange}',
-'at_message'			=> '<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> 在主题 <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> 中提到了你<div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">现在去看看</a>。',
+	'at_message'			=> '<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> in the thread <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> mentioned of your name <div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">View now</a>.',//'<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> 在主题 <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> 中提到了你<div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">现在去看看</a>。',
 	'new_report'			=> 'هناك تقرير جديد, <a href="admin.php?action=report" target="_blank">إضغط هنا</a> لدخول لوحة تحكم الإدارة.',
 	'new_post_report'		=> 'تقرير جديد في الإنتظار ,<a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank"> الإدارة</a>.',
 	'magics_receive'		=> 'لقد استقبلت من {actor} دعامة  {magicname}
 					<p class="summary">{actor} يقول: <span>{msg}</span></p>
 					<p class="mbn"><a href="home.php?mod=magic" target="_blank">رجوع</a>
 					<span class="pipe">|</span><a href="home.php?mod=magic&action=mybox" target="_blank">عرض الدعائم الخاصة بي</a></p>',
-'invite_collection'		=> '{actor} 邀请您参与维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。<br /> <a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">接受邀请</a>',
-'collection_removed'		=> '您参与维护的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 已被 {actor} 关闭。',
-'exit_collection'		=> '您已经退出维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。',
-'collection_becommented'	=> '您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收到了新评论。',
-'collection_befollowed'		=> '您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 有新用户订阅了！',
-'collection_becollected' => '恭喜您的主题 <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> 被淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收录了！',
+	'invite_collection'		=> '{actor} invite you to join the collecton <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team.<br /><a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">Accept the invitation</a>',//'{actor} 邀请您参与维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。<br /> <a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">接受邀请</a>',
+	'collection_removed'		=> 'Your participation in the collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team was canceled by {actor}.',//'您参与维护的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 已被 {actor} 关闭。',
+	'exit_collection'		=> 'You have successfully exited from the collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team',//'您已经退出维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。',
+	'collection_becommented'	=> 'Your collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> received new comment.',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收到了新评论。',
+	'collection_befollowed'		=> 'Your collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> new user subscribed!',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 有新用户订阅了！',
+	'collection_becollected'	=> 'Congratulations, your thread <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> was added to collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> !',//'恭喜您的主题 <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> 被淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收录了！',
 
-	'pmreportcontent' => '{pmreportcontent}',
+	'pmreportcontent'		=> '{pmreportcontent}',
 
 );
 
