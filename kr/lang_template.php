@@ -60,7 +60,7 @@ $lang = array (
 	'time_now'		=> 'GMT{$_G[timenow][offset]}, {$_G[timenow][time]}',
 	'activation'		=> '활정화',
 	'admincp'		=> '관리중심',
-//See at the bootom!!!	'changestyle'		=> '스타일 바꾸기',
+/*vot*/	'changestyle'		=> '',//'스타일 바꾸기',
 	'cloudcp'			=> 'CloudCP',//'云平台',
 	'default'		=> '기본값',
 	'forum_manager'		=> '{$_G[setting][navs][2][navname]}관리',
@@ -432,7 +432,6 @@ $lang = array (
 //Change Language
 	'change_language'	=> '',//'언어 변경',//'Change language:',
 	'change_language_title'	=> '언어 변경',
-	'changestyle'		=> '',//'스타일 바꾸기',//'Change Style:',//'切换风格',
 	'changestyle_title'	=> '스타일 바꾸기',//'Change Style',//'切换风格',
 
 //vot:

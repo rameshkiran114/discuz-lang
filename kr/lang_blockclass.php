@@ -1,16 +1,20 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_blockclass.php by Valery Votintsev at sources.ru
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 	'blockclass_html'			=> 'Display type',//'展示类',
 
-	'blockclass_html_html'			=> 'Display type',//'展示类',
+	'blockclass_html_html'			=> 'Static HTML',//'静态模块',
 	'blockclass_html_script_blank'		=> 'Custom HTML',//'自定义HTML',
 	'blockclass_html_script_search'		=> 'Article Search',//'搜索条',
 	'blockclass_html_script_line'		=> 'Horizontal line',//'分割线',
@@ -24,7 +28,7 @@ $lang = array(
 	'blockclass_html_script_sort'		=> 'Script types(order?)',//'分类信息',
 	'blockclass_html_script_category'	=> 'Script Category',//'分类信息',
 
-	'blockclass_html_announcement'			=> 'Announcement',//'公告类',
+	'blockclass_html_announcement'			=> 'Announcement',//'公告模块',
 	'blockclass_announcement_field_url'		=> 'URL',//'公告链接',
 	'blockclass_announcement_field_title'		=> 'Title',//'公告标题',
 	'blockclass_announcement_field_summary'		=> 'Summary',//'公告内容',
@@ -32,17 +36,17 @@ $lang = array(
 	'blockclass_announcement_field_endtime'		=> 'End Time',//'结束时间',
 	'blockclass_announcement_script_announcement'	=> 'Site Announces',//'站点公告',
 
-	'blockclass_html_myapp'			=> 'Apps',//'漫游类',
+	'blockclass_html_myapp'			=> 'Applications',//'漫游模块',
 	'blockclass_myapp_field_url'		=> 'URL',//'应用链接',
 	'blockclass_myapp_field_title'		=> 'Name',//'应用名称',
 	'blockclass_myapp_field_icon'		=> 'Icon',//'应用图标',
-	'blockclass_myapp_field_icon_small'	=> 'Small Icon',//'应用图标（小）',
-'blockclass_myapp_field_icon_abouts' => '应用图标(大图)',
+	'blockclass_myapp_field_icon_small'	=> 'Small Icon',//'应用图标(小)',
+	'blockclass_myapp_field_icon_abouts'	=> 'Application icon',//'应用图标(大图)',
 	'blockclass_myapp_script_myapp'		=> 'Apps',//'漫游应用',
 
 	'blockclass_forum'			=> 'Forum',//'论坛类',
 
-	'blockclass_forum_thread'			=> 'Thread',//'帖子类',
+	'blockclass_forum_thread'			=> 'Thread',//'帖子模块',
 	'blockclass_thread_field_url'			=> 'URL',//'帖子URL',
 	'blockclass_thread_field_title'			=> 'Title',//'帖子标题',
 	'blockclass_thread_field_pic'			=> 'Image',//'附件图片',
@@ -51,7 +55,7 @@ $lang = array(
 	'blockclass_thread_field_authorid'		=> 'Author UID',//'楼主UID',
 	'blockclass_thread_field_avatar'		=> 'Author Avatar',//'楼主头像',
 	'blockclass_thread_field_avatar_middle'		=> 'Author Middle Avatar',//'楼主头像(中)',
-	'blockclass_thread_field_avatar_big'		=> 'Author Big Avatar',//'楼主头像（大）',
+	'blockclass_thread_field_avatar_big'		=> 'Author Big Avatar',//'楼主头像(大)',
 	'blockclass_thread_field_icon'			=> 'Icon',//'帖子图标',
 	'blockclass_thread_field_forumurl'		=> 'Forum URL',//'版块URL',
 	'blockclass_thread_field_forumname'		=> 'Forum name',//'版块名称',
@@ -60,8 +64,8 @@ $lang = array(
 	'blockclass_thread_field_typeurl'		=> 'Category URL',//'主题分类URL',
 	'blockclass_thread_field_sortname'		=> 'Category Name',//'分类信息名称',
 	'blockclass_thread_field_sorturl'		=> 'Category URL',//'分类信息URL',
-	'blockclass_thread_field_posts'			=> 'Posts',//'总发贴数',
-	'blockclass_thread_field_todayposts'		=> 'Today Posts',//'今日发贴数',
+	'blockclass_thread_field_posts'			=> 'Posts',//'总发帖数',
+	'blockclass_thread_field_todayposts'		=> 'Today Posts',//'今日发帖数',
 	'blockclass_thread_field_lastpost'		=> 'Last Post',//'最后回复时间',
 	'blockclass_thread_field_dateline'		=> 'Post Time',//'发帖时间',
 	'blockclass_thread_field_replies'		=> 'Replies',//'回复数',
@@ -72,15 +76,15 @@ $lang = array(
 	'blockclass_thread_field_todayviews'		=> 'Views today',//'今日浏览数',
 	'blockclass_thread_field_weekviews'		=> 'Views in week',//'本周浏览数',
 	'blockclass_thread_field_monthviews'		=> 'Views in month',//'本月浏览数',
-	'blockclass_thread_script_threaddigest'		=> 'Digests',//'精华贴',
+	'blockclass_thread_script_threaddigest'		=> 'Digests',//'精华帖',
 	'blockclass_thread_script_threadhot'		=> 'Hot threads',//'热门帖',
-	'blockclass_thread_script_threadstick'		=> 'Stick thread',//'置顶贴',
-	'blockclass_thread_script_threadspecial'	=> 'Speical threads',//'特殊主题贴',
-	'blockclass_thread_script_threadnew'		=> 'Latest threads',//'最新贴',
+	'blockclass_thread_script_threadstick'		=> 'Stick thread',//'置顶帖',
+	'blockclass_thread_script_threadspecial'	=> 'Speical threads',//'特殊主题帖',
+	'blockclass_thread_script_threadnew'		=> 'Latest threads',//'最新帖',
 	'blockclass_thread_script_threadspecified'	=> 'Specified threads',//'指定帖子',
 	'blockclass_thread_script_thread'		=> 'Customize',//'高级自定义',
 
-	'blockclass_forum_forum'			=> 'Forum',//'版块类',
+	'blockclass_forum_forum'			=> 'Forum',//'版块模块',
 	'blockclass_forum_field_title'			=> 'Title',//'版块名称',
 	'blockclass_forum_field_url'			=> 'URL',//'版块链接',
 	'blockclass_forum_field_summary'		=> 'Summary',//'版块介绍',
@@ -97,7 +101,7 @@ $lang = array(
 	'blockclass_sort_script_sort'		=> 'Customize',//'高级自定义',
 
 	'blockclass_forum_trade'		=> 'Product Forum',//'商品模块',
-	'blockclass_trade_trade'		=> 'Trade',//'商品类',
+	'blockclass_trade_trade'		=> 'Products',//'商品模块',
 	'blockclass_trade_field_title'		=> 'Product name',//'商品名称',
 	'blockclass_trade_field_url'		=> 'URL',//'商品链接',
 	'blockclass_trade_field_summary'	=> 'Summary',//'商品说明',
@@ -112,8 +116,8 @@ $lang = array(
 	'blockclass_trade_script_trade'			=> 'Customize',//'高级自定义',
 
 	'blockclass_forum_activity'		=> 'Event forum',//'活动模块',
-	'blockclass_activity_activity'		=> 'Events',//'活动类',
-	'blockclass_activity_field_url'		=> 'URL',//'活动贴URL',
+	'blockclass_activity_activity'		=> 'Events',//'活动模块',
+	'blockclass_activity_field_url'		=> 'URL',//'活动帖URL',
 	'blockclass_activity_field_title'	=> 'Title',//'活动标题',
 	'blockclass_activity_field_pic'		=> 'Image',//'主题图片',
 	'blockclass_activity_field_summary'	=> 'Summary',//'活动介绍',
@@ -133,7 +137,7 @@ $lang = array(
 
 	'blockclass_portal'			=> 'Portal',//'门户类',
 
-	'blockclass_portal_article'		=> 'Article',//'文章类',
+	'blockclass_portal_article'		=> 'Articles',//'文章模块',
 	'blockclass_article_field_url'		=> 'URL',//'文章链接',
 	'blockclass_article_field_title'	=> 'Article title',//'文章标题',
 	'blockclass_article_field_pic'		=> 'Image',//'文章封面',
@@ -158,9 +162,9 @@ $lang = array(
 	'blockclass_category_field_url'			=> 'URL',//'栏目链接',
 	'blockclass_category_field_title'		=> 'Name',//'栏目名称',
 	'blockclass_category_field_articles'		=> 'Number of Articles',//'文章数',
-	'blockclass_category_script_portalcategory'	=> 'Category',//'门户栏目',
+	'blockclass_category_script_portalcategory'	=> 'Category',//'文章栏目',
 
-	'blockclass_portal_topic'		=> 'Topic',//'专题类',
+	'blockclass_portal_topic'		=> 'Topics',//'专题模块',
 	'blockclass_topic_field_url'		=> 'URL',//'专题链接',
 	'blockclass_topic_field_title'		=> 'Title',//'专题名称',
 	'blockclass_topic_field_pic'		=> 'Topic cover',//'专题封面',
@@ -175,12 +179,12 @@ $lang = array(
 	'blockclass_topic_script_topic'			=> 'Customize',//'高级自定义',
 	'blockclass_member'				=> 'Members',//'会员类',
 
-	'blockclass_member_member'		=> 'Member',//'会员类',
+	'blockclass_member_member'		=> 'Members',//'会员模块',
 	'blockclass_member_field_url'		=> 'URL',//'空间链接',
 	'blockclass_member_field_title'		=> 'User name',//'用户名',
 	'blockclass_member_field_avatar'	=> 'Avatar',//'用户头像',
 	'blockclass_member_field_avatar_middle'	=> 'Middle Avatar',//'用户头像(中)',
-	'blockclass_member_field_avatar_big'	=> 'Big Avatar',//'用户头像（大）',
+	'blockclass_member_field_avatar_big'	=> 'Big Avatar',//'用户头像(大)',
 	'blockclass_member_field_credits'	=> 'Number of points',//'积分数',
 	'blockclass_member_field_reason'	=> 'Recommended reason',//'推荐原因',
 	'blockclass_member_field_unitprice'	=> 'Price for access to a single unit',//'竟价单次访问单价',
@@ -238,14 +242,14 @@ $lang = array(
 	'blockclass_member_field_field6'		=> 'Custom Field 6',//'自定义字段6',
 	'blockclass_member_field_field7'		=> 'Custom Field 7',//'自定义字段7',
 	'blockclass_member_field_field8'		=> 'Custom Field 8',//'自定义字段8',
-	'blockclass_member_field_posts'			=> 'Posts',//'发贴数',
+	'blockclass_member_field_posts'			=> 'Posts',//'发帖数',
 	'blockclass_member_field_threads'		=> 'Threads',//'主题数',
-	'blockclass_member_field_digestposts'		=> 'Digests',//'精华贴数',
+	'blockclass_member_field_digestposts'		=> 'Digests',//'精华帖数',
 	'blockclass_member_field_regdate'		=> 'Registration date',//'注册时间',
-	'blockclass_member_field_hourposts'		=> 'Posts in hour',//'小时发贴数',
-	'blockclass_member_field_todayposts'		=> 'Today Posts',//'今日发贴数',
-	'blockclass_member_field_weekposts'		=> 'Points in week',//'本周发贴数',
-	'blockclass_member_field_monthposts'		=> 'Points in month',//'本月发贴数',
+	'blockclass_member_field_hourposts'		=> 'Last hour posts',//'小时发帖数',
+	'blockclass_member_field_todayposts'		=> 'Today Posts',//'今日发帖数',
+	'blockclass_member_field_weekposts'		=> 'Last week posts',//'本周发帖数',
+	'blockclass_member_field_monthposts'		=> 'Last month posts',//'本月发帖数',
 	'blockclass_member_script_membernew'		=> 'New members',//'新会员',
 	'blockclass_member_script_memberspecial'	=> 'Special Member',//'特殊会员',
 	'blockclass_member_script_membercredit'		=> 'Top money',//'积分排行',
@@ -255,21 +259,21 @@ $lang = array(
 	'blockclass_member_script_member'		=> 'Customize',//'高级自定义',
 	'blockclass_space'				=> 'Space',//'空间类',
 
-	'blockclass_space_doing'		=> 'Doings',//'记录类',
+	'blockclass_space_doing'		=> 'Doings',//'记录模块',
 	'blockclass_doing_field_url'		=> 'URL',//'记录链接',
 	'blockclass_doing_field_title'		=> 'Title',//'记录内容',
 	'blockclass_doing_field_uid'		=> 'User ID',//'用户UID',
 	'blockclass_doing_field_username'	=> 'User name',//'用户名',
 	'blockclass_doing_field_avatar'		=> 'Avatar',//'用户头像',
 	'blockclass_doing_field_avatar_middle'	=> 'Middle Avatar',//'用户头像(中)',
-	'blockclass_doing_field_avatar_big'	=> 'Big Avatar',//'用户头像（大）',
+	'blockclass_doing_field_avatar_big'	=> 'Big Avatar',//'用户头像(大)',
 	'blockclass_doing_field_dateline'	=> 'Publish time',//'发布时间',
 	'blockclass_doing_field_replynum'	=> 'Replies',//'回复数',
 	'blockclass_doing_script_doingnew'	=> 'New Doings',//'最新记录',
 	'blockclass_doing_script_doinghot'	=> 'Hot doings',//'热门记录',
 	'blockclass_doing_script_doing'		=> 'Customize',//'高级自定义',
 
-	'blockclass_space_blog'			=> 'Blogs',//'日志类',
+	'blockclass_space_blog'			=> 'Blogs',//'日志模块',
 	'blockclass_blog_field_url'		=> 'URL',//'日志链接',
 	'blockclass_blog_field_title'		=> 'Title',//'日志标题',
 	'blockclass_blog_field_pic'		=> 'Image',//'日志图片',
@@ -295,7 +299,7 @@ $lang = array(
 	'blockclass_blog_script_blogspecified'	=> 'Specified blogs',//'指定日志',
 	'blockclass_blog_script_blog'		=> 'Customize',//'高级自定义',
 
-	'blockclass_space_album'		=> 'Albums',//'相册类',
+	'blockclass_space_album'		=> 'Albums',//'相册模块',
 	'blockclass_album_field_url'		=> 'URL',//'相册链接',
 	'blockclass_album_field_title'		=> 'Title',//'相册名称',
 	'blockclass_album_field_pic'		=> 'Album cover',//'相册封面',
@@ -308,7 +312,7 @@ $lang = array(
 	'blockclass_album_script_albumspecified'	=> 'Specified albums',//'指定相册',
 	'blockclass_album_script_album'			=> 'Customize',//'高级自定义',
 
-	'blockclass_space_pic'			=> 'Images',//'图片类',
+	'blockclass_space_pic'			=> 'Images',//'图片模块',
 	'blockclass_pic_field_url'		=> 'URL',//'图片链接',
 	'blockclass_pic_field_title'		=> 'Title',//'图片名称',
 	'blockclass_pic_field_pic'		=> 'Image',//'图片地址',
@@ -331,7 +335,7 @@ $lang = array(
 	'blockclass_pic_script_pic'		=> 'Customize',//'高级自定义',
 	'blockclass_group'			=> 'Groups',//'群组类',
 
-	'blockclass_group_group'		=> 'Group',//'群组类',
+	'blockclass_group_group'		=> 'Groups',//'群组模块',
 	'blockclass_group_field_url'		=> 'URL',//'群组链接',
 	'blockclass_group_field_title'		=> 'Title',//'群组名称',
 	'blockclass_group_field_pic'		=> 'Image',//'群组图片',
@@ -340,8 +344,8 @@ $lang = array(
 	'blockclass_group_field_founderuid'	=> 'Founder UID',//'创始人UID',
 	'blockclass_group_field_icon'		=> 'Icon',//'群组图标',
 	'blockclass_group_field_threads'	=> 'Threads',//'总话题数',
-	'blockclass_group_field_posts'		=> 'Posts',//'总发贴数',
-	'blockclass_group_field_todayposts'	=> 'Today Posts',//'今日发贴数',
+	'blockclass_group_field_posts'		=> 'Posts',//'总发帖数',
+	'blockclass_group_field_todayposts'	=> 'Today Posts',//'今日发帖数',
 	'blockclass_group_field_membernum'	=> 'Members',//'成员数',
 	'blockclass_group_field_dateline'	=> 'Publish time',//'创建时间',
 	'blockclass_group_field_level'		=> 'Group Level',//'群组等级',
@@ -362,7 +366,7 @@ $lang = array(
 	'blockclass_groupthread_field_authorid'	=> 'Author UID',//'楼主UID',
 	'blockclass_groupthread_field_avatar'	=> 'Author Avatar',//'楼主头像',
 	'blockclass_groupthread_field_avatar_middle'	=> 'Author Middle Avatar',//'楼主头像(中)',
-	'blockclass_groupthread_field_avatar_big'	=> 'Author Big Avatar',//'楼主头像（大）',
+	'blockclass_groupthread_field_avatar_big'	=> 'Author Big Avatar',//'楼主头像(大)',
 	'blockclass_groupthread_field_posts'		=> 'Thread Total Posts',//'主题帖子总数',
 	'blockclass_groupthread_field_todayposts'	=> 'Today posts',//'主题今日帖子数',
 	'blockclass_groupthread_field_lastpost'		=> 'Last post',//'主题最后发帖时间',
@@ -394,8 +398,8 @@ $lang = array(
 	'blockclass_grouptrade_script_grouptrade'		=> 'Customize',//'高级自定义',
 
 	'blockclass_group_groupactivity'		=> 'Group events',//'群组活动',
-	'blockclass_group_activity'			=> 'Events',//'群组活动',
-	'blockclass_groupactivity_field_url'		=> 'URL',//'活动贴URL',
+	'blockclass_group_activity'			=> 'Event',//'群组活动',
+	'blockclass_groupactivity_field_url'		=> 'URL',//'活动帖URL',
 	'blockclass_groupactivity_field_title'		=> 'Title',//'活动标题',
 	'blockclass_groupactivity_field_pic'		=> 'Image',//'主题图片',
 	'blockclass_groupactivity_field_summary'	=> 'Summary',//'活动介绍',
@@ -453,7 +457,7 @@ $lang = array(
 	'blockclass_other_stat_pics_title'	=> 'Images Title',//'图片显示名',
 	'blockclass_other_stat_shares_title'	=> 'Shares Title',//'分享显示名',
 
-'blockclass_field_id' => '数据ID',
+	'blockclass_field_id'			=> 'Field ID',//'数据ID',
 );
 
 

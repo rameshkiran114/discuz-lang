@@ -17,10 +17,10 @@ $lang = array
 	'moderate_member_validate'	=> '통과',
 
 
-	'get_passwd_subject' =>		'비밀번호 찾기 도움말',
-	'get_passwd_message' =>		'
+	'get_passwd_subject'	=> '비밀번호 찾기 도움말',
+	'get_passwd_message'	=> '
 <p>{username}님，
- {bbname}에서 보내는 비밀번호 재설정 메일입니다. </p>
+ {bbname}에서 보내는 비밀번호 재설정 메일입니다.</p>
 
 <p>
 ----------------------------------------------------------------------<br />
@@ -51,9 +51,10 @@ $lang = array
 {siteurl}</p>',
 
 
-	'email_verify_subject' =>	'이메일 주소 검증',
-	'email_verify_message' =>	'
-<p>{username}님 {bbname}에서 보내는 메일입니다。</p>
+	'email_verify_subject'	=> '이메일 주소 검증',
+	'email_verify_message'	=> '
+<p>{username}님,<br />
+{bbname}에서 보내는 메일입니다。</p>
 
 <p>{bbname}에  이메일로 사용자 등록을 해두지 않으면 스팸이나 잘못된 주소인지 관리자가 알기 어렵습니다。</p>
 <br />
@@ -74,194 +75,206 @@ $lang = array
 {bbname} 관리자.<br />
 {siteurl}</p>',
 
-'email_register_subject' =>	'论坛注册地址',
+	'email_register_subject' =>	'Forum registration',//'论坛注册地址',
 'email_register_message' =>	'<br />
-<p>这封信是由 {bbname} 发送的。</p>
+<p>This letter is sent from {bbname}.</p>
 
-<p>您收到这封邮件，是由于在 {bbname} 获取了新用户注册地址使用
-了这个邮箱地址。如果您并没有访问过 {bbname}，或没有进行上述操作，请忽
-略这封邮件。您不需要退订或进行其他进一步的操作。</p>
+<p>You have received this message due to somebody (may be you) registered this E-Mail address at {bbname}.
+If you do not want to access to {bbname}, or you did not registered at this site,
+please ignore this message.
+
+You do not need to unsubscribe or do any other further action.</p>
 <br />
 ----------------------------------------------------------------------<br />
-<strong>新用户注册说明</strong><br />
+<strong>New user registration instructions</strong><br />
 ----------------------------------------------------------------------<br />
 <br />
-<p>如果您是 {bbname} 的新用户，或在修改您的注册 Email 时使用了本地址，我们需
-要对您的地址有效性进行验证以避免垃圾邮件或地址被滥用。</p>
+<p>If you are a {bbname} new user, or have modified your registered before Email address,
+it is required to verify your mailbox address in order to avoid junk or malicious e-mail.</p>
 
-<p>您只需点击下面的链接即可进行用户注册，以下链接有效期为3天。过期可以重新请求发送一封新的邮件验证：<br />
+<p>For register just click on the link below. The following link is valid for 3 days. After expired you can request to re-send the activation email to a new e-mail address:<br />
 
 <a href="{url}" target="_blank">{url}</a>
 <br />
-(如果上面不是链接形式，请将该地址手工粘贴到浏览器地址栏再访问)</p>
+(If the above link is not working, copy the link URL and paste it into your browser address bar manually)</p>
 
-<p>感谢您的访问，祝您使用愉快！</p>
+<p>Thank you for your visit, we are glad to see you at our site!</p>
 
 
 <p>
-此致<br />
+Sincerely yours,<br />
 
-{bbname} 管理团队.<br />
+{bbname} management team.<br />
 {siteurl}</p>',
 
 
-	'add_member_subject' =>		'회원가입을 추가합니다',
-'add_member_message' => 	'
-{newusername} ，
-这封信是由 {bbname} 发送的。<br />
+	'add_member_subject'	=> '회원가입을 추가합니다',
+	'add_member_message'	=> '
+{newusername},
+This letter was sent from the {bbname}.<br />
 <br />
-我是 {adminusername} ，{bbname} 的管理者之一。您收到这封邮件，是由于您<br />
-刚刚被添加成为 {bbname} 的会员，当前 Email 即是我们为您注册的邮箱地址。<br />
-<br />
-----------------------------------------------------------------------<br />
-重要！<br />
-----------------------------------------------------------------------<br />
-<br />
-如果您对 {bbname} 不感兴趣或无意成为会员，请忽略这封邮件。<br />
+I am {adminusername}, one of the managers at {bbname}.<br />
+You have received this message because you are just has been added as a member<br />
+at our forum, which is our current Email address you have registered.<br />
 <br />
 ----------------------------------------------------------------------<br />
-帐号信息<br />
+Important!<br />
 ----------------------------------------------------------------------<br />
 <br />
-网站名称：{bbname}<br />
-网站地址：{siteurl}<br />
+If you are not interested in our Forum or do not intend to become a member, please ignore this message.<br />
 <br />
-用户名：{newusername}<br />
-密码：{newpassword}<br />
+----------------------------------------------------------------------<br />
+Your Account Information<br />
+----------------------------------------------------------------------<br />
 <br />
-从现在起您可以使用您的帐号登录 {bbname}，祝您使用愉快！<br />
+Forum Name: {bbname}<br />
+Forum URL: {siteurl}<br />
+<br />
+User Name: {newusername}<br />
+Password: {newpassword}<br />
+<br />
+From now, you can use your account to log in to our forum, I wish you a pleasant to use!<br />
 <br />
 <br />
 <br />
-此致<br />
+Sincerely yours,<br />
 <br />
-{bbname} 管理团队.<br />
+{bbname} management team.<br />
 {siteurl}',
 
 
-	'birthday_subject' =>		'축 생일',
-'birthday_message' => 		'
-{username}，
-这封信是由 {bbname} 发送的。
-
-您收到这封邮件，是由于这个邮箱地址在 {bbname} 被登记为用户邮箱，
-并且按照您填写的信息，今天是您的生日。很高兴能在此时为您献上一份
-生日祝福，我谨代表{bbname}管理团队，衷心祝福您生日快乐。
-
-如果您并非 {bbname} 的会员，或今天并非您的生日，可能是有人误用了您的邮
-件地址，或错误的填写了生日信息。本邮件不会多次重复发送，请忽略这
-封邮件。
-
-
-
-此致
+	'birthday_subject'	=> '축 생일',
+	'birthday_message'	=> '<br />
+{username},<br />
+This letter was sent from the {bbname}.<br />
+<br />
+You have received this message, because of this email address is registered in our forum {bbname}.<br />
+In accordance with the information in your profile, today is your Birthday.<br />
+Forum management team have pleased to congratulate you with your Birthday,
+and sincerely wish you a happy birthday!<br />
+<br />
+If you are not a member of our forum, or have no birthday today, may be a mistake occure.<br />
+Check for your email address and birthday in your profile.<br />
+This message will not be sent to this e-mail address, please ignore this  message.<br />
+<br />
+<br />
+Sincerely yours,
+<br />
+{bbname} management team.<br />
 {siteurl}',
 
-	'email_to_friend_subject' =>	'{$_G[member][username]} 推荐给您: $thread[subject]',
-'email_to_friend_message' =>	'<br />
-这封信是由 {$_G[setting][bbname]} 的 {$_G[member][username]} 发送的。<br />
+	'email_to_friend_subject'	=> '{$_G[member][username]} recommends you to visit: $thread[subject]',//'{$_G[member][username]} 推荐给您: $thread[subject]',
+	'email_to_friend_message'	=> '<br />
+This letter was sent to you by {$_G[member][username]} from the site {$_G[setting][bbname]}.<br />
 <br />
-您收到这封邮件，是由于在 {$_G[member][username]} 通过 {$_G[setting][bbname]} 的“推荐给朋友”<br />
-功能推荐了如下的内容给您。如果您对此不感兴趣，请忽略这封邮件。您不需要退订或进行其他进一步的操作。<br />
+You have received this message because of {$_G[member][username]}<br />
+from the site {$_G[setting][bbname]} clicked the "Email to Friend" link<br />
+for recommend to you the following.<br />
+If you are not interested in this, please ignore this message.<br />
+You do not need to unsubscribe or other further action.<br />
 <br />
 ----------------------------------------------------------------------<br />
-信件原文开始<br />
+Start of original message<br />
 ----------------------------------------------------------------------<br />
 <br />
 $message<br />
 <br />
 ----------------------------------------------------------------------<br />
-信件原文结束<br />
+End of the original message<br />
 ----------------------------------------------------------------------<br />
 <br />
-请注意这封信仅仅是由用户使用 “推荐给朋友”发送的，不是网站官方邮件，<br />
-网站管理团队不会对这类邮件负责。<br />
+Please note that this letter was initiated by the forum user by "Email to a Friend" link!<br />
+Forum management team is not responsible for such messages.<br />
 <br />
-欢迎您访问 {$_G[setting][bbname]}<br />
+<br />
+Welcome to {$_G[setting][bbname]}<br />
 $_G[siteurl]',
 
-'email_to_invite_subject' =>	'您的朋友 {$_G[member][username]} 发送 {$_G[setting][bbname]} 网站注册邀请码给您',
-'email_to_invite_message' =>	'<br />
+	'email_to_invite_subject'	=> 'Your friend {$_G[member][username]} invites you to register at {$_G[setting][bbname]}',//'您的朋友 {$_G[member][username]} 发送 {$_G[setting][bbname]} 论坛注册邀请码给您',
+	'email_to_invite_message'	=> '<br />
 $sendtoname,<br />
-这封信是由 {$_G[setting][bbname]} 的 {$_G[member][username]} 发送的。<br />
+This letter was sent to you by {$_G[member][username]} from {$_G[setting][bbname]}.<br />
 <br />
-您收到这封邮件，是由于 {$_G[member][username]} 通过 {bbname} 的“发送邀请码给朋友”<br />
-功能推荐了如下的内容给您。如果您对此不感兴趣，请忽略这封邮件。您不需要退订或进行其他进<br />
-一步的操作。<br />
+You have received this message because the user {$_G[member][username]} from {bbname}<br />
+sent you an invitation code, that enable you to register at our form,<br />
+and said additionally the following.<br />
+<br />
+!!! If you are not interested in this, please ignore this message.<br />
+You do not need to unsubscribe or other further action.<br />
 <br />
 ----------------------------------------------------------------------<br />
-信件原文开始<br />
+Start of original message<br />
 ----------------------------------------------------------------------<br />
 <br />
 $message<br />
 <br />
 ----------------------------------------------------------------------<br />
-信件原文结束<br />
+End of the original message<br />
 ----------------------------------------------------------------------<br />
 <br />
-请注意这封信仅仅是由用户使用 “发送邀请码给朋友”发送的，不是网站官方邮件，<br />
-网站管理团队不会对这类邮件负责。<br />
+Please note that this letter was initiated by the user.<br />
+Forum management team is not responsible for such messages.<br />
 <br />
-欢迎您访问 {$_G[setting][bbname]}<br />
+Welcome to {$_G[setting][bbname]}
 $_G[siteurl]',
 
 
-'moderate_member_subject' =>	'用户审核结果通知',
-'moderate_member_message' =>	'<br />
+	'moderate_member_subject'	=> 'Audit results to inform the user',//'用户审核结果通知',
+	'moderate_member_message'	=> '<br />
 <p>{username},
-这封信是由 {bbname} 发送的。</p>
+This letter was sent from the {bbname}.</p>
 
-<p>您收到这封邮件，是由于这个邮箱地址在 {bbname} 被新用户注册时所
-使用，且管理员设置了对新用户需要进行人工审核，本邮件将通知您提交
-申请的审核结果。</p>
+<p>You have received this message, because of every new user registration
+at our forum require to verify registered email address by site administrator.
+After the manual verification you will be notified about the audition results.</p>
 <br />
 ----------------------------------------------------------------------<br />
-<strong>注册信息与审核结果</strong><br />
+<strong>Registration info and audit results</strong><br />
 ----------------------------------------------------------------------<br />
 <br />
-用户名: {username}<br />
-注册时间: {regdate}<br />
-提交时间: {submitdate}<br />
-提交次数: {submittimes}<br />
-注册原因: {message}<br />
+User Name: {username}<br />
+Registration time: {regdate}<br />
+Submission time: {submitdate}<br />
+Submit number: {submittimes}<br />
+Registration reason: {message}<br />
 <br />
-审核结果: {modresult}<br />
-审核时间: {moddate}<br />
-审核管理员: {adminusername}<br />
-管理员留言: {remark}<br />
+Audit Results: {modresult}<br />
+Audit time: {moddate}<br />
+Audit Manager: {adminusername}<br />
+Administrator Message: {remark}<br />
 <br />
 ----------------------------------------------------------------------<br />
-<strong>审核结果说明</strong><br />
+<strong>Audit results explanation</strong><br />
 ----------------------------------------------------------------------<br />
 
-<p>通过: 您的注册已通过审核，您已成为 {bbname} 的正式用户。</p>
+<p>Approved: Your registration has been approved, you have become an official user of {bbname}.</p>
 
-<p>否决: 您的注册信息不完整，或未满足我们对新用户的某些要求，您可以
-	  根据管理员留言，<a href="home.php?mod=spacecp&ac=profile" target="_blank">完善您的注册信息</a>，然后再次提交。</p>
+<p>Rejected: Your registration information is incomplete, or does not meet some our requirements.
+You can send a message to administrator, <a href="home.php?mod=spacecp&ac=profile" target="_blank">complete your registration information</a>, and then submit again.</p>
 
-<p>删除：您的注册由于与我们的要求偏差较大，或本站的新注册人数已
-	  超过预期，申请已被否决。您的帐号已从数据库中删除，将无法
-	  再使用其登录或提交再次审核，请您谅解。</p>
-
+<p>Deleted: Your request for registration does not meet our requirements,
+or number of new registrations exceed our possibilities.
+Your request is completely rejected, your account removed from the database.
+It can not be used for log in or submitted for re-examine, please understand.</p>
 <br />
 <br />
-此致<br />
+Sincerely yours,<br />
 <br />
-{bbname} 管理团队.<br />
+{bbname} management team.<br />
 {siteurl}',
 
-	'adv_expiration_subject' =>	'您站点的广告将于 {day} 天后到期，请及时处理',
-	'adv_expiration_message' =>	'您站点的以下广告将于 {day} 天后到期，请及时处理：<br /><br />{advs}',
-'invite_payment_email_message'	=> '
-欢迎您光临{bbname}（{siteurl}），您的订单{orderid}已经支付完成，订单已确认有效。<br />
+	'adv_expiration_subject' => 'Your site ad will be {day} days after the due, Please timely processing',//'您站点的广告将于 {day} 天后到期，请及时处理',
+	'adv_expiration_message' => 'The following ads on your site will be expired {day} days, please deal with:<br /><br />{advs}',//'您站点的以下广告将于 {day} 天后到期，请及时处理：<br /><br />{advs}',
+	'invite_payment_email_message'	=> '
+Thank you for using the {bbname}, ({siteurl}), Your order {orderid} has been paid completed, Order has been validated.<br />
 <br />----------------------------------------------------------------------<br />
-以下是您获得的邀请码
+Here is what you get the invitation code
 <br />----------------------------------------------------------------------<br />
 
 {codetext}
 
 <br />----------------------------------------------------------------------<br />
-重要！
+Important!
 <br />----------------------------------------------------------------------<br />',
 );
 

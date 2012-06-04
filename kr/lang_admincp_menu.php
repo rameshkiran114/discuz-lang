@@ -52,7 +52,7 @@ $lang = array
 	'menu_setting_imgwater'	=> '워터마크',
 	'menu_setting_uc'	=> 'UCenter 설정',
 	'menu_setting_uchome'	=> 'UCHome 설정',
-'menu_setting_follow'	=> '广播设置',
+	'menu_setting_follow'		=> 'Follows',//'广播设置',
 	'menu_setting_home'	=> '공간 설정',
 	'menu_setting_search'	=> '검색 설정',
 	'menu_setting_district'	=> '지역 설정',
@@ -69,8 +69,8 @@ $lang = array
 	'menu_members_add'	=> '회원 추가 설정',
 	'menu_members_edit'	=> '회원 관리 설정',
 	'menu_members_newsletter'	=> '알림 보내기',
-'menu_members_mobile' => '发送手机通知',
-'menu_usertag' => '用户标签',
+	'menu_members_mobile'		=> 'Send phone notification',//'发送手机通知',
+	'menu_usertag'			=> 'User Tags',//'用户标签',
 	'menu_members_edit_ban_user'	=> '차단 회원',
 	'menu_members_ipban'	=> 'IP 차단',
 	'menu_members_credits'	=> '포인트 보상',
@@ -82,7 +82,7 @@ $lang = array
 	'menu_profilefields'	=> '사용자 정의 프로필',
 	'menu_admingroups'	=> '그룹 관리',
 	'menu_usergroups'	=> '회원 그룹',
-'menu_follow' => '推荐关注',
+	'menu_follow'			=> 'Follows',//'推荐关注',
 	'menu_defaultuser'	=> '일반 회원',
 
 	'menu_moderate_posts'	=> '게시물 검토',
@@ -99,7 +99,7 @@ $lang = array
 	'menu_maint_threads_group'	=> '주제 그룹 관리',
 	'menu_maint_prune_group'	=> '게시물 그룹 삭제',
 	'menu_maint_attaches_group'	=> '그룹 첨부 파일',
-'menu_setting_collection' => '淘帖管理',
+	'menu_setting_collection'	=> 'Collections',//'淘帖管理',
 	'menu_posting_tags'		=> '태그 관리',
 	'menu_posting_censors'		=> '단어 필터',
 	'menu_maint_report'		=> '회원 리포트',
@@ -124,8 +124,8 @@ $lang = array
 	'menu_founder_permgrouplist'	=> '편집 권한 - {perm}',
 	'menu_founder_memberperm'	=> '편집 회원 권한 - {username}',
 
-'menu_patch' => '安全中心',
-'menu_upgrade' => '在线升级',
+	'menu_patch'			=> 'Security Center',//'安全中心',
+	'menu_upgrade'			=> 'Online Upgrade',//'在线升级',
 
 	'menu_addons'		=> '디스커즈 확장',
 	'menu_plugins'		=> '플러그인',
@@ -159,13 +159,13 @@ $lang = array
 	'menu_tools_relatedtag'		=> ' 태그 관련',
 	'menu_tools_creditwizard'	=> '포인트 마법사',
 	'menu_tools_fileperms'	=> '파일 권한 검사',
-'menu_tools_hookcheck' => '嵌入点校验',
+	'menu_tools_hookcheck'		=> 'Check Hooks',//'嵌入点校验',
 	'menu_tools_filecheck'	=> '데이터베이스 검사',
 	'menu_forum_scheme'	=> '프로그램 관리',
 	'menu_db'		=> '데이타베이스',
 	'menu_postsplit'	=> '분할 게시글',
 	'menu_threadsplit'	=> '주제 테이블',
-'menu_membersplit' => '用户表优化',
+	'menu_membersplit'		=> 'User tables',//'用户表优化',
 	'menu_logs'		=> '사이트 기록 보관소',
 	'menu_custommenu_manage'	=> '관리 메뉴',
 	'menu_misc_cron'	=> '자동 최적화 설정',
@@ -176,8 +176,8 @@ $lang = array
 	'menu_albumcategory'	=> '앨범 카테고리',
 	'menu_block'		=> '차단 관리',
 	'menu_blockstyle'	=> '차단 스타일',
-'menu_portalpermission' => '权限列表',
-	'menu_blockxml'		=> '외부 모듈 관리',	
+	'menu_portalpermission'		=> 'Portal permissions',//'权限列表',
+	'menu_blockxml'		=> '외부 모듈 관리',
 	'menu_topic'		=> '주제 관리',
 	'menu_diytemplate'	=> 'DIY 스타일',
 
@@ -186,14 +186,14 @@ $lang = array
 	'menu_group_manage'	=> '그룹 관리',
 	'menu_group_userperm'	=> '회원 그룹 권한',
 	'menu_group_level'	=> '그룹 레벨',
-'menu_group_mod' => '审核群组',
+	'menu_group_mod'		=> 'Group moderation',//'审核群组',
 
 	'menu_setting_manyou'		=> 'Manyou 설정',
 	'menu_setting_qqconnect'	=> 'QQ 접속 설정',
 
-	'admincp_title' => $_G['setting']['bbname'].' 관리 센터',
+	'admincp_title'			=> $_G['setting']['bbname'].' 관리 센터',
 
 // Added by Valery Votintsev
-'menu_setting_language'		=> '语言',//'Languages',
+	'menu_setting_language'		=> '언어',//'Languages',
 );
 
