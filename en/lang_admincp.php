@@ -2530,7 +2530,7 @@ $lang = array
 	'forums_edit_posts_attach_ext'			=> 'Enabled attachment type (lowercase)',//'允许附件类型(小写)',
 	'forums_edit_posts_attach_ext_comment'		=> 'Set allowed to upload attachments extensions. Separate multiple extensions with a comma ",". This setting has a priority against the user group settings. Left blank for use the user groups attachment type settings.',//'设置允许上传的附件扩展名，多个扩展名之间用半角逗号 "," 分割。本设置的优先级高于用户组，留空为按照用户组允许的附件类型设定',
 	'forums_edit_posts_allowfeed'			=> 'Enable dynamic feeds',//'允许发送广播和动态',
-	'forums_edit_posts_allowfeed_comment'		=> 'Is this is turned ON, users by default allowed to broadcast Feed. After the feed is published the user can remove the posting. <strong>It is recommended to set the Forum Privacy settings.</ strong>.',//'开启后默认允许用户发送广播和动态，广播是否发送用户可以在发帖时去掉，<strong>隐私版块建议设为否</strong>。',
+	'forums_edit_posts_allowfeed_comment'		=> 'If this is turned ON, users by default allowed to broadcast Feed. After the feed is published the user can remove the posting. <strong>It is recommended to set the Forum Privacy settings.</ strong>.',//'开启后默认允许用户发送广播和动态，广播是否发送用户可以在发帖时去掉，<strong>隐私版块建议设为否</strong>。',
 	'forums_edit_posts_commentitem'			=> 'Preset the General Comment List',//'普通主题点评预置观点',
 	'forums_edit_posts_commentitem_comment'		=> 'Enter one comment per line. If an empty line presents in a list, it will be displayed an empty item in a bottom of the drop-down menu as an alternative point of view. This setting take effect only if comments enabled at all. If empty, the global setting "Common thread preset Comments" will be used.',//'每个观点一行。如存在空行，空行下方的内容将显示在下拉菜单中作为备选观点。只有开启帖子点评功能后本设置才生效，如留空表示使用全局的“普通主题点评预置观点”设置',
 

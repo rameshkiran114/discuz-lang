@@ -1319,7 +1319,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  113 =>
+  119 =>
   array (
     'index' =>
     array (
@@ -1341,7 +1341,7 @@ $lang = array (
       0 => 'Plugins',//'插件',
     ),
   ),
-  114 =>
+/*vot*/  121 =>
   array (
     'index' =>
     array (
@@ -2174,8 +2174,8 @@ $lang = array (
     array (
       0 => 'Update Statistics',//'更新统计',
       1 => 'counter_tips',
-      2 => 'The following data is not normal. You can use this function to update the data to correct state. Please try to avoid the peak time of members access.' . //'当下列数据不正常时，可以使用此功能对数据进行更新校正。请尽量避开会员访问的高峰时间
-				Each cycle update the number: Set the value in a reasonable range. Must be not too large, Otherwise it increase the server load pressure',//每个循环更新数量：数值请在一个合理范围，不要过大，否则会给服务器带来负载压力
+      2 => 'The following data is not normal. You can use this function to update the data to correct state. Please try to avoid the peak time of members access.
+				Each cycle update the number: Set the value in a reasonable range. Must be not too large, Otherwise it increase the server load pressure
 				',
     ),
   ),

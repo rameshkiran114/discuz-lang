@@ -43,7 +43,7 @@ $lang = array (
 
 );
 
-/*
+/* ToDo
 	'profile_fields'		=> array(
 		'mp.realname'		=> 'Real Name',//'姓名',
 		'mp.gender'		=> 'Gender',//'性别',

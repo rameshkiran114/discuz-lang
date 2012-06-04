@@ -32,7 +32,7 @@ $lang = array
 	'header_portal'		=> 'Portal',//'门户',
 	'header_group'		=> 'Groups',//'群组',
 	'header_founder'	=> 'Admins',//'站长',
-	'header_cloudaddons'		=> 'Application Center',//'应用中心',
+	'header_cloudaddons'	=> 'Application Center',//'应用中心',
 
 
 	'menu_home'			=> 'Admin Center',//'管理中心首页',

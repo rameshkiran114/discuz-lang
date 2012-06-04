@@ -41,10 +41,10 @@ $lang = array
 		6 => 'Saturday',//'周六',
 		7 => 'Sunday',//'周日',
 	),
-	'dot'	 	=> '. ',//'、',
+	'dot'		=> '. ',//'、',
 	'archive'	=> 'Archive',//'存档',
-	'portal' 	=> 'Portal',//'门户',
-	'end'	 	=> 'End',//'末尾',
+	'portal'	=> 'Portal',//'门户',
+	'end'		=> 'End',//'末尾',
 
 	'seccode_image_tips'		=> 'Enter the characters from the picture below<br />',//'输入下图中的字符<br />',
 	'seccode_image_ani_tips'	=> 'Enter the following characters from the animated picture in the largest<br />',//'请输入下面动画图片中的字符<br />',
