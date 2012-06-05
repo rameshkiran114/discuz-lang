@@ -21,9 +21,9 @@ $lang = array (
 	'nav_6'		=> 'Plugins',//'插件',
 	'nav_7'		=> 'Help',//'帮助',
 	'nav_8'		=> 'RankList',//'排行榜',
-	'nav_9'		=> 'Follow',//'',
-	'nav_10'	=> 'Guide',//'',
-	'nav_11'	=> 'Collections',//'',
+	'nav_9'		=> 'Follows',//'广播',
+	'nav_10'	=> 'Guide',//'导读',
+	'nav_11'	=> 'Collections',//'淘帖',
 	'nav_12'	=> 'Blogs',//'日志',
 	'nav_13'	=> 'Albums',//'相册',
 	'nav_14'	=> 'Shares',//'分享',
@@ -34,12 +34,12 @@ $lang = array (
 	'nav_album'	=> 'Albums',//'相册',
 	'nav_share'	=> 'Shares',//'分享',
 	'nav_doing'	=> 'Moods',//'记录',
-	'nav_wall'	=> 'Wall',//'',
+	'nav_wall'	=> 'Wall',//'留言板',
 	'nav_group'	=> 'Groups',//'群组',
 	'nav_ranklist'	=> 'RankList',//'排行榜'
-	'nav_follow'	=> 'Follow',//'',
-	'nav_guide'	=> 'Guide',//'',
-	'nav_collection'	=> 'Collections',//'',
+	'nav_follow'	=> 'Follow',//'广播',
+	'nav_guide'	=> 'Guide',//'导读',
+	'nav_collection'	=> 'Collections',//'淘帖',
 
 	'nav_stat'	=> 'Statistics',//'站点统计',
 	'nav_report'	=> 'Reports',//'举报',
@@ -51,11 +51,11 @@ $lang = array (
 	'nav_magic'	=> 'Magic',//'道具',
 	'nav_medal'	=> 'Medals',//'勋章',
 	'nav_task'	=> 'Tasks',//'任务',
-	'nav_feed'	=> 'Feeds',//'',
+	'nav_feed'	=> 'Feeds',//'动态',
 
 	'nav_sethomepage'	=> '<img src="static/image/common/home.gif" title="Set as Homepage">',//'设为首页',
 	'nav_setfavorite'	=> '<img src="static/image/common/fav.gif" title="Add to Favorites">',//'收藏本站',
-	'nav_uchome'		=> 'UCH0me',//'',
+	'nav_uchome'		=> 'UCHome',//'',
 
 //	'nav_'		=> '',//'',
 
