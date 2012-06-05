@@ -9,7 +9,7 @@
  */
 
 $lang = array(
-'block_diy_nopreview'			=> '<p>이 모듈은 js 코드 저장을 클릭하여 미리보기를 볼 수 있습니다.</p>',
+	'block_diy_nopreview'		=> '<p>이 모듈은 js 코드 저장을 클릭하여 미리보기를 볼 수 있습니다.</p>',
 	'block_diy_summary_html_tag'	=> 'HTML 태그 콘텐츠 오류：',
 	'block_diy_summary_not_closed'	=> ' 일치 하지 않습니다.',
 	'block_all_category'	=> '전체 카테고리',
@@ -19,7 +19,7 @@ $lang = array(
 	'block_all_type'	=> '전체 분류',
 	'file_size_limit'	=> '제한된 {size} KB 파일크기 보다 클수 없습니다.',
 	'set_to_conver'		=> '표지 설정',
-	'small_image' => '小图',
+	'small_image'			=> 'Small image',//'小图',
 	'insert_small_image'	=> '작은 이미지 삽입',
 	'insert_large_image'	=> '큰 이미지 삽입',
 	'insert_file'		=> '파일 삽입',
@@ -29,19 +29,19 @@ $lang = array(
 	'article_noexist'	=> '존재 하지 않는 파일입니다.',
 	'article_noallowed'	=> '지정된 문서 작동 권한이 없습니다.',
 	'article_publish_noallowed'	=> '문서 작업을 할수 있는 권한이 없습니다.',
-	'article_category_empty' => '抱歉，栏目不能为空',
-	'article_edit_nopermission' => '抱歉，您没有权限进行当前文章操作',
+	'article_category_empty'	=> 'Sorry, the category can not be empty',//'抱歉，栏目不能为空',
+	'article_edit_nopermission'	=> 'Sorry, you do not have permission to edit current article',//'抱歉，您没有权限进行当前文章操作',
 	'article_publish'	=> '문서 보내기',
 	'article_manage'	=> '기술 자료 관리',
 	'article_tag'		=> '태그',
 	'select_category'	=> '카테고리 선택',
 	'blockstyle_diy'	=> '사용자 정의 템플릿',
 
-	'article_pushplus_info' => '<p><center><i><a href="{url}" class="xg1 xs1"> 이 콘텐츠는 {author}님이 제공하셨습니다. </a></i></center></p>',
+	'article_pushplus_info'		=> '<p><center><i><a href="{url}" class="xg1 xs1">This article provided by the {author}</a></i><center></p>',
 
 	'diytemplate_name_null'	=> '[미기입]',
-	'portal_view_name' => ' 文章查看页',
-	'forum_viewthread_name' => ' 帖子查看页',
+	'portal_view_name'		=> ' Article view page',//' 文章查看页',
+	'forum_viewthread_name'		=> ' Posts View Page',//' 帖子查看页',
 	'portal/index'		=> '홈',
 	'portal/list'		=> '기술 자료 (공개)',
 	'portal/view'		=> '페이지 보기 (공개)',
@@ -49,9 +49,9 @@ $lang = array(
 	'forum/discuz'		=> '홈 게시판',
 	'forum/viewthread'	=> '게시물 보기 (공개)',
 	'forum/forumdisplay'	=> '게시판 목록 (공개)',
-	'group/index'		 => $_G['setting']['navs'][3]['navname'].'홈',
+	'group/index'			=> 'Group Home',//$_G['setting']['navs'][3]['navname'].'首页',
 	'group/group_my'	=> '마이'.$_G['setting']['navs'][3]['navname'].'홈',
-	'group/group'		 => $_G['setting']['navs'][3]['navname'].'콘텐츠',
+	'group/group'			=> 'Groups Home',//$_G['setting']['navs'][3]['navname'].'内容页',
 	'home/space_home'	=> '홈',
 	'home/space_trade'	=> '상품',
 	'home/space_top'	=> '목록',
@@ -92,9 +92,9 @@ $lang = array(
 	'portal_topic_grey'	=> '그레이 테마 조정',
 	'portal_topic_red'	=> '레드 테마 조정',
 
-	'itemtypename0' => '自动',
-	'itemtypename1' => '<span style="color: #FF0000">固定</span>',
-	'itemtypename2' => '<span style="color: #00BFFF">编辑</span>',
-	'itemtypename3' => '<span style="color: #0000FF">推送</span>',
+	'itemtypename0'			=> 'Auto',//'自动',
+	'itemtypename1'			=> '<span style="color: #FF0000">Fixed</span>',//'<span style="color: #FF0000">固定</span>',
+	'itemtypename2'			=> '<span style="color: #00BFFF">Edit</span>',//'<span style="color: #00BFFF">编辑</span>',
+	'itemtypename3'			=> '<span style="color: #0000FF">Push</span>',//'<span style="color: #0000FF">推送</span>',
 
 );

@@ -58,7 +58,7 @@ $lang = array
 	'menu_setting_district'	=> '지역 설정',
 	'menu_setting_ranklist'	=> '순위 목록',
 	'menu_setting_mobile'	=> '모바일 설정',
-	'menu_setting_tag'	=> '태그 관리',	
+	'menu_setting_tag'	=> '태그 관리',
 
 	'menu_forums'		=> '게시판 관리',
 	'menu_forums_merge'	=> '게시판 통합',

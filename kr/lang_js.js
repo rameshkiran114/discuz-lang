@@ -162,7 +162,7 @@ var lng = {
 	'today'		: '오늘',//'今天',
 	'hours'		: '시',//'点',
 	'minutes'	: '분',//'分',
-'halfhour'	: '分',//'Half hour',
+	'halfhour'	: 'Half hour',//'半小时',
 	'ok'		: 'Ok',//'OK',
 
 //--------------------------------
@@ -373,28 +373,28 @@ var lng = {
 
 //--------------------------------
 //static/js/handlers.js
-'file_selected_exceed'	: '您选择的文件个数超过限制。',//'You have selected too many files.',
-'upload_number_exceed'	: '您已达到上传文件的上限了。',//'You cannot add any more files.',
-'can_choose_more'	: '您还可以选择 ',//'You may only add ',
-'files'			: ' 个文件',//' more files',
-'file_is_large'		: '文件太大.',//'File is too large.',
-'file_is_empty'		: '不能上传零字节文件.',//'You can not upload a zero byte file.',
-'file_type_disabled'	: '禁止上传该类型的文件.',//'Upload of such type files is disabled.',
-'unhandled_error'	: 'Unhandled Error',//'',
-'upload_progress'	: '正在上传',//'Uploaded ',
-'upload_cancelled'	: '取消上传',//'Cancelled',
-'file_description'	: '图片描述',//'File Description',
-'image_upload_failed'	: '图片上传失败',//'Image upload failed',
-'upload_failed'		: '上传失败',//'Upload failed',
-'upload_completed'	: '上传完成.',//'Upload completed.',
-'upload_error'		: 'Upload Error: ',//'',
-'config_error'		: 'Configuration Error',//'',
-'server_error'		: 'Server (IO) Error',//'',
-'security_error'	: 'Security Error',//'',
-'upload_limit_exceed'	: 'Upload limit exceeded.',//'',
-'file_not_found'	: 'File not found.',//'',
-'validation_failed'	: 'Failed Validation.  Upload skipped.',//'',
-'upload_stopped'	: 'Stopped',//'',
+	'file_selected_exceed'	: 'You have selected too many files.',//'您选择的文件个数超过限制。',
+	'upload_number_exceed'	: 'You cannot add any more files.',//'您已达到上传文件的上限了。',
+	'can_choose_more'	: 'You may only add ',//'您还可以选择 ',
+	'files'			: ' more files',//' 个文件',
+	'file_is_large'		: 'File is too large.',//'文件太大.',
+	'file_is_empty'		: 'You can not upload a zero byte file.',//'不能上传零字节文件.',
+	'file_type_disabled'	: 'Upload of such type files is disabled.',//'禁止上传该类型的文件.',
+	'unhandled_error'	: 'Unhandled Error',//'',
+	'upload_progress'	: 'Uploaded ',//'正在上传',
+	'upload_cancelled'	: 'Cancelled',//'取消上传',
+	'file_description'	: 'File Description',//'图片描述',
+	'image_upload_failed'	: 'Image upload failed',//'图片上传失败',
+	'upload_failed'		: 'Upload failed',//'上传失败',
+	'upload_completed'	: 'Upload completed.',//'上传完成.',
+	'upload_error'		: 'Upload Error: ',//'',
+	'config_error'		: 'Configuration Error',//'',
+	'server_error'		: 'Server (IO) Error',//'',
+	'security_error'	: 'Security Error',//'',
+	'upload_limit_exceed'	: 'Upload limit exceeded.',//'',
+	'file_not_found'	: 'File not found.',//'',
+	'validation_failed'	: 'Failed Validation.  Upload skipped.',//'',
+	'upload_stopped'	: 'Stopped',//'',
 
 //--------------------------------
 //static/js/home.js
@@ -556,7 +556,7 @@ var lng = {
 	'tab_label'		: '탭 라벨',//'tab标签',
 	'temp_action'		: '현재 스타일에 임시 데이터를 불러오려면 계속 버튼을 클릭하시고.<br />삭제하려면 삭제 버튼을 클릭하세요.',//'按继续按钮将打开暂存数据并DIY，<br />按删除按钮将删除暂存数据。',
 	'continue'		: 'Continue',//'继续',
-
+	'block_no_rights'	: 'Sorry, you have no permission to add or edit block',//'抱歉，您没有权限添加或编辑模块',
 
 //--------------------------------
 //static/js/portal_diy_data.js

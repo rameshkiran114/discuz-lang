@@ -4,8 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_exif.php 27449 2012-02-01 05:32:35Z zhangguosheng $
- *	Translated by Valery Votintsev, codersclub.org
+ *	$Id: lang_exif.php by Valery Votintsev, codersclub.org
  */
 
 $lang = array(
@@ -37,7 +36,7 @@ $lang = array(
 		'22'		=> 'D75',//'D75',
 		'255'		=> 'Other'//'其他'
 		),
-	'img_info'	=> array ('File information'	=> 'No image EXIF information'),//array ('文件信息'	=> '没有图片EXIF信息'),
+	'img_info'	=> array ('File information'	=> 'No EXIF information'),//array ('文件信息' => '没有图片EXIF信息'),
 	
 	'FileName'		=> 'File Name',//'文件名',
 	'FileType'		=> 'File Type',//'文件类型',

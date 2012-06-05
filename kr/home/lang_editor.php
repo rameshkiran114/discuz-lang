@@ -25,7 +25,7 @@ $lang = array(
 	'editor_hyperlink'	=> '하이퍼 링크',
 	'editor_remove_link'	=> '링크 제거',
 	'editor_link_image'	=> '이미지 링크',
-'editor_link_attach' => '添加附件',
+	'editor_link_attach'		=> 'Add attachment',//'添加附件',
 	'editor_link_flash'	=> 'FLASH 및 MP3 음악 동영상 링크',
 	'editor_insert_smiley'	=> '이모티콘',
 	'editor_doodle'		=> '그리기',
@@ -76,6 +76,6 @@ $lang = array(
 	'editor_prompt_video_media'	=> '미디어 동영상',
 	'editor_prompt_video_real'	=> 'Real 동영상',
 	'editor_prompt_mp3'		=> 'mp3 음악',
-'editor_full_screen' => '全屏',
+	'editor_full_screen'		=> 'Full Screen',
 );
 

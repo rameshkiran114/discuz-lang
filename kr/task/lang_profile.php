@@ -9,10 +9,10 @@
 
 $lang = array
 (
-'profile_name'		=> 'Update the personal info',//'完善用户资料任务',
-'profile_desc'		=> 'Fill in specified user info and receive award.',//'完善指定的用户资料获得相应的奖励。',
+	'profile_name'		=> 'Update the personal info',//'完善用户资料任务',
+	'profile_desc'		=> 'Fill in specified user info and receive award.',//'完善指定的用户资料获得相应的奖励',
 
-'profile_view'	=> '<strong>You have to fill the following items in your personal information:</strong><br>
+	'profile_view'	=> '<strong>You have to fill the following items in your personal information:</strong><br>
 		<span style="color:red;">{profiles}</span><br><br>
 		<strong>Follow this instructions to complete the task:</strong>
 		<ul>

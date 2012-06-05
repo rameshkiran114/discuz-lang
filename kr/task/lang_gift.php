@@ -9,7 +9,7 @@
 
 $lang = array
 (
-'gift_name'	=> 'Gift Task',//'红包类任务',
-'gift_desc'	=> 'Complete this task to get a gift package.',//'申请此任务即可领取红包。',
+	'gift_name'	=> 'Gift Task',//'红包类任务',
+	'gift_desc'	=> 'Complete this task to get a gift package.',//'申请此任务即可领取红包',
 );
 

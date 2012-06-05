@@ -20,4 +20,3 @@ $lang = array(
 	'friend_group_more'	=> '맞춤 설정{num}'
 );
 
-?>

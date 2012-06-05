@@ -13,7 +13,7 @@ if(!defined('IN_DISCUZ')) {
 }
 
 $lang = array (
-	  'forum_archive'	=> '저장',
+	  'forum_archive' => '저장',
 
 
 );

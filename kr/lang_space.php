@@ -56,33 +56,33 @@ $lang = array(
 	'age'			=> '세',
 	'comment'		=> '댓글',
 	'reply'			=> '답글',
-'from'			=> 'from',
+	'from'			=> 'From',//'来自',
 	'anonymity'		=> '익명',
 	'viewmore'		=> '더보기',
-'constellation_1'	=> 'Aquarius',
-'constellation_2'	=> 'Pisces',
-'constellation_3'	=> 'Aries',
-'constellation_4'	=> 'Taurus',
-'constellation_5'	=> 'Gemini',
-'constellation_6'	=> 'Cancer',
-'constellation_7'	=> 'Leo',
-'constellation_8'	=> 'Virgo',
-'constellation_9'	=> 'Libra',
-'constellation_10'	=> 'Scorpio',
-'constellation_11'	=> 'Sagittarius',
-'constellation_12'	=> 'Capricorn',
-'zodiac_1'		=> 'Rat',
-'zodiac_2'		=> 'Ox',
-'zodiac_3'		=> 'Tiger',
-'zodiac_4'		=> 'Rabbit',
-'zodiac_5'		=> 'Dragon',
-'zodiac_6'		=> 'Snake',
-'zodiac_7'		=> 'Horse',
-'zodiac_8'		=> 'Goat',
-'zodiac_9'		=> 'Monkey',
-'zodiac_10'		=> 'Rooster',
-'zodiac_11'		=> 'Dog',
-'zodiac_12'		=> 'Pig',
+	'constellation_1'	=> 'Aquarius',//'水瓶座',
+	'constellation_2'	=> 'Pisces',//'双鱼座',
+	'constellation_3'	=> 'Aries',//'白羊座',
+	'constellation_4'	=> 'Taurus',//'金牛座',
+	'constellation_5'	=> 'Gemini',//'双子座',
+	'constellation_6'	=> 'Cancer',//'巨蟹座',
+	'constellation_7'	=> 'Leo',//'狮子座',
+	'constellation_8'	=> 'Virgo',//'处女座',
+	'constellation_9'	=> 'Libra',//'天秤座',
+	'constellation_10'	=> 'Scorpio',//'天蝎座',
+	'constellation_11'	=> 'Sagittarius',//'射手座',
+	'constellation_12'	=> 'Capricorn',//'摩羯座',
+	'zodiac_1'		=> 'Rat',//'鼠',
+	'zodiac_2'		=> 'Cow',//'牛',
+	'zodiac_3'		=> 'Tiger',//'虎',
+	'zodiac_4'		=> 'Rabbit',//'兔',
+	'zodiac_5'		=> 'Dragon',//'龙',
+	'zodiac_6'		=> 'Snake',//'蛇',
+	'zodiac_7'		=> 'Horse',//'马',
+	'zodiac_8'		=> 'Sheep',//'羊',
+	'zodiac_9'		=> 'Monkey',//'猴',
+	'zodiac_10'		=> 'Chicken',//'鸡',
+	'zodiac_11'		=> 'Dog',//'狗',
+	'zodiac_12'		=> 'Pig',//'猪',
 
 	'credits'		=> '포인트',
 	'usergroup'		=> '회원 등급',
@@ -98,7 +98,7 @@ $lang = array(
 	'block3'		=> '사용자 정의 모듈3',
 	'block4'		=> '사용자 정의 모듈4',
 	'block5'		=> '사용자 정의 모듈5',
-	'blockdata' => array(
+/*vot*/	'blockdata'		=> array(
 		'personalinfo'	=> '개인 정보',
 		'profile'	=> '프로필',
 		'doing'		=> '토막글',
@@ -132,17 +132,17 @@ $lang = array(
 	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
 	'wall_form'		=> '<div class="space_wall_post">
 					<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
-						'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
-						<br /><textarea name="message" id="comment_message" class="pt" rows="3" cols="60" onkeydown="ctrlEnter(event, \'commentsubmit_btn\');" style="width: 90%;"></textarea>
-						<input type="hidden" name="refer" value="home.php?mod=space&uid={uid}" />
-						<input type="hidden" name="id" value="{uid}" />
-						<input type="hidden" name="idtype" value="uid" />
-						<input type="hidden" name="commentsubmit" value="true" />' :
-						'<div class="pt hm">글을 작성하시려면 <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">로그인</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">'.$_G['setting']['reglinkname'].'</a>을 하셔야 합니다.</div>').'
-						<p class="ptn"><button '.($_G['uid'] ? 'type="submit"' : 'type="button" onclick="showWindow(\'login\', \'member.php?mod=logging&action=login&guestmessage=yes\')"').' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>글 쓰기</strong></button></p>
-						<input type="hidden" name="handlekey" value="commentwall_{uid}" />
-						<span id="return_commentwall_{uid}"></span>
-						<input type="hidden" name="formhash" value="{FORMHASH}" />
+					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
+					<br /><textarea name="message" id="comment_message" class="pt" rows="3" cols="60" onkeydown="ctrlEnter(event, \'commentsubmit_btn\');" style="width: 90%;"></textarea>
+					<input type="hidden" name="refer" value="home.php?mod=space&uid={uid}" />
+					<input type="hidden" name="id" value="{uid}" />
+					<input type="hidden" name="idtype" value="uid" />
+					<input type="hidden" name="commentsubmit" value="true" />' :
+					($_G['connectguest'] ? '<div class="pt hm">당신이 필요 <a href="member.php?mod=connect" class="xi2">계정 정보를 향상</a> 또는 <a href="member.php?mod=connect&ac=bind" class="xi2">바인딩 기존 계정</a> 后才可以回帖</div>' : '<div class="pt hm">글을 작성하시려면 <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">로그인</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">'.$_G['setting']['reglinkname'].'</a></div>')).'
+					<p class="ptn"><button '.($_G['uid'] ? 'type="submit"' : 'type="button" onclick="showWindow(\'login\', \'member.php?mod=logging&action=login&guestmessage=yes\')"').' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>글 쓰기</strong></button></p>
+					<input type="hidden" name="handlekey" value="commentwall_{uid}" />
+					<span id="return_commentwall_{uid}"></span>
+					<input type="hidden" name="formhash" value="{FORMHASH}" />
 					</form>'.
 					($_G['uid'] ? '<script type="text/javascript">
 						function succeedhandle_commentwall_{uid}(url, msg, values) {
@@ -150,18 +150,18 @@ $lang = array(
 						}
 					</script>' : '').'
 					</div>',
-	'wall_li'	=> '<dl class="bbda cl" id="comment_{cid}_li">
-				<dd class="m avt">
-				{author_avatar}
-				</dd>
-				<dt>
-				{author}
-				<span class="y xw0">{op}</span>
-				<span class="xg1 xw0">{date}</span>
-				<span class="xgl">{moderated}</span>
-				</dt>
-				<dd id="comment_{cid}">{message}</dd>
-				</dl>',
+	'wall_li'		=> '<dl class="bbda cl" id="comment_{cid}_li">
+					<dd class="m avt">
+					{author_avatar}
+					</dd>
+					<dt>
+					{author}
+					<span class="y xw0">{op}</span>
+					<span class="xg1 xw0">{date}</span>
+					<span class="xgl">{moderated}</span>
+					</dt>
+					<dd id="comment_{cid}">{message}</dd>
+					</dl>',
 	'wall_more'		=> '<dl><dt><span class="y xw0"><a href="home.php?mod=space&uid={uid}&do=wall">전체 보기</a></span><dt></dl>',
 	'wall_edit'		=> '<a href="home.php?mod=spacecp&ac=comment&op=edit&cid={cid}&handlekey=editcommenthk_{cid}" id="c_{cid}_edit" onclick="showWindow(this.id, this.href, \'get\', 0);">수정</a> ',
 	'wall_del'		=> '<a href="home.php?mod=spacecp&ac=comment&op=delete&cid={cid}&handlekey=delcommenthk_{cid}" id="c_{cid}_delete" onclick="showWindow(this.id, this.href, \'get\', 0);">삭제</a> ',
@@ -175,7 +175,7 @@ $lang = array(
 	'block_profile_wall'	=> '방명록',
 	'block_profile_avatar'	=> '아바타',
 	'block_profile_update'	=> '프로필',
-'block_profile_follow' => '查看广播',
+	'block_profile_follow'		=> 'View Feed',//'查看广播',
 	'block_profile_wall_to_me'	=> '방명록',
 	'block_profile_friend_add'	=> '초대',
 	'block_profile_friend_ignore'	=> '친구제거',
@@ -185,23 +185,23 @@ $lang = array(
 	'block_doing_no_content'	=> '토막글이 없습니다.',
 	'block_doing_no_content_publish'	=> '，<a href ="home.php?mod=space&uid={uid}&do=doing&view=me&from=space">토막글 작성</a>',
 	'block_blog_no_content'		=> '블로그 정보가 없습니다.',
-	'block_blog_no_content_publish'	=> '，<a href ="home.php?mod=spacecp&ac=blog">글 쓰기</a>',
+	'block_blog_no_content_publish'	=> ', <a href ="home.php?mod=spacecp&ac=blog">글 쓰기</a>',
 	'block_album_no_content'	=> '앨범 정보가 없습니다.',
-	'block_album_no_content_publish'	=> '，<a href ="home.php?mod=spacecp&ac=upload">업로드</a>',
+	'block_album_no_content_publish'	=> ', <a href ="home.php?mod=spacecp&ac=upload">업로드</a>',
 	'block_feed_no_content'		=> '최근 소식이 없습니다.',
 	'block_thread_no_content'	=> '주제 정보가 없습니다.',
-	'block_thread_no_content_publish'	=> '，<a href ="forum.php?mod=misc&action=nav&special=0&from=home" onclick="showWindow(\'nav\', this.href);return false;">작성</a>',
+	'block_thread_no_content_publish'	=> ', <a href ="forum.php?mod=misc&action=nav&special=0&from=home" onclick="showWindow(\'nav\', this.href);return false;">작성</a>',
 	'block_friend_no_content'	=> '친구 정보가 없습니다.',
-	'block_friend_no_content_publish'	=> ' <a href ="home.php?mod=spacecp&ac=search">친구 찾기</a> 또는 <a href ="home.php?mod=spacecp&ac=invite">초대</a>',
+	'block_friend_no_content_publish'	=> ', <a href ="home.php?mod=spacecp&ac=search">친구 찾기</a> 또는 <a href ="home.php?mod=spacecp&ac=invite">초대</a>',
 	'block_visitor_no_content'	=> '최근 방문자 정보가 없습니다.',
-	'block_visitor_no_content_publish'	=> '，<a href ="home.php?mod=space&do=friend&view=online&type=member">블로그 방문</a>',
+	'block_visitor_no_content_publish'	=> ', <a href ="home.php?mod=space&do=friend&view=online&type=member">블로그 방문</a>',
 	'block_share_no_content'	=> '공유 정보가 없습니다.',
 	'block_wall_no_content'		=> '방명록 메시지가 없습니다.',
 	'block_group_no_content'	=> '모임 정보가 없습니다.',
-	'block_group_no_content_publish'	=> '，<a href ="forum.php?mod=group&action=create">만들기</a> 또는 <a href ="group.php?mod=index">가입</a>',
-	'block_group_no_content_join'	=> '，<a href ="group.php?mod=index">가입</a>',
+	'block_group_no_content_publish'	=> ', <a href ="forum.php?mod=group&action=create">만들기</a> 또는 <a href ="group.php?mod=index">가입</a>',
+	'block_group_no_content_join'	=> ', <a href ="group.php?mod=index">가입</a>',
 	'block_myapp_no_content'	=> '어플리케이션 정보가 없습니다.',
-	'block_myapp_no_content_publish'	=> '，<a href ="userapp.php?mod=manage&my_suffix=/app/list">어플리케이션 목록</a>',
+	'block_myapp_no_content_publish'	=> ', <a href ="userapp.php?mod=manage&my_suffix=/app/list">어플리케이션 목록</a>',
 	'block_view_noperm'		=> '볼수 있는 권한이 없습니다.',
 	'block_view_profileinfo_noperm'	=> '프로필을 볼수 있는 권한이 없습니다.',
 	'click_play'		=> '재생',
@@ -237,7 +237,7 @@ $lang = array(
 	'doing_you_can'		=> '내용을 입력 하세요...',
 	'block_profile_all'	=> '<p style="text-align: right;"><a href="home.php?mod=space&uid={uid}&do=profile">개인 프로필 전체 보기</a></p>',
 	'block_profile_edit'	=> '<span class="y xw0"><a href="home.php?mod=spacecp&ac=profile">내 프로필 수정</a></span>',
-'sb_follow' => '{who}的广播',
+	'sb_follow'		=> '{who} followings',//'{who}的广播',
 
 	'viewthread_userinfo_hour'	=> '시간',
 	'viewthread_userinfo_uid'	=> 'UID',
@@ -254,32 +254,32 @@ $lang = array(
 	'viewthread_userinfo_regtime'	=> '접속 시간',
 	'viewthread_userinfo_lastdate'	=> '최근 접속',
 	'viewthread_userinfo_oltime'	=> '온라인 시간',
-'viewthread_userinfo_sellercredit' => '卖家信用',
-'viewthread_userinfo_buyercredit' => '买家信用',
-'viewthread_userinfo_follower' => '听众数',
-'viewthread_userinfo_following' => '收听数',
-'follow_view_follow' => '我关注的',
-'follow_view_special' => '特别关注',
-'follow_view_other' => '广播大厅',
-'follow_view_feed' => '{who}的广播',
-'follow_view_thread' => '{who}的主题',
-'follow_view_reply' => '{who}的回复',
-'follow_view_profile' => '{who}的个人资料',
-'follow_view_type_feed' => '广播',
-'follow_view_type_thread' => '主题',
-'follow_view_type_reply' => '回帖',
-'follow_view_type_profile' => '个人资料',
-'follow_view_type_follower' => '听众列表',
-'follow_view_type_following' => '收听用户',
-'follow_view_my_follower' => '我的听众',
-'follow_view_my_following' => '我收听的人',
-'follow_view_do_follower' => '他的听众',
-'follow_view_do_following' => '他收听的人',
-'follow_view_fulltext' => '...查看全文',
-'follow_retract' => '收起',
-'follow_click_play' => '点击播放',
-'follow_cancle_follow' => '取消收听',
-'follow_follow_ta' => '收听TA',
+	'viewthread_userinfo_sellercredit'	=> 'Seller rating',//'卖家信用',
+	'viewthread_userinfo_buyercredit'	=> 'Buyer rating',//'买家信用',
+	'viewthread_userinfo_follower'		=> 'Number of followers',//'听众数',
+	'viewthread_userinfo_following'		=> 'Number of listenings',//'收听数',
+	'follow_view_follow'			=> 'I follow',//'我关注的',
+	'follow_view_special'			=> 'Special attention',//'特别关注',
+	'follow_view_other'			=> 'Following Hall',//'广播大厅',
+	'follow_view_feed'			=> '{who}\'s feed',//'{who}的广播',
+	'follow_view_thread'			=> '{who}\s threads',//'{who}的主题',
+	'follow_view_reply'			=> '{who}\s replies',//'{who}的回复',
+	'follow_view_profile'			=> '{who}\s Personal data',//'{who}的个人资料',
+	'follow_view_type_feed'			=> 'Follow',//'广播',
+	'follow_view_type_thread'		=> 'Threads',//'主题',
+	'follow_view_type_reply'		=> 'Reply',//'回帖',
+	'follow_view_type_profile'		=> 'Profile',//'个人资料',
+	'follow_view_type_follower'		=> 'Follower list',//'听众列表',
+	'follow_view_type_following'		=> 'Followings list',//'收听用户',
+	'follow_view_my_follower'		=> 'My followers',//'我的听众',
+	'follow_view_my_following'		=> 'My followings',//'我收听的人',
+	'follow_view_do_follower'		=> 'His followers',//'他的听众',
+	'follow_view_do_following'		=> 'His followings',//'他收听的人',
+	'follow_view_fulltext'			=> '... View full text',//'...查看全文',
+	'follow_retract'			=> 'Collapse',//'收起',
+	'follow_click_play'			=> 'Click to Play',//'点击播放',
+	'follow_cancle_follow'			=> 'Cancel follow',//'取消收听',
+	'follow_follow_ta'			=> 'Follow the author',//'收听TA',
 
 
 );
