@@ -431,7 +431,7 @@ $lang = array (
 
 	'smilies_delete_invalid'		=> 'Du kannst Smilie-Kategorien nicht direkt l&ouml;schen.',
 'smilies_update_succeed'		=> 'Updated successfully. {num} smiles in the directory {smurl} yet not activated for search, have been automatically added to the smile category &quot;{typename}&quot;.',//'更新成功，在 {smurl} 目录中共搜索到 {num} 个尚未启用的表情，已自动添加到表情分类“{typename}”。',
-'smilies_update_error'			=> 'Can not find any smile images in directory {smurl}, please return.<br />Please add the smile images to {smurl} directory via FTP, and then refresh this page.',//'目录 {smurl} 中没有找到尚未使用的表情图片，请返回。<br />添加表情请通过 FTP 上传表情图片到 {smurl} 目录，然后刷新本页。',
+'smilies_update_error'			=> 'No new smile images found in directory {smurl}.<br />Please add new smile images to {smurl} directory via FTP, and then refresh this page.',//'目录 {smurl} 中没有找到尚未使用的表情图片，请返回。<br />添加表情请通过 FTP 上传表情图片到 {smurl} 目录，然后刷新本页。',
 	'smilies_import_succeed_renamed'	=> 'Bereits vorhandene Smilies wurden automatisch umbenannt. Die Smilies wurden erfolgreich importiert.',
 	'smilies_import_succeed'		=> 'Die Smilies wurden erfolgreich importiert.',
 
