@@ -10,7 +10,7 @@
 $lang = array
 (
 	'anonymouspost_name'			=> 'Анонимйзер',
-	'anonymouspost_desc'			=> 'Позволяет публиковать посты анонимно',
+	'anonymouspost_desc'			=> 'Позволяет публиковать сообщения анонимно',
 	'anonymouspost_num'			=> 'Количество артефактов: {magicnum}',
 	'anonymouspost_forum'			=> 'Разрешено использование в форумах',
 	'anonymouspost_info'			=> 'Введите ID Вашей темы, которая будет опубликована от имени анонима',

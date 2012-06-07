@@ -9,7 +9,7 @@
 
 $lang = array
 (
-	'attachsize_name'	=> 'Расширитель аттачей',
+	'attachsize_name'	=> 'Расширитель вложений',
 	'attachsize_desc'	=> 'Увеличение размера файлового хранилища для прикрепленных файлов',
 	'attachsize_info'	=> 'Добавляет к хранилищу: {num} Мб.',
 	'attachsize_addsize'	=> 'Добавить объем',

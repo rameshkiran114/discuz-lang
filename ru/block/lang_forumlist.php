@@ -25,7 +25,7 @@ $lang = array
 	'forumlist_orderby_comment'		=> 'Укажите метод сортировки',
 	'forumlist_orderby_displayorder'	=> 'По умолчанию',
 	'forumlist_orderby_threads'		=> 'По кол-ву тем',
-	'forumlist_orderby_todayposts'		=> 'По кол-ву постов за сегодня',
-	'forumlist_orderby_posts'		=> 'По кол-ву постов',
+	'forumlist_orderby_todayposts'		=> 'По кол-ву сообщений за сегодня',
+	'forumlist_orderby_posts'		=> 'По кол-ву сообщений',
 );
 

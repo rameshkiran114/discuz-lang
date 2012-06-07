@@ -20,7 +20,7 @@ $lang = array(
 	'share_action'		=> 'добавил закладку',
 
 	'pm_comment'		=> 'Ответить на сообщение',
-	'pm_thread_about'	=> 'О Вашем постинге в теме &quot;{subject}&quot;',
+	'pm_thread_about'	=> 'О Вашем сообщении в теме &quot;{subject}&quot;',
 
 	'wall_pm_subject'	=> 'Новое сообщение на стене',
 	'wall_pm_message'	=> 'Здравствуйте, на Вашей стене оставлено новое сообщение. Для просмотра сообщение перейдите по ссылке: [url=\\1]Новое сообщение на Вашей стене[/url]',
@@ -44,7 +44,7 @@ $lang = array(
 	'message_can_not_send_13'	=> 'Это НЕ сообщение группового чата',
 	'message_can_not_send_14'	=> 'Это НЕ личное сообщение',
 	'message_can_not_send_15'	=> 'Неверные данные!',
-	'message_can_not_send_16'	=> 'You have exceeded the maximum number of PM within 24 hours',//'您超出了24小时内发短消息数量的上限',
+	'message_can_not_send_16'	=> 'Вы исчерпали лимит отправки личных сообщений за 24 часа.',//'您超出了24小时内发短消息数量的上限',
 	'message_can_not_send_onlyfriend'	=> 'Пользователь может получать личные сообщения только от друзей',
 
 
@@ -168,7 +168,7 @@ $lang = array(
 
 	'magicunit'		=> 'шт.',
 	'magic_note_wall'	=> '{actor} оставил сообщение на Вашей <a href="{url}" target="_blank">Стене</a>',
-	'magic_call'		=> 'упомянул Ваше имя в постинге. <a href="{url}" target="_blank">Посмотреть</a>',
+	'magic_call'		=> 'упомянул Ваше имя в сообщении <a href="{url}" target="_blank">Посмотреть</a>',
 
 
 	'present_user_magics'	=> 'Вы получили в подарок от администратора артефакт: \\1',
@@ -216,7 +216,7 @@ $lang = array(
 	'do_stat_sendpm'	=> 'Отправка ЛС',
 	'do_stat_addfriend'	=> 'Предложения дружбы',
 	'do_stat_friend'	=> 'Стали друзьями',
-	'do_stat_post_number'	=> 'Количество постов',
+	'do_stat_post_number'	=> 'Количество сообщений',
 	'do_stat_statistic'	=> 'Общая статистика',
 	'logs_credit_update_TRC'	=> 'Бонусы за задачи',
 	'logs_credit_update_RTC'	=> 'Бонусы за темы',
@@ -289,7 +289,7 @@ $lang = array(
 
 	'profile_unchangeable'		=> 'Внимание! Данная информация заполняется только один раз! После сохранения изменение будет невозможно!',
 	'profile_is_verifying'		=> 'Данная информация находится на проверке',
-	'profile_mypost'		=> 'Мои постинги',
+	'profile_mypost'		=> 'Мои сообщения',
 	'profile_need_verifying'	=> 'Данная информация требует проверки модератором',
 	'profile_edit'			=> 'Изменить',
 	'profile_censor'		=> '(список запрещённых слов)',

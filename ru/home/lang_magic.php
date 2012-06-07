@@ -10,7 +10,7 @@
 $lang = array
 (
 	'target_tid'		=> 'ID целевой темы',
-	'target_pid'		=> 'ID целевого поста',
+	'target_pid'		=> 'ID целевого сообщения',
 	'target_username'	=> 'Имя целевого пользователя',
 	'magics_type_1'		=> 'Тип тем',
 	'magics_type_2'		=> 'Тип пользователей',

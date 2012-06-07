@@ -69,16 +69,16 @@ $lang = array
 
 	'reason_merge'		=> 'Ваш тема <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> была {modaction}. Модератор: {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_delete_post'	=> 'Ваш пост в теме <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> было удалено. Модератор: {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_delete_post'	=> 'Ваше сообщение в теме <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> было удалено. Модератор: {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'reason_delete_comment'	=> 'Ваш комментарий к <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> был удален. Модератор: {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_ban_post'	=> 'Ваше пост <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> был заблокирован. Модератор: {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_ban_post'	=> 'Ваше сообщение <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> был заблокирован. Модератор: {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 //	'reason_warn_post' => '您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction}<br />
 //连续 {warningexpiration} 天内累计 {warninglimit} 次警告，您将被自动禁止发言 {warningexpiration} 天。<br />
 //截止至目前，您已被警告 {authorwarnings} 次，请注意！<div class="quote"><blockquote>{reason}</blockquote></div>',
-	'reason_warn_post'	=> 'Ваш пост в <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> был {modaction}! Модератор: {actor}.<br />
+	'reason_warn_post'	=> 'Ваше сообщение в <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> был {modaction}! Модератор: {actor}.<br />
 				При получении {warninglimit} предупреждений, в течение {warningexpiration} дней, Вам будет автоматически запрещено отправлять сообщения в течение {warningexpiration} дней.<br />
 				Количество Ваших предупреждений: {authorwarnings}.
 				<div class="quote"><blockquote>{reason}</blockquote></div>',
@@ -122,11 +122,11 @@ $lang = array
 				<p class="summary">Оплата: <span>{price} руб.</span></p>
 				<p class="summary">Зачислено баллов: <span>{value}</span></p>',
 
-	'rate_reason'		=> '{actor} добавил Вам рейтинг: {ratescore} за Ваш пост <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a>. <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'rate_reason'		=> '{actor} добавил Вам рейтинг: {ratescore} за Ваше сообщение <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a>. <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'recommend_note_post'	=> 'Congratulations, Your post <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> was recommended',//'恭喜，您的帖子 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被编辑采用',
+	'recommend_note_post'	=> 'Поздравляем! Ваше сообщение <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> было рекомендовано',//'恭喜，您的帖子 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被编辑采用',
 
-	'rate_removereason'	=> '{actor} снял рейтинг {ratescore} за Ваш пост в теме <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a>. <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'rate_removereason'	=> '{actor} снял рейтинг {ratescore} за Ваше сообщение в теме <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a>. <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'trade_seller_send'	=> '<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> купил Ваш товар <a href="forum.php?mod=trade&orderid={orderid}" target="_blank">{subject}</a>, и ожидает его доставки. &nbsp; <a href="forum.php?mod=trade&orderid={orderid}" target="_blank" class="lit">Открыть &rsaquo;</a>',
 
@@ -162,7 +162,7 @@ $lang = array
 
 	'comment_add'		=> '{actor} ответил в Вашей теме <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>. &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">Открыть &rsaquo;</a>',
 
-	'reppost_noticeauthor'	=> '{actor} ответил на Ваш пост в теме <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a>. &nbsp; <a class="lit" href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">Открыть</a>',
+	'reppost_noticeauthor'	=> '{actor} ответил на Ваше сообщение в теме <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a>. &nbsp; <a class="lit" href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">Открыть</a>',
 
 	'task_reward_credit'	=> 'Поздравляем! Вы выполнили задачу: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>, и получили бонус: {creditbonus}. &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">Показать баланс &rsaquo;</a></p>',
 
@@ -213,14 +213,14 @@ $lang = array
 	'manage_verifyarticle'		=> 'Ожидают новые статьи <a href="admin.php?action=moderate&operation=articles" target="_blank">Перейти</a>',
 	'manage_verifymedal'		=> 'Ожидают новые медали <a href="admin.php?action=medals&operation=mod" target="_blank">Перейти</a>',
 	'manage_verifyacommont'		=> 'Ожидают новые комментарии к статьям <a href="admin.php?action=moderate&operation=articlecomments" target="_blank">Перейти</a>',
-	'manage_verifytopiccommont'	=> 'Ожидают новые комментарии к топикам <a href="admin.php?action=moderate&operation=topiccomments" target="_blank">Перейти</a>',
+	'manage_verifytopiccommont'	=> 'Ожидают новые комментарии к темам <a href="admin.php?action=moderate&operation=topiccomments" target="_blank">Перейти</a>',
 	'manage_verify_field'		=> 'Ожидают новые поля {verifyname} <a href="admin.php?action=verify&operation=verify&do={doid}" target="_blank">Обработать</a>',
 	'system_notice'			=> '{subject}<p class="summary">{message}</p>',
 	'system_adv_expiration'		=> 'Срок действия следующих рекламных объявлений истекает через {day} дн.<br />{advs}',
 	'report_change_credits'		=> '{actor} проверил Вашу жалобу, Вам добавлено баллов {creditchange}',
 	'at_message'			=> '<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> in the thread <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> mentioned of your name <div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">View now</a>.',//'<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> 在主题 <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> 中提到了你<div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">现在去看看</a>。',
 	'new_report'			=> 'Ождают новые жалобы, <a href="admin.php?action=report" target="_blank">Посмотреть</a>?',
-	'new_post_report'		=> 'Ожидание новые жалобы на посты, <a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">Посмотреть</a>',
+	'new_post_report'		=> 'Ожидание новые жалобы на сообщения, <a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">Посмотреть</a>',
 	'magics_receive'		=> '{actor} подарил Вам артефакт {magicname}
 					<p class="summary">Сообщение: <span>{msg}</span></p>
 					<p class="mbn"><a href="home.php?mod=magic" target="_blank">Вернуть подарок</a>
