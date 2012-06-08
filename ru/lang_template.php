@@ -73,7 +73,7 @@ $lang = array (
 	'my_nav'			=> 'Мой Центр',
 	'my_nav_login'			=> 'Пожалуйста, <a href="javascript:;" class="xi2" onclick="lsSubmit()"><strong>войдите на сайт</strong></a> для быстрой навигации<br />или зарегистрируйтесь: <a href="member.php?mod={$_G[setting][regname]}" class="xi2 xw1">Регистрация</a>',
 	'open_diy'			=> 'Панель настройки стилей',
-	'pm_center'			=> 'PM',
+	'pm_center'			=> 'ЛС',
 	'portal_block_manage'		=> 'Управление блоками',
 	'portal_manage'			=> 'Портал-Центр',
 	'remind'			=> 'Уведомления',
