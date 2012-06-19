@@ -55,10 +55,10 @@ $lang = array
 	'memberlist_lastpost_day'		=> 'Last day',//'最近1天',
 	'memberlist_lastpost_week'		=> 'Last week',//'最近一周',
 	'memberlist_lastpost_month'		=> 'Last month',//'最近一月',
-	'memberlist_orderby_extcreditselect'		=> 'Select Specific points',//'扩展积分',
+	'memberlist_orderby_extcreditselect'	=> 'Select Specific points',//'扩展积分',
 	'memberlist_orderby_extcreditselect_comment'	=> 'Set the specific points for order',//'按指定扩展积分倒序排序的积分值',
-	'memberlist_orderby_hours'			=> 'Posts in hours',//'按小时内发帖数倒序',
-	'memberlist_orderby_hours_comment'		=> 'Specific time of posts',//'指定时间内发帖数倒序排序的时间值',
-	'memberlist_yes'				=> 'Yes',//'是',
+	'memberlist_orderby_hours'		=> 'Posts in hours',//'按小时内发帖数倒序',
+	'memberlist_orderby_hours_comment'	=> 'Specific time of posts',//'指定时间内发帖数倒序排序的时间值',
+	'memberlist_yes'			=> 'Yes',//'是',
 );
 

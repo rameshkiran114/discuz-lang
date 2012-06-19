@@ -25,7 +25,7 @@ $lang = array
 	'header_style'		=> 'Styles',//'界面',
 	'header_adv'		=> 'Ads',//'广告',
 	'header_tools'		=> 'Tools',//'工具',
-	'header_uc'		=> 'UCenter',//
+	'header_uc'		=> 'UCenter',
 	'header_welcome'	=> 'Welcome',//'您好',
 	'header_logout'		=> 'Logout',//'退出',
 	'header_bbs'		=> 'The&nbsp;Site',//'站点首页',
@@ -140,7 +140,7 @@ $lang = array
 	'menu_ec'			=> 'E-commerce',//'电子商务',
 	'menu_card'			=> 'Recharge card close',//'充值卡密',
 
-	'menu_styles'			=> 'Skins',//'风格管理',
+	'menu_styles'			=> 'Default Skin',//'风格管理',
 	'menu_styles_templates'		=> 'Templates',//'模板管理',
 	'menu_posting_smilies'		=> 'Smiles',//'表情管理',
 	'menu_click'			=> 'Ratings',//'表态动作',
@@ -182,7 +182,7 @@ $lang = array
 	'menu_portalpermission'		=> 'Portal permissions',//'权限列表',
 	'menu_blockxml'			=> 'Third-party blocks',//'第三方模块',
 	'menu_topic'			=> 'Topic Management',//'专题管理',
-	'menu_diytemplate'		=> 'Custom Styles Management',//'DIY页面管理',
+	'menu_diytemplate'		=> 'DIY Management',//'DIY页面管理',
 
 	'menu_group_setting'		=> 'Group Settings',//'群组设置',
 	'menu_group_type'		=> 'Group Categories',//'群组分类',

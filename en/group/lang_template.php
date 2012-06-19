@@ -10,7 +10,7 @@
  */
 
 $lang = array (
-	'credits'			=> 'Money',//'积分',
+	'credits'			=> 'Credits',//'积分',
 	'favorite'			=> 'Favorites',//'收藏',
 	'group_admin'			=> 'Manage group',//'管理{$_G[setting][navs][3][navname]}',
 	'group_create'			=> 'Create group',//'创建{$_G[setting][navs][3][navname]}',

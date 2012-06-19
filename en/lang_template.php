@@ -380,14 +380,14 @@ $lang = array (
 //---------------------------
 // Added by Valery Votintsev
 
-	'follow_view_follow'		=> 'I follow',//'我关注的',
-	'follow_stop'			=> 'Stop follow',//'不收听',
-	'follow_start'			=> 'Follow',//'收听TA',
+	'follow_view_follow'	=> 'I follow',//'我关注的',
+	'follow_stop'		=> 'Stop follow',//'不收听',
+	'follow_start'		=> 'Follow',//'收听TA',
 
-	'e_full_screen'			=> 'Full Screen',//'全屏',
-	'e_restore_size'		=> 'Restore size',//'恢复',
-	'e_simple'			=> 'General Mode',//'常用',
-	'e_advanced'			=> 'Advanced Mode',//'高级',
+	'e_full_screen'		=> 'Full Screen',//'全屏',
+	'e_restore_size'	=> 'Restore size',//'恢复',
+	'e_simple'		=> 'General Mode',//'常用',
+	'e_advanced'		=> 'Advanced Mode',//'高级',
 
 //static/space/t1/style.css
 	'default_style'	=> 'Default style',//'[name]默认风格[/name]',
