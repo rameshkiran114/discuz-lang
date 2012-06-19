@@ -1542,4 +1542,14 @@ $lang = array (
 //---------------------------------------------------------------
 // Added by Valery Votintsev
 	'login_immediately'	=> 'التسجيل الآن',//'马上登录',
+	'nofollow'		=> 'Stop follow',//'不收听',
+	'views'			=> 'Views',//'空间查看数',
+	'in'			=> ' &nbsp;In',//'在',
+	'poston'		=> 'Post time',//'发表于',
+	'views'			=> 'Views',//'查看',
+	'reply_num'		=> 'Replies',//'回复',
+	'follow_intro1'		=> 'كيف تقوم بعملية النشر ؟',//'',
+	'follow_intro2'		=> 'ضع رسالتك هنا !',//'',
+	'follow_intro3'		=> 'تفحص متتبعينك وأيضاً الذين تتبعهم',//'',
+	'follow_intro4'		=> 'رسالتك سوف تظهر هنا .',//'',
 );

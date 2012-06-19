@@ -32,7 +32,7 @@ $lang = array (
 	'follow_del'			=> 'Cancel follow',//'取消收听',
 	'follow_del_special_following'	=> 'Cancel special follow',//'取消特别收听',
 	'follow_feeds_num'		=> 'Number of feeds',//'广播数',
-	'follow_fetch_interested_user'	=> 'Looking for interested people in and follow them',//'寻找感兴趣的人并收听他',
+	'follow_fetch_interested_user'	=> ' for looking for interesting people and follow them',//'寻找感兴趣的人并收听他',
 	'follow_follower'		=> 'Follower',//'听众',
 	'follow_following'		=> 'I\'m following',//'我收听的',
 	'follow_following_null'		=> 'No follow objects',//'还没有关注的内容',
@@ -873,7 +873,7 @@ $lang = array (
 	'newest_thread'		=> 'Новые темы',
 	'no_related_posts'	=> 'Нет соответствующих тем',
 	'post_comment'		=> 'Комментарии',
-	'posted'		=> 'Создать тему',
+	'posted'		=> 'Создано в',
 	'replies'		=> 'Ответ./<br/>Просм.',
 	'they_thread'		=> 'Все темы пользователя',
 	'top_thread'		=> 'Популярные темы',
@@ -1541,4 +1541,14 @@ $lang = array (
 //---------------------------------------------------------------
 // Added by Valery Votintsev
 	'login_immediately'	=> 'Войти сейчас',//'马上登录',
+	'nofollow'		=> 'Stop follow',//'不收听',
+	'views'			=> 'Views',//'空间查看数',
+	'in'			=> ' &nbsp;In',//'在',
+	'poston'		=> 'Post time',//'发表于',
+	'views'			=> 'Views',//'查看',
+	'reply_num'		=> 'Replies',//'回复',
+	'follow_intro1'		=> 'How to broadcast?',//'',
+	'follow_intro2'		=> 'Write your message here',//'',
+	'follow_intro3'		=> 'Check your followings and listeners',//'',
+	'follow_intro4'		=> 'Your content will be shown here',//'',
 );
