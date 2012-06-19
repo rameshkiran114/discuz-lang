@@ -562,7 +562,7 @@ var lng = {
 	'quit'			: 'Quit',//'退出',
 //--------------------------------
 //static/js/qshare.js
-	'from_tencent'		: 'Отправлено из микроблога Tencent',//"\u6211\u6765\u81EA\u4E8E\u817E\u8BAF\u5FAE\u535A\u5F00\u653E\u5E73\u53F0",
+	'from_tencent'		: 'Отправлено из Tencent',//"\u6211\u6765\u81EA\u4E8E\u817E\u8BAF\u5FAE\u535A\u5F00\u653E\u5E73\u53F0",
 
 //--------------------------------
 //static/js/register.js
@@ -578,8 +578,9 @@ var lng = {
 	'email_fill'		: 'Введите email адрес',//'请输入邮箱地址',
 	'length_min'		: ', Minimum length',//', 最小长度为 '
 	'chars'			: ' characters',//' 个字符',
+	'password_strength'	: 'Password strength: ',//'密码强度:',
 	'pw_weak'		: 'Weak',//'弱',
-	'pw_middle'		: 'So-so',//'中',
+	'pw_middle'		: 'Middle',//'中',
 	'pw_strong'		: 'Strong',//'强',
 	'pass_short'		: 'Password is too short, must be not less than ',//'密码太短，不得少于 ',
 	'digital'		: 'Digital',//'数字',

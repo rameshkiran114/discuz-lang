@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_template.php by Valery Votintsev at sources.ru
+ *     $Id: lang_template.php by Valery Votintsev, codersclub.org
  *
  *      This file is automatically generate
  */
@@ -225,7 +225,7 @@ $lang = array (
 	'index_yesterday'	=> 'Вчера',
 	'my_posts'		=> 'Мои темы',
 	'never'			=> 'Нет сообщений',
-	'on'			=> 'в',
+	'on'			=> ', ',//'at the time',
 	'online_only_guests'	=> 'Онлайн только гости или невидимки',
 	'onlinemember'		=> 'Сейчас онлайн',
 	'onlines'		=> 'Онлайн',
@@ -1228,6 +1228,10 @@ $lang = array (
 // Added by Valery Votintsev
 	'view_thread_textmode'		=> 'Text mode',//'文字模式',
 	'like'				=> 'Like',//'喜欢',
+	'in'				=> ' &nbsp;In',//'在',
+	'reply_num'			=> 'Replies',//'回复',
+	'loading'			=> 'Loading...',//'加载中...',
+	'follow_add'			=> 'Listen',//'收听',//Subscribe
 //	'e_paste'			=> 'Paste',//'粘贴',
 );
 
