@@ -1228,6 +1228,10 @@ $lang = array (
 // Added by Valery Votintsev
 	'view_thread_textmode'		=> 'Text mode',//'文字模式',
 	'like'				=> 'Like',//'喜欢',
+	'in'				=> ' &nbsp;In',//'在',
+	'reply_num'			=> 'Replies',//'回复',
+	'loading'			=> 'Loading...',//'加载中...',
+	'follow_add'			=> 'Listen',//'收听',//Subscribe
 //	'e_paste'			=> 'Paste',//'粘贴',
 );
 
