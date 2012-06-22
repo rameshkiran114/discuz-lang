@@ -96,7 +96,7 @@ $lang = array(
 	'advice_curl_init'		=> 'Whether enabled the curl_init function in PHP configuration',//'是否 PHP 配置中禁止了 curl_init 函数',
 
 	'ucurl'				=> 'UCenter URL',//'UCenter 的 URL',
-	'ucpw'				=> 'UCenter administrator password',//'UCenter 创始人密码',
+	'ucpw'				=> 'UCenter Founder Password',//'UCenter 创始人密码',
 	'ucip'				=> 'UCenter IP address',//'UCenter 的IP地址',
 	'ucenter_ucip_invalid'		=> 'Invalid format, please fill in the correct IP address',//'格式错误，请填写正确的 IP 地址',
 	'ucip_comment'			=> 'In most cases you can leave this empty',//'绝大多数情况下您可以不填',
@@ -224,8 +224,8 @@ $lang = array(
 	'init_bbcode_3'	=> 'Show QQ online status, click to this icon and chat with him/her',//'显示 QQ 在线状态，点这个图标可以和他（她）聊天',
 	'init_bbcode_4'	=> 'Superscript',//'上标',
 	'init_bbcode_5'	=> 'Subscript',//'下标',
-	'init_bbcode_6'	=> 'Embedded Windows media audio',//'嵌入 Windows media 音频',
-	'init_bbcode_7'	=> 'Embedded Windows media audio or video',//'嵌入 Windows media 音频或视频',
+	'init_bbcode_6'	=> 'Embedded Windows Media Audio',//'嵌入 Windows media 音频',
+	'init_bbcode_7'	=> 'Embedded Windows Media Audio or video',//'嵌入 Windows media 音频或视频',
 
 	'init_qihoo_searchboxtxt'		=> 'Input keywords for quick search this forum',//'输入关键词,快速搜索本论坛',
 	'init_threadsticky'			=> 'Stick object: Global top, Category Top, This forum top',//'全局置顶,分类置顶,本版置顶',

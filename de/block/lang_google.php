@@ -1,6 +1,6 @@
 <?php
 
-/**
+/**---
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -26,5 +26,7 @@ $lang = array
 	'google_default_1'		=> 'Suche',
 	'google_client'			=> 'League ID Suche',
 	'google_client_comment'		=> 'Wenn du die Google Suche verwendest kannst du nach bestimmten ID suchen.',
+// Added by vot
+'google_lang_ru'		=> 'Russian',//'俄语',
 );
 
