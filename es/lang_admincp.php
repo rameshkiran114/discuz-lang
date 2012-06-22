@@ -4194,7 +4194,7 @@ $lang = array
 	'announce_message_comment'	=> '<b>Announce text:</b>Announce content support BBCode<br /><b>URL link:</b>Please enter the announce link such as: http://xxx.xxx.xxx',//'<b>文字公告:</b> 直接输入公告内容，支持 Discuz! 代码<br /><b>网址链接:</b> 请输入公告的链接地址如某个主题地址: http://xxx.xxx.xxx',
 
 	'misc_onlinelist'		=> 'Online List icons',//'在线列表图标',
-	'misc_onlinelist_tips'		=> '<li>This function used to customize the home page legend of displayed online member groups. It is take effect only if the online list feature enabled.</li><li>If a group legend is blank, the user group will be diplayed as "ordinary members".</li><li>Enter the legend image file name for each user group, and upload the corresponding image file to the static/image/common/ directory.</li>',//'<li>本功能用于自定义首页及主题列表页显示的在线会员分组及图例，只在在线列表功能打开时有效。</li><li>用户组图例处空白为不区分该组用户，所有未区分的用户组将统一归入第一行的“普通用户”项。</li><li>用户组图例中请填写图片文件名，并将相应图片文件上传到 static/image/common/ 目录中。</li>',
+	'misc_onlinelist_tips'		=> '<li>This function used to customize the home page legend of displayed online member groups. It is take effect only if the online list feature enabled.</li><li>If a group legend is blank, the user group will be displayed as "ordinary members".</li><li>Enter the legend image file name for each user group, and upload the corresponding image file to the static/image/common/ directory.</li>',//'<li>本功能用于自定义首页及主题列表页显示的在线会员分组及图例，只在在线列表功能打开时有效。</li><li>用户组图例处空白为不区分该组用户，所有未区分的用户组将统一归入第一行的“普通用户”项。</li><li>用户组图例中请填写图片文件名，并将相应图片文件上传到 static/image/common/ 目录中。</li>',
 	'misc_onlinelist_image'		=> 'User Group Legend Image',//'用户组图例',
 
 	'misc_link_group1'		=> 'Group 1',//'分组1',
