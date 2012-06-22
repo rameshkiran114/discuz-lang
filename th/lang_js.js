@@ -96,7 +96,6 @@ var lng = {
 	'plain_text_warn'	: 'ถ้าหากแปลงเป็นข้อความล้วนจะสูญเสียการจัดรูปแบบบางอย่าง แน่ใจหรือไม่ว่าคุณต้องการทำต่อไป?',//'转换为纯文本时将会遗失某些格式。\n您确定要继续吗？',
 	'browser_update'	: 'บราวเซอร์ของคุณไม่รองรับคุณสมบัตินี้ กรุณาอัพเกรดเบราวเซอร์ของคุณให้เป็นเวอร์ชันล่าสุด',//'你的浏览器不支持此功能，请升级浏览器版本',
 	'tips'			: 'เคล็ดลับ',//'小提示',
-//	'show_tips'		: 'แสดงคำแนะนำ',//'友情提示',
 
 //---------------------------
 //static/image/editor/editor_function.js
@@ -576,8 +575,9 @@ var lng = {
 	'email_fill'		: 'กรุณากรอกที่อยู่อีเมล์',//'请输入邮箱地址',
 	'length_min'		: ', Minimum length',//', 最小长度为 '
 	'chars'			: ' characters',//' 个字符',
+	'password_strength'	: 'Password strength: ',//'密码强度:',
 	'pw_weak'		: 'Weak',//'弱',
-	'pw_middle'		: 'So-so',//'中',
+	'pw_middle'		: 'Middle',//'中',
 	'pw_strong'		: 'Strong',//'强',
 	'pass_short'		: 'Password is too short, must be not less than ',//'密码太短，不得少于 ',
 	'digital'		: 'Digital',//'数字',

@@ -30,5 +30,7 @@ $lang = array
 	'google_default_1' => 'ค้นหา',
 	'google_client' => 'ID กูเกิลแอดเซ็นท์',
 	'google_client_comment' => 'หากคุณเข้าร่วม Google แอดเซ็นท์, คุณสามารถกรอกข้อมูล ID ได้ที่นี่',
+// Added by vot
+'google_lang_ru'		=> 'Russian',//'俄语',
 );
 

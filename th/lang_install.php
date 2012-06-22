@@ -4,10 +4,10 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: install_lang.php by Valery Votintsev at sources.ru
+ *      $Id: lang_install.php by Valery Votintsev, codersclub.org
  */
 
-define('UC_VERNAME', 'English Version');
+define('UC_VERNAME', 'International Version');
 
 $lang = array(
 	'SC_GBK'		=> 'Simplified Chinese GBK encoding',//'简体中文版',
@@ -20,7 +20,7 @@ $lang = array(
 	'title_install'		=> SOFT_NAME.' Setup Wizard',//SOFT_NAME.' 安装向导',
 	'agreement_yes'		=> 'I agree',//'我同意',
 	'agreement_no'		=> 'I do NOT agree',//'我不同意',
-	'notset'		=> 'Not set',//'不限制',//????? No limits, Not limited
+	'notset'		=> 'Not set',//'不限制',
 
 	'message_title'		=> 'Reminder',//'提示信息',
 	'error_message'		=> 'Error message',//'错误信息',
@@ -74,11 +74,11 @@ $lang = array(
 	'tips_dbinfo_comment'	=> '',//'',
 	'tips_admininfo'	=> 'Setting the administrator information',//'填写管理员信息',
 	'step_ext_info_title'	=> 'Installed successfully.',//'安装成功。',
-	'step_ext_info_comment'	=> 'Click to enter login',//'点击进入登陆',
+	'step_ext_info_comment'	=> 'Click to enter login',//'点击进入登录',
 
 	'ext_info_succ'		=> 'Installed successfully.',//'安装成功。',
 	'install_submit'	=> 'Submit',//'提交',
-	'install_locked'	=> 'Install lock has been installed.<br><br>If you sure you want to re-install, go to the server and delete the file<br />'.str_replace(ROOT_PATH, '', $lockfile),//'安装锁定，已经安装过了，如果您确定要重新安装，请到服务器上删除<br /> '.str_replace(ROOT_PATH, '', $lockfile),
+	'install_locked'	=> 'Installation is locked.<br><br>If you sure you want to re-install, go to the server and delete the file<br />'.str_replace(ROOT_PATH, '', $lockfile),//'安装锁定，已经安装过了，如果您确定要重新安装，请到服务器上删除<br /> '.str_replace(ROOT_PATH, '', $lockfile),
 	'error_quit_msg'	=> 'You must solve the above problems, before the installation can continue.',//'您必须解决以上问题，安装才可以继续',
 
 	'step_app_reg_title'	=> 'Setting environment',//'设置运行环境',
@@ -87,10 +87,13 @@ $lang = array(
 	'tips_ucenter_comment'	=> 'UCenter is the Comsenz inc. core service program. Discuz! Board and other Comsenz applications rely on this program. If you have already installed UCenter, please fill in the information below. Otherwise, please go to <a href="http://www.discuz.com/" target="blank">Comsenz Products</a> to download and install UCenter, and then continue.',//'UCenter 是 Comsenz 公司产品的核心服务程序，Discuz! Board 的安装和运行依赖此程序。如果您已经安装了 UCenter，请填写以下信息。否则，请到 <a href="http://www.discuz.com/" target="blank">Comsenz 产品中心</a> 下载并且安装，然后再继续。',
 
 	'advice_mysql_connect'		=> 'Please check the mysql module is loaded correctly.',//'请检查 mysql 模块是否正确加载',
-	'advice_fsockopen'		=> 'This function require the <b>allow_url_fopen</b> option to be <b>On</b> in php.ini. Please contact the server administrator to resolve this problem.',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
 	'advice_gethostbyname'		=> 'PHP configuration is not allowed the <b>gethostbyname</b> function. Please contact the server administrator to resolve this problem.',//'是否php配置中禁止了gethostbyname函数。请联系空间商，确定开启了此项功能',
 	'advice_file_get_contents'	=> 'This function require the <b>allow_url_fopen</b> option to <b>On</b> in php.ini. Please contact the server administrator to resolve this problem.',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
 	'advice_xml_parser_create'	=> 'This function require the PHP support for XML. Please contact the server administrator to resolve this problem.',//'该函数需要 PHP 支持 XML。请联系空间商，确定开启了此项功能',
+	'advice_fsockopen'		=> 'This function require the <b>allow_url_fopen</b> option to be <b>On</b> in php.ini. Please contact the server administrator to resolve this problem.',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
+	'advice_pfsockopen'		=> 'This function requires to allow_url_fopen in php.ini. Please contact the hosting provider to set this value',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
+	'advice_stream_socket_client'	=> 'Whether enabled the stream_socket_client function in PHP configuration',//'是否 PHP 配置中禁止了 stream_socket_client 函数',
+	'advice_curl_init'		=> 'Whether enabled the curl_init function in PHP configuration',//'是否 PHP 配置中禁止了 curl_init 函数',
 
 	'ucurl'				=> 'UCenter URL',//'UCenter 的 URL',
 	'ucpw'				=> 'UCenter administrator password',//'UCenter 创始人密码',
@@ -166,7 +169,7 @@ $lang = array(
 
 	'install_in_processed'		=> 'Installing ...',//'正在安装...',
 	'install_succeed'		=> 'Installation successfully completed! Click here to enter your Discuz! X2',//'安装成功，点击进入',
-	'install_cloud'			=> 'After successful installation, Welcome to the opening Discuz! Cloud platform<br>Discuz! Cloud platform dedicated to help website owners to increase their websites traffic, enhance the ability of Web site operators, and increase a website revenue.<br>Discuz! Cloud platform currently provides a free QQ Internet, Tencent analysis, Cloud search, QQ Group Community,Roaming,SOSO emoticon services.Discuz! Cloud platform will continue to provide more quality services to the project.<br>Before open the Discuz! Platform make sure that your website (Discuz!, UCHome or SupeSite) has been upgraded to Discuz! X2.',//'安装成功，欢迎开通Discuz!云平台<br>Discuz!云平台致力于帮助站长提高网站流量，增强网站运营能力，增加网站收入。<br>Discuz!云平台目前免费提供了QQ互联、腾讯分析、纵横搜索、社区QQ群、漫游应用、SOSO表情服务。Discuz!云平台将陆续提供更多优质服务项目。<br>开通Discuz!平台之前，请确保您的网站（Discuz!、UCHome或SupeSite）已经升级到Discuz!X2。',
+	'install_cloud'			=> 'After successful installation, Welcome to the opening Discuz! Cloud platform<br>Discuz! Cloud platform dedicated to help website owners to increase their websites traffic, enhance the ability of Web site operators, and increase a website revenue.<br>Discuz! Cloud platform currently provides a free QQ Internet, Tencent analysis, Cloud search, QQ Group Community,Roaming,SOSO emoticon services.Discuz! Cloud platform will continue to provide more quality services to the project.<br>Before open the Discuz! Platform make sure that your website (Discuz!, UCHome or SupeSite) has been upgraded to Discuz! X2.5.',//'安装成功，欢迎开通Discuz!云平台<br>Discuz!云平台致力于帮助站长提高网站流量，增强网站运营能力，增加网站收入。<br>Discuz!云平台目前免费提供了QQ互联、腾讯分析、纵横搜索、社区QQ群、漫游应用、SOSO表情服务。Discuz!云平台将陆续提供更多优质服务项目。<br>开通Discuz!平台之前，请确保您的网站（Discuz!、UCHome或SupeSite）已经升级到Discuz!X2.5。',
 	'to_install_cloud'		=> 'Open Admin-Center',//'到后台开通',
 	'to_index'			=> 'Temporarily not open',//'暂不开通',
 
@@ -230,11 +233,11 @@ $lang = array(
 	'init_default_style'			=> 'Default Style',//'默认风格',
 	'init_default_forum'			=> 'Default Forum',//'默认版块',
 	'init_default_template'			=> 'Default template',//'默认模板套系',
-	'init_default_template_copyright'	=> 'Sing Imagination (Beijing) Technology Co., Ltd.',//'康盛创想（北京）科技有限公司',
+	'init_default_template_copyright'	=> 'Sing Imagination (Beijing) Technology Co., Ltd.',//'北京康盛新创科技有限责任公司',
 
 	'init_dataformat'	=> 'Y-m-d',//'Y-n-j',
 	'init_modreasons'	=> 'Advertising/SPAM\r\nMalicious/Hacking\r\nIllegal content\r\nOfftopic\r\nRepeated post\r\n\r\nI agree\r\nExcellent article\r\nOriginal content',//'广告/SPAM\r\n恶意灌水\r\n违规内容\r\n文不对题\r\n重复发帖\r\n\r\n我很赞同\r\n精品文章\r\n原创内容',
-	'init_userreasons'	=> 'Powerfull!\r\nUsefull\r\nVery nice\r\nThe best!\r\nInteresting',
+	'init_userreasons'	=> 'Powerfull!\r\nUsefull\r\nVery nice\r\nThe best!\r\nInteresting',//'很给力!\r\n神马都是浮云\r\n赞一个!\r\n山寨\r\n淡定',
 	'init_link'		=> 'Discuz! Official forum',//'Discuz! 官方论坛',
 	'init_link_note'	=> 'To provide the latest Discuz! Product news, software downloads and technical exchanges',//'提供最新 Discuz! 产品新闻、软件下载与技术交流',
 
@@ -285,9 +288,13 @@ $lang = array(
 
 
 <p>Hong Sing products on the end user license agreement, business license and technical services to the details provided by the Hong Sing exclusive. Sing the company has without prior notice, modify the license agreement and services price list right to the modified agreement or price list from the change of the date of the new authorized user to take effect.</p>
+
 <p>Once you start the installation Hong Sing products, shall be deemed to fully understand and accept the terms of this Agreement, the terms in the enjoyment of the rights granted at the same time, by the relevant constraints and restrictions. Licensing agreement outside the scope of acts would be a direct violation of this License Agreement and constitute an infringement, we have the right to terminate the authorization, shall be ordered to stop the damage, and retain the power to investigate related responsibilities.</p>
+
 <p>The interpretation of the terms of the license agreement, validity, and dispute resolution, applicable to the mainland People\'s Republic of law.</p>
+
 <p>Between Hong Sing if you and any dispute or controversy, should first be settled through friendly consultations, the consultation fails, you hereby agree to submit the dispute or controversy Sing Haidian District People\'s Court where jurisdiction. Hong Sing Company has the right to interpret the above terms and discretion.</p>
+
 </div>',
 
 	'uc_installed'		=> 'You have installed the UCenter. If you need to re-install, delete the data/install.lock file',//'您已经安装过 UCenter，如果需要重新安装，请删除 data/install.lock 文件',
@@ -335,14 +342,6 @@ $lang = array(
 	'create_table'		=> 'Create table',//'建立数据表',
 	'succeed'		=> 'Success',//'成功 ',
 
-	'testdata'			=> 'Add regions data',//'附加数据',
-	'testdata_check_label'		=> 'Install additional regional data (countries/regions/cities)',//'Install demo page templates (4)',
-	'portalstatus'			=> 'Portal status',
-	'portalstatus_check_label'	=> '',
-	'groupstatus'			=> 'Groups status',
-	'groupstatus_check_label'	=> '',
-	'homestatus'			=> 'Home Status',
-	'homestatus_check_label'	=> '',
 	'install_data'			=> 'Data installed successfully',//'正在安装数据',
 	'install_test_data'		=> 'Install regional data',//'正在安装附加数据',
 
@@ -350,10 +349,12 @@ $lang = array(
 	'database_nonexistence'		=> 'Database object does not exist',//'数据库操作对象不存在',
 	'skip_current'			=> 'Skip this step',//'跳过本步',
 	'topic'				=> 'Topic',//'专题',
+
 //---------------------------------------------------------------
-//vot 2 vars for language select:
-	'welcome'			=> 'Welcome to Discuz! X Installation!',
-	'select_language'		=> '<b>Select the installation language</b>:',
+// Added by Valery Votintsev
+// 2 vars for language select:
+	'welcome'			=> 'Welcome to Discuz! X Installation!',//'欢迎到Discuz！ X安装！',
+	'select_language'		=> '<b>Select the installation language</b>:',//'<b>选择安装语言</b>',
 //vot !!!Translate to Chinese!!!
 //vot	'regiondata'			=> 'Add regions data',//'Add location data',
 //vot	'regiondata_check_label'	=> 'Install additional regional data (countries/regions/cities)',//'Install additional regional data (countries/regions/cities)',
@@ -361,12 +362,9 @@ $lang = array(
 
 //---------------------------------------------------------------
 
-
-
 );
 
 $msglang = array(
 	'config_nonexistence'	=> 'Your config.inc.php file does not exist. Can not continue the installation, please use the FTP to upload the file and try again.',//'您的 config.inc.php 不存在, 无法继续安装, 请用 FTP 将该文件上传后再试。',
 );
 
-?>
