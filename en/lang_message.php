@@ -480,7 +480,7 @@ $lang = array (
 	'report_parameters_invalid'	=> 'Page parameter error, temporarily unable to report.',//'页面参数错误，暂不能举报。',
 	'report_succeed'		=> 'Reported successfully.',//'举报成功。',
 
-	'seccode_player'		=> '<div style="padding:2px">{flashcode}<img border="0" style="vertical-align:middle" src="static/image/common/seccodeplayer.gif" /> <a href="javascript:;" onclick="updateseccode(\'{idhash}\', 1)">Play Code</a></div>',//'<div style="padding:2px">{flashcode}<img border="0" style="vertical-align:middle" src="static/image/common/seccodeplayer.gif" /> <a href="javascript:;" onclick="updateseccode(\'{idhash}\', 1)">播放验证码</a></div>',
+	'seccode_player'		=> '<span style="padding:2px">{flashcode}<img border="0" style="vertical-align:middle" src="static/image/common/seccodeplayer.gif" /> <a href="javascript:;" onclick="updateseccode(\'{idhash}\', 1)">Play Code</a></span>',//'<span style="padding:2px">{flashcode}<img border="0" style="vertical-align:middle" src="static/image/common/seccodeplayer.gif" /> <a href="javascript:;" onclick="updateseccode(\'{idhash}\', 1)">播放验证码</a></span>',
 
 	'tag_closed'			=> 'Sorry, this tag has been locked by administrator.',//'对不起，管理员锁定了此 TAG。',
 
@@ -602,7 +602,7 @@ $lang = array (
 	'block_topic_nopermission'		=> 'Sorry, you do not have permission to add thread block',//'抱歉，您没有权限添加专题模块',
 	'block_add_nopermission'		=> 'Sorry, you do not have permission to add this block',//'抱歉，您没有权限添加此模块',
 	'block_no_recommend_library'		=> 'This module does not contain recommended library',//'此模块不含推荐库',
-	'data_in_mod_library'			=> 'The module data was applied to the module library',//'该数据已经在模块推荐库里了',
+	'data_in_mod_library'			=> '<div class="bm"><div class="ntc_l hm">The module data was applied to the module library</div></div>',//'<div class="bm"><div class="ntc_l hm">该数据已经在模块推荐库里了</div></div>',
 	'block_data_type_invalid'		=> 'Data type mismatch, can not push',//'数据类型不匹配，无法推送',
 	'no_right_manage_data'			=> 'You have no permission to manage the module recommendation data',//'你没有权限管理该模块的推荐数据',
 
@@ -995,9 +995,9 @@ $lang = array (
 	'threadtype_unchangeable_invalid'	=> 'Information shall not be modified, please Check {typetitle} options',//'资料不得修改，请返回检查{typetitle}选项',
 
 	'location_login'		=> '',
-	'location_login_succeed_mobile'	=> 'Welcome, {username}! Click here to return the page before login',//'欢迎您回来，{username}。点击进入登录前页面',
-	'location_login_succeed'	=> 'Welcome, {username}! Wait for redirecting to the page before login',//'欢迎您回来，{username}。现在将转入登录前页面，请稍候……',
-	'login_succeed_inactive_member'	=> 'Welcome back {username}. You account needs to active, now redirect you to control panel. {ucsynlogin} ',//'欢迎您回来，{username}。您的帐号处于非激活状态，现在将转入控制面板。 {ucsynlogin} ',
+	'location_login_succeed_mobile'	=> 'Welcome, {username}!<br/>Click here to return the page before login',//'欢迎您回来，{username}。点击进入登录前页面',
+	'location_login_succeed'	=> 'Welcome, {username}!<br/>Wait for redirecting to the page before login',//'欢迎您回来，{username}。现在将转入登录前页面，请稍候……',
+	'login_succeed_inactive_member'	=> 'Welcome back {username}!<br/>You account needs to be activated, now redirect you to control panel. {ucsynlogin} ',//'欢迎您回来，{username}。您的帐号处于非激活状态，现在将转入控制面板。 {ucsynlogin} ',
 	'login_question_empty'		=> 'Please input security Q&A',//'请填写安全提问以及正确的答案',
 	'login_question_invalid'	=> 'Security question error',//'安全提问选择错误，请重新填写',
 	'login_invalid'			=> 'Login is failed, you can try more {loginperm} times',//'登录失败，您还可以尝试 {loginperm} 次 {seccodescript} ',
@@ -1017,7 +1017,7 @@ $lang = array (
 	'register_email_verify_location'	=> '<a href="home.php?mod=spacecp&ac=profile&op=password">Receive verification email again</a> <a href="home.php?mod=space&do=home">Visit your personal space</a>',//'<a href="home.php?mod=spacecp&ac=profile&op=password">重新接收验证邮件</a> <a href="home.php?mod=space&do=home">先去逛逛</a>',
 	'register_manual_verify'	=> 'Thanks for your registration, please waiting for administrator to verify your account, now rediret you to user center.',//'非常感谢您的注册，管理员设置了人工验证新注册用户，请等待审核通过，现在将转入个人中心首页。',
 	'register_manual_verify_location'	=> '<a href="home.php?mod=space&do=home">Visit your space</a>',//'<a href="home.php?mod=space&do=home">先去逛逛</a>',
-	'register_succeed'		=> 'Welcome to join the {bbname}, now redirect you to previous page as member.',//'感谢您注册 {bbname}，现在将以会员身份登录站点。',
+	'register_succeed'		=> 'Welcome to join the {bbname}!<br/>Now redirecting to the previous page.',//'感谢您注册 {bbname}，现在将以会员身份登录站点。',
 	'register_succeed_location'	=> '<a href="home.php?mod=spacecp">Customize your settings</a> <a href="home.php?mod=space&do=home">Visit your space</a>',//'<a href="home.php?mod=spacecp">现在去完善资料</a> <a href="home.php?mod=space&do=home">先去逛逛</a>',
 
 	'task_offline'			=> 'This task is not online or has already offline',//'该任务未上线或已下线！',

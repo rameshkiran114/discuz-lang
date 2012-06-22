@@ -921,7 +921,7 @@ $lang = array
 	'setting_styles_forumdisplay_forumpicstyle_thumbnum'		=> 'Number of thumbnails to show',//'封面图显示数量',
 	'setting_styles_forumdisplay_forumpicstyle_thumbnum_comment'	=> 'How many images per page to show when a Forum is set to image list mode. Set to 0 or do not fill for use the regular list mode',//'当版块开启图片列表模式时有效，0或不填 将和普通列表模式每页显示主题数一致',
 	'setting_styles_forumdisplay_defstyle_comment'			=> 'When select "Yes", the default does not display a list of images, users also can choose their own style',//'选择“是”时，默认不以图片列表形式显示，用户也可以自己选择',
-	'setting_styles_forumdisplay_newbie'			=> 'New post icon',//'新人帖图标',
+	'setting_styles_forumdisplay_newbie'			=> 'Newbie post icon',//'新人帖图标',
 	'setting_styles_forumdisplay_newbie_comment'		=> 'This icon is displayed when the user issued the first thread, leave empty for not show the icon',//'用户发第一篇主题时显示的图标，为空则不打图标',
 
 	'setting_styles_viewthread'				=> 'View thread',//'帖子内容页',
@@ -2363,7 +2363,7 @@ $lang = array
 	'forums_edit_inherited'			=> 'Inherit parent Forum settings',//'继承上级版块设置',
 	'forums_edit_newinherited'		=> 'Inherit the designated forum settings',//'继承指定版块设置',
 	'forums_edit_tips'			=> '<li>Following settings are not inherited, that is only the current Forum, that will not impact on the lower sub-Forums.</li>',//'<li>以下设置没有继承性，即仅对当前版块有效，不会对下级子版块产生影响。</li>',
-	'forums_edit_switch'			=> 'Switching Forum/Volume editor',//'切换版块 / 批量编辑',
+	'forums_edit_switch'			=> 'Bulk Forums edit',//'切换版块 / 批量编辑',
 	'forums_multiedit'			=> 'Bulk edit selected Forums',//'批量编辑所选版块',
 
 	'forums_edit_basic'			=> 'Basic settings',//'基本设置',
@@ -4281,7 +4281,7 @@ $lang = array
 	'pic_search_user_comment'	=> 'Separate multiple user names by a comma ","',//'多所有者中间请用半角逗号 "," 隔开',
 	'pic_result'			=> 'Number of relevant images',//'符合条件的图片数',
 	'pic_new_result'		=> 'The number of latest images',//'最新图片数',
-	'pic_succeed'			=> 'Successfullry removed {deletecount} images',//'符合条件的 {deletecount} 张图片被删除',
+	'pic_succeed'			=> 'Successfully removed {deletecount} images',//'符合条件的 {deletecount} 张图片被删除',
 	'pic_mod_range_illegal'		=> 'Specified time range is over the limit.',//'您指定的时间范围超过限制',
 	'pic_post_nonexistence'		=> 'There is no images matching the conditions.',//'没有与条件匹配的图片',
 	'pic_search_createtime'		=> 'Upload time',//'上传时间',
@@ -6623,6 +6623,9 @@ RepeatLimit 32
 
 //---------------------------
 // Added by Valery Votintsev
+
+//source/function/function_admincp.php
+	'upload_selectfile'		=> 'Browse',//'浏览',
 
 //source/admincp/admincp_index.php - javascript function shownews()
 	'subscribe'		=> 'Subscribe',//'订阅',

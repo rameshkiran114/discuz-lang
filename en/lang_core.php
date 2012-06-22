@@ -229,7 +229,7 @@ $lang = array
 	'attackevasive_2_subject'	=> 'Access throug proxy servers is restricted',//'通过代理服务器的访问是受到限制',
 	'attackevasive_2_message'	=> 'Access to the site through a proxy servers is restricted for mow. Please remove your proxy setting configuration, and access to the site directly.',//'通过代理服务器访问网站限制亩。请删除您的代理设置配置，并直接访问该网站。',
 	'attackevasive_4_subject'	=> 'Open the page reload',//'打开页面重载',
-	'attackevasive_4_message'	=> 'Welcome to the site, the page is re-loading, please wait ...',//'欢迎的网站，页面重新载入，请稍候...',
+	'attackevasive_4_message'	=> 'Welcome to the site!<br/>Re-loading the page, please wait...',//'欢迎的网站，页面重新载入，请稍候...',
 
 // Months Names
 	'month_name'	=> array('Month','January','February','March','April','May','June','July','August','September','October','November','December'),//array('月','一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'),
