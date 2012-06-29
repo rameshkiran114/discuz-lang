@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_email.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array

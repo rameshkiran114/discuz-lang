@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_template.php by Valery Votintsev, codersclub.org
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  *
  *      This file is automatically generate
  */
@@ -55,7 +55,7 @@ $lang = array (
 	'required'		=> 'مطلوب',
 	'send_special_activity_error'	=> 'إصدار الهاتف المحمول لا يدعم<strong>الفعاليات</strong>يرجى إختيار نوع آخر',
 	'send_special_trade_error'	=> 'إصدار الهاتف المحمول لا يدعم <strong>المنتجات</strong>يرجى إختيار نوع آخر',
-	'threadsort_error'		=> 'لنشر انواع المواضيع استخدم إصدار الحاسوب',
+	'threadsort_error'		=> 'لنشر أنواع المواضيع استخدم إصدار الحاسوب',
 	'threadsort_calendar'		=> 'صيغة التاريخ 2010 -12-01',
 	'post_poll_options'		=> 'خيارات التصويت',
 	'admin_close_expire_comment'	=> '<span class="xg1">صيغة التاريخ：2010-12-01 10:50</span>',

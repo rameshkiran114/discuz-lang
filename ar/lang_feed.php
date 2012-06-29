@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_feed.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array
@@ -58,7 +58,7 @@ $lang = array
 
 	'feed_invite'			=> '{actor} دعا {username}, ولقد اصبحا أصدقاء',//'{actor} ????,? {username} ?????',
 
-	'magicuse_thunder_announce_title'	=> '<strong>{username} issued a &quot;Sound of Thunder&quot;</strong>',//'<strong>{username} ???“????”</strong>',
+	'magicuse_thunder_announce_title'	=> '<strong>{username} أصدر &quot;دعامة صوت الرعد&quot;</strong>',//'<strong>{username} ???“????”</strong>',
 	'magicuse_thunder_announce_body'	=> 'مرحبا!<br /><a href="home.php?mod=space&uid={uid}">مرحبا بكم في ملفي الشخصي</a>',//'???,????<br /><a href="home.php?mod=space&uid={uid}" target="_blank">????????</a>',
 
 

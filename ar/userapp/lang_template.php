@@ -6,7 +6,7 @@
  *
  *      $Id: lang_template.php by Valery Votintsev at sources.ru
  *
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array (
@@ -27,7 +27,7 @@ $lang = array (
 	'all'			=> 'الكل',//'全部',
 	'app_add'		=> 'إضافة تطبيق',
 	'app_management'	=> 'إدارة التطبيق',
-	'close'			=> 'اغلاق',//'关闭',
+	'close'			=> 'إغلاق',//'关闭',
 	'default_app'		=> 'التطبيق الافتراضي',
 	'determine'		=> 'موافق',//'确定',
 	'edit_settings'		=> 'الإعدادات',//'编辑设置',

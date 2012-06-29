@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_groupactivity.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -21,22 +21,22 @@ $lang = array
 	'groupactivity_uids'			=> 'أرقام الكتاب',//'发起者UID',
 	'groupactivity_uids_comment'		=> 'Set the author UID, use "," to seperate UIDs.',//'设置活动发起人UID ，多个 UID 请用半角逗号“,”隔开。',
 	'groupactivity_startrow'		=> 'صف البدء',//'起始数据行数',
-	'groupactivity_startrow_comment'	=> 'If you need to set start row, please enter a number, 0 is the first row',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
+	'groupactivity_startrow_comment'	=> 'إذا كنت بحاجة لتعيين صف البدء,الرجاء إدخال الرقم, 0 هو الصف الأول',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
 	'groupactivity_items'			=> 'الصفوف',//'显示数据条数',
-	'groupactivity_items_comment'		=> 'Set the numbers of rows you want to display, it must integer and larger than 0',//'设置一次显示的主题条目数，请设置为大于 0 的整数',
+	'groupactivity_items_comment'		=> 'حدد عدد الصفوف التي تريد عرضها , يجب أن تكون أكبر من 0',//'设置一次显示的主题条目数，请设置为大于 0 的整数',
 	'groupactivity_titlelength'		=> 'طول العنوان',//'标题最大字节数',
-	'groupactivity_titlelength_comment'	=> 'Set the max length of title, when the title is longer than this valuse, it will be cutted automatically, 0 is disable',//'设置当标题长度超过本设定时，是否将标题自动缩减到本设定中的字节数，0 为不自动缩减',
+	'groupactivity_titlelength_comment'	=> 'حدد الحد الأقصى من طول العنوان , إذا كان العنوان أكبر من القيمة سيتم قصه تلقائي , ضع 0 لتعطيل الخاصية',//'设置当标题长度超过本设定时，是否将标题自动缩减到本设定中的字节数，0 为不自动缩减',
 	'groupactivity_fnamelength'		=> 'طول عنوان المنتدى',//'标题最大字节数包含版块名称',
-	'groupactivity_fnamelength_comment'	=> 'Set the title max length including the forum name',//'设置标题长度是否将所在版块名称的长度一同计算在内',
+	'groupactivity_fnamelength_comment'	=> 'تعيين الحد الأقصى من طول عنوان المنتدى',//'设置标题长度是否将所在版块名称的长度一同计算在内',
 	'groupactivity_summarylength'		=> 'طول الملخص',//'主题简短内容文字数',
-	'groupactivity_summarylength_comment'	=> 'Set the length of summary, 0 equal to default value (255)',//'设置主题简短内容的文字数，0 为使用默认值 255',
+	'groupactivity_summarylength_comment'	=> 'تعيين مول عنوان الملخص , إستعمل القيمة 0 لإستخدام القيمة الافتراضية وهي (255)',//'设置主题简短内容的文字数，0 为使用默认值 255',
 	'groupactivity_tids'			=> 'أرقام مواضيع محددة',//'指定主题',
 	'groupactivity_tids_comment'		=> 'Set the specified threads tid you want to display, use "," to seperate tids',//'设置要指定显示的主题 tid ，多个 tid 请用半角逗号“,”隔开。注意: 留空为不进行任何过滤',
 	'groupactivity_keyword'			=> 'الكلمات الدلالية',//'标题关键字',
-	'groupactivity_keyword_comment'		=> 'Set the keywords used.<br />You can use wildcard "*" in keywords.<br />If you want to use some keywords at same time, you can use "AND". Example: win32 AND unix.<br />If you want to use just one of keywords, you can use "|" or "OR". Example: win32 OR unix',//'设置标题包含的关键字。注意: 留空为不进行任何过滤<br />关键字中可使用通配符 "*"<br />匹配多个关键字全部，可用空格或 "AND" 连接。如 win32 AND unix<br />匹配多个关键字其中部分，可用 "|" 或 "OR" 连接。如 win32 OR unix',
-	'groupactivity_typeids'			=> 'انواع المواضيع',//'主题分类',
-	'groupactivity_typeids_comment'		=> 'Select specific thread type. Note: Select All or Clear All for disable any filtering.',//'设置特定分类的主题。注意: 全选或全不选均为不进行任何过滤',
-	'groupactivity_typeids_all'		=> 'كل انواع المواضيع',//'全部的主题分类',
+	'groupactivity_keyword_comment'		=> 'تعيين الكلمات الدلالية المستخدمة.<br />يمكنك إستعمال "*"  في الكلمات الدلالية.<br />إذا كنت تريد أن تستخدم بعض الكلمات الدلالية في نفس الوقت, يمكنك إستعمال  "AND". مثال : win32 AND unix.<br />إذا كنت تريد أن تستخدم كلمة واحدة من الكلمات الدلالية يمكنك إستعمال "|" أو "OR".مثال : win32 OR unix',//'设置标题包含的关键字。注意: 留空为不进行任何过滤<br />关键字中可使用通配符 "*"<br />匹配多个关键字全部，可用空格或 "AND" 连接。如 win32 AND unix<br />匹配多个关键字其中部分，可用 "|" 或 "OR" 连接。如 win32 OR unix',
+	'groupactivity_typeids'			=> 'أنواع المواضيع',//'主题分类',
+	'groupactivity_typeids_comment'		=> 'حدد أنواع خاصة من المواضيع . ملاحظة : حدد الكل أو لا تحدد الكل لتعطيل التصفية',//'设置特定分类的主题。注意: 全选或全不选均为不进行任何过滤',
+	'groupactivity_typeids_all'		=> 'كل أنواع المواضيع',//'全部的主题分类',
 	'groupactivity_sortids'			=> 'الترتيب (الأقسام?)',//'分类信息',
 	'groupactivity_sortids_comment'		=> 'Set the thread classification. Note: Select All or None for disable filtering',//'设置特定分类信息的主题。注意: 全选或全不选均为不进行任何过滤',
 	'groupactivity_sortids_all'		=> 'كل الأقسام',//'全部的分类信息',
@@ -61,7 +61,7 @@ $lang = array
 	'groupactivity_special_5'		=> 'موضوع تحدي',//'辩论主题',
 	'groupactivity_special_0'		=> 'موضوع عادي',//'普通主题',
 	'groupactivity_special_reward'		=> 'تصفية حسب الطلب',//'悬赏主题过滤',
-	'groupactivity_special_reward_comment'	=> 'Select specific types of reward',//'设置特定类型的悬赏主题',
+	'groupactivity_special_reward_comment'	=> 'حدد حالة الطلب',//'设置特定类型的悬赏主题',
 	'groupactivity_special_reward_0'	=> 'الكل',//'全部',
 	'groupactivity_special_reward_1'	=> 'منتهي',//'已解决',
 	'groupactivity_special_reward_2'	=> 'نشيط',//'未解决',
@@ -87,7 +87,7 @@ $lang = array
 	'groupactivity_price_add'		=> ' اضافي ',//' 附加 ',
 	'groupactivity_place'			=> 'الامكنة',//'活动地点',
 	'groupactivity_class'			=> 'النوع',//'活动类型',
-	'groupactivity_class_all'		=> 'كل الانواع',//'所有类型',
+	'groupactivity_class_all'		=> 'كل الأنواع',//'所有类型',
 	'groupactivity_gender'			=> 'الجنس',//'性别要求',
 	'groupactivity_gender_0'		=> 'الكل',//'不限',
 	'groupactivity_gender_1'		=> 'ذكر',//'男',

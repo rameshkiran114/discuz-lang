@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_misc.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -199,7 +199,7 @@ $lang = array
 	'perms_allowpostactivity'	=> 'إضافة فعالية',//'发表活动',
 	'perms_allowpostdebate'		=> 'إضافة تحدي',//'发表辩论',
 	'perms_allowposttrade'		=> 'إضافة منتج',//'发表交易',
-	'perms_maxsigsize'		=> 'الطول الاقصى للتوقيع',//'最大签名长度',
+	'perms_maxsigsize'		=> 'الطول الأقصى للتوقيع',//'最大签名长度',
 	'perms_allowsigbbcode'		=> 'إستخدام BBCode في التوقيع',//'签名中使用 Discuz! 代码',
 	'perms_allowsigimgcode'		=> 'إستخدام [img]  في التوقيع',//'签名中使用 [img] 代码',
 	'perms_maxbiosize'		=> 'أقصى طول للنبذة الشخصية',//'自我介绍最大长度',
@@ -276,7 +276,7 @@ $lang = array
 	'perms_allowposttag'		=> 'السماح بالكلمات الدلالية',
 	'perms_allowcreatecollection'	=> 'السماح بإنشاء ألبوم',
 	'perms_allowsendpm'		=> 'السماح بإرسال رسالة',
-	'perms_maximagesize'		=> 'الحد الاقصى من حجم الصورة الواحدة',
+	'perms_maximagesize'		=> 'الحد الأقصى من حجم الصورة الواحدة',
 	'perms_allowmediacode'		=> 'السماح باستخدام رمز الوسائط المتعددة',
 
 	'join_topic'		=> 'إنضمام في موضوع',//'参与话题',
@@ -318,7 +318,7 @@ $lang = array
 	'patch_name'		=> 'الاسم',
 	'patch_dateline'	=> 'التاريخ',
 	'patch_status'		=> 'الحالة',
-	'patch_close'		=> 'اغلاق',
+	'patch_close'		=> 'إغلاق',
 
 	'plugin_title'		=> 'تطبيق تحديث التذكير',
 	'plugin_memo'		=> 'أنت تملك <span class="xi1">{number}</span> تطبيق يمكن أن يتم تحديثه',

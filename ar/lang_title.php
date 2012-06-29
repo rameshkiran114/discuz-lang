@@ -10,6 +10,6 @@
  *
  */
 
-$_SGLOBAL['language_title'] = 'Arabic';
+$_SGLOBAL['language_title'] = 'العربية';//'Arabic';
 $_SGLOBAL['language_icon'] = 'ar.gif';
 

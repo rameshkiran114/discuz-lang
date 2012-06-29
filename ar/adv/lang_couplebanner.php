@@ -1,11 +1,11 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_couplebanner.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -29,8 +29,8 @@ $lang = array
 	'couplebanner_coupleadid_comment'	=> 'تعيين الإعلان التالي لهذا الإعلان',//'设置和当前广告配对的上/下联广告',
 	'couplebanner_category'			=> 'المجلة',
 	'couplebanner_category_comment'		=> 'حدد المجلة التي تريد إظهار الإعلان فيها',
-	'couplebanner_disableclose'		=> 'إغلاق وصلة الإعلان',
-	'couplebanner_disableclose_comment'	=> 'If you want the Advertising can not be closed, you can disable to show the Close link',//'如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
+	'couplebanner_disableclose'		=> 'تعطيل زر إغلاق الإعلان',
+	'couplebanner_disableclose_comment'	=> 'إذا كنت تريد تعطيل إغلاق الإعلان, يمكنك إخفاء زر إغلاق الإعلان',//'如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
 	'couplebanner_show'			=> 'إظهار',
 	'couplebanner_hidden'			=> 'إخفاء',
 );

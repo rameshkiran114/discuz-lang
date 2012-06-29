@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_grouplist.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -19,7 +19,7 @@ $lang = array
 	'grouplist_fids'		=> 'مجموعات محددة',//'指定群组',
 	'grouplist_fids_comment'		=> 'Enter specific group ID, use "," to seperate IDs',//'输入指定群组的ID，多个ID之间用逗号分隔',
 	'grouplist_startrow'		=> 'صف البدء',//'起始数据行数',
-	'grouplist_startrow_comment'		=> 'If you need to set start row, please enter a number, 0 is the first row',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
+	'grouplist_startrow_comment'		=> 'إذا كنت بحاجة لتعيين صف البدء,الرجاء إدخال الرقم, 0 هو الصف الأول',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
 	'grouplist_titlelength'		=> 'طول العنوان',//'名称长度',
 /*vot*/	'grouplist_titlelength_comment'		=> 'Set the group name max length',//'设置群组名称最大长度',
 	'grouplist_summarylength'	=> 'طول الملخص',//'介绍长度',

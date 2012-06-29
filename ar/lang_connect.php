@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_connect.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -34,7 +34,7 @@ $lang = array
 	'qzone_reason_is_long'	=> 'سبب النشر زاد طوله عن الحد المسموح له',//'分享理由超过了长度限制',
 	'qzone_share_same_url'		=> 'The post is allready shared, Not need to repeat sharing',//'该帖子您已经分享过，不需要重复分享',
 
-	'weibo_title'		=> 'للنشر في تدويناتك, يجب قول اي شئ',//'分享到我的微博，顺便说点什么吧',
+	'weibo_title'		=> 'للنشر في تدويناتك, يجب قول أي شئ',//'分享到我的微博，顺便说点什么吧',
 	'weibo_input'		=> 'يمكنك إدخال <strong id=checklen></strong> حرف',//'还能输入<strong id=checklen></strong>字',
 	'weibo_select_picture'	=> 'الرجاء إختيار صورة للنشر',//'请选择分享图片',
 	'weibo_share'		=> 'نشر',//'转播',
@@ -47,7 +47,7 @@ $lang = array
 	'connect_errlog_server_no_response'	=> 'الملقم لا يستجيب',//'服务器无响应',
 	'connect_errlog_access_token_incomplete'	=> 'Interface returned AccessToken incomplete data',//'接口返回的AccessToken数据不完整',
 	'connect_errlog_request_token_not_authorized'	=> 'User TmpToken is unauthorized or return incomplete data',//'用户TmpToken未授权或返回的数据不完整',
-	'connect_errlog_sig_incorrect'	=> 'وصلة التوقيع خاطئة',//'URL签名不正确',
+	'connect_errlog_sig_incorrect'	=> 'رابط التوقيع خاطئة',//'URL签名不正确',
 
 	'connect_tthread_broadcast'	=> 'Broadcast to microblog',//'转播微博',
 	'connect_tthread_message'	=> '<br><br><img class="vm" src="static/image/common/weibo.png">&nbsp;<a href="http://t.qq.com/{username}" target="_blank">From {nick} at Tencent microblog</a>',//'<br><br><img class="vm" src="static/image/common/weibo.png">&nbsp;<a href="http://t.qq.com/{username}" target="_blank">来自 {nick} 的腾讯微博</a>',

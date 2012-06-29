@@ -6,7 +6,7 @@
  *
  *      $Id: lang_template.php by Valery Votintsev at sources.ru
  *
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array (
@@ -21,25 +21,25 @@ $lang = array (
 	'nav_6'		=> 'الهاكات',//'Plugins',//'插件',
 	'nav_7'		=> 'التعليمات',//'Help',//'帮助',
 	'nav_8'		=> 'الترتيب',//'RankList',//'排行榜',
-	'nav_9'		=> 'Follows',//'广播',
-	'nav_10'	=> 'Guide',//'导读',
-	'nav_11'	=> 'Collections',//'淘帖',
-	'nav_12'	=> 'Blogs',//'日志',
-	'nav_13'	=> 'Albums',//'相册',
-	'nav_14'	=> 'Shares',//'分享',
-	'nav_15'	=> 'Moods',//'记录',
+	'nav_9'		=> 'التتبعات',//'广播',
+	'nav_10'	=> 'الإحصائيات',//'导读',
+	'nav_11'	=> 'ألبوم المشاركات',//'淘帖',
+	'nav_12'	=> 'المدونات',//'日志',
+	'nav_13'	=> 'ألبومات',//'相册',
+	'nav_14'	=> 'منشورات',//'分享',
+	'nav_15'	=> 'أفعال',//'记录',
 
-	'nav_portal'	=> 'Portal',//'门户',
+	'nav_portal'	=> 'المجلة',//'门户',
 	'nav_blog'	=> 'مدونة',//'Blogs',//'日志',
 	'nav_album'	=> 'ألبوم',//'Albums',//'相册',
 	'nav_share'	=> 'منشور',//'Shares',//'分享',
-	'nav_doing'	=> 'افعال',//'Doings',//'记录',
-	'nav_wall'	=> 'Wall',//'留言板',
-	'nav_group'	=> 'Groups',//'群组',
-	'nav_ranklist'	=> 'RankList',//'排行榜'
-	'nav_follow'	=> 'Follow',//'广播',
-	'nav_guide'	=> 'Guide',//'导读',
-	'nav_collection'	=> 'Collections',//'淘帖',
+	'nav_doing'	=> 'أفعال',//'Doings',//'记录',
+	'nav_wall'	=> 'الحائط',//'留言板',
+	'nav_group'	=> 'المجموعات',//'群组',
+	'nav_ranklist'	=> 'الترتيب',//'排行榜'
+	'nav_follow'	=> 'التتبعات',//'广播',
+	'nav_guide'	=> 'الإحصائيات',//'导读',
+	'nav_collection'	=> 'ألبومات المشاركات',//'淘帖',
 
 	'nav_stat'	=> 'الإحصائيات',//'Statistics',//'站点统计',
 	'nav_report'	=> 'تبليغ',//'Reports',//'举报',
@@ -51,7 +51,7 @@ $lang = array (
 	'nav_magic'	=> 'الدعائم',//'Magic',//'道具',
 	'nav_medal'	=> 'مركز الأوسمة',//'Medals',//'勋章',
 	'nav_task'	=> 'المهام',//'Tasks',//'任务',
-	'nav_feed'	=> 'Feeds',//'动态',
+	'nav_feed'	=> 'الأخبار',//'动态',
 
 	'nav_sethomepage'	=> 'اجعلنا صفحتك الرئيسية',//'Set as Homepage',//'设为首页',
 	'nav_setfavorite'	=> 'أضف إلى المفضلة',//'Add to Favorites',//'收藏本站',

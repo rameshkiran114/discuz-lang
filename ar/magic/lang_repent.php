@@ -1,11 +1,11 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_repent.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array
@@ -18,6 +18,6 @@ $lang = array
 	'repent_succeed'		=> 'تم حذف المشاركات بنجاح',
 	'repent_info_noperm'		=> 'عذرا ، لا يمكنك إستخدام هذه الدعائم في المنتدى الحالي',
 	'repent_info_user_noperm'	=> 'عذرا، يمكنك فقط حذف مشاركاتك',
-	'repent_do_not_rushreply'	=> 'Can not use this magic for grabbed floor posts',//'不能在抢楼帖中使用此道具',
+	'repent_do_not_rushreply'	=> 'لا يمكن إستخدام هذه الدعامة للمشاركات الملحقة',//'不能在抢楼帖中使用此道具',
 );
 

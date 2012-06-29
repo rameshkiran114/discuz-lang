@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_groupthread.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -21,26 +21,26 @@ $lang = array
 	'groupthread_uids'		=> 'أرقام الكتاب',//'楼主UID',
 	'groupthread_uids_comment'		=> 'Specific thread author ID, use "," to seperate IDs',//'指定主题作者ID，多个ID之间用 , 分割',
 	'groupthread_keyword'		=> 'عنوان الكلمات الدلالية',
-	'groupthread_keyword_comment'		=> 'Set the keywords used.<br />You can use wildcard "*" in keywords.<br />If you want to use some keywords at same time, you can use "AND". Example: win32 AND unix.<br />If you want to use just one of keywords, you can use "|" or "OR". Example: win32 OR unix',//'设置标题包含的关键字。注意: 留空为不进行任何过滤； 关键字中可使用通配符 *； 匹配多个关键字全部，可用空格或 AND 连接。如 win32 AND unix； 匹配多个关键字其中部分，可用 | 或 OR 连接。如 win32 OR unix',
+	'groupthread_keyword_comment'	=> 'تعيين الكلمات الدلالية المستخدمة.<br />يمكنك إستعمال "*"  في الكلمات الدلالية.<br />إذا كنت تريد أن تستخدم بعض الكلمات الدلالية في نفس الوقت, يمكنك إستعمال  "AND". مثال : win32 AND unix.<br />إذا كنت تريد أن تستخدم كلمة واحدة من الكلمات الدلالية يمكنك إستعمال "|" أو "OR".مثال : win32 OR unix',//'设置标题包含的关键字。注意: 留空为不进行任何过滤； 关键字中可使用通配符 *； 匹配多个关键字全部，可用空格或 AND 连接。如 win32 AND unix； 匹配多个关键字其中部分，可用 | 或 OR 连接。如 win32 OR unix',
 	'groupthread_startrow'		=> 'صف البدء',//'起始数据行数',
-	'groupthread_startrow_comment'		=> 'If you need to set start row, please enter a number, 0 is the first row',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
+	'groupthread_startrow_comment'	=> 'إذا كنت بحاجة لتعيين صف البدء,الرجاء إدخال الرقم, 0 هو الصف الأول',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
 	'groupthread_items'		=> 'الصفوف',//'显示数据条数',
-	'groupthread_items_comment'		=> 'Set the numbers of rows you want to display, it must integer and larger than 0',//'设置一次显示的主题条目数，请设置为大于 0 的整数',
+	'groupthread_items_comment'	=> 'حدد عدد الصفوف التي تريد عرضها , يجب أن تكون أكبر من 0',//'设置一次显示的主题条目数，请设置为大于 0 的整数',
 	'groupthread_titlelength'	=> 'طول العنوان',//'标题最大字节数',
-	'groupthread_maxlength_comment'		=> 'Set the max length of title, when the title is longer than this valuse, it will be cutted automatically, 0 is disable',//'设置当标题长度超过本设定时，是否将标题自动缩减到本设定中的字节数，0 为不自动缩减',
+	'groupthread_maxlength_comment'	=> 'حدد الحد الأقصى من طول العنوان , إذا كان العنوان أكبر من القيمة سيتم قصه تلقائي , ضع 0 لتعطيل الخاصية',//'设置当标题长度超过本设定时，是否将标题自动缩减到本设定中的字节数，0 为不自动缩减',
 	'groupthread_fnamelength'	=> 'طول عنوان المنتدى',//'标题最大字节数包含版块名称',
-	'groupthread_fnamelength_comment'	=> 'Set the title max length including the forum name',//'设置标题长度是否将所在版块名称的长度一同计算在内',
+	'groupthread_fnamelength_comment'	=> 'تعيين الحد الأقصى من طول عنوان المنتدى',//'设置标题长度是否将所在版块名称的长度一同计算在内',
 	'groupthread_summarylength'	=> 'طول عنوان الملخص',//'主题简短内容文字数',
-	'groupthread_summarylength_comment'	=> 'Set the length of summary, 0 equal to default value (255)',//'设置主题简短内容的文字数，0 为使用默认值 255',
+	'groupthread_summarylength_comment'	=> 'تعيين مول عنوان الملخص , إستعمل القيمة 0 لإستخدام القيمة الافتراضية وهي (255)',//'设置主题简短内容的文字数，0 为使用默认值 255',
 	'groupthread_picpre'		=> 'أيقونة (البادئة)',//'前缀图标',
 	'groupthread_picpre_comment'		=> 'Set the icon of thread prefix, keep blank to disable it',//'设置是否在主题前加入图片形式的图标，输入图片的 URL (绝对或相对)地址即可，留空为不显示前缀图标',
 	'groupthread_tids'		=> 'مواضيع محددة',//'指定主题',
 	'groupthread_tids_comment'	=> 'أدخل أرقام المواضيع التي تريد عرضها, إستخدم "," للفصل بين الارقام',//'设置要指定显示的主题 tid ，多个 tid 请用半角逗号“,”隔开。注意: 留空为不进行任何过滤',
 	'groupthread_keyword'		=> 'الكلمات الدلالية',//'标题关键字',
-	'groupthread_keyword_comment'		=> 'Set the keywords used.<br />You can use wildcard "*" in keywords.<br />If you want to use some keywords at same time, you can use "AND". Example: win32 AND unix.<br />If you want to use just one of keywords, you can use "|" or "OR". Example: win32 OR unix',//'设置标题包含的关键字。注意: 留空为不进行任何过滤； 关键字中可使用通配符 *； 匹配多个关键字全部，可用空格或 AND 连接。如 win32 AND unix； 匹配多个关键字其中部分，可用 | 或 OR 连接。如 win32 OR unix',
-	'groupthread_typeids'		=> 'انواع المواضيع',//'主题分类',
-	'groupthread_typeids_comment'		=> 'Select specific thread type. Note: Select All or Clear All for disable any filtering.',//'设置特定分类的主题。注意: 全选或全不选均为不进行任何过滤',
-	'groupthread_typeids_all'	=> 'كل انواع المواضيع',//'全部的主题分类',
+	'groupthread_keyword_comment'	=> 'تعيين الكلمات الدلالية المستخدمة.<br />يمكنك إستعمال "*"  في الكلمات الدلالية.<br />إذا كنت تريد أن تستخدم بعض الكلمات الدلالية في نفس الوقت, يمكنك إستعمال  "AND". مثال : win32 AND unix.<br />إذا كنت تريد أن تستخدم كلمة واحدة من الكلمات الدلالية يمكنك إستعمال "|" أو "OR".مثال : win32 OR unix',//'设置标题包含的关键字。注意: 留空为不进行任何过滤； 关键字中可使用通配符 *； 匹配多个关键字全部，可用空格或 AND 连接。如 win32 AND unix； 匹配多个关键字其中部分，可用 | 或 OR 连接。如 win32 OR unix',
+	'groupthread_typeids'		=> 'أنواع المواضيع',//'主题分类',
+	'groupthread_typeids_comment'	=> 'حدد أنواع خاصة من المواضيع . ملاحظة : حدد الكل أو لا تحدد الكل لتعطيل التصفية',//'设置特定分类的主题。注意: 全选或全不选均为不进行任何过滤',
+	'groupthread_typeids_all'	=> 'كل أنواع المواضيع',//'全部的主题分类',
 	'groupthread_sortids'		=> 'أرقام الترتيب(الأقسام?)',//'分类信息',
 	'groupthread_sortids_comment'		=> 'Set the thread classification. Note: Select All or None for disable filtering',//'设置特定分类信息的主题。注意: 全选或全不选均为不进行任何过滤',
 	'groupthread_sortids_all'	=> 'كل الأقسام',//'全部的分类信息',

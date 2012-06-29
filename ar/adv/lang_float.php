@@ -1,11 +1,11 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_float.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -27,8 +27,8 @@ $lang = array
 	'float_position_right'		=> 'يسار',//'右侧',
 	'float_category'		=> 'المجلة',
 	'float_category_comment'	=> 'إظهار إعلان في المجلة',
-	'float_disableclose'		=> 'إغلاق وصلة الإعلان',
-	'float_disableclose_comment'	=> 'If you want the Advertising can not be closed, you can disable to show the Close link',//'如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
+	'float_disableclose'		=> 'تعطيل زر إغلاق الإعلان',
+	'float_disableclose_comment'	=> 'إذا كنت تريد تعطيل إغلاق الإعلان, يمكنك إخفاء زر إغلاق الإعلان',//'如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
 	'float_show'			=> 'إظهار',
 	'float_hidden'			=> 'إخفاء',
 );

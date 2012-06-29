@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_spacecp.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -14,7 +14,7 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array(
 
-	'by'			=> 'ـم الموافقة بواسطة',//'通过',
+	'by'			=> 'تم الموافقة بواسطة',//'通过',
 	'tab_space'		=> ' ',
 
 	'share'			=> 'منشور',//'分享',
@@ -36,7 +36,7 @@ $lang = array(
 	'message_can_not_send_4'	=> 'عذراً, لا يمكنك إستخدام خاصية إرسال الرسائل حالياًً',
 	'message_can_not_send_5'	=> 'لقد تجاوزت جلسة دردشة المجموعة داخل 24 ساعة كحد أقصى',
 	'message_can_not_send_6'	=> 'بعض الاعضا الآخرين حجبوا الرسائل القصيرة التي ترسل من قبلك لهم',
-	'message_can_not_send_7'	=> 'تجاوزت الحد الاقصى من الرسائل',
+	'message_can_not_send_7'	=> 'تجاوزت الحد الأقصى من الرسائل',
 	'message_can_not_send_8'	=> 'عذراً , لا يمكنك الإرسال إلى نفسك !',
 	'message_can_not_send_9'	=> 'رسالة فارغة',
 	'message_can_not_send_10'	=> 'يجب أن يكون عدد أعضاء الدردشة اثنين أو أكثر',
@@ -45,7 +45,7 @@ $lang = array(
 	'message_can_not_send_13'	=> 'هذه ليست رسالة مجموعة',
 	'message_can_not_send_14'	=> 'هذه ليست رسالة خاصة',
 	'message_can_not_send_15'	=> 'البيانات خاطئة',
-	'message_can_not_send_16'	=> 'You have exceeded the maximum number of PM within 24 hours',//'您超出了24小时内发短消息数量的上限',
+	'message_can_not_send_16'	=> 'لقد تجاوزت الحد الأقصى من إرسال الرسائل خلال 24 ساعة',//'您超出了24小时内发短消息数量的上限',
 	'message_can_not_send_onlyfriend'	=> 'عذراً , هذا العضو فقط يقبل الأصدقاء الذين قاموا بإرسال رسالة قصيرة له',
 
 
@@ -85,7 +85,7 @@ $lang = array(
 			<strong>الرجاء الضغط على الرابط ادناه لاستقبال دعوة الصديق:</strong><br>
 			<a href="{inviteurl}">{inviteurl}</a><br>
 			<br>
-			<strong>اذا كنت تملك عضوية في  {sitename}, الرجاء الضغط هنا لرؤية ملفي الشخصي:</strong><br>
+			<strong>إذا كنت تملك عضوية في  {sitename}, الرجاء الضغط هنا لرؤية ملفي الشخصي:</strong><br>
 			<a href="{siteurl}home.php?mod=space&uid={uid}">{siteurl}home.php?mod=space&uid={uid}</a><br>
 			</td></tr></table>',
 
@@ -102,7 +102,7 @@ $lang = array(
 			<strong>الراجاء الدخول للوصلة ادناه للدعوة للعب في {appname}:</strong><br>
 			<a href="{inviteurl}">{inviteurl}</a><br>
 			<br>
-			<strong>اذا كان لديك حساب في {sitename}, الرجاء الضغط على الوصلة للوصول لملفك الشخصي:</strong><br>
+			<strong>إذا كان لديك حساب في {sitename}, الرجاء الضغط على الرابط للوصول لملفك الشخصي:</strong><br>
 			<a href="{siteurl}home.php?mod=space&uid={uid}">{siteurl}home.php?mod=space&uid={uid}</a><br>
 			</td></tr></table>',
 
@@ -144,12 +144,12 @@ $lang = array(
 	'not_allow_upload_extend'	=> 'غير مسموح لك بالرفع الصور من النوع  {extend}',
 	'files_can_not_exceed_size'	=> '{extend}  لاتزيد حجمها عن {size}',
 	'get_passwd_subject'	=> 'إسترجاع كلمة المرور بواسطة البريد',//'取回密码邮件',
-	'get_passwd_message'	=> 'يجب إستخدام هذا الرابط قبل مرور 3 أيام عليه  :<br />\\1<br /> اذا لم يشتغل الرابط انسخه وضعه بشريط العناوين الخاص بالمتصفح  .<br /> ثم قم بكتابة كلمة المرور الجديدة .',//'您只需在提交请求后的三天之内，通过点击下面的链接重置您的密码：<br />\\1<br />(如果上面不是链接形式，请将地址手工粘贴到浏览器地址栏再访问)<br />上面的页面打开后，输入新的密码后提交，之后您即可使用新的密码登录了。',
+	'get_passwd_message'	=> 'يجب إستخدام هذا الرابط قبل مرور 3 أيام عليه  :<br />\\1<br /> إذا لم يشتغل الرابط انسخه وضعه بشريط العناوين الخاص بالمتصفح  .<br /> ثم قم بكتابة كلمة المرور الجديدة .',//'您只需在提交请求后的三天之内，通过点击下面的链接重置您的密码：<br />\\1<br />(如果上面不是链接形式，请将地址手工粘贴到浏览器地址栏再访问)<br />上面的页面打开后，输入新的密码后提交，之后您即可使用新的密码登录了。',
 	'file_is_too_big'	=> 'الملف كبير جداً',//'文件过大',
 
 	'take_part_in_the_voting'		=> '{actor} صوت في إستطلاع  {touser}   <a href="{url}" target="_blank">{subject}</a> وحصل على مكافأة  {reward} نقاط/نقطة .',//'{actor} 参与了 {touser} 的{reward}投票 <a href="{url}" target="_blank">{subject}</a>',
 	'lack_of_access_to_upload_file_size'	=> 'فشل في معرفة حجم الملف المرفوع',//'无法获取上传文件大小',
-	'only_allows_upload_file_types'		=> 'انواع الصور المسموح بها: jpg,jpeg,gif,png',//'只允许上传jpg、jpeg、gif、png标准格式的图片',
+	'only_allows_upload_file_types'		=> 'أنواع الصور المسموح بها: jpg,jpeg,gif,png',//'只允许上传jpg、jpeg、gif、png标准格式的图片',
 	'unable_to_create_upload_directory_server'	=> 'فشل في صناعة دليل في الخادم ',//'服务器无法创建上传目录',
 	'inadequate_capacity_space'		=> 'لا يمكن إضافة ملفات مرفقة أخرى, تم استنفاذ المساحة الخاصة بك .',//'空间容量不足，不能上传新附件',
 	'mobile_picture_temporary_failure'	=> 'لا يمكن تخزين الملفات المؤقتة على الخادم.',//'无法转移临时文件到服务器指定目录',
@@ -242,14 +242,14 @@ $lang = array(
 	'logs_credit_update_RCA'	=> 'ردود الفوز',
 	'logs_credit_update_RCB'	=> 'نقاط مكافأة عائدة من ردود',
 	'logs_credit_update_CDC'	=> 'إعادة شحن شيفرة البطاقة/الكوبون',
-	'logs_credit_update_RGC'	=> 'Remove Gift',//'回收红包',
-	'logs_credit_update_BGC'	=> 'Return Gift',//'埋下红包',
+	'logs_credit_update_RGC'	=> 'إزالة هدية',//'回收红包',
+	'logs_credit_update_BGC'	=> 'إرجاع هدية',//'埋下红包',
 	'logs_credit_update_AGC'	=> 'الحصول على الحزم الحمراء',
 	'logs_credit_update_RKC'	=> 'PPC',
-	'logs_credit_update_BME'	=> 'Buy Medal',//'购买勋章',
+	'logs_credit_update_BME'	=> 'شراء وسام',//'购买勋章',
 	'logs_credit_update_RPR'	=> 'Background points rewards and punishments',//'后台积分奖惩',
 	'logs_credit_update_RPZ'	=> 'Background points rewards and punishments clean',//'后台积分奖惩清零',
-	'logs_credit_update_reward_clean'	=> 'Clean',//'清零',
+	'logs_credit_update_reward_clean'	=> 'مسح',//'清零',
 	'logs_select_operation'	=> 'الرجلاء قم بتحديد عملية',
 	'task_credit'		=> 'نقاط مكافأة مهمة',
 	'special_3_credit'	=> 'نقاط مكافأة الموضوع تم خصمها',
@@ -273,20 +273,20 @@ $lang = array(
 	'thread_credit2'	=> 'نقاط نفقات الموضوع',
 	'buy_credit'		=> 'إعادة شحن النقاط',
 	'buy_usergroup'		=> 'انفاق النقاط لشراء مجموعة أعضاء موسعة',
-	'buy_medal'			=> 'Buy Medal',//'购买勋章',
-	'report_credit'			=> 'Rewards and punishments report',//'举报功能中的奖惩',
+	'buy_medal'		=> 'شراء وسام',//'购买勋章',
+	'report_credit'		=> 'تقارير المعاقبة والمكافأة',//'举报功能中的奖惩',
 	'join'			=> 'إشتراك',
 	'activity_credit'	=> 'الفعاليات، صافي نقاط',
-	'thread_send'			=> 'Post thread deduct points',//'扣除发表',
+	'thread_send'		=> 'خصم نقاط  نشر المشاركة',//'扣除发表',
 	'replycredit'		=> 'توزيع النقاط',
 	'add_credit'		=> 'نقاط مكافأت',
 	'recovery'		=> 'إعادة التدوير',
 	'replycredit_post'	=> 'مكافأت الردود',
 	'replycredit_thread'	=> 'توزيع المشاركات',
-	'card_credit'		=> 'تم اغلاق خاصية إعادة شحن النقاط',
-	'ranklist_top'			=> 'Spend points to participate in bid ranking',//'参加竞价排名消费积分',
-	'admincp_op_credit'		=> 'Credit rewards and punishments operations',//'后台积分奖惩操作',
-	'credit_update_reward_clean'	=> 'Clean',//'清零',
+	'card_credit'		=> 'تم إغلاق خاصية إعادة شحن النقاط',
+	'ranklist_top'			=> 'دفع النقاط للمشاركة في قائمة أفضل الأعضاء',//'参加竞价排名消费积分',
+	'admincp_op_credit'		=> 'عمليات نقاط المكافأة والعقوبة',//'后台积分奖惩操作',
+	'credit_update_reward_clean'	=> 'مسح',//'清零',
 
 	'profile_unchangeable'		=> 'هذه المعلومات لا يمكنك تعديلها بعد التقديم',//'此项资料提交后不可修改',
 	'profile_is_verifying'		=> 'التحقق من هذه المعلومات',//'此项资料正在审核中',
@@ -303,28 +303,28 @@ $lang = array(
 	'district_level_4'		=> '- القرية -',//'-乡镇-',
 	'invite_you_to_visit'		=> '{user} قام بدعوتك لزيارة {bbname}',
 //vot	'district_level_0'		=> '- Country -',//'-国家-',
-	'portal'		=> 'Portal',//'门户',
-	'group'			=> 'Groups',//'群组',
-	'follow'		=> 'Follow',//'广播',
-	'collection'		=> 'Collection',//'淘帖',
-	'guide'			=> 'Guide',//'导读',
-	'feed'			=> 'Feeds',//'动态',
-	'blog'			=> 'Blogs',//'日志',
-	'doing'			=> 'Doings',//'记录',
-	'wall'			=> 'Wall',//'留言板',
-	'homepage'		=> 'Personal Space',//'个人主页',
-	'ranklist'		=> 'RankList',//'排行榜',
-	'select_the_navigation_position'	=> 'Select {type} navigation position',//'选择{type}导航位置',
-	'close_module'		=> 'Close the {type} module',//'关闭{type}功能',
+	'portal'		=> 'المجلة',//'门户',
+	'group'			=> 'المجموعات',//'群组',
+	'follow'		=> 'التتبع',//'广播',
+	'collection'		=> 'ألبوم المشاركات',//'淘帖',
+	'guide'			=> 'الإحصائيات',//'导读',
+	'feed'			=> 'الأخبار',//'动态',
+	'blog'			=> 'المدونات',//'日志',
+	'doing'			=> 'الأفعال',//'记录',
+	'wall'			=> 'الحائط',//'留言板',
+	'homepage'		=> 'الملف الشخصي',//'个人主页',
+	'ranklist'		=> 'قائمة الترتيب',//'排行榜',
+	'select_the_navigation_position'	=> 'تحديد موقع تنقل الخاص بـ {type} ',//'选择{type}导航位置',
+	'close_module'		=> 'إغلاق موديل {type}',//'关闭{type}功能',
 
-	'follow_add_remark'		=> 'Add remark',//'添加备注',
-	'follow_modify_remark'		=> 'Edit remark',//'修改备注',
-	'follow_specified_group'	=> 'Follow specified group',//'广播专区',
-	'follow_specified_forum'	=> 'Follow specified forum',//'广播专版',
+	'follow_add_remark'		=> 'إضافة علامة',//'添加备注',
+	'follow_modify_remark'		=> 'تعديل العلامة',//'修改备注',
+	'follow_specified_group'	=> 'تتبع مجمو عة محددة',//'广播专区',
+	'follow_specified_forum'	=> 'تتبع منتدى محدد',//'广播专版',
 
-	'filesize_lessthan'		=> 'File size should be less than ',//'文件大小应该小于',
+	'filesize_lessthan'		=> 'حجم الملف يجب أن يكون أقل من ',//'文件大小应该小于',
 
-	'spacecp_message_prompt'	=> '(يدعم كود  {msg} , الحد الاقصى 1000 حرف)',//'(支持 {msg} 代码,最大 1000 字)',
+	'spacecp_message_prompt'	=> '(يدعم كود  {msg} , الحد الأقصى 1000 حرف)',//'(支持 {msg} 代码,最大 1000 字)',
 	'card_update_doing'	=> ' <a class="xi2" href="###">[تحديث الأفعال]</a>',
 	'email_acitve_message'	=> '<img src="{imgdir}/mail_inactive.png" alt="لم يتم التحقق" class="vm" />
 					<span class="xi1">البريد الإلكتروني الجديد({newemail})في انتظار التحقق...</span><br />

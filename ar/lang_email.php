@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_email.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -16,7 +16,7 @@ if(!defined('IN_DISCUZ')) {
 $lang = array
 (
 	'hello'				=> 'السلام عليكم',//'你好',
-	'moderate_member_invalidate'	=> 'Decline',//'否决',
+	'moderate_member_invalidate'	=> 'رفض',//'否决',
 	'moderate_member_delete'	=> 'حذف',//'删除',
 	'moderate_member_validate'	=> 'موافقة',//'通过',
 
@@ -32,9 +32,9 @@ $lang = array
 ----------------------------------------------------------------------<br />
 <strong>هام!</strong><br />
 ----------------------------------------------------------------------</p>
-<p>اذا لم تطلب ارجاع كلمة المرور أو التذكير بها أو انك غير مسجل بالمنتدى,
+<p>إذا لم تطلب ارجاع كلمة المرور أو التذكير بها أو انك غير مسجل بالمنتدى,
 الرجاء تجاهل هذه الرسالة وحذفها.
-اذا كنت طلب ارجاع كلمة المرور واعادة تعيينها,
+إذا كنت طلب ارجاع كلمة المرور واعادة تعيينها,
 يجب عليك قراءة المحتوى التالي.</p>
 <p>
 ----------------------------------------------------------------------<br />
@@ -45,7 +45,7 @@ $lang = array
 
 <a href="{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}" target="_blank">{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}</a>
 <br />
-(اذا لم يعمل الرابط اعلاه, الرجاء نسخه ولصقه في شريط العناوين الخاص بالمتصفح .)</p>
+(إذا لم يعمل الرابط اعلاه, الرجاء نسخه ولصقه في شريط العناوين الخاص بالمتصفح .)</p>
 
 <p>بعد فتح الرابط, اكتب كلمة المرور الجديدة , ثم يمكنك إستخدام كلمة المرور الجدية اثناء تسجيل الدخول.
 يمكنك تغيير كلمة المرور من لوحة تحكم العضو بأي وقت من الاوقات.</p>
@@ -66,7 +66,7 @@ $lang = array
 تم إرسال لك الرسالة من  {bbname}.</p>
 <p>أنت استقبلت هذه الرسالة, بسبب الأعضاء الجدد بالمنتدى,
 أو عضو استخدم بريدك.
-اذا لم تزر منتدانا, أو غير مهتم ,
+إذا لم تزر منتدانا, أو غير مهتم ,
 الرجاء تجاهل هذه الرسالة.
 يجب عليك قراء الارشادات حتى تطبق العملية.</p>
 <br />
@@ -81,7 +81,7 @@ $lang = array
 
 <a href="{url}" target="_blank">{url}</a>
 <br />
-(اذا لم يعمل الرابط اعلاه, الرجاء نسخه ولصقه في شريط العناوين الخاص بالمتصفح .)</p>
+(إذا لم يعمل الرابط اعلاه, الرجاء نسخه ولصقه في شريط العناوين الخاص بالمتصفح .)</p>
 
 <p>شكراً لزيارتك وأتمنى أن تكون سعيدا! </p>
 
@@ -92,36 +92,33 @@ $lang = array
 ادراة  {bbname} .<br />
 {siteurl}</p>',
 
-	'email_register_subject' =>	'Forum registration',//'论坛注册地址',
-'email_register_message' =>	'<br />
-<p>This letter is sent from {bbname}.</p>
+	'email_register_subject' =>	'التسجيل في المنتدى',//'论坛注册地址',
+	'email_register_message' =>	'<br />
+<p>هذه الرسالة من {bbname} </p>
 
-<p>You have received this message due to somebody (may be you) registered this E-Mail address at {bbname}.
-If you do not want to access to {bbname}, or you did not registered at this site,
-please ignore this message.
-
-You do not need to unsubscribe or do any other further action.</p>
+<p>هذه الرسالة وصلت من  {bbname} لتعلمك برابط التسجيل من خلالها
+اذا لم تدخل بريدك في {bbname} , أو لا تهمك الرجاء تجاهل هذه الرسالة
+</p>
 <br />
 ----------------------------------------------------------------------<br />
-<strong>New user registration instructions</strong><br />
+<strong>تعليمات تسجيل عضوية جديدة</strong><br />
 ----------------------------------------------------------------------<br />
 <br />
-<p>If you are a {bbname} new user, or have modified your registered before Email address,
-it is required to verify your mailbox address in order to avoid junk or malicious e-mail.</p>
+<p>إذا كنت مسخدم جديد في  {bbname} , أو تريد أن تغير بريد التسجيل ，نحن نستخدم هذه الطريقة لمحاربة الاسبام </p>
 
-<p>For register just click on the link below. The following link is valid for 3 days. After expired you can request to re-send the activation email to a new e-mail address:<br />
+<p>ببساطة انقر على الرابط أدناه لتسجيل كمستخدم، الرابط أدناه صالحة لمدة 3 أيام :<br />
 
 <a href="{url}" target="_blank">{url}</a>
 <br />
-(If the above link is not working, copy the link URL and paste it into your browser address bar manually)</p>
+(اذا لم يعمل تلقائي , قم بنسخه الى شريط عنوان المتصفح الخاص بك للوصول إلى المراد)</p>
 
-<p>Thank you for your visit, we are glad to see you at our site!</p>
+<p>نشكر لزيارتكم ونتمنى لكم حظاً سعيد !</p>
 
 
 <p>
-Sincerely yours,<br />
+مع خالص التقدير،<br />
 
-{bbname} management team.<br />
+إدارة {bbname} .<br />
 {siteurl}</p>',
 
 
@@ -173,7 +170,7 @@ Sincerely yours,<br />
 
 
 ملاحظة
-اذا لم تكن عضوا في منتدانا, أو اليوم هو ليس عيد ميلادك,
+إذا لم تكن عضوا في منتدانا, أو اليوم هو ليس عيد ميلادك,
 ربما هناك خطأ.
 الرجاء تفحص بريدك وتاريخ ميلادك.
 هذه الرسالةسوف لا يتم إرسالها إلى هذا البريد,  الرجاء تجاهل هذه الرسالة .
@@ -190,7 +187,7 @@ This letter was sent to you by {$_G[member][username]} من  {$_G[setting][bbnam
 
 أنت استقبلت هذه الرسالة بسبب  {$_G[member][username]} من  {$_G[setting][bbname]}
 إضغط على "إرسال إلى صديق" لشيئ مستحسن لك .
-اذا لم تستمتع بالرسالة , الرجاء تجاهلها.
+إذا لم تستمتع بالرسالة , الرجاء تجاهلها.
 
 
 ----------------------------------------------------------------------
@@ -218,7 +215,7 @@ $sendtoname,
 أنت استقبلت هذه الرسالة بسبب العضو  {$_G[member][username]}
 من منتدانا ارسل لك كود دعوة, للسماح لك بالتسجيل بمنتدانا .
 
-!!!اذا لم تستمتع بالرسالة ولا تريد الالتحاق , الرجاء تجاهل هذه الرسالة.
+!!!إذا لم تستمتع بالرسالة ولا تريد الالتحاق , الرجاء تجاهل هذه الرسالة.
 
 ----------------------------------------------------------------------
 بداية الرسالة الاصلية

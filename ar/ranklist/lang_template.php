@@ -6,7 +6,7 @@
  *
  *      $Id: lang_template.php by Valery Votintsev at sources.ru
  *
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array (
@@ -75,7 +75,7 @@ $lang = array (
 	'please_input_friend_name'	=> ' يرجى كتابة إسم صديقك ',//'请输入好友的用户名',
 	'price_can_not_be_higher_than_the_total'	=> 'يجب أن يكون السعر أقل من مجموع النقاط',
 	'ranking_message_0'		=> 'أنت لست على القائمة.هل تحتاج إلى الانضام للقائمة.',
-	'ranking_message_1'		=> 'كلما كان السعر اكبر زاد الترتيب, وستكون صفحتك في المقدمة;',//'竞价单价越多，竞价排名越靠前，你的主页曝光率也会越高；',
+	'ranking_message_1'		=> 'كلما كان السعر أكبر زاد الترتيب, وستكون صفحتك في المقدمة;',//'竞价单价越多，竞价排名越靠前，你的主页曝光率也会越高；',
 	'ranking_message_2'		=> 'كل زيارة صالحة سوف تقوم بإعلاء ترتيبك  {$extcredits[$creditid][title]} (ما عدا تحديث  ماكر/خبيث ).',
 	'ranklist_beauty'		=> 'أعلى السيدات',//'美女排行',
 	'ranklist_blog'			=> 'أعلى المدونين',//'日志数排行',

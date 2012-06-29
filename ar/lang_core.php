@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_core.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -16,10 +16,10 @@ $lang = array
 (
 	'nextpage'	=> 'التالي',//'下一页',
 	'prevpage'	=> 'السابق',//'上一页',
-	'pageunit'		=> 'Pages',//'页',
-	'total'			=> 'Total',//'共',
-	'10k'			=> '10K',//'万',
-	'pagejumptip'		=> 'Enter the page number and press Enter for quick jump',//'输入页码，按回车快速跳转',
+	'pageunit'		=> 'الصفحات',//'页',
+	'total'			=> 'الإجمالي',//'共',
+	'10k'			=> '10 الآف',//'万',
+	'pagejumptip'		=> 'أدخل رقم الصفحة ثم إضغط على زر enter للإنتقال',//'输入页码，按回车快速跳转',
 	'date'	=> array(
 		'before'	=> 'قبل ',//'前',
 		'day'		=> 'يوم ',//'天',
@@ -209,17 +209,17 @@ $lang = array
 	'title_userapp_index_me'	=> 'تطبيقاتي',//'我在玩的',
 	'title_userapp_manage'		=> 'إدارة التطبيقات &quot;{userapp}&quot;',//'{userapp}管理',
 
-	'title_collection'		=> 'Collection',//'淘帖',
-	'title_collection_create'	=> 'Create collection',//'创建淘专辑',
-	'title_collection_edit'		=> 'Edit collection',//'编辑淘专辑',
-	'title_collection_comment_list'	=> 'Comment list',//'评论列表',
-	'title_collection_followers_list'	=> 'Followers',//'订阅用户列表',
+	'title_collection'		=> 'ألبوم المشاركات',
+	'title_collection_create'	=> 'إنشاء ألبوم مشاركات',
+	'title_collection_edit'		=> 'تعديل ألبوم مشاركات',
+	'title_collection_comment_list'	=> 'قائمة التعليقات',
+	'title_collection_followers_list' => 'قائمة المتابعين',
 
 	'faq'				=> 'التعليمات',//'帮助',
 	'search'			=> 'بحث',//'搜索',
 	'page'				=> 'الصفحة {page}',
 
-	'close'				=> 'Close',//'关闭',
+	'close'				=> 'إغلاق',//'关闭',
 
 //--------------------------------------------------------------------------
 // Added by Valery Votintsev

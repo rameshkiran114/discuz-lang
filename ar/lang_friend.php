@@ -5,11 +5,11 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_friend.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array(
-	'friend_group_default'	=> 'اخرين',//'其他',
+	'friend_group_default'	=> 'آخرين',//'其他',
 	'friend_group_1'	=> 'من المنتدى',//'通过本站认识',
 	'friend_group_2'	=> 'معرفة من فعالية',//'通过活动认识',
 	'friend_group_3'	=> 'المعرفة بواسطة صديق',//'通过朋友认识',

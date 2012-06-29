@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_groupattachment.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -23,16 +23,16 @@ $lang = array
 	'groupattachment_gtids'			=> 'أقسام المجموعة',//'群组分类',
 	'groupattachment_gtids_comment'		=> 'Set the category of group, use CTRL to select groups',//'设置群组所在分类，可以按住 CTRL 多选，全选或全不选均为不做限制',
 	'groupattachment_startrow'		=> 'صف البدء',//'起始数据行数',
-	'groupattachment_startrow_comment'	=> 'If you need to set start row, please enter a number, 0 is the first row',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
+	'groupattachment_startrow_comment'	=> 'إذا كنت بحاجة لتعيين صف البدء,الرجاء إدخال الرقم, 0 هو الصف الأول',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
 	'groupattachment_items'			=> 'الصفوف',//'显示数据条数',
 	'groupattachment_items_comment'		=> 'أدخل عدد الصفوف المراد إدخالها, يجب أن تكون أكبر من 0',//'设置一次显示的图片主题条目数，请设置为大于 0 的整数',
 	'groupattachment_titlelength'		=> 'طول العنوان',//'标题长度',
 	'groupattachment_titlelength_comment'	=> 'Set the max length of attachment name/posts title',//'设置当附件名称/帖子标题显示的最大长度',
 	'groupattachment_summarylength'		=> 'طول الملخص',//'内容长度',
 	'groupattachment_summarylength_comment'	=> 'Set the max length of attachment summary/posts content',//'设置附件介绍/帖子内容显示的最大长度',
-	'groupattachment_maxwidth'		=> 'الحد الاقصى من عرض الصورة, بالبيكسل',//'图片最大宽度(像素)',
+	'groupattachment_maxwidth'		=> 'الحد الأقصى من عرض الصورة, بالبيكسل',//'图片最大宽度(像素)',
 	'groupattachment_maxwidth_comment'	=> 'Set the max image size to zoom to this width automatically, set 0 to disable zoom',//'设置是否自动缩小或放大图片的尺寸到本设定的宽度，0 为不自动缩放',
-	'groupattachment_maxheight'		=> 'الحد الاقصى من طول الصورة, بالبيكسل',//'图片最大高度(像素)',
+	'groupattachment_maxheight'		=> 'الحد الأقصى من طول الصورة, بالبيكسل',//'图片最大高度(像素)',
 	'groupattachment_maxheight_comment'	=> 'Set the image to zoom to this height automatically, set 0 to disable zoom',//'设置是否自动缩小或放大图片的尺寸到本设定的高度，0 为不自动缩放',
 	'groupattachment_threadmethod'		=> 'وضع الموضوع',//'主题方式调用',
 	'groupattachment_threadmethod_comment'	=> 'ضع &quot;نعم&quot; لإظهار المرفقات في وضع موضوع (في كل موضوع مرفق واحد), أو &quot;لا&quot; لإظهار المرفقات في وضع المرفقات.',//'选择“是”将按照主题方式调用附件，一个主题显示一个附件；选择“否”将按照附件方式调用',
@@ -51,7 +51,7 @@ $lang = array
 	'groupattachment_special_5'		=> 'موضوع تحدي',//'辩论主题',
 	'groupattachment_special_0'		=> 'موضوع عام',//'普通主题',
 	'groupattachment_special_reward'	=> 'تصفية حسب الطلب',//'悬赏主题过滤',
-	'groupattachment_special_reward_comment'	=> 'Select specific types of reward',//'设置特定类型的悬赏主题',
+	'groupattachment_special_reward_comment'	=> 'حدد حالة الطلب',//'设置特定类型的悬赏主题',
 	'groupattachment_special_reward_0'		=> 'الكل',//'全部',
 	'groupattachment_special_reward_1'		=> 'إنتهى',//'已解决',
 	'groupattachment_special_reward_2'		=> 'نشيط',//'未解决',

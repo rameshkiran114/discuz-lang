@@ -1,16 +1,16 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_template.php by Valery Votintsev at sources.ru
  *
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array (
-	'search_nomatch'	=> 'للاسف لا توجد اي نتائج.',//'对不起，没有找到匹配结果。',
+	'search_nomatch'	=> 'للاسف لا توجد أي نتائج.',//'对不起，没有找到匹配结果。',
 	'search_result'		=> 'النتائج: <em>يوجد $index[num] موضوع/مواضيع</em>',//'结果: <em>找到相关主题 $index[num] 个</em>',
 	'search_result_keyword'	=> 'النتائج: <em>يوجد $index[num] موضوع عن "<span class="emfont">$keyword</span>"</em>',//'结果: <em>找到 “<span class="emfont">$keyword</span>” 相关内容 $index[num] 个</em>',
 	'a_comment'		=> ' ردود ',//'个评论',
@@ -61,17 +61,17 @@ $lang = array (
 	'member'		=> 'عضو',//'成员',
 	'public'		=> 'عام',//'公开',
 	'search_group_result'		=> 'النتائج: <em>وجد  لمجموعات $groupnum عناصر</em>',
-	'search_group_result_keyword'	=> 'النتائج: <em>Found groups: $groupnum عناصر,&nbsp;&nbsp;related topics: $index[num] عناصر</em>',
+	'search_group_result_keyword'	=> 'النتائج: <em>تم ايجاد المجموعات: $groupnum عناصر,&nbsp;&nbsp;related topics: $index[num] عناصر</em>',
 	'search_group_viewgroup'	=> 'عرض لمجموعات',
 	'threads'			=> 'مواضيع',//'主题',
-	'subscribe'		=> 'Subscribe',//'订阅',
-	'comment'		=> 'Comment',//'评论',
-	'lastupdate'		=> 'Last Update',//'最后更新',
+	'subscribe'		=> 'إشتراك',//'订阅',
+	'comment'		=> 'تعليق',//'评论',
+	'lastupdate'		=> 'آخر تحديث',//'最后更新',
 	'return_homepage'	=> 'الرجوع إلى الرئيسية',//'返回首页',
 	'visit_my_space'	=> 'زيارة ملفي الشخصي',//'访问我的空间',
 	'album'			=> ' الألبومات ',//'相册',
 	'blog'			=> ' المدونات ',//'日志',
-	'collection'		=> 'Collection',//'淘帖',
+	'collection'		=> 'ألبوم مشاركات',//'淘帖',
 	'portal'		=> 'المجلة',//'文章',
 	'quick'			=> 'سريع',
 	'search_adv'		=> 'متقدم',//'高级',

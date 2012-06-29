@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_memberlist.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -30,11 +30,11 @@ $lang = array
 	'memberlist_verifystatus'	=> 'تم الموافقة عليه',//'已通过的认证',
 	'memberlist_special_default'	=> 'الأصدقاء الإفتراضيين',
 	'memberlist_startrow'		=> 'صف البدء',
-	'memberlist_startrow_comment'	=> 'If you need to set start row, please enter a number, 0 is the first row',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
+	'memberlist_startrow_comment'	=> 'إذا كنت بحاجة لتعيين صف البدء,الرجاء إدخال الرقم, 0 هو الصف الأول',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
 	'memberlist_groupid'		=> 'مجموعة المستخدم',
 	'memberlist_groupid_comment'	=> 'مجموعات أعضاء مخصصة',
 	'memberlist_items'		=> 'الصفوف',
-	'memberlist_items_comment'	=> 'Set the numbers of rows you want to display, it must integer and larger than 0',//'设置一次显示的用户条目数，请设置为大于 0 的整数',
+	'memberlist_items_comment'	=> 'حدد عدد الصفوف التي تريد عرضها , يجب أن تكون أكبر من 0',//'设置一次显示的用户条目数，请设置为大于 0 的整数',
 	'memberlist_orderby'		=> 'ترتيب حسب',
 	'memberlist_orderby_comment'	=> 'Set the order of users',//'设置以哪一字段或方式对用户进行排序',
 	'memberlist_orderby_credits'	=> 'النقاط',

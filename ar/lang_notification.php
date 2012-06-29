@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_notification.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -77,7 +77,7 @@ $lang = array
 	'reason_ban_post'	=> 'موضوعك  <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> لقد تم  {modaction} بواسطة {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'reason_warn_post'	=> 'موضوعك  <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> لقد تم  {modaction} بواسطة {actor}.<br />
-				اذا تم تحذيره  {warninglimit} مرات في  {warningexpiration} أيام/يوم, سوف تكون لا تستطيع المشاركة لمدة  {warningexpiration} يوم تلقائيا.<br />
+				إذا تم تحذيره  {warninglimit} مرات في  {warningexpiration} أيام/يوم, سوف تكون لا تستطيع المشاركة لمدة  {warningexpiration} يوم تلقائيا.<br />
 				حالياً, تم تحذيرك  {authorwarnings} مرات!
 				<div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -91,7 +91,7 @@ $lang = array
 
 	'reason_stamp_delete'	=> 'موضوعك <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> تم حذف الختم منه بواسطة {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 撤销了图章 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_stamplist_update'	=> 'موضوعك <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> بواسطة {actor} تم إضافة له ايقونة  {stamp} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 添加了图标 {stamp} <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_stamplist_update'	=> 'موضوعك <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> بواسطة {actor} تم إضافة له أيقونة  {stamp} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 添加了图标 {stamp} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'reason_stamplist_delete'	=> 'موضوعك <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> بواسطة {actor} تم ازالة الايقونة <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 撤销了图标 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -99,7 +99,7 @@ $lang = array
 
 	'reason_stickdeletereply'	=> 'ردك في موضوع  <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> تم ازالة تثبيته بواسطة {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你在主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的回帖被 {actor} 撤销置顶 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_quickclear'	=> 'Your {cleartype} was removed by {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的{cleartype} 被 {actor} 清除 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_quickclear'	=> ' {cleartype} الخاص بك تم حذفه بواسطة {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的{cleartype} 被 {actor} 清除 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'modthreads_delete'	=> 'موضوعك {threadsubject} لم يتم الموافقة عليه, تم حذفه! <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 {threadsubject} 没有通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -120,7 +120,7 @@ $lang = array
 
 	'rate_reason'		=> 'مشاركتك في موضوع  <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> تم تقييمها  {ratescore} بواسطة {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你在主题 <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> 的帖子被 {actor} 评分 {ratescore} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'recommend_note_post'	=> 'Congratulations, Your post <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> was recommended',//'恭喜，您的帖子 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被编辑采用',
+	'recommend_note_post'	=> 'تهانينا, مشاركتك <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> تم إستحسانها',//'恭喜，您的帖子 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被编辑采用',
 
 	'rate_removereason'	=> '{actor} ازال تقييمه  {ratescore} من الموضوع <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> <div class="quote"><blockquote>{reason}</blockquote></div>',//'{actor} 撤销了你在主题 <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> 中帖子的评分 {ratescore} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -177,18 +177,18 @@ $lang = array
 	'grouplevel_update'	=> 'تهانينا! مجموعتك {groupname} تم ترقية مستواها إلى  {newlevel}.',//'恭喜你，你的群组 {groupname} 已经升级到了 {newlevel}。',
 
 	'thread_invite'		=> '{actor} قام بدعوتك إلى  {invitename}  <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>. &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">عرض</a>',//'{actor} 邀请你{invitename} <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
-	'blog_invite'		=> '{actor} invited you to view the blog <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a>, &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">View &rsaquo;</a>',//'{actor} 邀请您查看日志 <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a> &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">查看 &rsaquo;</a>',
-	'article_invite'	=> '{actor} invited you to view the article <a href="portal.php?mod=view&aid={aid}" target="_blank">{subject}</a>, &nbsp; <a href="portal.php?mod=view&aid={aid}" target="_blank" class="lit">View &rsaquo;</a>',//'{actor} 邀请您查看文章 <a href="portal.php?mod=view&aid={aid}" target="_blank">{subject}</a> &nbsp; <a href="portal.php?mod=view&aid={aid}" target="_blank" class="lit">查看 &rsaquo;</a>',
+	'blog_invite'		=> '{actor} قام بدعوتك لرؤية المدونة <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a>, &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">مشاهدة &rsaquo;</a>',//'{actor} 邀请您查看日志 <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a> &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">查看 &rsaquo;</a>',
+	'article_invite'	=> '{actor} قام بدعوتك لرؤية المقالة <a href="portal.php?mod=view&aid={aid}" target="_blank">{subject}</a>, &nbsp; <a href="portal.php?mod=view&aid={aid}" target="_blank" class="lit">مشاهدة &rsaquo;</a>',//'{actor} 邀请您查看文章 <a href="portal.php?mod=view&aid={aid}" target="_blank">{subject}</a> &nbsp; <a href="portal.php?mod=view&aid={aid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 	'invite_friend'		=> 'تهانينا! لقد تم دعوتك من طرف  {actor} واصبحتما أصدقاء.',//'恭喜你成功邀请到 {actor} 并成为你的好友',
 
 	'poke_request'		=> '<a href="{fromurl}" class="xi2">{fromusername}</a>: <span class="xw0">{pokemsg}&nbsp;</span><a href="home.php?mod=spacecp&ac=poke&op=reply&uid={fromuid}&from=notice" id="a_p_r_{fromuid}" class="xw1" onclick="showWindow(this.id, this.href, \'get\', 0);">القي تحية</a><span class="pipe">|</span><a href="home.php?mod=spacecp&ac=poke&op=ignore&uid={fromuid}&from=notice" id="a_p_i_{fromuid}" onclick="showWindow(\'pokeignore\', this.href, \'get\', 0);">تجاهل</a>',
 
-	'profile_verify_error'		=> '{verify} من البيانات تم رفضه, يجب ملئ الحقول التالية:<br/>{profile}<br/>سبب الرفض: {reason}',//'{verify}资料审核被拒绝,以下字段需要重新填写:<br/>{profile}<br/>拒绝理由:{reason}',
+	'profile_verify_error'		=> '{verify} من البيانات تم رفضه, يجب ملء الحقول التالية:<br/>{profile}<br/>سبب الرفض: {reason}',//'{verify}资料审核被拒绝,以下字段需要重新填写:<br/>{profile}<br/>拒绝理由:{reason}',
 	'profile_verify_pass'		=> 'تهانينا، البيانات التي ادخلت  {verify} تم معاينتها بنجاح بواسطة ',//'恭喜你，你填写的{verify}资料审核通过了',
 	'profile_verify_pass_refusal'	=> 'للاسف, تم رفض البيانات المقدمة  ({verify})  ',//'很遗憾，你填写的{verify}资料审核被拒绝了',
 	'member_ban_speak'		=> 'قد يحق لك التحدث {user}, المدة : {day}(0: نيابة عن هفوة دائمة), حظر من المشاركة بسبب: {reason}',//'你已被 {user} 禁止发言，期限：{day}天(0：代表永久禁言)，禁言理由：{reason}',
-	'member_ban_visit'		=> 'You have been banned by {user} for the period of {day} days (0 means the permanent ban). Ban reason: {reason}',//'您已被 {user} 禁止访问，期限：{day}天(0：代表永久禁止访问)，禁止访问理由：{reason}',
-	'member_ban_status'		=> 'You have been banned by {user}, Ban reason: {reason}',//'您已被 {user} 锁定，禁止访问理由：{reason}',
+	'member_ban_visit'		=> 'لقد تم حظرك من قبل {user} لفترة  {day} يوم (0 يعني فرض حظر دائم). سبب الحظر: {reason}',//'您已被 {user} 禁止访问，期限：{day}天(0：代表永久禁止访问)，禁止访问理由：{reason}',
+	'member_ban_status'		=> 'لقد تم حظرك من قبل {user}, سبب الحظر: {reason}',//'您已被 {user} 锁定，禁止访问理由：{reason}',
 	'member_follow'			=> 'There are {count} new feeds from people you follow. <a href="home.php?mod=follow">Click to view</a>',//'您关注的人已有{count}条新动态。<a href="home.php?mod=follow">Click to view</a>',
 	'member_follow_add'		=> '{actor} have folloed to you. <a href="home.php?mod=follow&do=follower">Click to view</a>',//'{actor} 收听了你。<a href="home.php?mod=follow&do=follower">Click to view</a>',
 
@@ -221,12 +221,12 @@ $lang = array
 					<p class="summary">{actor} يقول: <span>{msg}</span></p>
 					<p class="mbn"><a href="home.php?mod=magic" target="_blank">رجوع</a>
 					<span class="pipe">|</span><a href="home.php?mod=magic&action=mybox" target="_blank">عرض الدعائم الخاصة بي</a></p>',
-	'invite_collection'		=> '{actor} invite you to join the collecton <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team.<br /><a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">Accept the invitation</a>',//'{actor} 邀请您参与维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。<br /> <a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">接受邀请</a>',
-	'collection_removed'		=> 'Your participation in the collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team was canceled by {actor}.',//'您参与维护的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 已被 {actor} 关闭。',
-	'exit_collection'		=> 'You have successfully exited from the collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team',//'您已经退出维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。',
-	'collection_becommented'	=> 'Your collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> received new comment.',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收到了新评论。',
-	'collection_befollowed'		=> 'Your collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> new user subscribed!',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 有新用户订阅了！',
-	'collection_becollected'	=> 'Congratulations, your thread <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> was added to collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> !',//'恭喜您的主题 <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> 被淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收录了！',
+	'invite_collection'		=> '{actor} يدعوك للإشتراك في ألبوم <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team.<br /><a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">Accept the invitation</a>',//'{actor} 邀请您参与维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。<br /> <a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">接受邀请</a>',
+	'collection_removed'		=> 'إشتراكك في المشاركات  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> تم إلغائه بواسطة {actor}.',//'您参与维护的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 已被 {actor} 关闭。',
+	'exit_collection'		=> 'تم خروجك من الألبوم بنجاح <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> ',//'您已经退出维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。',
+	'collection_becommented'	=> 'ألبوم المشاركات الخاص بك <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> إستقبل تعليق جديد.',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收到了新评论。',
+	'collection_befollowed'		=> 'ألبوم المشاركات الخاص بك <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> ,إشترك به عضو!',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 有新用户订阅了！',
+	'collection_becollected'	=> 'تهانينا, موضوعك <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> تم إضافته إلى ألبوم المشاركات <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> !',//'恭喜您的主题 <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> 被淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收录了！',
 
 	'pmreportcontent'		=> '{pmreportcontent}',
 

@@ -1,4 +1,4 @@
-/*
+/**---
 	[Discuz!] (C)2001-2009 Comsenz Inc.
 	This is NOT a freeware, use is subject to license terms
 
@@ -6,7 +6,7 @@
 
 	$Id: lang_js.js by Valery Votintsev, codersclub.org
 
-	Arabic by Khalid Nahhal, http://www.ar-discuz.com
+	Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
 
 */
 
@@ -148,19 +148,19 @@ var lng = {
 	'next_month'	: 'الشهر التالي',//'下一月',
 	'select_year'	: 'حدد السنة',//'点击选择年份',
 	'select_month'	: 'حدد الشهر',//'点击选择月份',
-	'wday0'		: 'احد',//'日',
-	'wday1'		: 'اثنين',//'一',
-	'wday2'		: 'ثلاثاء',//'二',
-	'wday3'		: 'اربعاء',//'三',
-	'wday4'		: 'خميس',//'四',
-	'wday5'		: 'جمعة',//'五',
+	'wday0'		: 'اح',//'日',
+	'wday1'		: 'اث',//'一',
+	'wday2'		: 'ثل',//'二',
+	'wday3'		: 'ار',//'三',
+	'wday4'		: 'خم',//'四',
+	'wday5'		: 'جم',//'五',
 	'wday6'		: 'سبت',//'六',
 	'month'		: 'شهر',//'月',
 	'today'		: 'اليوم',//'今天',
 	'hours'		: 'ساعات',//'点',
 	'minutes'	: 'دقائق',//'分',
-	'halfhour'	: 'Half hour',//'半小时',
-	'ok'		: 'Ok',//'OK',
+	'halfhour'	: 'نصف ساعة',//'半小时',
+	'ok'		: 'موافق',//'OK',
 
 //--------------------------------
 //static/js/common.js
@@ -198,9 +198,9 @@ var lng = {
 	'code_invalid'		: 'خطأ في رمز الأمان, حاول مرة أخرى',//'验证码错误，请重新填写',
 	'q&a_invalid'		: 'إجابة السؤال خاطئة , حاول مرة أخرى',//'验证问答错误，请重新填写',
 	'code_clipboard'	: 'تم النسخ للحافظة',//'代码已复制到剪贴板',
-	'enter_link_url'	: 'ادخل الوصلة',//'请输入链接地址',
+	'enter_link_url'	: 'ادخل الرابط',//'请输入链接地址',
 	'enter_link_text'	: 'ادخل النص المرتبط',//'请输入链接文字',
-	'enter_image_url'	: 'ادخل وصلة الصورة',//'请输入图片地址',
+	'enter_image_url'	: 'ادخل رابط الصورة',//'请输入图片地址',
 	'width_optional'	: 'العرض (اخياري)',//'宽(可选)',
 	'height_optional'	: 'الطول (اخياري)',//'高(可选)',
 	'narrow_screen'		: 'شاشة ضيقة',//'切换到窄版',
@@ -208,17 +208,17 @@ var lng = {
 	'logging_wait'		: 'تسجيل الدخول, الرجاء الإنتظار...',//'登录中，请稍后...',
 	'notices_no'		: '[　　　]',//'【　　　】',
 	'notices_yes'		: '[جديد]',//'【新提醒】',
-	'sec_after_win_closed'	: ' ثانية متبقية ليتم اغلاق الرسالة',//' 秒后窗口关闭',
+	'sec_after_win_closed'	: ' ثانية متبقية ليتم إغلاق الرسالة',//' 秒后窗口关闭',
 	'sec_after_page_jump'	: ' ثانية متبقية ليتم تحويلك للصفحة المطلوبة',//' 秒后页面跳转',
 	'jump_now'		: 'الإنتقال فوراً',//'立即跳转',
 	'error_message'		: 'رسالة خطأ',//'错误信息',
 	'ctrl_d_favorites'	: 'إضغط على زري  Ctrl + D للوضع بالمفضلة',//'请按 Ctrl+D 键添加到收藏夹',
-	'non_ie_manually'	: 'اذا كنت لا تستعمل متصفح IE قم بإدارج الصفحة يدوياً كرئيسية ',//'非 IE 浏览器请手动将本站设为首页',
+	'non_ie_manually'	: 'إذا كنت لا تستعمل متصفح IE قم بإدارج الصفحة يدوياً كرئيسية ',//'非 IE 浏览器请手动将本站设为首页',
 //--------------------------------
 //static/js/common_diy.js
 
 	'edit'			: 'تعديل',//'编辑',
-	'warn_not_saved'	: 'لقد قمت بالتعديل. اذا قمت بالاغلاق, سيتم فقدان كافة التغيرات.',//'您的数据已经修改,退出将无法保存您的修改。',
+	'warn_not_saved'	: 'لقد قمت بالتعديل. إذا قمت بالاغلاق, سيتم فقدان كافة التغيرات.',//'您的数据已经修改,退出将无法保存您的修改。',
 	'confirm_exit'		: 'سيتم فقدان كافة التغييرات عند الاغلاق. هل أنت متأكد من الإغلاق?',//'退出将不会保存您刚才的设置。是否确认退出？',
 	'select_image_upload'	: 'حدد صورة للرفع',//'请选择您要上传的图片',
 
@@ -243,7 +243,7 @@ var lng = {
 	'data_saved'		: 'البيانات حفظت',//'数据已保存',
 	'clear_all_sure'	: 'هل أنت متأكد من مسح جميع البيانات?',//'您确认要清除所有内容吗？',
 	'hide_content'		: 'إخفاء المحتوى',//'请输入要隐藏的信息内容',
-	'free_content'		: 'اذا لم تدخل سعر المشاركة, ستعرض مجاناً,',//'如果您设置了帖子售价，请输入购买前免费可见的信息内容',
+	'free_content'		: 'إذا لم تدخل سعر المشاركة, ستعرض مجاناً,',//'如果您设置了帖子售价，请输入购买前免费可见的信息内容',
 	'when_thread_replied'	: 'إظهار عندما يرد العضو على هذا الموضوع ',//'只有当浏览者回复本帖时才显示',
 	'when_points_more'	: 'إظهار عندما تكون نقاط العضو أكثر من  ',//'只有当浏览者积分高于',
 	'when_show'		: 'عندما تظهر',//'时才显示',
@@ -254,13 +254,13 @@ var lng = {
 	'table_intro0'		: 'ملاحظات بسيطة',//'快速书写表格提示',
 	'table_intro1'		: '&quot;[tr=color]&quot; Define the row background color<br />&quot;[td=Width]&quot; Define the column width<br />&quot;[td=Column_Span,Row_Span,Width]&quot; Define the Row/Column Span and Width<br /><br />Fast writing table example: ',//'“[tr=颜色]” 定义行背景<br />“[td=宽度]” 定义列宽<br />“[td=列跨度,行跨度,宽度]” 定义行列跨度<br /><br />快速书写表格范例：',
 	'table_intro2'		: '[table]<br />الإسم:|Discuz!<br />الإصدار:|X1.5<br />[/table]',//'[table]<br />Name:|Discuz!<br />Version:|X1<br />[/table]',
-	'table_intro3'		: 'استخدم &quot;|&quot; للفصل بين الصفوف, اذا وجد &quot;|&quot; في البيانات, سيتم استبداله ب &quot;\\|&quot;, separate rows with &quot;\\n&quot;.',//'用“|”分隔每一列，表格中如有“|”用“\\|”代替，换行用“\\n”代替。',
-	'audio_url'		: 'ادخل وصلة ملف الصوت',//'请输入音乐文件地址',
-	'video_url'		: 'ادخل وصلة ملف الفيديو',//'请输入视频地址',
+	'table_intro3'		: 'استخدم &quot;|&quot; للفصل بين الصفوف, إذا وجد &quot;|&quot; في البيانات, سيتم استبداله ب &quot;\\|&quot;, separate rows with &quot;\\n&quot;.',//'用“|”分隔每一列，表格中如有“|”用“\\|”代替，换行用“\\n”代替。',
+	'audio_url'		: 'ادخل رابط ملف الصوت',//'请输入音乐文件地址',
+	'video_url'		: 'ادخل رابط ملف الفيديو',//'请输入视频地址',
 	'auto_play'		: 'تشغيل تلقائي?',//'是否自动播放',
-	'flash_url'		: 'ادخل وصلة ملف فلاش ',//'请输入 Flash 文件地址',
+	'flash_url'		: 'ادخل رابط ملف فلاش ',//'请输入 Flash 文件地址',
 	'enter_please'		: 'الرجاء ادخل الـ',//'请输入第',
-	'nth_parameter'		: '-th parameter',//' 个参数',
+	'nth_parameter'		: 'المُعلمَة',//' 个参数',
 	'font'			: 'الخط',//'字体',
 	'full_screen'		: 'شاشة كاملة',//'全屏',
 	'restore_size'		: 'استعادة الحجم',//'恢复',
@@ -285,9 +285,9 @@ var lng = {
 	'flash_support'		: 'يدعم swf flv <br /> مثال: http://server/flash.swf',//'支持 swf flv 等 Flash 网址<br />示例: http://server/flash.swf',
 	'paste_from_word'	: 'لصق محتوى وورد ',//'从 Word 粘贴内容',
 	'paste_word_tip'	: 'استخدم زري (Ctrl + V) للصق من ملفات وورد',//'请通过快捷键(Ctrl+V)把 Word 文件中的内容粘贴到上',
-	'show_tips'		: 'Show Tips',//'友情提示',
-	'expire_days'		: 'Valid for (days)',//'有效天数',
-	'expire_days_invalid'	: 'Distance from the posting date is greater than the number of days when the label automatically expire',//'距离发帖日期大于这个天数时标签自动失效',
+	'show_tips'		: 'إظهار الملاحظات',//'友情提示',
+	'expire_days'		: 'صالح لمدة (أيام)',//'有效天数',
+	'expire_days_invalid'	: 'المسافة من تاريخ النشر أعلى من عدد الأيام عندما تنتهي الصلاحية',//'距离发帖日期大于这个天数时标签自动失效',
 //--------------------------------
 //static/js/forum.js
 
@@ -340,18 +340,18 @@ var lng = {
 	'attachments'		: 'المرفقات',//'附件',
 	'upload_failed'		: 'فشل الرفع',//'上传失败',
 
-	'attach_big'		: 'حجم المرفقات تجاوز الحد الاقصى',//'服务器限制无法上传那么大的附件',
-	'attach_group_big'	: 'مجموعتك تجاوزت الحد الاقصى من المرفقات',//'用户组限制无法上传那么大的附件',
-	'attach_type_big'	: 'لقد تجاوزت الحد الاقصى من حجم الملفات من هذا النوع',//'文件类型限制无法上传那么大的附件',
-	'attach_daily_big'	: 'لقد تجاوز عدد المرفقات يومياًً الحد الاقصى',//'本日已无法上传更多的附件',
+	'attach_big'		: 'حجم المرفقات تجاوز الحد الأقصى',//'服务器限制无法上传那么大的附件',
+	'attach_group_big'	: 'مجموعتك تجاوزت الحد الأقصى من المرفقات',//'用户组限制无法上传那么大的附件',
+	'attach_type_big'	: 'لقد تجاوزت الحد الأقصى من حجم الملفات من هذا النوع',//'文件类型限制无法上传那么大的附件',
+	'attach_daily_big'	: 'لقد تجاوز عدد المرفقات يومياًً الحد الأقصى',//'本日已无法上传更多的附件',
 	'validating_q&a'	: 'التحقق من  س & ج, الرجاء الإنتظار',//'验证问答校验中，请稍后',
 	'validating_code'	: 'التأكد من الرمز, يرجى الإنتظار',//'验证码校验中，请稍后',
 	'attach_type_disabled'	: 'هذا النوع مرفوض',//'附件类型被禁止',
-	'attach_max'		: 'ليس اكبر من ',//'不能超过',
-	'vote_max_reached'	: 'وصل للحد الاقصى من المصوتين: ',//'已达到最大投票数',
+	'attach_max'		: 'ليس أكبر من ',//'不能超过',
+	'vote_max_reached'	: 'وصل للحد الأقصى من المصوتين: ',//'已达到最大投票数',
 	'no_remote_attach'	: 'عذراً, لا يمكن الارفاق بوصلة',//'抱歉，暂无远程附件',
 	'delete_post_sure'	: 'هل أنت متأكد من انك تريد حذف المشاركة?',//'确定要删除该帖子吗？',
-	'feed_add_confirm'	: 'Because of you have set read permission or sell the post, do you confirm also the broadcast to your listeners to see?',//'由于您设置了阅读权限或出售帖，您确认还转播给您的听众看吗？',
+	'feed_add_confirm'	: 'بسبب أنت قمت بوضع صلاحيات معينة لرؤية الموضوع أو ان هذا الموضوع للبيع, هل تؤكد ذلك عندما يبث الموضوع فسوف يراه المستمعون?',//'由于您设置了阅读权限或出售帖，您确认还转播给您的听众看吗？',
 //--------------------------------
 //static/js/forum_viewthread.js
 
@@ -370,28 +370,28 @@ var lng = {
 
 //--------------------------------
 //static/js/handlers.js
-	'file_selected_exceed'	: 'You have selected too many files.',//'您选择的文件个数超过限制。',
-	'upload_number_exceed'	: 'You cannot add any more files.',//'您已达到上传文件的上限了。',
-	'can_choose_more'	: 'You may only add ',//'您还可以选择 ',
-	'files'			: ' more files',//' 个文件',
-	'file_is_large'		: 'File is too large.',//'文件太大.',
-	'file_is_empty'		: 'You can not upload a zero byte file.',//'不能上传零字节文件.',
-	'file_type_disabled'	: 'Upload of such type files is disabled.',//'禁止上传该类型的文件.',
+	'file_selected_exceed'	: 'لقد قمت بإختيار ملفات كثيرة جداً.',//'您选择的文件个数超过限制。',
+	'upload_number_exceed'	: 'لا يمكنك إضافة ملفات أكثر.',//'您已达到上传文件的上限了。',
+	'can_choose_more'	: 'يمكنك إضافة أكثر ',//'您还可以选择 ',
+	'files'			: ' ملفات أكثر',//' 个文件',
+	'file_is_large'		: 'الملف كبير جداً.',//'文件太大.',
+	'file_is_empty'		: 'لا يمكن رفع ملف فارغ.',//'不能上传零字节文件.',
+	'file_type_disabled'	: 'رفع ملفات من هذا النوع غير مسموح به.',//'禁止上传该类型的文件.',
 	'unhandled_error'	: 'Unhandled Error',//'',
-	'upload_progress'	: 'Uploaded ',//'正在上传',
-	'upload_cancelled'	: 'Cancelled',//'取消上传',
-	'file_description'	: 'File Description',//'图片描述',
-	'image_upload_failed'	: 'Image upload failed',//'图片上传失败',
-	'upload_failed'		: 'Upload failed',//'上传失败',
-	'upload_completed'	: 'Upload completed.',//'上传完成.',
-	'upload_error'		: 'Upload Error: ',//'',
-	'config_error'		: 'Configuration Error',//'',
-	'server_error'		: 'Server (IO) Error',//'',
-	'security_error'	: 'Security Error',//'',
-	'upload_limit_exceed'	: 'Upload limit exceeded.',//'',
-	'file_not_found'	: 'File not found.',//'',
-	'validation_failed'	: 'Failed Validation.  Upload skipped.',//'',
-	'upload_stopped'	: 'Stopped',//'',
+	'upload_progress'	: 'جاري الرفع  ',//'正在上传',
+	'upload_cancelled'	: 'تم الإلغاء',//'取消上传',
+	'file_description'	: 'وصف الملف',//'图片描述',
+	'image_upload_failed'	: 'فشل رفع الصورة',//'图片上传失败',
+	'upload_failed'		: 'فشل الرفع',//'上传失败',
+	'upload_completed'	: 'إكتمل الرفع.',//'上传完成.',
+	'upload_error'		: 'فشل الرفع : ',//'',
+	'config_error'		: 'خطأ تكوين',//'',
+	'server_error'		: 'خطأ خادم (IO)',//'',
+	'security_error'	: 'خطأ أمني',//'',
+	'upload_limit_exceed'	: 'تجاوزت حد الرفع.',//'',
+	'file_not_found'	: 'لم يتم ايجاد الملف.',//'',
+	'validation_failed'	: 'فشل التحقق.  تم إلغاء الرفع.',//'',
+	'upload_stopped'	: 'تم الايقاف',//'',
 
 //--------------------------------
 //static/js/home.js
@@ -401,7 +401,7 @@ var lng = {
 //--------------------------------
 //static/js/home_ajax.js
 
-//	'close'			: 'اغلاق',//'关闭',
+//	'close'			: 'إغلاق',//'关闭',
 //	'wait_please'		: 'جاري التحميل ...',//'请稍候...',
 
 //--------------------------------
@@ -415,8 +415,8 @@ var lng = {
 	'show_orig_image'	: 'إظهار الصورة الاصلية في نافذة جديدة',//'点击图片，在新窗口显示原始尺寸',
 	'continue_sure'		: 'هل أنت متأكد من المضي قدما?',//'您确定要执行本操作吗？',
 	'select_item'		: 'الرجاء إختيار عنصر لإجراء العملية',//'请选择要操作的对象',
-	'image_url_invalid'	: 'وصلة صورة خاطئة',//'图片地址不正确',
-	'audio_url_invalid'	: 'وصلة صوت خاطئة, لا يمكن تركها فارغة',//'音乐地址错误，不能为空',
+	'image_url_invalid'	: 'رابط صورة خاطئة',//'图片地址不正确',
+	'audio_url_invalid'	: 'رابط صوت خاطئة, لا يمكن تركها فارغة',//'音乐地址错误，不能为空',
 
 //!!!!! MayBe wrap this names!!
 	'collapse'		: 'توسيع',//'收起',
@@ -438,7 +438,7 @@ var lng = {
 	'send_greeting'		: 'ارسل تحية',//'打个招呼',
 	'reply'			: 'رد',//'回复',
 	'comment'		: 'تعليق',//'评论',
-	'close_list'		: 'اغلاق القائمة',//'收起列表',
+	'close_list'		: 'إغلاق القائمة',//'收起列表',
 	'more_feeds'		: 'المزيد من الأخبار',//'更多动态',
 
 //--------------------------------
@@ -473,10 +473,10 @@ var lng = {
 	'custom_content_error'	: 'محتوى مخصص غير صالح!كود  HTML : ',//'自定义内容错误，',
 	'html_error'		: ' كود HTML : ',//'HTML代码：',
 	'tags_not_match'	: ' - الكلمات الدلالية غير متطابقة',//' 标签不匹配',
-	'entered'		: 'Have entered ',//'已输入 ',
-	'exceed'		: 'Exceed ',//'超出 ',
-	'title_length_bad'	: 'The title is incorrect',//'标题长度不正确',
-	'summary_length_bad'	: 'Summary length is incorrect',//'简介长度不正确',
+	'entered'		: 'أنت أدخلت ',//'已输入 ',
+	'exceed'		: 'تجاوز ',//'超出 ',
+	'title_length_bad'	: 'العنوان غير صحيح',//'标题长度不正确',
+	'summary_length_bad'	: 'طول الملخص غير صحيح',//'简介长度不正确',
 
 //--------------------------------
 //static/js/portal_diy.js
@@ -506,11 +506,11 @@ var lng = {
 	'solid_line'		: 'خط متصل',//'实线',
 	'dotted_line'		: 'خط نقطي',//'点线',
 	'dashed_line'		: 'خط متقطع',//'虚线',
-	'link'			: 'وصلة',//'链接',
+	'link'			: 'رابط',//'链接',
 	'border'		: 'الحدود',//'边框',
 	'size'			: 'الحجم',//'大小',
 	'color'			: 'اللون',//'颜色',
-	'separate_config'	: 'Separate Config',//'分别设置',
+	'separate_config'	: 'تكوين منفصل',//'分别设置',
 	'right'			: 'يسار',//'右',
 	'bottom'		: 'أسفل',//'下',
 	'top'			: 'أعلى',//'上',
@@ -557,8 +557,8 @@ var lng = {
 
 //--------------------------------
 //static/js/portal_diy_data.js
-	'data_manage'		: 'Direct management of the block data',//'可直接管理模块数据',
-	'quit'			: 'Quit',//'退出',
+	'data_manage'		: 'إدارة مباشرة لبيانات البلوك',//'可直接管理模块数据',
+	'quit'			: 'خروج',//'退出',
 //--------------------------------
 //static/js/qshare.js
 	'from_tencent'		: 'لقد جئت من المدونات الصغيرة تينسنت منصة مفتوحة',//"\u6211\u6765\u81EA\u4E8E\u817E\u8BAF\u5FAE\u535A\u5F00\u653E\u5E73\u53F0",
@@ -568,29 +568,29 @@ var lng = {
 
 	'username_invalid'	: 'إسم المستخدم يحتوي على حروف ممنوعة',//'用户名包含敏感字符',
 	'username_short'	: 'إسم المستخدم أقل من 2 حروف',//'用户名小于 3 个字符',
-	'username_long'		: 'إسم المستخدم اكبر من 15 حرف',//'用户名超过 15 个字符',
+	'username_long'		: 'إسم المستخدم أكبر من 15 حرف',//'用户名超过 15 个字符',
 	'passwords_not_equal'	: 'كلمتا المرور غير متطابقتين',//'两次输入的密码不一致',
 	'email_invalid'		: 'البريد يحتوي على أحرف ممنوعة',//'Email 包含敏感字符',
 	'invite_code_invalid'	: 'رمز الدعوة يحتوي على احرف ممنوعة',//'邀请码包含敏感字符',
 	'password_fill'		: 'اكتب كلمة المرور',//'请填写密码',
 	'password_again'	: 'اعد كلمة المرور',//'请再次输入密码',
 	'email_fill'		: 'الرجاء ادخل البريد',//'请输入邮箱地址',
-	'length_min'		: ', Minimum length',//', 最小长度为 '
-	'chars'			: ' characters',//' 个字符',
-	'pw_weak'		: 'Weak',//'弱',
-	'pw_middle'		: 'So-so',//'中',
-	'pw_strong'		: 'Strong',//'强',
-	'pass_short'		: 'Password is too short, must be not less than ',//'密码太短，不得少于 ',
-	'digital'		: 'Digital',//'数字',
-	'lowercase'		: 'Lowercase letters',//'小写字母',
-	'capitals'		: 'Capital letters',//'大写字母',
-	'specials'		: 'Special symbols',//'特殊符号',
-	'pw_weak_info'		: 'Weak password, the password must contain ',//'密码太弱，密码中必须包含 ',
+	'length_min'		: ', الحد الأدنى من الطول',//', 最小长度为 '
+	'chars'			: ' حروف',//' 个字符',
+	'pw_weak'		: 'ضعيفة',//'弱',
+	'pw_middle'		: 'مستويطة',//'中',
+	'pw_strong'		: 'قوية',//'强',
+	'pass_short'		: 'كلمة المرور قصيرة جداً, يجب ألا تكون أقل من ',//'密码太短，不得少于 ',
+	'digital'		: 'أرقام',//'数字',
+	'lowercase'		: 'حروف صغيرة',//'小写字母',
+	'capitals'		: 'حروف كبيرة',//'大写字母',
+	'specials'		: 'رموز خاصة',//'特殊符号',
+	'pw_weak_info'		: 'كلمة المرور ضعيفة, يجب أن تحتوي على ',//'密码太弱，密码中必须包含 ',
 
 //--------------------------------
 //static/js/seditor.js
-	'enter_username'	: 'Please enter the user name',//'请输用户名',
-	'at_friend'		: '@user, you can remind him to view the post',//'@朋友账号，就能提醒他来看帖子',
+	'enter_username'	: 'الرجاء أدخل اسم المستخدم',//'请输用户名',
+	'at_friend'		: '@عضو, يمكنك تذكيره لمشاهدة المشاركة',//'@朋友账号，就能提醒他来看帖子',
 
 //--------------------------------
 //static/js/smilies.js
@@ -604,7 +604,7 @@ var lng = {
 //---------------------------
 //static/js/swfupload.js
 
-	'attach_file'		: 'Attachment',
+	'attach_file'		: 'المرفقات',
 
 //---------------------------
 //static/js/threadsort.js
@@ -615,9 +615,9 @@ var lng = {
 	'numeric_invalid'	: 'القيمة العددية خاطئة',//'数字填写不正确',
 	'email_invalid'		: 'البريد خاطئ',//'邮件地址不正确',
 	'text_too_long'		: 'قيمة الحقل كبيرة جداً',//'填写项目长度过长',
-	'value_is_greater'	: 'القيمة اكبر من المطلوب',//'大于设置最大值',
+	'value_is_greater'	: 'القيمة أكبر من المطلوب',//'大于设置最大值',
 	'value_is_less'		: 'القيمة أقل من المطلوب',//'小于设置最小值',
-	'enter_valid_url'	: 'Please enter correct URL address beginning with http://',//'请正确填写以http://开头的URL地址',
+	'enter_valid_url'	: 'الرجاء إدخال رابط صالح يبدء بـ http://',//'请正确填写以http://开头的URL地址',
 
 //--------------------------------
 //static/js/upload.js
@@ -635,11 +635,11 @@ var lng = {
 //--------------------------------------------
 //static/js/googlemap.js + static/js/editor.js
 
-	'map_title'		: 'Google Maps',//'google图',
-	'map_insert'		: 'Insert Google Map',//'插入google地图',
-	'map_insert_tips'	: 'Insert Google Maps by address searching (temporarily supported only single label!)',//'通过搜索插入google地图（暂只支持单点标注）！',
-	'map_center_changed'	: 'The map center is changed!',//'地图中心已经改变！',
-	'map_wrong_address'	: 'Wrong address! Current address was not found',//' 地址错误，未找到当前地址',
+	'map_title'		: 'خرائط Google',//'google图',
+	'map_insert'		: 'إدراج خرائط Google',//'插入google地图',
+	'map_insert_tips'	: 'إدراج خرائط Google بواسطة البحث عن العنوان (مؤقتاً يدعم قيمة واحدة فقط!)',//'通过搜索插入google地图（暂只支持单点标注）！',
+	'map_center_changed'	: 'تم تغيير مركز الخريطة!',//'地图中心已经改变！',
+	'map_wrong_address'	: 'عنوان خاطئ! لا يتم إيجاد العنوان',//' 地址错误，未找到当前地址',
 
 //-------------------------------------
 //	''	: '',//'',

@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_piclist.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -21,7 +21,7 @@ $lang = array
 	'piclist_uids'			=> 'أرقام الأعضاء',//'用户UID',
 	'piclist_uids_comment'		=> 'Please fill in specific users ID (uid), use comma (,) to separate users',//'填入指定用户的ID(uid)，多个用户之间用逗号(,)分隔',
 	'piclist_startrow'		=> 'صف البدء',//'起始数据行数',
-	'piclist_startrow_comment'	=> 'If you need to set start row, please enter a number, 0 is the first row',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
+	'piclist_startrow_comment'	=> 'إذا كنت بحاجة لتعيين صف البدء,الرجاء إدخال الرقم, 0 هو الصف الأول',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
 	'piclist_hours'			=> 'تصفية الوقت',//'时间范围',
 	'piclist_hours_nolimit'		=> 'غير محدد',//'不限制',
 	'piclist_hours_hour'		=> '1 ساعة',//'1小时内',

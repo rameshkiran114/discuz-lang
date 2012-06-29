@@ -6,7 +6,7 @@
  *
  *     $Id: lang_template.php by Valery Votintsev, codersclub.org
  *
- *     Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *     Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array (
@@ -114,7 +114,7 @@ $lang = array (
 	'group_no_member_moderated'	=> 'لا يوجد أعضاء في الإنتظار',//'暂无需要审核成员。',
 	'group_setup'			=> 'إعدادات المجموعة',//'群组设置',
 	'group_star_member_title'	=> 'أفضل الأعضاء',//'明星成员',
-	'group_threadtype'		=> 'انواع المواضيع',//'主题分类',
+	'group_threadtype'		=> 'أنواع المواضيع',//'主题分类',
 	'group_threadtype_limit_1'	=> 'يمكنك امتلاك فقط ',//'最多只能有',
 	'group_threadtype_limit_2'	=> ' نوع الموضوع.',//'个主题分类。
 	'ignore'			=> 'تجاهل',//'忽略',
@@ -178,8 +178,8 @@ $lang = array (
 	'group_you_have'		=> 'أنت انشأت {$groupnum} مجموعة/مجموعات. ويمكنك إنشاء {$allowbuildgroup} مجموعات.',//'你已有 {$groupnum} 个群组，还能创建 {$allowbuildgroup} 个。',
 	'input_search_key_words'	=> 'اكتب كلمات البحث',//'请输入搜索关键字',
 	'posts'				=> 'المشاركات',//'帖子',
-	'create_group_message1'		=> 'انشئ مجموعتك',//'创建自己的地盘',
-	'create_group_message2'		=> 'ابني مجموعتك وتحكم بها',//'精心打造群组空间',
+	'create_group_message1'		=> 'إنشئ مجموعتك',//'创建自己的地盘',
+	'create_group_message2'		=> 'إبني مجموعتك وتحكم بها',//'精心打造群组空间',
 	'create_group_message3'		=> 'دعوة أصدقاء للإنضمام ',//'邀请好友加入我的群组',
 	'create_group_message4'		=> 'تقدم لكسب النقاط والجوائز',//'群组积分升级赢得社区推荐',
 	'create_group_step'		=> 'خطوات إنشاء مجموعة',//'创建群组步骤',
@@ -199,7 +199,7 @@ $lang = array (
 	'group_member'			=> 'أعضاء المجموعة',//'群组成员',
 	'group_member_count'		=> 'عدد الأعضاء',//'人数',
 	'group_total_members_threads'	=> 'الأعضاء: $val[membernum], المواضيع: $val[threads]',//'成员: $val[membernum], 主题: $val[threads]',
-	'group_total_numbers'		=> 'الإجمالي  $curtype[groupnum] مجموعة/مجموعات',//'共有 $curtype[groupnum] 个群组',
+	'group_total_numbers'		=> 'الإجمالي  $curtype[groupnum] مجموعة(ات)',//'共有 $curtype[groupnum] 个群组',
 	'orderby'			=> 'ترتيب حسب ',//'排序方式',
 	'orderby_default'		=> 'الترتيب الإفتراضي',//'默认排序',
 	'stats_main_threads_count'	=> 'المواضيع',//'主题数',

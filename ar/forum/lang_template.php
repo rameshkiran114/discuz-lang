@@ -6,7 +6,7 @@
  *
  *     $Id: lang_template.php by Valery Votintsev, codersclub.org
  *
- *     Translated to Arabic by Khalid Nahhal, http://www.ar-discuz.com
+ *     Translated to Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
 $lang = array (
@@ -36,9 +36,9 @@ $lang = array (
 	'status'		=> 'الإحصائيات',//'状态',
 	'to_improve'		=> 'يجب التطوير',//'需完善',
 	'views'			=> 'المشاهدات',//'查看',
-	'activity_already'	=> 'رقم/عدد التطبيق',//'已报名人数',
+	'activity_already'	=> 'رقم التطبيق',//'已报名人数',
 	'activity_content'	=> 'محتوى الفعالية',//'活动内容',
-	'activity_space'	=> 'الحد الاقصى من الأعضاء',//'活动地点',
+	'activity_space'	=> 'الحد الأقصى من الأعضاء',//'活动地点',
 	'activity_start_between'	=> 'من $activity[starttimefrom] إلى $activity[starttimeto]',//'$activity[starttimefrom] 至 $activity[starttimeto] 商定',
 	'activity_starttime'	=> 'وقت البدء',//'开始时间',
 	'activity_totime'	=> 'آخر موعد للإنضمام',//'征集截止日期',
@@ -88,7 +88,7 @@ $lang = array (
 	'buy_all_attch'		=> 'شراء جميع المرفقات',//'购买所有附件',
 	'download'		=> 'تحميل',//'下载附件',
 	'free_buy'		=> 'شراء مجاناً',//'免费购买',
-	'pay_attachment'	=> 'المرفقات المبيوعة',//'购买附件',
+	'pay_attachment'	=> 'المرفقات التي تم بيعها',//'购买附件',
 	'pay_author_income'	=> 'إيرادات البيع',//'作者所得',
 	'pay_balance'		=> 'الميزانية بعد الشراء',//'购买后余额',
 	'price'			=> 'السعر',//'售价',
@@ -104,9 +104,9 @@ $lang = array (
 	'collection_desc_exceed'	=> '"يجب ألا يزيد الوصف عن  "+desclimit+" حرف"',
 	'collection_edit'		=> 'تعديل الألبوم',
 	'collection_keywords'		=> 'الكلمات الدلالية：',
-	'collection_keywords_desc'	=> 'إفصل بين الكلمات الدلالية بمسافة والحد الاقصى هو  5 حروف . وسيساعدك على البحث عن المشاركات',
+	'collection_keywords_desc'	=> 'إفصل بين الكلمات الدلالية بمسافة والحد الأقصى هو  5 حروف . وسيساعدك على البحث عن المشاركات',
 	'collection_remain_tips'	=> 'يمكنك أيضاً إنشاء $reamincreatenum ألبوم',
-	'collection_title'		=> 'عنوان الألبوم：',
+	'collection_title'		=> 'عنوان الألبوم ：',
 	'collection_title_exceed'	=> '"يجب ألا يزيد طول العنوان عن "+titlelimit+" حرف"',
 	'collection_sortby_coomentnum'	=> 'ترتيب حسب عدد المشاهدات',
 	'collection_sortby_follownum'	=> 'حسب المتابعين',
@@ -146,7 +146,7 @@ $lang = array (
 	'collection_addbtn'		=> 'إضافة الى ألبوم المشاركات',
 	'collection_addreason'		=> 'السبب:',
 	'collection_fill_entire'	=> 'الرجاء إدخال العنوان',
-	'collection_reason_exceed'	=> '"لقد تجاوزت الحد الاقصى وهو  "+reasonlimit+" حرف"',
+	'collection_reason_exceed'	=> '"لقد تجاوزت الحد الأقصى وهو  "+reasonlimit+" حرف"',
 	'collection_select'		=> 'حدد الألبوم :',
 	'collection_select_nocollection'	=> 'لم تقم بإنشاء الألبوم',
 	'collection_select_remain'	=> 'يمكنك أن تنشئ  <span id="reamincreatenum">$reamincreatenum</span> ألبوم جديد',
@@ -260,7 +260,7 @@ $lang = array (
 	'e_img_attach'		=> 'رفع صورة',
 	'e_img_height'		=> 'الإرتفاع(إختياري)',
 	'e_img_insertphoto'	=> 'الرجاء الضغط على الصورة لإدراجها في الموضوع',//'点击图片添加到帖子内容中',
-	'e_img_inserturl'	=> 'إدراج وصلة',
+	'e_img_inserturl'	=> 'إدراج رابط',
 	'e_img_width'		=> 'العرض(إختياري)',
 	'e_img_www'		=> 'رابط الصورة',//'网络图片',
 	'filename'		=> 'إسم الملف',//'文件名',
@@ -882,7 +882,7 @@ $lang = array (
 	'trade_seller'			=> 'البائع',//'卖家',
 	'trade_totalprice'		=> 'السعر الإجمالي',//'总金额',
 	'none_tag'			=> 'لا يوجد كلامات دلالية متعلقة',
-	'tag_search'			=> 'الحد الاقصى من نتائج البحث هو 50',
+	'tag_search'			=> 'الحد الأقصى من نتائج البحث هو 50',
 	'admin_bump'			=> 'إعلاء',//'提升主题',
 	'admin_close'			=> 'إغلاق الموضوع',//'关闭主题',
 	'admin_delthread_confirm'	=> 'الموفقة لـ <strong>حذف</strong> الموضوع?',//'你确认要 <strong>删除</strong> 选择的主题么?',
@@ -906,7 +906,7 @@ $lang = array (
 	'recommend'			=> 'غير مستحسن',//'推荐',
 	'thread_highlight'		=> 'تنسيق العنوان',//'高亮',
 	'topicadmin_crime_delpost_nums'	=> 'العضو $crimeauthor تم حذف  $crimenum مشاركة مخالفة خاصة به',
-	'types'				=> 'الانواع',//'分类',
+	'types'				=> 'الأنواع',//'分类',
 	'admin_banpost'			=> 'حظر',//'屏蔽',
 	'admin_delposts'		=> 'حذف المشاركات المحددة',//'删除选定帖子',
 	'admin_merge'			=> 'دمج',//'合并',
@@ -936,7 +936,7 @@ $lang = array (
 	'admin_bump_down'		=> 'إعلاء/ إخفاض',//'提升下沉',
 	'admin_openclose'		=> 'فتح/إغلاق',//'关闭打开',
 	'admin_select'			=> 'تم تحديد ',//'选中',
-	'maximize'			=> 'الحد الاقصى',//'最大化',
+	'maximize'			=> 'الحد الأقصى',//'最大化',
 	'minimize'			=> 'الحد الادنى',//'最小化',
 	'piece'				=> ' مشاركة ',//'篇',
 	'topicadmin_recommend_forum'	=> 'مستحسن إلى المنتدى',//'推荐到版块',
@@ -1066,7 +1066,7 @@ $lang = array (
 	'thread_rushreply_check_back'	=> 'الرجوع إلى الموضوع',
 	'thread_rushreply_end'		=> 'نهاية الالحاق ：',
 	'thread_rushreply_floor'	=> 'أرقام المشاركات الملحقة',
-	'thread_rushreply_limit'	=> ' خاصية الحاق الرد المتعلق ,{$rushresult[creditlimit_title]}أكبر من الحد الاقصى  وهو {$rushresult[creditlimit]} الذي يمكن الحاقه',
+	'thread_rushreply_limit'	=> ' خاصية الحاق الرد المتعلق ,{$rushresult[creditlimit_title]}أكبر من الحد الأقصى  وهو {$rushresult[creditlimit]} الذي يمكن الحاقه',
 	'thread_rushreply_over'		=> 'نهاية الالحاق:',//'抢楼结束：',
 	'thread_rushreply_rewardnum'	=> 'رد قد فاز',
 	'thread_rushreply_start'	=> ' بدء الالحاق :',//' 抢楼开始：',
@@ -1087,7 +1087,7 @@ $lang = array (
 	'activity_type'			=> 'النوع',//'活动类型',
 	'activity_wait'			=> 'تم إرسال برنامجك , الرجاء انتظار الموافقة',//'你的加入申请已发出，请等待发起者审批',
 	'activity_would_payment'	=> 'دفع',//'支付',
-	'activiy_guest_more'		=> 'الطول الاقصى هو  255 حرف.',//'你的留言超过 200 个字符的限制。',
+	'activiy_guest_more'		=> 'الطول الأقصى هو  255 حرف.',//'你的留言超过 200 个字符的限制。',
 	'complete_data'			=> 'إكتملت البيانات',//'完善资料',
 	'manage'			=> 'إدارة',//'管理',
 	'next_page'			=> 'التالي',//'下一页',
@@ -1226,12 +1226,12 @@ $lang = array (
 	'pending'			=> 'قيد الانتظار',
 
 // Added by Valery Votintsev
-	'view_thread_textmode'		=> 'Text mode',//'文字模式',
-	'like'				=> 'Like',//'喜欢',
+	'view_thread_textmode'		=> 'وضع نص',//'文字模式',
+	'like'				=> 'أعجبني',//'喜欢',
 	'in'				=> ' &nbsp;In',//'在',
-	'reply_num'			=> 'Replies',//'回复',
-	'loading'			=> 'Loading...',//'加载中...',
-	'follow_add'			=> 'Listen',//'收听',//Subscribe
+	'reply_num'			=> 'لبردود',//'回复',
+	'loading'			=> 'تحميل...',//'加载中...',
+	'follow_add'			=> 'إستماع',//'收听',//Subscribe
 //	'e_paste'			=> 'Paste',//'粘贴',
 );
 
