@@ -1175,8 +1175,8 @@ $lang = array
 	'setting_home_hotuser'				=> 'Recommended members',//'推荐成员',
 	'setting_home_hotuser_comment'			=> 'Add Format:<br />Please enter a user names, one name per line.<br>Example:<br>admin<br>webmaster<br/>these users will be randomly displayed in the "Webmaster Email" column.',//'添加格式：<br />请输入用户名，每个用户名一行。<br>例如：<br>admin<br>webmaster<br/>这些用户将随机显示在“站长推荐”栏目中',
 	'setting_home_hotuser_defaultuser'		=> 'Default users',//'推荐好友',
-	'setting_home_hotuser_defaultuser_comment'	=> 'Add Format:<br />Please enter a user names, one name per line.<br>Example:<br>admin<br>webmaster<br>these users will be automatically added to new users as friends.
-								Note: if specified users try to view their own home, this may increase the server loading because of a large number of friends.',//'添加格式：<br />请输入用户名，每个用户名一行。<br>例如：<br>admin<br>webmaster<br>这些用户会自动将新注册用户添加为好友，并向其打个招呼。 注意，指定的这几位用户浏览自己的首页时，可能会因其好友数众多而增加服务器负载。',
+	'setting_home_hotuser_defaultuser_comment'	=> 'Add Format:<br />Please enter user names, one name per line.<br>Example:<br>admin<br>webmaster<br>These users will be automatically added to new users as friends and send a greeting.
+								Note: Large number of default friends may increase the server loading.',//'添加格式：<br />请输入用户名，每个用户名一行。<br>例如：<br>admin<br>webmaster<br>这些用户会自动将新注册用户添加为好友，并向其打个招呼。 注意，指定的这几位用户浏览自己的首页时，可能会因其好友数众多而增加服务器负载。',
 	'setting_home_hotuser_defaultpoke'		=> 'Default greeting content',//'默认打招呼内容',
 	'setting_home_hotuser_defaultpoke_comment'	=> 'Automatic greeting content sent to new friends, not more than 25 characters.',//'(不要超过25个汉字)设置自动好友向新人打招呼的内容',
 
@@ -2700,7 +2700,7 @@ $lang = array
 	'threadtype_protect_verify'		=> 'View information of verify group',//'可查看该信息的认证组',
 	'threadtype_protect_verify_comment'	=> 'View information of verify group. If not choosed, compared without limits',//'可查看该信息的认证组，不选则为不限制',
 	'threadtype_protect_permprompt'		=> 'No permission message',//'无权限提示信息',
-	'threadtype_protect_permprompt_comment' => 'Message displayed when users are not authorized to view the field content',//'当用户无权查看字段内容时显示的提示信息',
+	'threadtype_protect_permprompt_comment'	=> 'Message displayed when users are not authorized to view the field content',//'当用户无权查看字段内容时显示的提示信息',
 	'threadtype_defaultvalue'		=> 'Default value (optional)',//'默认值(可选)',
 	'threadtype_manage'			=> 'Category options management',//'分类信息字段管理',
 	'threadtype_cat_manage'			=> 'Category options management',//'分类信息字段管理',
@@ -2752,7 +2752,7 @@ $lang = array
 	'threadtype_template_authorurl'		=> 'Author URL',//'作者 URL',
 	'threadtype_template_authoravatar'	=> 'Avatar URL',//'头像 URL',
 	'threadtype_template_authorverify'	=> 'Verified',//'认证标识',
-	'threadtype_template_threadauthor' 	=> 'Thread author',//'主题作者',
+	'threadtype_template_threadauthor'	=> 'Thread author',//'主题作者',
 	'threadtype_template_threadviews'	=> 'Views',//'主题查看数',
 	'threadtype_template_threadreplies'	=> 'Replies',//'主题回复数',
 	'threadtype_template_lastpostdateline'	=> 'Last Post',//'最后回复时间',
