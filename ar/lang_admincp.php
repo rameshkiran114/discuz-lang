@@ -1014,7 +1014,7 @@ $lang = array
 	'setting_styles_refresh_messages'		=> 'معلومات الرسائل/الوصلات السريعة',//'直接/快速跳转的信息',
 	'setting_styles_refresh_messages_comment'	=> 'إذا قمت بتشغيل الوصلات السريعة سوف تظهر هذه المعلومات. أدخل رسالة في كل سطر.',
 
-	'setting_follow				=> 'إعدادات البث',
+	'setting_follow'			=> 'إعدادات البث',
 	'setting_follow_base'			=> 'الإعدادات الأساسية',
 	'setting_follow_base_default_referer'	=> 'عرض صفحة إفتراضية للبث ؟',
 	'setting_follow_base_default_referer_comment'	=> 'ضع نعم لوضع خاصية البث في صفحة إفتراضية منفصلة أو لا لدمجه مع الملف الشخصي',
@@ -6624,6 +6624,9 @@ RepeatLimit 32
 
 //---------------------------
 // Added by Valery Votintsev
+
+//source/function/function_admincp.php
+	'upload_selectfile'		=> 'Browse',//'浏览',
 
 //source/admincp/admincp_index.php - javascript function shownews()
 	'subscribe'		=> 'إشتراك',//'订阅',
