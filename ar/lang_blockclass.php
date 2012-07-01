@@ -187,7 +187,7 @@ $lang = array(
 	'blockclass_member_field_avatar_middle'	=> 'صورة رمزية متوسطة',//'用户头像(中)',
 	'blockclass_member_field_avatar_big'	=> 'صورة رمزية كبيرة',//'用户头像（大）',
 	'blockclass_member_field_credits'	=> 'عدد النقاط',//'积分数',
-	'blockclass_member_field_reason'	=> 'سبب الاستحسان',//'推荐原因',
+	'blockclass_member_field_reason'	=> 'سبب الإستحسان',//'推荐原因',
 	'blockclass_member_field_unitprice'	=> 'سعر الوصول  إلى وحدة واحدة',//'竟价单次访问单价',
 	'blockclass_member_field_showcredit'	=> 'سعر إجمالي النقاط',//'竟价总积分',
 	'blockclass_member_field_shownote'	=> 'سعر لعرض ملاحظة',//'竟价上榜宣言',
@@ -418,7 +418,7 @@ $lang = array(
 	'blockclass_groupactivity_script_groupactivitycity'	=> 'فعاليات في نفس المدينة',//'同城活动',
 	'blockclass_groupactivity_script_groupactivity'		=> 'مخصص',//'高级自定义',
 	
-	'blockclass_xml'			=> 'The third party type',//'第三方类',
+	'blockclass_xml'	=> 'Third class',
 
 	'blockclass_other'			=> 'آخر',
 	'blockclass_other_script_friendlink'	=> 'التخصيص المتقدم',

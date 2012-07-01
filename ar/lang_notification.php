@@ -22,7 +22,7 @@ $lang = array
 	'type_clickarticle'	=> 'موقع مقالة',//'文章表态',
 	'type_clickpic'		=> 'موقع صورة',//'图片表态',
 	'type_sharecomment'	=> 'تعليق منشور',//'分享评论',
-	'type_doing'		=> 'افعال',//'记录',
+	'type_doing'		=> 'أفعال',//'记录',
 	'type_friend'		=> 'أصدقاء',//'好友',
 	'type_credit'		=> 'نقاط',//'积分',
 	'type_bbs'		=> 'المنتدى',//'论坛',
@@ -60,11 +60,11 @@ $lang = array
 	'myinvite_request'	=> 'رسالة تطبيق جديدة <a href="home.php?mod=space&do=notice&view=userapp">إضغط هنا لرؤية التفاصيل</a>',//'有新的应用消息<a href="home.php?mod=space&do=notice&view=userapp">点此进入应用消息页面进行相关操作</a>',
 
 
-	'group_member_join'	=> '{actor} يريد الانضمام إلى مجموعتك, الرجاء اخذ الإجراء المناسب  <a href="{url}" target="_blank">من لوحة إدارة المجموعة</a>',//'{actor} 加入你的群组需要审核，请到群组 <a href="{url}" target="_blank">管理后台</a> 进行审核',
+	'group_member_join'	=> '{actor} يريد الإنضمام إلى مجموعتك, الرجاء اخذ الإجراء المناسب  <a href="{url}" target="_blank">من لوحة إدارة المجموعة</a>',//'{actor} 加入你的群组需要审核，请到群组 <a href="{url}" target="_blank">管理后台</a> 进行审核',
 	'group_member_invite'	=> '{actor} قام بدعوتك للإنضمام إلى مجموعة  <a href="forum.php?mod=group&fid={fid}" target="_blank">{groupname}</a>, <a href="{url}" target="_blank">إضغط هنا للإنضمام الآن</a>',//'{actor} 邀请你加入 <a href="forum.php?mod=group&fid={fid}" target="_blank">{groupname}</a> 群组，<a href="{url}" target="_blank">点此马上加入</a>',
-	'group_member_check'	=> 'طلبك في الانضمام إلى  <a href="{url}" target="_blank">{groupname}</a> تم قبوله, please <a href="{url}" target="_blank">إضغط هنا لزيارة المجموعة</a>',//'你已经通过了 <a href="{url}" target="_blank">{groupname}</a> 群组的审核，请 <a href="{url}" target="_blank">点击访问</a>',
+	'group_member_check'	=> 'طلبك في الإنضمام إلى  <a href="{url}" target="_blank">{groupname}</a> تم قبوله, please <a href="{url}" target="_blank">إضغط هنا لزيارة المجموعة</a>',//'你已经通过了 <a href="{url}" target="_blank">{groupname}</a> 群组的审核，请 <a href="{url}" target="_blank">点击访问</a>',
 	'group_member_check_failed'	=> 'مجموعتك  <a href="{url}" target="_blank">{groupname}</a> لم تجتاز التحقق',//'你没有通过 <a href="{url}" target="_blank">{groupname}</a> 群组的审核。',
-	'group_mod_check'		=> 'The group you have created "<a href="{url}" target="_blank">{groupname}</a>" was approved, please <a href="{url}" target="_blank">Click here to visit</a>',//'您的创建的群组 <a href="{url}" target="_blank">{groupname}</a> 审核通过了，请 <a href="{url}" target="_blank">点击这里访问</a>',
+	'group_mod_check' => 'يمكنك إنشاء مجموعة <a href="{url}" target="_blank">{groupname}</a> للحصول على الموافقة، <a href="{url}" target="_blank">点击这里访问</a>',
 
 	'reason_moderate'	=> 'موضوعك  <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> لقد تم  {modaction} بواسطة {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -77,7 +77,7 @@ $lang = array
 	'reason_ban_post'	=> 'موضوعك  <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> لقد تم  {modaction} بواسطة {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'reason_warn_post'	=> 'موضوعك  <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> لقد تم  {modaction} بواسطة {actor}.<br />
-				إذا تم تحذيره  {warninglimit} مرات في  {warningexpiration} أيام/يوم, سوف تكون لا تستطيع المشاركة لمدة  {warningexpiration} يوم تلقائيا.<br />
+				إذا تم تحذيره  {warninglimit} مرات في  {warningexpiration} أيام/يوم, سوف تكون لا تستطيع المشاركة لمدة  {warningexpiration} يوم تلقائياً.<br />
 				حالياً, تم تحذيرك  {authorwarnings} مرات!
 				<div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -97,9 +97,9 @@ $lang = array
 
 	'reason_stickreply'		=> 'ردك في موضوع  <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> تم تثبيته في الاعلى بواسطة {actor}. <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_stickdeletereply'	=> 'ردك في موضوع  <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> تم ازالة تثبيته بواسطة {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你在主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的回帖被 {actor} 撤销置顶 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_stickdeletereply'	=> 'ردك في موضوع  <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> تم إزالة تثبيته بواسطة {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你在主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的回帖被 {actor} 撤销置顶 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_quickclear'	=> ' {cleartype} الخاص بك تم حذفه بواسطة {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的{cleartype} 被 {actor} 清除 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_quickclear' => '{cleartype} الخاص بك  تم مسحه بواسطة  {actor} والسبب <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'modthreads_delete'	=> 'موضوعك {threadsubject} لم يتم الموافقة عليه, تم حذفه! <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 {threadsubject} 没有通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -162,7 +162,7 @@ $lang = array
 
 	'task_reward_credit'	=> 'تهانينا! لقد اكملت مهمتك: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>, وحصلت على  {creditbonus} نقطة . &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">إضغط هنا لعرض نقاطي &rsaquo;</a></p>',//'恭喜你完成任务：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>，获得积分 {creditbonus} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">查看我的积分 &rsaquo;</a></p>',
 
-	'task_reward_magic'	=> 'مبروك! اكملت المهمة: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>, وحصلت على  {bonus} magic <a href="home.php?mod=magic&action=mybox" target="_blank">{rewardtext}</a>',//'恭喜你完成任务：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>，获得道具 <a href="home.php?mod=magic&action=mybox" target="_blank">{rewardtext}</a> {bonus} 张',
+	'task_reward_magic'	=> 'تهانينا! اكملت المهمة: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>, وحصلت على  {bonus} magic <a href="home.php?mod=magic&action=mybox" target="_blank">{rewardtext}</a>',//'恭喜你完成任务：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>，获得道具 <a href="home.php?mod=magic&action=mybox" target="_blank">{rewardtext}</a> {bonus} 张',
 
 	'task_reward_medal'	=> 'تهانينا! لقد اكملت مهمتك: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>, وحصلت على وسام <a href="forum.php?mod=medal" target="_blank">{rewardtext}</a>. وصالح حتى : {bonus} يوم.',//'恭喜你完成任务：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>，获得勋章 <a href="forum.php?mod=medal" target="_blank">{rewardtext}</a> 有效期 {bonus} 天',
 
@@ -190,7 +190,7 @@ $lang = array
 	'member_ban_visit'		=> 'لقد تم حظرك من قبل {user} لفترة  {day} يوم (0 يعني فرض حظر دائم). سبب الحظر: {reason}',//'您已被 {user} 禁止访问，期限：{day}天(0：代表永久禁止访问)，禁止访问理由：{reason}',
 	'member_ban_status'		=> 'لقد تم حظرك من قبل {user}, سبب الحظر: {reason}',//'您已被 {user} 锁定，禁止访问理由：{reason}',
 	'member_follow'			=> 'There are {count} new feeds from people you follow. <a href="home.php?mod=follow">Click to view</a>',//'您关注的人已有{count}条新动态。<a href="home.php?mod=follow">Click to view</a>',
-	'member_follow_add'		=> '{actor} have folloed to you. <a href="home.php?mod=follow&do=follower">Click to view</a>',//'{actor} 收听了你。<a href="home.php?mod=follow&do=follower">Click to view</a>',
+	'member_follow_add' => '{actor} يتتبعك <a href="home.php?mod=follow&do=follower">ألقي نظرة</a>',
 
 	'member_moderate_invalidate'	=> 'تم رفض حسابك من قبل المدير , الرجاء  <a href="home.php?mod=spacecp&ac=profile">إعادة تقديم معلومات التسجيل مرة أخرى </a>.<br />ملاحظة المدير: <b>{remark}</b>',//'你的账号未能通过管理员的审核，请<a href="home.php?mod=spacecp&ac=profile">重新提交注册信息</a>。<br />管理员留言: <b>{remark}</b>',
 	'member_moderate_validate'	=> 'تم الموافقة على حسابك .<br />ملاحظة المدير : <b>{remark}</b>',//'你的账号已经通过审核。<br />管理员留言: <b>{remark}</b>',

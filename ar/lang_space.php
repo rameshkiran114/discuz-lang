@@ -38,11 +38,11 @@ $lang = array(
 	'clickthread'		=> 'موقف موضوع',//'话题表态',
 	'share_comment'		=> 'تعليق منشور',//'分享评论',
 	'share_notice'		=> 'منشورات',//'分享',
-	'doing_comment'		=> 'تعليق فعل',//'记录回复',
+	'doing_comment'		=> 'تعليق على فعل',//'记录回复',
 	'friend_notice'		=> 'الأصدقاء',//'好友',
 	'poll_comment'		=> 'تعليقات إستطلاع',//'投票评论',
 	'poll_invite'		=> 'دعوات الإستطلاع',//'投票邀请',
-	'default_albumname'	=> 'الألبوم الافتراضي',//'默认相册',
+	'default_albumname'	=> 'الألبوم الإفتراضي',//'默认相册',
 	'credit'		=> 'النقاط',//'积分',
 	'credit_unit'		=> 'نقاط',//'个',
 	'man'			=> 'رجل',//'男',
@@ -179,14 +179,14 @@ $lang = array(
 	'block_profile_wall'	=> 'عرض الحائط',//'查看留言',
 	'block_profile_avatar'	=> 'تعديل الرمزية',//'编辑头像',
 	'block_profile_update'	=> 'تحديث الملف',//'更新资料',
-	'block_profile_follow'		=> 'عرض التتبع',//'查看广播',
+	'block_profile_follow' => 'عرض البث',
 	'block_profile_wall_to_me'	=> 'رسالة حائط',//'给我留言',
 	'block_profile_friend_add'	=> 'إضافة كصديق',//'加为好友',
-	'block_profile_friend_ignore'	=> 'ازالة من الأصدقاء',//'解除好友',
+	'block_profile_friend_ignore'	=> 'إزالة من الأصدقاء',//'解除好友',
 	'block_profile_poke'		=> 'إرسال تحية',//'打个招呼',
 	'block_profile_sendmessage'	=> 'إرسال رسالة',//'发送消息',
 	'block_doing_reply'		=> 'رد',//'回复',
-	'block_doing_no_content'	=> 'لا يوجد افعال',
+	'block_doing_no_content'	=> 'لا يوجد أفعال',
 	'block_doing_no_content_publish'	=> ', <a href ="home.php?mod=space&uid={uid}&do=doing&view=me&from=space">Update Doing</a>',//	'block_doing_no_content_publish'	=> '，<a href ="home.php?mod=space&uid={uid}&do=doing&view=me&from=space">更新记录</a>',
 	'block_blog_no_content'		=> 'لا يوجد أي مدونة حتى الآن',
 	'block_blog_no_content_publish'	=> ',<a href ="home.php?mod=spacecp&ac=blog">المدونات</a>',
@@ -210,7 +210,7 @@ $lang = array(
 	'block_view_profileinfo_noperm'	=> 'لا يوجد بيانات أو لا يوجد تصاريح للمشاهدة',//'暂无资料项或无权查看',
 	'click_play'			=> 'إضغط للعب',//'点击播放',
 	'click_view'			=> 'إضغط للعرض',//'点击查看',
-	'feed_view_only'		=> 'فقط انتظر إلى تلك الأخبار',//'只看此类动态',
+	'feed_view_only'		=> 'فقط إنتظر إلى تلك الأخبار',//'只看此类动态',
 
 	'export_pm'		=> 'تصدير الرسالة',//'?????',
 	'pm_export_header'	=> 'Discuz!X سجلات الرسائل الخاصة (الرسالة المسجلة هي بصيغة نص , إعادة الإستيراد غير مدعومة)',//'Discuz! X ?????(??????????,???????)',
@@ -232,7 +232,7 @@ $lang = array(
 	'sb_album'		=> ' ألبومات {who} ',
 	'sb_space'		=> ' الملف الشخصي {who} ',
 	'sb_feed'		=> ' أخبار {who} ',
-	'sb_doing'		=> 'افعال {who} ',
+	'sb_doing'		=> 'أفعال {who} ',
 	'sb_sharing'		=> 'منشورات {who} ',
 	'sb_friend'		=> ' أصدقاء {who} ',
 	'sb_wall'		=> ' حائط {who} ',
@@ -241,7 +241,7 @@ $lang = array(
 	'doing_you_can'		=> 'يمكنك كتابة ماذا تفعل الآن هنا لتعريف اصدقائك ...',
 	'block_profile_all'	=> '<p style="text-align: right;"><a href="home.php?mod=space&uid={uid}&do=profile">المعلومات الشخصية</a></p>',
 	'block_profile_edit'	=> '<span class="y xw0"><a href="home.php?mod=spacecp&ac=profile">ملفي الشخصي</a></span>',
-	'sb_follow'		=> '{who} followings',//'{who}的广播',
+	'sb_follow' => 'بث {who}',
 
 	'viewthread_userinfo_hour'	=> 'ساعة',
 	'viewthread_userinfo_uid'	=> 'UID',
@@ -286,9 +286,5 @@ $lang = array(
 	'follow_follow_ta'			=> 'تتبع الكاتب',//'收听TA',
 
 
-//-------------------------------------------------------
-// Added by Khalid Nahhal
-	'facebook_profile'	=> 'عرض الملف الشخصي في الفيسبوك',
-	'add_facebook_friend'	=> 'إضافة صديق من الفيسبوك',
 );
 

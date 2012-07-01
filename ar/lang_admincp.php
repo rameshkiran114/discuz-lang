@@ -6626,7 +6626,7 @@ RepeatLimit 32
 // Added by Valery Votintsev
 
 //source/function/function_admincp.php
-	'upload_selectfile'		=> 'Browse',//'浏览',
+	'upload_selectfile'		=> 'تصفح',//'浏览',
 
 //source/admincp/admincp_index.php - javascript function shownews()
 	'subscribe'		=> 'إشتراك',//'订阅',
