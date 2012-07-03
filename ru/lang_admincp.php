@@ -3717,13 +3717,13 @@ $lang = array
 	'usergroups_edit_basic_allow_stat'		=> 'Допуск к просмотру тенденций в статистике',
 	'usergroups_edit_basic_allow_statdata'		=> 'Просмотр статистики сайта',
 	'usergroups_edit_basic_domain_length'		=> 'Минимальная длина субдомена',
-	'usergroups_edit_basic_domain_length_comment'	=> '0 - для отключения доменов второго уровня',
-	'usergroups_edit_basic_intro_length'		=> 'Максимальная длина текста введения классов',
-	'usergroups_edit_basic_intro_length_comment'	=> 'Единица (Байт), 0 - без ограничений',
-	'usergroups_edit_basic_allowcreatecollection'		=> 'Allowed number of collections',//'允许用户创建淘专辑的数量',
-	'usergroups_edit_basic_allowcreatecollection_comment'	=> 'Set to "0" for disable collection creating',//'“0”表示不允许创建淘专辑',
-	'usergroups_edit_basic_allowfollowcollection'		=> 'Maximum number of followed collections',//'最多允许关注淘专辑的数量',
-	'usergroups_edit_basic_allowfollowcollection_comment'	=> 'Allow users to follow only this limited number of collections',//'允许用户最多关注淘专辑的数量',
+	'usergroups_edit_basic_domain_length_comment'	=> 'Максимальная длина имени домена - 15 символов. 0 - запретить субдомены',
+	'usergroups_edit_basic_intro_length'		=> 'Максимальная длина описания',
+	'usergroups_edit_basic_intro_length_comment'	=> 'В символах, 0 - без ограничений',
+	'usergroups_edit_basic_allowcreatecollection'		=> 'Кол-во создаваемых коллекций',//'允许用户创建淘专辑的数量',
+	'usergroups_edit_basic_allowcreatecollection_comment'	=> '"0" - запретить создание коллекций',//'“0”表示不允许创建淘专辑',
+	'usergroups_edit_basic_allowfollowcollection'		=> 'Максимальное количество отслеживаемых коллекций (follow)',//'最多允许关注淘专辑的数量',
+	'usergroups_edit_basic_allowfollowcollection_comment'	=> 'Ограничить кол-во подписок пользователя на коллекции',//'允许用户最多关注淘专辑的数量',
 
 	'usergroups_edit_system'		=> 'Система групп пользователей',
 	'usergroups_edit_system_tips'		=> '<li><b><u>Избранная группа</u></b><br />Группа пользователей, которая может быть изменена администратором вручную, независимо от формы первичной группы пользователей</li><li><b><u>Общая группа</u></b><br />К  общей группе могут присоединиться любые пользователи, если это разрешено администратором. Перейдя в группы пользователи будут наделены правами данной группы</li><li><b>Платная группа</b>: <br />Вы можете установить для пользователей плату за присоединение к данной группе (количество баллов за определенный период времени). В конце периода пользователь будет удален из группы</li><li><b>Бесплатная группа</b>: <br />Данной группе предоставляется бесплатный доступ к определенным ресурсам сайта</li>',
@@ -5179,7 +5179,7 @@ $lang = array
 	'ec_alipay_securitycode'		=> 'Код проверки безопасности (key)',
 	'ec_alipay_securitycode_comment'	=> 'Введите полученный Вами ключ безопасности Alipay. счет указанный здесь и выполнять проверку безопасности кода. Для получения проверочного кода зайдите на официальный бизнес-сайт Alipay',
 	'ec_alipay_partner'			=> 'ID партнера (PID)',//'合作者身份 (PID)',
-	'ec_alipay_partner_comment'		=> 'Введите ID партнера Alipay. Оплата стоимости транзакций взимается в соответствии с подписанным Вами соглашением при регистрации. Если вы еще не открыли счет, <a href="http://act.life.alipay.com/systembiz/discuz/" target="_blank">Зарегистрируйте аккаунт</a>. Если у Вас уже есть аккаунт в Alipay, <a href="https://b.alipay.com/order/pidKey.htm?pid=2088501719138773&product=fastpay" target="_blank">Получите свой PID и Key</a>. Если Вы получили ошибку при регистрации, пожалуйста, свяжитесь с техподдержкой по телефону: 0571-88158090',
+	'ec_alipay_partner_comment'		=> 'Введите ID партнера Alipay. Комиссия за каждую транзакцию взимается в соответствии с подписанным Вами соглашением при регистрации.<br/>Если у Вас еще нет счета, Вы можете <a href="http://act.life.alipay.com/systembiz/discuz/" target="_blank">Зарегистрировать аккаунт Alipay</a>. Если у Вас уже есть аккаунт в Alipay, Вы можете <a href="https://b.alipay.com/order/pidKey.htm?pid=2088501719138773&product=fastpay" target="_blank">Получить PID и Key</a>. Если у Вас проблемы с регистрацией, свяжитесь с техподдержкой по телефону: 0571-88158090',
 	'ec_alipay_creditdirectpay'		=> 'Использование интерфейс мгновенной оплаты',
 	'ec_alipay_creditdirectpay_comment'	=> 'Если подписанное соглашение содержит интерфейс мгновенной оплаты (не стандартный двойной интерфейс), тогда можете выбрать этот вариант',
 
@@ -6623,6 +6623,9 @@ RepeatLimit 32
 
 //---------------------------
 // Added by Valery Votintsev
+
+//source/function/function_admincp.php
+	'upload_selectfile'		=> 'Выбрать файл',//'浏览',
 
 //source/admincp/admincp_index.php - javascript function shownews()
 	'subscribe'		=> 'Subscribe',//'订阅',
