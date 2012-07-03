@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_message.php by Valery Votintsev at sources.ru
+ *      $Id: lang_message.php 30846 2012-06-25 10:17:09Z zhangjie $
  *
  *      This file is automatically generate
  */
