@@ -103,7 +103,7 @@ $lang = array
 
 	'modthreads_delete'	=> 'موضوعك {threadsubject} لم يتم الموافقة عليه, تم حذفه! <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 {threadsubject} 没有通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modthreads_validate'	=> 'موضوعك <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> تم الموافقة عليه! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">إضغط هنا لرؤيته;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> 已经审核通过！ &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
+/*!*/	'modthreads_validate'	=> 'موضوعك <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> تم الموافقة عليه! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">إضغط هنا لرؤيته&LSaquo;</a>',//'你发表的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> 已经审核通过！ &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 
 	'modreplies_delete'	=> 'لم يتم الموافقة على ردك, لقد تم حذفه! <p class="summary">المحتوى: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表回复没有通过审核，现已被删除！ <p class="summary">回复内容：<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
 

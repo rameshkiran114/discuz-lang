@@ -3718,7 +3718,7 @@ $lang = array
 	'usergroups_edit_basic_allow_stat'			=> 'عرض الإحصائيات',//'允许查看趋势统计',
 	'usergroups_edit_basic_allow_statdata'			=> 'السماح بعرض إحصائيات الموقع',//'允许查看站点统计',
 	'usergroups_edit_basic_domain_length'			=> 'الحد الأدنى لطول إسم مستوى المجال الثاني',//'二级域名最短长度',
-	'usergroups_edit_basic_domain_length_comment'		=> 'ضع 0 لتعطيل المجال الثاني. لتعيين أكثر من 2 حرف لكي تكون فعالة.',
+/*!*/	'usergroups_edit_basic_domain_length_comment'		=> 'ضع 0 لتعطيل المجال الثاني. لتعيين أكثر من 2 حرف لكي تكون فعالة. The maximum length is 15 characters.',
 	'usergroups_edit_basic_intro_length'		=> 'الحد الأقصى لطول نص السيرة الذاتية',
 	'usergroups_edit_basic_intro_length_comment'	=> 'ضع 0 لغير محدود',
 	'usergroups_edit_basic_allowcreatecollection'	=> 'حدد الحد الاقصى من ألبومات المشاركات التي يمكن للعضو إنشاءها',
@@ -5180,7 +5180,7 @@ $lang = array
 	'ec_alipay_securitycode'		=> 'Transaction security check code (key)',//'交易安全校验码 (key)',
 	'ec_alipay_securitycode_comment'	=> 'Enter the transaction security check code assigned to you by Alipay. This verification code enable you to pay with official Alipay business services.',//'支付宝签约用户可以在此处填写支付宝分配给您的交易安全校验码，此校验码您可以到支付宝官方的商家服务功能处查看',
 /*!*/	'ec_alipay_partner'			=> 'Partner id (PID)',//'合作者身份 (PID)',
-/*!*/	'ec_alipay_partner_comment'		=> 'Enter assigned to you Alipay partner status ID. The user fees is payed in accordance with the contract you are signing of the official agreement. If you have not signed, you can <a href="http://act.life.alipay.com/systembiz/discuz/" target="_blank">Sign now</ a>. If you have signed, <a href="https://b.alipay.com/order/pidKey.htm?pid=2088501719138773&product=fastpay" target="_blank">Click here to get the PID and Key</a>; If at the sign time a contract template conflict appears, please consult by phone 0571-88158090.',//'支付宝签约用户请在此处填写支付宝分配给您的合作者身份，签约用户的手续费按照您与支付宝官方的签约协议为准。<br/>如果您还未签约，<a href="http://act.life.alipay.com/systembiz/discuz/" target="_blank">请点击这里签约</a>；如果已签约,<a href="https://b.alipay.com/order/pidKey.htm?pid=2088501719138773&product=fastpay" target="_blank">请点击这里获取PID、Key</a>;如果在签约时出现合同模板冲突，请咨询0571-88158090',
+/*!*/	'ec_alipay_partner_comment'		=> 'Enter the Partner ID assigned to you by. The user fees is payed in accordance with the contract you are signing of the official agreement.<br/>If you have not signed, you can <a href="http://act.life.alipay.com/systembiz/discuz/" target="_blank">Sign now</ a>. If you have allready registered, you can <a href="https://b.alipay.com/order/pidKey.htm?pid=2088501719138773&product=fastpay" id="aliapitype" target="_blank">Click here to get the PID and Key</a>; If you have problems with Alipay signing, please consult the Support Service by phone 0571-88158090.',//'支付宝签约用户请在此处填写支付宝分配给您的合作者身份，签约用户的手续费按照您与支付宝官方的签约协议为准。<br/>如果您还未签约，<a href="http://act.life.alipay.com/systembiz/discuz/" target="_blank">请点击这里签约</a>；如果已签约,<a href="https://b.alipay.com/order/pidKey.htm?pid=2088501719138773&product=fastpay" id="aliapitype" target="_blank">请点击这里获取PID、Key</a>;如果在签约时出现合同模板冲突，请咨询0571-88158090',
 	'ec_alipay_creditdirectpay'		=> 'Use the account interface directly',//'使用即时到帐接口',
 	'ec_alipay_creditdirectpay_comment'	=> 'If after signing the agreement you allowed to direct use the merchant interface, choose it to allow integration withg real-time payments, such as recharge, product sell, etc.',//'如果您的签约协议中包含即时到帐接口可以选择此项，让积分充值、商品交易使用即时到账方式付款',
 

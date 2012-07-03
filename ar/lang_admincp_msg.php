@@ -555,7 +555,7 @@ $lang = array (
 	'upgrade_download_upgradelist_error'	=> 'فشل إيجاد قائمة الملفات التي سوف تحدث, إعادة العملية? {upgradeurl}',//'获取待更新文件列表失败，是否重新获取？ {upgradeurl}',
 	'upgrade_download_complete_to_compare'	=> 'الملفات التي سوف تحدث تم تحميلها, سيتم المقارنة مع الملفات المحلية الآن',//'待更新文件下载完成，即将进行本地文件比较',
 	'upgrade_redownload' => 'تحديث الملف  {file} فشل هل تريد إعادة المحاولة {upgradeurl}',
-	'upgrade_downloading_file' => 'يتم الان تحميل ملفات النسخة الجديدة من الموقع الرسمي  {file} {upgradeurl}',
+/*!*/	'upgrade_downloading_file' => 'يتم الان تحميل ملفات النسخة الجديدة من الموقع الرسمي  {file}<br>Finished: {percent}, {upgradeurl}',
 	'upgrade_cannot_access_file'		=> 'ليس لديك صلاحيات لتعديل المجلدات والملفات. الرجاء إدخال معلومات حساب FTP , او قم تعديل صلاحيات الكتابة والقراءة , والمحاولة مرة أخرى',//'发现您的目录及文件无修改权限，请您填写 ftp 账号，或者修改文件权限为可读可写后重试',
 	'upgrade_backuping' => 'يتم نسخ نسخة احتياطية من الملفات... {upgradeurl}',
 	'upgrade_backup_error' => 'فشل نسخ نسخة احتياطية للملفات الاصلية {upgradeurl}',
@@ -623,6 +623,7 @@ $lang = array (
 	'cloudaddons_ftp_path_error' => 'خطأ في معلومات FTP الخاصة بك , يرجى التعديل',
 
 	'cloudaddons_check_url_fopen_error'	=> 'Your server can not access the Application Center, This will cause the application can not be installed. Please contact your service provider or site technical staff, Ensure that your server can normal access to addon.discuz.com or addon1.discuz.com',//'您的服务器无法访问应用中心，这将会导致应用无法安装。请联系您的服务商或者网站技术人员，确保您的服务器能够正常访问 addon.discuz.com 或 addon1.discuz.com',
+/*!*/	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
 	'cloudaddons_genuine_message' => 'عذراً ，أنت تستخدم تطبيقات غير اصلية , برنامج التثبيت لا يمكنه المواصلة <br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">اضغط هنا لتثبيت الاصدار الأصلي</a>',
 );
 
