@@ -26,7 +26,7 @@ $lang = array
 	'post_single_banned'		=> '*** Thema gesperrt ***',
 	'message_ishidden_hiddenreplies'	=> 'Dieser Beitrag ist nur f&uuml;r den Autor sichtbar.',
 	'post_reply_quote'		=> 'Original geschrieben von {author} um {time}',
-	'post_edit'			=> '[i=s] Zuletzt bearbeitet von {editor} um {edittime} [/i]\n\n',
+	'post_edit'			=> "[i=s] Zuletzt bearbeitet von {editor} um {edittime} [/i]\n\n",
 	'post_edit_regexp'		=> '/^\[i=s\] Zuletzt bearbeitet von .*? um .*? \[\/i\]\n\n/s',
 	'post_edithtml'			=> '[i=s] Edited by {editor} at {edittime} [/i]<br /><br />',//'[i=s] 本帖最后由 {editor} 于 {edittime} 编辑 [/i]<br /><br />',
 	'post_edithtml_regexp'		=> '/^\[i=s\] Edited by .*? at .*? \[\/i\]&lt;br \/&gt;&lt;br \/&gt;/s',//'/^\[i=s\] 本帖最后由 .*? 于 .*? 编辑 \[\/i\]&lt;br \/&gt;&lt;br \/&gt;/s',

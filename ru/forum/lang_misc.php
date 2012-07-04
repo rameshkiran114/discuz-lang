@@ -29,7 +29,7 @@ $lang = array
 	'post_single_banned'	=> '**** Сообщение заблокировано ****',
 	'message_ishidden_hiddenreplies'	=> 'Данное сообщение может видеть только автору темы',
 	'post_reply_quote'		=> '{author} ответил: {time}',
-	'post_edit'			=> '[i=s] Отредактировано: {editor}, {edittime}[/i]\n\n',
+	'post_edit'			=> "[i=s] Отредактировано: {editor}, {edittime}[/i]\n\n",
 	'post_edit_regexp'		=> '/^\[i=s\] Отредактировано: .*?, .*?\[\/i\]\n\n/s',
 	'post_edithtml'			=> '[i=s] Отредактировано: {editor}, {edittime}[/i]<br /><br />',
 	'post_edithtml_regexp'		=> '/^\[i=s\] Отредактировано: .*?, .*?\[\/i\]&lt;br \/&gt;&lt;br \/&gt;/s',

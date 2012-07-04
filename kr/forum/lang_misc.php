@@ -26,7 +26,7 @@ $lang = array
 	'post_single_banned'	=> '**** 이게시글은 차단됨 ****',
 	'message_ishidden_hiddenreplies'	=> '이게시글은 글쓴이만 봄',
 	'post_reply_quote'		=> '{author} 가 {time}에 등록',
-	'post_edit'			=> '[i=s] Edited by {editor} at {edittime} [/i]\n\n',//"[i=s] 本帖最后由 {editor} 于 {edittime} 编辑 [/i]\n\n",
+	'post_edit'			=> "[i=s] Edited by {editor} at {edittime} [/i]\n\n",//"[i=s] 本帖最后由 {editor} 于 {edittime} 编辑 [/i]\n\n",
 	'post_edit_regexp'		=> '/^\[i=s\] 게시글은 .*? 가 .*? 에 편집 \[\/i\]\n\n/s',
 	'post_edithtml'			=> '[i=s] 게시글은 {editor} 가 {edittime} 에 편집 [/i]<br /><br />',
 	'post_edithtml_regexp'		=> '/^\[i=s\] 게시글은  .*? 가 .*? 에 최후 편집 \[\/i\]&lt;br \/&gt;&lt;br \/&gt;/s',

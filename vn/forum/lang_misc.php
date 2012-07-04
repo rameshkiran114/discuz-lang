@@ -29,7 +29,7 @@ $lang = array
 	'post_single_banned' => '**** Nội dung bị cấm xem ****',
 	'message_ishidden_hiddenreplies' => 'Bài này chỉ tác giả mới được xem',
 	'post_reply_quote' => '{author} gửi lúc {time}',
-	'post_edit' => '[i=s] Bài được {editor} sửa lúc  {edittime} [/i]\n\n',
+	'post_edit' => "[i=s] Bài được {editor} sửa lúc  {edittime} [/i]\n\n",
 	'post_edit_regexp' => '/^\[i=s\] Bài được .*? sửa lúc .*?  \[\/i\]\n\n/s',
 	'post_edithtml' => '[i=s] Bài được {editor} sửa lúc {edittime} [/i]<br /><br />',
 	'post_edithtml_regexp' => '/^\[i=s\] Bài được .*? sửa lúc .*?  \[\/i\]&lt;br \/&gt;&lt;br \/&gt;/s',

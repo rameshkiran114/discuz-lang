@@ -25,7 +25,7 @@ $lang = array
 	'post_single_banned'	=> '**** Ce post est interdit ou bannit ****',  //  '**** This post has been banned ****'
 	'message_ishidden_hiddenreplies'	=> 'Ce post ne ??s\'affiche qu\'&#224; l\'Auteur du sujet',  // 'This post is only shown to author of the thread' 
 	'post_reply_quote'	=> '{author} a post&#233; en {time}',  //  '{author} posted on {time}'
-	'post_edit'		=> '[i=s] Derni&#232;re &#233;dition par {editor} sur {edittime} [/i]\n\n',  //  '[i=s] Last edited by {editor} on {edittime} [/i]\n\n'
+	'post_edit'		=> "[i=s] Derni&#232;re &#233;dition par {editor} sur {edittime} [/i]\n\n",  //  '[i=s] Last edited by {editor} on {edittime} [/i]\n\n'
 	'post_edit_regexp'	=> '/^\[i=s\] Derni&#232;re &#233;dition par .*? sur .*? \[\/i\]\n\n/s',  //  '/^\[i=s\] Last edited by .*? on .*? \[\/i\]\n\n/s'
 	'post_edithtml'		=> '[i=s] Ce post a &#233;t&#233; &#233;dit&#233; par {editor} sur {edittime} [/i]<br /><br />',  //  '[i=s] This post was edited by {editor} on {edittime} [/i]<br /><br />'
 	'post_edithtml_regexp'	=> '/^\[i=s\] Ce post a &#233;t&#233; &#233;dit&#233; par .*? sur .*? \[\/i\]&lt;br \/&gt;&lt;br \/&gt;/s',  //  '/^\[i=s\] This post was edited by .*? on .*? \[\/i\]&lt;br \/&gt;&lt;br \/&gt;/s'

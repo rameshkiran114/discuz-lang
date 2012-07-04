@@ -25,7 +25,7 @@ $lang = array
 	'post_single_banned'	=> '**** Engelli mesaj ****',
 	'message_ishidden_hiddenreplies'	=> 'Cevaplama engelli',
 	'post_reply_quote'		=> '{author} cevapladı: {time}',
-	'post_edit'			=> '[i=s] Son düzeltme: {editor} Tarih: {edittime} [/i]\n\n',
+	'post_edit'			=> "[i=s] Son düzeltme: {editor} Tarih: {edittime} [/i]\n\n",
 	'post_edit_regexp'		=> '/^\[i=s\] Son düzeltme .*? Tarih .*? \[\/i\]\n\n/s',
 	'post_edithtml'			=> '[i=s] Mesaj {editor} tarafından düzeltildi.Tarih: {edittime} [/i]<br /><br />',
 	'post_edithtml_regexp'		=> '/^\[i=s\] Mesaj düzenleyen .*? at .*? \[\/i\]&lt;br \/&gt;&lt;br \/&gt;/s',

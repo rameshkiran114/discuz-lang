@@ -30,7 +30,7 @@ $lang = array
 	'post_single_banned'	=> '**** هذه المشاركة محظورة ****',//'**** 该帖被屏蔽 ****',
 	'message_ishidden_hiddenreplies'	=> 'هذه المشاركة تظهر لكاتبها فقط',//'此帖仅作者可见',
 	'post_reply_quote'		=> '{author} رد في  {time}',//'{author} 发表于 {time}',
-	'post_edit'			=> '[i=s] تم تعديله بواسطة  {editor} في  {edittime} [/i]\n\n',//'[i=s] 本帖最后由 {editor} 于 {edittime} 编辑 [/i]\n\n',
+	'post_edit'			=> "[i=s] تم تعديله بواسطة  {editor} في  {edittime} [/i]\n\n",//'[i=s] 本帖最后由 {editor} 于 {edittime} 编辑 [/i]\n\n',
 	'post_edit_regexp'		=> '/^\[i=s\] تم تعديله بواسطة  .*? في .*? \[\/i\]\n\n/s',//'/^\[i=s\] 本帖最后由 .*? 于 .*? 编辑 \[\/i\]\n\n/s',
 	'post_edithtml'			=> '[i=s] تم تعديله بواسطة  {editor} في {edittime} [/i]<br /><br />',//'[i=s] 本帖最后由 {editor} 于 {edittime} 编辑 [/i]<br /><br />',
 	'post_edithtml_regexp'		=> '/^\[i=s\] تم تعديله بواسطة .*? في .*? \[\/i\]&lt;br \/&gt;&lt;br \/&gt;/s',//'/^\[i=s\] 本帖最后由 .*? 于 .*? 编辑 \[\/i\]&lt;br \/&gt;&lt;br \/&gt;/s',
