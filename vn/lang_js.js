@@ -576,8 +576,9 @@ var lng = {
 	'email_fill'		: 'Xin vui lòng nhập địa chỉ email',//'请输入邮箱地址',
 	'length_min'		: ', Minimum length',//', 最小长度为 '
 	'chars'			: ' characters',//' 个字符',
+	'password_strength'	: 'Password strength: ',//'密码强度:',
 	'pw_weak'		: 'Weak',//'弱',
-	'pw_middle'		: 'So-so',//'中',
+	'pw_middle'		: 'Middle',//'中',
 	'pw_strong'		: 'Strong',//'强',
 	'pass_short'		: 'Password is too short, must be not less than ',//'密码太短，不得少于 ',
 	'digital'		: 'Digital',//'数字',

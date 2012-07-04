@@ -18,8 +18,6 @@ $lang = array
 	'google_lang' => 'Ngôn ngữ của kết quả',
 	'google_lang_comment' => 'Thiết lập ngôn ngữ trang web của bạn một cách chính xác để cung cấp cho các kết quả tìm kiếm tốt nhất',
 	'google_lang_any' => 'Mọi ngôn ngữ',
-// ToDo:
-// Make Language List from the config settings!
 	'google_lang_en' => 'Tiếng anh',
 	'google_lang_zh-CN' => 'Tiếng Trung giản thể',
 	'google_lang_zh-TW' => 'Tiếng Trung',
@@ -27,8 +25,9 @@ $lang = array
 	'google_default_comment' => 'Hộp tùy chọn tìm kiếm mặc định',//'搜索框默认选择的项目',
 	'google_default_0' => 'Tìm trang web',
 	'google_default_1' => 'Tìm forum',
-	'google_client'			=> 'ID Google Adsense',//'搜索联盟 ID',
+	'google_client'			=> 'Google Adsense ID',//'搜索联盟 ID',
 	'google_client_comment'		=> 'Nếu bạn đã gia nhập Google Adsense, bạn có thể điền vào ID của bạn ở đây',
+// ToDo:
+// Make Language List from the config settings!
 );
 
-?>

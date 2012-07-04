@@ -72,7 +72,7 @@ $lang = array
 	'menu_members_add' => 'Thêm thành viên',
 	'menu_members_edit' => 'Sửa thành viên',
 	'menu_members_newsletter' => 'Gửi thông báo',
-'menu_members_mobile' => '发送手机通知',
+	'menu_members_mobile' => 'Gửi thông báo điện thoại',
 	'menu_usertag' => 'Tag người dùng',
 	'menu_members_edit_ban_user' => 'Cấm thành viên',
 	'menu_members_ipban' => 'Cấm IP',
@@ -141,7 +141,7 @@ $lang = array
 	'menu_card' => 'Thẻ nạp tiền bí mật',
 
 	'menu_styles' => 'Cài đặt giao diện',
-	'menu_styles_templates' => 'Tempalte',
+	'menu_styles_templates' => 'Templaltes',
 	'menu_posting_smilies' => 'Smiles',
 	'menu_click' => 'Đánh giá',
 	'menu_thread_icon' => 'Biểu tượng',
@@ -191,12 +191,12 @@ $lang = array
 	'menu_group_level' => 'Cấp độ nhóm',
 	'menu_group_mod' => 'Kiểm toán nhóm',
 
-	'menu_setting_manyou' => 'Manyou',
-	'menu_setting_qqconnect' => 'QQ',
+	'menu_setting_manyou'		=> 'Manyou settings',//'Manyou 设置',
+	'menu_setting_qqconnect'	=> 'QQ binding settings',//'QQ 绑定设置',
 
 	'admincp_title' => 'Trung tâm quản lý '.$_G['setting']['bbname'].'',
 
 // Added by Valery Votintsev
-	'menu_setting_language'		=> 'Languages',//'语言',
+	'menu_setting_language'		=> 'Languages',
 );
 

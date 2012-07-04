@@ -92,7 +92,7 @@ $lang = array(
 	'new_pm_completed'		=> 'New short message status reset completed',//'新短消息状态重置完毕',
 	'view_img_completed'		=> 'View image rights upgrade completed',//'查看图片权限升级完毕',
 	'realname_verify'		=> 'Real name verification',//'实名认证升级中',
-	'video_verify'			=>'Video verification',//'视频认证',
+	'video_verify'			=> 'Video verification',//'视频认证',
 	'real_name_verification'	=> 'Real name verification',//'实名认证升级中',
 	'real_name_verification_completed'	=> 'Real name verification data upgrade is completed',//'认证数据升级完毕',
 	'attachment_upgrade'		=> 'Forum attachment table upgrading ... ',//'论坛附件表升级中 ... ',
@@ -154,5 +154,5 @@ $lang = array(
 	'moderated_completed'	=> 'Moderated data conversion is completed',//'审核数据转换完毕',
 	'medal_completed'	=> 'User Medal data upgrade is completed',//'用户勋章数据升级完毕',
 	'data_update_completed'	=> 'Data update is completed',//'数据升级结束',
-	
+	'group_stat_completed'	=> 'Forum Group statistics upgrade is completed',//'论坛版块统计数据升级完毕',
 );

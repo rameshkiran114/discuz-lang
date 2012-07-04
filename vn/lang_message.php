@@ -145,6 +145,7 @@ $lang = array (
   'search_forum_invalid' => 'Có lỗi, Bạn chưa quy định phạm vi tìm kiếm của các diễn đàn',
   'search_invalid' => 'Có lỗi, Bạn đã không chỉ định người sử dụng tìm kiếm bằng từ khoá hoặc tên',
   'search_redirect' => 'Tìm kiếm thành công, nó sẽ được chuyển sang trang kết quả',
+	'search_closed'				=> 'Search function is turned off',//'搜索功能已关闭',
   'to_view_the_photo_does_not_exist' => 'Có lỗi, Album bạn muốn xem không tồn tại hoặc đang chờ phê duyệt',
   'ban_view_other_thead' => 'Có lỗi, Cấm người sử dụng xem các bài viết và chủ đề',
   'album_does_not_exist' => 'Có lỗi, Album không tồn tại',
@@ -354,7 +355,7 @@ $lang = array (
   'trade_displayorder_updated' => 'Hàng đặt để truy cập đã được cập nhật',
   'debate_poll_nopermission' => 'Có lỗi, Bạn phải đăng nhập và bỏ phiếu một lần nữa',
   'debate_poll_myself' => 'Có lỗi, Bạn không thể bỏ phiếu cho mình',
-  'debate_umpire_edit_invalid' => 'Có lỗi, Ý kiến ​​của bạn đã đăng hơn một giờ đồng hồ, bạn không thể chỉnh sửa',
+  'debate_umpire_edit_invalid' => 'Có lỗi, Ý kiến của bạn đã đăng hơn một giờ đồng hồ, bạn không thể chỉnh sửa',
   'debate_umpire_nopermission' => 'Có lỗi, Bạn không phải là trọng tài, không thể phán xét cuộc tranh luận này',
   'debate_umpire_nofound_bestdebater' => 'Có lỗi, Bạn chưa đầy tranh luận nhất',
   'debate_umpire_nofound_winner' => 'Có lỗi, Bạn chưa đầy người chiến thắng',
@@ -469,8 +470,8 @@ $lang = array (
   'imagepreview_errorcode_-2' => 'File ko có quyền đọc và ghi, không thể xử lý hình ảnh',
   'imagepreview_errorcode_-3' => 'Hệ thống được thiết lập không chính xác, không thể xử lý hình ảnh',
   'imagepreview_errorcode_-4' => 'Máy chủ đang lỗi, yêu cầu để xử lý hình ảnh không thể xử lý',
-  'group_invite_failed' => 'Có lỗi, Bạn không phải là thành viên {_G/setting/navs/3/navname}, không thể mời',
 
+  'group_invite_failed' => 'Có lỗi, Bạn không phải là thành viên {_G/setting/navs/3/navname}, không thể mời',
   'noperm_at_user' => 'Bạn không @ người dùng',
   'thread_at_usernum_limit' => 'Số người @ đã đạt tối đa',
 
@@ -479,7 +480,7 @@ $lang = array (
   'report_parameters_invalid' => 'Trang thông số lỗi, tạm thời không thể báo cáo',
   'report_succeed' => 'Báo cáo thành công ',
 
-  'seccode_player' => '<span style="padding:2px">{flashcode}<img border="0" style="vertical-align:middle" src="static/image/common/seccodeplayer.gif" /> <a  href="javascript:;" onclick="updateseccode(\'{idhash}\', 1)">Đổi mã</a></span>',
+  'seccode_player' => '<span style="padding:2px">{flashcode}<img border="0" style="vertical-align:middle" src="static/image/common/seccodeplayer.gif" /> <a href="javascript:;" onclick="updateseccode(\'{idhash}\', 1)">Đổi mã</a></span>',
 
   'tag_closed' => 'Có lỗi, Quản trị viên đã đóng thẻ này',
 
@@ -553,6 +554,7 @@ $lang = array (
   'no_privilege_deluserapp' => 'Có lỗi, Bạn không được phép sử dụng ứng dụng này',
 
   'email_check_sucess' => 'Email của bạn({email})kích hoạt thành công ',
+/*!*/	'email_check_account_invalid'		=> 'Sorry, the Founder or protected user can not use the mailbox verification. Modify the user information directly.',//'抱歉，受保护用户或创始人不能使用邮箱验证，直接修改用户信息。',
   'email_check_error' => 'Có lỗi, E-mail các minh không chính xác. Bạn có thể vào trang cá nhân nhập lại e-mail để xác minh lại',
 
   'news_does_not_exist' => 'Có lỗi, Những thông tin bạn đưa ra không tồn tại',
@@ -995,7 +997,7 @@ $lang = array (
   'location_login' => '',
   'location_login_succeed_mobile' => 'Chào mừng {username} trở lại',
   'location_login_succeed' => '',
-  'login_succeed_inactive_member' => 'Welcome back,{usergroup} {username}. Tài khoản của bạn chưa kích hoạt, bạn sẽ được chuyển vào mục Cá nhân',
+  'login_succeed_inactive_member' => 'Welcome back, {usergroup} {username}.<br/>Tài khoản của bạn chưa kích hoạt, bạn sẽ được chuyển vào mục Cá nhân. {ucsynlogin}',
   'login_question_empty' => 'Hãy chọn câu hỏi bí mật và điền đáp án đúng',
   'login_question_invalid' => 'Có lỗi, Chọn câu hỏi sai',
   'login_invalid' => 'Bạn còn {loginperm} lần nhập sai mật khẩu!',
@@ -1047,6 +1049,7 @@ $lang = array (
 
   'magics_thunder_message' => '{magicname} đã dùng thành công',
 
+// Added by Valery Votintsev
+	'timeout_or_data_error'		=> 'Operation timeout or data source error',//'操作超时或者数据来源错误',
 );
 
-?>

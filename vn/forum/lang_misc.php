@@ -318,10 +318,10 @@ $lang = array
 	'patch_dateline' => 'Ngày đăng tậm trạng',
 	'patch_status' => 'Hiện tâm trạng',
 	'patch_close' => 'Close',
-	
-	'plugin_title' => 'Thông báo nâng cấp ứng dụng',
-	'plugin_memo' => 'Bạn có nâng cấp <span class="xi1">{number}</span> ứng dụng',
-	'plugin_link' => 'nâng cấp ngay',
+
+	'plugin_title' => 'Áp dụng các lời nhắc nhở cập nhật',
+	'plugin_memo' => 'Bạn có <span class="xi1">{number}</span> cập nhật ứng dụng',
+	'plugin_link' => 'Cập nhật',
 
 );
 

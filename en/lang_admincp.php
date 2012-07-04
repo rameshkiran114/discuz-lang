@@ -5071,7 +5071,7 @@ $lang = array
 
 	'tasks'				=> 'Site Tasks',//'站点任务',
 	'tasks_on'			=> 'Whether to enable the site tasks',//'是否开启站点任务',
-	'tasks_online'			=> 'On-line',//'上线',
+	'tasks_online'			=> 'Online',//'上线',
 	'tasks_offline'			=> 'Offline',//'下线',
 	'tasks_reward'			=> 'Reward',//'奖励',
 	'tasks_reward_invite'		=> 'Invitation code',//'邀请码',

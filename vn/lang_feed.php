@@ -90,7 +90,7 @@ $lang = array
 	'feed_reply_reward_message' =>		'',
 
 	'feed_thread_activity_title' =>		'{actor} khởi động các hoạt động mới',
-	'feed_thread_activity_message' =>	'<b>{subject}</b><br />Thời gian bắt đầu： {starttimefrom}<br /> Địa điểm： {activityplace}<br />{message}',
+	'feed_thread_activity_message' =>	'<b>{subject}</b><br />Thời gian bắt đầu： {starttimefrom}<br /> Địa điểm: {activityplace}<br />{message}',
 
 	'feed_reply_activity_title' =>		'{actor} ghi danh vào hoạt động {subject}',
 	'feed_reply_activity_message' =>	'',

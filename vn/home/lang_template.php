@@ -641,7 +641,7 @@ $lang = array (
 	'delete_chatpm' => 'Xóa Phòng Chát',
 	'delete_chatpm_comment' => 'Xóa PM Nhóm',
 	'delete_privatepm_user' => 'Xóa các PM từ thành viên',
-	'dots' => '……',
+	'dots' => '....',
 	'ignore_list' => 'DS bỏ qua',
 	'ignore_member_pm_message' => '<p>Thêm tên ai vào danh sách thì hắn gửi tin nhắn ngắn sẽ không được chấp nhận</p>
 					<p>Nếu thêm nhiều người thì dùng dấu , để ngăn cách</p>
@@ -1225,7 +1225,7 @@ $lang = array (
 	'credit_recharge' => 'Nạp tiền điểm',
 	'delete_log_message' => '<p>Bạn có chắc chắn muốn xóa ?</p>
 							<p>删除该邀请记录后,您的好友将不能通过<br/>原邀请记录链接注册成为您的好友 </p>',
-	'friend_email_address' => 'Email bạn bè',
+  'friend_email_address' => 'Email bạn bè',
 	'friend_get' => 'Bạn bè nhận được ',
 	'friend_invite_link' => 'Liên kết lời mời bạn bè của tôi',
 	'friend_invite_message' => 'Bạn có thể gửi lời mời cho bạn bè qua: yahoo, QQ, MSN, ICQ ... hoặc gửi email cho họ. ',

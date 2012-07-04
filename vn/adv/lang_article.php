@@ -24,4 +24,3 @@ $lang = array
 	'article_category_comment' => 'Phân loại các kênh quảng cáo',
 );
 
-?>

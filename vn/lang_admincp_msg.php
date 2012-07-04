@@ -107,7 +107,7 @@ $lang = array (
   'threadtype_infotypes_optionvariable_invalid' => 'lặp lại tùy chọn tên biến phân loại',
   'threadtype_infotypes_succeed' => 'cập nhật thành công phân loại các lựa chọn  ',
   'forums_threadtypes_duplicate' => 'loại chủ đề mới với lặp lại hiện tại',
-'threadtype_import_succeed' => '导入成功',
+'threadtype_import_succeed' => 'Thread types imported successfully',
   'usergroups_nonexistence' => 'Xác định nhóm người dùng không tồn tại',
   'usergroups_copy_source_invalid' => 'Bạn đã không chọn để sao chép các nhóm người sử dụng nguồn',
   'members_verify_succeed' => 'Kiểm toán dữ liệu thành công ',
@@ -410,9 +410,11 @@ $lang = array (
   'plugins_edit_var_invalid' => 'Tên biến cấu hình mà bạn đã nhập không hợp lệ hoặc trùng lặp',
   'plugins_delete_error' => 'Bạn không thể gỡ bỏ cài đặt plug-in.',
   'plugins_delete_confirm' => 'Bạn có chắc chắn muốn bỏ plugin {pluginname} {toversion} này？',
+	'styles_delete_confirm'			=> 'Are you sure you want to uninstall these styles?<br /><br />Please select the reason you uninstall the application, So that we can later provide you with a better application:<br /><br /><label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="1" />Function does not meet the demand</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="2" />Interface unsightly</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="3" />Efficiency problem, slow running</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="4" />Found a better application</label><label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="5" />Pure trial now uninstall</label>',//'您确定要卸载这些风格吗？<br /><br />请选择您卸载该应用的原因，以便我们以后为您提供更好的应用：<br /><br /><label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="1" />功能不满足需求</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="2" />界面不美观</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="3" />效率问题运行速度慢</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="4" />发现了更好的应用</label><label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="5" />纯试用现在卸载</label>',
   'pluginvar_not_found' => 'plug-in biến không tìm thấy',
   'plugins_edit_var_title_invalid' => 'Bạn đã không nhập tên cấu hình',
   'plugins_edit_vars_succeed' => 'Plug-in cấu hình biến cập nhật thành công',
+	'plugins_edit_vars_invalid'		=> 'Plug-in configuration variable name is not legitimate, or is already in use',//'插件配置变量名不合法或者已被占用',
   'plugins_validator_noupdate' => 'Không phát hiện phiên bản mới của các plug-in ',
 
   'portalcategory_update_succeed' => 'cập nhật phân loại thành công',
@@ -430,7 +432,7 @@ $lang = array (
   'postsplit_resetpid_succeed' => 'Post ID thiết lập lại hoàn toàn',
 
   'recyclebin_none_selected' => 'đã không chọn để vận hành bài ',
-  'recyclebin_clean_next' => 'Recycle Bin updated has been deleted {threadsdel} theme, the program will automatically continue',
+	'recyclebin_clean_next'			=> 'Recycle Bin updated, removed {threadsdel} threads, The program will automatically continue',//'回收站更新, 已经删除 {threadsdel} 个主题，程序将自动继续',
 
   'report_resolve_succeed' => 'quá trình thành công, nó trả về một danh sách các trang',
   'report_receive_succeed' => 'hoạt động thành công',
@@ -438,8 +440,8 @@ $lang = array (
   'searchindex_not_found' => 'chỉ số tập tin là mất tích',
   'search_keyword_noexists' => 'Vui lòng nhập từ khóa tìm kiếm',
 
-  'setting_memory_rm_succeed' => 'Cache deleted successfully',
-  'setting_memory_rm_error' => 'Please enter you want to delete the cache KEY',
+	'setting_memory_rm_succeed'		=> 'Cache deleted successfully',//'缓存删除成功',
+	'setting_memory_rm_error'		=> 'Please enter the cache KEY you want to delete',//'请输入要删除的缓存KEY',
   'founder_action' => 'sáng lập cụ thể chức năng, bạn không có quyền sử dụng',
   'setting_extcredits_must_available' => 'Bạn cần phải mở ít nhất một điểm mở rộng ',
   'uc_database_connect_error' => 'Không thể kết nối người dùng đến một máy chủ cơ sở dữ liệu trung tâm, kiểm tra các thiết lập',
@@ -620,7 +622,7 @@ $lang = array (
   'cloudaddons_ftp_path_error' => 'Site FTP path errors, please fill out the re-',
 
   'cloudaddons_check_url_fopen_error' => 'Your server can not access the Application Center, which will cause the application can not be installed. Please contact your service provider or Web site technical staff to ensure that your server to function properly access addon.discuz.com',
+/*!*/	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
   'cloudaddons_genuine_message' => 'I\'m sorry, you installed is not genuine application, the installer can not continue<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">Click here to install the genuine application</a>',
 );
 
-?>
