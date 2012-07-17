@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_message.php 30384 2012-05-25 04:48:52Z liulanbo $
+ *      $Id: lang_message.php 30846 2012-06-25 10:17:09Z zhangjie $
  *
  *      This file is automatically generate
  */
@@ -655,7 +655,7 @@ $lang = array (
   'post_poll_inputmore' => 'ขออภัย! โพลของคุณควรมีอย่างน้อย 2 ตัวเลือก',
   'poll_maxchoices_expiration_invalid' => 'ขออภัย! ตรงนี้คุณใส่ได้แต่ตัวเลขเท่านั้น',
   'reward_credits_please' => 'ขออภัย! รางวัลต้องไม่ว่างเปล่า',
-  'reward_credits_overflow' => 'ขออภัย! รางวัลจะต้องไม่เกิน 32,767',
+  'reward_credits_overflow' => 'ขออภัย! รางวัลจะต้องไม่เกิน 32767',
   'reward_credits_lower' => 'ขออภัย! รางวัลต้องมากกว่า {minrewardprice}',
   'threadtype_expiration_invalid' => 'ขออภัย! คุณต้องกำหนดช่วงเวลาสำหรับกระทู้นี้',
   'replycredit_morethan_self' => 'ขออภัย! แต้มเครดิตรางวัลที่คุณกำหนดมากกว่าที่คุณมีอยู่',

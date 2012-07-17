@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_admincp_msg.php 30255 2012-05-17 09:14:49Z zhengqingpeng $
+ *      $Id: lang_admincp_msg.php 30741 2012-06-15 08:53:29Z monkey $
  *
  *      This file is automatically generate
  */
@@ -167,7 +167,7 @@ $lang = array (
 	'card_make_rule_empty'		=> 'Generation rule is empty',//'生成规则为空',
 	'card_make_num_error'		=> 'Generate the number of sheets can not be 0',//'生成张数不能为 0',
 	'card_make_rule_error'		=> 'Card rules can not use Chinese or other special characters',//'卡片规则中不能使用中文或其他特殊字符',
-	'card_make_step'		=> 'Generatin the Card: the first step {step} / Total {step_num} steps / Success {succeed_num} sheets / Repeated {fail_num} sheets',//'正在生成卡片：第{step}步/共{step_num}步, 成功{succeed_num}张/重复{fail_num}张',
+	'card_make_step'		=> 'Generating the Card: the first step {step} / Total {step_num} steps / Success {succeed_num} sheets / Repeated {fail_num} sheets',//'正在生成卡片：第{step}步/共{step_num}步, 成功{succeed_num}张/重复{fail_num}张',
 	'card_make_rate_succeed'	=> 'Card generation is completed! Click here to generate random card numbers with the same rules! Total generated: {succeed_num} sheets, Failed: {fail_num} sheets',//'卡片生成完毕！按此生成规则随机的卡片号码重复过多！共生成了{succeed_num}张, 失败了{fail_num}张',
 	'card_make_succeed'		=> 'Card generation is completed! Total generated: {succeed_num} sheets, Failed: {fail_num} sheets',//'卡片生成完毕！共生成了{succeed_num}张, 失败了{fail_num}张',
 
@@ -538,7 +538,7 @@ $lang = array (
 	'threadtype_infotypes_invalid'		=> 'Category should have at least one option, please return to modify.',//'分类信息至少应该有一个选项，请返回修改。',
 	'threadtype_content_no_choice'		=> 'Categories have no choice',//'没有选择分类信息',
 	'threadtype_content_delete_succeed'	=> 'Data deletion completed',//'数据删除完成',
-  'threadtype_export_error' => 'Classification options to export to fail',
+  'threadtype_export_error' => 'Thread type export failed',
 
   'update_cache_succeed' => 'แคชทั้งหมดได้รับการอัพเดทแล้ว',
 
@@ -549,7 +549,7 @@ $lang = array (
   'topic_choose_at_least_one_optype' => 'กรุณาเลือกอย่างน้อยหนึ่งการกระทำ',
 
   'upgrade_close_site' => 'Before upgrading, turn off the site, and documents and data backup',
-  'upgrade_none' => 'Without this upgrade information {upgradeurl}',
+  'upgrade_none' => 'ยังไม่มีข้อมูลการอัพเกรดในขณะนี้ {upgradeurl}',
   'upgrade_continue' => 'Last time you upgrade to {step}, please continue to complete the upgrade',
   'upgrade_download_upgradelist_error' => 'Get list of files to be updated fail, whether to re-obtain? {upgradeurl}',
   'upgrade_download_complete_to_compare' => 'Updated file download is complete, the upcoming local file {upgradeurl}',
@@ -560,12 +560,12 @@ $lang = array (
   'upgrade_backup_error' => 'Original backup file error {upgradeurl}',
   'upgrade_backup_complete' => 'Backup is complete, is being upgraded... {upgradeurl}',
   'upgrade_ftp_upload_error' => 'ftp upload {file} error, whether the re-upload? {upgradeurl}',
-  'upgrade_copy_error' => 'Copy {file} error, whether to re-copy? {upgradeurl}',
-  'upgrade_file_successful' => 'File update was successful, is about to enter update the database {upgradeurl}',
-  'upgrade_successful' => 'Congratulations on your upgrade success! <br />Your current version is: [Discuz! X{version} Release[{release}]  <br /><br />For safety reasons, the upgrade file is saved to {save_update_dir} directory<br />Backup file has been saved to {save_back_dir} directory {upgradeurl}',
-  'upgrade_checking' => 'Being detected new and upgraded version',
-  'upgrade_latest_version' => 'You are currently using is already the newest version, do not need to upgrade',
-  'upgrade_param_error' => 'Request parameter is incorrect',
+  'upgrade_copy_error' => 'การคัดลอกไฟล์ {file} มีข้อผิดพลาด คัดลอกใหม่หรือไม่ {upgradeurl}',
+  'upgrade_file_successful' => 'การสำรองไฟล์เสร็จเรียบร้อยแล้ว ต่อไปจะเป็นการอัพเดทฐานข้อมูล {upgradeurl}',
+  'upgrade_successful' => 'ขอแสดงความยินดี คุณอัพเกรดผ่านระบบออนไลน์เรียบร้อยแล้ว! <br />Your current version is: Discuz! X{version} Release {release}  <br /><br />For safety reasons, the upgrade file is saved to {save_update_dir} directory<br />Backup file has been saved to {save_back_dir} directory {upgradeurl}',
+  'upgrade_checking' => 'กำลังตรวจสอบการอัพเกรดใหม่',
+  'upgrade_latest_version' => 'คุณกำลังใช้ดิสคัสเวอร์ชันล่าสุดอยู่แล้ว ไม่จำเป็นต้องอัพเกรดอีก',
+  'upgrade_param_error' => 'การร้องขอค่าพารามิเตอร์ไม่ถูกต้อง',
 
 	'usergroups_type_nonexistence'		=> 'User group type error, please return',//'用户组类型错误，请返回',
 	'usergroups_update_creditshigher_invalid'	=> 'You have not filled the lower points value',//'您没有填写积分下限',
@@ -622,6 +622,7 @@ $lang = array (
   'cloudaddons_ftp_path_error' => 'Site FTP path errors, please fill out',
 
   'cloudaddons_check_url_fopen_error' => 'Your server can not access the Application Center, which will cause the application can not be installed. Please contact your service provider or Web site technical staff, to ensure that your server can access addon.discuz.com or addon1.discuz.com',
+	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服務器不支持 Zlib，這將會導致應用無法安裝。請聯繫您的服務商或者網站技術人員。',
   'cloudaddons_genuine_message' => 'Sorry, you installed is not genuine application, the installer cannot continue<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">Click here to install the genuine application</a>',
 );
 

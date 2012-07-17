@@ -19,8 +19,6 @@ $lang = array
 	'google_lang' => 'ค้นหาเว็บ ด้วยภาษา',
 	'google_lang_comment' => 'ตั้งค่าภาษาหน้าเว็บไซต์ของคุณ ซึ่งสามารถอัพเดทคุณภาพของผลลัพธ์การค้นหาได้อย่างมีประสิทธิภาพ',
 	'google_lang_any' => 'ภาษาใดก็ได้',
-// ToDo:
-// Make Language List from the config settings!
 	'google_lang_en' => 'ภาษาอังกฤษ',
 	'google_lang_zh-CN' => 'จีนประยุกต์',
 	'google_lang_zh-TW' => 'จีนดั้งเดิม',
@@ -30,7 +28,7 @@ $lang = array
 	'google_default_1' => 'ค้นหา',
 	'google_client' => 'ID กูเกิลแอดเซ็นท์',
 	'google_client_comment' => 'หากคุณเข้าร่วม Google แอดเซ็นท์, คุณสามารถกรอกข้อมูล ID ได้ที่นี่',
-// Added by vot
-'google_lang_ru'		=> 'Russian',//'俄语',
+// ToDo:
+// Make Language List from the config settings!
 );
 

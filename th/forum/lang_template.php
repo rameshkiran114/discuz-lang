@@ -148,7 +148,7 @@ $lang = array (
   'collection_addreason' => 'ระบุเหตุผล:',
   'collection_fill_entire' => 'กรุณากรอกข้อมูลให้ครบ',
   'collection_reason_exceed' => '"ระบุเหตุผลต้องไม่เกิน "+reasonlimit+" ไบต์"',
-  'collection_select' => 'เลือกคลังกระทู้',
+  'collection_select' => 'เลือกคลังกระทู้:',
   'collection_select_nocollection' => 'ยังไม่ได้สร้างคลังกระทู้',
   'collection_select_remain' => 'คุณสามารถสร้างคลังกระทู้ได้อีก <span id="reamincreatenum">$reamincreatenum</span> คลังกระทู้',
   'collection_view_mine' => 'ดูคลังกระทู้ของฉัน',
