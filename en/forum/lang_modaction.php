@@ -79,9 +79,9 @@ $lang = array
 	'SLA'	=> 'Add Icon',//'添加图标',
 	'SLD'	=> 'Remove Icon',//'撤销图标',
 
-	'REG'	=> 'Group recommend',//'群组推荐',
+	'REG'	=> 'Recommend Group',//'群组推荐',
 
-	'PTA'	=> 'Generate Article',//'生成文章',
+	'PTA'	=> 'Push to Articles',//'生成文章',
 
 	'MAG'	=> 'Magic',//'道具',
 
