@@ -21,12 +21,12 @@ $lang = array
 	'type_clickarticle'	=> 'Article positioning',//'文章表态',
 	'type_clickpic'		=> 'Image positioning',//'图片表态',
 	'type_sharecomment'	=> 'Share comment',//'分享评论',
-	'type_doing'		=> 'Doings',//'记录',
+	'type_doing'		=> 'Aktywność',//'记录',
 	'type_friend'		=> 'Friends',//'好友',
 	'type_credit'		=> 'Kredytów',//'积分',
 	'type_bbs'		=> 'Forum',//'论坛',
 	'type_system'		=> 'System',//'系统',
-	'type_thread'		=> 'Threads',//'主题',
+	'type_thread'		=> 'Tematów',//'主题',
 	'type_task'		=> 'Zadania',//'任务',
 	'type_group'		=> 'Grupy',//'群组',
 
@@ -103,7 +103,7 @@ $lang = array
 
 	'reason_quickclear'	=> 'Your {cleartype} was removed by {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的{cleartype} 被 {actor} 清除 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modthreads_delete'	=> 'Your thread {threadsubject} was not approved, it has been deleted! <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 {threadsubject} 没有通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modthreads_delete'	=> 'Twój temat {threadsubject} został odrzucony! <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 {threadsubject} 没有通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'modthreads_validate'	=> 'Your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> was approved! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Click to view it;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> 已经审核通过！ &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -142,7 +142,7 @@ $lang = array
 
 	'eccredit'		=> '(actor) have rated you transaction &nbsp; <a href="forum.php?mod=trade&orderid={orderid}" target="_blank" class="lit">Comment it</a>',//'与你交易的 {actor} 已经给你作了评价 &nbsp; <a href="forum.php?mod=trade&orderid={orderid}" target="_blank" class="lit">回评 &rsaquo;</a>',
 
-	'activity_notice'	=> '{actor} want to join your event <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, please <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">View it</a>',//'{actor} 申请加入你举办的活动 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>，请审核 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
+	'activity_notice'	=> '{actor} prosi o uczestnictwo w <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>,  <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Wyświetl</a>',//'{actor} 申请加入你举办的活动 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>，请审核 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 
 	'activity_apply'	=> 'Organizer "{actor}" has approved your join to the event <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>. &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">View it</a> <div class="quote"><blockquote>{reason}</blockquote></div>',//'活动 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的发起人 {actor} 已批准你参加此活动 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -156,7 +156,7 @@ $lang = array
 
 	'reward_question'	=> 'Your reward thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> was set a best answer by {actor} &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">view it</a>',//'你的悬赏主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 设置了最佳答案 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 
-	'reward_bestanswer'	=> 'Your reply in reward thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> was set as the best answer by author {actor} &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">View it</a>',//'你的回复被的悬赏主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的作者 {actor} 选为悬赏最佳答案 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
+	'reward_bestanswer'	=> 'Twoja odpowiedź w temacie <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> została oznaczona jako najlepsza przez autora {actor} &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Wyświetl</a>',//'你的回复被的悬赏主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的作者 {actor} 选为悬赏最佳答案 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 
 	'reward_bestanswer_moderator'	=> 'Your reply to the reward thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> was selected as the best answer &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">View &rsaquo;</a>',//'您在悬赏主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的回复被选为最佳答案 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 
@@ -176,7 +176,7 @@ $lang = array
 
 	'task_reward_group'	=> 'Congratulation! You have completed the task: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>, and get the user group {rewardtext}. Valid for: {bonus} days. &nbsp; <a href="home.php?mod=spacecp&ac=usergroup" target="_blank" class="lit">View my permissions</a>',//'恭喜你完成任务：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>，获得用户组 {rewardtext} 有效期 {bonus} 天 &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=usergroup" target="_blank" class="lit">看看我能做什么 &rsaquo;</a>',
 
-	'user_usergroup'	=> 'Your user group upgraded to {usergroup}. &nbsp; <a href="home.php?mod=spacecp&ac=usergroup" target="_blank" class="lit">View my permissions</a>',//'你的用户组升级为 {usergroup} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=usergroup" target="_blank" class="lit">看看我能做什么 &rsaquo;</a>',
+	'user_usergroup'	=> 'Awansowałeś do grupy {usergroup}. <!-- &nbsp; <a href="home.php?mod=spacecp&ac=usergroup" target="_blank" class="lit">Pokaż zezwolenia</a>-->',//'你的用户组升级为 {usergroup} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=usergroup" target="_blank" class="lit">看看我能做什么 &rsaquo;</a>',
 
 	'grouplevel_update'	=> 'Congratulation! Your group {groupname} level is upgraded to {newlevel}.',//'恭喜你，你的群组 {groupname} 已经升级到了 {newlevel}。',
 
@@ -219,7 +219,7 @@ $lang = array
 	'system_adv_expiration'		=> 'The following ads on your site will be expired in {day} days. Please deal with:<br />{advs}',//'您站点的以下广告将于 {day} 天后到期，请及时处理：<br />{advs}',
 	'report_change_credits'		=> '{actor} has deal with your report, your points bonus {creditchange}',//'{actor} 处理了你的举报，你的 {creditchange}',
 	'at_message'			=> '<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> w temacie <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> wspomniał(a) o Tobie. <div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">Przejdź do tematu</a>.',//'<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> 在主题 <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> 中提到了你<div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">现在去看看</a>。',
-	'new_report'			=> 'Zgłoszono nowy raport. <a href="admin.php?action=report" target="_blank">Kliknij, aby wyświetlić</a>.',//'有新的举报等待处理，<a href="admin.php?action=report" target="_blank">点此进入后台处理</a>。',
+	'new_report'			=> 'Zgłoszono nowy raport. <a href="admin.php?action=report" target="_blank">Kliknij aby wyświetlić</a>.',//'有新的举报等待处理，<a href="admin.php?action=report" target="_blank">点此进入后台处理</a>。',
 	'new_post_report'		=> 'New pending report, <a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">Click here to enter the administration panel</a>.',//'有新的举报等待处理，<a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">点此进入管理面版</a>。',
 	'magics_receive'		=> '{actor} sent the magic {magicname} to you .
 					<p class="summary">{actor} said: <span>{msg}</span></p>

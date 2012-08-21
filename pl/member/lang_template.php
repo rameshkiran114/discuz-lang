@@ -24,7 +24,7 @@ $lang = array (
 	'faq'				=> 'FAQ',//'帮助',
 	'login'				=> 'Login',//'登录',
 	'login_clearcookies'		=> 'Wyczyść ciasteczka',//'清除痕迹',
-	'login_guestmessage'		=> 'Musisz się zalogować, aby kontynuować operację.',//'您需要先登录才能继续本操作',
+	'login_guestmessage'		=> 'Musisz się zalogować aby kontynuować operację.',//'您需要先登录才能继续本操作',
 	'login_member'			=> 'Logowanie',//'用户登录',
 	'login_method'			=> 'Fast login',//'快捷登录',
 	'login_permanent'		=> 'Zapamiętaj mnie',//'自动登录',
@@ -36,7 +36,7 @@ $lang = array (
 	'agree'				=> 'Zgadzam się',//'同意',
 	'disagree'			=> 'Nie zgadzam się',//'不同意',
 	'index_activation'		=> 'Your account have to be activated',//'您的帐号需要激活',
-	'invite_code'			=> 'Invitation code',//'邀请码',
+	'invite_code'			=> 'Kod zaproszenia',//'邀请码',
 	'login_inactive'		=> 'Give up invitation, <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',//'放弃激活，现在<a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
 	'login_now'			=> 'Masz już konto?<br> Zaloguj się!',//'已有帐号？现在登录',
 	'password_confirm'		=> 'Potwierdź hasło',//'确认密码',
@@ -49,7 +49,7 @@ $lang = array (
 	'register_password_tips'	=> 'Proszę uzupełnić pole hasło',//'请填写密码',
 	'register_repassword_tips'	=> 'Proszę uzupełnić pole potwierdzenie hasła',//'请再次输入密码',
 	'register_username_tips'	=> 'Nazwa użytkownika musi zawierać od 3 do 15 znaków',//'用户名由 3 到 15 个字符组成',
-	'register_validate_email_tips'	=> 'Registration need to verify your mailbox, be sure to fill in correct E-Mail! Please check your email after submission.<br />You may need to wait a few minutes to receive e-mail inbox. If there is no new message, please check the Spam folder.',//'注册需要验证邮箱，请务必填写正确的邮箱，提交后请及时查收邮件。<br />您可能需要等待几分钟才能收到邮件，如果收件箱没有，请检查一下垃圾邮件箱。',
-	'rulemessage'			=> ' (Zasady użytkowania)',//'网站服务条款',
+	'register_validate_email_tips'	=> 'Na samym początku rejestracja wymagać będzie potwierdzenia konta Email. Proszę się upewnić, że wprowadzony adres jest poprawny i aktualny, ponieważ to właśnie tam otrzymasz dalsze instrukcje. <br />Wiadomość powinna zostać dostarczona w ciągu najbliższych kilku minut. W przeciwnym razie, proszę sprawdzić również folder SPAM.',//'注册需要验证邮箱，请务必填写正确的邮箱，提交后请及时查收邮件。<br />您可能需要等待几分钟才能收到邮件，如果收件箱没有，请检查一下垃圾邮件箱。',
+	'rulemessage'			=> ' (Ogólne zasady)',//'网站服务条款',
 );
 

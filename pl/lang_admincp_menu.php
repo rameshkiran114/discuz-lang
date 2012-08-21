@@ -61,7 +61,7 @@ $lang = array
 	'menu_setting_district'		=> 'Regions',//'地区设置',
 	'menu_setting_ranklist'		=> 'Rank List',//'排行榜设置',
 	'menu_setting_mobile'		=> 'Mobile Access',//'手机访问设置',
-	'menu_setting_tag'		=> 'Tags',//'标签管理',
+	'menu_setting_tag'		=> 'Tagi',//'标签管理',
 
 	'menu_forums'			=> 'Forums',//'版块管理',
 	'menu_forums_merge'		=> 'Forums merge',//'版块合并',
@@ -90,7 +90,7 @@ $lang = array
 
 	'menu_moderate_posts'		=> 'Posts Moderation',//'内容审核',
 	'menu_moderate_blogs'		=> 'Blogi',//'审核日志',
-	'menu_moderate_doings'		=> 'Doings',//'审核记录',
+	'menu_moderate_doings'		=> 'Aktywność',//'审核记录',
 	'menu_moderate_pictures'	=> 'Images',//'审核图片',
 	'menu_moderate_shares'		=> 'Shares',//'审核分享',
 	'menu_moderate_comments'	=> 'Comments',//'审核评论/留言',

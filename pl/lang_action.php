@@ -13,14 +13,14 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	0	=> 'Register/Login',// '注册/登录',
-	1	=> 'Space',// '空间',
+	0	=> 'Rejestracja/Login',// '注册/登录',
+	1	=> 'Przestrzeń',// '空间',
 	2	=> 'Forum',// '论坛',
 	3	=> 'Grupy',// '群组',
 	4	=> 'Home',// '首页',
 
-	100	=> 'Other',// '其他',
-	127	=> 'Plugins',// '插件',
+	100	=> 'Pozostałe',// '其他',
+	127	=> 'Pluginy',// '插件',
 
 );
 

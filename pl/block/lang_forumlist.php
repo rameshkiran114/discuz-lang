@@ -24,8 +24,8 @@ $lang = array
 	'forumlist_orderby'			=> 'Order by',//'版块排序方式',
 	'forumlist_orderby_comment'		=> 'Set the order of forums',//'设置以哪一字段或方式对版块进行排序',
 	'forumlist_orderby_displayorder'	=> 'Display order',//'按显示顺序顺序排序',
-	'forumlist_orderby_threads'		=> 'Threads',//'按主题数倒序排序',
+	'forumlist_orderby_threads'		=> 'Tematów',//'按主题数倒序排序',
 	'forumlist_orderby_todayposts'		=> 'Posts today',//'按今日发帖数倒序排序',
-	'forumlist_orderby_posts'		=> 'Posts',//'按帖子数倒序排序',
+	'forumlist_orderby_posts'		=> 'Postów',//'按帖子数倒序排序',
 );
 

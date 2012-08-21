@@ -60,69 +60,66 @@ Sincerely yours,<br />
 {siteurl}</p>',
 
 
-	'email_verify_subject'	=> 'Email Address Verification',//'Email 地址验证',
+	'email_verify_subject'	=> 'Weryfikacja adresu Email',//'Email 地址验证',
 	'email_verify_message'	=> '
 <p>{username},<br />
-This letter was sent from the {bbname}.</p>
+Ta wiadomość została wysłana z serwisu {bbname}.</p>
 
-<p>You have received this message, because of new user registration at our Forum,
-or some user have used Your address when modified his/her Email.
-If you did not visited our forum, or not carry out about such operations,
-please ignore this message.
-You do not need to unsubscribe or other further action.</p>
+<p>Otrzymałeś tę wiadomość, ponieważ Twój adres Email został zarejestrowany na naszym forum lub
+ktoś z użytkowników przez pomyłkę wprowadził błędny podczas edycji konta.
+Jeśli to nie Ty odwiedzasz nasze forum lub nie przeprowadziłeś żadnej zmiany,
+proszę zignorować tę wiadomość.</p>
 <br />
 ----------------------------------------------------------------------<br />
-<strong>Account activation instructions</strong><br />
+<strong>Instrucje aktywacji konta</strong><br />
 ----------------------------------------------------------------------<br />
 <br />
-<p>You are new to our forum, or modify your registration Email address to use this,
-We need to verify the validity of your email address to avoid spam or other abuse actions.</p>
+<p>Jeśli jesteś nowy na forum lub dokonałeś zmian w swoim profilu, proszę zastosować się do poniższych instrukcji.
+Wymagamy weryfikacji Twojego adres Email. Operacja zapobiega niechcianym wiadomościom SPAM oraz innym operacjom.</p>
 
-<p>To activate your email account you need to click the link below:<br />
+<p>Aby aktywować konto, kliknij na poniższy odnośnik:<br />
 
 <a href="{url}" target="_blank">{url}</a>
 <br />
-(If the link above is not worked, please paste link address manually into your browser address bar.)</p>
+(Jeśli nie działa, proszę skopiować link do pola adresu w przeglądarce internetowej.)</p>
 
-<p>Thank you for your visit and wish you be happy! </p>
+<p>Dziękujemy za wizytę. Mamy nadzieję, że będziesz z nami szczęśliwy!</p>
 
 
 <p>
-Sincerely yours,<br />
+Z poważaniem,<br />
 
-{bbname} management team.<br />
+Ekipa {bbname} .<br />
 {siteurl}</p>',
 
-	'email_register_subject' =>	'Forum registration',//'论坛注册地址',
+	'email_register_subject' =>	'Rejestracja na forum',//'论坛注册地址',
 'email_register_message' =>	'<br />
-<p>This letter is sent from {bbname}.</p>
+<p>Ta wiadomość została wysłana z serwisu {bbname}.</p>
 
-<p>You have received this message due to somebody (may be you) registered this E-Mail address at {bbname}.
-If you do not want to access to {bbname}, or you did not registered at this site,
-please ignore this message.
-
-You do not need to unsubscribe or do any other further action.</p>
+<p>Otrzymałeś tę wiadomość, ponieważ Twój adres Email został zarejestrowany w serwisie {bbname}.
+Jeśli nie chcesz odwiedzać naszego forum lub wycofać się z rejestracji,
+proszę zignorować tę wiadomość.</p>
 <br />
 ----------------------------------------------------------------------<br />
-<strong>New user registration instructions</strong><br />
+<strong>Instrukcje rejestracji nowego konta</strong><br />
 ----------------------------------------------------------------------<br />
 <br />
-<p>If you are a {bbname} new user, or have modified your registered before Email address,
-it is required to verify your mailbox address in order to avoid junk or malicious e-mail.</p>
+<p>Wygląda na to, że zostałeś nowym użytkownikiem serwisu {bbname} lub dokonałeś zmian w swoim aktualnym koncie.
+Każda operacja mająca na celu zmianę danych chroniących Twoje konto, będzie wymagać wcześniejszego potwierdzenia.</p>
 
-<p>For register just click on the link below. The following link is valid for 3 days. After expired you can request to re-send the activation email to a new e-mail address:<br />
+<p>Link ważny jest przez kolejne 3 dni od momentu jego wysłania. Po upływie tego czasu, możesz poprosić o nowy link aktywacyjny. Aby dokończyć proces rejestracji, proszę kliknąć w poniższy odnośnik. <br />
 
 <a href="{url}" target="_blank">{url}</a>
 <br />
-(If the above link is not working, copy the link URL and paste it into your browser address bar manually)</p>
+(Jeśli nie działa, proszę skopiować link do pola adresu w przeglądarce internetowej.)</p>
 
-<p>Thank you for your visit, we are glad to see you at our site!</p>
+<p>Dziękujemy za wizytę.Thank you for your visit. Do zobaczenia!</p>
 
 
 <p>
-Sincerely yours,<br />
+Z poważaniem,<br />
 
-{bbname} management team.<br />
+Ekipa {bbname} .<br />
 {siteurl}</p>',
 
 
