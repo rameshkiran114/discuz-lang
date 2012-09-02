@@ -7,6 +7,10 @@
  *      $Id: lang_google.php by Valery Votintsev at sources.ru
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'google_name'		=> 'Recherche Google',  //  'Google 搜索'
@@ -14,8 +18,6 @@ $lang = array
 	'google_lang'		=> 'Chercher le langage Web',  //  '搜索网页的语言'
 	'google_lang_comment'	=> 'Forum R&#233;glez leur propre langue page web peut effectivement am&#233;liorer la qualit&#233; des r&#233;sultats de recherche',  //  '设置适合自己论坛的网页语言可以有效的提高搜索结果的质量'
 	'google_lang_any'	=> 'Tout langage',  //  '任何语言'
-// ToDo:
-// Make Language List from the config settings!
 	'google_lang_en'	=> 'Anglaise',  // '英文' 
 	'google_lang_zh-CN'	=> 'Chinois simplifi&#233;',  //  '简体中文'
 	'google_lang_zh-TW'	=> 'Chinois Traditionnel',  //  '繁体中文'
@@ -25,8 +27,7 @@ $lang = array
 	'google_default_1'	=> 'Recherche Station',  // '站内搜索' 
 	'google_client'		=> 'Id Affiliation de Rech.',  //  '搜索联盟 ID'
 	'google_client_comment'	=> 'Si vous avez int&#233;grer l\'alliance de recherche Google, o&#249; vous pouvez remplissez le ID',  //  '如果你加入了 Google 搜索联盟, 可以在这里填写 ID'
-// Added by vot
-	'google_lang_ru'	=> 'Russian',//'俄语',
-	'google_lang_fr'	=> 'Francaise', // ajouter ---
+// ToDo:
+// Make Language List from the config settings!
 );
 

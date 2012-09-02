@@ -3,9 +3,13 @@
 /**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
- *      Traduit par Andre13 27-d�c-2011 - http://discuz-fr.fr support French
+ *      Traduit par Andre13 27-d�c-2011 - http://discuz-fr.fr support French
  *      $Id: lang_admincp_menu.php by Valery Votintsev at sources.ru
  */
+
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
 
 $lang = array
 (
@@ -28,7 +32,7 @@ $lang = array
 	'header_portal'		=> 'Portail',
 	'header_group'		=> 'Groupe',
 	'header_founder'	=> 'Webmaster',
-	'header_addons'		=> 'Extensions',
+	'header_cloudaddons'	=> 'Extensions',
 
 
 	'menu_home'			=> 'Gestion Accueil',
@@ -51,6 +55,7 @@ $lang = array
 	'menu_setting_imgwater'		=> 'Filigrane',
 	'menu_setting_uc'		=> 'UCenter',
 	'menu_setting_uchome'		=> 'UCAccueil',
+	'menu_setting_follow'		=> 'Follows',//'广播设置',
 	'menu_setting_home'		=> 'Espace',
 	'menu_setting_search'		=> 'Rech.',
 	'menu_setting_district'		=> 'Quartier',
@@ -67,6 +72,8 @@ $lang = array
 	'menu_members_add'		=> 'Ajout. Utilis.',
 	'menu_members_edit'		=> 'Utilis. Modif.',
 	'menu_members_newsletter'	=> 'Newsletter',
+	'menu_members_mobile'		=> 'Send phone notification',//'发送手机通知',
+	'menu_usertag'			=> 'User Tags',//'用户标签',
 	'menu_members_edit_ban_user'	=> 'Ban Utilis.',
 	'menu_members_ipban'		=> 'Ban IP',
 	'menu_members_credits'		=> 'Px. R&#233;comp.',
@@ -78,7 +85,7 @@ $lang = array
 	'menu_profilefields'		=> 'Champs Profil',
 	'menu_admingroups'		=> 'Grpes Admin',
 	'menu_usergroups'		=> 'Grpes. Utilis.',
-	'menu_hotuser'			=> 'Star Membres',
+	'menu_follow'			=> 'Follows',//'推荐关注',
 	'menu_defaultuser'		=> 'Utilis. par D&#233;faut',
 
 	'menu_moderate_posts'		=> 'Contenu V&#233;rif.',
@@ -95,6 +102,7 @@ $lang = array
 	'menu_maint_threads_group'	=> 'Sujets Groupe',
 	'menu_maint_prune_group'	=> 'Elaguer Groupes',
 	'menu_maint_attaches_group'	=> 'Groupe Fixation',
+	'menu_setting_collection'	=> 'Collections',//'淘帖管理',
 	'menu_posting_tags'		=> 'Balises',
 	'menu_posting_censors'		=> 'Mot filtrer',
 	'menu_maint_report'		=> 'Rapport Utilisateur',
@@ -118,6 +126,9 @@ $lang = array
 	'menu_founder_groupperm'	=> 'Editeurs - {group}',
 	'menu_founder_permgrouplist'	=> 'Permissions - {perm}',
 	'menu_founder_memberperm'	=> 'Editeurs - {username}',
+
+	'menu_patch'			=> 'Security Center',//'安全中心',
+	'menu_upgrade'			=> 'Online Upgrade',//'在线升级',
 
 	'menu_addons'		=> 'Extensions',
 	'menu_plugins'		=> 'Plugins',
@@ -151,11 +162,13 @@ $lang = array
 	'menu_tools_relatedtag'		=> 'Balises Associ&#233;es',
 	'menu_tools_creditwizard'	=> 'Assistant Points ',
 	'menu_tools_fileperms'		=> 'Fichier Permissions',
+	'menu_tools_hookcheck'		=> 'Check Hooks',//'嵌入点校验',
 	'menu_tools_filecheck'		=> 'Somm. de Contr&#244;le des Fichiers',
 	'menu_forum_scheme'		=> 'Site Programme',
 	'menu_db'			=> 'Base de Donn&#233;es',
 	'menu_postsplit'		=> 'Post Couper',
 	'menu_threadsplit'		=> 'Sujet Diviser',
+	'menu_membersplit'		=> 'User tables',//'用户表优化',
 	'menu_logs'			=> 'Enreg.',
 	'menu_custommenu_manage'	=> 'Fonctions COM.',
 	'menu_misc_cron'		=> 'T&#226;ches Planif.',
@@ -166,6 +179,7 @@ $lang = array
 	'menu_albumcategory'		=> 'Album Cat&#233;gories',
 	'menu_block'			=> 'Modules',
 	'menu_blockstyle'		=> 'Module Templates',
+	'menu_portalpermission'		=> 'Portal permissions',//'权限列表',
 	'menu_blockxml'			=> '3e part.Modules',
 	'menu_topic'			=> 'Topics',
 	'menu_diytemplate'		=> 'Diy Brico Pages',
@@ -175,12 +189,14 @@ $lang = array
 	'menu_group_manage'		=> 'Groupe Gestion',
 	'menu_group_userperm'		=> 'GroupePerms.',
 	'menu_group_level'		=> 'Groupe Niveau',
+	'menu_group_mod'		=> 'Group moderation',//'审核群组',
 
 	'menu_setting_manyou'		=> 'Manyou',
 	'menu_setting_qqconnect'	=> 'QQ ',
 
 	'admincp_title'			=> $_G['setting']['bbname'].' Mng. Centre',
 
+// Added by Valery Votintsev
+	'menu_setting_language'		=> 'Languages',
 );
 
-?>
