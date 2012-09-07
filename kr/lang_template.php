@@ -80,6 +80,7 @@ $lang = array (
 	'setup'			=> '설정',
 	'switch_narrow'		=> '기본값으로 설정',
 	'switch_wide'		=> '전체화면으로 설정',
+	'switch_blind'			=> 'Enable blind experience',//'开启盲人体验',
 	'task_doing'		=> '진행중인 임무',
 	'to_be_continue'	=> '일반버전을 계속 방문',
 	'usergroup'		=> '회원그룹',

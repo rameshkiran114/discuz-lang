@@ -217,6 +217,9 @@ var lng = {
 	'error_message'		: '오류 메세지',//'错误信息',
 	'ctrl_d_favorites'	: '즐겨찾기에 저장하려면 Ctrl + D 키를 누르세요.',//'请按 Ctrl+D 键添加到收藏夹',
 	'non_ie_manually'	: '익스플로러가 아니면 직접 설정해야 합니다.',//'非 IE 浏览器请手动将本站设为首页',
+	'blind_enable'		: 'Enable blind experience',//'开启盲人体验',//tc:'開啟盲人體驗',
+	'blind_disable'		: 'Disable blind experience',//'关闭盲人体验',//tc:'關閉盲人體驗',
+
 //--------------------------------
 //static/js/common_diy.js
 
@@ -580,6 +583,7 @@ var lng = {
 	'email_fill'		: '이메일 주소를 입력하세요',//'请输入邮箱地址',
 	'length_min'		: ', Minimum length',//', 最小长度为 '
 	'chars'			: ' characters',//' 个字符',
+	'password_strength'	: 'Password strength: ',//'密码强度:',
 	'pw_weak'		: 'Weak',//'弱',
 	'pw_middle'		: 'So-so',//'中',
 	'pw_strong'		: 'Strong',//'强',

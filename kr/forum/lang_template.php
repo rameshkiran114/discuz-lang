@@ -1069,6 +1069,7 @@ $lang = array (
 	'thread_rushreply_limit'	=> 'This grab floor sticker, {$rushresult[creditlimit_title]} greater than {$rushresult[creditlimit]} You can grab Floor',//'本帖为抢楼贴，{$rushresult[creditlimit_title]}大于{$rushresult[creditlimit]}可以抢楼',
 	'thread_rushreply_over'		=> '층수 로또 끝:',
 	'thread_rushreply_rewardnum'	=> 'Rush reply reward',//'个楼层已中奖',
+	'thread_rushreply_noreward'	=> 'Yet no rush reply rewards',//'暂时还没有楼层中奖',
 	'thread_rushreply_start'	=> ' 층수 로때 시작:',
 	'thread_rushreply_statnum'	=> 'Rush reply statistics',//'统计参与人数',
 	'usertag'			=> 'User Tags',//'用户标签',
@@ -1228,6 +1229,10 @@ $lang = array (
 // Added by Valery Votintsev
 	'view_thread_textmode'		=> 'Text mode',//'文字模式',
 	'like'				=> 'Like',//'喜欢',
+	'in'				=> ' &nbsp;In',//'在',
+	'reply_num'			=> 'Replies',//'回复',
+	'loading'			=> 'Loading...',//'加载中...',
+	'follow_add'			=> 'Listen',//'收听',//Subscribe
 //	'e_paste'			=> '붙여넣기',//'粘贴',//'Paste',
 );
 
