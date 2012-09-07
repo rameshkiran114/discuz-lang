@@ -27,6 +27,7 @@ $lang = array
 	'google_default_1'		=> 'Search site',//'站内搜索',
 	'google_client'			=> 'Google Adsense ID',//'搜索联盟 ID',
 	'google_client_comment'		=> 'If you have joined Google Adsense, you can fill in your ID here',//'如果您加入了 Google 搜索联盟，可以在这里填写 ID',
+// Added by vot
 // ToDo:
 // Make Language List from the config settings!
 );

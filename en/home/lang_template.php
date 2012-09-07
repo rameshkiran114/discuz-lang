@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_template.php 30789 2012-06-19 09:05:13Z zhengqingpeng $
+ *      $Id: lang_template.php by Valery Votintsev at sources.ru
  *
  *      This file is automatically generate
  */
