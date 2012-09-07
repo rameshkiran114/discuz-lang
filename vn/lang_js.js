@@ -213,6 +213,9 @@ var lng = {
 	'error_message'		: 'Tin nhắn lỗi',//'错误信息',
 	'ctrl_d_favorites'	: 'Ấn Ctrl + D để đặt bookmark',//'请按 Ctrl+D 键添加到收藏夹',
 	'non_ie_manually'	: 'Không dùng IE thì hãy đặt trang chủ thủ công',//'非 IE 浏览器请手动将本站设为首页',
+	'blind_enable'		: 'Enable blind experience',//'开启盲人体验',//tc:'開啟盲人體驗',
+	'blind_disable'		: 'Disable blind experience',//'关闭盲人体验',//tc:'關閉盲人體驗',
+
 //--------------------------------
 //static/js/common_diy.js
 

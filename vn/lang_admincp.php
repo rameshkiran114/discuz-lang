@@ -1585,6 +1585,8 @@ $lang = array
 	'setting_functions_other' => 'Khác',
 	'setting_functions_other_pwdsafety' => 'Kích hoạt tính năng mã hóa mật khẩu',
 	'setting_functions_other_pwdsafety_comment' => 'Chọn "Có", các diễn đàn về mật khẩu để đăng nhập vào thời điểm đã được mã hóa trước khi truyền',
+	'setting_functions_other_uidlogin'			=> 'Enable UID Login',//'启用UID登录',
+	'setting_functions_other_uidlogin_comment'		=> 'Select "Yes" for allow login by the UID',//'选择“是”，站点登录时允许通过 UID的方式登录验证',
 	'setting_functions_other_autoidselect' => 'Đăng nhập tự động lựa chọn mở tài khoản',
 	'setting_functions_other_autoidselect_comment' => 'Chọn "Yes", trang web sẽ được tự động đăng nhập bởi UID, E-mail, tên người dùng từng người một để phù hợp với thứ tự',
 	'setting_functions_other_rssstatus' => '<span class="spectitle">Sử dụng RSS</span>:',

@@ -101,6 +101,8 @@ Tính đến bây giờ, bạn đã bị cảnh báo {authorwarnings} lần, xin
 
 	'modthreads_delete' => 'Chủ đề {threadsubject} không được chấp thuận, đã bị xóa !<div class="quote"><blockquote>{reason}</blockquote></div>',
 
+	'modthreads_delete_reason' => 'Published by you thread {threadsubject} was not approved, and now has been deleted! <div class="quote"><blockquote>{reason}</blockquote></div>',//'您发表的主题 {threadsubject} 未通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
+
 	'modthreads_validate' => 'Chủ đề <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> đã được phê duyệt! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Xem &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'modreplies_delete' => 'Trả lời của bạn đã không được thông qua, hiện đã bị xóa! <p class="summary">Nội dung:<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',

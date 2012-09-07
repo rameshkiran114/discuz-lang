@@ -80,6 +80,7 @@ $lang = array (
   'setup' => 'Thiết đặt',
   'switch_narrow' => 'Thu nhỏ trang',
   'switch_wide' => 'Mở rộng trang',
+	'switch_blind'			=> 'Enable blind experience',//'开启盲人体验',
   'task_doing' => 'Đang thực hiện',
   'to_be_continue' => 'Tiếp tục',
   'usergroup' => 'Nhóm TV',
@@ -387,7 +388,7 @@ $lang = array (
 	'e_full_screen'		=> 'Full Screen',//'全屏',
 	'e_restore_size'	=> 'Restore size',//'恢复',
 	'e_simple'		=> 'General Mode',//'常用',
-	'e_advanced'		=> 'Advanced Mode','高级',
+	'e_advanced'		=> 'Advanced Mode',//'高级',
 
 //static/space/t1/style.css
 	'default_style'	=> 'Default style',//'[name]默认风格[/name]',
@@ -431,6 +432,8 @@ $lang = array (
 //---------------------------
 //Change Language
 	'change_language'	=> 'Change language',//'更改语言',
+	'change_language_title'	=> 'Change language',
+	'changestyle_title'	=> 'Change Style',//'切换风格',
 
 //vot:
 	'new'		=> 'New',//'全新',
@@ -441,7 +444,8 @@ $lang = array (
 
 // Google Maps
 	'e_map'		=> 'Map',//'地图',
-	'e_map_insert'	=> 'Insert Google Map','插入google地图',
+	'e_map_insert'	=> 'Insert Google Map',//'插入google地图',
 	'e_map_address'	=> 'Enter address for search: ',//'地址： ',
+
 );
 

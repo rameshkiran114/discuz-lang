@@ -1069,6 +1069,7 @@ $lang = array (
 	'thread_rushreply_limit'	=> 'Đưa bài viết lên sàn giao dịch{$rushresult[creditlimit_title]}lớn hơn{$rushresult[creditlimit]} thì bạn có thể làm chủ sàn giao dịch.',
 	'thread_rushreply_over'	=> 'Kết thúc:',
 	'thread_rushreply_rewardnum'	=> 'Sàn giao dịch gành chiến thắng',
+	'thread_rushreply_noreward'	=> 'Yet no rush reply rewards',//'暂时还没有楼层中奖',
 	'thread_rushreply_start'	=> ' Bắt đầu:',
 	'thread_rushreply_statnum'	=> 'Thống kê số người tham gia',
 	'usertag'	=> 'usertag',
