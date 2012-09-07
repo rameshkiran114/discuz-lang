@@ -212,6 +212,9 @@ var lng = {
 	'error_message'		: 'ข้อความผิดพลาด',//'错误信息',
 	'ctrl_d_favorites'	: 'กดปุ่ม Ctrl + D เพิ่มไปยังรายการโปรด',//'请按 Ctrl+D 键添加到收藏夹',
 	'non_ie_manually'	: 'ในกรณีที่ไม่ได้ใช้เบราวเซอร์ IE กรุณาตั้งหน้าแรกด้วยตัวเอง',//'非 IE 浏览器请手动将本站设为首页',
+	'blind_enable'		: 'Enable blind experience',//'开启盲人体验',//tc:'開啟盲人體驗',
+	'blind_disable'		: 'Disable blind experience',//'关闭盲人体验',//tc:'關閉盲人體驗',
+
 //--------------------------------
 //static/js/common_diy.js
 

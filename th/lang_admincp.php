@@ -1585,6 +1585,8 @@ $lang = array
 	'setting_functions_other' => 'อื่นๆ',
 	'setting_functions_other_pwdsafety' => 'เปิดใช้งานการเข้ารหัสลับของรหัสผ่าน',
 	'setting_functions_other_pwdsafety_comment' => 'เลือก"ใช่" จะต้องใส่รหัสลับก่อนที่จะลงชื่อเข้าใช้ของเว็บไซต์',
+	'setting_functions_other_uidlogin'			=> 'Enable UID Login',//'启用UID登录',
+	'setting_functions_other_uidlogin_comment'		=> 'Select "Yes" for allow login by the UID',//'选择“是”，站点登录时允许通过 UID的方式登录验证',
 	'setting_functions_other_autoidselect' => 'เปิดใช้งานการเลือกบัญชีลงชื่อเข้าใช้อัตโนมัติ',
 	'setting_functions_other_autoidselect_comment' => 'เลือก"ใช่" ก่อนที่จะลงชื่อเข้าใช้ สมาชิกจะต้องใส่ UID ชื่อสมาชิก หรือ อีเมล์ โดยที่ไม่ต้องเลือกตัวเลือกก่อน ระบบจะตรวจสอบโดยอัตโนมัติ',
 	'setting_functions_other_rssstatus' => '<span class="spectitle">เปิดใช้งาน RSS</span>',

@@ -1070,6 +1070,7 @@ $lang = array (
   'thread_rushreply_limit' => 'โพสต์รางวัลจำกัดไว้ที่ {$rushresult[creditlimit_title]} มากกว่า {$rushresult[creditlimit]}',
   'thread_rushreply_over' => 'สิ้นสุดเมื่อ:',
   'thread_rushreply_rewardnum' => 'ได้รับรางวัลชนะเลิศ',
+	'thread_rushreply_noreward'	=> 'Yet no rush reply rewards',//'暂时还没有楼层中奖',
   'thread_rushreply_start' => ' เริ่มต้นเมื่อ:',
   'thread_rushreply_statnum' => 'จำนวนสถิติของผู้เข้าร่วม',
   'usertag' => 'แท็กผู้ใช้',
