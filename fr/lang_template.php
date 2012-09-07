@@ -80,6 +80,7 @@ $lang = array (
   'setup'		=> 'Installation',  //  Setup
   'switch_narrow'	=> 'Cibler',  //  Narrow
   'switch_wide'		=> 'Panoramique',  // Wide 
+	'switch_blind'			=> 'Enable blind experience',//'开启盲人体验',
   'task_doing'		=> 'Agiss.',  // Doing 
   'to_be_continue'	=> 'Continuer',  //  Continue
   'usergroup'		=> 'Utilis. Groupes',  //  User Groups

@@ -102,6 +102,8 @@ $lang = array
 
 	'modthreads_delete'		=> 'Votre Sujet {threadsubject} n\'a pas &#233;t&#233; approuv&#233;, il a &#233;t&#233; supprim&#233;! <div class="quote"><blockquote>{reason}</blockquote></div>',  // 'Your thread {threadsubject} was not approval, it has been deleted! <div class="quote"><blockquote>{reason}</blockquote></div>'   
 
+	'modthreads_delete_reason' => 'Published by you thread {threadsubject} was not approved, and now has been deleted! <div class="quote"><blockquote>{reason}</blockquote></div>',//'您发表的主题 {threadsubject} 未通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
+
 	'modthreads_validate'		=> 'Votre Sujet <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> a &#233;t&#233; approuv&#233;e! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Voir &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',  //  'Your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> was approval! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">view &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>'  
 
 	'modreplies_delete'		=> 'Votre R&#233;ponse n\'a pas &#233;t&#233; approuv&#233;, il a &#233;t&#233; supprim&#233;! <p class="summary">Contenu: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',  //  'Your reply was not approval, it has been deleted! <p class="summary">Content: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>'  
