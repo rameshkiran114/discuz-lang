@@ -105,6 +105,8 @@ $lang = array
 
 	'modthreads_delete'	=> 'Ваша тема {threadsubject} не прошла модерацию и была удалена! <div class="quote"><blockquote>{reason}</blockquote></div>',
 
+	'modthreads_delete_reason' => 'Published by you thread {threadsubject} was not approved, and now has been deleted! <div class="quote"><blockquote>{reason}</blockquote></div>',//'您发表的主题 {threadsubject} 未通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
+
 	'modthreads_validate'	=> 'Ваша тема <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> проверена и опубликована! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Открыть &rsaquo;</a>',
 
 	'modreplies_delete'	=> 'Ответ не прошел модерацию и был удален! <p class="summary">Текст: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',

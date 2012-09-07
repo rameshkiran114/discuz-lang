@@ -18,8 +18,6 @@ $lang = array
 	'google_lang'			=> 'Язык для вывода результатов',
 	'google_lang_comment'		=> 'Укажите язык сайта для получения более релевантных результатов',
 	'google_lang_any'		=> 'Любой язык',
-// ToDo:
-// Make Language List from the config settings!
 	'google_lang_en'		=> 'Английский',
 	'google_lang_zh-CN'		=> 'Упрощенный китайский',
 	'google_lang_zh-TW'		=> 'Традиционный китайский',
@@ -30,5 +28,7 @@ $lang = array
 	'google_client'			=> 'Google Adsense ID',
 	'google_client_comment'		=> 'Введите Ваш уникальный идентификатор в Google Adsense. Ещё нет идентификатора? Получите свой ID: http://www.google.com/adsense/',
 // Added by vot
-'google_lang_ru'		=> 'Russian',//'俄语',
+// ToDo:
+// Make Language List from the config settings!
 );
+

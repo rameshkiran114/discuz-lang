@@ -718,7 +718,7 @@ $lang = array
 	'setting_access_register_invite'		=> 'Регистрация только по приглашениям',
 	'setting_access_register_connect'		=> 'Разрешить использование QQ-аккаунтов для регистрации',
 	'setting_access_register_send_register_url'		=> 'Отправлять ссылку для регистрации по E-mail',//'通过邮件发送注册链接',
-!!!!!!	'setting_access_register_send_register_url_comment'	=> 'Система будет отправлять сообщение на E-mail вновь зарегистрированным пользователям со специальной ссылкой. Активация зарегистрированного аккаунта произойдёт только при переходе пользователя по указанной ссылке. Дополнительно необходимо включить в UCenter регистрацию только по E-Mail.<br/>注意：只有在<a href="?action=setting&operation=mail">站长 - 邮件设置</a>中完成邮件设置，确保邮件能发送成功下可以开启该功能 ',//'开启后系统会发一条注册的地址到用户的邮箱，从该地址链接过来的允许注册，同时建议UCenter中开启一个邮箱只允许注册一个帐户<br/>注意：只有在<a href="?action=setting&operation=mail">站长 - 邮件设置</a>中完成邮件设置，确保邮件能发送成功下可以开启该功能 ',
+/*!!!!*/	'setting_access_register_send_register_url_comment'	=> 'Система будет отправлять сообщение на E-mail вновь зарегистрированным пользователям со специальной ссылкой. Активация зарегистрированного аккаунта произойдёт только при переходе пользователя по указанной ссылке. Дополнительно необходимо включить в UCenter регистрацию только по E-Mail.<br/>注意：只有在<a href="?action=setting&operation=mail">站长 - 邮件设置</a>中完成邮件设置，确保邮件能发送成功下可以开启该功能 ',//'开启后系统会发一条注册的地址到用户的邮箱，从该地址链接过来的允许注册，同时建议UCenter中开启一个邮箱只允许注册一个帐户<br/>注意：只有在<a href="?action=setting&operation=mail">站长 - 邮件设置</a>中完成邮件设置，确保邮件能发送成功下可以开启该功能 ',
 
 	'setting_access_register_invite_buy'		=> 'Разрешить покупку приглашений',
 	'setting_access_register_invite_buy_comment'	=> 'Позволяет посетителям покупать код приглашений для регистрации на сайте. Вы можете <a href="'.ADMINSCRIPT.'?frames=yes&action=setting&operation=ec" target="_blank"><strong>настроить оплату</strong></a> или <a href="'.ADMINSCRIPT.'?frames=yes&action=setting&operation=mail" target="_blank"><strong>настроить электронную почту для отправки приглашений</strong></a>.',
@@ -1584,6 +1584,8 @@ $lang = array
 	'setting_functions_other'			=> 'Другое',
 	'setting_functions_other_pwdsafety'		=> 'Включить шифрование паролей',
 	'setting_functions_other_pwdsafety_comment'	=> 'Для включения выберите "Да". При введении пароля на сайте он будет зашифрован перед передачей',
+	'setting_functions_other_uidlogin'			=> 'Enable UID Login',//'启用UID登录',
+	'setting_functions_other_uidlogin_comment'		=> 'Select "Yes" for allow login by the UID',//'选择“是”，站点登录时允许通过 UID的方式登录验证',
 	'setting_functions_other_autoidselect'		=> 'Автоматический выбор входа',
 	'setting_functions_other_autoidselect_comment'	=> 'Автоматический выбор авторизации для зарегистрированых UID, E-mail',
 	'setting_functions_other_rssstatus'		=> '<span class="spectitle">Канал RSS</span>',

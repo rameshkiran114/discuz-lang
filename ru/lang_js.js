@@ -214,6 +214,9 @@ var lng = {
 	'jump_now'		: 'Перейти сейчас',//'立即跳转',
 	'error_message'		: 'Сообщение об ошибке',//'错误信息',
 	'ctrl_d_favorites'	: 'Для добавления в Избранное нажмите Ctrl + D',//'请按 Ctrl+D 键添加到收藏夹',
+	'non_ie_manually'	: 'For non-IE browser please set Homepage manually',//'非 IE 浏览器请手动将本站设为首页',
+	'blind_enable'		: 'Enable blind experience',//'开启盲人体验',//tc:'開啟盲人體驗',
+	'blind_disable'		: 'Disable blind experience',//'关闭盲人体验',//tc:'關閉盲人體驗',
 	'non_ie_manually'	: 'Для браузеров, отличных от IE, требуется ручная установка страницы в качестве домашней',//'非 IE 浏览器请手动将本站设为首页',
 //--------------------------------
 //static/js/common_diy.js

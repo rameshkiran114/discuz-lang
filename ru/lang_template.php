@@ -80,6 +80,7 @@ $lang = array (
 	'setup'				=> 'Настройки',
 	'switch_narrow'			=> 'Узкий экран',
 	'switch_wide'			=> 'Широкий экран',
+	'switch_blind'			=> 'Enable blind experience',//'开启盲人体验',
 	'task_doing'			=> 'Ожидающие задачи',
 	'to_be_continue'		=> 'Перейти к компьютерной версии',
 	'usergroup'			=> 'Группа',
