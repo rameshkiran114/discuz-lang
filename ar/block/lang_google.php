@@ -29,6 +29,7 @@ $lang = array
 	'google_client'		=> 'رقم معرف جوجل ادسنس',//'搜索联盟 ID',
 	'google_client_comment'	=> 'لو تملك حساب ادسنس اكتب رقم الحساب هنا',//'如果你加入了 Google 搜索联盟，可以在这里填写 ID',
 // Added by vot
-	'google_lang_ru'	=> 'الروسية',//'俄语',
+// ToDo:
+// Make Language List from the config settings!
 );
 

@@ -1069,6 +1069,7 @@ $lang = array (
 	'thread_rushreply_limit'	=> ' خاصية الحاق الرد المتعلق ,{$rushresult[creditlimit_title]}أكبر من الحد الأقصى  وهو {$rushresult[creditlimit]} الذي يمكن الحاقه',
 	'thread_rushreply_over'		=> 'نهاية الالحاق:',//'抢楼结束：',
 	'thread_rushreply_rewardnum'	=> 'رد قد فاز',
+	'thread_rushreply_noreward'	=> 'Yet no rush reply rewards',//'暂时还没有楼层中奖',
 	'thread_rushreply_start'	=> ' بدء الالحاق :',//' 抢楼开始：',
 	'thread_rushreply_statnum'	=> 'إحصائيات المشاركين',
 	'usertag'			=> 'الكلمات الدلالية للعضو',//'用户标签',

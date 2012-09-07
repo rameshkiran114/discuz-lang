@@ -80,6 +80,7 @@ $lang = array (
 	'setup'				=> 'الإعدادات',
 	'switch_narrow'			=> 'التبديل إلى شاشة ضيقة',
 	'switch_wide'			=> 'التبديل إلى شاشة واسعة',
+	'switch_blind'			=> 'Enable blind experience',//'开启盲人体验',
 	'task_doing'			=> 'المهام الجارية',
 	'to_be_continue'		=> 'مواصلة',
 	'usergroup'			=> 'مجموعات الأعضاء',

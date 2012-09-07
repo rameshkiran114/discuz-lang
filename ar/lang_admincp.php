@@ -1585,6 +1585,8 @@ $lang = array
 	'setting_functions_other'				=> 'إعدادات أخرى',//'其他',
 	'setting_functions_other_pwdsafety'			=> 'تمكين تشفير كلمة المرور',//'启用登录密码加密',
 	'setting_functions_other_pwdsafety_comment'		=> 'حدد "نعم"، إذا كان كلمة السر يجب أن تكون مشفرة قبل إرسالها إلى الخادم',//'选择“是”，站点登录时的密码将进行加密后再传输',
+	'setting_functions_other_uidlogin'			=> 'Enable UID Login',//'启用UID登录',
+	'setting_functions_other_uidlogin_comment'		=> 'Select "Yes" for allow login by the UID',//'选择“是”，站点登录时允许通过 UID的方式登录验证',
 	'setting_functions_other_autoidselect'			=> 'تمكين الكشف التلقائي للحساب أثناء تسجيل الدخول',//'启用登录自动选择帐号',
 	'setting_functions_other_autoidselect_comment'		=> 'حدد نعم للكشف التلقائي لإسم المستخدم أو البريد أو رقم العضوية',//'选择“是”，站点登录时的将自动按用户名、UID、E-mail逐一去匹配',
 	'setting_functions_other_rssstatus'			=> '<span class="spectitle">تفعيل خاصية RSS</span>',//'<span class="spectitle">启用 RSS</span>',
