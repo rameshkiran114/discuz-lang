@@ -80,6 +80,7 @@ $lang = array (
 	'setup'				=> 'Profil',//'设置',
 	'switch_narrow'			=> 'Narrow screen',//'切换到窄版',
 	'switch_wide'			=> 'Wide screen',//'切换到宽版',
+	'switch_blind'			=> 'Enable blind experience',//'开启盲人体验',
 	'task_doing'			=> 'W toku',//'进行中的任务',
 	'to_be_continue'		=> 'Continue to access the desktop computer version',//'继续访问电脑版',
 	'usergroup'			=> 'Status',//'用户组',

@@ -1070,6 +1070,7 @@ $lang = array (
 	'thread_rushreply_limit'	=> 'This grab floor sticker, {$rushresult[creditlimit_title]} greater than {$rushresult[creditlimit]} You can grab Floor',//'本帖为抢楼贴，{$rushresult[creditlimit_title]}大于{$rushresult[creditlimit]}可以抢楼',
 	'thread_rushreply_over'		=> 'Grab floor the end:',//'抢楼结束：',
 	'thread_rushreply_rewardnum'	=> 'Rush reply reward',//'个楼层已中奖',
+	'thread_rushreply_noreward'	=> 'Yet no rush reply rewards',//'暂时还没有楼层中奖',
 	'thread_rushreply_start'	=> ' floor, grab start:',//' 抢楼开始：',
 	'thread_rushreply_statnum'	=> 'Rush reply statistics',//'统计参与人数',
 	'usertag'			=> 'User Tags',//'用户标签',
