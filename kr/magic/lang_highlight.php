@@ -25,7 +25,7 @@ $lang = array
 	'highlight_info_noperm'		=> '게시판에서는 이 아이템을 사용할 수 없습니다.',
 	'highlight_info_notype'		=> '매개 변수 오류 발생, 작업의 유형을 지정하지 않았습니다.',
 
-	'highlight_notification'	=> '게시판 {subject}에 {actor}님이 {magicname}，<a href="forum.php?mod=viewthread&tid={tid}">에 색깔을 설정했습니다.</a>',
-	'highlight_notification_blogid'	=> '블로그 {subject}에 {actor}님이 {magicname}，<a href="home.php?mod=space&do=blog&id={blogid}">에 색깔을 설정했습니다.</a>',
+	'highlight_notification'	=> '귀하의 주제 "{subject}"에 {actor}님이 "{magicname}" 아이템을 사용했습니다. <a href="forum.php?mod=viewthread&tid={tid}">보러가기!</a>',
+	'highlight_notification_blogid'	=> '귀하의 블로그 "{subject}"에 {actor}님이 "{magicname}" 아이템을 사용했습니다. <a href="home.php?mod=space&do=blog&id={blogid}">보러가기!</a>',
 );
 

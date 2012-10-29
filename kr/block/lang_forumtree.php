@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -9,9 +9,9 @@
 
 $lang = array
 (
-	'forumtree_name'		=> 'Forum tree',//'版块树形列表',
-	'forumtree_desc'		=> 'Display forums list in a tree',//'树形显示版块列表',
-	'forumtree_fids'		=> 'Forums id',//'显示的版块',
-	'forumtree_fids_comment'	=> 'Select the forums to display, keep blank to display all forums',//'设置允许显示的版块，留空为显示所有版块',
+	'forumtree_name'		=> '포럼 트리',//'版块树形列表',
+	'forumtree_desc'		=> '포럼트리 목록',//'树形显示版块列表',
+	'forumtree_fids'		=> '보기 가능한 포럼판',//'显示的版块',
+	'forumtree_fids_comment'	=> '보기허용 포럼판 설정. 비여있을시 모든 포럼판 보기가능.',//'设置允许显示的版块，留空为显示所有版块',
 );
 

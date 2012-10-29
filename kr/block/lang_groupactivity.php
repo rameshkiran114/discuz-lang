@@ -9,11 +9,11 @@
 
 $lang = array
 (
-	'groupactivity_fids'			=> 'Specific Group ID',//'制定群组',
-	'groupactivity_fids_comment'		=> 'Use "," to seperate groups IDs',//'指定群组，多个ID之间请用半角逗号“,”隔开。',
-	'groupactivity_gtids'			=> 'Group Categories',//'群组分类',
-	'groupactivity_gtids_comment'		=> 'Set the category of group, use CTRL to select groups',//'设置群组所在分类，可以按住 CTRL 多选，全选或全不选均为不做限制',
-	'groupactivity_uids'			=> 'Author UIDs',//'发起者UID',
+	'groupactivity_fids'			=> '그룹설정',//'制定群组',
+	'groupactivity_fids_comment'		=> '그룹지정,여러개일 경우 ","로 띄워쓰기.',//'指定群组，多个ID之间请用半角逗号“,”隔开。',
+	'groupactivity_gtids'			=> '그룹 카테고리',//'群组分类',
+	'groupactivity_gtids_comment'		=> '그룹소재분류를 설정하시려면 CTRL로 복수 선택이 가능하고 전부선택 혹은 미선택시 제한없음. ',//'设置群组所在分类，可以按住 CTRL 多选，全选或全不选均为不做限制',
+	'groupactivity_uids'			=> '글쓴이 UIDs',//'发起者UID',
 	'groupactivity_uids_comment'		=> 'Set the author UID, use "," to seperate UIDs.',//'设置活动发起人UID ，多个 UID 请用半角逗号“,”隔开。',
 	'groupactivity_startrow'		=> 'Start Row',//'起始数据行数',
 	'groupactivity_startrow_comment'	=> 'If you need to set start row, please enter a number, 0 is the first row',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',

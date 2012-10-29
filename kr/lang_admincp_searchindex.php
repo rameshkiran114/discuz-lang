@@ -14,99 +14,99 @@ $lang = array (
   array (
     'index' =>
     array (
-      '管理中心首页' => 'action=index',
+      '관리센터홈' => 'action=index',
     ),
     'text' =>
     array (
-      0 => '管理中心首页',
+      0 => '괄니센터홈',
     ),
   ),
   1 =>
   array (
     'index' =>
     array (
-      '常用操作管理' => 'action=misc&operation=custommenu',
+      '상용조작관리' => 'action=misc&operation=custommenu',
     ),
     'text' =>
     array (
-      0 => '常用操作管理',
+      0 => '상용조작관리',
     ),
   ),
   2 =>
   array (
     'index' =>
     array (
-      '站点信息' => 'action=setting&operation=basic',
+      '사이트정보' => 'action=setting&operation=basic',
     ),
     'text' =>
     array (
-      0 => '站点信息',
+      0 => '사이트정보',
     ),
   ),
   3 =>
   array (
     'index' =>
     array (
-      '注册与访问控制' => 'action=setting&operation=access',
+      '등록과 방문통제' => 'action=setting&operation=access',
     ),
     'text' =>
     array (
-      0 => '注册与访问控制',
+      0 => '등록과 방문통제',
     ),
   ),
   4 =>
   array (
     'index' =>
     array (
-      '站点功能' => 'action=setting&operation=functions',
+      '사이트공능' => 'action=setting&operation=functions',
     ),
     'text' =>
     array (
-      0 => '站点功能',
+      0 => '사이트공능',
     ),
   ),
   5 =>
   array (
     'index' =>
     array (
-      '性能优化' => 'action=setting&operation=cachethread',
+      '성능우화' => 'action=setting&operation=cachethread',
     ),
     'text' =>
     array (
-      0 => '性能优化',
+      0 => '성능우화',
     ),
   ),
   6 =>
   array (
     'index' =>
     array (
-      'SEO设置' => 'action=setting&operation=seo',
+      'SEO세팅' => 'action=setting&operation=seo',
     ),
     'text' =>
     array (
-      0 => 'SEO设置',
+      0 => 'SEO세팅',
     ),
   ),
   7 =>
   array (
     'index' =>
     array (
-      '域名设置' => 'action=domain',
+      '도메인세팅' => 'action=domain',
     ),
     'text' =>
     array (
-      0 => '域名设置',
+      0 => '도메인세팅',
     ),
   ),
   8 =>
   array (
     'index' =>
     array (
-      '广播设置' => 'action=setting&operation=follow',
+      '방송세팅' => 'action=setting&operation=follow',
     ),
     'text' =>
     array (
-      0 => '广播设置',
+      0 => '방송세팅',
     ),
   ),
   9 =>
@@ -124,121 +124,121 @@ $lang = array (
   array (
     'index' =>
     array (
-      '用户权限' => 'action=setting&operation=permissions',
+      '사용자권한' => 'action=setting&operation=permissions',
     ),
     'text' =>
     array (
-      0 => '用户权限',
+      0 => '사용자권한',
     ),
   ),
   11 =>
   array (
     'index' =>
     array (
-      '积分设置' => 'action=setting&operation=credits',
+      '포인트세팅' => 'action=setting&operation=credits',
     ),
     'text' =>
     array (
-      0 => '积分设置',
+      0 => '포인트세팅',
     ),
   ),
   12 =>
   array (
     'index' =>
     array (
-      '防灌水设置' => 'action=setting&operation=sec',
+      '스팸차단 설정' => 'action=setting&operation=sec',
     ),
     'text' =>
     array (
-      0 => '防灌水设置',
+      0 => '스팸차단 설정',
     ),
   ),
   13 =>
   array (
     'index' =>
     array (
-      '时间设置' => 'action=setting&operation=datetime',
+      '시간설정' => 'action=setting&operation=datetime',
     ),
     'text' =>
     array (
-      0 => '时间设置',
+      0 => '시간설정',
     ),
   ),
   14 =>
   array (
     'index' =>
     array (
-      '上传设置' => 'action=setting&operation=attach',
+      '업로드설정' => 'action=setting&operation=attach',
     ),
     'text' =>
     array (
-      0 => '上传设置',
+      0 => '업로드설정',
     ),
   ),
   15 =>
   array (
     'index' =>
     array (
-      '水印设置' => 'action=setting&operation=imgwater',
+      '포토 워터마크 설정' => 'action=setting&operation=imgwater',
     ),
     'text' =>
     array (
-      0 => '水印设置',
+      0 => '포토 워터마크 설정',
     ),
   ),
   16 =>
   array (
     'index' =>
     array (
-      '附件类型尺寸' => 'action=misc&operation=attachtype',
+      '첨부파일 유형 사이즈' => 'action=misc&operation=attachtype',
     ),
     'text' =>
     array (
-      0 => '附件类型尺寸',
+      0 => '첨부파일 유형 사이즈',
     ),
   ),
   17 =>
   array (
     'index' =>
     array (
-      '搜索设置' => 'action=setting&operation=search',
+      '검색설정' => 'action=setting&operation=search',
     ),
     'text' =>
     array (
-      0 => '搜索设置',
+      0 => '검색설정',
     ),
   ),
   18 =>
   array (
     'index' =>
     array (
-      '地区设置' => 'action=district',
+      '지역설정' => 'action=district',
     ),
     'text' =>
     array (
-      0 => '地区设置',
+      0 => '지역설정',
     ),
   ),
   19 =>
   array (
     'index' =>
     array (
-      '排行榜设置' => 'action=setting&operation=ranklist',
+      '순위설정' => 'action=setting&operation=ranklist',
     ),
     'text' =>
     array (
-      0 => '排行榜设置',
+      0 => '순위설정',
     ),
   ),
   20 =>
   array (
     'index' =>
     array (
-      '手机版访问设置' => 'action=setting&operation=mobile',
+      '모바일방문모드설정' => 'action=setting&operation=mobile',
     ),
     'text' =>
     array (
-      0 => '手机版访问设置',
+      0 => '모바일방문모드설정',
     ),
   ),
   21 =>
@@ -267,11 +267,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      '风格管理' => 'action=styles',
+      '스타일관리' => 'action=styles',
     ),
     'text' =>
     array (
-      0 => '风格管理',
+      0 => '스타일관리',
     ),
   ),
   24 =>
@@ -289,11 +289,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      '表情管理' => 'action=smilies',
+      '아이콘설정' => 'action=smilies',
     ),
     'text' =>
     array (
-      0 => '表情管理',
+      0 => '아이콘설정',
     ),
   ),
   26 =>
@@ -344,11 +344,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      '内容审核' => 'action=moderate',
+      '내용심사' => 'action=moderate',
     ),
     'text' =>
     array (
-      0 => '内容审核',
+      0 => '내용심사',
     ),
   ),
   31 =>
@@ -366,33 +366,33 @@ $lang = array (
   array (
     'index' =>
     array (
-      '用户举报' => 'action=report',
+      '신고' => 'action=report',
     ),
     'text' =>
     array (
-      0 => '用户举报',
+      0 => '신고',
     ),
   ),
   33 =>
   array (
     'index' =>
     array (
-      '标签管理' => 'action=tag',
+      '테그관리' => 'action=tag',
     ),
     'text' =>
     array (
-      0 => '标签管理',
+      0 => '테그관리',
     ),
   ),
   34 =>
   array (
     'index' =>
     array (
-      '淘帖管理' => 'action=collection',
+      '컬렉션관리' => 'action=collection',
     ),
     'text' =>
     array (
-      0 => '淘帖管理',
+      0 => '컬렉션관리',
     ),
   ),
   35 =>
@@ -410,33 +410,33 @@ $lang = array (
   array (
     'index' =>
     array (
-      '论坛主题管理' => 'action=threads',
+      '포럼테마관리' => 'action=threads',
     ),
     'text' =>
     array (
-      0 => '论坛主题管理',
+      0 => '포럼테마관리',
     ),
   ),
   37 =>
   array (
     'index' =>
     array (
-      '论坛批量删帖' => 'action=prune',
+      '포럼글 다량삭제' => 'action=prune',
     ),
     'text' =>
     array (
-      0 => '论坛批量删帖',
+      0 => '포럼글 다량삭제',
     ),
   ),
   38 =>
   array (
     'index' =>
     array (
-      '论坛附件管理' => 'action=attach',
+      '포럼첨부파일관리' => 'action=attach',
     ),
     'text' =>
     array (
-      0 => '论坛附件管理',
+      0 => '포럼첨부파일관리',
     ),
   ),
   39 =>
@@ -465,33 +465,33 @@ $lang = array (
   array (
     'index' =>
     array (
-      '群组主题管理' => 'action=threads&operation=group',
+      '그룹테마관리' => 'action=threads&operation=group',
     ),
     'text' =>
     array (
-      0 => '群组主题管理',
+      0 => '그룹테마관리',
     ),
   ),
   42 =>
   array (
     'index' =>
     array (
-      '群组批量删帖' => 'action=prune&operation=group',
+      '그룹글 다량삭제' => 'action=prune&operation=group',
     ),
     'text' =>
     array (
-      0 => '群组批量删帖',
+      0 => '그룹글 다량삭제',
     ),
   ),
   43 =>
   array (
     'index' =>
     array (
-      '群组附件管理' => 'action=attach&operation=group',
+      '그룹첨부파일관리' => 'action=attach&operation=group',
     ),
     'text' =>
     array (
-      0 => '群组附件管理',
+      0 => '그룹첨부파일관리',
     ),
   ),
   44 =>
@@ -520,44 +520,44 @@ $lang = array (
   array (
     'index' =>
     array (
-      '主题回收站' => 'action=recyclebin',
+      '테마회수역' => 'action=recyclebin',
     ),
     'text' =>
     array (
-      0 => '主题回收站',
+      0 => '테마회수역',
     ),
   ),
   47 =>
   array (
     'index' =>
     array (
-      '回帖回收站' => 'action=recyclebinpost',
+      '답글회수역' => 'action=recyclebinpost',
     ),
     'text' =>
     array (
-      0 => '回帖回收站',
+      0 => '답글회수역',
     ),
   ),
   48 =>
   array (
     'index' =>
     array (
-      '版块/群组置顶' => 'action=threads&operation=forumstick',
+      '포럼판/그룹置顶' => 'action=threads&operation=forumstick',
     ),
     'text' =>
     array (
-      0 => '版块/群组置顶',
+      0 => '포럼판/그룹置顶',
     ),
   ),
   49 =>
   array (
     'index' =>
     array (
-      '帖子点评管理' => 'action=postcomment',
+      '글평론관리' => 'action=postcomment',
     ),
     'text' =>
     array (
-      0 => '帖子点评管理',
+      0 => '글평론관리',
     ),
   ),
   50 =>
@@ -586,22 +586,22 @@ $lang = array (
   array (
     'index' =>
     array (
-      '记录管理' => 'action=doing',
+      '기록관리' => 'action=doing',
     ),
     'text' =>
     array (
-      0 => '记录管理',
+      0 => '기록관리',
     ),
   ),
   53 =>
   array (
     'index' =>
     array (
-      '日志管理' => 'action=blog',
+      '일지관리' => 'action=blog',
     ),
     'text' =>
     array (
-      0 => '日志管理',
+      0 => '일지관리',
     ),
   ),
   54 =>
@@ -619,44 +619,44 @@ $lang = array (
   array (
     'index' =>
     array (
-      '相册管理' => 'action=album',
+      '앨범관리' => 'action=album',
     ),
     'text' =>
     array (
-      0 => '相册管理',
+      0 => '앨범관리',
     ),
   ),
   56 =>
   array (
     'index' =>
     array (
-      '图片管理' => 'action=pic',
+      '사진관리' => 'action=pic',
     ),
     'text' =>
     array (
-      0 => '图片管理',
+      0 => '사진관리',
     ),
   ),
   57 =>
   array (
     'index' =>
     array (
-      '评论/留言管理' => 'action=comment',
+      '평론/메모관리' => 'action=comment',
     ),
     'text' =>
     array (
-      0 => '评论/留言管理',
+      0 => '평론/메모관리',
     ),
   ),
   58 =>
   array (
     'index' =>
     array (
-      '分享管理' => 'action=share',
+      '공유관리' => 'action=share',
     ),
     'text' =>
     array (
-      0 => '分享管理',
+      0 => '공유관리',
     ),
   ),
   59 =>
@@ -674,99 +674,99 @@ $lang = array (
   array (
     'index' =>
     array (
-      '用户管理' => 'action=members&operation=search',
+      '사용자관리' => 'action=members&operation=search',
     ),
     'text' =>
     array (
-      0 => '用户管理',
+      0 => '사용자관리',
     ),
   ),
   61 =>
   array (
     'index' =>
     array (
-      '添加用户' => 'action=members&operation=add',
+      '사용자추가' => 'action=members&operation=add',
     ),
     'text' =>
     array (
-      0 => '添加用户',
+      0 => '사용자추가',
     ),
   ),
   62 =>
   array (
     'index' =>
     array (
-      '用户栏目' => 'action=members&operation=profile',
+      '사용자프로필' => 'action=members&operation=profile',
     ),
     'text' =>
     array (
-      0 => '用户栏目',
+      0 => '사용자프로필',
     ),
   ),
   63 =>
   array (
     'index' =>
     array (
-      '资料统计' => 'action=members&operation=stat',
+      '자료통계' => 'action=members&operation=stat',
     ),
     'text' =>
     array (
-      0 => '资料统计',
+      0 => '자료통계',
     ),
   ),
   64 =>
   array (
     'index' =>
     array (
-      '发送通知' => 'action=members&operation=newsletter',
+      '알림발송' => 'action=members&operation=newsletter',
     ),
     'text' =>
     array (
-      0 => '发送通知',
+      0 => '알림발송',
     ),
   ),
   65 =>
   array (
     'index' =>
     array (
-      '发送手机通知' => 'action=members&operation=newsletter&do=mobile',
+      '모바일알림 발송' => 'action=members&operation=newsletter&do=mobile',
     ),
     'text' =>
     array (
-      0 => '发送手机通知',
+      0 => '모바일알림 발송',
     ),
   ),
   66 =>
   array (
     'index' =>
     array (
-      '用户标签' => 'action=usertag',
+      '사용자 테그' => 'action=usertag',
     ),
     'text' =>
     array (
-      0 => '用户标签',
+      0 => '사용자 테그',
     ),
   ),
   67 =>
   array (
     'index' =>
     array (
-      '禁止用户' => 'action=members&operation=ban',
+      '정지사용자' => 'action=members&operation=ban',
     ),
     'text' =>
     array (
-      0 => '禁止用户',
+      0 => '정지사용자',
     ),
   ),
   68 =>
   array (
     'index' =>
     array (
-      '禁止 IP' => 'action=members&operation=ipban',
+      '정지 IP' => 'action=members&operation=ipban',
     ),
     'text' =>
     array (
-      0 => '禁止 IP',
+      0 => '정지 IP',
     ),
   ),
   69 =>
@@ -784,55 +784,55 @@ $lang = array (
   array (
     'index' =>
     array (
-      '审核新用户' => 'action=moderate&operation=members',
+      '신가입 사용자 심사' => 'action=moderate&operation=members',
     ),
     'text' =>
     array (
-      0 => '审核新用户',
+      0 => '신가입 사용자 심사',
     ),
   ),
   71 =>
   array (
     'index' =>
     array (
-      '管理组' => 'action=admingroup',
+      '관리그룹' => 'action=admingroup',
     ),
     'text' =>
     array (
-      0 => '管理组',
+      0 => '관리그룹',
     ),
   ),
   72 =>
   array (
     'index' =>
     array (
-      '用户组' => 'action=usergroups',
+      '사용자그룹' => 'action=usergroups',
     ),
     'text' =>
     array (
-      0 => '用户组',
+      0 => '사용자그룹',
     ),
   ),
   73 =>
   array (
     'index' =>
     array (
-      '推荐关注' => 'action=specialuser&operation=follow',
+      '추천관심' => 'action=specialuser&operation=follow',
     ),
     'text' =>
     array (
-      0 => '推荐关注',
+      0 => '추천관심',
     ),
   ),
   74 =>
   array (
     'index' =>
     array (
-      '推荐好友' => 'action=specialuser&operation=defaultuser',
+      '친구추천' => 'action=specialuser&operation=defaultuser',
     ),
     'text' =>
     array (
-      0 => '推荐好友',
+      0 => '친구추천',
     ),
   ),
   75 =>
@@ -850,11 +850,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      '认证设置' => 'action=verify',
+      '인증설정' => 'action=verify',
     ),
     'text' =>
     array (
-      0 => '认证设置',
+      0 => '인증설정',
     ),
   ),
   77 =>
@@ -894,11 +894,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      '文章管理' => 'action=article',
+      '문장관리' => 'action=article',
     ),
     'text' =>
     array (
-      0 => '文章管理',
+      0 => '문장관리',
     ),
   ),
   81 =>
@@ -916,22 +916,22 @@ $lang = array (
   array (
     'index' =>
     array (
-      '页面管理' => 'action=diytemplate',
+      '페이지관리' => 'action=diytemplate',
     ),
     'text' =>
     array (
-      0 => '页面管理',
+      0 => '페이지관리',
     ),
   ),
   83 =>
   array (
     'index' =>
     array (
-      '模块管理' => 'action=block',
+      '모듈관리' => 'action=block',
     ),
     'text' =>
     array (
-      0 => '模块管理',
+      0 => '모듈관리',
     ),
   ),
   84 =>
@@ -960,198 +960,198 @@ $lang = array (
   array (
     'index' =>
     array (
-      '权限列表' => 'action=portalpermission',
+      '권한리스트' => 'action=portalpermission',
     ),
     'text' =>
     array (
-      0 => '权限列表',
+      0 => '권한리스트',
     ),
   ),
   87 =>
   array (
     'index' =>
     array (
-      '日志分类' => 'action=blogcategory',
+      '일지분류' => 'action=blogcategory',
     ),
     'text' =>
     array (
-      0 => '日志分类',
+      0 => '일지분류',
     ),
   ),
   88 =>
   array (
     'index' =>
     array (
-      '相册分类' => 'action=albumcategory',
+      '앨범분류' => 'action=albumcategory',
     ),
     'text' =>
     array (
-      0 => '相册分类',
+      0 => '앨범분류',
     ),
   ),
   89 =>
   array (
     'index' =>
     array (
-      '版块管理' => 'action=forums',
+      '포럼판관리' => 'action=forums',
     ),
     'text' =>
     array (
-      0 => '版块管理',
+      0 => '포럼판관리',
     ),
   ),
   90 =>
   array (
     'index' =>
     array (
-      '版块合并' => 'action=forums&operation=merge',
+      '포럼판합병' => 'action=forums&operation=merge',
     ),
     'text' =>
     array (
-      0 => '版块合并',
+      0 => '포럼판합병',
     ),
   ),
   91 =>
   array (
     'index' =>
     array (
-      '分类信息' => 'action=threadtypes',
+      '분류정보' => 'action=threadtypes',
     ),
     'text' =>
     array (
-      0 => '分类信息',
+      0 => '분류정보',
     ),
   ),
   92 =>
   array (
     'index' =>
     array (
-      '群组设置' => 'action=group&operation=setting',
+      '그룹설정' => 'action=group&operation=setting',
     ),
     'text' =>
     array (
-      0 => '群组设置',
+      0 => '그룹설정',
     ),
   ),
   93 =>
   array (
     'index' =>
     array (
-      '群组分类' => 'action=group&operation=type',
+      '그룹분류' => 'action=group&operation=type',
     ),
     'text' =>
     array (
-      0 => '群组分类',
+      0 => '그룹분류',
     ),
   ),
   94 =>
   array (
     'index' =>
     array (
-      '群组管理' => 'action=group&operation=manage',
+      '그룹관리' => 'action=group&operation=manage',
     ),
     'text' =>
     array (
-      0 => '群组管理',
+      0 => '그룹관리',
     ),
   ),
   95 =>
   array (
     'index' =>
     array (
-      '群主权限' => 'action=group&operation=userperm',
+      '군주권한' => 'action=group&operation=userperm',
     ),
     'text' =>
     array (
-      0 => '群主权限',
+      0 => '군주권한',
     ),
   ),
   96 =>
   array (
     'index' =>
     array (
-      '群组等级' => 'action=group&operation=level',
+      '그룹등급' => 'action=group&operation=level',
     ),
     'text' =>
     array (
-      0 => '群组等级',
+      0 => '그룹등급',
     ),
   ),
   97 =>
   array (
     'index' =>
     array (
-      '审核群组' => 'action=group&operation=mod',
+      '그룹심사' => 'action=group&operation=mod',
     ),
     'text' =>
     array (
-      0 => '审核群组',
+      0 => '그룹심사',
     ),
   ),
   98 =>
   array (
     'index' =>
     array (
-      '站点公告' => 'action=announce',
+      '사이트공고' => 'action=announce',
     ),
     'text' =>
     array (
-      0 => '站点公告',
+      0 => '사이트공고',
     ),
   ),
   99 =>
   array (
     'index' =>
     array (
-      '站点广告' => 'action=adv',
+      '사이트광고' => 'action=adv',
     ),
     'text' =>
     array (
-      0 => '站点广告',
+      0 => '사이트광고',
     ),
   ),
   100 =>
   array (
     'index' =>
     array (
-      '站点任务' => 'action=tasks',
+      '사이트미션' => 'action=tasks',
     ),
     'text' =>
     array (
-      0 => '站点任务',
+      0 => '사이트미션',
     ),
   ),
   101 =>
   array (
     'index' =>
     array (
-      '道具中心' => 'action=magics',
+      '아이템센터' => 'action=magics',
     ),
     'text' =>
     array (
-      0 => '道具中心',
+      0 => '아이템센터',
     ),
   ),
   102 =>
   array (
     'index' =>
     array (
-      '勋章中心' => 'action=medals',
+      '훈장센터' => 'action=medals',
     ),
     'text' =>
     array (
-      0 => '勋章中心',
+      0 => '훈장센터',
     ),
   ),
   103 =>
   array (
     'index' =>
     array (
-      '站点帮助' => 'action=faq',
+      '사이트도움' => 'action=faq',
     ),
     'text' =>
     array (
-      0 => '站点帮助',
+      0 => '사이트도움',
     ),
   ),
   104 =>
@@ -1180,33 +1180,33 @@ $lang = array (
   array (
     'index' =>
     array (
-      '站长推荐' => 'action=misc&operation=focus',
+      '관리자추천' => 'action=misc&operation=focus',
     ),
     'text' =>
     array (
-      0 => '站长推荐',
+      0 => '관리자추천',
     ),
   ),
   107 =>
   array (
     'index' =>
     array (
-      '关联链接' => 'action=misc&operation=relatedlink',
+      '관련링크' => 'action=misc&operation=relatedlink',
     ),
     'text' =>
     array (
-      0 => '关联链接',
+      0 => '관련링크',
     ),
   ),
   108 =>
   array (
     'index' =>
     array (
-      '充值卡密' => 'action=card',
+      '충전카드비번' => 'action=card',
     ),
     'text' =>
     array (
-      0 => '充值卡密',
+      0 => '충전카드비번',
     ),
   ),
   109 =>
@@ -1367,22 +1367,22 @@ $lang = array (
   array (
     'index' =>
     array (
-      '更新统计' => 'action=counter',
+      '업데이트통계' => 'action=counter',
     ),
     'text' =>
     array (
-      0 => '更新统计',
+      0 => '업데이트통계',
     ),
   ),
   124 =>
   array (
     'index' =>
     array (
-      '运行记录' => 'action=logs',
+      '운행기록' => 'action=logs',
     ),
     'text' =>
     array (
-      0 => '运行记录',
+      0 => '운행기록',
     ),
   ),
   125 =>
@@ -1400,22 +1400,22 @@ $lang = array (
   array (
     'index' =>
     array (
-      '文件权限检查' => 'action=tools&operation=fileperms',
+      '파일권한검사' => 'action=tools&operation=fileperms',
     ),
     'text' =>
     array (
-      0 => '文件权限检查',
+      0 => '파일권한검사',
     ),
   ),
   127 =>
   array (
     'index' =>
     array (
-      '文件校验' => 'action=checktools&operation=filecheck',
+      '파일체크' => 'action=checktools&operation=filecheck',
     ),
     'text' =>
     array (
-      0 => '文件校验',
+      0 => '파일체크',
     ),
   ),
   128 =>
@@ -1433,55 +1433,55 @@ $lang = array (
   array (
     'index' =>
     array (
-      '后台管理团队' => 'action=founder&operation=perm',
+      '后台관리팀' => 'action=founder&operation=perm',
     ),
     'text' =>
     array (
-      0 => '后台管理团队',
+      0 => '后台관리팀',
     ),
   ),
   130 =>
   array (
     'index' =>
     array (
-      '邮件设置' => 'action=setting&operation=mail',
+      '메일설정' => 'action=setting&operation=mail',
     ),
     'text' =>
     array (
-      0 => '邮件设置',
+      0 => '메일설정',
     ),
   ),
   131 =>
   array (
     'index' =>
     array (
-      '安全中心' => 'action=patch',
+      '보안센터' => 'action=patch',
     ),
     'text' =>
     array (
-      0 => '安全中心',
+      0 => '보안센터',
     ),
   ),
   132 =>
   array (
     'index' =>
     array (
-      'UCenter 设置' => 'action=setting&operation=uc',
+      'UCenter 설정' => 'action=setting&operation=uc',
     ),
     'text' =>
     array (
-      0 => 'UCenter 设置',
+      0 => 'UCenter 설정',
     ),
   ),
   133 =>
   array (
     'index' =>
     array (
-      '数据库' => 'action=db&operation=export',
+      '데이터뱅크' => 'action=db&operation=export',
     ),
     'text' =>
     array (
-      0 => '数据库',
+      0 => '데이터뱅크',
     ),
   ),
   134 =>
@@ -1499,47 +1499,47 @@ $lang = array (
   array (
     'index' =>
     array (
-      '帖子分表' => 'action=postsplit&operation=manage',
+      '글 분류' => 'action=postsplit&operation=manage',
     ),
     'text' =>
     array (
-      0 => '帖子分表',
+      0 => '글 분류',
     ),
   ),
   136 =>
   array (
     'index' =>
     array (
-      '主题分表' => 'action=threadsplit&operation=manage',
+      '테마분류' => 'action=threadsplit&operation=manage',
     ),
     'text' =>
     array (
-      0 => '主题分表',
+      0 => '테마분류',
     ),
   ),
   137 =>
   array (
     'index' =>
     array (
-      '在线升级' => 'action=upgrade',
+      '온라인업그레이드' => 'action=upgrade',
     ),
     'text' =>
     array (
-      0 => '在线升级',
+      0 => '온라인업그레이드',
     ),
   ),
   138 =>
   array (
     'index' =>
     array (
-      '管理组' => 'action=admingroup',
-      '主题管理权限' => 'action=admingroup&operation=edit&anchor=threadperm',
+      '관리그룹' => 'action=admingroup',
+      '테마관리권한' => 'action=admingroup&operation=edit&anchor=threadperm',
     ),
     'text' =>
     array (
-      0 => '管理组 &raquo; 主题管理权限',
+      0 => '관리그룹 &raquo; 테마관리권한',
       1 => 'admingroup_edit_threadperm',
-      2 => '主题管理权限',
+      2 => '테마관리권한',
       3 => 'admingroup_edit_stick_thread',
       4 => '允许置顶主题',
       5 => '设置是否允许置顶管理范围内主题的级别。如果打开全局置顶的功能，置顶 III 将全站置顶，置顶 II 将在当前分类置顶',
@@ -1553,10 +1553,10 @@ $lang = array (
       13 => '允许高亮主题',
       14 => '设置是否允许高亮管理范围内的主题',
       15 => 'admingroup_edit_recommend_thread',
-      16 => '允许推荐主题',
-      17 => '设置是否允许推荐管理范围内的主题 (要在相应版块的扩展设置里开启推荐主题功能)',
+      16 => '테마추천허용',
+      17 => '추천관리범위내 设置是否允许推荐管理范围内的主题 (要在相应版块的扩展设置里开启推荐主题功能)',
       18 => 'admingroup_edit_stamp_thread',
-      19 => '允许添加主题图章',
+      19 => '테마도장추가허용',
       20 => '设置是否允许给主题在帖子内容页添加图章',
       21 => 'admingroup_edit_stamp_list',
       22 => '允许添加主题图标',
@@ -1606,26 +1606,26 @@ $lang = array (
   array (
     'index' =>
     array (
-      '管理组' => 'action=admingroup',
-      '帖子管理权限' => 'action=admingroup&operation=edit&anchor=postperm',
+      '관리그룹' => 'action=admingroup',
+      '글관리권한' => 'action=admingroup&operation=edit&anchor=postperm',
     ),
     'text' =>
     array (
-      0 => '管理组 &raquo; 帖子管理权限',
+      0 => '관리그룹 &raquo; 글관리권한',
       1 => 'admingroup_edit_postperm',
-      2 => '帖子管理权限',
+      2 => '글관리권한',
       3 => 'admingroup_edit_edit_post',
-      4 => '允许编辑帖子',
-      5 => '设置是否允许编辑管理范围内的帖子',
+      4 => '글편급허용',
+      5 => '편집관리 허용범위내 글 여부 설정',
       6 => 'admingroup_edit_warn_post',
-      7 => '允许警告帖子',
-      8 => '设置是否允许警告管理范围内的帖子',
+      7 => '경고글 허용',
+      8 => '경고관리 허용범위내 글 여부 설정',
       9 => 'admingroup_edit_ban_post',
       10 => '允许屏蔽帖子',
       11 => '设置是否允许屏蔽管理范围内的帖子',
       12 => 'admingroup_edit_del_post',
-      13 => '允许删除帖子',
-      14 => '设置是否允许删除管理范围内的帖子',
+      13 => '글 삭제 허용',
+      14 => '삭제관리 허용범위내 글 여부 설정',
       15 => 'admingroup_edit_stick_post',
       16 => '允许置顶回帖',
       17 => '设置是否允许置顶管理范围内的回帖',
@@ -1638,19 +1638,19 @@ $lang = array (
   array (
     'index' =>
     array (
-      '管理组' => 'action=admingroup',
-      '管理面板权限' => 'action=admingroup&operation=edit&anchor=modcpperm',
+      '관리그룹' => 'action=admingroup',
+      '관리판권한' => 'action=admingroup&operation=edit&anchor=modcpperm',
     ),
     'text' =>
     array (
-      0 => '管理组 &raquo; 管理面板权限',
+      0 => '관리그룹 &raquo; 관리판권한',
       1 => 'admingroup_edit_modcpperm',
-      2 => '管理面板权限',
+      2 => '관리판권한',
       3 => 'admingroup_edit_mod_post',
-      4 => '允许审核帖子',
-      5 => '设置是否允许审核用户发表的帖子，只在站点设置需要审核时有效',
+      4 => '글 심사 허용',
+      5 => '사용자 발표 글에대해 심사 허용여부 설정,사이트에서만 심사 필요를 설정시에만 유효',
       6 => 'admingroup_edit_mod_user',
-      7 => '允许审核用户',
+      7 => '사용자심사허용',
       8 => '设置是否允许审核新注册用户，只在站点设置需要人工审核新用户时有效',
       9 => 'admingroup_edit_ban_user',
       10 => '允许禁止用户发言',
@@ -6378,11 +6378,11 @@ $lang = array (
     ),
     'text' =>
     array (
-      0 => '用户组 &raquo; 门户相关',
+      0 => '사용자 그룹 &raquo; 포털유관',
       1 => 'usergroups_edit_portal',
-      2 => '门户相关',
+      2 => '포털유관',
       3 => 'usergroups_edit_portal_allow_comment_article',
-      4 => '文章评论字数',
+      4 => '문서평론 글수',
       5 => '设置此用户组发表文章评论字数限制，设置为0将禁止此用户组发表评论',
       6 => 'usergroups_edit_portal_allow_post_article',
       7 => '发布文章',
@@ -6401,15 +6401,15 @@ $lang = array (
     ),
     'text' =>
     array (
-      0 => '用户标签',
+      0 => '사용자 태그',
       1 => 'usertag_add_tips',
       2 => '可以给线下活动的用户批量贴标签当只填写了标签，用户列表为空时，是批量添加用户标签如果标签和用户列表都有输入，说明是给指定用户批量贴标签',
       3 => 'usertag_add_tags',
-      4 => '标签',
-      5 => '可以输入多个标签，多个标签可以用空格、逗号 分隔',
+      4 => '태그',
+      5 => '여러개의 태그를 입력할수 있습니다. 스페이스, ",", ";"로 띄워 쓰세요.',
       6 => 'usertag_add_usernames',
-      7 => '用户列表',
-      8 => '可以输入多个用户，每行输入一个用户名',
+      7 => '사용자 리스트',
+      8 => '여러개의 사용자명을 입력할수 있습니다. 매행 한명의 사용자명 입력.',
     ),
   ),
 );

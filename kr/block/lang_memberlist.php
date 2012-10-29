@@ -9,7 +9,7 @@
 
 $lang = array
 (
-	'memberlist_uids'		=> 'User ID',//'用户UID',
+	'memberlist_uids'		=> '사용자 ID',//'用户UID',
 	'memberlist_uids_comment'	=> 'Speicfic User UID, use "," to seperate UIDs',//'指定用户UID，多个UID之间用 ,分割',
 	'memberlist_special'		=> 'Special User',//'特殊会员',
 	'memberlist_special_nolimit'	=> 'Unlimited',//'不限',

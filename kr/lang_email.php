@@ -33,248 +33,237 @@ $lang = array
 <strong>비밀번호 재설정 지침</strong><br />
 ----------------------------------------------------------------------</p>
 </p>
+
 3일 이내에 아래의 링크를 클릭하여 비밀번호를 변경하시기 바랍니다. <br />
 
 <a href="{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}" target="_blank">{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}</a>
 <br />
+
 (정상적으로 작동하지 않으면 위 링크를 주소창에 복사하여 실행하셔도 됩니다.)</p>
 
-<p>3일 이내에 변경하지 않으면 본 비밀번호 재설정 기능은 무효화됩니다.</p>
+<p>위 링크페이지에서 새 비밀번호를 입력 제출하신후 새 비밀번호로 포럼 사이트 등록 가능합니다. 사용자 설정 제어판 페이지에서 수시로 비밀번호 변경 가능합니다.</p>
 
-<p>신청인의  IP  {clientip}</p>
+<p>신청인 IP : {clientip}</p>
 
 
-<p>
-감사합니다<br />
-</p>
-<p>{bbname} 관리자.
-{siteurl}</p>',
+<p>감사합니다<br /></p>
+<p>{bbname} 관리자. {siteurl}</p>',
 
 
 	'email_verify_subject'	=> '이메일 주소 검증',
 	'email_verify_message'	=> '
-<p>{username}님,<br />
-{bbname}에서 보내는 메일입니다。</p>
+<br />
+<p>{username}님,<br /> {bbname}에서 보내는 메일입니다.</p>
 
-<p>{bbname}에  이메일로 사용자 등록을 해두지 않으면 스팸이나 잘못된 주소인지 관리자가 알기 어렵습니다。</p>
+<p>{bbname}에서 발송된 메일입니다. <br /> 회원등록 하셨거나 메일정보수정으로 자동 보내드리는 확인용 메일입니다. <br />
+{bbname}방문하신적 없으시다면 본 메일을 무시하고 삭제 해주시면 됩니다.<br /> 별도로 구독취소등 조작 하지 않으셔도 발송 정지 됩니다.</p>
 <br />
 ----------------------------------------------------------------------<br />
 <strong>계정 활성화 지침</strong><br />
 ----------------------------------------------------------------------<br />
 
-<p>활성화하려면 아래의 링크를 클릭하면 됩니다：<br />
+<p>{bbname}에 새로 회원등록 하셨거나 메일정보수정하셨다면 메일 유효성 검증을 하셔야 스팸방지 및 이메일 주소 도용방지가 됩니다.<br />
+
+<p>다음 링크를 클릭하시면 계정활성화가 됩니다: <br />
 
 <a href="{url}" target="_blank">{url}</a>
 <br />
 (만일 정상 작동이 되지 않으면 주소창에 복사하여 실행하셔도 됩니다.)</p>
 
 
-<p>
-감사합니다.<br />
+<p>감사합니다.<br /> {bbname} 관리자.<br /> {siteurl}</p>',
 
-{bbname} 관리자.<br />
-{siteurl}</p>',
-
-	'email_register_subject' =>	'Forum registration',//'论坛注册地址',
+	'email_register_subject' =>	'포럼등록 주소',//'论坛注册地址',
 'email_register_message' =>	'<br />
-<p>This letter is sent from {bbname}.</p>
+<p>본 메일은 {bbname}에서 보내온 메일입니다.</p>
 
-<p>You have received this message due to somebody (may be you) registered this E-Mail address at {bbname}.
-If you do not want to access to {bbname}, or you did not registered at this site,
-please ignore this message.
-
-You do not need to unsubscribe or do any other further action.</p>
+<p>본 메일은 귀하께서 (may be you) 에서 신 회원가입 신청,혹은 사용자정보 수정시 이 메일주소를 사용하셨기때문에 자동 발송 된겁니다. {bbname}를 방문한적이 없으시거나
+위와같은 작업을 하시지 않았을경우 본메일을 무시하시면 됩니다.구독취소나 기타 다른 조작 하실필요 없습니다.
+</p>
 <br />
 ----------------------------------------------------------------------<br />
-<strong>New user registration instructions</strong><br />
+<strong>신 회원등록 설명</strong><br />
 ----------------------------------------------------------------------<br />
 <br />
-<p>If you are a {bbname} new user, or have modified your registered before Email address,
-it is required to verify your mailbox address in order to avoid junk or malicious e-mail.</p>
+<p>귀하는 {bbname}의 신 회원일경우 혹은 회원등록용 메일주소 변경시 이 메일주소를 사용하셨다면 메일도용 및 스팸메일 방지 차원에서 메일주소 유효성을 검증해야 합니다.</p>
 
-<p>For register just click on the link below. The following link is valid for 3 days. After expired you can request to re-send the activation email to a new e-mail address:<br />
+<p>3일내 다음 링크를 클릭하시면 바로 회원등록이 가능합니다. 3일 초과 되였을시 링크주소 재신청 하셔서 메일로 받으시면 됩니다:<br />
 
 <a href="{url}" target="_blank">{url}</a>
 <br />
-(If the above link is not working, copy the link URL and paste it into your browser address bar manually)</p>
+(만일 정상 작동이 되지 않으면 주소창에 복사하여 실행하셔도 됩니다.)</p>
 
-<p>Thank you for your visit, we are glad to see you at our site!</p>
+<p>방문 감사합니다. 즐거운 사용 되세요!</p>
 
 
 <p>
-Sincerely yours,<br />
-
-{bbname} management team.<br />
-{siteurl}</p>',
+감사합니다,<br /> {bbname} 관리자 팀<br /> {siteurl}</p>',
 
 
 	'add_member_subject'	=> '회원가입을 추가합니다',
 	'add_member_message'	=> '
-{newusername},
-This letter was sent from the {bbname}.<br />
+{newusername}님, {bbname}에서 보내는 메일입니다.<br />
 <br />
-I am {adminusername}, one of the managers at {bbname}.<br />
-You have received this message because you are just has been added as a member<br />
-at our forum, which is our current Email address you have registered.<br />
-<br />
+저는 {adminusername} 입니다, {bbname}의 관리자 일원입니다.<br />
+귀하께서는 이미 {bbname}의 정식 회원으로 등록 되였습니다.<br />
+본 메일은 회원등록용 메일입니다.<br />
 ----------------------------------------------------------------------<br />
-Important!<br />
+중요!<br />
 ----------------------------------------------------------------------<br />
 <br />
-If you are not interested in our Forum or do not intend to become a member, please ignore this message.<br />
+저희 {bbname}에 관심이 없으시거나 회원등록하실 의향 없으시다면 본 메일을 무시하고 삭제 하시면 됩니다.<br />
 <br />
 ----------------------------------------------------------------------<br />
-Your Account Information<br />
+계정 정보<br />
 ----------------------------------------------------------------------<br />
 <br />
-Forum Name: {bbname}<br />
-Forum URL: {siteurl}<br />
+포럼 명칭: {bbname}<br />
+포럼 주소: {siteurl}<br />
 <br />
-User Name: {newusername}<br />
-Password: {newpassword}<br />
+사용자 명: {newusername}<br />
+비밀번호: {newpassword}<br />
 <br />
-From now, you can use your account to log in to our forum, I wish you a pleasant to use!<br />
+지금부터 위 사용자 명과 비밀번호로 {bbname} 등록 가능합니다. 즐거운 사용 되세요! <br />
 <br />
 <br />
 <br />
-Sincerely yours,<br />
+감사합니다. <br />
 <br />
-{bbname} management team.<br />
+{bbname}관리자 팀.<br />
 {siteurl}',
 
 
 	'birthday_subject'	=> '축 생일',
 	'birthday_message'	=> '<br />
 {username},<br />
-This letter was sent from the {bbname}.<br />
+{bbname}에서 보내온 메일입니다.<br />
 <br />
-You have received this message, because of this email address is registered in our forum {bbname}.<br />
-In accordance with the information in your profile, today is your Birthday.<br />
-Forum management team have pleased to congratulate you with your Birthday,
-and sincerely wish you a happy birthday!<br />
+{bbname}에서 본 메일주소를 사용자 메일로 등록하셨습니다.<br />
+등록정보에 의하면 오늘은 귀하의 생일입니다.<br />
+{bbname}의 일체 관리자들께서 귀하님께 생일축하 드립니다!<br />
+행복하시고 즐거운 {bbname} 사용시간 되세요!<br />
 <br />
-If you are not a member of our forum, or have no birthday today, may be a mistake occure.<br />
-Check for your email address and birthday in your profile.<br />
-This message will not be sent to this e-mail address, please ignore this  message.<br />
+{bbname}의 회원이 아니시거나 오늘은 귀하의 생일이 아니라면 <br />
+죄송합니다만 다른 분들께서 귀하의 메일주소를 람용하고 생일을 입력하신것 같습니다.<br />
+본 메일은 중복발송 안되오니 무시하시면 됩니다.<br />
 <br />
 <br />
-Sincerely yours,
+감사합니다,
 <br />
-{bbname} management team.<br />
+{bbname} 관리자 팀.<br />
 {siteurl}',
 
-	'email_to_friend_subject'	=> '{$_G[member][username]} recommends you to visit: $thread[subject]',//'{$_G[member][username]} 推荐给您: $thread[subject]',
+	'email_to_friend_subject'	=> '{$_G[member][username]} 추천드립니다: $thread[subject]',//'{$_G[member][username]} 推荐给您: $thread[subject]',
 	'email_to_friend_message'	=> '<br />
-This letter was sent to you by {$_G[member][username]} from the site {$_G[setting][bbname]}.<br />
+본 메일은 {$_G[member][username]}의 {$_G[setting][bbname]}에서 보내온 메일입니다.<br />
 <br />
-You have received this message because of {$_G[member][username]}<br />
-from the site {$_G[setting][bbname]} clicked the "Email to Friend" link<br />
-for recommend to you the following.<br />
-If you are not interested in this, please ignore this message.<br />
-You do not need to unsubscribe or other further action.<br />
+본 메일을 받게된 이유는 {$_G[member][username]}에서<br />
+{$_G[setting][bbname]}의 "친구추천"기능을 통하여<br />
+귀하께 다음과 같은 추천내용을 보내 드렸습니다. <br />
+관심없으시거나 귀찮으시면 무시하고 삭제 하시면됩니다.<br />
+별도의 구독취소 등 조작 하지 않으셔도 됩니다.<br />
+
 <br />
 ----------------------------------------------------------------------<br />
-Start of original message<br />
+메일 본문 시작<br />
 ----------------------------------------------------------------------<br />
 <br />
 $message<br />
 <br />
 ----------------------------------------------------------------------<br />
-End of the original message<br />
+메일 본문 끝<br />
 ----------------------------------------------------------------------<br />
 <br />
-Please note that this letter was initiated by the forum user by "Email to a Friend" link!<br />
-Forum management team is not responsible for such messages.<br />
+본 메일은 사용자께서 "친구에게 추천"하기를 사용하여 발송된 메일이며 저희 사이트 공식 메일이 아닙니다.<br />
+관리자는 이런 유형의 메일에 대해 책임지지 않습니다.<br />
 <br />
 <br />
-Welcome to {$_G[setting][bbname]}<br />
+{$_G[setting][bbname]} 방문을 환영합니다.<br />
 $_G[siteurl]',
 
-	'email_to_invite_subject'	=> 'Your friend {$_G[member][username]} invites you to register at {$_G[setting][bbname]}',//'您的朋友 {$_G[member][username]} 发送 {$_G[setting][bbname]} 论坛注册邀请码给您',
+	'email_to_invite_subject'	=> '귀하의 친구 {$_G[member][username]} 님께서 {$_G[setting][bbname]} 포럼등록 초대코드를 보내 주셨습니다.',//'您的朋友 {$_G[member][username]} 发送 {$_G[setting][bbname]} 论坛注册邀请码给您',
 	'email_to_invite_message'	=> '<br />
 $sendtoname,<br />
-This letter was sent to you by {$_G[member][username]} from {$_G[setting][bbname]}.<br />
+본 메일은 {$_G[member][username]} 의 {$_G[setting][bbname]} 님이 발송 하신 겁니다.<br />
 <br />
-You have received this message because the user {$_G[member][username]} from {bbname}<br />
-sent you an invitation code, that enable you to register at our form,<br />
+본 메일을 받게되신 이유는 {$_G[member][username]} 님이 {bbname}의 "초대장코드를 친구에게 보내기"<br />
+공능을 사용하여 귀하께 다음과 같은 추천을 하였기 때문입니다.,<br />
 and said additionally the following.<br />
-<br />
-!!! If you are not interested in this, please ignore this message.<br />
-You do not need to unsubscribe or other further action.<br />
-<br />
+
 ----------------------------------------------------------------------<br />
-Start of original message<br />
+메일 본문 시작<br />
 ----------------------------------------------------------------------<br />
 <br />
 $message<br />
 <br />
 ----------------------------------------------------------------------<br />
-End of the original message<br />
+메일 본문 끝.<br />
 ----------------------------------------------------------------------<br />
 <br />
-Please note that this letter was initiated by the user.<br />
-Forum management team is not responsible for such messages.<br />
+본 메일은 사용자께서 "친구에게 초대장코드를 발송하기"를 사용했을 경우에만 발송되는 메일이라 저희 사이트 공식 메일이 아닙니다.<br />
+관리자는 이런 유형의 메일에 대해서 책임지지 않습니다.<br />
 <br />
-Welcome to {$_G[setting][bbname]}
+{$_G[setting][bbname]}방문 환영합니다.<br />
 $_G[siteurl]',
 
 
-	'moderate_member_subject'	=> 'Audit results to inform the user',//'用户审核结果通知',
+	'moderate_member_subject'	=> '사용자 심사결과 알림.',//'用户审核结果通知',
 	'moderate_member_message'	=> '<br />
 <p>{username},
-This letter was sent from the {bbname}.</p>
+본 메일은 {bbname}에서 발송 된겁니다.</p>
 
-<p>You have received this message, because of every new user registration
-at our forum require to verify registered email address by site administrator.
-After the manual verification you will be notified about the audition results.</p>
+<p>본메일을 받으시게 된 이유는 {bbname}에서 신 회원등록시 이 메일주소를 사용하셨고
+관리자가 신회원 등록에 대해 인공 인증절차를 설정했기 때문입니다.
+요청제출에 대한 심사 결과는 본 메일로 통보됩니다.</p>
 <br />
 ----------------------------------------------------------------------<br />
-<strong>Registration info and audit results</strong><br />
+<strong>등록정보와 심사결과</strong><br />
 ----------------------------------------------------------------------<br />
 <br />
-User Name: {username}<br />
-Registration time: {regdate}<br />
-Submission time: {submitdate}<br />
-Submit number: {submittimes}<br />
-Registration reason: {message}<br />
+사용자: {username}<br />
+등록시간: {regdate}<br />
+제출시간: {submitdate}<br />
+제출회수: {submittimes}<br />
+등록원인: {message}<br />
 <br />
-Audit Results: {modresult}<br />
-Audit time: {moddate}<br />
-Audit Manager: {adminusername}<br />
-Administrator Message: {remark}<br />
+심사결과: {modresult}<br />
+심사시간: {moddate}<br />
+심사 관리자: {adminusername}<br />
+관리자 메모: {remark}<br />
 <br />
 ----------------------------------------------------------------------<br />
-<strong>Audit results explanation</strong><br />
+<strong>심사결과 설명</strong><br />
 ----------------------------------------------------------------------<br />
 
-<p>Approved: Your registration has been approved, you have become an official user of {bbname}.</p>
+<p>통과 됨: 성공적으로 등록되였습니다.{bbname}의 정식회원 되였음을 축하합니다.</p>
 
-<p>Rejected: Your registration information is incomplete, or does not meet some our requirements.
-You can send a message to administrator, <a href="home.php?mod=spacecp&ac=profile" target="_blank">complete your registration information</a>, and then submit again.</p>
+<p>거부 됨: 귀하의 등록 정보가 완정하지 않거나 등록규정요구에 맞지 않습니다. 관리자가 남긴 메모에 따라 <a href="home.php?mod=spacecp&ac=profile" target="_blank">등록정보 보충완성</a>하신후 다시 제출 하세요.</p>
 
-<p>Deleted: Your request for registration does not meet our requirements,
-or number of new registrations exceed our possibilities.
-Your request is completely rejected, your account removed from the database.
-It can not be used for log in or submitted for re-examine, please understand.</p>
+<p>삭제 됨:귀하의 등록은 저희들의 요구사항에 맞지않거나,
+신회원 등록 인수가 만원된이유로 요청실되 되였습니다,
+귀하의 계정은 이미 데이터베이스에서 삭제되였으며
+본 계정으로 등록 혹은 재 심사 제출을 할수 없습니다.
+죄송합니다.
+</p>
 <br />
 <br />
-Sincerely yours,<br />
+감사합니다,<br />
 <br />
-{bbname} management team.<br />
+{bbname}관리자.<br />
 {siteurl}',
 
-	'adv_expiration_subject' => 'Your site ad will be {day} days after the due, Please timely processing',//'您站点的广告将于 {day} 天后到期，请及时处理',
-	'adv_expiration_message' => 'The following ads on your site will be expired {day} days, please deal with:<br /><br />{advs}',//'您站点的以下广告将于 {day} 天后到期，请及时处理：<br /><br />{advs}',
+	'adv_expiration_subject' => '귀하의 사이트 광고는 {day} 까지 만기 되오니 처리 바랍니다.',//'您站点的广告将于 {day} 天后到期，请及时处理',
+	'adv_expiration_message' => '귀하의 다음 광고는 {day} 일 후 만기 되오니 처리 바랍니다.<br /><br />{advs}',//'您站点的以下广告将于 {day} 天后到期，请及时处理：<br /><br />{advs}',
 	'invite_payment_email_message'	=> '
-Thank you for using the {bbname}, ({siteurl}), Your order {orderid} has been paid completed, Order has been validated.<br />
+ {bbname}, ({siteurl}) 방문을 환영합니다, 귀하의 오더{orderid}는 이미 지불완료되였고 유효합니다.<br />
 <br />----------------------------------------------------------------------<br />
-Here is what you get the invitation code
+다음은 받으신 초대장코드 입니다!
 <br />----------------------------------------------------------------------<br />
 
 {codetext}
 
 <br />----------------------------------------------------------------------<br />
-Important!
+중요!
 <br />----------------------------------------------------------------------<br />',
 );
 

@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -22,5 +22,5 @@ $lang = array
 	'jack_succeed'		=> '아이템을 성공적으로 사용했습니다',
 	'jack_info_noperm'	=> '게시판 주제에서 이 아이템을 사용할수 없습니다.',
 
-	'jack_notification'	=> '{actor} used the &quot;{magicname}&quot; for the thread &quot;{subject}&quot;, <a href="forum.php?mod=viewthread&tid={tid}">Go to see it!</a>',//'你的主题 {subject} 被 {actor} 使用了{magicname}，<a href="forum.php?mod=viewthread&tid={tid}">快去看看吧！</a>',
+	'jack_notification'	=> '귀하의 주제 "{subject}"에 {actor}님이 "{magicname}" 아이템을 사용했습니다, <a href="forum.php?mod=viewthread&tid={tid}">보러가기!</a>',//'你的主题 {subject} 被 {actor} 使用了{magicname}，<a href="forum.php?mod=viewthread&tid={tid}">快去看看吧！</a>',
 );

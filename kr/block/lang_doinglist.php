@@ -9,7 +9,7 @@
 
 $lang = array
 (
-	'doinglist_uids'		=> 'User ID',//'用户UID',
+	'doinglist_uids'		=> '사용자UID',//'用户UID',
 	'doinglist_uids_comment'	=> 'Set the user you want to display, use "," to seperate UIDs',//'填入指定用户的ID(uid)，多个用户之间用逗号(,)分隔',
 	'doinglist_startrow'		=> 'Start Row',//'起始数据行数',
 	'doinglist_startrow_comment'	=> 'If you need to set start row, please enter a number, 0 is the first row',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',

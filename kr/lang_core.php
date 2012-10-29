@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -12,10 +12,10 @@ $lang = array
 (
 	'nextpage'	=> '다음',
 	'prevpage'	=> '이전',
-	'pageunit'		=> 'Pages',//'页',
-	'total'			=> 'Total',//'共',
+	'pageunit'		=> '페이지',//'页',
+	'total'			=> '총',//'共',
 	'10k'			=> '10K',//'万',
-	'pagejumptip'		=> 'Enter the page number and press Enter for quick jump',//'输入页码，按回车快速跳转',
+	'pagejumptip'		=> '페이지수를 입력하시고 앤트하시면 바로 이동됩니다.',//'输入页码，按回车快速跳转',
 	'date'	=> array(
 		'before'	=> '전',
 		'day'		=> '일',
@@ -131,7 +131,7 @@ $lang = array
 	'title_eccredit_trade'	=> '피드백',
 	'title_credit'		=> '포인트',
 	'title_friend_add'	=> '친구 추가',
-	'title_people_might_know'	=> 'May be known',//'可能认识的人',
+	'title_people_might_know'	=> '친구일수 있는 사람들',//'可能认识的人',
 	'title_friend_request'	=> '친구 요청',
 	'title_search_friend'	=> '친구 찾기',
 	'title_invite_friend'	=> '친구 초대',
@@ -178,7 +178,7 @@ $lang = array
 	'title_ranklist_group'	=> '모임 순위',
 	'title_ranklist_app'	=> '응용 프로그램 순위',
 	'title_ranklist_index'	=> '전체 순위',
-	'title_ranklist_rankname'	=> 'Rank',//'排行榜',
+	'title_ranklist_rankname'	=> '순위차트',//'排行榜',
 	'title_search'			=> '검색',
 	'title_topic_management'	=> '게시물 관리',
 	'title_portal_management'	=> '포털 관리',
@@ -205,31 +205,31 @@ $lang = array
 	'title_userapp_index_me'	=> '나의 응용 프로그램',
 	'title_userapp_manage'	=> '{userapp} 관리',
 
-	'title_collection'		=> 'Collection',//'淘帖',
-	'title_collection_create'	=> 'Create collection',//'创建淘专辑',
-	'title_collection_edit'		=> 'Edit collection',//'编辑淘专辑',
-	'title_collection_comment_list'	=> 'Comment list',//'评论列表',
-	'title_collection_followers_list'	=> 'Followers',//'订阅用户列表',
+	'title_collection'		=> '컬렉션',//'淘帖',
+	'title_collection_create'	=> '컬렉션 앨범 만들기',//'创建淘专辑',
+	'title_collection_edit'		=> '컬렉션 앨범 편집',//'编辑淘专辑',
+	'title_collection_comment_list'	=> '평론목록',//'评论列表',
+	'title_collection_followers_list'	=> '팔로우 리스트',//'订阅用户列表',
 
 	'faq'		=> '도움말',
 	'search'	=> '검색',
 	'page'		=> '{page}페이지',
 	
-	'close'				=> 'Close',//'关闭',
+	'close'				=> '닫기',//'关闭',
 
 //--------------------------------------------------------------------------
 // Added by Valery Votintsev
 
 //source/include/misc/misc_security.php
-	'attackevasive_1_subject'	=> 'Refresh frequency limit',//'刷新频率限制',
-	'attackevasive_1_message'	=> 'You visit the site too fast, less than two seconds! Please wait a little...',//'您访问网站的速度太快，不到两秒钟！请等一下...',
-	'attackevasive_2_subject'	=> 'Access throug proxy servers is restricted',//'通过代理服务器的访问是受到限制',
-	'attackevasive_2_message'	=> 'Access to the site through a proxy servers is restricted for mow. Please remove your proxy setting configuration, and access to the site directly.',//'通过代理服务器访问网站限制亩。请删除您的代理设置配置，并直接访问该网站。',
-	'attackevasive_4_subject'	=> 'Open the page reload',//'打开页面重载',
-	'attackevasive_4_message'	=> 'Welcome to the site, the page is re-loading, please wait ...',//'欢迎的网站，页面重新载入，请稍候...',
+	'attackevasive_1_subject'	=> '새로고침 빈도 제한',//'刷新频率限制',
+	'attackevasive_1_message'	=> '사이트 방문 속도가 너무 빠릅니다.2초 기다려 주세요.',//'您访问网站的速度太快，不到两秒钟！请等一下...',
+	'attackevasive_2_subject'	=> '프록시 서버로 방문은 제한되여 있습니다.',//'通过代理服务器的访问是受到限制',
+	'attackevasive_2_message'	=> '프록시 서버로 방문은 제한되여 있습니다. 프록시 설정을 삭제하시고 직접 방문하세요.',//'通过代理服务器访问网站限制亩。请删除您的代理设置配置，并直接访问该网站。',
+	'attackevasive_4_subject'	=> '페이지를 열어 재장전',//'打开页面重载',
+	'attackevasive_4_message'	=> '사이트 방문을 환영합니다.페이지가 다시 로드중이오니 잠시만 기다려 주세요 ...',//'欢迎的网站，页面重新载入，请稍候...',
 
 // Months Names
-	'month_name'	=> array('Month','January','February','March','April','May','June','July','August','September','October','November','December'),//array('月','一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'),
+	'month_name'	=> array('월','1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'),//array('月','一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'),
 
 );
 

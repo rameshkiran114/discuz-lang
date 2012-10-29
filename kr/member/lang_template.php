@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -14,11 +14,11 @@ $lang = array (
 	'login_guest'		=> '계정없으면?{$_G[setting][reglinkname]}',
 	'new_password'		=> '새비밀번호',
 	'new_password_confirm'	=> '확인',
-	'password_weak'			=> 'Password too weak, it must contain ',//'密码太弱，密码中必须包含',
-	'strongpw_1'			=> 'Digits',//'数字',
-	'strongpw_2'			=> 'Lowercase letters',//'小写字母',
-	'strongpw_3'			=> 'Capital letters',//'大写字母',
-	'strongpw_4'			=> 'Special symbols',//'特殊符号',
+	'password_weak'		=> '비밀번호가 약합니다. ',//'密码太弱，密码中必须包含',
+	'strongpw_1'		=> '수자,',//'数字',
+	'strongpw_2'		=> '소자모,',//'小写字母',
+	'strongpw_3'		=> '대자모,',//'大写字母',
+	'strongpw_4'		=> '특수기호,가 포함되야 합니다.',//'特殊符号',
 	'submit'		=> '등록',
 	'close'			=> '닫기',
 	'faq'			=> '도우미',
@@ -44,12 +44,12 @@ $lang = array (
 	'register_email_tips'		=> '정확한 메일주소를 입력해주세요.',
 	'register_message'		=> '실명과 전문의번호',
 	'register_message1'		=> '가입 결정할 때 중요하므로 정확하게 입력하여 주세요.',
-	'register_password_length_tips1'	=> 'The minimum length is ',//'最小长度为',
-	'register_password_length_tips2'	=> ' sharacters',//'个字符',
+	'register_password_length_tips1'	=> '최소 길이는',//'最小长度为',
+	'register_password_length_tips2'	=> '개 기호',//'个字符',
 	'register_password_tips'	=> '비밀번호를 입력해주세요',
 	'register_repassword_tips'	=> '다시 입력',
 	'register_username_tips'	=> '아이디는 3~15사이의 자모여야 합니다.',
-	'register_validate_email_tips'	=> 'Registration need to verify your mailbox, be sure to fill in correct E-Mail! Please check your email after submission.<br />You may need to wait a few minutes to receive e-mail inbox. If there is no new message, please check the Spam folder.',//'注册需要验证邮箱，请务必填写正确的邮箱，提交后请及时查收邮件。<br />您可能需要等待几分钟才能收到邮件，如果收件箱没有，请检查一下垃圾邮件箱。',
+	'register_validate_email_tips'	=> '등록시 메일주소는 검증받아야 함으로 정확히 입력하시고 완료후 메일 확인 부탁드립니다.<br /> 메일 수신에는 몇분정도 기다려야 될수도 있으며 스팸메일함에도 확인 부탁드립니다.',//'注册需要验证邮箱，请务必填写正确的邮箱，提交后请及时查收邮件。<br />您可能需要等待几分钟才能收到邮件，如果收件箱没有，请检查一下垃圾邮件箱。',
 	'rulemessage'			=> '회원가입약관',
 );
 

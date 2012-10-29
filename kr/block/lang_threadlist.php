@@ -9,7 +9,7 @@
 
 $lang = array
 (
-	'threadlist_fids'			=> 'Forums',//'所在版块',
+	'threadlist_fids'			=> '소재 포럼판',//'所在版块',
 	'threadlist_fids_comment'		=> 'Set the forums can be called, you can use CTRL to select forums',//'设置允许参与新帖调用的版块，可以按住 CTRL 多选，全选或全不选均为不做限制',
 	'threadlist_uids'			=> 'Author UID',//'楼主UID',
 	'threadlist_uids_comment'		=> 'Set the user you want to display, use "," to seperate UIDs',//'设置要楼主UID，多个UID请用半角逗号“,”隔开。',

@@ -19,6 +19,6 @@ $lang = array
 	'open_info_noperm'	=> '이 게시판의 글에서는 아이템을 사용할수 없습니다.',
 	'open_info_user_noperm'	=> '해당 하나 아이템을 사용할 수 없습니다',
 
-	'open_notification'	=> '게시물 {subject} 에 {actor}님이 {magicname}，<a href="forum.php?mod=viewthread&tid={tid}">에 아이템을 사용 했습니다.</a>',
+	'open_notification'	=> '귀하의 주제"{subject}"에 {actor}님이 "{magicname}" 아이템을 사용했습니다. <a href="forum.php?mod=viewthread&tid={tid}">보러가기!</a>',
 );
 

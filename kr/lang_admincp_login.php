@@ -27,13 +27,13 @@ $lang = array
 	'security_question_6'	=> '좋아하는 음식점',
 	'security_question_7'	=> '면허증 마지막 4자리',
 
-	'login_tips'		=> 'Discuz! used PHP and MySQL and other solutions for building the high quality community. It is amongst the preferred technology for the brand community site!',//'Discuz! 是一个采用 PHP 和 MySQL 等多种数据库构建的高效建站解决方案, 是众多社区网站首选技术品牌!',
+	'login_tips'		=> 'Discuz! 는 PHP + MYSQL + DB(다종) 구성의 고효율적인 사이트 구축 시스템으로 커뮤니티 사이트 제작에서의 우선 선택입니다. ',//'Discuz! 是一个采用 PHP 和 MySQL 等多种数据库构建的高效建站解决方案, 是众多社区网站首选技术品牌!',
 	'login_nosecques'	=> '개인 보안 로그인을 설정하십시오 관리 센터 보안 로그인 설정을 하시려면 <a href="forum.php?mod=memcp&action=profile&typeid=1" target="_blank">보안 설정</a> 을 클릭 하십시오',
 
 	'login_cplock'		=> '관리 센터에 로그인 하실수 없습니다! <br>비밀번호 가 틀려거나 아이디가 맞지 않습니다.<b> {ltime} </b>초 후에 다시 시도 하십시오',
 	'login_user_lock'	=> '비밀번호을 5번 이상 잘못 입력하셨습니다.15분간 로그인 하실수 없습니다.',
 	'login_cp_noaccess'	=> '<b>관리 센터가 오픈되어 있지 않습니다.</b><br><br>불법적인 로그인 작업을 시도하지 마십시오',
-	'noaccess'		=> '관리 권한이 없습니다 사이트 관리자에 문의 하십시오',
+	'noaccess'		=> '관리 권한이 없습니다. 사이트 관리자에 문의 하십시오',
 
 
 );
