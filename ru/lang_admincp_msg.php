@@ -224,6 +224,7 @@ $lang = array (
 
 	'setting_domain_repeat_error'	=> 'Повтор доменного имени в конфигурации! Измените',
 	'setting_domain_need_default_error'	=> 'Please set the default domain name',//'请设置默认域名',
+	'only_two_names_from_english_composition_and_figures'	=> 'Имя домена второго уровня может содержать только латинские буквы и цифры',//'抱歉，您设置的二级域名只能含有英文和数字',
 
 	'alipay_not_contract'		=> 'Пожалуйста, введите Alipay информацию о пользователе',
 	'alipay_succeed'		=> 'Alipay успешно установлен!',
@@ -396,7 +397,8 @@ $lang = array (
 	'plugins_import_version_invalid'	=> 'Версия плагина {cur_version} отличается от текущей версии ({set_version})! Вы можете установить плагин, но на свой страх и риск!',
 	'plugins_import_succeed'		=> 'Плагин успешно импортирован!<br />Перед использованием, см. инструкции по установке и описанию этого плагина',
 	'plugins_config_upgrade_confirm'	=> 'Вы уверены, что хотите обновить версию плагина {pluginname} {version} до версии {toversion}?',
-	'plugins_config_upgrade_missed'		=> 'Данный модуль не обновлен, пожалуйста, загрузите новую версию плагина, после завершения данной операции!',
+	'plugins_config_upgrade_missed'		=> 'Этот плагин был обновлен до последней версии</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">Перейти в Плагин-Центр</a><br /><br /><h4>',
+	'plugins_config_upgrade_new'		=> 'Этот плагин был обновлен до последней версии<br />Но в центре приложений есть ещё более новая версия {newver} этого плагина, хотите обновить?</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">Обновить плагин</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">Не обновлять</a><h4>',//'此插件已更新到最新版本<br />但是发现此插件在应用中心存在新版本 {newver}，是否需要升级？</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">升级此插件</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">暂不升级</a><h4>',
 	'plugins_upgrade_var_invalid'		=> 'Имя хука неправильное!',
 	'plugins_setting_succeed'		=> 'Настройки параметров плагина успешно обновлены',
 	'plugins_setting_module_nonexistence'	=> 'Указанный плагин модуля управления ({modfile}) не существует или в нем есть синтаксические ошибки, возможно плагин был загружен не полностью',
