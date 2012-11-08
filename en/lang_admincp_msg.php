@@ -224,6 +224,7 @@ $lang = array (
 
 	'setting_domain_repeat_error'		=> 'There are duplicate domain names in configuration, please return amended.',//'配置中存在重复的域名，请返回修改。',
 	'setting_domain_need_default_error'	=> 'Please set the default domain name',//'请设置默认域名',
+/*!*/  'only_two_names_from_english_composition_and_figures'	=> 'Sub-domain name can contain only English letters and digits!',//'抱歉，您设置的二级域名只能含有英文和数字',
 
 	'alipay_not_contract'		=> 'Please enter Alipay signed user information.',//'请输入支付宝签约用户信息。',
 	'alipay_succeed'		=> 'Alipay function successfully set.',//'支付宝功能成功设定。',
@@ -396,7 +397,8 @@ $lang = array (
 	'plugins_import_version_invalid'	=> 'This plug-in version ({set_version}) and current Discuz! version {cur_version} are incompatible, please return.',//'本插件适用于 Discuz! {cur_version} 与当前版本({set_version})不一致，请返回。',
 	'plugins_import_succeed'		=> 'Plug-in data imported successfully!<br />In order to properly use this plug-in, you may also need to upload or modify the appropriate file or template, please see the installation instructions for this plug-in',//'插件数据成功导入！<br />为了正常使用此插件，您可能还需要上传或修改相应的文件或模板，详情请查看本插件的安装说明',
 	'plugins_config_upgrade_confirm'	=> 'Are you shure you want to upgrade the plugin {pluginname} from version {version} to {toversion} ?',//'你确定要把 {pluginname} {version} 插件更新到 {toversion} 吗？',
-	'plugins_config_upgrade_missed'		=> 'This plug-in have no upgrade possibility. Please upload a new version and then perform the operation',//'此插件无需更新，请上传新版本后再执行本操作',
+/*!*/	'plugins_config_upgrade_missed'		=> 'This plug-in have been updated to the latest version.</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">Click here to go to the application center</a><br /><br /><h4>',//'此插件已更新到最新版本</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">点击这里进入应用中心</a><br /><br /><h4>',
+/*!*/	'plugins_config_upgrade_new'		=> 'This plug-in have been updated to the latest version.<br />But there is a new version of this plug-in {newver} in the application center, Do you need to upgrade?</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">Upgrade this plugin</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">Temporarily upgrade</ a> <h4>',//'此插件已更新到最新版本<br />但是发现此插件在应用中心存在新版本 {newver}，是否需要升级？</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">升级此插件</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">暂不升级</a><h4>',
 	'plugins_upgrade_var_invalid'		=> 'Plug-in hook name is illegal, can not be upgraded.',//'插件的嵌入点名称不合法，无法更新',
 	'plugins_setting_succeed'		=> 'Plug-in settings successfully updated.',//'插件参数设置成功更新。',
 	'plugins_setting_module_nonexistence'	=> 'Specified plug-in module file ({modfile}) does not exist or have a syntax error, check for the plugin was fully uploaded.',//'指定的插件管理模块文件({modfile})不存在或存在语法错误，请检查是否已将插件完整上传。',
@@ -415,7 +417,7 @@ $lang = array (
 	'plugins_edit_var_title_invalid'	=> 'You did not enter the configuration variable name, please return to modify.',//'您没有输入配置名称，请返回修改。',
 	'plugins_edit_vars_succeed'		=> 'Plug-in variable configuration successfully updated.',//'插件变量配置成功更新。',
 	'plugins_edit_vars_invalid'		=> 'Plug-in configuration variable name is not legitimate, or is already in use',//'插件配置变量名不合法或者已被占用',
-	'plugins_validator_noupdate'		=> 'The new version of the plugin is not detected',//'没有检测到新版本插件',
+	'plugins_validator_noupdate'		=> 'NO new plugin versions detected',//'没有检测到新版本插件',
 
 	'portalcategory_update_succeed'		=> 'Category updated successfully.',//'更新分类成功。',
 	'portal_delete_confirm'			=> 'This action can not be restored. Are you sure you want to delete the category article?',//'本操作不可恢复，你确定要删除该分类下文章吗？',

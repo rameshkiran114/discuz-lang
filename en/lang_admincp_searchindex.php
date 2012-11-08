@@ -1341,11 +1341,11 @@ $lang = array (
       0 => 'Plugins',//'插件',
     ),
   ),
-/*vot*/  121 =>
+  121 =>
   array (
     'index' =>
     array (
-/*!*/      '' => 'action=plugins&operation=config&do=94',
+/*!*/      '' => 'action=plugins&operation=config&do=138',
     ),
     'text' =>
     array (
@@ -2372,12 +2372,12 @@ $lang = array (
       7 => 'If you open a conversion or transaction capabilities, please fill out a real and effective Alipay account for the user to receive cash payments related to exchange transactions in points. Such as account number is invalid or incorrect security code, will result in the user not properly paid for their accounts automatically recharge points, or points of its normal trading account automatically recharge, or carry out normal transactions. If you do not Alipay account, please click here to register',//'如果开启兑换或交易功能，请填写真实有效的支付宝账号，用于收取用户以现金兑换交易积分的相关款项。如账号无效或安全码有误，将导致用户支付后无法正确对其积分账户自动充值，或进行正常的交易对其积分账户自动充值，或进行正常的交易。如你没有支付宝帐号，请点击这里注册',
       8 => 'ec_alipay_check',
       9 => 'Payment test',//'支付测试',
-      10 => 'This test will simulate one yuan order submitted for testing, if the payment occurs after the submission of a successful, interface shows your site Alipay function properly',//'本测试将模拟提交 1 元人民币的订单进行测试，如果提交后成功出现付款界面，说明你站点的支付宝功能可以正常使用',
+/*!*/      10 => 'This test will simulate 0.01 yuan order submitted for testing, if the payment occurs after the submission of a successful, interface shows your site Alipay function properly',//'本测试将模拟提交 1 元人民币的订单进行测试，如果提交后成功出现付款界面，说明你站点的支付宝功能可以正常使用',
       11 => 'ec_contract',
       12 => 'Alipay subscriber settings',//'支付宝签约用户设置',
       13 => 'ec_alipay_partner',
-/*!*/      14 => 'Partner id (PID)',//'合作者身份 (PID)',
-/*!*/      15 => 'Alipay Subscriber Please fill in here your Alipay partner assigned to the identity of the subscriber fee paid by you and treasure the official signing agreement shall prevail. If you have not yet signed, please click here to sign; when signing the contract if the template in the conflict, please consult 0571-88158090',//'支付宝签约用户请在此处填写支付宝分配给您的合作者身份，签约用户的手续费按照您与支付宝官方的签约协议为准。如果您还未签约，请点击这里签约；如果已签约,请点击这里获取PID、Key;如果在签约时出现合同模板冲突，请咨询0571-88158090',
+      14 => 'Partner id (PID)',//'合作者身份 (PID)',
+      15 => 'Alipay Subscriber Please fill in here your Alipay partner assigned to the identity of the subscriber fee paid by you and treasure the official signing agreement shall prevail. If you have not yet signed, please click here to sign; when signing the contract if the template in the conflict, please consult 0571-88158090',//'支付宝签约用户请在此处填写支付宝分配给您的合作者身份，签约用户的手续费按照您与支付宝官方的签约协议为准。如果您还未签约，请点击这里签约；如果已签约,请点击这里获取PID、Key;如果在签约时出现合同模板冲突，请咨询0571-88158090',
       16 => 'ec_alipay_securitycode',
       17 => 'Transaction security check code (key)',//'交易安全校验码 (key)',
       18 => 'Alipay Users can sign here assigned to completing your transaction security Alipay check code, this code you can check to pay for treasure at the official check business services',//'支付宝签约用户可以在此处填写支付宝分配给你的交易安全校验码，此校验码你可以到支付宝官方的商家服务功能处查看',
@@ -4424,7 +4424,7 @@ $lang = array (
       27 => 'When turned on, the page image in the browser window again when the current load, can significantly reduce the traffic burden of a large sites, we recommend to turn on this function',//'当开启后，页面中的图片在浏览器的当前窗口时再加载，可明显降低访问量很大的站点的服务器负担，建议开启本功能',
       28 => 'setting_serveropti_blockmaxaggregationitem',
       29 => 'Maximum aggregated data items',//'参与模块聚合数据条数',
-      30 => 'This value affects the block aggregation when MYSQL retrieve the number of Article data. Too large value will seriously affect the performance of MYSQL. Too small will decrease a desired level of block data aggregation. The maximum value is 65535',//'此值影响模块聚合时MYSQL检索数据的条数，设置太大将严重影响MYSQL的性能，设置太小将会影响模块聚合结果数据的理想程度。最大值为65535',
+/*!*/      30 => 'This value affects the block aggregation when MYSQL retrieve the number of Article data. Too large value will seriously affect the performance of MYSQL. Too small value will decrease a desired level of block data aggregation. Set to 0 for disable.',//'此值影响模块聚合时MYSQL检索数据的条数，设置太大将严重影响MYSQL的性能，设置太小将会影响模块聚合结果数据的理想程度。0为关闭些功能',
       31 => 'setting_serveropti_blockcachetimerange',
       32 => 'Block update time interval',//'模块更新时间区间',
       33 => 'Set the specified time interval for all blockd update. It is recommended to choose the period of minimal site visits, i.e. at 3:00-7:00 o\'clock.',//'设置全部模块在指定的时间区间内更新。可以根据网站的访问情况，避开访问高峰时间段。如：3点-7点',
