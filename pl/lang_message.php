@@ -997,6 +997,7 @@ $lang = array (
 	'location_login'		=> '',
 	'location_login_succeed_mobile'	=> 'Witaj, {username}! Kliknij tutaj aby przejść do poprzedniej strony.',//'欢迎您回来，{username}。点击进入登录前页面',
 	'location_login_succeed'	=> 'Witaj! Momencik, przenoszę do poprzedniej strony...',//'欢迎您回来，{username}。现在将转入登录前页面，请稍候……',
+/*!*/	'location_activation'		=> 'Your account is inactive, Click to activate',//'您的帐号处于未激活状态，点击进行激活',
 	'login_succeed_inactive_member'	=> 'Witaj ponownie {username}. Twoje konto wymaga aktywacji. Zaraz zostaniesz przeniesiony do panelu kontrolnego. {ucsynlogin} ',//'欢迎您回来，{username}。您的帐号处于非激活状态，现在将转入控制面板。 {ucsynlogin} ',
 	'login_question_empty'		=> 'Please input security Q&A',//'请填写安全提问以及正确的答案',
 	'login_question_invalid'	=> 'Security question error',//'安全提问选择错误，请重新填写',

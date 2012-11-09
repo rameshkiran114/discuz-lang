@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_template.php 30789 2012-06-19 09:05:13Z zhengqingpeng $
+ *      $Id: lang_template.php by Valery Votintsev at sources.ru
  *
  *      This file is automatically generate
  */
@@ -431,7 +431,7 @@ $lang = array (
 	'friend_editnote'	=> 'Notatka',//'备注',
 	'friend_list'		=> 'Lista znajomych',//'好友列表',
 	'friend_manyou_message'	=> 'Synchronize friends with Manyou Open Platform',//'将好友关系同步至Manyou平台，以便在应用里看到他们',
-	'friend_message'	=> 'Uporządkowano według <a href="javascript:;" class="xw1" onmouseover="showTip(this)" tip="Friends heat is a system based on the interaction between you and your friends act as a reference value automatically accumulated, the greater the value that you are the more frequent interaction with the friends">więzi znajomych</a>.',//'按照<a href="javascript:;" class="xw1" onmouseover="showTip(this)" tip="好友热度是系统根据您与好友之间交互的动作自动累计的一个参考值，数值越大，表示您与这位好友互动越频繁">好友热度</a>排序',
+/*!*/	'friend_message'	=> 'Uporządkowano według <a href="home.php?mod=space&do=friend&order=num" class="xw1" onmouseover="showTip(this)" tip="Friends heat is a system parameter based on the interaction between you and your friends. The heat value is accumulated automatically. The greater value means that you have more frequent interaction with a friend">więzi znajomych</a>',//'按照<a href="home.php?mod=space&do=friend&order=num" class="xw1" onmouseover="showTip(this)" tip="好友热度是系统根据您与好友之间交互的动作自动累计的一个参考值，数值越大，表示您与这位好友互动越频繁">好友热度</a>排序',
 	'friends'		=> 'Znajomi',//'好友',
 	'ignore_group_feed'	=> 'Ignore user group feeds',//'屏蔽用户组动态',
 	'interactive'		=> 'Interakcja',//'互动',

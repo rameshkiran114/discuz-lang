@@ -224,6 +224,7 @@ $lang = array (
 
 	'setting_domain_repeat_error'		=> 'There are duplicate domain names in configuration, please return amended.',//'配置中存在重复的域名，请返回修改。',
 	'setting_domain_need_default_error'	=> 'Please set the default domain name',//'请设置默认域名',
+/*!*/  'only_two_names_from_english_composition_and_figures'	=> 'Sub-domain name can contain only English letters and digits!',//'抱歉，您设置的二级域名只能含有英文和数字',
 
 	'alipay_not_contract'		=> 'Please enter Alipay signed user information.',//'请输入支付宝签约用户信息。',
 	'alipay_succeed'		=> 'Alipay function successfully set.',//'支付宝功能成功设定。',
@@ -396,7 +397,8 @@ $lang = array (
 	'plugins_import_version_invalid'	=> 'This plug-in version ({set_version}) and current Discuz! version {cur_version} are incompatible, please return.',//'本插件适用于 Discuz! {cur_version} 与当前版本({set_version})不一致，请返回。',
 	'plugins_import_succeed'		=> 'Plug-in data imported successfully!<br />In order to properly use this plug-in, you may also need to upload or modify the appropriate file or template, please see the installation instructions for this plug-in',//'插件数据成功导入！<br />为了正常使用此插件，您可能还需要上传或修改相应的文件或模板，详情请查看本插件的安装说明',
 	'plugins_config_upgrade_confirm'	=> 'Are you shure you want to upgrade the plugin {pluginname} from version {version} to {toversion} ?',//'你确定要把 {pluginname} {version} 插件更新到 {toversion} 吗？',
-	'plugins_config_upgrade_missed'		=> 'This plug-in have no upgrade possibility. Please upload a new version and then perform the operation',//'此插件无需更新，请上传新版本后再执行本操作',
+/*!*/	'plugins_config_upgrade_missed'		=> 'This plug-in have been updated to the latest version.</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">Click here to go to the application center</a><br /><br /><h4>',//'此插件已更新到最新版本</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">点击这里进入应用中心</a><br /><br /><h4>',
+/*!*/	'plugins_config_upgrade_new'		=> 'This plug-in have been updated to the latest version.<br />But there is a new version of this plug-in {newver} in the application center, Do you need to upgrade?</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">Upgrade this plugin</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">Temporarily upgrade</ a> <h4>',//'此插件已更新到最新版本<br />但是发现此插件在应用中心存在新版本 {newver}，是否需要升级？</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">升级此插件</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">暂不升级</a><h4>',
 	'plugins_upgrade_var_invalid'		=> 'Plug-in hook name is illegal, can not be upgraded.',//'插件的嵌入点名称不合法，无法更新',
 	'plugins_setting_succeed'		=> 'Plug-in settings successfully updated.',//'插件参数设置成功更新。',
 	'plugins_setting_module_nonexistence'	=> 'Specified plug-in module file ({modfile}) does not exist or have a syntax error, check for the plugin was fully uploaded.',//'指定的插件管理模块文件({modfile})不存在或存在语法错误，请检查是否已将插件完整上传。',
@@ -415,7 +417,7 @@ $lang = array (
 	'plugins_edit_var_title_invalid'	=> 'You did not enter the configuration variable name, please return to modify.',//'您没有输入配置名称，请返回修改。',
 	'plugins_edit_vars_succeed'		=> 'Plug-in variable configuration successfully updated.',//'插件变量配置成功更新。',
 	'plugins_edit_vars_invalid'		=> 'Plug-in configuration variable name is not legitimate, or is already in use',//'插件配置变量名不合法或者已被占用',
-	'plugins_validator_noupdate'		=> 'The new version of the plugin is not detected',//'没有检测到新版本插件',
+	'plugins_validator_noupdate'		=> 'NO new plugin versions detected',//'没有检测到新版本插件',
 
 	'portalcategory_update_succeed'		=> 'Category updated successfully.',//'更新分类成功。',
 	'portal_delete_confirm'			=> 'This action can not be restored. Are you sure you want to delete the category article?',//'本操作不可恢复，你确定要删除该分类下文章吗？',
@@ -472,7 +474,7 @@ $lang = array (
 	'specialuser_hotuser_del_succeed'	=> 'Hot user deleted successfully ',//'删除明星会员成功 ',
 	'specialuser_hotuser_edit_succeed'	=> 'Edited successfully ',//'编辑成功 ',
 	'specialuser_hotuser_add_invaild'	=> 'Required to add both the user name and reason',//'需要同时输入用户名和推荐原因',
-	'specialuser_hotuser_added_invalid'	=> 'Hot user been added',//'该用户已推荐过',
+	'specialuser_hotuser_added_invalid'	=> 'The user is allready marked as hot',//'该用户已推荐过',
 	'specialuser_hotuser_nouser_invalid'	=> 'The user does not exist or disabled',//'该用户不存在或被冻结',
 	'specialuser_follow_add_succeed'	=> 'Special user follows added successfully ',//'添加推荐关注成功 ',
 	'specialuser_defaultuser_add_succeed'	=> 'Default user added successfully',//'添加推荐好友成功 ',
@@ -554,7 +556,7 @@ $lang = array (
 	'upgrade_download_upgradelist_error'	=> 'Get list of files to be updated failed, Whether to re-obtain? {upgradeurl}',//'获取待更新文件列表失败，是否重新获取？ {upgradeurl}',
 	'upgrade_download_complete_to_compare'	=> 'Files to be updated downloaded ok, now going to compare with local files',//'待更新文件下载完成，即将进行本地文件比较',
 /*!*/	'upgrade_redownload'			=> 'Upgrade file {file} download problem. Please check your server network access, as well as the data directory have write permisson. Make sure all this is correct, and then click to {upgradeurl}',//'文件 {file} 下载出现问题，请查看您的服务器网络以及data目录是否有写权限，请确认无误后点击确定 {upgradeurl}',
-	/*!*/	'upgrade_downloading_file'		=> 'Downloading file {file} from official server.<br>Finished: {percent}, {upgradeurl}',//'正在从官方下载更新文件 {file} <br>已完成{percent} {upgradeurl}',
+/*!*/	'upgrade_downloading_file'		=> 'Downloading file {file} from official server.<br>Finished: {percent}, {upgradeurl}',//'正在从官方下载更新文件 {file} <br>已完成{percent} {upgradeurl}',
 	'upgrade_cannot_access_file'		=> 'No permissions to modify your directories and files. Please fill out the ftp account, or modify the file permissions to read/write, and then retry',//'发现您的目录及文件无修改权限，请您填写 ftp 账号，或者修改文件权限为可读可写后重试',
 	'upgrade_backuping'			=> 'Backing up the original file...',//'正在备份原始文件...',
 	'upgrade_backup_error'			=> 'Original file backup error',//'备份原始文件出错',
@@ -622,7 +624,7 @@ $lang = array (
 	'cloudaddons_ftp_path_error'		=> 'Site FTP path is wrong, Please try again.',//'站点 FTP 路径错误，请重新填写',
 
 	'cloudaddons_check_url_fopen_error'	=> 'Your server can not access the Application Center, This will cause the application can not be installed. Please contact your service provider or site technical staff, Ensure that your server can normal access to addon.discuz.com or addon1.discuz.com',//'您的服务器无法访问应用中心，这将会导致应用无法安装。请联系您的服务商或者网站技术人员，确保您的服务器能够正常访问 addon.discuz.com 或 addon1.discuz.com',
-	/*!*/	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
+	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
 	'cloudaddons_genuine_message'		=> 'Sorry, You installed not genuine applications, can not continue to implement the Setup.<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">Click here to install the genuine application</a>',//'对不起，您安装的不是正版应用，安装程序无法继续执行<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">点击这里安装正版应用</a>',
 );
 
