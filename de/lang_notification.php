@@ -102,7 +102,9 @@ $lang = array
 
 	'modthreads_delete'	=> 'Your thread {threadsubject} was not approved, it has been deleted! <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 {threadsubject} 没有通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modthreads_validate'	=> 'Your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> was approved! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Click to view it;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> 已经审核通过！ &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modthreads_delete_reason' => 'Published by you thread {threadsubject} was not approved, and now has been deleted! <div class="quote"><blockquote>{reason}</blockquote></div>',//'您发表的主题 {threadsubject} 未通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
+
+	'modthreads_validate'	=> 'Your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> was approved! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Click to view it &rsaquo;</a>',//'你发表的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> 已经审核通过！ &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 
 	'modreplies_delete'	=> 'Your reply was not approved, it has been deleted! <p class="summary">Content: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表回复没有通过审核，现已被删除！ <p class="summary">回复内容：<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
