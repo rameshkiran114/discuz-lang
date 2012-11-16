@@ -114,7 +114,7 @@ $lang = array(
 	'adminemail'			=> 'بريد الإدارة',//'系统信箱 Email',
 	'adminemail_comment'		=> 'يستخدم لإرسال اخطاء النظام',//'用于发送程序错误报告',
 	'dbhost_comment'		=> 'عادة يكون localhost',//'数据库服务器地址, 一般为 localhost',
-	'tablepre_comment'		=> 'For use multiple applications with the same database, please modify the teble prefix',//'同一数据库运行多个论坛时，请修改前缀',
+	'tablepre_comment'		=> 'For use multiple applications with the same database, please modify the table prefix',//'同一数据库运行多个论坛时，请修改前缀',
 	'forceinstall_check_label'	=> 'أريد حذف كافة البيانات، وبدء تثبيت جديدة!',//'我要删除数据，强制安装 !!!',
 
 	'uc_url_empty'			=> 'You have to fill in the UCenter URL',//'您没有填写 UCenter 的 URL，请返回填写',
@@ -142,7 +142,7 @@ $lang = array(
 	'admininfo_password_invalid'	=> 'Administrator password is blank, please fill in',//'管理员密码为空，请填写',
 	'admininfo_password2_invalid'	=> 'Two passwords are not equal, please check',//'两次密码不一致，请检查',
 
-/*vot*/	'install_dzfull'		=> 'تثبيت جديد لـ Discuz! X 2 (يحتوي على UCenter (مستحسن))',//'全新安装 Discuz! X (含 UCenter Server)',
+/*vot*/	'install_dzfull'		=> 'تثبيت جديد لـ Discuz! X (يحتوي على UCenter (مستحسن))',//'全新安装 Discuz! X (含 UCenter Server)',
 /*vot*/	'install_dzonly'		=> 'تثبيت Discuz! X فقط (غير مستحسن)',//'仅安装 Discuz! X (手工指定已经安装的 UCenter Server)',
 
 	'username'			=> 'إسم المدير',//'管理员账号',
