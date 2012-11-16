@@ -10,13 +10,13 @@
  */
 
 $lang = array (
-  'no_tag'		=> 'Have no any tags',//'还没有任何标签',
+  'no_tag'		=> 'Brak tagów',//'还没有任何标签',
   'tag'			=> 'Tagi',//'标签',
   'blog_read'		=> 'Wyśw.',//'次阅读',
   'blog_replay'		=> 'Odpowiedzi',//'个评论',
-  'empty_tags'		=> 'Tag nie istnieje. Możesz kontynuować wyszukiwanie lub <a href="misc.php?mod=tag" title="Back to tag page">wrócić na stronę tagów</a>.',//'没有此标签，您可以继续搜索或者<a href="misc.php?mod=tag" title="返回标签首页">返回标签首页</a>',
+  'empty_tags'		=> 'Tag nie istnieje. Możesz kontynuować wyszukiwanie lub <a href="misc.php?mod=tag" title="Powrót na stronę tagów">powrócić na stronę tagów</a>.',//'没有此标签，您可以继续搜索或者<a href="misc.php?mod=tag" title="返回标签首页">返回标签首页</a>',
   'forum'		=> 'Forum',//'版块',
-  'hot'			=> 'Hot',//'热度',
+  'hot'			=> 'Gorące',//'热度',
   'lastpost'		=> 'Ostatni post',//'最后发表',
   'no_content'		=> 'No relevant content',//'没有相关内容',
   'personal_category'	=> 'Personal category',//'个人分类',

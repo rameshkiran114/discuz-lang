@@ -15,11 +15,11 @@ $lang = array
 (
 
 	'page'			=> 'Stron',//'页',
-	'replies'		=> 'Odpowiedzi',//'篇回复',
-	'anonymous'		=> 'Anonymous',//'匿名',
+	'replies'		=> ' Odpowiedzi',//'篇回复',
+	'anonymous'		=> 'Anonim',//'匿名',
 	'full_version'		=> 'Pełna wersja',//'查看完整版本',
-	'forum_nonexistence'	=> 'You have no permissions to access this forum archive or the forum does not exist.',//'抱歉，您没有权限访问这个论坛的存档或该论坛不存在',
-	'thread_nonexistence'	=> 'You have no permissions to view this thread or the thread does not exist.',//'抱歉，您没有权限查看这个话题或该话题不存在',
+	'forum_nonexistence'	=> 'Nie masz uprawnień do przeglądania tego forum lub forum, które chcesz zobaczyć nie istnieje.',//'抱歉，您没有权限访问这个论坛的存档或该论坛不存在',
+	'thread_nonexistence'	=> 'Nie masz uprawnień do przeglądania tego tematu lub temat, który chcesz zobaczyć nie istnieje.',//'抱歉，您没有权限查看这个话题或该话题不存在',
 	'post_time'		=> 'Data publikacji',//'发表于',
 
 );

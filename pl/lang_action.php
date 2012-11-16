@@ -14,7 +14,7 @@ if(!defined('IN_DISCUZ')) {
 $lang = array
 (
 	0	=> 'Rejestracja/Login',// '注册/登录',
-	1	=> 'Przestrzeń',// '空间',
+	1	=> 'Statusy',// '空间',
 	2	=> 'Forum',// '论坛',
 	3	=> 'Grupy',// '群组',
 	4	=> 'Home',// '首页',

@@ -119,7 +119,7 @@ var lng = {
 //static/image/admincp/cloud/qqgroup.js
 	'select_topic_to_push'	: 'Select at least one topic for push to Articles',//'请至少推送一条头条主题和一条列表主题',
 	'select_item_to_push'	: 'Select at least one item for push to Articles',//'请至少推送一条信息到列表区域',
-	'loading'		: 'Loading...',//'加载中...',
+	'loading'		: 'Wczytywanie...',//'加载中...',
 	'push5reached'		: 'Push Post number has reached five, in the right to cancel a number and try again.',//'推送帖子已达到5条，请在右侧取消一些再重试。',
 	'click_left'		: 'Click on the left',//'点击左侧',
 	'push_to_list'		: 'Will push the information to the list',//'将信息推送到列表',
@@ -135,41 +135,41 @@ var lng = {
 
 //---------------------------
 //upload/static/js/common_extra.js
-//	'wait_please'		: 'Loading ...',//'请稍候...',
+//	'wait_please'		: 'Wczytywanie ...',//'请稍候...',
 
 //--------------------------------
 //static/js/calendar.js
 //static/js/forum_calendar.js
 //static/js/home_calendar.js
 
-	'prev_month'	: 'Prev Month',//'上一月',
-	'next_month'	: 'Next Month',//'下一月',
-	'select_year'	: 'Select Year',//'点击选择年份',
-	'select_month'	: 'Select Month',//'点击选择月份',
-	'wday0'		: 'Su',//'日',
-	'wday1'		: 'Mo',//'一',
-	'wday2'		: 'Tu',//'二',
-	'wday3'		: 'We',//'三',
-	'wday4'		: 'Th',//'四',
-	'wday5'		: 'Fr',//'五',
-	'wday6'		: 'Sa',//'六',
-	'month'		: 'Month',//'月',
-	'today'		: 'Today',//'今天',
-	'hours'		: 'Hours',//'点',
-	'minutes'	: 'Minutes',//'分',
-	'halfhour'	: 'Half hour',//'半小时',
+	'prev_month'	: 'Poprzedni miesiąc',//'上一月',
+	'next_month'	: 'Następny miesiąc',//'下一月',
+	'select_year'	: 'Wybierz rok',//'点击选择年份',
+	'select_month'	: 'Wybierz miesiąc',//'点击选择月份',
+	'wday0'		: 'Ni',//'日',
+	'wday1'		: 'Po',//'一',
+	'wday2'		: 'Wt',//'二',
+	'wday3'		: 'Śr',//'三',
+	'wday4'		: 'Czw',//'四',
+	'wday5'		: 'Pt',//'五',
+	'wday6'		: 'So',//'六',
+	'month'		: 'Miesiąc',//'月',
+	'today'		: 'Dziś',//'今天',
+	'hours'		: 'Godzin',//'点',
+	'minutes'	: 'Minut',//'分',
+	'halfhour'	: 'Pół godziny',//'半小时',
 	'ok'		: 'Ok',//'OK',
 
 //--------------------------------
 //static/js/common.js
 
 	'open_new_win'		: 'Otwórz w nowym oknie',//'在新窗口打开',
-	'actual_size'		: 'Actual Size',//'实际大小',
-	'close'			: 'Close',//'关闭',
+	'actual_size'		: 'Aktualny rozmiar',//'实际大小',
+	'close'			: 'Zamknij',//'关闭',
 	'wheel_zoom'		: 'Użyj kółka myszki, aby powiększyć/zmniejszyć obrazek',//'鼠标滚轮缩放图片',
 	'reminder'		: 'Powiadomienie',//'提示信息',
 	'submit'		: 'Wyślij',//'确定',
-	'cancel'		: 'Cancel',//'取消',
+	'cancel'		: 'Anuluj',//'取消',
 	'wait_please'		: 'Wczytywanie ...',//'请稍候...',
 	'int_error'		: 'Napotkano problemy. Nie można wyświetlić treści.',//'内部错误，无法显示此内容',
 	'flash_required'	: 'Zawartość wymaga wtyczki Adobe Flash Player',//'此内容需要 Adobe Flash Player 9.0.124 或更高版本',
@@ -191,11 +191,11 @@ var lng = {
 // ATTENTION!
 // The next line must have the same value as in /template.php - 'enter_content' !!!
 	'enter_search_string'	: 'Wprowadź szukane wyrażenia',//'请输入搜索内容',
-	'refresh_q&a'		: 'Refresh Q&A',//'刷新验证问答',
+	'refresh_q&a'		: 'Odśwież Q&A',//'刷新验证问答',
 	'refresh_code'		: 'Odśwież kod',//'刷新验证码',
-	'code_invalid'		: 'Wrong security code, please try again',//'验证码错误，请重新填写',
-	'q&a_invalid'		: 'Wrong answer, please try again',//'验证问答错误，请重新填写',
-	'code_clipboard'	: 'The code was copied to clipboard',//'代码已复制到剪贴板',
+	'code_invalid'		: 'Wprowadzono błędny kod zabezpieczający. Spróbuj ponownie.',//'验证码错误，请重新填写',
+	'q&a_invalid'		: 'Wprowadzono błędną odpowiedź. Spróbuj ponownie.',//'验证问答错误，请重新填写',
+	'code_clipboard'	: 'Kod został skopiowany do schowka',//'代码已复制到剪贴板',
 	'enter_link_url'	: 'Adres URL',//'请输入链接地址',
 	'enter_link_text'	: 'Tekst maskujący',//'请输入链接文字',
 	'enter_image_url'	: 'Adres URL obrazka',//'请输入图片地址',
@@ -227,21 +227,21 @@ var lng = {
 //static/js/common_extra.js
 
 	'copy_failed'		: 'Copy failed, please select "Allow access"',//'复制失败，请选择“允许访问”',
-	'prev'			: 'Prev.',//'上一张',
-	'next'			: 'Next',//'下一张',
+	'prev'			: 'Nast.',//'上一张',
+	'next'			: 'Poprz.',//'下一张',
 
 //--------------------------------
 //static/js/editor.js
 
-	'restore_size_edit'	: 'Resume editor size',//'恢复编辑器大小',
-	'full_screen_edit'	: 'Full Screen Editor',//'全屏方式编辑',
+	'restore_size_edit'	: 'Przywróć rozmiar edytora',//'恢复编辑器大小',
+	'full_screen_edit'	: 'Pełnoekranowy edytor',//'全屏方式编辑',
 	'current_length'	: 'Aktualna długość',//'当前长度',
 	'bajtów'			: 'bajtów',//'字节',
 	'system_limit'		: 'Limit systemu',//'系统限制',
 	'up_to'			: '~',//'到',
 	'check_length'		: 'Length Count',//'字数检查',
-	'data_restored'		: 'The Data was restored',//'数据已恢复',
-	'data_saved'		: 'Data saved',//'数据已保存',
+	'data_restored'		: 'Treść została przywrócona',//'数据已恢复',
+	'data_saved'		: 'Treść została zapisana',//'数据已保存',
 	'clear_all_sure'	: 'Are you sure to clear all the contents?',//'您确认要清除所有内容吗？',
 	'hide_content'		: 'Ukryta zawartość',//'请输入要隐藏的信息内容',
 	'free_content'		: 'Treść zostanie zaprezentowana w specjalnym bloku, który pozwoli wyróżnić umieszczoną zawartość',//'如果您设置了帖子售价，请输入购买前免费可见的信息内容',
@@ -253,7 +253,7 @@ var lng = {
 	'table_width'		: 'Szerokość tabeli',//'表格宽度: ',
 	'bg_color'		: 'Tło',//'背景颜色',
 	'table_intro0'		: 'Krótki poradnik',//'快速书写表格提示',
-	'table_intro1'		: '&quot;[tr=color]&quot; Ustala kolor wiersza<br />&quot;[td=Width]&quot; Ustala kolor komórki<br />&quot;[td=Column_Span,Row_Span,Width]&quot; Ustala rozmiary kolumny/wiersza<br /><br />Prosty przykład tabeli: ',//'“[tr=颜色]” 定义行背景<br />“[td=宽度]” 定义列宽<br />“[td=列跨度,行跨度,宽度]” 定义行列跨度<br /><br />快速书写表格范例：',
+	'table_intro1'		: '&quot;[tr=color]&quot; Ustala kolor wiersza<br />&quot;[td=Width]&quot; Ustala rozmiar komórki<br />&quot;[td=Column_Span,Row_Span,Width]&quot; Ustala rozmiary kolumny/wiersza<br /><br />Prosty przykład tabeli: ',//'“[tr=颜色]” 定义行背景<br />“[td=宽度]” 定义列宽<br />“[td=列跨度,行跨度,宽度]” 定义行列跨度<br /><br />快速书写表格范例：',
 	'table_intro2'		: '[table]<br />Nazwa:|Discuz!<br />Wersja:|X2.5<br />[/table]',//'[table]<br />Name:|Discuz!<br />Version:|X1<br />[/table]',
 	'table_intro3'		: 'Użyj &quot;|&quot; aby oddzielić komórki. Jeśli znak &quot;|&quot; stanowi którąś z danych, zamień go na &quot;\\|&quot;, separate rows with &quot;\\n&quot;.',//'用“|”分隔每一列，表格中如有“|”用“\\|”代替，换行用“\\n”代替。',
 	'audio_url'		: 'Wprowadź adres URL do pliku muzycznego',//'请输入音乐文件地址',
@@ -262,17 +262,17 @@ var lng = {
 	'flash_url'		: 'Wprowadź adres URL do pliku flash',//'请输入 Flash 文件地址',
 	'enter_please'		: 'Please enter the',//'请输入第',
 	'nth_parameter'		: '-th parameter',//' 个参数',
-	'font'			: 'Font',//'字体',
-	'full_screen'		: 'Full Screen',//'全屏',
-	'restore_size'		: 'Restore size',//'恢复',
-	'general'		: 'General Mode',//'常用',
+	'font'			: 'Czcionka',//'字体',
+	'full_screen'		: 'Pełny ekran',//'全屏',
+	'restore_size'		: 'Przywróć rozmiar',//'恢复',
+	'general'		: 'Tryb ogólny',//'常用',
 	'simple'		: 'Tryb rozszerzony',//'高级',
-	'bad_browser'		: 'Your browser does not support this feature',//'你的浏览器不支持此功能',
-	'click_autosave_enable'	: 'Click here for enable the auto-saving',//'点击开启自动保存',
+	'bad_browser'		: 'Twoja przeglądarka nie obsługuje tej funkcji',//'你的浏览器不支持此功能',
+	'click_autosave_enable'	: 'Kliknij tutaj, aby włączyć autozapis postów',//'点击开启自动保存',
 	'autosave_enable'	: 'Włącz autozapis',//'开启自动保存',
 	'autosave_disable'	: 'Wyłącz autozapis',//'点击关闭自动保存',
-	'autosave_enabled'	: 'Data auto-saving enabled',//'数据自动保存已开启',
-	'autosave_disabled'	: 'Data auto-saving disabled',//'数据自动保存已关闭',
+	'autosave_enabled'	: 'Autozapis został wł.',//'数据自动保存已开启',
+	'autosave_disabled'	: 'Autozapis został wył.',//'数据自动保存已关闭',
 	'data_saved_at'		: 'Zapisano o',//'数据已于',
 	'saved_time'		: '',//NOT REQUIRED IN ENGLISH!//'保存',
 	'sec_before_saving'	: 'sek. do autozapisu.',//'秒后保存',
@@ -371,11 +371,11 @@ var lng = {
 
 //--------------------------------
 //static/js/handlers.js
-	'file_selected_exceed'	: 'You have selected too many files.',//'您选择的文件个数超过限制。',
-	'upload_number_exceed'	: 'You cannot add any more files.',//'您已达到上传文件的上限了。',
+	'file_selected_exceed'	: 'Wybrano zbyt wiele plików.',//'您选择的文件个数超过限制。',
+	'upload_number_exceed'	: 'Nie możesz dodać więcej plików.',//'您已达到上传文件的上限了。',
 	'can_choose_more'	: 'You may only add ',//'您还可以选择 ',
 	'files'			: ' more files',//' 个文件',
-	'file_is_large'		: 'File is too large.',//'文件太大.',
+	'file_is_large'		: 'Plik jest za duży.',//'文件太大.',
 	'file_is_empty'		: 'You can not upload a zero byte file.',//'不能上传零字节文件.',
 	'file_type_disabled'	: 'Upload of such type files is disabled.',//'禁止上传该类型的文件.',
 	'unhandled_error'	: 'Unhandled Error',//'',
@@ -420,7 +420,7 @@ var lng = {
 	'audio_url_invalid'	: 'Incorrect audio URL, can not be empty',//'音乐地址错误，不能为空',
 
 //!!!!! MayBe wrap this names!!
-	'collapse'		: 'Collapse',//'收起',
+	'collapse'		: 'Zwiń',//'收起',
 	'expand'		: 'Expand',//'展开',
 
 //--------------------------------
@@ -532,16 +532,16 @@ var lng = {
 	'offset'		: 'Offset',//'偏移量',
 //!!! mainly the same as 'color' !!!!!!
 //	'colour'		: 'Colour',//'色',
-	'add_new_title'		: 'Add New Title',//'添加新标题',
+	'add_new_title'		: 'Dodaj nowy tytuł',//'添加新标题',
 	'delete_this_sure'	: 'Are you sure to delete it? It can not be restored if you delete it.',//'您确实要删除吗,删除以后将不可恢复',
-	'loading_content'	: 'Loading content...',//'正在加载内容...',
+	'loading_content'	: 'Wczytywanie zawartości...',//'正在加载内容...',
 	'modified_import'	: 'You have made some modifications, please import it after you save it, otherwise the imported data won\'t include modification of this time.',//'您已经做过修改，请保存后再做导出，否则导出的数据将不包括您这次所做的修改。',
-	'total'			: 'Total ',//'共',
-	'blocks'		: 'blocks',//'个模块',
-	'updating_the'		: 'updating #',//'正在更新第',
-	'done'			: 'done',//'已完成',
-	'start_updating'	: 'Start Updating...',//'开始更新...',
-	'update_block_data'	: 'Updating block data',//'更新模块数据',
+	'total'			: 'Łącznie ',//'共',
+	'blocks'		: 'bloków',//'个模块',
+	'updating_the'		: 'aktualizacja #',//'正在更新第',
+	'done'			: 'postęp',//'已完成',
+	'start_updating'	: 'Rozpoczęcie aktualizacji...',//'开始更新...',
+	'update_block_data'	: 'Aktualizacja danych',//'更新模块数据',
 	'clear_diy_sure'	: 'Are you sure to clear the current page DIY data? It can not be restored if you clear it.',//'您确实要清空页面上所在DIY数据吗,清空以后将不可恢复',
 	'frame_not_found'	: 'Warning: Frame not found, please add frame.',//'提示：未找到框架，请先添加框架。',
 	'apply_all_pages'	: 'Apply to all this type pages',//'应用于此类全部页面',
@@ -578,7 +578,7 @@ var lng = {
 	'email_fill'		: 'Proszę uzupełnić pole Email',//'请输入邮箱地址',
 	'length_min'		: ', Minimum length',//', 最小长度为 '
 	'chars'			: ' znaków',//' 个字符',
-	'password_strength'	: 'Password strength: ',//'密码强度:',
+	'password_strength'	: 'Siła hasła: ',//'密码强度:',
 	'pw_weak'		: 'Krótkie',//'弱',
 	'pw_middle'		: 'W miarę',//'中',
 	'pw_strong'		: 'Silne',//'强',
@@ -601,12 +601,12 @@ var lng = {
 //static/js/space_diy.js
 
 	'save_js'		: 'javascript saved',//'javascript脚本保存后显示',
-	'settings'		: 'Settings',//'设置',
+	'settings'		: 'Ustawienia',//'设置',
 
 //---------------------------
 //static/js/swfupload.js
 
-	'attach_file'		: 'Attachment',
+	'attach_file'		: 'Załącznik',
 
 //---------------------------
 //static/js/threadsort.js

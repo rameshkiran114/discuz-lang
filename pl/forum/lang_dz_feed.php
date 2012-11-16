@@ -54,7 +54,7 @@ $lang = array
 	'feed_announce_title'		=> 'Announce: {subject}',//'公告: {subject}',
 	'feed_announce_body'		=> '{message}',
 
-	'you'				=> 'You',//'您',
+	'you'				=> 'Ty',//'您',
 
 );
 

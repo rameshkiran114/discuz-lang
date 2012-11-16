@@ -43,5 +43,5 @@ $lang = array
 	'stat_blogs'			=> 'Blogi',//'日志',
 	'stat_albums'			=> 'Albumy',//'相册',
 	'stat_pics'			=> 'Images',//'图片',
-	'stat_shares'			=> 'Shares',//'分享',
+	'stat_shares'			=> 'Udostępnień',//'分享',
 );
