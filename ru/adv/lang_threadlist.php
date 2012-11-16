@@ -11,10 +11,10 @@ $lang = array
 (
 	'threadlist_name'		=> 'Реклама в виде сообщения темы',
 	'threadlist_desc'		=> 'Объявления показываются на странице темы раздела или группы в виде обычного сообщения темы, что очень эффективно для привлечения внимания посетителей.',
-	'threadlist_fids'		=> 'Форум',
+	'threadlist_fids'		=> 'Разделы форума',
 	'threadlist_fids_comment'	=> 'Укажите разделы форума для показа рекламы',
-	'threadlist_groups'		=> 'Группы',
-	'threadlist_groups_comment'	=> 'Укажите группы, которым будет показана реклама',
+	'threadlist_groups'		=> 'Сообщества',
+	'threadlist_groups_comment'	=> 'Укажите сообщества, в которых будет показана реклама',
 	'threadlist_pos'		=> 'Позиция',
 	'threadlist_pos_comment'	=> 'Укажите номер для рекламного сообщения. Если не указано местоположение, то положение объявления будет выбрано случайным образом',
 	'threadlist_mode'		=> 'Режим показа',
@@ -23,6 +23,6 @@ $lang = array
 	'threadlist_mode_1'		=> 'Темы',
 	'threadlist_tid'		=> 'Укажите ID конкретных тем',
 	'threadlist_threadurl'		=> 'URL темы',
-	'threadlist_threadurl_comment'	=> 'Оставьте пустым для использовать указанного URL темы',
+	'threadlist_threadurl_comment'	=> 'Оставьте пустым для использования темы c указанным ID',
 );
 
