@@ -7,6 +7,10 @@
  *      $Id: lang_threadlist.php by Valery Votintsev at sources.ru
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'threadlist_name'		=> 'Advertasing at Forum/Group post list',//'论坛/群组 帖子列表帖位广告',

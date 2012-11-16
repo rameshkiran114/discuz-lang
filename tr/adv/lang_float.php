@@ -7,6 +7,10 @@
  *      $Id: lang_float.php by Valery Votintsev at sources.ru
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'float_name'			=> 'Global Float Adv',//'全局 漂浮广告',
@@ -20,7 +24,11 @@ $lang = array
 	'float_position_comment'	=> 'Set the postion of floating adv',//'设置广告漂浮的位置',
 	'float_position_left'		=> 'Left',//'左侧',
 	'float_position_right'		=> 'Right',//'右侧',
-	'float_category'		=> 'Portal Category',
-	'float_category_comment'	=> 'Set a portal category for show the Float Banner. This take effect only when Ads is assigned to the Portal',
+	'float_category'		=> 'Portal Category',//'投放门户频道',
+	'float_category_comment'	=> 'Set a portal category for show the Float Banner. This take effect only when Ads is assigned to the "Portal"',//'设置广告投放的频道分类，当广告投放范围中包含“门户”时有效',
+	'float_disableclose'		=> 'Close advertising link',//'关闭广告的链接',
+	'float_disableclose_comment'	=> 'If you want the Advertising can not be closed, you can disable to show the Close link',//'如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
+	'float_show'			=> 'Show',//'显示',
+	'float_hidden'			=> 'Hide',//'隐藏',
 );
 

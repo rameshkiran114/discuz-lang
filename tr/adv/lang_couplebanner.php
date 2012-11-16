@@ -7,6 +7,10 @@
  *      $Id: lang_couplebanner.php by Valery Votintsev at sources.ru
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'couplebanner_name'			=> 'Global Couple Advertising',//'全局 对联广告',
@@ -22,7 +26,11 @@ $lang = array
 	'couplebanner_position_right'		=> 'Right',//'右侧',
 	'couplebanner_coupleadid'		=> 'Second line Adv',//'上/下联广告',
 	'couplebanner_coupleadid_comment'	=> 'Set the paired advertising for  current advertising',//'设置和当前广告配对的上/下联广告',
-	'couplebanner_category'			=> 'Double Banner Portal Category',
-	'couplebanner_category_comment'		=> 'Set a portal category for show the Double Banner. This take effect only when Ads is assigned to the Portal',
+	'couplebanner_category'			=> 'Double Banner Portal Category',//'投放门户频道',
+	'couplebanner_category_comment'		=> 'Set a portal category for show the Double Banner. This take effect only when Ads is assigned to the Portal',//'设置广告投放的频道分类，当广告投放范围中包含“门户”时有效',
+	'couplebanner_disableclose'		=> 'Close advertising link',//'关闭广告的链接',
+	'couplebanner_disableclose_comment'	=> 'If you want the Advertising can not be closed, you can disable to show the Close link',//'如果广告代码中已内置关闭操作，可以关闭系统预置的关闭链接',
+	'couplebanner_show'			=> 'Show',//'显示',
+	'couplebanner_hidden'			=> 'Hide',//'隐藏',
 );
 
