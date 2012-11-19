@@ -16,7 +16,7 @@ $lang = array (
 	'nav_1'		=> 'Portal',//'门户',
 	'nav_2'		=> 'Forum',//'论坛',
 	'nav_3'		=> 'Grupy',//'群组',
-	'nav_4'		=> 'Tablica',//'家园',
+	'nav_4'		=> 'Aktywność',//'家园',
 	'nav_5'		=> 'Aplikacje',//'应用',
 	'nav_6'		=> 'Pluginy',//'插件',
 	'nav_7'		=> 'Pomoc',//'帮助',
@@ -26,7 +26,7 @@ $lang = array (
 	'nav_11'	=> 'Kolekcje',//'淘帖',
 	'nav_12'	=> 'Blogi',//'日志',
 	'nav_13'	=> 'Albumy',//'相册',
-	'nav_14'	=> 'Udostępnienia',//'分享',
+	'nav_14'	=> 'Podziel się',//'分享',
 	'nav_15'	=> 'Aktywność',//'记录',
 
 	'nav_portal'	=> 'Portal',//'门户',

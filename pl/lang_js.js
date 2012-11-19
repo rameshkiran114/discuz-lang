@@ -13,11 +13,11 @@
 
 // Suggested email domains for registering:
 var emaildomains = [
-		'aol.com',
+		'wp.pl',
+		'onet.pl',
+		'interia.pl',
+		'o2.pl',
 		'gmail.com',
-		'hotmail.com',
-		'msn.com',
-		'qq.com',
 		'yahoo.com'
 		];
 

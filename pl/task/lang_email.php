@@ -13,13 +13,13 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'email_name'	=> 'Activate Email Task',//'验证邮箱任务',
-	'email_desc'	=> 'Fill your Email, verify it for activation and get award.',//'验证邮箱获得相应的奖励。',
-	'email_view'	=> '<strong>Follow the next steps to complete task:</strong>
+	'email_name'	=> 'Aktywacja adresu Email',//'验证邮箱任务',
+	'email_desc'	=> 'Aktywuj swój adres Email, a otrzymasz dodatkowe punkty.',//'验证邮箱获得相应的奖励。',
+	'email_view'	=> '<strong>Poniższe kroki pomogą Ci ukończyć to zadanie:</strong>
 		<ul>
-		<li><a href="home.php?mod=spacecp&ac=profile&op=password" target="_blank">Open in a new window your profile Settings</a>;</li>
-		<li>Fill in your real mailbox, and click "Verify Email" button;</li>
-		<li>The system will send you an email. Receive this email and click a verification links from this message.</li>
+		<li><a href="home.php?mod=spacecp&ac=profile&op=password" target="_blank">Przejdź do ustawień profilu</a>;</li>
+		<li>Wciśnij przycisk "aktywacja konta";</li>
+		<li>System na podany adres Email wyśle wiadomość. W odpowiedzi nań, wciśnij odsyłacz zawarty w treści wiadomości.</li>
 		</ul>',
 );
 

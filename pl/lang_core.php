@@ -152,9 +152,9 @@ $lang = array
 	'title_magics_log'		=> 'Archiwum magii',//'道具记录',
 	'title_medals_list'		=> 'Lista medali',//'勋章',
 	'title_setup'			=> 'Ustawienia',//'设置',
-	'title_memcp_blog'		=> 'Publish Blog',//'发表日志',
-	'title_memcp_upload'		=> 'Upload',//'上传',
-	'title_memcp_share'		=> 'Add Share',//'添加分享',
+	'title_memcp_blog'		=> 'Opublikuj',//'发表日志',
+	'title_memcp_upload'		=> 'Wyślij',//'上传',
+	'title_memcp_share'		=> 'Udostępnij',//'添加分享',
 	'title_memcp_sendmail'		=> 'Mail Alert',//'邮件提醒',
 	'title_memcp_privacy'		=> 'Prywatność',//'隐私筛选',
 	'title_memcp_avatar'		=> 'Awatar',//'修改头像',
@@ -216,7 +216,7 @@ $lang = array
 
 	'faq'				=> 'FAQ',//'帮助',
 	'search'			=> 'Szukaj',//'搜索',
-	'page'				=> 'page {page}',//'第{page}页',
+	'page'				=> 'strona {page}',//'第{page}页',
 
 	'close'				=> 'Zamknij',//'关闭',
 

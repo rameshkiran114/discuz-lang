@@ -13,13 +13,13 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'friend_name'	=> 'Add 5 friends',//'添加好友任务',
-	'friend_desc'	=> 'Add five new friends and get the a reward.',//'拥有 5 个好友获得相应的奖励。',
-	'friend_view'	=> '<strong>Follow the next steps below to complete the task:</strong>
+	'friend_name'	=> 'Uzyskaj 5 znajomych',//'添加好友任务',
+	'friend_desc'	=> 'Dodaj pięć nowych znajomych, a otrzymasz dodatkowe punkty.',//'拥有 5 个好友获得相应的奖励。',
+	'friend_view'	=> '<strong>Poniższe kroki pomogą Ci ukończyć to zadanie:</strong>
 			<ul>
-			<li>1. <a href="home.php?mod=spacecp&ac=friend&op=find" target="_blank">Open a new window to find friends</a>;</li>
-			<li>2. In the page opened, the system will automatically recommend you to find users and add them as friends. You can also set your own conditions to find and add friends;</li>
-			<li>3. You have to wait for the approval from each your friends added.</li>
+			<li>1. <a href="home.php?mod=spacecp&ac=friend&op=find" target="_blank">Otwórz wyszukiwarkę znajomych</a>;</li>
+			<li>2. System automatycznie postara się zaproponować Ci znajomych. Oczywiście możesz określić własne warunki, aby znaleźć i dodać nowych znajomych;</li>
+			<li>3. Cierpliwie odczekaj na odpowiedź zaproszonych użytkowników.</li>
 			</ul>',
 );
 

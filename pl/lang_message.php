@@ -180,7 +180,7 @@ $lang = array (
 	'message_can_not_send_onlyfriend'	=> 'Sorry, the user can receive/send messages only for friends',//'抱歉，该用户只接收好友发送的短消息',
 	'message_bad_touid'		=> 'Sorry, the user does not exist, please check the user uid is correct',//'抱歉，用户不存在，请检查用户uid是否正确',
 	'message_can_not_send_2'	=> 'Proszę odczekać chwilkę między wysyłaniem wiadomości.',//'两次发送短消息太快，请稍等一下再发送',
-	'message_can_not_send_9'	=> 'The recipient is empty or blocked your short messages',//'收件人为空或对方屏蔽了您的短消息',
+	'message_can_not_send_9'	=> 'Odbiorca nie został zdefiniowany bądź nie zezwolił na otrzymanie prywatnych wiadomości.',//'收件人为空或对方屏蔽了您的短消息',
 	'pm_report_error_nopm'		=> 'Sorry, the short message that you specify does not exist',//'抱歉，您指定的短消息不存在',
 	'no_privilege_sendpm'		=> 'Sorry, you currently do not have permission Send PM, <a href="home.php?mod=spacecp&ac=usergroup">Click here to view permissions</a>',//'抱歉，您目前没有权限发短消息，<a href="home.php?mod=spacecp&ac=usergroup">点击这里查看权限</a>',
 	'profile_passwd_illegal'	=> 'Pole hasło zostało pominięte lub użyto nieprawidłowych znaków.',//'密码空或包含非法字符',
@@ -231,7 +231,7 @@ $lang = array (
 	'task_not_underway'		=> 'No ongoing tasks',//'不是进行中的任务',
 	'user_banned'			=> 'Sorry, your account or IP address is banned, you can not access the site.',//'对不起，您的 IP 地址不在被允许的范围内，或您的账号被禁用，无法访问本站点。',
 	'submit_seccode_invalid'	=> 'Przepisano błędny kod.',//'验证码填写错误，请返回修改。',
-	'submit_invalid'		=> 'Your request origin authentication string is incorrect or the form does not match, could not be submitted.',//'你的请求来路不正确或表单验证串不符，无法提交。',
+	'submit_invalid'		=> 'Żądanie nie mogło zostać spełnione ciąg uwierzytelniania jest nieprawidłowy lub nie mógł zostać wysłany.',//'你的请求来路不正确或表单验证串不符，无法提交。',
 	'word_banned'			=> 'Sorry, your content (signature,posts,messages etc.) contains banned words.',//'对不起，您填写的内容(如签名、帖子、短消息等)包含不良内容而无法提交，请返回修改。',
 	'magics_use_success'		=> 'The magic {magicname} used successfully',//'已成功使用道具{magicname}',
 	'magicuse_object_once_limit'	=> 'You have already used a magic for this information, can not be reused',//'已经对该信息使用过此道具，不能重复使用',
@@ -428,7 +428,7 @@ $lang = array (
 
 	'enter_the_space'		=> 'Enter personal space',//'进入个人空间页面',
 
-	'task_close'			=> 'Task has been closed.',//'站点任务关闭，请返回。',
+	'task_close'			=> 'Zadania zostały wyłączone.',//'站点任务关闭，请返回。',
 	'task_relatedtask'		=> 'For this task aply, you must first complete another task, will now turn to the task page.',//'申请此任务需先完成一个任务，现在将转入这个任务页面。',
 	'task_grouplimit'		=> 'Your user group does not allow for this task!',//'您所在的用户组不允许申请此任务！',
 	'task_duplicate'		=> 'You have already applied for this task, please do not repeat the application!',//'您已经申请过此任务，请不要重复申请！',
@@ -801,7 +801,7 @@ $lang = array (
 	'message_can_not_send_16'	=> 'You have exceeded the maximum number of PM within 24 hours',//'您超出了24小时内发短消息数量的上限',
 	'message_can_not_send'		=> 'Sorry, failed to send message',//'对不起，发送短消息失败',
 	'pm_onlyacceptfriend_error'	=> 'Sorry, your action is wrong',//'抱歉，您的操作有误',
-	'do_success_pm'			=> 'Short message set successfully ',//'短消息设置成功 ',
+	'do_success_pm'			=> 'Ustawienia krótkich wiadomości zostały zapisane ',//'短消息设置成功 ',
 	'pm_report_error_nome'		=> 'You can not report your own short message or send a public PM',//'您不能举报自己的短消息或公共群发短消息',
 	'pm_report_error_nopmreportuser'	=> 'Sorry, you have not specified a short message informants',//'抱歉，您尚未指定短消息举报人',
 	'pm_ignore_error_nopm'		=> 'Sorry, specified user does not exist',//'抱歉，您指定的用户不存在',
@@ -869,7 +869,7 @@ $lang = array (
 	'admin_getip_nopermission'	=> 'Sorry, you are not allowed to view this author\'s IP.',//'对不起，您没有权限查看比您高级的管理员 IP，请返回。',
 
 	'no_privilege_mergethread'	=> 'Sorry, you do not have permission to merge thread',//'抱歉，您没有权限合并主题',
-	'admin_merge_nonexistence'	=> 'Thread ID (tid) does not exist.',//'主题 ID (tid) 不存在。',
+	'admin_merge_nonexistence'	=> 'Wprowadzony ID tematu nie istnieje!',//'主题 ID (tid) 不存在。',
 	'admin_merge_invalid'		=> 'Please select other thread to merge.',//'请选择其他主题进行合并。',
 
 	'recommend_group_invalid'	=> 'Sorry, your have selected a topic recommended to forum',//'抱歉，您选择的主题已被推荐版块',
@@ -900,7 +900,7 @@ $lang = array (
 	'no_privilege_restore'		=> 'Sorry, you do not have permission to restore this thread',//'抱歉，您没有权限恢复此主题',
 
 	'no_privilege_splitthread'	=> 'Sorry, you do not have permission to split this thread',//'抱歉，您没有权限分割此主题',
-	'admin_split_invalid'		=> 'There is not reply in this thread, it can not be splited.',//'主题没有回复，无法分割。',
+	'admin_split_invalid'		=> 'Ten temat nie zawiera żadnych odpowiedzi, dlatego też nic nie można z niego wydzielić!',//'主题没有回复，无法分割。',
 	'admin_split_subject_invalid'	=> 'Please input subject.',//'您没有输入标题。',
 
 	'no_privilege_stampthread'	=> 'Sorry, you do not have permission to stamp this thread',//'抱歉，您没有权限给主题添加图章',
@@ -920,7 +920,7 @@ $lang = array (
 	'no_privilege_ckpassword_blog'	=> 'Sorry, you entered a wrong password, can not comment this blog',//'抱歉，您的密码输入错误，不能评论此日志',
 	'do_not_accept_comments'	=> 'The blog does not accept comments',//'该日志不接受评论',
 	'sharing_does_not_exist'	=> 'Comments share does not exist',//'评论的分享不存在',
-	'note_wall_reply_success'	=> 'Reply {username} wall successfully',//'已经回复到{username}的留言板',
+	'note_wall_reply_success'	=> 'Odpowiedź do wpisu {username} została wysłana',//'已经回复到{username}的留言板',
 
 	'period_nopermission'		=> 'Sorry, administrator set {banperiods} daily, you can not operate or view this page now, please try another time.',//'对不起，管理员设置了每日 {banperiods} 不能进行此操作或访问此页面，请其他时间再试。',
 

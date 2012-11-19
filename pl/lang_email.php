@@ -14,47 +14,46 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'hello'				=> 'Hello',//'你好',
-	'moderate_member_invalidate'	=> 'Decline',//'否决',
+	'hello'				=> 'Cześć',//'你好',
+	'moderate_member_invalidate'	=> 'Odrzuć',//'否决',
 	'moderate_member_delete'	=> 'Usuń',//'删除',
-	'moderate_member_validate'	=> 'Accept',//'通过',
+	'moderate_member_validate'	=> 'Akceptuj',//'通过',
 
 
-	'get_passwd_subject'	=> 'Retrieve Password Help',//'取回密码说明',
+	'get_passwd_subject'	=> 'Odzyskiwanie hasła',//'取回密码说明',
 	'get_passwd_message'	=> '
 <p>{username},
-This letter was sent from the {bbname}.</p>
+Ta wiadomość została wysłana ze strony {bbname}.</p>
 
-<p>You have received this message, because this email address is registered as a user in our forums,
-and the user requests to reset the password by Email.</p>
+<p>Otrzymałeś tę wiadomość, ponieważ ten adres Email został zarejestrowany
+ na konto użytkownika naszego forum, który wysłał prośbę o odzyskanie hasła.</p>
 <p>
 ----------------------------------------------------------------------<br />
-<strong>Important!</strong><br />
+<strong>Ważne!</strong><br />
 ----------------------------------------------------------------------</p>
 
-<p>If you did not requested password reset or if you have not registered at our forum,
-please ignore and delete this message.
-In the case you confirm the password reset,
-you need to read the following content.</p>
+<p>Jeśli to nie Ty odwiedzasz nasze forum lub nie przeprowadziłeś żadnej zmiany,
+proszę zignorować tę wiadomość.</p>
 <p>
 ----------------------------------------------------------------------<br />
-<strong>Password reset instructions</strong><br />
+<strong>Instrukcja odzyskiwania hasła</strong><br />
 ----------------------------------------------------------------------</p>
 </p>
-You only need to submit within three days after a request by clicking the link below to reset your password:<br />
+Link z prośbą o odzyskanie hasła jest ważny tylko i wyłącznie przez 3 dni od momentu dostarczenia tej wiadomośc:<br />
 
 <a href="{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}" target="_blank">{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}</a>
 <br />
-(If the link above is not worked, please paste thist address manually into your browser address bar.)</p>
+(Jeśli nie działa, proszę skopiować link do pola adresu w przeglądarce internetowej.)</p>
 
-<p>After the above page open, enter a new password and submit a form, after then you can use your new password.
-You can change your password at any time in a user control panel.</p>
+<p>Po otwarciu strony, proszę wprowadzić nowe hasło i potwierdzić formularz. Dopiero wtedy będziesz
+mógł uzyskać dostęp do konta wpisując swoje nowe hasło.
+Pamiętaj, że hasło możesz zmienić kiedykolwiek podczas edycji własnego konta.</p>
 
-<p>This request was submitted from the IP address: {clientip}</p>
+<p>Żądanie zostało wysłane z adresu IP: {clientip}</p>
 
 
 <p>
-Sincerely yours,<br />
+Z poważaniem,<br />
 </p>
 <p>{bbname} management team.
 {siteurl}</p>',
@@ -123,32 +122,33 @@ Ekipa {bbname} .<br />
 {siteurl}</p>',
 
 
-	'add_member_subject'	=> 'You are added as a member',//'您被添加成为会员',
+	'add_member_subject'	=> 'Zostałeś dodany jako nowy użytkownik',//'您被添加成为会员',
 	'add_member_message'	=> '
 {newusername},
-This letter was sent from the {bbname}.<br />
+<p>Ta wiadomość została wysłana z serwisu {bbname}.</p><br />
 <br />
-I am {adminusername}, one of the managers at {bbname}.<br />
-You have received this message because you are just has been added as a member<br />
-at our forum, which is our current Email address you have registered.<br />
-<br />
-----------------------------------------------------------------------<br />
-Important!<br />
-----------------------------------------------------------------------<br />
-<br />
-If you are not interested in our Forum or do not intend to become a member, please ignore this message.<br />
+Witaj,
+Przedstawiam się jako {adminusername} i jestem jednym z administratorów w serwisie {bbname}.<br />
+Otrzymałeś tę wiadomość, ponieważ specjalnie dla Ciebie zostało utworzone nowe konto<br />
+na naszym forum, do którego przypisaliśmy właśnie ten adres Email.<br />
 <br />
 ----------------------------------------------------------------------<br />
-Your Account Information<br />
+Ważne!<br />
 ----------------------------------------------------------------------<br />
 <br />
-Forum Name: {bbname}<br />
-Forum URL: {siteurl}<br />
+Jeśli nie jesteś zainteresowany członkostwem na naszym forum, proszę zignorować tę wiadomość.<br />
 <br />
-User Name: {newusername}<br />
-Password: {newpassword}<br />
+----------------------------------------------------------------------<br />
+Informacje dotyczące konta<br />
+----------------------------------------------------------------------<br />
 <br />
-From now, you can use your account to log in to our forum, I wish you a pleasant to use!<br />
+Nazwa forum: {bbname}<br />
+Adres forum: {siteurl}<br />
+<br />
+Użytkownik: {newusername}<br />
+Hasło: {newpassword}<br />
+<br />
+Od teraz możesz użyć swojego konta, aby zalogować się na naszym forum, życzę przyjemności podczas Twoich odwiedzin!<br />
 <br />
 <br />
 <br />
@@ -173,45 +173,46 @@ Check for your email address and birthday in your profile.<br />
 This message will not be sent to this e-mail address, please ignore this  message.<br />
 <br />
 <br />
-Sincerely yours,
-<br />
-{bbname} management team.<br />
-{siteurl}',
+<p>
+Z poważaniem,<br />
 
-	'email_to_friend_subject'	=> '{$_G[member][username]} recommends you to visit: $thread[subject]',//'{$_G[member][username]} 推荐给您: $thread[subject]',
+Ekipa {bbname} .<br />
+{siteurl}</p>',
+
+	'email_to_friend_subject'	=> '{$_G[member][username]} polecił Tobie temat: $thread[subject]',//'{$_G[member][username]} 推荐给您: $thread[subject]',
 	'email_to_friend_message'	=> '<br />
-This letter was sent to you by {$_G[member][username]} from the site {$_G[setting][bbname]}.<br />
+Ta wiadomość została wysłana przez {$_G[member][username]} ze strony {$_G[setting][bbname]}.<br />
 <br />
-You have received this message because of {$_G[member][username]}<br />
-from the site {$_G[setting][bbname]} clicked the "Email to Friend" link<br />
-for recommend to you the following.<br />
-If you are not interested in this, please ignore this message.<br />
-You do not need to unsubscribe or other further action.<br />
+Otrzymałeś tę wiadomość, ponieważ użytkownik {$_G[member][username]}<br />
+ze strony {$_G[setting][bbname]} polecił Ci tę zawartość używając przycisku "poleć znajomym".<br />
+Polecamy przejrzenie wiadomości.<br />
+Jeśli nie jesteś zainteresowany, proszę zignorować tę wiadomość.<br />
+Ta wiadomość została wysłana dobrowolnie.<br />
 <br />
 ----------------------------------------------------------------------<br />
-Start of original message<br />
+Treść wiadomości<br />
 ----------------------------------------------------------------------<br />
 <br />
 $message<br />
 <br />
 ----------------------------------------------------------------------<br />
-End of the original message<br />
+Koniec wiadomości<br />
 ----------------------------------------------------------------------<br />
 <br />
-Please note that this letter was initiated by the forum user by "Email to a Friend" link!<br />
-Forum management team is not responsible for such messages.<br />
+Proszę pamiętać, że wiadomość została wysłana przez użytkownika naszego forum, który skorzystał z przycisku "poleć znajomym".<br />
+Ekipa forum nie odpowiada za treść umieszczoną w tej zawartości.<br />
 <br />
 <br />
-Welcome to {$_G[setting][bbname]}<br />
+Witaj na {$_G[setting][bbname]}<br />
 $_G[siteurl]',
 
-	'email_to_invite_subject'	=> 'Your friend {$_G[member][username]} invites you to register at {$_G[setting][bbname]}',//'您的朋友 {$_G[member][username]} 发送 {$_G[setting][bbname]} 论坛注册邀请码给您',
+	'email_to_invite_subject'	=> 'Twój znajomy {$_G[member][username]} zaprasza Cię do rejestracji na {$_G[setting][bbname]}',//'您的朋友 {$_G[member][username]} 发送 {$_G[setting][bbname]} 论坛注册邀请码给您',
 	'email_to_invite_message'	=> '<br />
 $sendtoname,<br />
-This letter was sent to you by {$_G[member][username]} from {$_G[setting][bbname]}.<br />
+Ta wiadomość została wysłana od {$_G[member][username]} z forum {$_G[setting][bbname]}.<br />
 <br />
-You have received this message because the user {$_G[member][username]} from {bbname}<br />
-sent you an invitation code, that enable you to register at our form,<br />
+Otrzymałeś tę wiadomość, ponieważ została ona wysłana przez {$_G[member][username]} z {bbname} .<br />
+Ta wiadomość zawiera kod zaproszenia, który upoważnia Cię do rejestracji na naszym forum,<br />
 and said additionally the following.<br />
 <br />
 !!! If you are not interested in this, please ignore this message.<br />

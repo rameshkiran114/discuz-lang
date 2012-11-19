@@ -14,76 +14,76 @@ if(!defined('IN_DISCUZ')) {
 $lang = array
 (
 
-	'EDT'	=> 'Edit',//'编辑',
+	'EDT'	=> 'Edytuj',//'编辑',
 
-	'DEL'	=> 'Delete',//'删除',
-	'DLP'	=> 'Delete reply',//'删除回复',
-	'DCM'	=> 'Delete comment',//'删除点评',
+	'DEL'	=> 'Usuń',//'删除',
+	'DLP'	=> 'Usuń odpowiedź',//'删除回复',
+	'DCM'	=> 'Usuń komentarz',//'删除点评',
 	'PRN'	=> 'Prune posts',//'批量删帖',
-	'UDL'	=> 'Undelete',//'反删除',
+	'UDL'	=> 'Przywróć',//'反删除',
 
-	'DIG'	=> 'Digest',//'加入精华',
-	'UDG'	=> 'Undigest',//'解除精华',
+	'DIG'	=> 'Wykop',//'加入精华',
+	'UDG'	=> 'Odkop',//'解除精华',
 	'EDI'	=> 'Limit digest',//'限时精华',
 	'UED'	=> 'Unlimit digest',//'解除限时精华',
 
-	'CLS'	=> 'Close',//'关闭',
-	'OPN'	=> 'Open',//'打开',
+	'CLS'	=> 'Zamknij',//'关闭',
+	'OPN'	=> 'Owtórz',//'打开',
 	'ECL'	=> 'Limit Close',//'限时关闭',
 	'UEC'	=> 'Unlimit close',//'解除限时关闭',
 	'EOP'	=> 'Limit open',//'限时打开',
 	'UEO'	=> 'Unlimit open',//'解除限时打开',
 
-	'STK'	=> 'Stick',//'置顶',
-	'UST'	=> 'Unstick',//'解除置顶',
+	'STK'	=> 'Przyklej',//'置顶',
+	'UST'	=> 'Odklej',//'解除置顶',
 	'EST'	=> 'Stick Time Limited',//'限时置顶',
 	'UES'	=> 'UnStick Time Limited',//'解除限时置顶',
 
-	'SPL'	=> 'Split',//'分割',
-	'MRG'	=> 'Merge',//'合并',
+	'SPL'	=> 'Podziel',//'分割',
+	'MRG'	=> 'Połącz',//'合并',
 
-	'HLT'	=> 'Highlight',//'设置高亮',
+	'HLT'	=> 'Wyróżnij',//'设置高亮',
 	'UHL'	=> 'Unhighlight',//'解除高亮',
 	'EHL'	=> 'Time-limited Highlight',//'限时高亮',
 	'UEH'	=> 'Remove time-limited Highlight',//'解除限时高亮',
 
-	'BMP'	=> 'Bump',//'提升',
-	'DWN'	=> 'Down',//'下沉',
+	'BMP'	=> 'Góra',//'提升',
+	'DWN'	=> 'Dół',//'下沉',
 
-	'MOV'	=> 'Move',//'移动',
-	'CPY'	=> 'Copy',//'复制',
-	'TYP'	=> 'Type',//'分类',
+	'MOV'	=> 'Przenieś',//'移动',
+	'CPY'	=> 'Kopiuj',//'复制',
+	'TYP'	=> 'Typ',//'分类',
 
 	'RFD'	=> 'Refund',//'强制退款',
 
 	'MOD'	=> 'Moderate',//'审核通过',
 
-	'ABL'	=> 'Add Blog',//'加入文集',
-	'RBL'	=> 'Remove Blog',//'移除文集',
+	'ABL'	=> 'Dodaj blog',//'加入文集',
+	'RBL'	=> 'Usuń blog',//'移除文集',
 
 	'PTS'	=> 'Push to stack',//'推送主题',
 	'RFS'	=> 'Restore from stack',//'解除推送',
 	'RMR'	=> 'Remove reward',//'取消悬赏',
-	'BNP'	=> 'Ban post',//'屏蔽帖子',
-	'UBN'	=> 'Unban post',//'解除屏蔽',
+	'BNP'	=> 'Zablokuj post',//'屏蔽帖子',
+	'UBN'	=> 'Odblokuj post',//'解除屏蔽',
 
-	'REC'	=> 'Recommend',//'推荐',
-	'URE'	=> 'Unrecommend',//'解除推荐',
+	'REC'	=> 'Poleć',//'推荐',
+	'URE'	=> 'Usuń polecenie',//'解除推荐',
 
-	'WRN'	=> 'Warn',//'警告',
-	'UWN'	=> 'Unwarn',//'解除警告',
+	'WRN'	=> 'Ostrzeż',//'警告',
+	'UWN'	=> 'Usuń ostrzeżenie',//'解除警告',
 
-	'SPA'	=> 'Add stamp',//'添加图章',
-	'SPD'	=> 'Remove stamp',//'撤销图章',
+	'SPA'	=> 'Dodaj pieczątkę',//'添加图章',
+	'SPD'	=> 'Usuń pieczątkę',//'撤销图章',
 
-	'SLA'	=> 'Add Icon',//'添加图标',
-	'SLD'	=> 'Remove Icon',//'撤销图标',
+	'SLA'	=> 'Dodaj ikonkę',//'添加图标',
+	'SLD'	=> 'Usuń ikonkę',//'撤销图标',
 
 	'REG'	=> 'Group recommend',//'群组推荐',
 
-	'PTA'	=> 'Generate Article',//'生成文章',
+	'PTA'	=> 'Wygeneruj artykuł',//'生成文章',
 
-	'MAG'	=> 'Magic',//'道具',
+	'MAG'	=> 'Magia',//'道具',
 
 	'REB'	=> 'Get promotion',//'推送',
 
