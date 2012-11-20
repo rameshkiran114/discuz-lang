@@ -16,18 +16,18 @@ $lang = "
 <ctnbtn>Kontynuuj</ctnbtn>
 <fileName>Nazwa pliku</fileName>
 <size>Rozmiar pliku</size>
-<stat>Postêp wysy³ania</stat>
-<browser>Wska¿</browser>
-<delete>Usuñ</delete>
-<return>Przywróæ</return>
-<upload>Wyœlij</upload>
-<okTitle>Wysy³anie ukoñczone</okTitle>
-<okMsg>Wysy³anie zosta³o ukoñczone sukcesem</okMsg>
-<uploadTitle>Wysy³anie...</uploadTitle>
-<uploadMsg1>£¹cznie</uploadMsg1>
-<uploadMsg2>Proszê czekaæ, trwe wysy³anie</uploadMsg2>
-<uploadMsg3>Plików</uploadMsg3>
-<bigFile>Plik jest za du¿y</bigFile>
-<uploaderror>Wysy³anie nie powiod³o siê</uploaderror>
+<stat>PostÄ™p wysyÅ‚ania</stat>
+<browser>WskaÅ¼</browser>
+<delete>UsuÅ„</delete>
+<return>PrzywrÃ³Ä‡</return>
+<upload>WyÂœlij</upload>
+<okTitle>WysyÅ‚anie ukoÅ„czone</okTitle>
+<okMsg>WysyÅ‚anie zostaÅ‚o ukoÅ„czone sukcesem</okMsg>
+<uploadTitle>WysyÅ‚anie...</uploadTitle>
+<uploadMsg1>ÅÅ¡cznie</uploadMsg1>
+<uploadMsg2>ProszÄ™ czekaÄ‡, trwe wysyÅ‚anie</uploadMsg2>
+<uploadMsg3>PlikÃ³w</uploadMsg3>
+<bigFile>Plik jest za duÅ¼y</bigFile>
+<uploaderror>WysyÅ‚anie nie powiodÅ‚o siÄ™</uploaderror>
 ";
 
