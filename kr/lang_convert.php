@@ -24,9 +24,9 @@ $lang = array(
 	'config_write_error'	=> '전환프로그램의 data/ 디렉토리 쓰기 권한이 없습니다, 777 권한을 설정,이 디렉토리는 쓰기 권한이 있는지 확인하십시오',//'转换程序的 data/ 目录不可写,请确保此目录的可写权限,设置 777 属性',
 
 	'config_save'		=> '서버세팅저장',//'保存服务器设置',
-	'config_usergroup'	=> '사용자그룹세팅',//'用户组配置',
+	'config_usergroup'	=> '사용그룹세팅',//'用户组配置',
 	'config_from_usergroup'	=> '소스 사용자 그룹',//'来源用户组',
-	'config_target_usergroup'	=> '목표사용자그룹',//'目标用户组',
+	'config_target_usergroup'	=> '목표사용그룹',//'目标用户组',
 	'config_extcredits'	=> '포인트배치',//'积分配置',
 	'config_credit'		=> '포인트',//'积分',
 	'config_from_credit'	=> '소스 포인트',//'来源积分',
@@ -34,7 +34,7 @@ $lang = array(
 	'config_experience'	=> '경험치',//'经验值',
 	'config_convert_forum'	=> '포럼 데이터 변환 설정',//'数据转换配置',
 	'config_from_data'	=> '소스 데이터',//'源数据',
-	'config_target_forum'	=> '목표 포럼판',//'目标版块',
+	'config_target_forum'	=> '목표 토론장',//'目标版块',
 	'config_poll'		=> '투표',//'投票',
 	'config_event'		=> '이벤트',//'活动',
 	'config_auto_create'	=> '자동생성',//'自动创建',
@@ -154,7 +154,7 @@ $lang = array(
 	'am'	=> ' AM ',//'上午',
 	'pm'	=> ' PM ',//'下午',
 
-	'prompt'		=> '시스템 알림.',//'系统提示',
+	'prompt'		=> '시스템 통지서.',//'系统提示',
 	'dzx_update'		=> 'Discuz!X 시리즈 제품 업그레이드 전환.',//'Discuz! X 系列产品升级转换',
 	'dzx_update_wizard'	=> 'Discuz!X 시리즈 제품 업그레이드/전환 가이드.',//'Discuz! X 系列产品升级/转换 向导',
 	'step1'		=> '1. 제품 전환프로그램을 선택하여 주세요.',//'1.选择产品转换程序',
@@ -168,7 +168,7 @@ $lang = array(
 
 	'continue_convert_table '	=> '계속해서 데이터 테이블 변환 ',//'继续转换数据表 ',
 	'was_converted'			=> '. 이미 변환: ',//', 已转换 ',
-	'records'			=> '기록',//'条记录',
+	'records'			=> '기록9',//'条记录',
 
 
 //---------------------------
@@ -211,7 +211,7 @@ $lang = array(
 
 	'user_magic'	=> ' 사용자 아이템',//'用户道具',
 	'magic_records'	=> '아이템 수입 기록',//'道具收入记录',
-	'magic_use_records'	=> '아디템 사용 기록',//'道具使用记录',
+	'magic_use_records'	=> '아디템 사용 내역',//'道具使用记录',
 
 //---------------------------
 //convert/source/uch2.0_x1.0/table/home_poll.php++

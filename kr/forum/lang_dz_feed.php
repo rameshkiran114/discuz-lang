@@ -14,7 +14,7 @@ $lang = array
 
 	'feed_thread_digest_title'	=> '{actor} 님 등록한 글 {subject} 을 {operater}가 추천하였습니다.',
 
-	'feed_thread_highlight_title'	=> '{actor} 님 등록한 글 {subject} 을 {operater}가 환하게 하였습니다.',
+	'feed_thread_highlight_title'	=> '{actor} 님 등록한 글 {subject} 을 {operater}가 밝게 하였습니다.',
 
 	'feed_thread_del_title'		=> '{actor} 님 등록한 글 {subject} 을 {operater}가 삭제하였습니다.',
 
@@ -22,17 +22,17 @@ $lang = array
 
 	'feed_thread_views_title'	=> '{actor} 님 등록한 글 {subject} 이 조회수{count}을(를) 초과하였습니다.',
 
-	'feed_thread_replies_title'	=> '{actor} 님 등록한 글 {subject} 의 답글수가 {count}을(를) 초과하였습니다.',
+	'feed_thread_replies_title'	=> '{actor} 님 등록한 글 {subject} 의 리필수가 {count}을(를) 초과하였습니다.',
 
-	'feed_thread_rate_title'	=> '{actor} 님 등록한 글 {subject} 의 평점이 {count}을(를) 초과하였습니다.',
+	'feed_thread_rate_title'	=> '{actor} 님 등록한 글 {subject} 의 채점이 {count}을(를) 초과하였습니다.',
 
 	'feed_thread_magic_title'	=> '{actor} 님 등록한 글 {subject} 에 {operater} 님이 {magiccard} 을(를) 사용하였습니다.',
 
 	'feed_thread_recommend_title'	=> '{actor} 님 등록한 글 {subject} 이 관리자님이 추천하였습니다.',
 
-	'feed_post_rate_title'		=> '{actor}님의  {thread}에 대한 평점이 {count}을(를) 초과하였습니다.',
+	'feed_post_rate_title'		=> '{actor}님의  {thread}에 대한 채점이 {count}을(를) 초과하였습니다.',
 
-	'feed_post_magic_title'		=> '{actor}님의 답글 {thread}에 {operater}님이 {magiccard} 을(를) 사용하였습니다.',
+	'feed_post_magic_title'		=> '{actor}님의 리필 {thread}에 {operater}님이 {magiccard} 을(를) 사용하였습니다.',
 
 	'feed_user_profile_title'	=> '{actor} 님이 개인정보를 수정하였습니다.',
 
@@ -42,7 +42,7 @@ $lang = array
 
 	'feed_user_threads_title'	=> '{actor}님이 등록한 글수가 {count}개 되였습니다.',
 
-	'feed_user_posts_title'		=> '{actor}님이 등록한 주제수가 {count}개 되였습니다.',
+	'feed_user_posts_title'		=> '{actor}님이 등록한 덧글수가 {count}개 되였습니다.',
 
 	'feed_user_digest_title'	=> '{actor}님이 추천글수가 {count}개 되였습니다.',
 

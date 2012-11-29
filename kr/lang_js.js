@@ -23,7 +23,11 @@ var emaildomains = [
 		'msn.com',
 		'qq.com',
 		'yahoo.cn',
-		'yahoo.com'
+		'yahoo.com',
+		'daum.net',
+		'naver.com',
+		'nate.com',
+		'empas.com'
 		];
 
 //--------------------------------
@@ -95,7 +99,7 @@ var lng = {
 	'cut_manually'		: '브라우저가 자동으로 자르기를 허용하지 않습니다. 키보드에서 단축키 (Ctrl X)를 이용하세요.',//'您的浏览器安全设置不允许编辑器自动执行剪切操作,请使用键盘快捷键(Ctrl+X)来完成',
 	'copy_manually'		: '브라우저가 자동으로 복사를 허용하지 않습니다. 키보드 단축기 (Ctrl C)를 이용하세요.',//'您的浏览器安全设置不允许编辑器自动执行拷贝操作,请使用键盘快捷键(Ctrl+C)来完成',
 	'paste_manually'	: '브라우저가 자동으로 복사를 허용하지 않습니다.키보드 단축키 (Ctrl V)를 이용하세요.',//'您的浏览器安全设置不允许编辑器自动执行粘贴操作,请使用键盘快捷键(Ctrl+V)来完成',
-	'graffiti_no_init'	: 'Graffiti 초기화 데이터를 찾을 수 없습니다.',//'找不到涂鸦板初始化数据',
+	'graffiti_no_init'	: '그라피티 초기화 데이터를 찾을 수 없습니다.',//'找不到涂鸦板初始化数据',
 	'ie5_only'		: 'IE 5.01 이후 버전만 지원합니다.',//'只支持IE 5.01以上版本',
 	'edit_raw'		: '원본 파일 수정',//'编辑源码',
 	'plain_text_warn'	: '플레인 텍스트로 변경하면 포맷이 상실됩니다.!\n계속하겠습니까?',//'转换为纯文本时将会遗失某些格式。\n您确定要继续吗？',
@@ -172,7 +176,7 @@ var lng = {
 	'actual_size'		: '실케 크기',//'实际大小',
 	'close'			: '닫기',//'关闭',
 	'wheel_zoom'		: '마우스 휠을 이용하여 이미지 확대.축소',//'鼠标滚轮缩放图片',
-	'reminder'		: '알림',//'提示信息',
+	'reminder'		: '통지서',//'提示信息',
 	'submit'		: '확인',//'确定',
 	'cancel'		: '취소',//'取消',
 	'wait_please'		: '불러오는중...',//'请稍候...',
@@ -189,15 +193,15 @@ var lng = {
 	'year1'			: '1 년',//'一年',
 	'custom'		: '임의 입력',//'自定义',
 	'permanent'		: '영구',//'永久',
-	'show_all_expr'		: '모든 표정 보기',//'显示所有表情',
+	'show_all_expr'		: '모든 이모티콘 보기',//'显示所有表情',
 	'page_prev'		: '이전 페이지',//'上页',
 	'page_next'		: '다음 페이지',//'下页',
 	'copy2clipboard'	: '클립보드에 복사',//'点此复制到剪贴板',
 // ATTENTION!
 // The next line must have the same value as in /template.php - 'enter_content' !!!
 	'enter_search_string'	: '검색어 입력',//'请输入搜索内容',
-	'refresh_q&a'		: 'Q&A 갱신',//'刷新验证问答',
-	'refresh_code'		: 'Code 갱신',//'刷新验证码',
+	'refresh_q&a'		: '인증문답 보기',//'刷新验证问答',
+	'refresh_code'		: '인증넘버 보기',//'刷新验证码',
 	'code_invalid'		: '보안 코드가 틀렸습니다. 다시 입력하세요.',//'验证码错误，请重新填写',
 	'q&a_invalid'		: '틀린 답입니다. 다시 입력하세요.',//'验证问答错误，请重新填写',
 	'code_clipboard'	: '코드가 클립보드에 복사되었습니다.',//'代码已复制到剪贴板',
@@ -209,8 +213,8 @@ var lng = {
 	'narrow_screen'		: '좁은 화면',//'切换到窄版',
 	'wide_screen'		: '넓은 화면',//'切换到宽版',
 	'logging_wait'		: '로그인중, 잠시 기다리세요...',//'登录中，请稍后...',
-	'notices_no'		: '[　　　]',//'【　　　】',
-	'notices_yes'		: '[새]',//'【新提醒】',
+	'notices_no'		: '【　  】',//'【　　　】',
+	'notices_yes'		: '【통지서】',//'【新提醒】',
 	'sec_after_win_closed'	: ' 초후 창이 닫힙니다.',//' 秒后窗口关闭',
 	'sec_after_page_jump'	: ' 초후 이전 페이지로 돌아갑니다.',//' 秒后页面跳转',
 	'jump_now'		: '지금 이동',//'立即跳转',
@@ -248,17 +252,17 @@ var lng = {
 	'data_restored'		: '데이터가 복구되었습니다.',//'数据已恢复',
 	'data_saved'		: '데이터 저장됨',//'数据已保存',
 	'clear_all_sure'	: '모든 내용을 지우겠습니까?',//'您确认要清除所有内容吗？',
-	'hide_content'		: '내용 숨기기',//'请输入要隐藏的信息内容',
-	'free_content'		: '가격을 설정하지 않으면 입력한 정보는 무료로 볼 수 있습니다.',//'如果您设置了帖子售价，请输入购买前免费可见的信息内容',
-	'when_thread_replied'	: '이 글에 답글을 단 사람에게만 보임',//'只有当浏览者回复本帖时才显示',
-	'when_points_more'	: '포인트가 이 이상인 사람에게만 보임',//'只有当浏览者积分高于',
-	'when_show'		: '열람 시간',//'时才显示',
-	'table_rows'		: '테이블 가로열',//'表格行数',
-	'table_columns'		: '테이블 세로열',//'表格列数',
-	'table_width'		: '테이블 넓이: ',//'表格宽度: ',
+	'hide_content'		: '숨김할 내용 입력.',//'请输入要隐藏的信息内容',
+	'free_content'		: '게시물 가격 설정시 구매전 무료보기 가능한 부분을 입력하세요.',//'如果您设置了帖子售价，请输入购买前免费可见的信息内容',
+	'when_thread_replied'	: '리필 단 사람에게만 보임',//'只有当浏览者回复本帖时才显示',
+	'when_points_more'	: '포인트가',//'只有当浏览者积分高于',
+	'when_show'		: '이상인 사용자에게만 보임',//'时才显示',
+	'table_rows'		: '가로열',//'表格行数',
+	'table_columns'		: '세로열',//'表格列数',
+	'table_width'		: '넓이: ',//'表格宽度: ',
 	'bg_color'		: '배경색',//'背景颜色',
 	'table_intro0'		: '빠른 작성 팁',//'快速书写表格提示',
-	'table_intro1'		: '&quot;[tr=color]&quot; 가로열 배경색 지정<br />&quot;[td=Width]&quot; 세로열 넓이 지정<br />&quot;[td=Column_Span,Row_Span,Width]&quot; 가로열/세로열 띄어쓰기와 넓이 지정<br /><br /빠른 테이블 작성예: ',//'“[tr=颜色]” 定义行背景<br />“[td=宽度]” 定义列宽<br />“[td=列跨度,行跨度,宽度]” 定义行列跨度<br /><br />快速书写表格范例：',
+	'table_intro1'		: '&quot;[tr=색상]&quot; 가로열 배경색 지정<br />&quot;[td=넓이]&quot; 세로열 넓이 지정<br />&quot;[td=열 범위,행 범위,넓이]&quot; 행열 띄어쓰기와 넓이 지정<br /><br /빠른 테이블 작성예: ',//'“[tr=颜色]” 定义行背景<br />“[td=宽度]” 定义列宽<br />“[td=列跨度,行跨度,宽度]” 定义行列跨度<br /><br />快速书写表格范例：',
 	'table_intro2'		: '[table]<br />이름:|Discuz!<br />버전:|X1.5<br />[/table]',//'[table]<br />Name:|Discuz!<br />Version:|X1<br />[/table]',
 	'table_intro3'		: '사용 &quot;|&quot; 가로열 분리, 만일 &quot;|&quot; 문자가 데이터 내에 있으면 ,  &quot;\\|&quot;로 바꾸어 주고, &quot;\\n&quot;로 분리하세요.',//'用“|”分隔每一列，表格中如有“|”用“\\|”代替，换行用“\\n”代替。',
 	'audio_url'		: '음악 파일의 URL 입력',//'请输入音乐文件地址',
@@ -278,7 +282,7 @@ var lng = {
 	'autosave_disable'	: '지동 저장 끄기',//'点击关闭自动保存',
 	'autosave_enabled'	: '자동 저장 기능이 켜짐',//'数据自动保存已开启',
 	'autosave_disabled'	: '자동 저장 기능이 꺼짐',//'数据自动保存已关闭',
-	'data_saved_at'		: '데이터 저장 시간',//'数据已于',
+	'data_saved_at'		: '데이터 이미',//'数据已于',
 	'saved_time'		: '저장',//NOT REQUIRED IN ENGLISH!//'保存',
 	'sec_before_saving'	: '초후 자동 저장됨',//'秒后保存',
 	'insert_quote'		: '인용부호 삽입',//'请输入要插入的引用',
@@ -291,15 +295,15 @@ var lng = {
 	'flash_support'		: '지원 플레시 포멧: swf flv <br />예: http://server/flash.swf',//'支持 swf flv 等 Flash 网址<br />示例: http://server/flash.swf',
 	'paste_from_word'	: '워드로부터 붙여넣을 내용 입력',//'从 Word 粘贴内容',
 	'paste_word_tip'	: '워드 문서로부터 붙여넣기 위해 단축키 (Ctrl + V)를 사용하세요.',//'请通过快捷键(Ctrl+V)把 Word 文件中的内容粘贴到上',
-	'show_tips'		: '알림',//'友情提示',
+	'show_tips'		: '통지서',//'友情提示',
 	'expire_days'		: '유효일자 (days)',//'有效天数',
-	'expire_days_invalid'	: '발포일자가 이 날자수를 넘으면 테그 자동 무효.',//'距离发帖日期大于这个天数时标签自动失效',
+	'expire_days_invalid'	: '이상 일 지난 후 태그 자동무효.',//'距离发帖日期大于这个天数时标签自动失效',
 //--------------------------------
 //static/js/forum.js
 
 	'del_thread_sure'	: '인기글에서 이 글을 삭제하겠습니까?',//'您确认要把此主题从热点主题中移除么？',
 	'there_are'		: '유 ',//'有',
-	'new_reply_exists'	: '새 답글이 달렸습니다. 보시려면 클릭하세요',//'有新回复的主题，点击查看',
+	'new_reply_exists'	: '새 리필이 달렸습니다. 보시려면 클릭하세요',//'有新回复的主题，点击查看',
 //--------------------------------
 //static/js/forum_google.js
 
@@ -324,12 +328,12 @@ var lng = {
 	'invalid_file'		: '불법적인 파일은 올릴 수 없습니다.',//'没有合法的文件被上传',
 	'illegal_operation'	: '잘못된 조작임',//'非法操作',
 	'enter_content'		: '제목이나 내용을 입력하세요.',//'请完成标题或内容栏',
-	'select_category'	: '글 분류를 선택하세요.',//'请选择主题对应的分类',
+	'select_category'	: '글 카테고리를 선택하세요.',//'请选择主题对应的分类',
 	'select_category_info'	: '글 정보에 적당한 분류를 입력하세요.',//'请选择主题对应的分类信息',
 	'title_long'		: '제목 길이는 255자를 초과할 수 없습니다.',//'您的标题超过 80 个字符的限制',
 	'content_long'		: '내용 길이가 요구 조건을 충족하지 않습니다.\n\n',//'您的帖子长度不符合要求。\n\n',
 	'ignore_pending_attach'	: '아직 사용하지 않은 첨부 파일이 있습니다. 무시하겠습니까?',//'您有等待上传的附件，确认不上传这些附件吗？',
-	'still_uploading'	: '아직 업로드 중인 파일이 있씁니다. 잠시 기다리세요. 업로드가 완료되면 글이 자동을 발행됩니다...',//'您有正在上传的附件，请稍候，上传完成后帖子将会自动发表...',
+	'still_uploading'	: '아직 업로드 중인 파일이 있습니다. 잠시만 기다려 주세요. 완료되면 글은 자동 게시됩니다...',//'您有正在上传的附件，请稍候，上传完成后帖子将会自动发表...',
 	'no_data_recover'	: '복구할 데이터가 없습니다!',//'没有可以恢复的数据！',
 	'content_overwrite'	: '경고:\n현재 내용이 저장된 내용으로 바뀝니다!\n그래도 데이터를 복구하시겠습니까?',//'此操作将覆盖当前帖子内容，确定要恢复数据吗？',
 	'upload_finished'	: '업로드 완료!',//'附件上传完成！',
@@ -361,14 +365,14 @@ var lng = {
 //--------------------------------
 //static/js/forum_viewthread.js
 
-	'best_answer_sure'	: '이 글을 베스트 답글로 선정하겠습니까?',//'您确认要把该回复选为“最佳答案”吗？',
-	'premoderated'		: '이 분류의 답글은 인증이 필요합니다. 인증된 후에 글이 표시됩니다.',//'本版回帖需要审核，您的帖子将在通过审核后显示',
+	'best_answer_sure'	: '이 글을 베스트 리필로 선정하겠습니까?',//'您确认要把该回复选为“最佳答案”吗？',
+	'premoderated'		: '이 분류의 리필은 인증이 필요합니다. 인증된 후에 글이 표시됩니다.',//'本版回帖需要审核，您的帖子将在通过审核后显示',
 	'credit_confirm1'	: '다운로드 가격 ',//'下载需要消耗',
 	'credit_confirm2'	: ' 포인트, 다운로드 받겠습니까?',//'，您是否要下载？',
 	'thread_to_clipboard'	: '글 주소가 클립보드에 복사되었습니다.',//'帖子地址已经复制到剪贴板',
 	'click_to_enlarge'	: '확장하려면 클릭하세요',//'点击放大',
-	'notify_on_reply'	: '답글 알림 받기',//'接收回复通知',
-	'notify_on_reply_cancel'	: '답글 알림 취소',//'取消回复通知',
+	'notify_on_reply'	: '리필 통지서 받기',//'接收回复通知',
+	'notify_on_reply_cancel'	: '리필 통지서 취소',//'取消回复通知',
 	'share_connection_failed'	: '공유 연결 실패, 나중에 다시 시도하세요.',//'分享服务连接失败，请稍后再试',
 	'qq_bind'		: '당신의  QQ 계정과 연결하세요.',//'请先绑定QQ账号',
 	'quote_by'		: '인용 by .*? in .*? code',//'本帖最后由 .*? 于 .*? 编辑',
@@ -386,7 +390,7 @@ var lng = {
 	'unhandled_error'	: 'Unhandled Error',//'',
 	'upload_progress'	: '업로드 중입니다. ',//'正在上传',
 	'upload_cancelled'	: '취소',//'取消上传',
-	'file_description'	: '이미지 묘사',//'图片描述',
+	'file_description'	: '이미지 설명',//'图片描述',
 	'image_upload_failed'	: '이미지 업로드 실패',//'图片上传失败',
 	'upload_failed'		: '업로드 실패',//'上传失败',
 	'upload_completed'	: '업로드 완성.',//'上传完成.',
@@ -442,8 +446,8 @@ var lng = {
 	'leave_message'		: '이제 메세지를 남길 수 있습니다.',//'给TA留言',
 	'or'			: '또는',//'或者',
 	'send_greeting'		: '인사를 보낼 수 있습니다.',//'打个招呼',
-	'reply'			: '답글',//'回复',
-	'comment'		: '코멘트',//'评论',
+	'reply'			: '리필',//'回复',
+	'comment'		: '논평',//'评论',
 	'close_list'		: '목록 닫기',//'收起列表',
 	'more_feeds'		: '더 보기',//'更多动态',
 
@@ -502,7 +506,7 @@ var lng = {
 	'title'			: '제목',//'标题',
 	'attribute'		: '속성',//'属性',
 	'data'			: '데이터',//'数据',
-	'update'		: '갱신',//'更新',
+	'update'		: '업데이트',//'更新',
 	'export'		: '내보내기',//'导出',
 	'repeat'		: '반복',//'平铺',
 	'no_repeat'		: '반복안함',//'不平铺',
@@ -543,7 +547,7 @@ var lng = {
 	'modified_import'	: '내용을 수정을 했습니다. 저장 후에 불러 오세요. 그렇지 않으면 이번에는 수정내용이 반영되지 않습니다.',//'您已经做过修改，请保存后再做导出，否则导出的数据将不包括您这次所做的修改。',
 	'total'			: '총 ',//'共',
 	'blocks'		: '블럭',//'个模块',
-	'updating_the'		: '갱신번호 #',//'正在更新第',
+	'updating_the'		: '업데이트번호 #',//'正在更新第',
 	'done'			: '완료',//'已完成',
 	'start_updating'	: '업데이트 시작...',//'开始更新...',
 	'update_block_data'	: '블럭 데이터 업데이트',//'更新模块数据',
@@ -575,7 +579,7 @@ var lng = {
 	'username_invalid'	: '이름에 적합하지 않은 문자가 있습니다.',//'用户名包含敏感字符',
 	'username_short'	: '이름은 최소 3자 이상이어야 합니다.',//'用户名小于 3 个字符',
 	'username_long'		: '이름은 최대 15자 이하여야 합니다.',//'用户名超过 15 个字符',
-	'passwords_not_equal'	: '두 비밀번호가 같지 않습니다.',//'两次输入的密码不一致',
+	'passwords_not_equal'	: '두번 입력하신 비밀번호가 일치하지 않습니다.',//'两次输入的密码不一致',
 	'email_invalid'		: '이메일 주소에 적합하지 않은 문자가 있습니다.',//'Email 包含敏感字符',
 	'invite_code_invalid'	: '초대 코드에 적합하지 않은 문자가 있습니다.',//'邀请码包含敏感字符',
 	'password_fill'		: '비밀번호를 입력하세요',//'请填写密码',
@@ -589,10 +593,10 @@ var lng = {
 	'pw_strong'		: '강',//'强',
 	'pass_short'		: '비밀번호가 너무 짧습니다. 최소',//'密码太短，不得少于 ',
 	'digital'		: '수자',//'数字',
-	'lowercase'		: '소문자',//'小写字母',
+	'lowercase'		: '소문자 포함된 조합으로 입력하여 주세요.',//'小写字母',
 	'capitals'		: '대문자',//'大写字母',
 	'specials'		: '특수기호',//'特殊符号',
-	'pw_weak_info'		: '비밀번호가 너무 약합니다, 필히 ',//'密码太弱，密码中必须包含 ',
+	'pw_weak_info'		: '비밀번호가 약합니다, ',//'密码太弱，密码中必须包含 ',
 
 //--------------------------------
 //static/js/seditor.js
@@ -611,7 +615,7 @@ var lng = {
 //---------------------------
 //static/js/swfupload.js
 
-	'attach_file'		: 'Attachment',
+	'attach_file'		: '첨부파일',
 
 //---------------------------
 //static/js/threadsort.js

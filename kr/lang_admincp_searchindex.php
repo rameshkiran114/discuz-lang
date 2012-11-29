@@ -102,11 +102,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      '방송세팅' => 'action=setting&operation=follow',
+      '팔로우세팅' => 'action=setting&operation=follow',
     ),
     'text' =>
     array (
-      0 => '방송세팅',
+      0 => '팔로우세팅',
     ),
   ),
   9 =>
@@ -388,11 +388,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      '컬렉션관리' => 'action=collection',
+      '파트리관리' => 'action=collection',
     ),
     'text' =>
     array (
-      0 => '컬렉션관리',
+      0 => '파트리관리',
     ),
   ),
   35 =>
@@ -531,22 +531,22 @@ $lang = array (
   array (
     'index' =>
     array (
-      '답글회수역' => 'action=recyclebinpost',
+      '리필회수역' => 'action=recyclebinpost',
     ),
     'text' =>
     array (
-      0 => '답글회수역',
+      0 => '리필회수역',
     ),
   ),
   48 =>
   array (
     'index' =>
     array (
-      '포럼판/그룹置顶' => 'action=threads&operation=forumstick',
+      '토론장/그룹置顶' => 'action=threads&operation=forumstick',
     ),
     'text' =>
     array (
-      0 => '포럼판/그룹置顶',
+      0 => '토론장/그룹置顶',
     ),
   ),
   49 =>
@@ -597,11 +597,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      '일지관리' => 'action=blog',
+      '포스트관리' => 'action=blog',
     ),
     'text' =>
     array (
-      0 => '일지관리',
+      0 => '포스트관리',
     ),
   ),
   54 =>
@@ -718,22 +718,22 @@ $lang = array (
   array (
     'index' =>
     array (
-      '알림발송' => 'action=members&operation=newsletter',
+      '통지서발송' => 'action=members&operation=newsletter',
     ),
     'text' =>
     array (
-      0 => '알림발송',
+      0 => '통지서발송',
     ),
   ),
   65 =>
   array (
     'index' =>
     array (
-      '모바일알림 발송' => 'action=members&operation=newsletter&do=mobile',
+      '모바일통지서 발송' => 'action=members&operation=newsletter&do=mobile',
     ),
     'text' =>
     array (
-      0 => '모바일알림 발송',
+      0 => '모바일통지서 발송',
     ),
   ),
   66 =>
@@ -806,11 +806,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      '사용자그룹' => 'action=usergroups',
+      '사용그룹111' => 'action=usergroups',
     ),
     'text' =>
     array (
-      0 => '사용자그룹',
+      0 => '사용그룹',
     ),
   ),
   73 =>
@@ -971,11 +971,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      '일지분류' => 'action=blogcategory',
+      '포스트분류' => 'action=blogcategory',
     ),
     'text' =>
     array (
-      0 => '일지분류',
+      0 => '포스트분류',
     ),
   ),
   88 =>
@@ -993,22 +993,22 @@ $lang = array (
   array (
     'index' =>
     array (
-      '포럼판관리' => 'action=forums',
+      '토론장관리' => 'action=forums',
     ),
     'text' =>
     array (
-      0 => '포럼판관리',
+      0 => '토론장관리',
     ),
   ),
   90 =>
   array (
     'index' =>
     array (
-      '포럼판합병' => 'action=forums&operation=merge',
+      '토론장합병' => 'action=forums&operation=merge',
     ),
     'text' =>
     array (
-      0 => '포럼판합병',
+      0 => '토론장합병',
     ),
   ),
   91 =>
@@ -1059,22 +1059,22 @@ $lang = array (
   array (
     'index' =>
     array (
-      '군주권한' => 'action=group&operation=userperm',
+      '회장권한' => 'action=group&operation=userperm',
     ),
     'text' =>
     array (
-      0 => '군주권한',
+      0 => '회장권한',
     ),
   ),
   96 =>
   array (
     'index' =>
     array (
-      '그룹등급' => 'action=group&operation=level',
+      '그룹사용그룹' => 'action=group&operation=level',
     ),
     'text' =>
     array (
-      0 => '그룹등급',
+      0 => '그룹사용그룹',
     ),
   ),
   97 =>
@@ -1499,11 +1499,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      '글 분류' => 'action=postsplit&operation=manage',
+      '글 카테고리' => 'action=postsplit&operation=manage',
     ),
     'text' =>
     array (
-      0 => '글 분류',
+      0 => '글 카테고리',
     ),
   ),
   136 =>
@@ -1931,7 +1931,7 @@ $lang = array (
       11 => '日志 ID',
       12 => '多日志 ID 中间请用半角逗号 "," 隔开',
       13 => 'blog_search_user',
-      14 => '发表日志用户名',
+      14 => '포스팅 사용자명',
       15 => '多用户名中间请用半角逗号 "," 隔开',
       16 => 'blog_search_keyword',
       17 => '标题或内容关键字',
@@ -3965,7 +3965,7 @@ $lang = array (
       37 => '开启后系统会发一条注册的地址到用户的邮箱，从该地址链接过来的允许注册，同时建议UCenter中开启一个邮箱只允许注册一个帐户注意：只有在站长 - 邮件设置中完成邮件设置，确保邮件能发送成功下可以开启该功能 ',
       38 => 'setting_access_register_link_name',
       39 => '注册链接文字',
-      40 => '设置站点注册页的链接文字，默认为“立即注册”',
+      40 => '设置站点注册页的链接文字，默认为“가입하기”',
       41 => 'setting_access_register_censoruser',
       42 => '用户信息保留关键字',
       43 => '用户在其用户信息中无法使用这些关键字。每个关键字一行，可使用通配符 "*" 如 "*版主*"(不含引号)',
@@ -6305,9 +6305,9 @@ $lang = array (
       4 => '空间大小(单位M)',
       5 => '设置最大空间尺寸(单位M)，0 为不限制',
       6 => 'usergroups_edit_home_allow_blog',
-      7 => '发表日志',
+      7 => '포스팅',
       8 => 'usergroups_edit_home_allow_blog_mod',
-      9 => '发表日志需要审核',
+      9 => '포스팅은 심사를 거쳐야 합니다.',
       10 => 'usergroups_edit_home_allow_doing',
       11 => '发表记录',
       12 => 'usergroups_edit_home_allow_doing_mod',

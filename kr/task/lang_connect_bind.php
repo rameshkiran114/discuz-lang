@@ -20,8 +20,8 @@ $lang = array
 */
 	'connect_bind_view'	=> '<strong>다음 설명에 따라 미션을 완성해 주시기 바랍니다:</strong>
 		<ul>
-		<li>1. <a href="connect.php?mod=config" target="_blank">QQ계정 설정 새 창으로</a></li>
-		<li>2. 새 창에서 "QQ계정 바인딩"버튼을 클릭하시고 QQ계정과 비밀번호를 입력하시면 바인딩 작업이 완료 됩니다.</li>
+		<li>1. <a href="connect.php?mod=config" target="_blank">QQ계정 바인딩 페이지로 이동 하세요.</a></li>
+		<li>2. "QQ계정 바인딩"버튼을 클릭하시고 QQ계정과 비밀번호를 입력하시면 바인딩 완료 됩니다.</li>
 		</ul>',
 );
 

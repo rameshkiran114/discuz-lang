@@ -207,7 +207,7 @@ $message<br />
 $_G[siteurl]',
 
 
-	'moderate_member_subject'	=> '사용자 심사결과 알림.',//'用户审核结果通知',
+	'moderate_member_subject'	=> '사용자 심사결과 통지서.',//'用户审核结果通知',
 	'moderate_member_message'	=> '<br />
 <p>{username},
 본 메일은 {bbname}에서 발송 된겁니다.</p>

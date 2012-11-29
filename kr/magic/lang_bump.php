@@ -18,6 +18,6 @@ $lang = array
 	'bump_succeed'		=> '회원님의 글이 성공적으로 업그레이드 되었습니다.',
 	'bump_info_noperm'	=> '게시판의 글에서 아이템 사용을 허용되지 않습니다',
 
-	'bump_notification'	=> '귀하의 주제 "{subject}"에 {actor}님이 "{magicname}" 아이템을 사용했습니다. <a href="forum.php?mod=viewthread&tid={tid}">보거가기!</a>',//'你的主题 {subject} 被 {actor} 使用了{magicname}，<a href="forum.php?mod=viewthread&tid={tid}">快去看看吧！</a>',
+	'bump_notification'	=> '귀하의 덧글 "{subject}"에 {actor}님이 "{magicname}" 아이템을 사용했습니다. <a href="forum.php?mod=viewthread&tid={tid}">보거가기!</a>',//'你的主题 {subject} 被 {actor} 使用了{magicname}，<a href="forum.php?mod=viewthread&tid={tid}">快去看看吧！</a>',
 );
 

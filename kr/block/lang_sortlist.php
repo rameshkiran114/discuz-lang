@@ -9,7 +9,7 @@
 
 $lang = array
 (
-	'sortlist_fids'			=> '포럼판',//'所在版块',
+	'sortlist_fids'			=> '토론장',//'所在版块',
 	'sortlist_fids_comment'		=> 'Set the forums can be called, you can use CTRL to select forums',//'设置允许参与新帖调用的版块，可以按住 CTRL 多选，全选或全不选均为不做限制',
 	'sortlist_startrow'		=> 'Start Row',//'起始数据行数',
 	'sortlist_startrow_comment'	=> 'If you need to set start row, please enter a number, 0 is the first row',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',

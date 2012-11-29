@@ -9,17 +9,17 @@
 
 $lang = array
 (
-	'tradelist_fids'		=> '포럼판',//'所在版块',
-	'tradelist_fids_comment'	=> '새 게시물 호출 허용 포럼판 설정. CTRL누르고 복수 선택 가능.모두 선택 또는 모두 비 서택시 제한 없음.',//'设置允许参与新帖调用的版块，可以按住 CTRL 多选，全选或全不选均为不做限制',
+	'tradelist_fids'		=> '토론장',//'所在版块',
+	'tradelist_fids_comment'	=> '새 게시물 호출 허용 토론장 설정. CTRL누르고 복수 선택 가능.모두 선택 또는 모두 비 서택시 제한 없음.',//'设置允许参与新帖调用的版块，可以按住 CTRL 多选，全选或全不选均为不做限制',
 	'tradelist_uids'		=> '사용자 ID',//'用户UID',
 	'tradelist_uids_comment'	=> '표시하려는 지정 사용자 UID 설정,","로 띄워쓰기.',//'设置要指定显示的用户UID，多个 UID 请用半角逗号“,”隔开。',
 	'tradelist_startrow'		=> '시작 행',//'起始数据行数',
 	'tradelist_startrow_comment'	=> '시작 행을 설정하시려면 행 순위 수자를 입력,0은 첫 행 의미.',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
 	'tradelist_items'		=> '표시되는 행 수',//'显示数据条数',
-	'tradelist_items_comment'	=> '한번에 표시되는 주제 수를 설정,0 보다 큰 정수로 입력.',//'设置一次显示的主题条目数，请设置为大于 0 的整数',
+	'tradelist_items_comment'	=> '한번에 표시되는 덧글 수를 설정,0 보다 큰 정수로 입력.',//'设置一次显示的主题条目数，请设置为大于 0 的整数',
 	'tradelist_titlelength'		=> '제목 최대 글자 수.',//'标题最大字节数',
 	'tradelist_titlelength_comment'	=> '제목 길이가 이 설정을 초과 했을시 설정치로 자동 수정 됨.0은 자동 수정 안함.',//'设置当标题长度超过本设定时，是否将标题自动缩减到本设定中的字节数，0 为不自动缩减',
-	'tradelist_fnamelength'		=> '제목 최대 글자수.포럼판 명 포함.',//'标题最大字节数包含版块名称',
+	'tradelist_fnamelength'		=> '제목 최대 글자수.토론장 명 포함.',//'标题最大字节数包含版块名称',
 	'tradelist_fnamelength_comment'	=> 'Set the title max length including the forum name',//'设置标题长度是否将所在版块名称的长度一同计算在内',
 	'tradelist_summarylength'	=> 'Summary Length',//'主题简短内容文字数',
 	'tradelist_summarylength_comment'	=> 'Set the length of summary, 0 equal to default value (255)',//'设置主题简短内容的文字数，0 为使用默认值 255',

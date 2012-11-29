@@ -11,15 +11,15 @@ $lang = array
 (
 	'forumstat_name'		=> '포럼통계',//'论坛统计',
 	'forumstat_desc'		=> '포럼통계 데이터 보기',//'论坛统计数据调用',
-	'forumstat_forums_allow'	=> '포럼판 수 통계 보기',//'显示版块数统计',
-	'forumstat_forums_order'	=> '포럼판 수 통계 보기순서',//'版块数统计显示顺序',
-	'forumstat_forums_text'		=> '포럼판 수 통계 도움말',//'版块数统计提示文字',
-	'forumstat_forums_default'	=> '포럼판 수:',//'版块数:',
+	'forumstat_forums_allow'	=> '토론장 수 통계 보기',//'显示版块数统计',
+	'forumstat_forums_order'	=> '토론장 수 통계 보기순서',//'版块数统计显示顺序',
+	'forumstat_forums_text'		=> '토론장 수 통계 도움말',//'版块数统计提示文字',
+	'forumstat_forums_default'	=> '토론장 수:',//'版块数:',
 
-	'forumstat_threads_allow'	=> '주제 수 통계 보기',//'显示主题数统计',
-	'forumstat_threads_order'	=> '주제 수 통계 보기순서',//'主题数统计显示顺序',
-	'forumstat_threads_text'	=> '주제수 통계 도움말',//'主题数统计提示文字',
-	'forumstat_threads_default'	=> '주제수:',//'主题数:',
+	'forumstat_threads_allow'	=> '덧글 수 통계 보기',//'显示主题数统计',
+	'forumstat_threads_order'	=> '덧글 수 통계 보기순서',//'主题数统计显示顺序',
+	'forumstat_threads_text'	=> '덧글수 통계 도움말',//'主题数统计提示文字',
+	'forumstat_threads_default'	=> '덧글수:',//'主题数:',
 
 	'forumstat_posts_allow'		=> '게시글 수 통계 보기',//'显示帖子数统计',
 	'forumstat_posts_order'		=> '게시글 수 통계 보기순서',//'帖子数统计显示顺序',

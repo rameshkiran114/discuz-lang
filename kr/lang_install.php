@@ -23,7 +23,7 @@ $lang = array(
 	'agreement_no'		=> '동의하지 않음',//'我不同意',
 	'notset'		=> '제한없음',//'不限制',//????? No limits, Not limited
 
-	'message_title'		=> '알림',//'提示信息',
+	'message_title'		=> '통지서',//'提示信息',
 	'error_message'		=> '오류 메세지',//'错误信息',
 	'message_return'	=> '복귀',//'返回',
 	'return'		=> '복귀',//'返回',
@@ -123,7 +123,7 @@ $lang = array(
 	'uc_admin_invalid'		=> 'UCenter 관리자 비밀번호가 맞지 않습니다. 다시 입력하세요.',//'UCenter 创始人密码错误，请重新填写',
 	'uc_data_invalid'		=> 'UCenter 연결이 실패했습니다. UCenter URL 주소가 맞는지 확인하세요.',//'通信失败，请检查 UCenter 的URL 地址是否正确 ',
 	'uc_dbcharset_incorrect'	=> 'UCenter 데이터베이스 문자세트가 현재 프로그램의 문자세트와 다릅니다.',//'UCenter 数据库字符集与当前应用字符集不一致',
-	'uc_api_add_app_error'		=> 'UCenter 어플리케이션 오류에 추가',//'向 UCenter 添加应用错误',
+	'uc_api_add_app_error'		=> 'UCenter에 어플 추가 오류.',//'向 UCenter 添加应用错误',
 	'uc_dns_error'			=> 'UCenter DNS 해석 오류입니다. UCenter IP 주소를 다시 입력하세요.',//'UCenter DNS解析错误，请返回填写一下 UCenter 的 IP地址',
 
 	'ucenter_ucurl_invalid'		=> 'UCenter URL이 비었거나 틀렸습니다. 다시 입력하세요.',//'UCenter 的URL为空，或者格式错误，请检查',
@@ -177,10 +177,10 @@ $lang = array(
 	'init_credits_karma'	=> '평판',//'威望',//!!! The same in install_var.php
 	'init_credits_money'	=> '포인트',//'金钱',//!!! The same in install_var.php
 
-	'init_postno0'		=> '#1',//'楼主',//!!! The same in install_var.php 
-	'init_postno1'		=> '#2',//'沙发',    //!!! The same in install_var.php
-	'init_postno2'		=> '#3',//'板凳',   //!!! The same in install_var.php
-	'init_postno3'		=> '#4',//'地板',   //!!! The same in install_var.php
+	'init_postno0'		=> '주인',//'楼主',//#1 !!! The same in install_var.php 
+	'init_postno1'		=> '소파',//'沙发',//#2 !!! The same in install_var.php
+	'init_postno2'		=> '의자',//'板凳',//#3 !!! The same in install_var.php
+	'init_postno3'		=> '마루',//'地板',//#4 !!! The same in install_var.php
 
 	'init_support'		=> '추천',//'支持',   //!!! The same in install_var.php
 	'init_opposition'	=> '반대',//'反对',//!!! The same in install_var.php
@@ -212,13 +212,13 @@ $lang = array(
 	'init_cron_2'	=> '이달의 접속 시간 비움',//'清空本月在线时间',
 	'init_cron_3'	=> '매일 데이터 지우기',//'每日数据清理',
 	'init_cron_4'	=> '생일 통계 및 이메일 구독',//'生日统计与邮件祝福',
-	'init_cron_5'	=> '토픽 답글 공지',//'主题回复通知',
+	'init_cron_5'	=> '포스트 리필 공지',//'主题回复通知',
 	'init_cron_6'	=> '매일 게시판 지우기',//'每日公告清理',
 	'init_cron_7'	=> '타임 제한 조작 지우기',//'限时操作清理',
 	'init_cron_8'	=> '홍보 메세지 지우기',//'论坛推广清理',
-	'init_cron_9'	=> '매달 토픽 지우기',//'每月主题清理',
-	'init_cron_10'	=> '매일 광장 회원 갱신',//'每日 X-Space更新用户',
-	'init_cron_11'	=> '매주 토픽 갱신',//'每周主题更新',
+	'init_cron_9'	=> '매달 포스트 지우기',//'每月主题清理',
+	'init_cron_10'	=> '매일 광장 회원 업데이트',//'每日 X-Space更新用户',
+	'init_cron_11'	=> '매주 포스트 업데이트',//'每周主题更新',
 
 	'init_bbcode_1'	=> '수평 스크롤 내용에 대한 효과는 marquee HTML와 비슷하다. 노트: 이 기능은 Internet Explorer에만 작용함.',//'使内容横向滚动，这个效果类似 HTML 的 marquee 标签，注意：这个效果只在 Internet Explorer 浏览器下有效。',
 	'init_bbcode_2'	=> 'Flash 애니메이션 삽입',//'嵌入 Flash 动画',
@@ -237,14 +237,14 @@ $lang = array(
 	'init_default_template_copyright'	=> 'Sing Imagination (Beijing) Technology Co., Ltd.',//'康盛创想（北京）科技有限公司',
 
 	'init_dataformat'	=> 'Y-m-d',//'Y-n-j',
-	'init_modreasons'	=> '광고/스팸\r\n악의적인 글/해킹\r\n불법 콘텐츠\r\n주제를 벗어난 글\r\n반복된 게시\r\n\r\n동의함\r\n우수한 글\r\n원본',//'广告/SPAM\r\n恶意灌水\r\n违规内容\r\n文不对题\r\n重复发帖\r\n\r\n我很赞同\r\n精品文章\r\n原创内容',
+	'init_modreasons'	=> '광고/스팸\r\n악의적인 글/해킹\r\n불법 콘텐츠\r\n덧글를 벗어난 글\r\n반복된 게시\r\n\r\n동의함\r\n우수한 글\r\n원본',//'广告/SPAM\r\n恶意灌水\r\n违规内容\r\n文不对题\r\n重复发帖\r\n\r\n我很赞同\r\n精品文章\r\n原创内容',
 	'init_userreasons'	=> '파워풀하다!\r\n유용하다\r\n매우 좋다\r\n최고다!\r\n흥미롭다',
 	'init_link'		=> 'Discuz! 공식 포럼',//'Discuz! 官方论坛',
 	'init_link_note'	=> '최신 Discuz! 제폼 소식을 받거나 소프트웨어를 다운로드하고 기술 교환을 하려면',//'提供最新 Discuz! 产品新闻、软件下载与技术交流',
 
-	'init_promotion_task'	=> '사이트 홍보 임무',//'网站推广任务',
-	'init_gift_task'	=> '선물 임무',//'红包类任务',
-	'init_avatar_task'	=> '아바타 임무',//'头像类任务',
+	'init_promotion_task'	=> '사이트 홍보 미션',//'网站推广任务',
+	'init_gift_task'	=> '선물 미션',//'红包类任务',
+	'init_avatar_task'	=> '아바타 미션',//'头像类任务',
 
 	'license'	=> '<div class="license"><h1>License agreement</h1>
 
@@ -349,7 +349,7 @@ $lang = array(
 	'method_undefined'		=> '정의되지 않은 방법',//'未定义方法',
 	'database_nonexistence'		=> '데이터베이스 대상이 없습니다.',//'数据库操作对象不存在',
 	'skip_current'			=> '이 단계 건너띄기',//'跳过本步',
-	'topic'				=> '토픽',//'专题',
+	'topic'				=> '포스트',//'专题',
 
 //---------------------------------------------------------------
 // Added by Valery Votintsev
