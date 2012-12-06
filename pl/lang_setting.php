@@ -63,12 +63,12 @@ $lang = array (
 
 /* ToDo !!!!!!!!!!
 	'profile_fields'		=> array(
-		'mp.realname'		=> 'Real Name',//'姓名',
-		'mp.gender'		=> 'Gender',//'性别',
-		'mp.birthyear'		=> 'Birth year',//'生日(年)',
-		'mp.birthmonth'		=> 'Birth month',//'生日(月)',
-		'mp.birthday'		=> 'Birth Day',//'生日(日)',
-		'mp.bloodtype'		=> 'Blood type',//'血型',
+		'mp.realname'		=> 'Imię',//'姓名',
+		'mp.gender'		=> 'Płeć',//'性别',
+		'mp.birthyear'		=> 'Rok narodzin',//'生日(年)',
+		'mp.birthmonth'		=> 'Miesiąc narodzin',//'生日(月)',
+		'mp.birthday'		=> 'Dzień narodzin',//'生日(日)',
+		'mp.bloodtype'		=> 'Grupa krwi',//'血型',
 		'mp.affectivestatus'	=> 'Emotional category',//'情感状态',
 'mp.birthcountry'	=> 'Birth country',//'家乡(国)',
 		'mp.birthprovince'	=> 'Birth region',//'家乡(省)',

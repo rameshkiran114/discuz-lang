@@ -70,6 +70,6 @@ $lang = array(
 	'ranklist_title_group_post_24'	=> 'Top posted ostatnich 24 godzin',//'群组最近 24 小时发帖排行',
 
 	'ranklist_title_app_today'	=> 'Najaktywniejsze aplikacje dziś',//'今日应用活跃排行',
-	'ranklist_title_app_all'	=> 'Najpopularniejsze aplikacje,//'最流行应用',
+	'ranklist_title_app_all'	=> 'Najpopularniejsze aplikacje',//'最流行应用',
 );
 

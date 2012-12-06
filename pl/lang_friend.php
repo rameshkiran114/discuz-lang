@@ -12,7 +12,7 @@ if(!defined('IN_DISCUZ')) {
 }
 
 $lang = array(
-	'friend_group_default'	=> 'Inne',//'其他',
+	'friend_group_default'	=> 'Nieskategoryzowane',//'其他',
 	'friend_group_1'	=> 'Ze strony',//'通过本站认识',
 	'friend_group_2'	=> 'Ze wspólnej aktywności',//'通过活动认识',
 	'friend_group_3'	=> 'Znajomy',//'通过朋友认识',
@@ -22,6 +22,6 @@ $lang = array(
 	'friend_group_7'	=> 'Nieznany',//'不认识',
 	'friend_group_more'	=> 'Własne {num}'//'自定义{num}'
 //vot: !!!!!!!!!!!!!!!!! Add other categories from UCHome lang_source.php !!!!!
-//	'friend_group_0'	=> 'Others',//'其他',
+//	'friend_group_0'	=> 'Nieskategoryzowane',//'其他',
 );
 

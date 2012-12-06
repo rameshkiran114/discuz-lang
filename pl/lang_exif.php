@@ -13,7 +13,7 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array(
 
-	'unknown'		=> 'Unknown',//'未知',
+	'unknown'		=> 'Nieznany',//'未知',
 	'resolutionunit'	=> array('', '', 'inch', 'cm'),//array('', '', '英寸', '厘米'),
 	'exposureprogram'	=> array('Undefined', 'Manual', 'Standard procedure', 'Aperture Priority', 'Shutter Priority', 'Depth of pre-field', 'Sports mode', 'Portrait Mode', 'Landscape mode'),//array('未定义', '手动', '标准程序', '光圈先决', '快门先决', '景深先决', '运动模式', '肖像模式', '风景模式'),
 	'meteringmode'	=> array(

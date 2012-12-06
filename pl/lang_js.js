@@ -210,7 +210,7 @@ var lng = {
 	'sec_after_page_jump'	: ' sek. do zamknięcia powiadomienia.',//' 秒后页面跳转',
 	'jump_now'		: 'Skocz teraz',//'立即跳转',
 	'error_message'		: 'Komunikat błędu',//'错误信息',
-	'ctrl_d_favorites'	: 'Wciśnij Ctrl + D aby dodać do ulubionych.',//'请按 Ctrl+D 键添加到收藏夹',
+	'ctrl_d_favorites'	: 'Wciśnij Ctrl + D, aby dodać do ulubionych.',//'请按 Ctrl+D 键添加到收藏夹',
 	'non_ie_manually'	: 'Dla przeglądarek innych niż IE, należy ustawić ręcznie.',//'非 IE 浏览器请手动将本站设为首页',
 	'blind_enable'		: 'Enable blind experience',//'开启盲人体验',//tc:'開啟盲人體驗',
 	'blind_disable'		: 'Disable blind experience',//'关闭盲人体验',//tc:'關閉盲人體驗',
@@ -221,7 +221,7 @@ var lng = {
 	'edit'			: 'Edytuj',//'编辑',
 	'warn_not_saved'	: 'You have modified the data. If you exit, all the changes will be lost.',//'您的数据已经修改,退出将无法保存您的修改。',
 	'confirm_exit'		: 'All the changes will be lost if you exit. Are you sure you want to exit now?',//'退出将不会保存您刚才的设置。是否确认退出？',
-	'select_image_upload'	: 'Select an image to upload',//'请选择您要上传的图片',
+	'select_image_upload'	: 'Proszę wybrać zdjęcie',//'请选择您要上传的图片',
 
 //--------------------------------
 //static/js/common_extra.js
@@ -255,7 +255,7 @@ var lng = {
 	'table_intro0'		: 'Krótki poradnik',//'快速书写表格提示',
 	'table_intro1'		: '&quot;[tr=color]&quot; Ustala kolor wiersza<br />&quot;[td=Width]&quot; Ustala rozmiar komórki<br />&quot;[td=Column_Span,Row_Span,Width]&quot; Ustala rozmiary kolumny/wiersza<br /><br />Prosty przykład tabeli: ',//'“[tr=颜色]” 定义行背景<br />“[td=宽度]” 定义列宽<br />“[td=列跨度,行跨度,宽度]” 定义行列跨度<br /><br />快速书写表格范例：',
 	'table_intro2'		: '[table]<br />Nazwa:|Discuz!<br />Wersja:|X2.5<br />[/table]',//'[table]<br />Name:|Discuz!<br />Version:|X1<br />[/table]',
-	'table_intro3'		: 'Użyj &quot;|&quot; aby oddzielić komórki. Jeśli znak &quot;|&quot; stanowi którąś z danych, zamień go na &quot;\\|&quot;, separate rows with &quot;\\n&quot;.',//'用“|”分隔每一列，表格中如有“|”用“\\|”代替，换行用“\\n”代替。',
+	'table_intro3'		: 'Użyj &quot;|&quot;, aby oddzielić komórki. Jeśli znak &quot;|&quot; stanowi którąś z danych, zamień go na &quot;\\|&quot;, separate rows with &quot;\\n&quot;.',//'用“|”分隔每一列，表格中如有“|”用“\\|”代替，换行用“\\n”代替。',
 	'audio_url'		: 'Wprowadź adres URL do pliku muzycznego',//'请输入音乐文件地址',
 	'video_url'		: 'Wprowadź adres URL do pliku wideo',//'请输入视频地址',
 	'auto_play'		: 'Autoplay?',//'是否自动播放',

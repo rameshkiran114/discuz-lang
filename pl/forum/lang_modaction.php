@@ -39,7 +39,7 @@ $lang = array
 	'EST'	=> 'Stick Time Limited',//'限时置顶',
 	'UES'	=> 'UnStick Time Limited',//'解除限时置顶',
 
-	'SPL'	=> 'Podziel',//'分割',
+	'SPL'	=> 'Wydziel',//'分割',
 	'MRG'	=> 'Połącz',//'合并',
 
 	'HLT'	=> 'Wyróżnij',//'设置高亮',

@@ -55,7 +55,7 @@ $lang = array
 	'feed_profile_update_work'	=> '{actor} zaktualizował informacje dotyczące pracy',//'{actor} 更新了自己的工作信息',
 	'feed_profile_update_info'	=> '{actor} zaktualizował dane osobowe, hobby i inne',//'{actor} 更新了自己的兴趣爱好等个人信息',
 	'feed_profile_update_bbs'	=> '{actor} zaktualizował dane osobowe',//'{actor} 更新了自己的个人信息',
-	'feed_profile_update_verify'	=> '{actor} updated verified personal info',//'{actor} 更新了自己的认证信息',
+	'feed_profile_update_verify'	=> '{actor} zweryfikował szczegóły profilu',//'{actor} 更新了自己的认证信息',
 
 	'feed_add_attachsize'		=> '{actor} spent {credit} points to enlarge the upload space on {size}. Now more images may be uploaded. (<a href="home.php?mod=spacecp&ac=credit&op=addsize">I want this too!</a>)',//'{actor} 用 {credit} 个积分兑换了 {size} 附件空间，可以上传更多的图片啦(<a href="home.php?mod=spacecp&ac=credit&op=addsize">我也来兑换</a>)',
 
