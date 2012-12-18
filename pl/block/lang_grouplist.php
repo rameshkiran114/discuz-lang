@@ -23,16 +23,16 @@ $lang = array
 /*vot*/	'grouplist_titlelength_comment'		=> 'Set the group name max length',//'设置群组名称最大长度',
 	'grouplist_summarylength'		=> 'Summary length',//'介绍长度',
 	'grouplist_summarylength_comment'	=> 'Set the max length of group summary',//'设置群组介绍最大长度',
-	'grouplist_orderby'			=> 'Order by',//'群组排序方式',
-	'grouplist_orderby_comment'		=> 'Set the order of groups',//'设置以哪一字段或方式对群组进行排序',
-	'grouplist_orderby_dateline'		=> 'Create time',//'按创建时间倒序',
+	'grouplist_orderby'			=> 'Sortuj wg.',//'群组排序方式',
+	'grouplist_orderby_comment'		=> 'Kolejność grup',//'设置以哪一字段或方式对群组进行排序',
+	'grouplist_orderby_dateline'		=> 'Data utworzeia',//'按创建时间倒序',
 	'grouplist_orderby_posts'		=> 'Postów',//'按总发帖数倒序',
-	'grouplist_orderby_todayposts'		=> 'Posts today',//'按今日发帖数倒序',
+	'grouplist_orderby_todayposts'		=> 'Dzisiejsze posty',//'按今日发帖数倒序',
 	'grouplist_orderby_threads'		=> 'Tematów',//'按话题数倒序',
-	'grouplist_orderby_level'		=> 'Level',//'按等级倒序',
-	'grouplist_orderby_membernum'		=> 'Members',//'按成员数倒序',
+	'grouplist_orderby_level'		=> 'Poziom',//'按等级倒序',
+	'grouplist_orderby_membernum'		=> 'Użytkownicy',//'按成员数倒序',
 	'grouplist_orderby_activity'		=> 'Aktywność',//'按活跃度倒序',
-	'grouplist_orderby_commoncredits'	=> 'Points',//'按共同积分倒序',
-	'grouplist_orderby_displayorder'	=> 'Order by default',//'按默认顺序'
+	'grouplist_orderby_commoncredits'	=> 'Punktów',//'按共同积分倒序',
+	'grouplist_orderby_displayorder'	=> 'Sortuj domyślnie',//'按默认顺序'
 );
 

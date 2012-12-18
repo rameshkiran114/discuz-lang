@@ -148,7 +148,7 @@ Adres forum: {siteurl}<br />
 Użytkownik: {newusername}<br />
 Hasło: {newpassword}<br />
 <br />
-Od teraz możesz użyć swojego konta, aby zalogować się na naszym forum, życzę przyjemności podczas Twoich odwiedzin!<br />
+Od teraz możesz użyć swojego konta by zalogować się na naszym forum, życzę przyjemności podczas Twoich odwiedzin!<br />
 <br />
 <br />
 <br />

@@ -27,13 +27,13 @@ $lang = array (
 	'nav_12'	=> 'Blogi',//'日志',
 	'nav_13'	=> 'Albumy',//'相册',
 	'nav_14'	=> 'Podziel się',//'分享',
-	'nav_15'	=> 'Aktywność',//'记录',
+	'nav_15'	=> 'Statusy',//'记录',
 
 	'nav_portal'	=> 'Portal',//'门户',
 	'nav_blog'	=> 'Blogi',//'日志',
 	'nav_album'	=> 'Albumy',//'相册',
 	'nav_share'	=> 'Publikacje',//'分享',
-	'nav_doing'	=> 'Aktywność',//'记录',
+	'nav_doing'	=> 'Statusy',//'记录',
 	'nav_wall'	=> 'Tablica',//'留言板',
 	'nav_group'	=> 'Grupy',//'群组',
 	'nav_ranklist'	=> 'Ranking',//'排行榜'

@@ -25,7 +25,7 @@ $lang = array
 
 	'feed_thread_views_title'	=> '{actor} temat <em>{subject}</em> został odwiedzony więcej niż {count} razy',//'{actor} 发表的主题 {subject} 查看数超过了 {count}',
 
-	'feed_thread_replies_title'	=> '{actor} temat <em>{subject}</em> was replied more than {count} times',//'{actor} 发表的主题 {subject} 回复数超过了 {count}',
+	'feed_thread_replies_title'	=> '{actor} temat <em>{subject}</em> zawiera więcej niż {count} nowych odpowiedzi',//'{actor} 发表的主题 {subject} 回复数超过了 {count}',
 
 	'feed_thread_rate_title'	=> '{actor} temat <em>{subject}</em> został oceniony więcej niż {count} razy',//'{actor} 发表的主题 {subject} 评分超过了 {count}',
 

@@ -31,7 +31,7 @@ $lang = array (
 	'noaccess_isfounder'			=> 'You do not have permission to access to the settings area. For security reasons only the site founder can access the settings. Please check the config/config_global.php file for founder settings.',//'您没有权限访问该设置，出于安全考虑此设置只有站点创始人可以使用，请检查 config/config_global.php 文件内创始人的设置。',
 	'database_export_multivol_succeed'	=> 'Congratulations! All {volume} backup files successfully created, backup is completed.<br />{filelist}',//'恭喜您，全部 {volume} 个备份文件成功创建，备份完成。<br /> {filelist}',
 	'database_export_zip_succeed'		=> 'Backup data successfully compressed and saved to the server <a href="{filename}">{filename}</a>.',//'数据成功备份并压缩至服务器 <a href="{filename}">{filename}</a> 中。',
-	'setting_update_succeed'		=> 'Current settings successfully updated.',//'当前设置成功更新。',
+	'setting_update_succeed'		=> 'Wszystkie ustawienia zostały zapisane.',//'当前设置成功更新。',
 	'setting_domain_http_error'		=> 'Fill in the name withour "http://" at beginning and "/" at end, please return amended.',//'填写的域名不要以“http://”、“.”开头或者以“/”、“.”结尾，请返回修改。',
 	'orders_validate_succeed'		=> 'Order processed successfuly.',//'订单处理成功。',
 	'faq_list_update'			=> 'FAQ list update',//'帮助列表更新',
@@ -440,7 +440,7 @@ $lang = array (
 	'report_receive_succeed'		=> 'Operation was successfully cpmpleted.',//'操作成功。',
 
 	'searchindex_not_found'			=> 'Index file is missing',//'索引文件丢失',
-	'search_keyword_noexists'		=> 'Please enter search keywords!',//'请输入要搜索的关键词！',
+	'search_keyword_noexists'		=> 'Proszę wprowadzić szukane wyrażenia!',//'请输入要搜索的关键词！',
 
 	'setting_memory_rm_succeed'		=> 'Cache deleted successfully',//'缓存删除成功',
 	'setting_memory_rm_error'		=> 'Please enter the cache KEY you want to delete',//'请输入要删除的缓存KEY',

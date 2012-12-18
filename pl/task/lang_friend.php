@@ -18,7 +18,7 @@ $lang = array
 	'friend_view'	=> '<strong>Poniższe kroki pomogą Ci ukończyć to zadanie:</strong>
 			<ul>
 			<li>1. <a href="home.php?mod=spacecp&ac=friend&op=find" target="_blank">Otwórz wyszukiwarkę znajomych</a>;</li>
-			<li>2. System automatycznie postara się zaproponować Ci znajomych. Oczywiście możesz określić własne warunki, aby znaleźć i dodać nowych znajomych;</li>
+			<li>2. System automatycznie postara się zaproponować Ci znajomych. Oczywiście możesz określić własne warunki by znaleźć i dodać nowych znajomych;</li>
 			<li>3. Cierpliwie odczekaj na odpowiedź zaproszonych użytkowników.</li>
 			</ul>',
 );

@@ -166,7 +166,7 @@ var lng = {
 	'open_new_win'		: 'Otwórz w nowym oknie',//'在新窗口打开',
 	'actual_size'		: 'Aktualny rozmiar',//'实际大小',
 	'close'			: 'Zamknij',//'关闭',
-	'wheel_zoom'		: 'Użyj kółka myszki, aby powiększyć/zmniejszyć obrazek',//'鼠标滚轮缩放图片',
+	'wheel_zoom'		: 'Użyj kółka myszki by powiększyć/zmniejszyć obrazek',//'鼠标滚轮缩放图片',
 	'reminder'		: 'Powiadomienie',//'提示信息',
 	'submit'		: 'Wyślij',//'确定',
 	'cancel'		: 'Anuluj',//'取消',
@@ -187,7 +187,7 @@ var lng = {
 	'show_all_expr'		: 'Wszystkie',//'显示所有表情',
 	'page_prev'		: 'Następna strona',//'上页',
 	'page_next'		: 'Poprzednia strona',//'下页',
-	'copy2clipboard'	: 'Kliknij, aby skopiować do schowka',//'点此复制到剪贴板',
+	'copy2clipboard'	: 'Kliknij by skopiować do schowka',//'点此复制到剪贴板',
 // ATTENTION!
 // The next line must have the same value as in /template.php - 'enter_content' !!!
 	'enter_search_string'	: 'Wprowadź szukane wyrażenia',//'请输入搜索内容',
@@ -210,7 +210,7 @@ var lng = {
 	'sec_after_page_jump'	: ' sek. do zamknięcia powiadomienia.',//' 秒后页面跳转',
 	'jump_now'		: 'Skocz teraz',//'立即跳转',
 	'error_message'		: 'Komunikat błędu',//'错误信息',
-	'ctrl_d_favorites'	: 'Wciśnij Ctrl + D, aby dodać do ulubionych.',//'请按 Ctrl+D 键添加到收藏夹',
+	'ctrl_d_favorites'	: 'Wciśnij Ctrl + D by dodać do ulubionych.',//'请按 Ctrl+D 键添加到收藏夹',
 	'non_ie_manually'	: 'Dla przeglądarek innych niż IE, należy ustawić ręcznie.',//'非 IE 浏览器请手动将本站设为首页',
 	'blind_enable'		: 'Enable blind experience',//'开启盲人体验',//tc:'開啟盲人體驗',
 	'blind_disable'		: 'Disable blind experience',//'关闭盲人体验',//tc:'關閉盲人體驗',
@@ -255,7 +255,7 @@ var lng = {
 	'table_intro0'		: 'Krótki poradnik',//'快速书写表格提示',
 	'table_intro1'		: '&quot;[tr=color]&quot; Ustala kolor wiersza<br />&quot;[td=Width]&quot; Ustala rozmiar komórki<br />&quot;[td=Column_Span,Row_Span,Width]&quot; Ustala rozmiary kolumny/wiersza<br /><br />Prosty przykład tabeli: ',//'“[tr=颜色]” 定义行背景<br />“[td=宽度]” 定义列宽<br />“[td=列跨度,行跨度,宽度]” 定义行列跨度<br /><br />快速书写表格范例：',
 	'table_intro2'		: '[table]<br />Nazwa:|Discuz!<br />Wersja:|X2.5<br />[/table]',//'[table]<br />Name:|Discuz!<br />Version:|X1<br />[/table]',
-	'table_intro3'		: 'Użyj &quot;|&quot;, aby oddzielić komórki. Jeśli znak &quot;|&quot; stanowi którąś z danych, zamień go na &quot;\\|&quot;, separate rows with &quot;\\n&quot;.',//'用“|”分隔每一列，表格中如有“|”用“\\|”代替，换行用“\\n”代替。',
+	'table_intro3'		: 'Użyj &quot;|&quot; by oddzielić komórki. Jeśli znak &quot;|&quot; stanowi którąś z danych, zamień go na &quot;\\|&quot;, separate rows with &quot;\\n&quot;.',//'用“|”分隔每一列，表格中如有“|”用“\\|”代替，换行用“\\n”代替。',
 	'audio_url'		: 'Wprowadź adres URL do pliku muzycznego',//'请输入音乐文件地址',
 	'video_url'		: 'Wprowadź adres URL do pliku wideo',//'请输入视频地址',
 	'auto_play'		: 'Autoplay?',//'是否自动播放',
@@ -268,7 +268,7 @@ var lng = {
 	'general'		: 'Tryb ogólny',//'常用',
 	'simple'		: 'Tryb rozszerzony',//'高级',
 	'bad_browser'		: 'Twoja przeglądarka nie obsługuje tej funkcji',//'你的浏览器不支持此功能',
-	'click_autosave_enable'	: 'Kliknij tutaj, aby włączyć autozapis postów',//'点击开启自动保存',
+	'click_autosave_enable'	: 'Kliknij tutaj by włączyć autozapis postów',//'点击开启自动保存',
 	'autosave_enable'	: 'Włącz autozapis',//'开启自动保存',
 	'autosave_disable'	: 'Wyłącz autozapis',//'点击关闭自动保存',
 	'autosave_enabled'	: 'Autozapis został wł.',//'数据自动保存已开启',
@@ -285,8 +285,8 @@ var lng = {
 	'video_support'		: 'Wsparcie dla Youku, Potatoes, 56, 6, Cool video i innych serwisów.<br />Wspierane formaty: wmv avi rmvb mov swf flv.<br /> Przykład: http://server/movie.wmv',//'支持优酷、土豆、56、酷6等视频站的视频网址<br />支持 wmv avi rmvb mov swf flv 等视频格式<br />示例: http://server/movie.wmv',
 	'flash_support'		: 'Wspierane formaty: swf flv <br /> Przykład: http://server/flash.swf',//'支持 swf flv 等 Flash 网址<br />示例: http://server/flash.swf',
 	'paste_from_word'	: 'Wklej zawartość programu Word',//'从 Word 粘贴内容',
-	'paste_word_tip'	: 'Użyj skrótu wklejania treści (Ctrl + V), aby móc uzupełnić powyższe pole.',//'请通过快捷键(Ctrl+V)把 Word 文件中的内容粘贴到上',
-	'show_tips'		: 'Show Tips',//'友情提示',
+	'paste_word_tip'	: 'Użyj skrótu wklejania treści (Ctrl + V) by móc uzupełnić powyższe pole.',//'请通过快捷键(Ctrl+V)把 Word 文件中的内容粘贴到上',
+	'show_tips'		: 'Pokaż wskazówki',//'友情提示',
 	'expire_days'		: 'Valid for (days)',//'有效天数',
 	'expire_days_invalid'	: 'Distance from the posting date is greater than the number of days when the label automatically expire',//'距离发帖日期大于这个天数时标签自动失效',
 //--------------------------------
@@ -298,9 +298,9 @@ var lng = {
 //--------------------------------
 //static/js/forum_google.js
 
-	'search_net'	: 'Search in the Net',//'网页搜索',
-	'search_site'	: 'Search in the site',//'站内搜索',
-	'search'	: 'Search',//'搜索',
+	'search_net'	: 'Szukaj w Internecie',//'网页搜索',
+	'search_site'	: 'Szukaj na stronie',//'站内搜索',
+	'search'	: 'Szukaj',//'搜索',
 
 //--------------------------------
 //static/js/forum_moderate.js
@@ -331,8 +331,8 @@ var lng = {
 	'successfull'		: 'Successfull:',//'成功',
 	'failed'		: 'Failed:',//'失败',
 	'ones'			: 'ones',//'个',
-	'uploading'		: 'Uploading...',//'上传中...',
-	'select_image_files'	: 'Select image files',//'请选择图片文件',
+	'uploading'		: 'Wysyłanie...',//'上传中...',
+	'select_image_files'	: 'Proszę wybrać pliki graficzne',//'请选择图片文件',
 	'delete'		: 'Usuń',//'删除',
 	'contains'		: 'Contains ',//'包含',
 	'img_attached_num'	: 'images attached',//'个图片附件',
@@ -396,8 +396,8 @@ var lng = {
 
 //--------------------------------
 //static/js/home.js
-	'day'			: 'Day',//'日',
-	'category_empty'	: 'Category name can not be empty!',//'分类名不能为空！',
+	'day'			: 'Dzień',//'日',
+	'category_empty'	: 'Nazwa kategorii nie może być pusta!',//'分类名不能为空！',
 
 //--------------------------------
 //static/js/home_ajax.js
@@ -421,7 +421,7 @@ var lng = {
 
 //!!!!! MayBe wrap this names!!
 	'collapse'		: 'Zwiń',//'收起',
-	'expand'		: 'Expand',//'展开',
+	'expand'		: 'Rozwiń',//'展开',
 
 //--------------------------------
 //static/js/home_friendselector.js
@@ -482,25 +482,25 @@ var lng = {
 //--------------------------------
 //static/js/portal_diy.js
 
-	'choose_style'		: 'Choose a Style',//'选择样式',
-	'style'			: 'Style',//'样式',
-	'style1'		: 'Style1',//'样式1',
-	'style2'		: 'Style2',//'样式2',
-	'style3'		: 'Style3',//'样式3',
-	'style4'		: 'Style4',//'样式4',
-	'style5'		: 'Style5',//'样式5',
-	'style6'		: 'Style6',//'样式6',
-	'style7'		: 'Style7',//'样式7',
-	'no_border'		: 'No border frame',//'无边框框架',
-	'no_border_no_margin'	: 'No border, no margin',//'无边框且无边距',
+	'choose_style'		: 'Wybierz styl',//'选择样式',
+	'style'			: 'Styl',//'样式',
+	'style1'		: 'Styl 1',//'样式1',
+	'style2'		: 'Styl 2',//'样式2',
+	'style3'		: 'Styl 3',//'样式3',
+	'style4'		: 'Styl 4',//'样式4',
+	'style5'		: 'Styl 5',//'样式5',
+	'style6'		: 'Styl 6',//'样式6',
+	'style7'		: 'Styl 7',//'样式7',
+	'no_border'		: 'Bez obramowania',//'无边框框架',
+	'no_border_no_margin'	: 'Bez obramowania i ramarginesów',//'无边框且无边距',
 
-	'title'			: 'Title',//'标题',
-	'attribute'		: 'Attribute',//'属性',
-	'data'			: 'Data',//'数据',
-	'update'		: 'Update',//'更新',
-	'export'		: 'Eksport',//'导出',
-	'repeat'		: 'Repeat',//'平铺',
-	'no_repeat'		: 'No repeat',//'不平铺',
+	'title'			: 'Tytuł',//'标题',
+	'attribute'		: 'Atrybuty',//'属性',
+	'data'			: 'Zawartość',//'数据',
+	'update'		: 'Aktualizacja',//'更新',
+	'export'		: 'Eksportuj',//'导出',
+	'repeat'		: 'Powtórz',//'平铺',
+	'no_repeat'		: 'Nie powtarzaj',//'不平铺',
 	'repeat_x'		: 'Repeat Horizontal',//'横向平铺',
 	'repeat_y'		: 'Repeat Vertical',//'纵向平铺',
 	'no_style'		: 'No style',//'无样式',
@@ -567,7 +567,7 @@ var lng = {
 //--------------------------------
 //static/js/register.js
 
-	'username_invalid'	: 'User name contains invalid characters',//'用户名包含敏感字符',
+	'username_invalid'	: 'Nazwa użytkownika zawiera niedozwolone znaki',//'用户名包含敏感字符',
 	'username_short'	: 'Min. 2 znaki',//'用户名小于 3 个字符',
 	'username_long'		: 'Maks. 15 znaków',//'用户名超过 15 个字符',
 	'passwords_not_equal'	: 'Podane hasła nie pasują do siebie',//'两次输入的密码不一致',
@@ -576,18 +576,18 @@ var lng = {
 	'password_fill'		: 'Proszę uzupełnić pole hasło',//'请填写密码',
 	'password_again'	: 'Proszę uzupełnić pole potwierdzenie hasła',//'请再次输入密码',
 	'email_fill'		: 'Proszę uzupełnić pole Email',//'请输入邮箱地址',
-	'length_min'		: ', Minimum length',//', 最小长度为 '
+	'length_min'		: ', minimalna długość',//', 最小长度为 '
 	'chars'			: ' znaków',//' 个字符',
 	'password_strength'	: 'Siła hasła: ',//'密码强度:',
 	'pw_weak'		: 'Krótkie',//'弱',
 	'pw_middle'		: 'W miarę',//'中',
 	'pw_strong'		: 'Silne',//'强',
 	'pass_short'		: 'Hasło jest za krótkie! Nie może zawierać mniej niż ',//'密码太短，不得少于 ',
-	'digital'		: 'Digital',//'数字',
-	'lowercase'		: 'Lowercase letters',//'小写字母',
-	'capitals'		: 'Capital letters',//'大写字母',
-	'specials'		: 'Special symbols',//'特殊符号',
-	'pw_weak_info'		: 'Weak password, the password must contain ',//'密码太弱，密码中必须包含 ',
+	'digital'		: 'cyfr',//'数字',
+	'lowercase'		: 'małych liter',//'小写字母',
+	'capitals'		: 'wielkich liter',//'大写字母',
+	'specials'		: 'znaków specjalnych',//'特殊符号',
+	'pw_weak_info'		: 'Pole hasło musi składać się z ',//'密码太弱，密码中必须包含 ',
 
 //--------------------------------
 //static/js/seditor.js
@@ -600,7 +600,7 @@ var lng = {
 //--------------------------------
 //static/js/space_diy.js
 
-	'save_js'		: 'javascript saved',//'javascript脚本保存后显示',
+	'save_js'		: 'javascript zapisany',//'javascript脚本保存后显示',
 	'settings'		: 'Ustawienia',//'设置',
 
 //---------------------------
@@ -624,7 +624,7 @@ var lng = {
 //--------------------------------
 //static/js/upload.js
 
-	'file_not_supported'	: 'Sorry, this file type is unsupported',//'对不起，不支持上传此类文件',
+	'file_not_supported'	: 'Przepraszamy, ten typ pliku nie jest wspierany',//'对不起，不支持上传此类文件',
 
 //-------------------------------------
 //source/function/function_admincp.php
@@ -638,7 +638,7 @@ var lng = {
 //static/js/googlemap.js + static/js/editor.js
 
 	'map_title'		: 'Mapy Google',//'google图',
-	'map_insert'		: 'Wprowadź lokalizację dzięki Google map',//'插入google地图',
+	'map_insert'		: 'Wprowadź lokalizację dzięki usłudze Google map',//'插入google地图',
 	'map_insert_tips'	: 'Insert Google Maps by address searching (temporarily supported only single label!)',//'通过搜索插入google地图（暂只支持单点标注）！',
 	'map_center_changed'	: 'The map center is changed!',//'地图中心已经改变！',
 	'map_wrong_address'	: 'Błędny adres! Nie odnaleziono szukanej pozycji.',//' 地址错误，未找到当前地址',

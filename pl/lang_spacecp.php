@@ -112,7 +112,7 @@ $lang = array(
 
 	'active_email_subject'	=> 'Email Activation',//'您的邮箱激活邮件',
 	'active_email_msg'	=> 'Please copy the following link to your browser in order to activate your mailbox.<br>E-mail activation link:<br><a href="{url}" target="_blank">{url}</a>',//'请复制下面的激活链接到浏览器进行访问，以便激活你的邮箱。<br>邮箱激活链接:<br><a href="{url}" target="_blank">{url}</a>',
-	'share_space'		=> 'Udostępnij przestrzeń',//'分享了一个用户',
+	'share_space'		=> 'Udostępnij profil',//'分享了一个用户',
 	'share_blog'		=> 'Udostępnij blog',//'分享了一篇日志',
 	'share_album'		=> 'Udostępnij album',//'分享了一个相册',
 	'default_albumname'	=> 'Album domyślny',//'默认相册',

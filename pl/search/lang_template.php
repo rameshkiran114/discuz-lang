@@ -68,7 +68,7 @@ $lang = array (
 	'comment'		=> 'Komentarz',//'评论',
 	'lastupdate'		=> 'Ostatnia aktualizacja',//'最后更新',
 	'return_homepage'	=> 'Powrót',//'返回首页',
-	'visit_my_space'	=> 'Odwiedź przestrzeń',//'访问我的空间',
+	'visit_my_space'	=> 'Odwiedź profil',//'访问我的空间',
 	'album'			=> 'Albumy',//'相册',
 	'blog'			=> 'Blogi',//'日志',
 	'collection'		=> 'Kolekcja',//'淘帖',
@@ -89,6 +89,6 @@ $lang = array (
 	'more_than'		=> 'Więcej niż',//'大于',
 	'unlimited'		=> 'Nieograniczony',//'不限',
 	'goto_memcp'		=> 'Panel Moderatora',//'进入管理面板',
-	'thread_list_message1'	=> 'Zawartość zawiera ukryte tematy. Kliknij tutaj, aby je wyświetlić.',//'内容隐藏需要，请点击进去查看',
+	'thread_list_message1'	=> 'Zawartość zawiera ukryte tematy. Kliknij tutaj by je wyświetlić.',//'内容隐藏需要，请点击进去查看',
 );
 
