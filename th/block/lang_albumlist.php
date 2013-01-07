@@ -28,6 +28,6 @@ $lang = array
 	'albumlist_orderby_comment' => 'ตั้งค่าการจัดเรียงลำดับรูปภาพ',
 	'albumlist_orderby_dateline' => 'จัดเรียงตามวันที่เผยแพร่',
 	'albumlist_orderby_picnum' => 'จัดเรียงตามจำนวนรูปภาพ',
-	'albumlist_orderby_updatetime' => 'จัดเรียงตามเวลาที่อัพเดทล่าสุด'
+	'albumlist_orderby_updatetime' => 'จัดเรียงตามเวลาที่ปรับปรุงล่าสุด'
 );
 

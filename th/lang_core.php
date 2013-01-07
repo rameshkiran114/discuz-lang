@@ -65,7 +65,7 @@ $lang = array
 	'title_album' => 'อัลบั้ม',
 	'title_friend_album' => 'อัลบั้มของเพื่อน',
 	'title_my_album' => 'อัลบั้มของฉัน',
-	'title_newest_update_album' => 'อัลบั้มอัพเดทล่าสุด',
+	'title_newest_update_album' => 'อัลบั้มปรับปรุงล่าสุด',
 	'title_hot_pic_recommend' => 'รูปภาพแนะนำ',
 	'title_blog' => 'บล็อก',
 	'title_friend_blog' => 'บล็อกของเพื่อน',
@@ -155,11 +155,11 @@ $lang = array
 	'title_memcp_blog' => 'เขียนบล็อก',
 	'title_memcp_upload' => 'อัพโหลด',
 	'title_memcp_share' => 'ร่วมแบ่งปันสิ่งดีๆ',
-	'title_memcp_sendmail' => 'ส่งอีเมล์แจ้งเตือน',
+	'title_memcp_sendmail' => 'ส่งอีเมลแจ้งเตือน',
 	'title_memcp_privacy' => 'ความเป็นส่วนตัว',
 	'title_memcp_avatar' => 'เปลี่ยนรูปประจำตัว',
 	'title_memcp_profile' => 'ข้อมูลส่วนตัว',
-//	'title_memcp_sendmail' => 'ส่งอีเมล์แจ้งเตือน',
+	'title_memcp_sendmail' => 'ส่งอีเมลแจ้งเตือน',
 	'title_memcp_credit' => 'เครดิต',
 	'title_memcp_friend' => 'เพื่อน',
 	'title_memcp_usergroup' => 'กลุ่มสมาชิก',
@@ -221,15 +221,15 @@ $lang = array
 	'close' => 'ปิด',
 
 //vot source/include/misc/misc_security.php
-	'attackevasive_1_subject'	=> 'Refresh frequency limit',
-	'attackevasive_1_message'	=> 'You visit the site too fast, less than two seconds! Please wait a little...',
-	'attackevasive_2_subject'	=> 'Access throug proxy servers is restricted',
-	'attackevasive_2_message'	=> 'Access to the site through a proxy servers is restricted for mow. Please remove your proxy setting configuration, and access to the site directly.',
-	'attackevasive_4_subject'	=> 'Open the page reload',
-	'attackevasive_4_message'	=> 'Welcome to the site, the page is re-loading, please wait ...',
+	'attackevasive_1_subject'	=> 'อัตราความถี่ในการฟื้นฟู',
+	'attackevasive_1_message'	=> 'คุณดำเนินการเร็วเกินไป กรุณารออย่างน้อยซักสองวินาที แล้วค่อยลองใหม่..',
+	'attackevasive_2_subject'	=> 'การเข้าถึงเซิร์ฟเวอร์ถูกจำกัดไว้',
+	'attackevasive_2_message'	=> 'การเข้าถึงเว็บไซต์ผ่านเซิร์ฟเวอร์พร็อกซี่ถูกจำกัดไว้ กรุณาลบการตั้งค่าของพร็อกซี่ออก เพื่อให้สามารถเข้าถึงเว็บไซต์โดยตรง.',
+	'attackevasive_4_subject'	=> 'เปิดหน้ารีโหลดหน้าเว็บ',
+	'attackevasive_4_message'	=> 'ยินดีต้อนรับเข้าสู่เว็บไซต์ หน้าเว็บเพจนี้กำลังรีโหลด โปรดรอสักครู่ ...',
 
 //vot Months Names
-	'month_name'	=> array('Month','January','February','March','April','May','June','July','August','September','October','November','December'),
+	'month_name'	=> array('เดือน','มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'),
 
 );
 

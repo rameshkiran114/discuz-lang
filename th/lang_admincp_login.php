@@ -14,8 +14,8 @@ if(!defined('IN_DISCUZ')) {
 $lang = array
 (
 	'login_title'		=> 'ศูนย์กลางการจัดการระบบ',
-	'login_username'	=> 'ชื่อ',
-	'login_password'	=> 'รหัสผ่าน',
+	'login_username' => 'USER',
+	'login_password' => 'PASS',
 
 	'submit' => 'ลงชื่อเข้าใช้',
 	'forcesecques' => 'ต้องระบุ',

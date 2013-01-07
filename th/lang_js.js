@@ -190,12 +190,12 @@ var lng = {
 	'copy2clipboard'	: 'คัดลอกไปยังคลิปบอร์ด',//'点此复制到剪贴板',
 // ATTENTION!
 // The next line must have the same value as in /template.php - 'enter_content' !!!
-	'enter_search_string'	: 'ค้นหาอะไร...?',//'请输入搜索内容',
-	'refresh_q&a'		: 'รีเฟรช Q&A',//'刷新验证问答',
-	'refresh_code'		: 'รีเฟรชรหัส',//'刷新验证码',
+	'enter_search_string'	: 'ดีใจจัง ค้นแล้วเจอเลย',//'请输入搜索内容',
+	'refresh_q&a'		: 'ฟื้นฟู Q&A',//'刷新验证问答',
+	'refresh_code'		: 'ฟื้นฟูรหัส',//'刷新验证码',
 	'code_invalid'		: 'รหัสความปลอดภัยไม่ถูกต้อง, กรุณาลองใหม่',//'验证码错误，请重新填写',
 	'q&a_invalid'		: 'ตอบคำถามไม่ถูกต้อง, กรุณาลองใหม่',//'验证问答错误，请重新填写',
-	'code_clipboard'	: 'โค๊ดถูกคัดลอกไปยังคลิปบอร์ดแล้ว',//'代码已复制到剪贴板',
+	'code_clipboard'	: 'โค้ดถูกคัดลอกไปยังคลิปบอร์ดแล้ว',//'代码已复制到剪贴板',
 	'enter_link_url'	: 'กรอกที่อยู่ URL',//'请输入链接地址',
 	'enter_link_text'	: 'กรอกข้อความแทนลิงก์',//'请输入链接文字',
 	'enter_image_url'	: 'กรอกที่อยู่รูปภาพ',//'请输入图片地址',
@@ -212,8 +212,8 @@ var lng = {
 	'error_message'		: 'ข้อความผิดพลาด',//'错误信息',
 	'ctrl_d_favorites'	: 'กดปุ่ม Ctrl + D เพิ่มไปยังรายการโปรด',//'请按 Ctrl+D 键添加到收藏夹',
 	'non_ie_manually'	: 'ในกรณีที่ไม่ได้ใช้เบราวเซอร์ IE กรุณาตั้งหน้าแรกด้วยตัวเอง',//'非 IE 浏览器请手动将本站设为首页',
-	'blind_enable'		: 'Enable blind experience',//'开启盲人体验',//tc:'開啟盲人體驗',
-	'blind_disable'		: 'Disable blind experience',//'关闭盲人体验',//tc:'關閉盲人體驗',
+	'blind_enable'		: 'เปิดการใช้งานโหมดผู้พิการทางสายตา',//'开启盲人体验',//tc:'開啟盲人體驗',
+	'blind_disable'		: 'ปิดการใช้งานโหมดผู้พิการทางสายตา',//'关闭盲人体验',//tc:'關閉盲人體驗',
 
 //--------------------------------
 //static/js/common_diy.js
@@ -311,7 +311,7 @@ var lng = {
 //static/js/forum_post.js
 
 	'internal_error'	: 'ข้อผิดพลาดภายในเซิร์ฟเวอร์',//'内部服务器错误',
-	'upload_ok'		: 'อับโหลดไฟล์เสร็จเรียบร้อย',//'上传成功',
+	'upload_ok'		: 'อัพโหลดไฟล์เสร็จเรียบร้อย',//'上传成功',
 	'ext_not_supported'	: 'รูปแบบไฟล์หรือนามสกุลนี้ไม่สนับสนุน',//'不支持此类扩展名',
 	'sorry_ext_not_supported'	: 'รูปแบบไฟล์หรือนามสกุลนี้ไม่สนับสนุน',//'对不起，不支持上传此类扩展名的附件。',
 	'illegal_image_type'	: 'รูปแบบไฟล์หรือนามสกุลนี้ไม่สนับสนุน',//'图片附件不合法',
@@ -367,7 +367,7 @@ var lng = {
 	'share_connection_failed'	: 'การเชื่อมต่อไปยังการแชร์ล้มเหลว โปรดลองใหม่ภายหลัง',//'分享服务连接失败，请稍后再试',
 	'qq_bind'		: 'กรุณาผูกบัญชี QQ ของคุณ',//'请先绑定QQ账号',
 	'quote_by'		: 'อ้างอิงจาก .*? เมื่อ .*?',//'本帖最后由 .*? 于 .*? 编辑',
-	'copy_code'		: 'คัดลอกโค๊ด',//'复制代码',
+	'copy_code'		: 'คัดลอกโค้ด',//'复制代码',
 
 //--------------------------------
 //static/js/handlers.js
@@ -471,8 +471,8 @@ var lng = {
 	'back'			: 'กลับ',//'返回',
 	'settings_expand'	: 'ขยายการตั้งค่า',//'展开设置项',
 	'settings_hide'		: 'ซ่อนการตั้งค่า',//'收起设置项',
-	'custom_content_error'	: 'มีข้อผิดพลาดในเนื้อหาที่กำหนดเอง! โค๊ด HTML: ',//'自定义内容错误，',
-	'html_error'		: 'โค๊ด HTML: ',//'HTML代码：',
+	'custom_content_error'	: 'มีข้อผิดพลาดในเนื้อหาที่กำหนดเอง! โค้ด HTML: ',//'自定义内容错误，',
+	'html_error'		: 'โค้ด HTML: ',//'HTML代码：',
 	'tags_not_match'	: ' - แท็กไม่ตรงกัน',//' 标签不匹配',
 	'entered'		: 'Have entered ',//'已输入 ',
 	'exceed'		: 'Exceed ',//'超出 ',
@@ -576,23 +576,23 @@ var lng = {
 	'password_fill'		: 'กรุณากรอกรหัสผ่าน',//'请填写密码',
 	'password_again'	: 'กรุณากรอกรหัสผ่านอีกครั้ง',//'请再次输入密码',
 	'email_fill'		: 'กรุณากรอกที่อยู่อีเมล์',//'请输入邮箱地址',
-	'length_min'		: ', Minimum length',//', 最小长度为 '
-	'chars'			: ' characters',//' 个字符',
+	'length_min'		: ', ความยาวต่ำสุด',//', 最小长度为 '
+	'chars'			: ' ตัวอักษร',//' 个字符',
 	'password_strength'	: 'Password strength: ',//'密码强度:',
-	'pw_weak'		: 'Weak',//'弱',
-	'pw_middle'		: 'Middle',//'中',
-	'pw_strong'		: 'Strong',//'强',
-	'pass_short'		: 'Password is too short, must be not less than ',//'密码太短，不得少于 ',
-	'digital'		: 'Digital',//'数字',
-	'lowercase'		: 'Lowercase letters',//'小写字母',
-	'capitals'		: 'Capital letters',//'大写字母',
-	'specials'		: 'Special symbols',//'特殊符号',
-	'pw_weak_info'		: 'Weak password, the password must contain ',//'密码太弱，密码中必须包含 ',
+	'pw_weak'		: 'คาดเดาได้ง่าย',//'弱',
+	'pw_middle'		: 'คาดเดาได้ปานกลาง',//'中',
+	'pw_strong'		: 'คาดเดาได้ยาก',//'强',
+	'pass_short'		: 'รหัสผ่านสั้นเกินไป จะต้องไม่น้อยกว่า ',//'密码太短，不得少于 ',
+	'digital'		: 'ตัวเลข',//'数字',
+	'lowercase'		: 'ตัวพิมพ์เล็ก',//'小写字母',
+	'capitals'		: 'ตัวพิมพ์ใหญ่',//'大写字母',
+	'specials'		: 'สัญลักษณ์พิเศษ',//'特殊符号',
+	'pw_weak_info'		: 'รหัสผ่านที่คุณกรอกคาดเดาได้ง่าย จะต้องประกอบไปด้วย ',//'密码太弱，密码中必须包含 ',
 
 //--------------------------------
 //static/js/seditor.js
-	'enter_username'	: 'Please enter the user name',//'请输用户名',
-	'at_friend'		: '@user, you can remind him to view the post',//'@朋友账号，就能提醒他来看帖子',
+	'enter_username'	: 'กรุณากรอกชื่อผู้ใช้',//'请输用户名',
+	'at_friend'		: '@เพื่อน จะช่วยแจ้งเตือนให้เพื่อนของคุณทราบว่ามีการอ้างอิงชื่อเขา',//'@朋友账号，就能提醒他来看帖子',
 
 //--------------------------------
 //static/js/smilies.js
@@ -606,7 +606,7 @@ var lng = {
 //---------------------------
 //static/js/swfupload.js
 
-	'attach_file'		: 'Attachment',
+	'attach_file'		: 'ไฟล์แนบ',
 
 //---------------------------
 //static/js/threadsort.js
@@ -619,7 +619,7 @@ var lng = {
 	'text_too_long'		: 'กรอกข้อมูลในโครงการยาวเกินไป',//'填写项目长度过长',
 	'value_is_greater'	: 'สูงกว่าค่าที่กำหนดไว้',//'大于设置最大值',
 	'value_is_less'		: 'น้อยกว่าค่าที่กำหนดไว้',//'小于设置最小值',
-	'enter_valid_url'	: 'Please enter correct URL address beginning with http://',//'请正确填写以http://开头的URL地址',
+	'enter_valid_url'	: 'กรอกที่อยู่ลิงก์ให้ถูกต้อง โดยต้องจะต้องเริ่มด้วย http://',//'请正确填写以http://开头的URL地址',
 
 //--------------------------------
 //static/js/upload.js
@@ -638,10 +638,10 @@ var lng = {
 //static/js/googlemap.js + static/js/editor.js
 
 	'map_title'		: 'Google Maps',//'google图',
-	'map_insert'		: 'Insert Google Map',//'插入google地图',
-	'map_insert_tips'	: 'Insert Google Maps by address searching (temporarily supported only single label!)',//'通过搜索插入google地图（暂只支持单点标注）！',
-	'map_center_changed'	: 'The map center is changed!',//'地图中心已经改变！',
-	'map_wrong_address'	: 'Wrong address! Current address was not found',//' 地址错误，未找到当前地址',
+	'map_insert'		: 'แทรก Google Map',//'插入google地图',
+	'map_insert_tips'	: 'แทรก Google Maps โดยการค้นหาที่อยู่ (temporarily supported only single label!)',//'通过搜索插入google地图（暂只支持单点标注）！',
+	'map_center_changed'	: 'แผนที่ถูกเปลี่ยนแล้ว!',//'地图中心已经改变！',
+	'map_wrong_address'	: 'ที่อยู่ไม่ถูกต้อง! ไม่พบที่อยู่ปัจจุบันของคุณ',//' 地址错误，未找到当前地址',
 
 //-------------------------------------
 //	''	: '',//'',

@@ -22,7 +22,7 @@ $lang = array
 	'has_expired' => 'ข้อมูลนี้ได้หมดอายุแล้ว',
 	'click_view' => 'คลิกเพื่อดู',
 	'never_expired' => 'ไม่มีวันหมดอายุ',
-	'sort_update' => 'อัพเดท',
+	'sort_update' => 'ปรับปรุง',
 	'sort_upload' => 'อัพโหลด',
 	'view_noperm' => 'เนื้อหาถูกซ่อนไว้',
 	'post_hidden' => '**** ซ่อนโดยเจ้าของโพสต์ ****',
@@ -52,9 +52,9 @@ $lang = array
 	'post_trade_transport_type' => 'วิธีการขนส่ง',
 	'post_trade_transport_seller' => 'ผู้ขายชำระค่าขนส่ง',
 	'post_trade_transport_buyer' => 'ผู้ซื้อชำระค่าขนส่ง',
-	'post_trade_transport_mail' => 'อีเมล์',
+	'post_trade_transport_mail' => 'อีเมล',
 	'post_trade_transport_express' => 'ด่วน',
-	'post_trade_transport_virtual' => 'สินค้าเสมือนจริงหรือไม่จำเป็นต้องจัดส่งทางอีเมล์',
+	'post_trade_transport_virtual' => 'สินค้าเสมือนจริงหรือไม่จำเป็นต้องจัดส่งทางอีเมล',
 	'post_trade_transport_physical' => 'ชำระเงินหลังจากผู้ซื้อได้รับสินค้า',
 //	'post_trade_locus'	=> 'สถานที่',
 	'post_trade_description' => 'รายละเอียด',
@@ -75,7 +75,7 @@ $lang = array
 	'attach_downloads' => 'ดาวน์โหลดจำนวน',
 
 	'post_trade_transport' => 'ค่าธรรมเนียมจัดส่ง',
-//	'post_trade_transport_mail' => 'อีเมล์',
+//	'post_trade_transport_mail' => 'อีเมล',
 	'post_trade_quality' => 'คุณลักษณะ',
 	'post_trade_quality_new' => 'ใหม่',
 	'post_trade_quality_secondhand' => 'เก่า',
@@ -264,7 +264,7 @@ $lang = array
 	'perms_allowpoke' => 'ทักทาย(ส่วนตัว)',
 	'perms_allowfriend' => 'เพิ่มเพื่อน',
 	'perms_allowclick' => 'แสดงความรู้สึก',
-	'perms_allowmyop' => 'ใช้แอปพลิเคชั่น',
+	'perms_allowmyop' => 'ใช้แอพลิเคชัน',
 	'perms_allowcomment' => 'แสดงความคิดเห็น',
 	'perms_allowstatdata' => 'ดูสถิติข้อมูล',
 	'perms_allowstat' => 'ดูแนวโน้มสถิติ',
@@ -320,9 +320,9 @@ $lang = array
 	'patch_status' => 'สถานะ',
 	'patch_close' => 'ปิด',
 
-	'plugin_title' => 'แจ้งเตือนอัพเดทปลั๊กอิน',
-	'plugin_memo' => 'พร้อมอัพเดท: <span class="xi1">{number}</span>',
-	'plugin_link' => 'อัพเดททันที',
+	'plugin_title' => 'แจ้งเตือนปรับปรุงปลั๊กอิน',
+	'plugin_memo' => 'พร้อมปรับปรุง: <span class="xi1">{number}</span>',
+	'plugin_link' => 'ปรับปรุงทันที',
 
 );
 

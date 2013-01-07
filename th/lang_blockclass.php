@@ -42,7 +42,7 @@ $lang = array(
 	'blockclass_myapp_field_icon' => 'ไอคอนแอพพลิฯ',
 	'blockclass_myapp_field_icon_small' => 'ไอคอนขนาดเล็ก',
 	'blockclass_myapp_field_icon_abouts' => 'Application icon',
-	'blockclass_myapp_script_myapp' => 'แอปพลิเคชั่นที่ใช้ร่วมกัน',
+	'blockclass_myapp_script_myapp' => 'แอพลิเคชันที่ใช้ร่วมกัน',
 
 	'blockclass_forum' => 'กระทู้',
 
@@ -304,7 +304,7 @@ $lang = array(
 	'blockclass_album_field_title' => 'ชื่ออัลบั้ม',
 	'blockclass_album_field_pic' => 'ภาพปกของอัลบั้ม',
 	'blockclass_album_field_dateline' => 'วันที่สร้าง',
-	'blockclass_album_field_updatetime' => 'วันที่อัพเดท',
+	'blockclass_album_field_updatetime' => 'วันที่ปรับปรุง',
 	'blockclass_album_field_username' => 'ชื่อสมาชิก',
 	'blockclass_album_field_uid' => 'UID สมาชิก',
 	'blockclass_album_field_picnum' => 'จำนวนภาพ',
@@ -390,7 +390,7 @@ $lang = array(
 	'blockclass_grouptrade_field_pic' => 'รูปภาพสินค้า',
 	'blockclass_grouptrade_field_totalitems' => 'จำนวนสินค้า',
 	'blockclass_grouptrade_field_author' => 'ผู้ขาย',
-	'blockclass_grouptrade_field_authorid' => 'ID ผู้ขาย',
+	'blockclass_grouptrade_field_authorid' => 'UID ผู้ขาย',
 	'blockclass_grouptrade_field_price' => 'ราคา',
 	'blockclass_grouptrade_script_grouptradenew' => 'สินค้าใหม่',
 	'blockclass_grouptrade_script_grouptradehot' => 'สินค้ายอดนิยม',

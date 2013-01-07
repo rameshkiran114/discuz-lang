@@ -14,7 +14,7 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'feed_name'	=> 'ระหว่างรายการหน้าข้อมูลอัพเดท',//'空间 动态广告',
+	'feed_name'	=> 'ระหว่างรายการหน้าข้อมูลปรับปรุง',//'空间 动态广告',
 	'feed_desc'	=> 'Display Adv at the top of feeds.',//'展现方式: 日志广告显示于动态的上方。',
 );
 

@@ -56,7 +56,7 @@ $lang = array
 	'show_out' => '{actor} เยี่ยมชมโปรไฟล์ของคุณ และได้รับเครดิตสุดท้ายไปแล้ว',
 	'puse_article' => 'ขอแสดงความยินดี กระทู้<a href="{url}" target="_blank">{subject}</a>ของคุณถูกนำไปเป็นบทความ <a href="{newurl}" target="_blank">คลิกเพื่อดู</a>',
 
-	'myinvite_request' => 'ข้อความแอพพลิเคชั่นใหม่<a href="home.php?mod=space&do=notice&view=userapp">คลิกที่นี่เพื่อดูหน้าข้อมูลแอพพลิเคชั่นที่เกี่ยวข้อง</a>',
+	'myinvite_request' => 'ข้อความแอพลิเคชันใหม่<a href="home.php?mod=space&do=notice&view=userapp">คลิกที่นี่เพื่อดูหน้าข้อมูลแอพลิเคชันที่เกี่ยวข้อง</a>',
 
 
 	'group_member_join' => '{actor} ได้เข้าร่วมคลับ <a href="forum.php?mod=group&fid={fid}" target="_blank">{groupname}</a> ของคุณ ขณะนี้อยู่ในระหว่างรอการตรวจสอบ โปรดไปที่<a href="{url}" target="_blank">การจัดการคลับ</a> เพื่อดำเนินการตรวจสอบ',
@@ -99,15 +99,15 @@ $lang = array
 
 	'reason_quickclear' => '{actor} ได้ลบ {cleartype} ออก <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modthreads_delete' => 'กระทู้ {threadsubject} ของคุณ ไม่ผ่านการตรวจสอบและตอนนี้ได้ถูกลบออกไปแล้ว! <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modthreads_delete' => 'กระทู้ {threadsubject} ของคุณ ไม่ผ่านการตรวจสอบและตอนนี้ได้ถูกลบออกไปแล้ว!',
 
-	'modthreads_delete_reason' => 'Published by you thread {threadsubject} was not approved, and now has been deleted! <div class="quote"><blockquote>{reason}</blockquote></div>',//'您发表的主题 {threadsubject} 未通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modthreads_delete_reason' => 'กระทู้ {threadsubject} ของคุณ ไม่ผ่านการตรวจสอบและตอนนี้ได้ถูกลบออกไปแล้ว! <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modthreads_validate' => 'กระทู้ <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> ของคุณ ผ่านการตรวจสอบและตอนนี้ถูกโพสต์ลงไปแล้ว! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">ดูกระทู้ &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modthreads_validate' => 'กระทู้ <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> ของคุณ ผ่านการตรวจสอบและตอนนี้ถูกโพสต์ลงไปแล้ว! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">ดูกระทู้ &rsaquo;</a>',
 
-	'modreplies_delete' => 'การโพสต์ตอบกลับของคุณไม่ผ่านการตรวจสอบ และได้ถูกลบออกไปแล้ว! <p class="summary">เนื้อหา: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modreplies_delete' => 'การโพสต์ตอบกลับของคุณไม่ผ่านการตรวจสอบ และได้ถูกลบออกไปแล้ว! <p class="summary">เนื้อหา: <span>{post}</span></p>',
 
-	'modreplies_validate' => 'การโพสต์ตอบกลับของคุณผ่านการตรวจสอบแล้ว! &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">ดูเนื้อหา &rsaquo;</a> <p class="summary">เนื้อหา: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modreplies_validate' => 'การโพสต์ตอบกลับของคุณผ่านการตรวจสอบแล้ว! &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">ดูเนื้อหา &rsaquo;</a> <p class="summary">เนื้อหา: <span>{post}</span></p>',
 
 	'transfer' => 'คุณได้รับจากเครดิตจาก {actor} ผ่านการโอนเป็นจำนวน {credit} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">ดูรายละเอียด &rsaquo;</a>
 <p class="summary">{actor} พูดว่า: <span>{transfermessage}</span></p>',

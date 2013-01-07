@@ -13,7 +13,7 @@ if(!defined('IN_DISCUZ')) {
 }
 
 $lang = array (
-	  'forum_archive'	=> 'แบบข้อความล้วน',
+	  'forum_archive' => 'Archive',
 
 
 );

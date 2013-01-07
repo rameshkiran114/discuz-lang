@@ -18,8 +18,8 @@ $lang = array (
   'thread_poll' => 'โหวต',
   'credits' => 'เครดิต',
   'login' => 'ลงชื่อเข้าใช้',
-  'active_email' => 'อีเมล์ผู้รับ',
-  'active_email_comment' => 'จำเป็นต้องระบุอีเมล์ผู้รับระบบจะส่งโค้ดคำเชิญไปที่อีเมล์นี้',
+  'active_email' => 'อีเมลผู้รับ',
+  'active_email_comment' => 'จำเป็นต้องระบุอีเมลผู้รับระบบจะส่งโค้ดคำเชิญไปที่อีเมลนี้',
   'apitype_alipay' => 'Alipay',
   'apitype_tenpay' => 'TenPay',
   'buy_nums' => 'จำนวนที่ซื้อ',
@@ -27,14 +27,14 @@ $lang = array (
   'copycode' => 'คัดลอกทั้งหมดไปยังคลิปบอร์ด',
   'copycode_invite_succeed' => 'โค้ดเชิญถูกคัดลอกไปยังคลิปบอร์ด',
   'invitecode_buycode' => 'รับโค้ดเชิญ',
-  'invitecode_email' => 'เราจะส่งรหัสเทียบเชิญไปยังอีเมล์ <span class="xi1">$order[email]</span> ที่คุณได้ระบุเอาไว้',
+  'invitecode_email' => 'เราจะส่งรหัสเทียบเชิญไปยังอีเมล <span class="xi1">$order[email]</span> ที่คุณได้ระบุเอาไว้',
   'invitecode_expiration' => 'เวลาหมดอายุ',
   'invitecode_succeed_title' => 'ยินดีด้วย คุณได้รับโค้ดเชิญแล้ว',
   'money_unit' => 'บาท',
   'need_money' => 'ต้องชำระเงิน',
   'reg_continue' => 'ดำเนินการต่อ',
   'trade_type' => 'วิธีการชำระเงิน',
-  'e_fontoptions' => '"Angsana New", "Browallia New", "Cordia New", "JasmineUPC", "KodchiangUPC", "MS Sans Serif", "Trebuchet MS", "Tahoma", "Arial", "Impact", "Verdana", "Times New Roman"',
+  'e_fontoptions' => '"Leelawadee", "IrisUPC", "LilyUPC", "FreesiaUPC", "EucrosiaUPC", "Angsana New", "Browallia New", "Cordia New", "JasmineUPC", "KodchiangUPC", "MS Sans Serif", "Georgia", "Comic Sans MS", "Trebuchet MS", "Tahoma", "Arial", "Impact", "Verdana", "Times New Roman"',
   'editor_increase' => 'ขยาย',
   'editor_narrow' => 'ย่อ',
   'post_autosave_restore' => 'กู้คืนข้อมูล',
@@ -79,9 +79,10 @@ $lang = array (
   'remind' => 'แจ้งเตือน',
   'setup' => 'ตั้งค่าส่วนตัว',
   'switch_narrow' => 'ขนาดปกติ',
-  'switch_wide' => 'ปรับขนาด',
+  'switch_wide' => 'ขนาดจอกว้าง',
+  'switch_blind' => 'โหมดผู้บกพร่องทางการมองเห็น',
   'task_doing' => 'กำลังดำเนินการ',
-  'to_be_continue' => 'แสดงผลรูแบบคอมพิวเตอร์',
+  'to_be_continue' => 'แสดงผลรูปแบบคอมพิวเตอร์',
   'usergroup' => 'กลุ่มสมาชิก',
   'visit_my_space' => 'เยี่ยมชมโปรไฟล์',
   'your_mobile_browser' => 'กรุณาเลือก ',
@@ -107,8 +108,8 @@ $lang = array (
   'header_restore_backup' => 'สำรอง/กู้คืน',
   'header_restore_backup_desc' => 'การสำรองและคืนค่าข้อมูล',
   'header_start' => 'เริ่มต้น',
-  'header_update' => 'อัพเดท',
-  'header_update_desc' => 'อัพเดทโมดูลหน้าปัจจุบันทั้งหมด',
+  'header_update' => 'ปรับปรุง',
+  'header_update_desc' => 'ปรับปรุงโมดูลหน้าปัจจุบันทั้งหมด',
   'save' => 'บันทึก',
   'style' => 'รูปแบบ',
   'find' => 'ค้นหา',
@@ -153,7 +154,7 @@ $lang = array (
   'at_friend' => '@เพื่อน',
   'e_at' => '@เพื่อน',
   'e_bold' => 'ตัวหนา',
-  'e_code' => 'โค๊ด',
+  'e_code' => 'โค้ด',
   'e_forecolor' => 'สีตัวอักษร',
   'e_image' => 'รูปภาพ',
   'e_quote' => 'อ้างอิง',
@@ -179,7 +180,7 @@ $lang = array (
   'e_attach_mediacode' => 'แทรกโค้ดไฟล์แนบมีเดีย',
   'e_attach_url' => 'แทรกลิงก์ไฟล์แนบ',
   'readperm' => 'ระดับ',
-  'update' => 'อัพเดท',
+  'update' => 'ปรับปรุง',
   'delete' => 'ลบ',
   'none_newthread' => 'ไม่มีกระทู้ใดที่มีการตอบกลับใหม่',
   'author' => 'ผู้เขียน',
@@ -315,7 +316,7 @@ $lang = array (
   'increase' => 'เพิ่ม',
   'friend_top' => 'การจัดอันดับ',
   'connect_config_newpassword_comment' => 'ขณะนี้คุณกำลังใช้บัญชี QQ เชื่อมต่อกับเว็บไซต์ของเรา คุณสามารถตั้งค่ารหัสผ่านแยกต่างหาก',
-  'email' => 'อีเมล์',
+  'email' => 'อีเมล',
   'security_question' => 'เลือกคำถาม(ถ้ากำหนดไว้)',
   'security_question_0' => 'แม่ของฉันชื่อว่า',
   'security_question_1' => 'ปู่ของฉันชื่อว่า',
@@ -358,7 +359,7 @@ $lang = array (
   'ranking_message_2' => 'เมื่อคุณติดอันดับและมีผู้เข้าชมโปรไฟล์ของคุณ {$extcredits[$creditid][title]}ของคุณที่เสนอไปจะถูกหักหรือลดลงทันที(คุณจะไม่สามารถขอคืนได้)',
   'self_current_credit' => 'เครดิตปัจจุบันของคุณ',
   'self_current_friend_num' => 'จำนวนเพื่อนปัจจุบันของคุณ',
-  'top_100_update' => 'รายการต่อไปคือ 100 อันดับล่าสุด อัพเดทข้อมูลทุกๆ  $cache_time นาที',
+  'top_100_update' => 'รายการต่อไปคือ 100 อันดับล่าสุด ปรับปรุงข้อมูลทุกๆ  $cache_time นาที',
   'your_current_bid' => 'คุณเสนอราคาเพื่อจัดอันดับ',
   'top_orderby_blogs' => 'ตามจำนวนบล็อก',
   'top_orderby_credits' => 'ตามจำนวนเครดิต',
@@ -381,28 +382,28 @@ $lang = array (
 // Added by Valery Votintsev
 
 	'follow_view_follow'	=> 'I follow',//'我关注的',
-	'follow_stop'		=> 'Stop follow',//'不收听',
-	'follow_start'		=> 'Follow',//'收听TA',
+	'follow_stop'		=> 'เลิกติดตาม',//'不收听',
+	'follow_start'		=> 'ติดตาม',//'收听TA',
 
-	'e_full_screen'		=> 'Full Screen',//'全屏',
-	'e_restore_size'	=> 'Restore size',//'恢复',
-	'e_simple'		=> 'General Mode',//'常用',
-	'e_advanced'		=> 'Advanced Mode',//'高级',
+	'e_full_screen'		=> 'เต็มจอ',//'全屏',
+	'e_restore_size'	=> 'ขนาดเดิม',//'恢复',
+	'e_simple'		=> 'โหมดทั่วไป',//'常用',
+	'e_advanced'		=> 'โหมดขั้นสูง',//'高级',
 
 //static/space/t1/style.css
-	'default_style'	=> 'Default style',//'[name]默认风格[/name]',
+	'default_style'	=> 'สไตล์มาตรฐาน',//'[name]默认风格[/name]',
 
 //---------------------------
 //static/space/t2/style.css
-	'nature'	=> 'Nature',//'[name]自然[/name]',
+	'nature'	=> 'ธรรมชาติ',//'[name]自然[/name]',
 
 //---------------------------
 //static/space/t3/style.css
-	'sky'		=> 'Sky',//'[name]天空[/name]',
+	'sky'		=> 'ท้องฟ้า',//'[name]天空[/name]',
 
 //---------------------------
 //static/space/t4/style.css
-	'cat'		=> 'Cat',//'[name]猫猫[/name]',
+	'cat'		=> 'แมวเหมียว',//'[name]猫猫[/name]',
 
 //---------------------------
 //static/space/t5/style.css
@@ -410,7 +411,7 @@ $lang = array (
 
 //---------------------------
 //static/space/t6/style.css
-	'green_wall'	=> 'Green Wall',//'[name]绿墙[/name]',
+	'green_wall'	=> 'พื้นสีเขียว',//'[name]绿墙[/name]',
 
 //---------------------------
 //static/space/t7/style.css
@@ -418,11 +419,11 @@ $lang = array (
 
 //---------------------------
 //static/space/t8/style.css
-	'christmas'	=> 'Christmas',//'[name]圣诞[/name]',
+	'christmas'	=> 'คริสต์มาส',//'[name]圣诞[/name]',
 
 //---------------------------
 //static/topic/t1/style.css
-	'default_skin'	=> 'Default Skin',//'[name]默认皮肤[/name]',
+	'default_skin'	=> 'สกินมาตรฐาน',//'[name]默认皮肤[/name]',
 
 //---------------------------
 //static/topic/t2/style.css
@@ -432,19 +433,19 @@ $lang = array (
 //Change Language
 	'change_language'	=> '',//'Change language:',
 	'change_language_title'	=> 'เปลี่ยนภาษา',
-	'changestyle_title'	=> 'Change Style',//'切换风格',
+	'changestyle_title'	=> 'เปลี่ยนสไตล์',//'切换风格',
 
 //vot:
 	'new'		=> 'ใหม่',//'全新',
 
 	'register'	=> 'สมัครสมาชิก',//'注册',
 
-	'or'		=> 'or',//'或者',
+	'or'		=> 'หรือ',//'或者',
 
 // Google Maps
-	'e_map'		=> 'Map',//'地图',
-	'e_map_insert'	=> 'Insert Google Map',//'插入google地图',
-	'e_map_address'	=> 'Enter address for search: ',//'地址： ',
+	'e_map'		=> 'แผนที่',//'地图',
+	'e_map_insert'	=> 'แทรก Google Map',//'插入google地图',
+	'e_map_address'	=> 'กรอกที่อยู่เพื่อค้นหา ',//'地址： ',
 
 //Do not edit copyright section, referrered to Comsenz License Agreement!
   'copyright'	=> '&copy; 2001-2011 <a href="http://www.comsenz.com" target="_blank">Comsenz Inc.</a> Thai Language by <a href="http://www.discuzthai.com" target="_blank">DiscuzThai.com</a>',

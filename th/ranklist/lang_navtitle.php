@@ -69,7 +69,7 @@ $lang = array(
   'ranklist_title_group_post_30' => 'อันดับโพสต์ในช่วง 30 วันที่ผ่านมา',
   'ranklist_title_group_post_24' => 'อันดับโพสต์ในช่วง 24 ชั่วโมงที่ผ่านมา',
 
-  'ranklist_title_app_today' => 'อันดับแอพพลิเคชั่นที่มีความเคลื่อนไหววันนี้',
-  'ranklist_title_app_all' => 'อันดับแอพพลิเคชั่นที่ได้รับความนิยม',
+  'ranklist_title_app_today' => 'อันดับแอพลิเคชันที่มีความเคลื่อนไหววันนี้',
+  'ranklist_title_app_all' => 'อันดับแอพลิเคชันที่ได้รับความนิยม',
 );
 

@@ -48,7 +48,7 @@ $lang = array
 	'menu_setting_domain' => 'ตั้งค่าโดเมน',
 	'menu_setting_user' => 'ตั้งค่าสมาชิก',
 	'menu_setting_credits' => 'ตั้งค่าเครดิต',
-	'menu_setting_mail' => 'จัดการ/ตั้งค่าอีเมล์',
+	'menu_setting_mail' => 'จัดการ/ตั้งค่าอีเมล',
 	'menu_setting_sec' => 'ตั้งค่าความปลอดภัย',
 	'menu_setting_datetime' => 'ตั้งค่ารูปแบบเวลา',
 	'menu_setting_attachments' => 'ตั้งค่าไฟล์แนบ',
@@ -111,7 +111,7 @@ $lang = array
 	'menu_postcomment' => 'จัดการความเห็นโพสต์',
 	'menu_maint_doing' => 'จัดการทักทาย',
 	'menu_maint_blog' => 'จัดการบล็อก',
-	'menu_maint_feed' => 'จัดการรายการอัพเดท',
+	'menu_maint_feed' => 'จัดการรายการปรับปรุง',
 	'menu_maint_album' => 'จัดการอัลบั้ม',
 	'menu_maint_pic' => 'จัดการรูปภาพ',
 	'menu_maint_comment' => 'จัดการความคิดเห็น',
@@ -155,9 +155,9 @@ $lang = array
 	'menu_adv_custom' => 'ตั้งค่าโฆษณา',
 
 	'menu_misc_announce' => 'ประกาศ',
-	'menu_tools_updatecaches' => 'อัพเดทแคช',
+	'menu_tools_updatecaches' => 'ปรับปรุงแคช',
 	'menu_tools_postposition' => 'ประสิทธิภาพการโพสต์',
-	'menu_tools_updatecounters' => 'อัพเดทสถิติ',
+	'menu_tools_updatecounters' => 'ปรับปรุงสถิติ',
 	'menu_tools_javascript' => 'เรียกใช้จาวาสคริปต์',
 	'menu_tools_relatedtag' => ' คีย์เวิร์ด',
 	'menu_tools_creditwizard' => 'ตัวช่วยเครดิต',
@@ -197,6 +197,6 @@ $lang = array
 	'admincp_title' => 'ศูนย์การจัดการ '.$_G['setting']['bbname'].'',
 
 // Added by Valery Votintsev
-	'menu_setting_language'		=> 'Languages',
+	'menu_setting_language'		=> 'ภาษา',
 );
 
