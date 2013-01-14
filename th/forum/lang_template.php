@@ -1234,6 +1234,7 @@ $lang = array (
 	'reply_num'			=> 'ตอบกลับ',//'回复',
 	'loading'			=> 'กำลังโหลด...',//'加载中...',
 	'follow_add'			=> 'ติดตาม',//'收听',//Subscribe
+	'modmenu'			=> 'Thread Menu',//'本主题菜单',
 //	'e_paste'			=> 'วาง',//'粘贴',
 );
 

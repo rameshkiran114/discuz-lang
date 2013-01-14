@@ -1229,10 +1229,11 @@ $lang = array (
 // Added by Valery Votintsev
 	'view_thread_textmode'		=> '텍스트 모드',//'文字模式',
 	'like'				=> '좋음',//'喜欢',
-'in'				=> ' &nbsp;In',//'在',
-'reply_num'			=> 'Replies',//'回复',
-'loading'			=> 'Loading...',//'加载中...',
-'follow_add'			=> 'Listen',//'收听',//Subscribe
+	'in'				=> ' &nbsp;In',//'在',
+	'reply_num'			=> 'Replies',//'回复',
+	'loading'			=> 'Loading...',//'加载中...',
+	'follow_add'			=> 'Listen',//'收听',//Subscribe
+	'modmenu'			=> 'Thread Menu',//'本主题菜单',
 //	'e_paste'			=> '붙여넣기',//'粘贴',//'Paste',
 );
 

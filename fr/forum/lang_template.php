@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *     $Id: lang_template.php by Valery Votintsev, codersclub.org
+ *	$Id: lang_template.php by Valery Votintsev, codersclub.org
  *
  *      This file is automatically generate
  */
@@ -56,27 +56,27 @@ $lang = array (
 	'quickclear_crime_sightml_nums'	=> 'User $crimeauthor cleaned signature $crimenum_sightml times',//'用户 $crimeauthor 已被清除签名 $crimenum_sightml 次',
 	'quickclear_customstatus'	=> 'Remove custom status',//'清除自定义头衔',
 	'quickclear_sightml'	=> 'Remove signature',//'清除签名',
-  'submit'		=> 'Envoyer',  //   'Submit'   
-  'e_attach_del'	=> 'Supprimer',  //  'Delete'    
-  'e_attach_mediacode'	=> 'Ajouter une pi&#232;ce jointe des m&#233;dias du code',  //  'Add attachment media code'    
-  'e_attach_url'	=> 'Ajouter url pi&#232;ce jointe',  // 'Add attachment url'     
-  'highest_right'	=> 'permission Sup.',  //   'Highest permission'    
-  'readperm'		=> 'R.P.',  // 'R.P.'     
-  'update'		=> 'Mise &#224; jour',  //  'Update'    
-  'upload_msg'		=> '$attach[filenametitle] {LF}T&#233;l&#233;ch.: $attach[dateline] {LF}Taille: $attach[attachsize]',  // '$attach[filenametitle] {LF}Upload: $attach[dateline] {LF}Size: $attach[attachsize]'     
-  'delete'		=> 'Supprimer',  //      
+	'submit'		=> 'Envoyer',//'Submit'   
+	'e_attach_del'		=> 'Supprimer',//'Delete'    ,
+	'e_attach_mediacode'	=> 'Ajouter une pi&#232;ce jointe des m&#233;dias du code',//'Add attachment media code',
+	'e_attach_url'		=> 'Ajouter url pi&#232;ce jointe',//'Add attachment url',
+	'highest_right'		=> 'permission Sup.',//'阅读权限',
+	'readperm'		=> 'R.P.',//'更新',
+	'update'		=> 'Mise &#224; jour',  //  'Update'    
+	'upload_msg'		=> '$attach[filenametitle] {LF}T&#233;l&#233;ch.: $attach[dateline] {LF}Taille: $attach[attachsize]',  // '$attach[filenametitle] {LF}Upload: $attach[dateline] {LF}Size: $attach[attachsize]'     
+	'delete'		=> 'Supprimer',//
 	'follow_quickreply'	=> 'Reply',//'回复',
 	'follow_relay'		=> 'Relay',//'转播',//Broadcast
-  'poston'		=> 'Post sur le ',  //      
+	'poston'		=> 'Post sur le ',  //      
 	'forumlist'		=> 'Forum List',//'版块列表',
 	'forumlist_allforum'	=> 'All forums',//'所有版块',
 	'forumlist_myfav'	=> 'My Favorites',//'我的收藏',
 	'forumlist_recent'	=> 'Recently Viewed',//'最近浏览',
-  'search'		=> 'Rechercher ',  // 'Search '     
-  'description'		=> 'Description',  //  'Description'    
-  'save_to_album'	=> 'Enregistrer l\'Album',  // 'Save to album'     
+	'search'		=> 'Rechercher ',  // 'Search '     
+	'description'		=> 'Description',  //  'Description'    
+	'save_to_album'		=> 'Enregistrer l\'Album',  // 'Save to album'     
 	'post_meanwhile_relay'	=> 'Meanwhile relay',//'同时转播',//the same time broadcast
-  'reply'		=> 'R&#233;ponse',  //  'Reply'     
+	'reply'			=> 'R&#233;ponse',  //  'Reply'     
 	'view_all_replies'	=> 'Go to the forum for view all replies',//'去论坛查看所有回复',
   'all'			=> 'Tout',  //  'All'    
   'announcement'	=> 'Annonce',  //  'Annoncement'    
@@ -98,7 +98,6 @@ $lang = array (
   'pay_view'		=> 'Enregistrement',  // 'Record'     
   'time'		=> 'Temps',  //  'Time'    
   'username'		=> 'Utilisateur',  //   'User'   
-
 	'collection'		=> 'Collection',//'淘帖',
 	'collection_create'	=> 'Create collection',//'创建淘专辑',
 	'collection_desc'	=> 'Collection description:',//'淘帖简介：',
@@ -128,7 +127,7 @@ $lang = array (
 	'collection_max_invite'		=> 'For each collection you can invite up to <span id="invitenum">$maxteamworkers</span> members',//'每个淘专辑最多可以邀请 <span id="invitenum">$maxteamworkers</span> 人维护',
 	'collection_selectfriend'	=> 'Select Friends',//'选择好友',
 	'collection_username'		=> 'User name:',//'用户名:',
-  'invite'			=> 'Inviter',  // 'Invite'     
+	'invite'			=> 'Inviter',//'Invite'
 	'collection_commentnum'		=> 'Comments',//'评论',
 	'collection_createtime'		=> 'Created at',//'创建于',
 	'collection_follow'		=> 'Subscribe',//'订阅',
@@ -198,7 +197,7 @@ $lang = array (
 	'detail'		=> 'Details',//'详情',
   'guest'		=> 'Invit&#233;s',  //    'Guest'  
   'debate_bestdebater'	=> 'Meilleur d&#233;bat',  //      
-  'debate_draw'	=> 'Draw',  //   'Draw'   
+  'debate_draw'		=> 'Draw',  //   'Draw'   
   'debate_list_nonexistence'	=> 'If you are not in this list, please enter manually',  //  'If you are not in this list, please enter manually'    
   'debate_opponent'		=> 'Adversaire',  //   'Opponent'   
   'debate_poll'			=> ' sondage',  // ' poll'     
@@ -579,7 +578,7 @@ $lang = array (
   'modcp_threadstick_2'		=> 'Scotch II',  //   'Stick II'    
   'modcp_threadstick_3'		=> 'Scotch III',  //  'Stick III'     
   'modcp_views_range'		=> 'Vues gamme',  // 'Views range'     
-  'none'		=> 'Aucun',  // 'None'     
+  'none'			=> 'Aucun',  // 'None'     
   'dateline'			=> 'Temps post&#233;',  //  'Post time'    
 	'ishtmlon'			=> 'HTML post',//'HTML帖',
   'no'				=> 'Non',  //  'No'    
@@ -868,20 +867,20 @@ $lang = array (
   'stats_week'		=> 'Semaines Page Vues',  // 'Weeks Page Views'     
   'admin_status'	=> 'G&#233;rer le Statut',  //   'Manage status'    
 	'admin_usergroup_title'		=> 'Group title',//'组头衔',
-  'hours'		=> ' hr',  //  ' hr'    
-  'onlinetime_thismonth'	=> 'Ce mois-ci',  // 'This month'     
-  'onlinetime_total'	=> 'Total En-Ligne',  //  'Total online'    
-  'stats_modworks_thismonth'	=> 'Gestion en ce mois',  // 'Management in this month'     
-  'stats_posts_thismonth'	=> 'Dernier 30 jours\' posts',  //  'Recent 30 days\' posts'    
-  'stats_team'		=> 'Manager de l\'&#233;quipe',  // 'Manager Team'     
-  'stats_team_admins'	=> 'Administrateur et Super Mod&#233;rateur',  //  'Administrator and Super Moderator'    
-  'stats_team_offdays'	=> 'Jours de repos',  //  'Off days'    
-  'stats_trade_rank'	=> 'Rang commerce',  // 'Trade ranking'     
-  'trace_number_sort'	=> 'Rang Commercant',  // 'Trades Ranking'     
-  'trace_sell_number'	=> 'Rang des Ventes',  //   'Sell ranking'   
-  'trade_price_sort'	=> 'Rang Chiffre d\'Affaires',  //   'Turnover ranking'   
-  'trade_seller'	=> 'Vendeur',  //  'Seller'    
-  'trade_totalprice'	=> 'Prix Total',  // 'Total Price'     
+	'hours'		=> ' hr',  //  ' hr'    
+	'onlinetime_thismonth'	=> 'Ce mois-ci',  // 'This month'     
+	'onlinetime_total'	=> 'Total En-Ligne',  //  'Total online'    
+	'stats_modworks_thismonth'	=> 'Gestion en ce mois',  // 'Management in this month'     
+	'stats_posts_thismonth'	=> 'Dernier 30 jours\' posts',  //  'Recent 30 days\' posts'    
+	'stats_team'		=> 'Manager de l\'&#233;quipe',  // 'Manager Team'     
+	'stats_team_admins'	=> 'Administrateur et Super Mod&#233;rateur',  //  'Administrator and Super Moderator'    
+	'stats_team_offdays'	=> 'Jours de repos',  //  'Off days'    
+	'stats_trade_rank'	=> 'Rang commerce',  // 'Trade ranking'     
+	'trace_number_sort'	=> 'Rang Commercant',  // 'Trades Ranking'     
+	'trace_sell_number'	=> 'Rang des Ventes',  //   'Sell ranking'   
+	'trade_price_sort'	=> 'Rang Chiffre d\'Affaires',  //   'Turnover ranking'   
+	'trade_seller'		=> 'Vendeur',  //  'Seller'    
+	'trade_totalprice'	=> 'Prix Total',  // 'Total Price'     
 	'none_tag'			=> 'No relevant tags',//'没有相关标签',
 	'tag_search'			=> '50 search results shown up, click the results link directly into the tags',//'搜索结果最多显示 50 个，点击结果链接可直接插入标签',
   'admin_bump'		=> 'Sujet Choquant',  // 'Bump thread'     
@@ -1024,7 +1023,7 @@ $lang = array (
   'have_ignored'	=> 'Ignor&#233;',  // 'Ignored'     
   'i_want'		=> 'je veux ',  //  'I want '    
   'last_thread'		=> 'Pr&#233;c&#233;dent',  // 'Previous'     
-  'moderating'	=> 'Dans l\'attente de mod&#233;rations',  //  'Pending moderate'    
+  'moderating'		=> 'Dans l\'attente de mod&#233;rations',  //  'Pending moderate'    
   'modmenu_archive'	=> 'Annuler archive',  // 'Cancel archive'     
   'modmenu_banpost'	=> 'Ban',  //  'Ban'    
   'modmenu_banthread'	=> 'Ban',  // 'Ban'      
@@ -1234,6 +1233,7 @@ $lang = array (
 	'reply_num'			=> 'Replies',//'回复',
 	'loading'			=> 'Loading...',//'加载中...',
 	'follow_add'			=> 'Listen',//'收听',//Subscribe
+	'modmenu'			=> 'Thread Menu',//'本主题菜单',
 //	'e_paste'			=> 'Paste',//'粘贴',
 );
 

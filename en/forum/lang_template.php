@@ -4,9 +4,9 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *     $Id: lang_template.php by Valery Votintsev, codersclub.org
+ *	$Id: lang_template.php by Valery Votintsev, codersclub.org
  *
- *      This file is automatically generate
+ *	This file is automatically generate
  */
 
 $lang = array (
@@ -665,7 +665,7 @@ $lang = array (
 	'rushreply_end'			=> 'Deadline floor:',//'截止楼层:',
 	'rushreply_rewardfloor'		=> 'Award Floor:',//'奖励楼层:',
 	'rushreply_rewardfloor_comment'	=> 'Multiple floors separated by a comma, asterisk can match any number or null values, such as: 8,88,*88',//'多楼层用逗号隔开,*号可匹配任意数或空值,如:8,88,*88',
-	'rushreply_time'		=> 'grab Floor Time:',//'抢楼时间:',
+	'rushreply_time'		=> 'Grab Time:',//'抢楼时间:',
 	'total_credits'			=> 'Total credits',//'总积分',
 	'you_have'			=> 'You have',//'你有',
 	'code'				=> 'Code',//'纯文本',
@@ -1025,11 +1025,11 @@ $lang = array (
 	'last_thread'			=> 'Prev. thread',//'上一主题',
 	'moderating'			=> 'Moderating',//'审核中',
 	'modmenu_archive'		=> 'Unarchive',//'取消存档',
-	'modmenu_banpost'		=> 'Ban',//'屏蔽',
+	'modmenu_banpost'		=> 'Ban post',//'屏蔽',
 	'modmenu_banthread'		=> 'Ban',//'屏蔽',
 	'modmenu_copy'			=> 'Copy',//'复制',
-	'modmenu_deletepost'		=> 'Delete',//'删除',
-	'modmenu_deletethread'		=> 'Delete thread',//'删除主题',
+	'modmenu_deletepost'		=> 'Delete post',//'删除',
+	'modmenu_deletethread'		=> 'Delete',//'删除主题',
 	'modmenu_digestpost'		=> 'Set Digest',//'设置精华',
 	'modmenu_grouprecommend'	=> 'Recommend',//'推到版块',
 	'modmenu_highlight'		=> 'Highlight',//'主题高亮',
@@ -1043,13 +1043,13 @@ $lang = array (
 	'modmenu_repair'		=> 'Repair',//'修复',
 	'modmenu_restore'		=> 'Restore Pay Fee',//'撤销付费',
 	'modmenu_split'			=> 'Split',//'分割',
-	'modmenu_stamp'			=> 'Set stamp',//'设置图章',
-	'modmenu_stickpost'		=> 'Stick thread',//'帖子置顶',
-	'modmenu_stickthread'		=> 'Stick thread',//'主题置顶',
+	'modmenu_stamp'			=> 'Stamp',//'设置图章',
+	'modmenu_stickpost'		=> 'Stick post',//'帖子置顶',
+	'modmenu_stickthread'		=> 'Stick',//'主题置顶',
 	'modmenu_switch_off'		=> 'Close',//'关闭',
 	'modmenu_switch_on'		=> 'Open',//'打开',
-	'modmenu_type'			=> 'Change the Type',//'修改分类',
-	'modmenu_updown'		=> 'Move Up/Down',//'主题升降',
+	'modmenu_type'			=> 'Type',//'修改分类',
+	'modmenu_updown'		=> 'Up/Down',//'主题升降',
 	'modmenu_warn'			=> 'Warn',//'警告',
 	'next_thread'			=> 'Next thread',//'下一主题',
 	'nofollow'			=> 'Stop follow',//'不收听',
@@ -1233,6 +1233,7 @@ $lang = array (
 	'reply_num'			=> 'Replies',//'回复',
 	'loading'			=> 'Loading...',//'加载中...',
 	'follow_add'			=> 'Listen',//'收听',//Subscribe
+	'modmenu'			=> 'Thread Menu',//'本主题菜单',
 //	'e_paste'			=> 'Paste',//'粘贴',
 );
 

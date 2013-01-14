@@ -1233,6 +1233,7 @@ $lang = array (
 	'reply_num'			=> 'لبردود',//'回复',
 	'loading'			=> 'تحميل...',//'加载中...',
 	'follow_add'			=> 'إستماع',//'收听',//Subscribe
+	'modmenu'			=> 'Thread Menu',//'本主题菜单',
 //	'e_paste'			=> 'Paste',//'粘贴',
 );
 
