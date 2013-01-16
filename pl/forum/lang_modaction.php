@@ -34,8 +34,8 @@ $lang = array
 	'EOP'	=> 'Limit open',//'限时打开',
 	'UEO'	=> 'Unlimit open',//'解除限时打开',
 
-	'STK'	=> 'Przyklejonych',//'置顶',
-	'UST'	=> 'Odklejonych',//'解除置顶',
+	'STK'	=> 'Przyklej',//'置顶',
+	'UST'	=> 'Odklej',//'解除置顶',
 	'EST'	=> 'Stick Time Limited',//'限时置顶',
 	'UES'	=> 'UnStick Time Limited',//'解除限时置顶',
 

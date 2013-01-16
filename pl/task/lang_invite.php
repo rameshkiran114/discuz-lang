@@ -13,12 +13,12 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'invite_message'	=> '<p style="color:red;">Wow, you have already invited {count} friends!</p><br>',//'<p style="color:red;">哇，厉害！您现在已经邀请了 {count} 个好友，请继续努力！</p><br>',
-	'invite_guide'		=> '<strong>Follow the instructions to complete this task:</strong>
+	'invite_message'	=> '<p style="color:red;">Wow, aktualnie zaprosiłeś {count} znajomych!</p><br>',//'<p style="color:red;">哇，厉害！您现在已经邀请了 {count} 个好友，请继续努力！</p><br>',
+	'invite_guide'		=> '<strong>Poniższe kroki pomogą Ci ukończyć to zadanie:</strong>
 				<ul class="task">
-				<li>Open in a new window <a href="home.php?mod=spacecp&ac=invite" target="_blank">Invite friends page</a>;</li>
-				<li>Invite your friends to join us. Use Email or any instant messenger to send the invitation link to your friends;</li>
-				<li>You have to invite 10 friends to complete the task.</li>
+				<li>Przejdź do <a href="home.php?mod=spacecp&ac=invite" target="_blank">strony zapraszania znajomych</a>;</li>
+				<li>Zaproś użytkowników do rejestracji. Użyj komunikatora lub wyślij wiadomość email łącznie z linkiem zaproszenia;</li>
+				<li>Zaproś 10 znajomych, aby ukończyć to zadanie.</li>
 				</ul>',
 
 );

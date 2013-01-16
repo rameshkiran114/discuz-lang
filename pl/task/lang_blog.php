@@ -13,7 +13,7 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'blog_name'	=> 'Blogger!',//'发表日志任务',
+	'blog_name'	=> 'Pierwszy wpis',//'发表日志任务',
 	'blog_desc'	=> 'Aby ukończyć to zadanie opublikuj swój pierwszy wpis na blogu, a otrzymasz dodatkowe punkty.',//'发表日志即可完成任务，获得相应的奖励',
 	'blog_view'	=> '<strong>Poniższe kroki pomogą Ci ukończyć to zadanie:</strong>
 		<ul>

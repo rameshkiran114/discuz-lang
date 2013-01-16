@@ -13,8 +13,8 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'anonymouspost_name'			=> 'Anonymous card',//'帖子匿名卡',
-	'anonymouspost_desc'			=> 'Publish posts as anonymous',//'在指定的地方，让自己的名字显示为匿名。',
+	'anonymouspost_name'			=> 'Karta anonima',//'帖子匿名卡',
+	'anonymouspost_desc'			=> 'Publikuj posty nie zdradzając prawdziwej tożsamości',//'在指定的地方，让自己的名字显示为匿名。',
 	'anonymouspost_num'			=> 'Has a number: {magicnum}',//'拥有个数: {magicnum}',
 	'anonymouspost_forum'			=> 'Allowed forums',//'允许使用本道具的版块',
 	'anonymouspost_info'			=> 'Set your post as from anonymous, please input thread ID',//'将自己的帖子设置为匿名身份，请输入帖子的 ID',

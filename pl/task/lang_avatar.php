@@ -13,7 +13,7 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'avatar_name'	=> 'Mój pierwszy awatar',//'头像类任务',
+	'avatar_name'	=> 'Awatar',//'头像类任务',
 	'avatar_desc'	=> 'To zadanie przeznaczone jest tylko dla osób, które nie posiadają jeszcze własnego awatara. Aby ukończyć to zadanie, wyślij swój pierwszy awatar a otrzymasz dodatkowe punkty',//'该任务仅限没有上传头像的会员申请，申请后只要上传头像即可完成任务，获得相应的奖励',
 	'avatar_view'	=> '<strong>Poniższe kroki pomogą Ci ukończyć to zadanie:</strong>
 		<ul>

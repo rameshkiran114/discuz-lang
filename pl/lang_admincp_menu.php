@@ -26,20 +26,20 @@ $lang = array
 	'header_adv'		=> 'Reklamy',//'广告',
 	'header_tools'		=> 'Narzędzia',//'工具',
 	'header_uc'		=> 'UCenter',//
-	'header_welcome'	=> 'Witaj',//'您好',
+	'header_welcome'	=> 'Cześć',//'您好',
 	'header_logout'		=> 'Wyloguj',//'退出',
-	'header_bbs'		=> 'Indeks forum',//'站点首页',
+	'header_bbs'		=> 'Strona główna forum',//'站点首页',
 	'header_portal'		=> 'Portal',//'门户',
 	'header_group'		=> 'Grupy',//'群组',
 	'header_founder'	=> 'Ekipa',//'站长',
 	'header_cloudaddons'	=> 'Aplikacje',//'应用中心',
 
 
-	'menu_home'			=> 'Indeks',//'管理中心首页',
+	'menu_home'			=> 'Strona główna',//'管理中心首页',
 	'menu_home_clearhistorymenus'	=> 'Clean operation history',//'清空历史操作',
 
 	'menu_setting_basic'		=> 'Podstawowe',//'站点信息',
-	'menu_setting_access'		=> 'Rejestracja/Dostęp',//'注册与访问控制',
+	'menu_setting_access'		=> 'Rejestracja',//'注册与访问控制',
 	'menu_setting_customnav'	=> 'Nawigacja',//'导航栏',
 	'menu_setting_styles'		=> 'Style',//'界面设置',
 	'menu_setting_optimize'		=> 'Optymalizacja',//'优化设置',
