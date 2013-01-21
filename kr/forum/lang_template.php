@@ -1235,5 +1235,8 @@ $lang = array (
 	'follow_add'			=> 'Listen',//'收听',//Subscribe
 	'modmenu'			=> 'Thread Menu',//'本主题菜单',
 //	'e_paste'			=> '붙여넣기',//'粘贴',//'Paste',
+	'disable_post_parseurl'		=> '링크식별금지',//'禁用 链接识别',
+	'disable_smilies'		=> '이모티콘금지',//'禁用 表情',
+	'disable_discuzcode'		=> '에디터코드금지',//'禁用 编辑器代码',
 );
 

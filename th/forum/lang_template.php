@@ -1236,5 +1236,8 @@ $lang = array (
 	'follow_add'			=> 'ติดตาม',//'收听',//Subscribe
 	'modmenu'			=> 'Thread Menu',//'本主题菜单',
 //	'e_paste'			=> 'วาง',//'粘贴',
+	'disable_post_parseurl'		=> 'Disable Parse URL',//'禁用 链接识别',
+	'disable_smilies'		=> 'Disable Smiles',//'禁用 表情',
+	'disable_discuzcode'		=> 'Disable BB-Code',//'禁用 编辑器代码',
 );
 

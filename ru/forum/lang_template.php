@@ -4,9 +4,9 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *     $Id: lang_template.php by Valery Votintsev, codersclub.org
+ *	$Id: lang_template.php by Valery Votintsev, codersclub.org
  *
- *      This file is automatically generate
+ *	This file is automatically generate
  */
 
 $lang = array (
@@ -1235,5 +1235,8 @@ $lang = array (
 	'follow_add'			=> 'Listen',//'收听',//Subscribe
 	'modmenu'			=> 'Меню темы',//'本主题菜单',
 //	'e_paste'			=> 'Paste',//'粘贴',
+	'disable_post_parseurl'		=> 'Disable Parse URL',//'禁用 链接识别',
+	'disable_smilies'		=> 'Disable Smiles',//'禁用 表情',
+	'disable_discuzcode'		=> 'Disable BB-Code',//'禁用 编辑器代码',
 );
 
