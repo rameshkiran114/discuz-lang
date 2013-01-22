@@ -681,7 +681,7 @@ $lang = array (
   'view_newpm' => 'คลิกที่นี่เพื่อดู <strong class="xi1">$newpmcount</strong> ข้อความที่ยังไม่ได้อ่าน',
   'view_privatepm' => 'ดูข้อความส่วนตัวทั้งหมด',
   'yes' => 'ใช่',
-  'you_to' => 'ส่งข้อความถึง',
+  'you_to' => 'ส่งข้อความถึง',//'wrote to',
   'pmreport' => 'รายงาน',
   'create_new_poll' => 'สร้างโพลใหม่',
   'friend_poll' => 'โพลของเพื่อน',
@@ -1551,4 +1551,5 @@ $lang = array (
 	'follow_intro2'		=> 'ทวีตข้อความของคุณลงที่นี่',//'Write your message here',//'在这里可以快速发广播',
 	'follow_intro3'		=> 'เช็กสถานะการติดตามและผู้กำลังติดตามของคุณ',//'Check your followings and listeners',//'查看收听的人<br/>和听众',
 	'follow_intro4'		=> 'รายการทวีตข้อความของคุณ จะถูกแสดงลงในส่วนนี้',//'Your content will be shown here',//'您收听的人发的广播<br/>会在这里出现',
+	'say_to'		=> '',//'说',
 );

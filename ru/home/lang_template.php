@@ -681,7 +681,7 @@ $lang = array (
 	'view_newpm'		=> 'Показать непрочитанные сообщения',
 	'view_privatepm'	=> 'Показать все ЛС',
 	'yes'			=> 'Да',
-	'you_to'		=> ' кому: ',
+	'you_to'		=> ' --&gt; ',
 	'pmreport'		=> 'Пожаловаться',
 	'create_new_poll'	=> 'Создать новый опрос',
 	'friend_poll'		=> 'Опросы друзей',
@@ -1551,4 +1551,5 @@ $lang = array (
 	'follow_intro2'		=> 'Write your message here',//'',
 	'follow_intro3'		=> 'Check your followings and listeners',//'',
 	'follow_intro4'		=> 'Your content will be shown here',//'',
+	'say_to'		=> '',//'说',
 );

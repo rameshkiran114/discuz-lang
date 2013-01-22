@@ -997,6 +997,7 @@ $lang = array (
 	'location_login'		=> '',
 	'location_login_succeed_mobile'	=> '{username}님 환영합니다! 클릭하시면 로그인 전 페이지로 이동됩니다.',//'欢迎您回来，{username}。点击进入登录前页面',
 	'location_login_succeed'	=> ' {username}님 환영합니다! 로그인 전 페이지로 이동되오니 잠시만 기다려주세요...',//'欢迎您回来，{username}。现在将转入登录前页面，请稍候……',
+/*!*/	'location_activation'		=> 'Your account is inactive, Click to activate',//'您的帐号处于未激活状态，点击进行激活',
 	'login_succeed_inactive_member'	=> '{username}의 돌아오심을 환영합니다. 계정이 비활성화 상태입니다. 제어판페이지로 이동됩니다. {ucsynlogin} ',//'欢迎您回来，{username}。您的帐号处于非激活状态，现在将转入控制面板。 {ucsynlogin} ',
 	'login_question_empty'		=> '보안문제 및 정확한 답을 입력하여 주세요.',//'请填写安全提问以及正确的答案',
 	'login_question_invalid'	=> '보안문제 선택오류. 다이 입력하여 주세요.',//'安全提问选择错误，请重新填写',

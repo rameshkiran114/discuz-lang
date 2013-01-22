@@ -575,6 +575,7 @@ $lang = array
 	'founder_upgrade_manually'	=> 'تحميل يدوي',
 	'founder_upgrade_select_version'	=> 'يوجد إصدار جديد من discuz ! يمكنك إختيار تحديث تلقائي أو تحميل التحديث يدوياً',
 	'founder_upgrade_continue'	=> 'مواصلة',
+/*!*/	'founder_upgrade_recheck'	=> 'Recheck',//'重新检测',
 	'founder_upgrade_dbupdate'	=> 'ترقية قاعدة البيانات',
 	'upgrade_right_now'		=> 'أنت حالياً تستعمل إصدار قديم من Discuz! الرجاء الترقية<span>ترقية أونلاين</span>',
 
@@ -3021,6 +3022,7 @@ $lang = array
 	'members_delete_pic'			=> 'الصور',
 	'members_delete_doing'			=> 'الأفعال',
 	'members_delete_share'			=> 'المنشورات',
+/*!*/	'members_delete_feed'			=> 'Feed',//'广播',
 	'members_delete_comment'		=> 'التعليقات',
 	'members_delete_allitem'		=> 'كل العناصر',
 	'members_delete_user_processing_next'	=> 'معالجة الاعضاء من {deletestart} الى {nextdeletestart} ，مواصلة...',

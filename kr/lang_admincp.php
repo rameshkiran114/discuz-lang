@@ -575,6 +575,7 @@ $lang = array
 	'founder_upgrade_manually'		=> 'Manual download',//'手动下载',
 	'founder_upgrade_select_version'	=> 'Detected a new version for upgrade, you can choose to automatically upgrade or download and install the upgrade package manually.',//'检测到有新的版本可供升级，您可以选择自动升级或者下载安装包手动升级。',
 	'founder_upgrade_continue'	=> 'Continue Upgrade',//'继续升级',
+/*!*/	'founder_upgrade_recheck'	=> 'Recheck',//'重新检测',
 	'founder_upgrade_dbupdate'	=> 'Upgrade the database',//'升级数据库',
 	'upgrade_right_now'		=> 'There is a new Discuz! version released, Please <span>Online Upgrade</span>',//'您目前使用的 Discuz! 程序有新版本发布，请及时升级<span>在线升级</span>',
 
@@ -3021,6 +3022,7 @@ $lang = array
 	'members_delete_pic'			=> 'Image',//'图片',
 	'members_delete_doing'			=> 'Doing',//'记录',
 	'members_delete_share'			=> 'Share',//'分享',
+/*!*/	'members_delete_feed'			=> 'Feed',//'广播',
 	'members_delete_comment'		=> 'Comment',//'评论',
 	'members_delete_allitem'		=> 'All',//'全部',
 	'members_delete_user_processing_next'	=> 'Processed users from {deletestart} to {nextdeletestart}, continuing...',//'已处理 {deletestart}至{nextdeletestart} 名用户，继续进行...',

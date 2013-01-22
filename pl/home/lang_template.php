@@ -681,7 +681,7 @@ $lang = array (
 	'view_newpm'		=> 'Kliknij tutaj by zobaczyć (<strong class="xi1">$newpmcount</strong>) nieodczytane wiadomości.',//'点击这里查看 <strong class="xi1">$newpmcount</strong> 条未读消息',
 	'view_privatepm'	=> 'Zobacz wszystkie prywatne wiadomości',//'查看全部私人消息',
 	'yes'			=> 'Tak',//'是',
-	'you_to'		=> 'do',//'对',
+	'you_to'		=> 'napisał do',//'对',
 	'pmreport'		=> 'Raport',//'举报',
 	'create_new_poll'	=> 'Utwórz nową ankietę',//'发起新投票',
 	'friend_poll'		=> 'Ankiety znajomych',//'好友发起的投票',
@@ -1552,4 +1552,5 @@ Po wysłaniu awatara proszę odświeżyć stronę. Prawdopodobnie wtedy zobaczys
 	'follow_intro2'		=> 'Umieść wiadomość tutaj',//'在这里可以快速发广播',
 	'follow_intro3'		=> 'Sprawdź obserwowanych i obserwujacych',//'查看收听的人<br/>和听众',
 	'follow_intro4'		=> 'Twoja zawartość zostanie wyświetlona dokładnie tutaj',//'您收听的人发的广播<br/>会在这里出现',
+	'say_to'		=> '',//'说',
 );

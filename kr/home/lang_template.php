@@ -1551,4 +1551,5 @@ $lang = array (
 	'follow_intro2'		=> 'Write your message here',//'在这里可以快速发广播',
 	'follow_intro3'		=> 'Check your followings and listeners',//'查看收听的人<br/>和听众',
 	'follow_intro4'		=> 'Your content will be shown here',//'您收听的人发的广播<br/>会在这里出现',
+	'say_to'		=> '인사',//'말',//'said',//'说',
 );

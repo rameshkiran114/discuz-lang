@@ -1551,4 +1551,5 @@ $lang = array (
 	'follow_intro2'		=> 'Viết thông tin vào đây',//'',
 	'follow_intro3'		=> 'Kiểm tra người theo đuôi và người theo dõi bạn (following - follower)',//'',
 	'follow_intro4'		=> 'Thông tin của bạn được hiển thị ở đây',//'',
+	'say_to'		=> '',//'说',
 );
