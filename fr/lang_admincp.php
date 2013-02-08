@@ -574,6 +574,7 @@ $lang = array
 	'founder_upgrade_manually'		=> 'Manual download',//'手动下载',
 	'founder_upgrade_select_version'	=> 'Detected a new version for upgrade, you can choose to automatically upgrade or download and install the upgrade package manually.',//'检测到有新的版本可供升级，您可以选择自动升级或者下载安装包手动升级。',
 	'founder_upgrade_continue'	=> 'Continue Upgrade',//'继续升级',
+	'founder_upgrade_recheck'	=> 'Recheck',//'重新检测',
 	'founder_upgrade_dbupdate'	=> 'Upgrade the database',//'升级数据库',
 	'upgrade_right_now'		=> 'There is a new Discuz! version released, Please <span>Online Upgrade</span>',//'您目前使用的 Discuz! 程序有新版本发布，请及时升级<span>在线升级</span>',
 
@@ -662,6 +663,8 @@ $lang = array
 	'setting_basic_adminemail_comment'	=> 'Mail de l\'Administrateur, comme le syst&#232;me enverra adresse e-mail de l\'exp&#233;diteur lorsque le ', // '管理员 E-mail, 将作为系统发邮件的时候的发件人地址'
 	'setting_basic_index_name'		=> 'Nom du fichier page Accueil', // '首页文件名'
 	'setting_basic_index_name_comment'	=> 'R&#233;glez l\'accueil du site le nom du fichier d\'&#233;change, la valeur par d&#233;faut est“forum.php?mod=index”, Si vous modifiez ce param&#232;tre, alors vous avez besoin pour utiliser "l\'outil FTP" &#224; renommer manuellement le nom du fichier', // '设置站点首页的文件名, 默认为“forum.php?mod=index”, 如果你更改了此设置, 那么你需要使用“FTP工具”手动重命名文件名称'
+/*!*/	'setting_basic_site_qq'			=> 'QQ online customer service number',//'QQ在线客服号码',
+/*!*/	'setting_basic_site_qq_comment'		=> '<a href="" onclick="this.href=\'http://wp.qq.com/set.html?from=discuz&uin=\'+$(\'settingnew[site_qq]\').value" target="_blank">I set my QQ online status</a>',//'<a href="" onclick="this.href=\'http://wp.qq.com/set.html?from=discuz&uin=\'+$(\'settingnew[site_qq]\').value" target="_blank">设置我的QQ在线状态</a>',
 	'setting_basic_icp'			=> 'Enregistrer des informations du site de code', // '网站备案信息代码'
 	'setting_basic_icp_comment'		=> 'bas de page pour afficher les informations d\'enregistrement ICP, si le site a &#233;t&#233; d&#233;pos&#233;, entrez votre code d\'autorisation, qui appara&#238;tra au bas de page, laissez en blanc si aucune', // '页面底部可以显示 ICP 备案信息, 如果网站已备案, 在此输入你的授权码, 它将显示在页面底部, 如果没有请留空'
 	'setting_basic_stat'			=> 'Tierces site Web de Statistique de code', // '网站第三方统计代码'

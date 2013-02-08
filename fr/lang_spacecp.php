@@ -329,6 +329,8 @@ $lang = array(
 						<span class="xi1">Nouveau email ({newemail}) Attendre pour la Validation ...</span><br />
 						Le syst&#232;me a envoy&#233; un courriel de v&#233;rification pour l\'activation, Svp. consulter votre courrier &#233;lectronique.<br>
 						Si vous ne recevez pas de courriel de v&#233;rification, changer votre email, ou <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2"> appliquer &#224; nouveau</a>',  
+/*!*/	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
+/*!*/	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
 
 );
 
