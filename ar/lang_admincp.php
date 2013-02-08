@@ -664,6 +664,8 @@ $lang = array
 	'setting_basic_adminemail_comment'	=> 'أدخل بريد الإدارة من فضلك',//'管理员 E-mail，出现在页面底部的“联系我们”，另外将作为系统发邮件的时候的发件人地址',
 	'setting_basic_index_name'		=> 'أدخل إسم ملف الرئيسية',//'首页文件名',
 	'setting_basic_index_name_comment'	=> 'الإفتراضي هو  "forum.php?mod=index". أو اتركه فارغ.',//'设置站点首页的文件名，默认为“forum.php?mod=index”，如果你更改了此设置，那么你需要使用“FTP工具”手动重命名文件名称',
+/*!*/	'setting_basic_site_qq'			=> 'QQ online customer service number',//'QQ在线客服号码',
+/*!*/	'setting_basic_site_qq_comment'		=> '<a href="" onclick="this.href=\'http://wp.qq.com/set.html?from=discuz&uin=\'+$(\'settingnew[site_qq]\').value" target="_blank">I set my QQ online status</a>',//'<a href="" onclick="this.href=\'http://wp.qq.com/set.html?from=discuz&uin=\'+$(\'settingnew[site_qq]\').value" target="_blank">设置我的QQ在线状态</a>',
 	'setting_basic_icp'			=> 'سجل الموقع',//'网站备案信息代码',
 	'setting_basic_icp_comment'		=> 'ليس خاص بنا كعرب , وخاص بمحرك بايدو الصيني.',//'页面底部可以显示 ICP 备案信息，如果网站已备案，在此输入你的授权码，它将显示在页面底部，如果没有请留空',
 	'setting_basic_stat'			=> 'إضافة كود في الفوتر ',//'网站第三方统计代码',

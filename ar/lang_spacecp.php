@@ -325,11 +325,13 @@ $lang = array(
 	'filesize_lessthan'		=> 'حجم الملف يجب أن يكون أقل من ',//'文件大小应该小于',
 
 	'spacecp_message_prompt'	=> '(يدعم كود  {msg} , الحد الأقصى 1000 حرف)',//'(支持 {msg} 代码,最大 1000 字)',
-	'card_update_doing'	=> ' <a class="xi2" href="###">[تحديث الأفعال]</a>',
-	'email_acitve_message'	=> '<img src="{imgdir}/mail_inactive.png" alt="لم يتم التحقق" class="vm" />
-					<span class="xi1">البريد الإلكتروني الجديد({newemail})في انتظار التحقق...</span><br />
-					قام النظام بإرسال رسالة إلكترونية إلى البريد الإلكتروني المراد التحقق منه، يرجى مراجعة البريد الإلكتروني ، للتحقق من التنشيط.<br>
-					إذا كنت لا تتلقى البريد الإلكتروني المراد، يمكنك إستبدال عنوان بريد ، أو<a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">تلقي البريد الإلكتروني المراد مرة أخرى</a>',
+	'card_update_doing'		=> ' <a class="xi2" href="###">[تحديث الأفعال]</a>',
+	'email_acitve_message'		=> '<img src="{imgdir}/mail_inactive.png" alt="لم يتم التحقق" class="vm" />
+						<span class="xi1">البريد الإلكتروني الجديد({newemail})في انتظار التحقق...</span><br />
+						قام النظام بإرسال رسالة إلكترونية إلى البريد الإلكتروني المراد التحقق منه، يرجى مراجعة البريد الإلكتروني ، للتحقق من التنشيط.<br>
+						إذا كنت لا تتلقى البريد الإلكتروني المراد، يمكنك إستبدال عنوان بريد ، أو<a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">تلقي البريد الإلكتروني المراد مرة أخرى</a>',
+/*!*/	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
+/*!*/	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
 
 );
 
