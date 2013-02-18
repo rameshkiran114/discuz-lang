@@ -27,7 +27,7 @@ $lang = array
 	'post_hidden'		=> '**** Wiadomość ukryta przez autora ****',//'**** 本内容被作者隐藏 ****',
 	'post_banned'		=> '**** Wiadomość została usunięta lub zablokowana ****',//'**** 作者被禁止或删除 内容自动屏蔽 ****',
 	'post_single_banned'	=> '**** Ta wiadomość została zablokowana ****',//'**** 该帖被屏蔽 ****',
-	'message_ishidden_hiddenreplies'	=> 'This post is visible only to author of the thread',//'此帖仅作者可见',
+	'message_ishidden_hiddenreplies'	=> 'Wypowiedź widoczna tylko dla autora tematu.',//'此帖仅作者可见',
 	'post_reply_quote'		=> '{author} odpowiada, dnia {time}',//'{author} 发表于 {time}',
 	'post_edit'			=> "[i=s] Edytowano przez {editor} dnia {edittime} [/i]\n\n",//"[i=s] 本帖最后由 {editor} 于 {edittime} 编辑 [/i]\n\n",
 	'post_edit_regexp'		=> '/^\[i=s\] Edytowano przez .*? dnia .*? \[\/i\]\n\n/s',//'/^\[i=s\] 本帖最后由 .*? 于 .*? 编辑 \[\/i\]\n\n/s',

@@ -61,13 +61,13 @@ $lang = array
 	'ABL'	=> 'Dodanych blogów',//'加入文集',
 	'RBL'	=> 'Usuniętych blogów',//'移除文集',
 
-	'PTS'	=> 'Przenoszenie do kosza',//'推送主题',
-	'RFS'	=> 'Przywracanie z kosza',//'解除推送',
+	'PTS'	=> 'Przeniesionych do kosza',//'推送主题',
+	'RFS'	=> 'Przywróconych z kosza',//'解除推送',
 	'RMR'	=> 'Usuniętych nagród',//'取消悬赏',
 	'BNP'	=> 'Zablokowanych postów',//'屏蔽帖子',
 	'UBN'	=> 'Odblokowanych postów',//'解除屏蔽',
 
-	'REC'	=> 'Polecanie',//'推荐',
+	'REC'	=> 'Poleconych',//'推荐',
 	'URE'	=> 'Usuniętych poleceń',//'解除推荐',
 
 	'WRN'	=> 'Przyznanych ostrzeżeń',//'警告',

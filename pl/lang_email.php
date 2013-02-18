@@ -25,7 +25,7 @@ $lang = array
 <p>{username},
 Ta wiadomość została wysłana ze strony {bbname}.</p>
 
-<p>Otrzymałeś tę wiadomość, ponieważ ten adres Email został zarejestrowany
+<p>Otrzymałeś tą wiadomość, ponieważ ten adres Email został zarejestrowany
  na konto użytkownika naszego forum, który wysłał prośbę o odzyskanie hasła.</p>
 <p>
 ----------------------------------------------------------------------<br />
@@ -33,7 +33,7 @@ Ta wiadomość została wysłana ze strony {bbname}.</p>
 ----------------------------------------------------------------------</p>
 
 <p>Jeśli to nie Ty odwiedzasz nasze forum lub nie przeprowadziłeś żadnej zmiany,
-proszę zignorować tę wiadomość.</p>
+proszę zignorować tą wiadomość.</p>
 <p>
 ----------------------------------------------------------------------<br />
 <strong>Instrukcja odzyskiwania hasła</strong><br />
@@ -64,10 +64,10 @@ Z poważaniem,<br />
 <p>{username},<br />
 Ta wiadomość została wysłana z serwisu {bbname}.</p>
 
-<p>Otrzymałeś tę wiadomość, ponieważ Twój adres Email został zarejestrowany na naszym forum lub
+<p>Otrzymałeś tą wiadomość, ponieważ Twój adres Email został zarejestrowany na naszym forum lub
 ktoś z użytkowników przez pomyłkę wprowadził błędny podczas edycji konta.
 Jeśli to nie Ty odwiedzasz nasze forum lub nie przeprowadziłeś żadnej zmiany,
-proszę zignorować tę wiadomość.</p>
+proszę zignorować tą wiadomość.</p>
 <br />
 ----------------------------------------------------------------------<br />
 <strong>Instrucje aktywacji konta</strong><br />
@@ -95,9 +95,9 @@ Ekipa {bbname} .<br />
 'email_register_message' =>	'<br />
 <p>Ta wiadomość została wysłana z serwisu {bbname}.</p>
 
-<p>Otrzymałeś tę wiadomość, ponieważ Twój adres Email został zarejestrowany w serwisie {bbname}.
+<p>Otrzymałeś tą wiadomość, ponieważ Twój adres Email został zarejestrowany w serwisie {bbname}.
 Jeśli nie chcesz odwiedzać naszego forum lub wycofać się z rejestracji,
-proszę zignorować tę wiadomość.</p>
+proszę zignorować tą wiadomość.</p>
 <br />
 ----------------------------------------------------------------------<br />
 <strong>Instrukcje rejestracji nowego konta</strong><br />
@@ -129,14 +129,14 @@ Ekipa {bbname} .<br />
 <br />
 Witaj,
 Przedstawiam się jako {adminusername} i jestem jednym z administratorów w serwisie {bbname}.<br />
-Otrzymałeś tę wiadomość, ponieważ specjalnie dla Ciebie zostało utworzone nowe konto<br />
+Otrzymałeś tą wiadomość, ponieważ specjalnie dla Ciebie zostało utworzone nowe konto<br />
 na naszym forum, do którego przypisaliśmy właśnie ten adres Email.<br />
 <br />
 ----------------------------------------------------------------------<br />
 Ważne!<br />
 ----------------------------------------------------------------------<br />
 <br />
-Jeśli nie jesteś zainteresowany członkostwem na naszym forum, proszę zignorować tę wiadomość.<br />
+Jeśli nie jesteś zainteresowany członkostwem na naszym forum, proszę zignorować tą wiadomość.<br />
 <br />
 ----------------------------------------------------------------------<br />
 Informacje dotyczące konta<br />
@@ -183,10 +183,10 @@ Ekipa {bbname} .<br />
 	'email_to_friend_message'	=> '<br />
 Ta wiadomość została wysłana przez {$_G[member][username]} ze strony {$_G[setting][bbname]}.<br />
 <br />
-Otrzymałeś tę wiadomość, ponieważ użytkownik {$_G[member][username]}<br />
+Otrzymałeś tą wiadomość, ponieważ użytkownik {$_G[member][username]}<br />
 ze strony {$_G[setting][bbname]} polecił Ci tę zawartość używając przycisku "poleć znajomym".<br />
 Polecamy przejrzenie wiadomości.<br />
-Jeśli nie jesteś zainteresowany, proszę zignorować tę wiadomość.<br />
+Jeśli nie jesteś zainteresowany, proszę zignorować tą wiadomość.<br />
 Ta wiadomość została wysłana dobrowolnie.<br />
 <br />
 ----------------------------------------------------------------------<br />
@@ -211,7 +211,7 @@ $_G[siteurl]',
 $sendtoname,<br />
 Ta wiadomość została wysłana od {$_G[member][username]} z forum {$_G[setting][bbname]}.<br />
 <br />
-Otrzymałeś tę wiadomość, ponieważ została ona wysłana przez {$_G[member][username]} z {bbname} .<br />
+Otrzymałeś tą wiadomość, ponieważ została ona wysłana przez {$_G[member][username]} z {bbname} .<br />
 Ta wiadomość zawiera kod zaproszenia, który upoważnia Cię do rejestracji na naszym forum,<br />
 and said additionally the following.<br />
 <br />

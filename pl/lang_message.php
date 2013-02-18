@@ -110,7 +110,7 @@ $lang = array (
 	'debate_end'			=> 'Debate is over, please return.',//'辩论已经结束，请返回。',
 	'replyperm_login_nopermission'	=> 'Proszę się zalogować by móc odpowiadać w tym temacie.',//'对不起，您还未登录，无权在该版块回帖。',
 	'post_nonexistence'		=> 'Post does not exist',//'帖子不存在',
-	'post_thread_closed'		=> 'Sorry, this thread is closed, you can not post new replies.',//'抱歉，本主题已关闭，不再接受新内容',
+	'post_thread_closed'		=> 'Ten temat został zamknięty. Nowe odpowiedzi nie będą przyjmowane.',//'抱歉，本主题已关闭，不再接受新内容',
 	'reply_quotepost_error'		=> 'Prohibited to quote your own posts and topics outside posts',//'禁止引用自己和主题帖之外的帖子',
 	'post_flood_ctrl'		=> 'Nie możesz wysyłać postów tak szybko! Odczekaj {floodctrl} sek.!',//'对不起，您两次发表间隔少于 {floodctrl} 秒，请不要灌水！',
 	'post_flood_ctrl_posts_per_hour'	=> 'Sorry, your have reached the hourly post limit for your user group ({posts_per_hour}), try again later',//'抱歉，您所在的用户组每小时限制发回帖 {posts_per_hour} 个，请稍候再发表',
@@ -238,9 +238,9 @@ $lang = array (
 	'magicuse_bad_object'		=> 'Selected object is invalid',//'没有正确选择道具要作用的对象',
 	'magicuse_has_no_valid_friend'	=> 'Magic use is failed, there is no valid friends',//'道具使用失败，没有任何合法的好友',
 
-	'portal_status_off'		=> 'Sorry, the portal feature is not open',//'抱歉，门户功能尚未开启',
+	'portal_status_off'		=> 'Przepraszamy, portal jeszcze nie został otwarty.',//'抱歉，门户功能尚未开启',
 
-	'no_privilege_my_app_status'	=> 'Sorry, this site closed apps service.',//'对不起，当前站点已经关闭了用户多应用服务。',
+	'no_privilege_my_app_status'	=> 'Przepraszamy, aplikacje w serwisie zostały wyłączone.',//'对不起，当前站点已经关闭了用户多应用服务。',
 
 	'register_check_found'		=> 'Nazwa użytkownika jest już zajęta',//'用户名已经被他人使用',
 	'register_activation'		=> 'Username already exists',//'用户名已经存在',
@@ -554,7 +554,7 @@ $lang = array (
 	'no_privilege_deluserapp'		=> 'Sorry, you do not have permission to operate this application',//'抱歉，您没有权限操作此应用',
 
 	'email_check_sucess'			=> 'Hurrra! Twój adres Email ({email}) został aktywowany!',//'您的邮箱（{email}）验证激活完成了, 请返回',
-/*!*/	'email_check_account_invalid'		=> 'Sorry, the Founder or protected user can not use the mailbox verification. Modify the user information directly.',//'抱歉，受保护用户或创始人不能使用邮箱验证，直接修改用户信息。',
+	'email_check_account_invalid'		=> 'Sorry, the Founder or protected user can not use the mailbox verification. Modify the user information directly.',//'抱歉，受保护用户或创始人不能使用邮箱验证，直接修改用户信息。',
 	'email_check_error'			=> 'E-mail verification link you entered is incorrect. You can profile page, re-verification link to receive new mail.',//'您输入的邮箱验证链接不正确。您可以在个人资料页面，重新接收新的邮箱验证链接。',
 
 	'news_does_not_exist'			=> 'Specified information does not exist',//'指定的信息不存在',
@@ -997,7 +997,7 @@ $lang = array (
 	'location_login'		=> '',
 	'location_login_succeed_mobile'	=> 'Witaj, {username}! Kliknij tutaj by przejść do poprzedniej strony.',//'欢迎您回来，{username}。点击进入登录前页面',
 	'location_login_succeed'	=> 'Witaj! Momencik, przenoszę do poprzedniej strony...',//'欢迎您回来，{username}。现在将转入登录前页面，请稍候……',
-/*!*/	'location_activation'		=> 'Your account is inactive, Click to activate',//'您的帐号处于未激活状态，点击进行激活',
+	'location_activation'		=> 'Your account is inactive, Click to activate',//'您的帐号处于未激活状态，点击进行激活',
 	'login_succeed_inactive_member'	=> 'Witaj ponownie {username}. Twoje konto wymaga aktywacji. Zaraz zostaniesz przeniesiony do panelu kontrolnego. {ucsynlogin} ',//'欢迎您回来，{username}。您的帐号处于非激活状态，现在将转入控制面板。 {ucsynlogin} ',
 	'login_question_empty'		=> 'Please input security Q&A',//'请填写安全提问以及正确的答案',
 	'login_question_invalid'	=> 'Security question error',//'安全提问选择错误，请重新填写',
