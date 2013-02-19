@@ -440,7 +440,7 @@ $lang = array
 	'nav_add_follow'		=> 'Add follow',//'添加推荐',
 	'nav_add_defaultuser'		=> 'Add default friends',//'添加好友',
 
-	'nav_repeat'			=> 'Repeat',//'马甲',
+	'nav_repeat'			=> 'Aliases',//'马甲',
 
 	'nav_misc_onlinelist'		=> 'Online List icons',//'在线列表图标',
 	'nav_misc_links'		=> 'Links',//'友情链接',
@@ -457,7 +457,7 @@ $lang = array
 	'nav_logs_illegal'		=> 'Password error',//'密码错误',
 	'nav_logs_rate'			=> 'User ratings',//'用户评分',
 	'nav_logs_warn'			=> 'Warnings',//'用户警告',
-	'nav_logs_credit'		=> 'User money',//'积分变更',
+	'nav_logs_credit'		=> 'User credits',//'积分变更',
 	'nav_logs_mods'			=> 'Moderators',//'版主管理',
 	'nav_logs_medal'		=> 'Medals',//'勋章颁发',
 	'nav_logs_ban'			=> 'Ban user',//'禁止用户',
@@ -593,7 +593,7 @@ $lang = array
 	'login_nosecques'		=> 'You do not use secure login, please set the security question in your personal center, then visit the management center. You can <a href="home.php?mod=spacecp&ac=profile&op=password" target="_blank">Click here</a> for set the security question.',//'你还没有使用安全登录，请在个人中心设置你的安全提问后，再访问管理中心。你可以 <a href="home.php?mod=spacecp&ac=profile&op=password" target="_blank">点击这里</a> 进入安全提问的设置',
 
 	'home'					=> 'Home',//'首页',
-	'home_welcome'				=> '{bbname} management center',//'{bbname} 管理中心',
+	'home_welcome'				=> '{bbname} Admin CP',//'{bbname} 管理中心',
 	'home_security_tips'			=> 'Security tips',//'安全提示',
 	'home_security_founder'			=> '<li>You can assign different functions for your management team members, so they can manage different site services.</li><li>"<strong>co-Administrator</strong>" can have a part of "Administrator" permissions that are not enabled for other management team.</li>',//'<li>你可以制定多种团队职务分配给你网站管理团队的各个成员，让他们管理网站的不同事务<li>“<strong>副站长</strong>”拥有除“创始人(站长)”专有权限以外的所有后台权限，仅次于“创始人(站长)”</li>',
 	'home_security_nofounder'		=> '<li>You have not set the site <u>Administrator</u>, all users in the administrator group will be able to log in to the admin-center.<br />Please modify the &quot;config/config_global.php&quot; and add the Administrator for effectively management all the team members.',//'<li>你尚未设置 <u>站点创始人</u>，所有在管理员用户组的用户均可以登录管理中心。请修改 config/config_global.php 添加创始人，以有效控制管理团队成员的权限范围',
@@ -659,8 +659,8 @@ $lang = array
 	'setting_basic_sitename_comment'	=> 'This site name will appear in the page bottom of Contact & Services page',//'网站名称，将显示在页面底部的联系方式处',
 	'setting_basic_siteurl'			=> 'Site URL',//'网站 URL',
 	'setting_basic_siteurl_comment'		=> 'The site URL, will shown as a link in the page bottom',//'网站 URL，将作为链接显示在页面底部',
-	'setting_basic_adminemail'		=> 'Administrator Email',//'管理员邮箱',
-	'setting_basic_adminemail_comment'	=> 'Administrator E-mail, appears in the page bottom as "Contact Us". The system also will serve as the sender when the email address',//'管理员 E-mail，将作为系统发邮件的时候的发件人地址',
+	'setting_basic_adminemail'		=> 'Administrator E-Mail',//'管理员邮箱',
+	'setting_basic_adminemail_comment'	=> 'Administrator E-Mail, appears in the page bottom as "Contact Us". The system also will serve as the sender when the email address',//'管理员 E-mail，将作为系统发邮件的时候的发件人地址',
 	'setting_basic_index_name'		=> 'Home page index name',//'首页文件名',
 	'setting_basic_index_name_comment'	=> 'Set the site home page file name. Default is "forum.php?mod=index". if you change this setting, you have to use any FTP client and manually rename the file name.',//'设置站点首页的文件名，默认为“forum.php?mod=index”，如果你更改了此设置，那么你需要使用“FTP工具”手动重命名文件名称',
 /*!*/	'setting_basic_site_qq'			=> 'QQ online customer service number',//'QQ在线客服号码',
@@ -924,8 +924,8 @@ $lang = array
 	'setting_styles_forumdisplay_forumpicstyle_thumbnum'		=> 'Number of thumbnails to show',//'封面图显示数量',
 	'setting_styles_forumdisplay_forumpicstyle_thumbnum_comment'	=> 'How many images per page to show when a Forum is set to image list mode. Set to 0 or do not fill for use the regular list mode',//'当版块开启图片列表模式时有效，0或不填 将和普通列表模式每页显示主题数一致',
 	'setting_styles_forumdisplay_defstyle_comment'			=> 'When select "Yes", the default does not display a list of images, users also can choose their own style',//'选择“是”时，默认不以图片列表形式显示，用户也可以自己选择',
-	'setting_styles_forumdisplay_newbie'			=> 'Newbie post icon',//'新人帖图标',
-	'setting_styles_forumdisplay_newbie_comment'		=> 'This icon is displayed when the user issued the first thread, leave empty for not show the icon',//'用户发第一篇主题时显示的图标，为空则不打图标',
+	'setting_styles_forumdisplay_newbie'			=> 'Newbie first post icon',//'新人帖图标',
+	'setting_styles_forumdisplay_newbie_comment'		=> 'This icon is displayed when the user published the first thread, leave empty for not show the icon',//'用户发第一篇主题时显示的图标，为空则不打图标',
 
 	'setting_styles_viewthread'				=> 'View thread',//'帖子内容页',
 	'setting_styles_viewthread_ppp'				=> 'Posts per page',//'每页显示帖数',
@@ -4034,7 +4034,7 @@ $lang = array
 	'threads_search_readpermmore'	=> 'Read permissions higher than',//'所需阅读权限高于',
 	'threads_search_pricemore'	=> 'Price higher than',//'售价高于',
 	'threads_search_time'		=> 'Post Time range',//'发表时间范围',
-	'threads_search_time_comment'	=> 'Format is yyyy-mm-dd. Set to 0 for no restrictions',//'格式 yyyy-mm-dd，不限制请输入 0',
+	'threads_search_time_comment'	=> 'Format: yyyy-mm-dd. Set to 0 for no restrictions',//'格式 yyyy-mm-dd，不限制请输入 0',
 	'threads_search_noreplyday'	=> 'How many days of no new replies',//'多少天内无新回复',
 	'threads_search_user'		=> 'Started by user',//'主题作者',
 	'threads_search_user_comment'	=> 'Separate multiple user names by a comma ","',//'多用户名中间请用半角逗号 "," 隔开',
@@ -5166,7 +5166,7 @@ $lang = array
 	'tasks_add_act_newpost'			=> 'Post new thread/reply',//'发新主题/回复',
 	'tasks_add_setting'			=> 'Other settings',//'其他设置',
 
-	'ec'					=> 'E-commerce',//'电子商务',
+	'ec'					=> 'E-Commerce',//'电子商务',
 
 	'ec_alipay'				=> 'Alipay settings',//'支付宝设置',
 	'ec_alipay_tips'			=> '<li>"Alipay" (<a href="http://www.alipay.com" target="_blank">http://www.alipay.com</a>) is a leading online payment platform, created by the world\'s best B2B company "Alibaba". It used for the Discuz! users as B2C, C2C trading platform to buy points and forum access. You only need a simple setup, and you can make the forum content more popular, so become an important addition to advertising revenue source of profits in order to achieve a large scale of operations at the Forum.</li><li><b>If you do not want to enable Cash transactions, in order to avoid an improper operations and financial losses, please start using the payment transaction with internal points only (do not enable the Alipay button). Be sure you carefully read the "User Manual" in the e-commerce section, and confirm that you fully understand and accept the processes, and use later the related settings.</b></li><li>You can set to allow users to pay with online cash, recharge their account points for purchase of post content, buy the user group permissions, transfer points to other users, to upgrade and so on. For use the Alipay transaction capabilities, you need to enable the trade integration in the "<a href="'.$BASESCRIPT.'?action=settings&operation=credits" target="_blank">Points settings</a>", and also set the corresponding integration strategy to meet the needs of different occasions. Be sure to set your Alipay account, otherwise a user payment will result in real-time error, or resulting in a large number of orders that require manual processing.</li><li>As an addition, the Discuz! Official website provide Alipay payment services Alipay with a charge per transaction fee of 1.5%. Please notify the concern related to recent operations, the policy or process changes, adjustments to Discuz! Official website or the official forum of information prevail.</li><li>If you use any Alipay service built entirely on voluntary basis, it will cause the financial losses. The Hong Sing Imagination (Beijing) Technology Co. Ltd. does not use such functions because liable for any loss caused.</li><li>For Business Consulting contact to the Alipay Email <a href="mailto:6688@taobao.com">6688@taobao.com</a>; Alipay customer service telephone number is +86-0571-88156688.</li>',//'<li>“支付宝”(<a href="http://www.alipay.com" target="_blank">http://www.alipay.com</a>)是中国领先的网上支付平台，由全球最佳 B2B 公司阿里巴巴公司创建，为 Discuz! 用户提供积分购买及论坛 B2C、C2C 交易平台。你只需进行简单的设置，即可使论坛内容和人气，真成为除广告收入外的重要利润来源，从而实现论坛的规模化经营。</li><li><b>由于涉及现金交易，为避免因操作不当而造成的资金损失，请在开始使用支付宝积分交易功能(不包含支付宝按钮功能)前，务必仔细阅读《用户使用说明书》中有关电子商务的部分，当确认完全理解和接受相关流程及使用方法后再进行相关设置。</b></li><li>你可以设置允许用户通过现金在线支付的方式，为其交易积分账户充值，用于购买帖子内容、购买用户组权限、积分转账或用户组升级等功能。支付宝积分交易功能，需在“<a href="'.$BASESCRIPT.'?action=setting&operation=credits" target="_blank">积分设置</a>”中启用交易积分，并同时设置相应的积分策略以满足不同场合的需要。请务必正确设置你的收款支付宝账号，否则将造成用户付款后积分无法实时到账，造成大量需要人工处理的订单信息。</li><li>除 Discuz! 官方网站或官方论坛另行通知以外，Discuz! 提供的支付宝支付服务每笔交易收取 1.5% 的手续费。请及时关注相关业务的最新通知，各项政策或流程的变更、调整，以 Discuz! 官方网站或官方论坛提供的信息为准。</li><li>你使用支付宝服务是建立在完全自愿的基础上，除 Discuz! 因主观恶意的因素造成的资金损失以外，北京康盛新创科技有限责任公司不对因使用此功能造成的任何损失承担责任。</li><li>支付宝业务咨询 Email 为 <a href="mailto:6688@taobao.com">6688@taobao.com</a>；支付宝客户服务电话为 +86-0571-88156688。</li>',
