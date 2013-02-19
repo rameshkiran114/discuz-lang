@@ -664,6 +664,8 @@ $lang = array
 	'setting_basic_adminemail_comment'	=> '관리자 Email 을 적으십시오',
 	'setting_basic_index_name'		=> '홈 파일 이름',
 	'setting_basic_index_name_comment'	=> 'Set the site home page file name. Default is "forum.php?mod=index". if you change this setting, you have to use any FTP client and manually rename the file name.',//'设置站点首页的文件名，默认为“forum.php?mod=index”，如果你更改了此设置，那么你需要使用“FTP工具”手动重命名文件名称',
+	'setting_basic_site_qq'			=> 'QQ online customer service number',//'QQ在线客服号码',
+	'setting_basic_site_qq_comment'		=> '<a href="" onclick="this.href=\'http://wp.qq.com/set.html?from=discuz&uin=\'+$(\'settingnew[site_qq]\').value" target="_blank">I set my QQ online status</a>',//'<a href="" onclick="this.href=\'http://wp.qq.com/set.html?from=discuz&uin=\'+$(\'settingnew[site_qq]\').value" target="_blank">设置我的QQ在线状态</a>',
 	'setting_basic_icp'			=> '사업자 등록번호',
 	'setting_basic_icp_comment'		=> '사업자 일경우 사업자등록번호나 통신판매 사업자 등록번호를 기재 해주면 메인 화면에 표시됩니다.',
 	'setting_basic_stat'			=> '제작자 라이센스',

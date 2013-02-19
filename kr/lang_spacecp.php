@@ -7,6 +7,10 @@
  *      $Id: lang_spacecp.php by Valery Votintsev at sources.ru
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 
 	'by'			=> '통과',//'通过',
@@ -325,7 +329,8 @@ $lang = array(
 						<span class="xi1">New E-mail ({newemail}) 인증대기중 ...</span><br />
 						시스템은 이미 위 메일주소로 메일활성화 인증용 메일을 발송하였으니 확인하시고 인증받으시길 바랍니다.<br>
 						인증용 메일을 받지 못하셨다면 메일주소를 교체하시거나 <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">인증용 메일을 재 발송하세요.</a>',
-//'district_level_0'		=> '- Country -',//'-国家-',
+	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
+	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
 
 );
 
