@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *	Deutsch Language Pack
+ *	German Language Pack (Deutsch)
  *
  *      $Id: lang_title.php by Valery Votintsev at sources.ru
  *
