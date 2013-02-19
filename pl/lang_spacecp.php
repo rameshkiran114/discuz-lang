@@ -329,6 +329,8 @@ $lang = array(
 						<span class="xi1">Email ({newemail}) oczekuje na aktywację ...</span><br />
 						System wysłał na podany adres E-Mail wiadomość, w której znajdziesz informacje dotyczące aktywacji konta.<br>
 						Jeśli nie otrzymałeś wiadomości z aktywacją konta, możesz zmienić adres E-Mail lub poprosić o <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">ponowną aktywację konta</a>.',
+	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
+	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
 
 );
 
