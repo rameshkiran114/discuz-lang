@@ -8,4 +8,6 @@ Translated to Polish by Kaaleth
 Code		= 'pl';
 English title	= 'Polish';
 UTF8 title	= 'Polski';
-18x12 icon	= 'pl.gif';
+18x12 Icon	= 'pl.gif';
+Direction	= 'ltr';
+Encoding	= 'UTF-8';

@@ -9,3 +9,5 @@ Code		= 'ar';
 English title	= 'Arabic';
 UTF8 title	= 'العربية';
 18x12 Icon	= 'ar.gif';
+Direction	= 'rtl';
+Encoding	= 'UTF-8';

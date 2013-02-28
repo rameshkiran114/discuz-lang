@@ -9,3 +9,5 @@ Code		= 'th';
 English title	= 'Thai';
 UTF8 title	= 'ภาษาไทย';
 18x12 icon	= 'th.gif';
+Direction	= 'ltr';
+Encoding	= 'UTF-8';

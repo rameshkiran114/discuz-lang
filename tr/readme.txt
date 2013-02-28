@@ -9,3 +9,5 @@ Code		= 'tr';
 English title	= 'Turkish';
 UTF8 title	= 'Türkçe';
 18x12 icon	= 'tr.gif';
+Direction	= 'ltr';
+Encoding	= 'UTF-8';

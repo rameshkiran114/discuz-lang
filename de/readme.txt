@@ -9,3 +9,5 @@ Code		= 'de';
 English title	= 'German';
 UTF8 title	= 'Deutsch';
 18x12 Icon	= 'de.gif';
+Direction	= 'ltr';
+Encoding	= 'UTF-8';

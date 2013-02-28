@@ -8,4 +8,6 @@ Traduction par Andre13 - modeur Bertrand - discuz-fr.fr
 Code		= 'fr';
 English title	= 'French';
 UTF8 title	= 'Français';
-18x12 icon	= 'fr.gif';
+18x12 Icon	= 'fr.gif';
+Direction	= 'ltr';
+Encoding	= 'UTF-8';

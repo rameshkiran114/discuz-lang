@@ -8,4 +8,6 @@ Translated to Spanish by jhoxi, discuzhispano.com
 Code		= 'es';
 English title	= 'Spainish';
 UTF8 title	= 'Español';
-18x12 icon	= 'es.gif';
+18x12 Icon	= 'es.gif';
+Direction	= 'ltr';
+Encoding	= 'UTF-8';
