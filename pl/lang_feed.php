@@ -61,8 +61,8 @@ $lang = array
 
 	'feed_invite'				=> '{actor} zaprosił do znajomych {username}',//'{actor} 发起邀请，和 {username} 成为了好友',
 
-	'magicuse_thunder_announce_title'	=> '<strong>{username} issued a &quot;Sound of Thunder&quot;</strong>',//'<strong>{username} 发出了“雷鸣之声”</strong>',
-	'magicuse_thunder_announce_body'	=> 'Hi everybody!<br /><a href="home.php?mod=space&uid={uid}">Welcome to my home page</a>',//'大家好，我上线啦<br /><a href="home.php?mod=space&uid={uid}" target="_blank">欢迎来我家串个门</a>',
+	'magicuse_thunder_announce_title'	=> '<strong>{username} użył a &quot;błyskawicy&quot;</strong>',//'<strong>{username} 发出了“雷鸣之声”</strong>',
+	'magicuse_thunder_announce_body'	=> 'Cześć wszystkim!<br /><a href="home.php?mod=space&uid={uid}">Zapraszam na mój profil</a>.',//'大家好，我上线啦<br /><a href="home.php?mod=space&uid={uid}" target="_blank">欢迎来我家串个门</a>',
 
 
 	'feed_thread_title'		=> '{actor} utworzył nowy temat',//'{actor} 发表了新话题',
@@ -96,7 +96,7 @@ $lang = array
 	'feed_reply_activity_message'	=> '',
 
 	'feed_thread_debate_title'	=> '{actor} utworzył nową debatę',//'{actor} 发起了新辩论',
-	'feed_thread_debate_message'	=> '<b>{subject}</b><br />Square: {affirmpoint}<br />Anti-square: {negapoint}<br />{message}',//'<b>{subject}</b><br />正方：{affirmpoint}<br />反方：{negapoint}<br />{message}',
+	'feed_thread_debate_message'	=> '<b>{subject}</b><br />Przedstawiciel: {affirmpoint}<br />Przeciwnik: {negapoint}<br />{message}',//'<b>{subject}</b><br />正方：{affirmpoint}<br />反方：{negapoint}<br />{message}',
 
 	'feed_thread_debatevote_title_1'	=> '{actor} oznaczył pozytywnie debatę {subject}',//'{actor} 以正方身份参与了关于 {subject} 的辩论',
 	'feed_thread_debatevote_title_2'	=> '{actor} oznaczył negatywnie debatę {subject}',//'{actor} 以反方身份参与了关于 {subject} 的辩论',

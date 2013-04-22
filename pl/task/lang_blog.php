@@ -17,7 +17,7 @@ $lang = array
 	'blog_desc'	=> 'Aby ukończyć to zadanie opublikuj swój pierwszy wpis na blogu, a otrzymasz dodatkowe punkty.',//'发表日志即可完成任务，获得相应的奖励',
 	'blog_view'	=> '<strong>Poniższe kroki pomogą Ci ukończyć to zadanie:</strong>
 		<ul>
-		<li>1. <a href="home.php?mod=spacecp&ac=blog" target="_blank">Kliknij tutaj by otworzyć stronę bloga</a>;</li>
+		<li>1. <a href="home.php?mod=spacecp&ac=blog" target="_blank">Kliknij tutaj, aby otworzyć stronę bloga</a>;</li>
 		<li>2. Stwórz pierwszy wpis i opublikuj go.</li>
 		</ul>',
 );

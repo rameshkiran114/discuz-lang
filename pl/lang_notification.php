@@ -14,13 +14,13 @@ if(!defined('IN_DISCUZ')) {
 $lang = array
 (
 
-	'type_wall'		=> 'Ściana wiadomości',//'留言',
+	'type_wall'		=> 'Tablica wiadomości',//'留言',
 	'type_piccomment'	=> 'Komentarz do zdjęcia',//'图片评论',
 	'type_blogcomment'	=> 'Komentarz na blogu',//'日志评论',
 	'type_clickblog'	=> 'Blog positioning',//'日志表态',
 	'type_clickarticle'	=> 'Article positioning',//'文章表态',
 	'type_clickpic'		=> 'Image positioning',//'图片表态',
-	'type_sharecomment'	=> 'Share comment',//'分享评论',
+	'type_sharecomment'	=> 'Udostępnij komentarz',//'分享评论',
 	'type_doing'		=> 'Aktywność',//'记录',
 	'type_friend'		=> 'Znajomi',//'好友',
 	'type_credit'		=> 'Kredytów',//'积分',
@@ -40,12 +40,12 @@ $lang = array
 	'share_article'		=> '{actor} polecił Twój artykuł <a href="{url}" target="_blank">{subject}</a>',//'{actor} 分享了你的文章 <a href="{url}" target="_blank">{subject}</a>',
 	'magic_present_note'	=> ' presented to you a magic <a href="{url}" target="_blank">{name}</a>.',//'送给你一个道具 <a href="{url}" target="_blank">{name}</a>',
 	'friend_add'		=> '{actor} i Ty zostaliście znajomymi.',//'{actor} 和你成为了好友',
-	'friend_request'	=> '{actor} wysłał zaproszenie do grona znajomych. {note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">Potwierdź</a>',//'{actor} 请求加您为好友{note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">批准申请</a>',
-	'doing_reply'		=> '{actor} replied to your <a href="{url}" target="_blank">Twit</a>.',//'{actor} 在 <a href="{url}" target="_blank">记录</a> 中对你进行了回复',
+	'friend_request'	=> '{actor} wysłał zaproszenie do grona znajomych. {note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">Akceptuj</a>',//'{actor} 请求加您为好友{note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">批准申请</a>',
+	'doing_reply'		=> '{actor} odpowiedział na Twój <a href="{url}" target="_blank">status</a>.',//'{actor} 在 <a href="{url}" target="_blank">记录</a> 中对你进行了回复',
 	'wall_reply'		=> '{actor} odpowiedział na Twój <a href="{url}" target="_blank">komentarz na Ścianie</a>',//'{actor} 回复了你的 <a href="{url}" target="_blank">留言</a>',
 	'pic_comment_reply'	=> '{actor} odpowiedział na Twój <a href="{url}" target="_blank">komentarz do zdjęcia</a>',//'{actor} 回复了你的 <a href="{url}" target="_blank">图片评论</a>',
 	'blog_comment_reply'	=> '{actor} odpowiedział na <a href="{url}" target="_blank">komentarz w blogu</a>',//'{actor} 回复了你的 <a href="{url}" target="_blank">日志评论</a>',
-	'share_comment_reply'	=> '{actor} replied to your <a href="{url}" target="_blank">share comment</a>',//'{actor} 回复了你的 <a href="{url}" target="_blank">分享评论</a>',
+	'share_comment_reply'	=> '{actor} odpowiedział na Twoją <a href="{url}" target="_blank">udostępnioną zwartość</a>',//'{actor} 回复了你的 <a href="{url}" target="_blank">分享评论</a>',
 	'wall'			=> '{actor} zostawił <a href="{url}&fchannel=nwall" target="_blank">wiadomość</a> na Twojej tablicy.',//'{actor} 在留言板上给你 <a href="{url}&fchannel=nwall" target="_blank">留言</a>',
 	'pic_comment'		=> '{actor} dodał komentarz do <a href="{url}" target="_blank">zdjęcia</a>',//'{actor} 评论了你的 <a href="{url}" target="_blank">图片</a>',
 	'blog_comment'		=> '{actor} zamieścił komentarz na Twoim blogu <a href="{url}" target="_blank">{subject}</a>',//'{actor} 评论了你的日志 <a href="{url}" target="_blank">{subject}</a>',
@@ -54,7 +54,7 @@ $lang = array
 	'click_pic'		=> '{actor} ocenił Twoje <a href="{url}" target="_blank">zdjęcie</a>',//'{actor} 对你的 <a href="{url}" target="_blank">图片</a> 做了表态',
 	'click_article'		=> '{actor} ocenił Twój <a href="{url}" target="_blank">artykuł</a>',//'{actor} 对你的 <a href="{url}" target="_blank">文章</a> 做了表态',
 	'show_out'		=> '{actor} visited your home page, this showed your final bid point also consumed',//'{actor} 访问了你的主页后，你在竞价排名榜中最后一个积分也被消费掉了',
-	'puse_article'		=> 'Congratulations, your article <a href="{url}" target="_blank">{subject}</a> has been pushed to portal, <a href="{newurl}" target="_blank">click here to view</a>',//'恭喜你，你的<a href="{url}" target="_blank">{subject}</a>已被推送到门户， <a href="{newurl}" target="_blank">点击查看</a>',
+	'puse_article'		=> 'Gratulację, Twój artykuł <a href="{url}" target="_blank">{subject}</a> został umieszczony na stronie głównej portalu. <a href="{newurl}" target="_blank">Kliknij tutaj, aby zobaczyć</a>.',//'恭喜你，你的<a href="{url}" target="_blank">{subject}</a>已被推送到门户， <a href="{newurl}" target="_blank">点击查看</a>',
 
 	'myinvite_request'	=> 'New application message <a href="home.php?mod=space&do=notice&view=userapp">Click here to enter the application info page and related operations</a>',//'有新的应用消息<a href="home.php?mod=space&do=notice&view=userapp">点此进入应用消息页面进行相关操作</a>',
 
@@ -105,16 +105,16 @@ $lang = array
 
 	'modthreads_delete'	=> 'Twój temat {threadsubject} został odrzucony! <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 {threadsubject} 没有通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modthreads_delete_reason' => 'Published by you thread {threadsubject} was not approved, and now has been deleted! <div class="quote"><blockquote>{reason}</blockquote></div>',//'您发表的主题 {threadsubject} 未通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modthreads_delete_reason' => 'Twój temat {threadsubject} został odrzucony i usunięty! <div class="quote"><blockquote>{reason}</blockquote></div>',//'您发表的主题 {threadsubject} 未通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modthreads_validate'	=> 'Your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> was approved! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Click to view it;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> 已经审核通过！ &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modthreads_validate'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> został zaakceptowany! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Kliknij tutaj, aby zobaczyć. </a> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> 已经审核通过！ &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modreplies_delete'	=> 'Your reply was not approved, it has been deleted! <p class="summary">Content: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表回复没有通过审核，现已被删除！ <p class="summary">回复内容：<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modreplies_delete'	=> 'Twoja odpowiedź została odrzucona i usunięta! <p class="summary">Treść: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表回复没有通过审核，现已被删除！ <p class="summary">回复内容：<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'modreplies_validate'	=> 'Your reply was approved! &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">Click to view it</a> <p class="summary">Content: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的回复已经审核通过！ &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <p class="summary">回复内容：<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'modreplies_validate'	=> 'Twója odpowiedź została zaakceptowana! &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">Kilknij tutaj, aby zobaczyć</a>. <p class="summary">Zawartość: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的回复已经审核通过！ &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <p class="summary">回复内容：<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'transfer'		=> '{actor} sent you {credit} points. &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">View</a>
-				<p class="summary">{actor} said: <span>{transfermessage}</span></p>',
+	'transfer'		=> '{actor} przesyła {credit} kredytów. &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">View</a>
+				<p class="summary">{actor} PS: <span>{transfermessage}</span></p>',
 
 //	'addfunds' => '您提交的积分充值请求已完成，相应数额的积分已存入您的积分账户 &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">查看 &rsaquo;</a>
 //<p class="summary">订单号：<span>{orderid}</span></p><p class="summary">支出：<span>人民币 {price} 元</span></p><p class="summary">收入：<span>{value}</span></p>',
@@ -187,7 +187,7 @@ $lang = array
 	'article_invite'	=> '{actor} invited you to view the article <a href="portal.php?mod=view&aid={aid}" target="_blank">{subject}</a>, &nbsp; <a href="portal.php?mod=view&aid={aid}" target="_blank" class="lit">View &rsaquo;</a>',//'{actor} 邀请您查看文章 <a href="portal.php?mod=view&aid={aid}" target="_blank">{subject}</a> &nbsp; <a href="portal.php?mod=view&aid={aid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 	'invite_friend'		=> 'Congratulation! You have invited and successfully added as a friend by {actor}.',//'恭喜你成功邀请到 {actor} 并成为你的好友',
 
-	'poke_request'		=> '<a href="{fromurl}" class="xi2">{fromusername}</a> przesyła pozdrowienia: <span class="xw0">{pokemsg}&nbsp;</span><a href="home.php?mod=spacecp&ac=poke&op=reply&uid={fromuid}&from=notice" id="a_p_r_{fromuid}" class="xw1" onclick="showWindow(this.id, this.href, \'get\', 0);">Odpowiedz</a><span class="pipe">|</span><a href="home.php?mod=spacecp&ac=poke&op=ignore&uid={fromuid}&from=notice" id="a_p_i_{fromuid}" onclick="showWindow(\'pokeignore\', this.href, \'get\', 0);">Zignoruj</a>',//'<a href="{fromurl}" class="xi2">{fromusername}</a>: <span class="xw0">{pokemsg}&nbsp;</span><a href="home.php?mod=spacecp&ac=poke&op=reply&uid={fromuid}&from=notice" id="a_p_r_{fromuid}" class="xw1" onclick="showWindow(this.id, this.href, \'get\', 0);">回打招呼</a><span class="pipe">|</span><a href="home.php?mod=spacecp&ac=poke&op=ignore&uid={fromuid}&from=notice" id="a_p_i_{fromuid}" onclick="showWindow(\'pokeignore\', this.href, \'get\', 0);">忽略</a>',
+	'poke_request'		=> '<a href="{fromurl}" class="xi2">{fromusername}</a> zaczepił Cię: <span class="xw0">{pokemsg}&nbsp;</span><a href="home.php?mod=spacecp&ac=poke&op=reply&uid={fromuid}&from=notice" id="a_p_r_{fromuid}" class="xw1" onclick="showWindow(this.id, this.href, \'get\', 0);">Odpowiedz</a><span class="pipe">|</span><a href="home.php?mod=spacecp&ac=poke&op=ignore&uid={fromuid}&from=notice" id="a_p_i_{fromuid}" onclick="showWindow(\'pokeignore\', this.href, \'get\', 0);">Zignoruj</a>',//'<a href="{fromurl}" class="xi2">{fromusername}</a>: <span class="xw0">{pokemsg}&nbsp;</span><a href="home.php?mod=spacecp&ac=poke&op=reply&uid={fromuid}&from=notice" id="a_p_r_{fromuid}" class="xw1" onclick="showWindow(this.id, this.href, \'get\', 0);">回打招呼</a><span class="pipe">|</span><a href="home.php?mod=spacecp&ac=poke&op=ignore&uid={fromuid}&from=notice" id="a_p_i_{fromuid}" onclick="showWindow(\'pokeignore\', this.href, \'get\', 0);">忽略</a>',
 
 	'profile_verify_error'		=> '{verify} data verification was rejected. The following fields need to be filled in:<br/>{profile}<br/>The reject reason: {reason}',//'{verify}资料审核被拒绝,以下字段需要重新填写:<br/>{profile}<br/>拒绝理由:{reason}',
 	'profile_verify_pass'		=> 'Congratulations, your {verify} data was verified by ',//'恭喜你，你填写的{verify}资料审核通过了',
@@ -222,14 +222,14 @@ $lang = array
 	'report_change_credits'		=> '{actor} przyjął Twój raport, a za pomoc otrzymałeś skromny prezent {creditchange}',//'{actor} 处理了你的举报，你的 {creditchange}',
 	'at_message'			=> '<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> w temacie <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> wspomniał o Tobie. <div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">Przejdź do tematu</a>.',//'<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> 在主题 <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> 中提到了你<div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">现在去看看</a>。',
 	'new_report'			=> 'Wysłano nowy raport. <a href="admin.php?action=report" target="_blank">Kliknij by wyświetlić</a>',//'有新的举报等待处理，<a href="admin.php?action=report" target="_blank">点此进入后台处理</a>。',
-	'new_post_report'		=> 'Nowy raport oczekuje na rozpatrzenie. <a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">Kliknij tutaj by wejść do panelu administracyjnego</a>.',//'有新的举报等待处理，<a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">点此进入管理面版</a>。',
+	'new_post_report'		=> 'Nowy raport oczekuje na rozpatrzenie. <a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">Kliknij tutaj, aby wejść do panelu administracyjnego</a>.',//'有新的举报等待处理，<a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">点此进入管理面版</a>。',
 	'magics_receive'		=> '{actor} wysłał magię {magicname} do Ciebie .
 					<p class="summary">{actor} mówi: <span>{msg}</span></p>
 					<p class="mbn"><a href="home.php?mod=magic" target="_blank">Return the gift back!</a>
 					<span class="pipe">|</span><a href="home.php?mod=magic&action=mybox" target="_blank">Pokaż moją magie</a></p>',
-	'invite_collection'		=> '{actor} zaprosił Cię do dołączenia do kolekcji <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team.<br /><a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">Accept the invitation</a>',//'{actor} 邀请您参与维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。<br /> <a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">接受邀请</a>',
+	'invite_collection'		=> '{actor} poprosił Cię o dołączenie do kolekcji <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>.<br /><a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">Akceptuj</a>',//'{actor} 邀请您参与维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。<br /> <a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">接受邀请</a>',
 	'collection_removed'		=> 'Your participation in the collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team was canceled by {actor}.',//'您参与维护的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 已被 {actor} 关闭。',
-	'exit_collection'		=> 'You have successfully exited from the collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team',//'您已经退出维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。',
+	'exit_collection'		=> 'You have successfully exited from the collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>.',//'您已经退出维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。',
 	'collection_becommented'	=> 'Your collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> received new comment.',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收到了新评论。',
 	'collection_befollowed'		=> 'Your collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> new user subscribed!',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 有新用户订阅了！',
 	'collection_becollected'	=> 'Congratulations, your thread <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> was added to collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> !',//'恭喜您的主题 <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> 被淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收录了！',

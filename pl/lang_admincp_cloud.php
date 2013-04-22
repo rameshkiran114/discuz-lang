@@ -180,7 +180,7 @@ $extend_lang = array
 
 	'setting_manyou'			=> 'Roaming application settings',//'漫游应用设置',
 	'setting_manyou_tips'			=> '<li>If open roaming applications, the user can choose a variety of applications (such as Texas Hold\'em, Bouncing Church, ten years at the station sword ...) for use.</li><li>Roaming applications provided by <a target="_blank" href="http://www.manyou.com/www/">MYOP open platform</a>, Manyou Open Platform (Manyou open platform / MYOP) Service is provided by Comsenz company provides open application development platform, enable the roaming service before, <a href="http://wiki.developer.manyou.com/wiki/index.php?title=MYOP%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE&printable=yes" target="_blank">Read MYOP site service agreement</a></li>',//'<li>开启漫游应用功能后，用户可以自由选择各种不同的应用(诸如德克萨斯扑克、弹弹堂、十年一剑......)在站内进行使用。</li><li>漫游应用功能由 <a target="_blank" href="http://www.manyou.com/www/">MYOP开放平台</a> 提供， Manyou Open Platform(Manyou开放平台/MYOP)服务是由 Comsenz 公司为应用开发者提供的开放平台，启用漫游服务前，<a href="http://wiki.developer.manyou.com/wiki/index.php?title=MYOP%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE&printable=yes" target="_blank">请先阅读MYOP网站服务协议</a></li>',
-	'setting_manyou_base'			=> 'Basic settings',//'基本设置',
+	'setting_manyou_base'			=> 'Ustawienia podstawowe',//'基本设置',
 	'setting_manyou_base_status'		=> 'Enable roaming applications',//'启用漫游应用',
 	'setting_manyou_base_status_comment'	=> 'Choose whether to open roaming applications. If you turn off roaming application, your site users will not use any roaming-based application',//'选择是否开启漫游应用。如果关闭漫游应用，您的网站用户将不能使用任何基于漫游的应用',
 	'setting_manyou_search_status'		=> 'Enable Roaming search',//'启用漫游搜索',
@@ -200,7 +200,7 @@ $extend_lang = array
 	'setting_manyou_manage'			=> 'Roaming Application Management',//'漫游应用管理',
 	'setting_manyou_search_manage'		=> 'Roaming Search Management',//'漫游搜索管理',
 
-	'connect_menu_setting'			=> 'Basic settings',//'基本设置',
+	'connect_menu_setting'			=> 'Ustawienia podstawowe',//'基本设置',
 	'connect_menu_service'			=> 'Service',//'其他',
 	'connect_menu_stat'			=> 'Statistic',//'数据统计',
 	'connect_setting_allow'			=> 'Allow QQ Registration/Binding/Login Service',//'开启QQ注册/绑定/登录服务',

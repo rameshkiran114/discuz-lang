@@ -14,7 +14,7 @@ if(!defined('IN_DISCUZ')) {
 $lang = array(
 	'friend_group_default'	=> 'Nieskategoryzowane',//'其他',
 	'friend_group_1'	=> 'Ze strony',//'通过本站认识',
-	'friend_group_2'	=> 'Ze wspólnej aktywności',//'通过活动认识',
+	'friend_group_2'	=> 'Wspólna aktywność',//'通过活动认识',
 	'friend_group_3'	=> 'Znajomy',//'通过朋友认识',
 	'friend_group_4'	=> 'Rodzina',//'亲人',
 	'friend_group_5'	=> 'Ze szkoły',//'同事',

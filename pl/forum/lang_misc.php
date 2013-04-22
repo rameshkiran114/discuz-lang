@@ -69,8 +69,8 @@ $lang = array
 	'attach_credits_policy'		=> 'View payment policy',//'查看积分策略说明',
 	'attach_img'			=> 'Załącz zdjęcia',//'图片附件',
 	'attach_readperm'		=> 'Zezwolenia',//'阅读权限',
-	'attach_img_zoom'		=> 'Kliknij tutaj by wyświetlić zdjęcie w nowym oknie.\\nCTRL + kółko myszki zwiększa lub zmniejsza zdjęcie.',//'点击在新窗口查看全图\\nCTRL+鼠标滚轮放大或缩小',
-	'attach_img_thumb'		=> 'Kliknij tutaj by wyświetlić zdjęcie w nowym oknie.',//'点击在新窗口查看全图',
+	'attach_img_zoom'		=> 'Kliknij tutaj, aby wyświetlić zdjęcie w nowym oknie.\\nCTRL + kółko myszki zwiększa lub zmniejsza zdjęcie.',//'点击在新窗口查看全图\\nCTRL+鼠标滚轮放大或缩小',
+	'attach_img_thumb'		=> 'Kliknij tutaj, aby wyświetlić zdjęcie w nowym oknie.',//'点击在新窗口查看全图',
 	'attach_downloads'		=> 'Ilość pobrań',//'下载次数',
 
 	'post_trade_transport'		=> 'Transport fee',//'邮费',
@@ -290,7 +290,7 @@ $lang = array
 	'higher'		=> 'powyżej',//'高于',
 	'report_msg_your'	=> 'Twoje ',//'您的 ',
 	'report_noreward'	=> 'brak nagród',//'不奖惩',
-	'activity_viewimg'	=> 'Kliknij by wyświetlić',//'点击查看',
+	'activity_viewimg'	=> 'Kliknij, aby wyświetlić',//'点击查看',
 
 	'crime_postreason'	=> '{reason} &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="xi2">Szczegóły</a>',//'{reason} &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="xi2">查看详情</a>',
 	'crime_reason'		=> '{reason}',

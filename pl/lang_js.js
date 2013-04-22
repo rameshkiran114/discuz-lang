@@ -187,7 +187,7 @@ var lng = {
 	'show_all_expr'		: 'Wszystkie',//'显示所有表情',
 	'page_prev'		: 'Następna strona',//'上页',
 	'page_next'		: 'Poprzednia strona',//'下页',
-	'copy2clipboard'	: 'Kliknij by skopiować do schowka',//'点此复制到剪贴板',
+	'copy2clipboard'	: 'Kliknij tutaj, aby skopiować do schowka',//'点此复制到剪贴板',
 // ATTENTION!
 // The next line must have the same value as in /template.php - 'enter_content' !!!
 	'enter_search_string'	: 'Wprowadź szukane wyrażenia',//'请输入搜索内容',
@@ -210,10 +210,10 @@ var lng = {
 	'sec_after_page_jump'	: ' sek. do zamknięcia powiadomienia.',//' 秒后页面跳转',
 	'jump_now'		: 'Skocz teraz',//'立即跳转',
 	'error_message'		: 'Komunikat błędu',//'错误信息',
-	'ctrl_d_favorites'	: 'Wciśnij Ctrl + D by dodać do ulubionych.',//'请按 Ctrl+D 键添加到收藏夹',
+	'ctrl_d_favorites'	: 'Wciśnij Ctrl + D, aby dodać do ulubionych.',//'请按 Ctrl+D 键添加到收藏夹',
 	'non_ie_manually'	: 'Dla przeglądarek innych niż IE, należy ustawić ręcznie.',//'非 IE 浏览器请手动将本站设为首页',
-	'blind_enable'		: 'Enable blind experience',//'开启盲人体验',//tc:'開啟盲人體驗',
-	'blind_disable'		: 'Disable blind experience',//'关闭盲人体验',//tc:'關閉盲人體驗',
+	'blind_enable'		: 'Włącz technologię dla niewidomych',//'开启盲人体验',//tc:'開啟盲人體驗',
+	'blind_disable'		: 'Wyłącz technologię dla niewidomych',//'关闭盲人体验',//tc:'關閉盲人體驗',
 
 //--------------------------------
 //static/js/common_diy.js
@@ -235,14 +235,14 @@ var lng = {
 
 	'restore_size_edit'	: 'Przywróć rozmiar edytora',//'恢复编辑器大小',
 	'full_screen_edit'	: 'Pełnoekranowy edytor',//'全屏方式编辑',
-	'current_length'	: 'Aktualna długość',//'当前长度',
+	'current_length'	: 'Wykorzystano',//'当前长度',
 	'bajtów'			: 'bajtów',//'字节',
 	'system_limit'		: 'Limit systemu',//'系统限制',
 	'up_to'			: '~',//'到',
 	'check_length'		: 'Length Count',//'字数检查',
 	'data_restored'		: 'Treść została przywrócona',//'数据已恢复',
 	'data_saved'		: 'Treść została zapisana',//'数据已保存',
-	'clear_all_sure'	: 'Are you sure to clear all the contents?',//'您确认要清除所有内容吗？',
+	'clear_all_sure'	: 'Czy na pewno chcesz wyczyścić całą zawartość?',//'您确认要清除所有内容吗？',
 	'hide_content'		: 'Ukryta zawartość',//'请输入要隐藏的信息内容',
 	'free_content'		: 'Treść zostanie zaprezentowana w specjalnym bloku, który pozwoli wyróżnić umieszczoną zawartość',//'如果您设置了帖子售价，请输入购买前免费可见的信息内容',
 	'when_thread_replied'	: 'Pokaż zawartość, kiedy użytkownik odpowie w temacie.',//'只有当浏览者回复本帖时才显示',
@@ -268,7 +268,7 @@ var lng = {
 	'general'		: 'Tryb ogólny',//'常用',
 	'simple'		: 'Tryb rozszerzony',//'高级',
 	'bad_browser'		: 'Twoja przeglądarka nie obsługuje tej funkcji',//'你的浏览器不支持此功能',
-	'click_autosave_enable'	: 'Kliknij tutaj by włączyć autozapis postów',//'点击开启自动保存',
+	'click_autosave_enable'	: 'Kliknij tutaj, aby włączyć autozapis postów',//'点击开启自动保存',
 	'autosave_enable'	: 'Włącz autozapis',//'开启自动保存',
 	'autosave_disable'	: 'Wyłącz autozapis',//'点击关闭自动保存',
 	'autosave_enabled'	: 'Autozapis został wł.',//'数据自动保存已开启',
@@ -285,16 +285,16 @@ var lng = {
 	'video_support'		: 'Wsparcie dla Youku, Potatoes, 56, 6, Cool video i innych serwisów.<br />Wspierane formaty: wmv avi rmvb mov swf flv.<br /> Przykład: http://server/movie.wmv',//'支持优酷、土豆、56、酷6等视频站的视频网址<br />支持 wmv avi rmvb mov swf flv 等视频格式<br />示例: http://server/movie.wmv',
 	'flash_support'		: 'Wspierane formaty: swf flv <br /> Przykład: http://server/flash.swf',//'支持 swf flv 等 Flash 网址<br />示例: http://server/flash.swf',
 	'paste_from_word'	: 'Wklej zawartość programu Word',//'从 Word 粘贴内容',
-	'paste_word_tip'	: 'Użyj skrótu wklejania treści (Ctrl + V) by móc uzupełnić powyższe pole.',//'请通过快捷键(Ctrl+V)把 Word 文件中的内容粘贴到上',
+	'paste_word_tip'	: 'Użyj skrótu wklejania treści (Ctrl + V), aby móc uzupełnić powyższe pole.',//'请通过快捷键(Ctrl+V)把 Word 文件中的内容粘贴到上',
 	'show_tips'		: 'Pokaż wskazówki',//'友情提示',
 	'expire_days'		: 'Valid for (days)',//'有效天数',
 	'expire_days_invalid'	: 'Distance from the posting date is greater than the number of days when the label automatically expire',//'距离发帖日期大于这个天数时标签自动失效',
 //--------------------------------
 //static/js/forum.js
 
-	'del_thread_sure'	: 'Are you sure you want to remove this thread from hot threads?',//'您确认要把此主题从热点主题中移除么？',
+	'del_thread_sure'	: 'Czy aby na pewno chcesz usunąć ten temat z listy gorących??',//'您确认要把此主题从热点主题中移除么？',
 	'there_are'		: 'There are ',//'有',
-	'new_reply_exists'	: 'The thread has new replies, click on View',//'有新回复的主题，点击查看',
+	'new_reply_exists'	: 'Pojawiły się nowe odpowiedzi w tematach. Kliknij tutaj, aby zobaczyć nową zawartość.',//'有新回复的主题，点击查看',
 //--------------------------------
 //static/js/forum_google.js
 
@@ -325,7 +325,7 @@ var lng = {
 	'content_long'		: 'Długość wypowiedzi nie spełnia określonych wymagań.\n\n',//'您的帖子长度不符合要求。\n\n',
 	'ignore_pending_attach'	: 'There are pending attachments, are you sure to ignore it?',//'您有等待上传的附件，确认不上传这些附件吗？',
 	'still_uploading'	: 'Some attachments are still uploading, please wait. The thread will be published automaticly after the files was uploaded...',//'您有正在上传的附件，请稍候，上传完成后帖子将会自动发表...',
-	'no_data_recover'	: 'No data can be recoverd!',//'没有可以恢复的数据！',
+	'no_data_recover'	: 'Nie odnaleziono treści, które mogłoby zostać przywrócone!',//'没有可以恢复的数据！',
 	'content_overwrite'	: 'Warning:\nCurrent content will be overwritten with the saved data!\nAre you sure to restore the data?',//'此操作将覆盖当前帖子内容，确定要恢复数据吗？',
 	'upload_finished'	: 'Uploading is finished!',//'附件上传完成！',
 	'successfull'		: 'Successfull:',//'成功',
@@ -433,14 +433,14 @@ var lng = {
 //--------------------------------
 //static/js/home_manage.js
 
-	'you_friends_now'	: 'You are friends now, you can ',//'你们现在是好友了，接下来，您还可以：',
-	'leave_message'		: 'Leave a message',//'给TA留言',
-	'or'			: 'or',//'或者',
-	'send_greeting'		: 'send greeting',//'打个招呼',
-	'reply'			: 'Reply',//'回复',
-	'comment'		: 'Comment',//'评论',
-	'close_list'		: 'Close the List',//'收起列表',
-	'more_feeds'		: 'More Feeds',//'更多动态',
+	'you_friends_now'	: 'Od teraz jesteście znajomymi. Możesz ',//'你们现在是好友了，接下来，您还可以：',
+	'leave_message'		: 'wysłać wiadomość',//'给TA留言',
+	'or'			: 'lub',//'或者',
+	'send_greeting'		: 'zaczepić znajomego. ',//'打个招呼',
+	'reply'			: 'Odpowiedz',//'回复',
+	'comment'		: 'Komentarz',//'评论',
+	'close_list'		: 'Zamknij liste',//'收起列表',
+	'more_feeds'		: 'Więcej aktywności',//'更多动态',
 
 //--------------------------------
 //static/js/home_uploadpic.js
@@ -492,13 +492,13 @@ var lng = {
 	'style6'		: 'Styl 6',//'样式6',
 	'style7'		: 'Styl 7',//'样式7',
 	'no_border'		: 'Bez obramowania',//'无边框框架',
-	'no_border_no_margin'	: 'Bez obramowania i ramarginesów',//'无边框且无边距',
+	'no_border_no_margin'	: 'Bez obramowania i marginesów',//'无边框且无边距',
 
 	'title'			: 'Tytuł',//'标题',
 	'attribute'		: 'Atrybuty',//'属性',
 	'data'			: 'Zawartość',//'数据',
 	'update'		: 'Aktualizacja',//'更新',
-	'export'		: 'Eksportuj',//'导出',
+	'export'		: 'Eksport',//'导出',
 	'repeat'		: 'Powtórz',//'平铺',
 	'no_repeat'		: 'Nie powtarzaj',//'不平铺',
 	'repeat_x'		: 'Repeat Horizontal',//'横向平铺',
@@ -509,7 +509,7 @@ var lng = {
 	'dashed_line'		: 'Dased Line',//'虚线',
 	'link'			: 'Link',//'链接',
 	'border'		: 'Border',//'边框',
-	'size'			: 'Size',//'大小',
+	'size'			: 'Rozmiar',//'大小',
 	'color'			: 'Color',//'颜色',
 	'separate_config'	: 'Separate Config',//'分别设置',
 	'right'			: 'Right',//'右',
@@ -543,7 +543,7 @@ var lng = {
 	'start_updating'	: 'Rozpoczęcie aktualizacji...',//'开始更新...',
 	'update_block_data'	: 'Aktualizacja danych',//'更新模块数据',
 	'clear_diy_sure'	: 'Are you sure to clear the current page DIY data? It can not be restored if you clear it.',//'您确实要清空页面上所在DIY数据吗,清空以后将不可恢复',
-	'frame_not_found'	: 'Warning: Frame not found, please add frame.',//'提示：未找到框架，请先添加框架。',
+	'frame_not_found'	: 'Uwaga: Nie wykryto żadnych okienek, proszę dodać jakieś.',//'提示：未找到框架，请先添加框架。',
 	'apply_all_pages'	: 'Apply to all this type pages',//'应用于此类全部页面',
 	'apply_current_page'	: 'Apply to current page',//'只应用于本页面',
 	'save_temp_sure'	: 'Save temporary data?<br />Click submit to save the temporary data, click cancel to delete the temporary data.',//'是否保留暂存数据？<br />按确定按钮将保留暂存数据，按取消按钮将删除暂存数据。',
@@ -574,7 +574,7 @@ var lng = {
 	'email_invalid'		: 'Pole Email zawiera niedozwolone znaki',//'Email 包含敏感字符',
 	'invite_code_invalid'	: 'Przepisano błędny kod z obrazka',//'邀请码包含敏感字符',
 	'password_fill'		: 'Proszę uzupełnić pole hasło',//'请填写密码',
-	'password_again'	: 'Proszę uzupełnić pole potwierdzenie hasła',//'请再次输入密码',
+	'password_again'	: 'Proszę uzupełnić pole potwierdzające hasło',//'请再次输入密码',
 	'email_fill'		: 'Proszę uzupełnić pole Email',//'请输入邮箱地址',
 	'length_min'		: ', minimalna długość',//', 最小长度为 '
 	'chars'			: ' znaków',//' 个字符',

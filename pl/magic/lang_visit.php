@@ -13,8 +13,8 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'visit_name'	=> 'Visit Card',//'互访卡',
-	'visit_desc'	=> 'Visit friends / Send greeting to friends / Leave message to friends in a random',//'随机访问好友空间/向好友打招呼/给好友留言',
+	'visit_name'	=> 'Szczegóły',//'互访卡',
+	'visit_desc'	=> 'Odwiedź / Zaczep / Wyślij wiadomość do znajomych',//'随机访问好友空间/向好友打招呼/给好友留言',
 	'visit_num'	=> 'Friends number to visit',//'访问好友数',
 	'visit_info'	=> 'Visit Max {num} friends / Send greetings to friends / Leave message to friends in a random',//'随机访问(最多 {num} 个)好友空间/向好友打招呼/给好友留言',
 );

@@ -63,7 +63,7 @@ $lang = array (
 	'admin_banpost_confirm'		=> 'Czy na pewno chcesz zablokować ten post?',//'您要进行屏蔽操作',
 	'admin_delpost_confirm'		=> 'Czy na pewno chcesz usunąć ten post?',//'您确定要删除此回复？',
 	'admin_warn_confirm'		=> 'Alerts the author that you want to warn',//'您要进行警告操作',
-	'attach_nopermission_login'	=> '<a href="member.php?mod=logging&action=login">Zaloguj się</a> by móc pobierać lub przeglądać załączniki. Nie masz jeszcze konta? <a href="member.php?mod={$_G[setting][regname]}" title="Rejestracja">Zarejestruj się</a>',//'您需要<a href="member.php?mod=logging&action=login">登录</a>才可以下载或查看附件。没有帐号？<a href="member.php?mod={$_G[setting][regname]}" title="注册帐号">{$_G[setting][reglinkname]}</a>',
+	'attach_nopermission_login'	=> '<a href="member.php?mod=logging&action=login">Zaloguj się</a>, aby móc pobierać lub przeglądać załączniki. Nie masz jeszcze konta? <a href="member.php?mod={$_G[setting][regname]}" title="Rejestracja">Zarejestruj się</a>',//'您需要<a href="member.php?mod=logging&action=login">登录</a>才可以下载或查看附件。没有帐号？<a href="member.php?mod={$_G[setting][regname]}" title="注册帐号">{$_G[setting][reglinkname]}</a>',
 	'attachlist'			=> 'Lista załączników',//'附件列表',
 	'ban_member'			=> 'Ban',//'禁止',
 	'digest'			=> '<span class="xi1">Wykop</span>',//'<span class="xi1">精华</span>',

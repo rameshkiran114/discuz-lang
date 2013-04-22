@@ -2327,7 +2327,7 @@ $lang = array (
     array (
       0 => 'Domain settings &raquo; Set the root domain name',//'域名设置 &raquo; 根域名设置',
       1 => 'setting_domain_root_tips',
-      2 => 'For personal space, Group, forum, topic, portal can be set a subdomain from the root domain name. Example: for  the user application at XXX.comsenz.com, Fill the root domain: comsenz.com for personal space, groups After setting the two domain, the root after, Also need to open the basic settings in the corresponding subdomain switch, Users can apply the appropriate place to bind to subdomain name, Also limited by the length of the user group category enable subdomain name if it is bound to the category, Need to configure their own in the environment bind operation related to the different way is not recommended to change the root domain to the same root domain',//'可以为个人空间、群组、版块、专题、频道设置一个二级域名的根域名。例：用户申请XXX.comsenz.com,根域名填：comsenz.com个人空间、群组设置完二级域名的根后，还需要在基本设置中开启相应的二级域名开关，用户才能在相应的地方申请绑定二级域名，同时受限于用户组的二级域名长度频道启用二级域名如果是绑定目录的，需要自已在环境中配置相关的绑定操作不建议中途将不同的根域变更为相同的根域',
+      2 => 'For personal space, Group, forum, topic, portal can be set a subdomain from the root domain name. Example: for  the user application at XXX.comsenz.com, Fill the root domain: comsenz.com for personal space, groups After setting the two domain, the root after, Also need to open the Ustawienia podstawowe in the corresponding subdomain switch, Users can apply the appropriate place to bind to subdomain name, Also limited by the length of the user group category enable subdomain name if it is bound to the category, Need to configure their own in the environment bind operation related to the different way is not recommended to change the root domain to the same root domain',//'可以为个人空间、群组、版块、专题、频道设置一个二级域名的根域名。例：用户申请XXX.comsenz.com,根域名填：comsenz.com个人空间、群组设置完二级域名的根后，还需要在基本设置中开启相应的二级域名开关，用户才能在相应的地方申请绑定二级域名，同时受限于用户组的二级域名长度频道启用二级域名如果是绑定目录的，需要自已在环境中配置相关的绑定操作不建议中途将不同的根域变更为相同的根域',
     ),
   ),
   170 =>
@@ -2335,7 +2335,7 @@ $lang = array (
     'index' =>
     array (
       'Domain settings' => 'action=domain',//'域名设置',
-      'Basic settings' => 'domain&operation=base',//'基本设置',
+      'Ustawienia podstawowe' => 'domain&operation=base',//'基本设置',
     ),
     'text' =>
     array (
@@ -2557,7 +2557,7 @@ $lang = array (
     'index' =>
     array (
       'Forums' => 'action=forums',//'版块管理'
-      'Basic settings' => 'action=forums&operation=edit&anchor=basic',//'基本设置'
+      'Ustawienia podstawowe' => 'action=forums&operation=edit&anchor=basic',//'基本设置'
     ),
     'text' =>
     array (
@@ -2565,7 +2565,7 @@ $lang = array (
       1 => 'forums_edit_tips',
       2 => 'The following settings are not inherited, that is effective only to the current forum will not impact on the lower sub-forums.',//'以下设置没有继承性，即仅对当前版块有效，不会对下级子版块产生影响。',
       3 => 'forums_edit_basic',
-      4 => 'Basic settings',//'基本设置',
+      4 => 'Ustawienia podstawowe',//'基本设置',
       5 => 'forums_edit_basic_name',
       6 => 'Forum Name',//'版块名称',
       7 => 'forums_edit_base_name_color',
@@ -2929,7 +2929,7 @@ $lang = array (
     array (
       0 => 'Group Settings',//'群组设置',
       1 => 'groups_setting_basic',
-      2 => 'Basic settings',//'基本设置',
+      2 => 'Ustawienia podstawowe',//'基本设置',
       3 => 'groups_setting_basic_status',
       4 => 'Disable Group Functions',//'是否开启群组功能',
       5 => 'groups_setting_basic_mod',
@@ -3831,7 +3831,7 @@ $lang = array (
     'index' =>
     array (
       'Space settings' => 'action=setting&operation=home',//'空间设置',
-      'Basic settings' => 'action=setting&operation=home&anchor=base',//'基本设置',
+      'Ustawienia podstawowe' => 'action=setting&operation=home&anchor=base',//'基本设置',
     ),
     'text' =>
     array (
@@ -3967,7 +3967,7 @@ $lang = array (
       39 => 'Register link text',//'注册链接文字',
       40 => 'Set the link text for the site registration page, the default is &quot;Register&quot;',//'设置站点注册页的链接文字，默认为“立即注册”',
       41 => 'setting_access_register_censoruser',
-      42 => 'Disabled words in Profile',//'用户信息保留关键字',
+      42 => 'Wyklucz nazwy w profilu',//'用户信息保留关键字',
       43 => 'The words that users can not use in their user information. One Line for each keyword, you can use a wildcard &quot;*&quot;, i.e. &quot;*moderator*&quot; (without quotation marks).',//'用户在其用户信息中无法使用这些关键字。每个关键字一行，可使用通配符 "*" 如 "*版主*"(不含引号)',
       44 => 'setting_access_register_pwlength',
       45 => 'Minimal password length',//'密码最小长度',
@@ -4051,7 +4051,7 @@ $lang = array (
     array (
       0 => 'Style settings &raquo; Global',//'界面设置 &raquo; 全局',
       1 => 'setting_tips',
-      2 => 'Options marked by red dotted line are related to the system efficiency, load capacity and resource consumption (can improve or reduce the efficiency). It is recommended to make adjustments according to your server situation.',//'以红色虚线标示的选项，表示该选项和系统效率、负载能力与资源消耗有关(提高效率、或降低效率)，建议依据自身服务器情况进行调整。',
+      2 => 'Funkcje podkreślone czerwonymi kropkami mają spory wpływ na zachowanie, wydajność oraz szybkość serwera i pochłanianych przez niego zasobów. Zaleca się, aby skonfigurować forum w taki sposób, aby przyjał specyfikacji serwera.',//'以红色虚线标示的选项，表示该选项和系统效率、负载能力与资源消耗有关(提高效率、或降低效率)，建议依据自身服务器情况进行调整。',
       3 => 'setting_styles_global',
       4 => 'Global',//'全局',
       5 => 'setting_styles_global_styleid',
@@ -4150,7 +4150,7 @@ $lang = array (
     array (
       0 => 'Style settings &raquo; Thread List',//'界面设置 &raquo; 主题列表页',
       1 => 'setting_tips',
-      2 => 'Options marked by red dotted line are related to the system efficiency, load capacity and resource consumption (can improve or reduce the efficiency). It is recommended to make adjustments according to your server situation.',//'以红色虚线标示的选项，表示该选项和系统效率、负载能力与资源消耗有关(提高效率、或降低效率)，建议依据自身服务器情况进行调整。',
+      2 => 'Funkcje podkreślone czerwonymi kropkami mają spory wpływ na zachowanie, wydajność oraz szybkość serwera i pochłanianych przez niego zasobów. Zaleca się, aby skonfigurować forum w taki sposób, aby przyjał specyfikacji serwera.',//'以红色虚线标示的选项，表示该选项和系统效率、负载能力与资源消耗有关(提高效率、或降低效率)，建议依据自身服务器情况进行调整。',
       3 => 'setting_styles_forumdisplay',
       4 => 'Thread List',//'主题列表页',
       5 => 'setting_styles_forumdisplay_tpp',
@@ -4344,7 +4344,7 @@ $lang = array (
     array (
       0 => 'Performance Optimization &raquo; SEO',//'性能优化 &raquo; 搜索引擎优化',
       1 => 'setting_tips',
-      2 => 'Options marked by red dotted line are related to the system efficiency, load capacity and resource consumption (can improve or reduce the efficiency). It is recommended to make adjustments according to your server situation.',//'以红色虚线标示的选项，表示该选项和系统效率、负载能力与资源消耗有关(提高效率、或降低效率)，建议依据自身服务器情况进行调整。',
+      2 => 'Funkcje podkreślone czerwonymi kropkami mają spory wpływ na zachowanie, wydajność oraz szybkość serwera i pochłanianych przez niego zasobów. Zaleca się, aby skonfigurować forum w taki sposób, aby przyjał specyfikacji serwera.',//'以红色虚线标示的选项，表示该选项和系统效率、负载能力与资源消耗有关(提高效率、或降低效率)，建议依据自身服务器情况进行调整。',
       3 => 'setting_seo_rewritecompatible',
       4 => 'Rewrite compatibility',//'Rewrite 兼容性',
       5 => 'If your server does not support Chinese characters in Rewrite Rules, please select "Yes." If there is no problem with the server, you can choose "No"',//'如果你的服务器不支持 Rewrite 规则中的中文字符，请选择“是”。对于没有此问题的服务器，可以选择“否”',
@@ -4396,7 +4396,7 @@ $lang = array (
     array (
       0 => 'Performance Optimization &raquo; Server optimization',//'性能优化 &raquo; 服务器优化',
       1 => 'setting_tips',
-      2 => 'Options marked by red dotted line are related to the system efficiency, load capacity and resource consumption (can improve or reduce the efficiency). It is recommended to make adjustments according to your server situation.',//'以红色虚线标示的选项，表示该选项和系统效率、负载能力与资源消耗有关(提高效率、或降低效率)，建议依据自身服务器情况进行调整。',
+      2 => 'Funkcje podkreślone czerwonymi kropkami mają spory wpływ na zachowanie, wydajność oraz szybkość serwera i pochłanianych przez niego zasobów. Zaleca się, aby skonfigurować forum w taki sposób, aby przyjał specyfikacji serwera.',//'以红色虚线标示的选项，表示该选项和系统效率、负载能力与资源消耗有关(提高效率、或降低效率)，建议依据自身服务器情况进行调整。',
       3 => 'setting_serveropti',
       4 => 'Server optimization',//'服务器优化',
       5 => 'setting_serveropti_optimize_thread_view',
@@ -4490,13 +4490,13 @@ $lang = array (
     array (
       0 => 'Site features &raquo; Management-related',//'站点功能 &raquo; 管理相关',
       1 => 'setting_tips',
-      2 => 'Options marked by red dotted line are related to the system efficiency, load capacity and resource consumption (can improve or reduce the efficiency). It is recommended to make adjustments according to your server situation.',//'以红色虚线标示的选项，表示该选项和系统效率、负载能力与资源消耗有关(提高效率、或降低效率)，建议依据自身服务器情况进行调整。',
+      2 => 'Funkcje podkreślone czerwonymi kropkami mają spory wpływ na zachowanie, wydajność oraz szybkość serwera i pochłanianych przez niego zasobów. Zaleca się, aby skonfigurować forum w taki sposób, aby przyjał specyfikacji serwera.',//'以红色虚线标示的选项，表示该选项和系统效率、负载能力与资源消耗有关(提高效率、或降低效率)，建议依据自身服务器情况进行调整。',
       3 => 'setting_functions_mod_updatestat',
       4 => 'Enable the site statistics',//'开启站点趋势统计',
-      5 => 'The site statistics is very usefull for the site administrator. Note: This feature will slightly increase the system loading.',//'站点趋势统计可以使站长了解到站点的运作状况。注意: 本功能会轻微加重系统负担',
+      5 => 'Statystyki forum są bardzo przydatnym narzędziem dla administratorów. Uwaga: Funkcja nieznacznie wpływa na szybkość działania.',//'站点趋势统计可以使站长了解到站点的运作状况。注意: 本功能会轻微加重系统负担',
       6 => 'setting_functions_mod_status',
-      7 => 'Enable Forum Management Statistics',//'开启论坛管理工作统计',
-      8 => 'Management statistics is usefull for the site administrator for understand what moderators and other management staff was doing. Note: This feature will slightly increase the system loading.',//'论坛管理工作统计可以使版主、管理员了解论坛版主等管理人员的工作状况。注意: 本功能会轻微加重系统负担',
+      7 => 'Włącz statystyki moderatorów',//'开启论坛管理工作统计',
+      8 => 'Statystyki moderatorów pozwalają śledzić ich akcje i wykonywanie obowiązków na forum. Uwaga: Funkcja nieznacznie wpływa na szybkość działania.',//'论坛管理工作统计可以使版主、管理员了解论坛版主等管理人员的工作状况。注意: 本功能会轻微加重系统负担',
       9 => 'setting_functions_archiver',
       10 => 'Allow Forum Archiver function',//'开启论坛 Archiver 功能',
       11 => 'Forum Archiver able to open content as an analog of static pages for search engines to obtain the contents',//'论坛 Archiver 能够将论坛公开的内容模拟成静态页面，以便搜索引擎获取其中的内容',
@@ -4504,7 +4504,7 @@ $lang = array (
       13 => 'Prohibit user access to Archiver',//'禁止用户访问 Archiver',
       14 => 'Select "Yes" for automatically jump to the original page content, when a user linked to to the Archiver page through the search engines',//'选择“是”，当用户通过搜索引擎中的链接访问 Archiver 页时将自动跳转到原始内容页',
       15 => 'setting_functions_mod_maxmodworksmonths',
-      16 => 'Store management log time (months)',//'管理记录保留时间(月)',
+      16 => 'Przechowywanie statystyk moderatorów (w miesiącach)',//'管理记录保留时间(月)',
       17 => 'Set a time in which the system will remember moderators log records. Default value is 3 months. It is recommended to use from 3 to 6 months.',//'系统中保留管理记录的时间，默认为 3 个月，建议在 3～6 个月的范围内取值',
       18 => 'setting_functions_mod_losslessdel',
       19 => 'Do not reduce the user points after N days of Delete post',//'删帖不减积分时间期限(天)',
@@ -4637,7 +4637,7 @@ $lang = array (
     array (
       0 => 'Site features &raquo; Other',//'站点功能 &raquo; 其他',
       1 => 'setting_tips',
-      2 => 'Options marked by red dotted line are related to the system efficiency, load capacity and resource consumption (can improve or reduce the efficiency). It is recommended to make adjustments according to your server situation.',//'以红色虚线标示的选项，表示该选项和系统效率、负载能力与资源消耗有关(提高效率、或降低效率)，建议依据自身服务器情况进行调整。',
+      2 => 'Funkcje podkreślone czerwonymi kropkami mają spory wpływ na zachowanie, wydajność oraz szybkość serwera i pochłanianych przez niego zasobów. Zaleca się, aby skonfigurować forum w taki sposób, aby przyjał specyfikacji serwera.',//'以红色虚线标示的选项，表示该选项和系统效率、负载能力与资源消耗有关(提高效率、或降低效率)，建议依据自身服务器情况进行调整。',
       3 => 'setting_functions_other_pwdsafety',
       4 => 'Enable password encryption',//'启用登录密码加密',
       5 => 'Select "Yes", if a password must be encrypted before transmitted to the server',//'选择“是”，站点登录时的密码将进行加密后再传输',
@@ -4784,7 +4784,7 @@ $lang = array (
     'index' =>
     array (
       'Money Setttings' => 'action=setting&operation=credits',//'积分设置',
-      'Basic settings' => 'action=setting&operation=credits&anchor=base',//'基本设置',
+      'Ustawienia podstawowe' => 'action=setting&operation=credits&anchor=base',//'基本设置',
     ),
     'text' =>
     array (
@@ -5526,7 +5526,7 @@ $lang = array (
     'index' =>
     array (
       'E-Commerce Settings' => 'action=setting&operation=ec',//'电子商务',
-      'Basic settings' => 'action=setting&operation=ec',//'基本设置',
+      'Ustawienia podstawowe' => 'action=setting&operation=ec',//'基本设置',
     ),
     'text' =>
     array (
@@ -5933,7 +5933,7 @@ $lang = array (
     'index' =>
     array (
       'User Groups' => 'action=usergroups',//'用户组',
-      'Basic settings' => 'action=usergroups&operation=edit&anchor=system',//'基本设置',
+      'Ustawienia podstawowe' => 'action=usergroups&operation=edit&anchor=system',//'基本设置',
     ),
     'text' =>
     array (
@@ -5954,13 +5954,13 @@ $lang = array (
     'index' =>
     array (
       'User Groups' => 'action=usergroups',//'用户组',
-      'Basic settings' => 'action=usergroups&operation=edit&anchor=basic',//'基本设置',
+      'Ustawienia podstawowe' => 'action=usergroups&operation=edit&anchor=basic',//'基本设置',
     ),
     'text' =>
     array (
       0 => 'User Groups &raquo; Base settings',//'用户组 &raquo; 基本设置',
       1 => 'usergroups_edit_basic',
-      2 => 'Basic settings',//'基本设置',
+      2 => 'Ustawienia podstawowe',//'基本设置',
       3 => 'usergroups_edit_basic_title',
       4 => 'User group title',//'用户组头衔',
       5 => 'usergroups_icon',

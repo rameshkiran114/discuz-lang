@@ -13,10 +13,10 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'open_name'			=> 'Open Thread Card',//'喧嚣卡',
-	'open_desc'			=> 'Set the thread open to replies',//'可以将主题开启，可以回复',
-	'open_forum'			=> 'Target forums',//'允许使用本道具的版块',
-	'open_info'			=> 'For open specified thread, enter the thread ID',//'开放指定的主题，请输入主题的 ID',
+	'open_name'			=> 'Otwórz temat',//'喧嚣卡',
+	'open_desc'			=> 'Otwiera temat umożliwiając wysyłanie odpowiedzi.',//'可以将主题开启，可以回复',
+	'open_forum'			=> 'Forum',//'允许使用本道具的版块',
+	'open_info'			=> 'Dla konkretnych tematów, wprowadź identyfikator tematu',//'开放指定的主题，请输入主题的 ID',
 	'open_info_nonexistence'	=> 'Enter the thread ID for opening',//'请指定要开放的主题',
 	'open_succeed'			=> 'The thread was opened successfully',//'您操作的主题已开放回复',
 	'open_info_noperm'		=> 'Using this magic for this forum is disabled',//'对不起，主题所在版块不允许使用本道具',

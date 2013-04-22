@@ -13,7 +13,7 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'namepost_name'			=> 'Continue Anonimous Post',//'照妖镜',
+	'namepost_name'			=> 'Kontynuuj anonimowość',//'照妖镜',
 	'namepost_desc'			=> 'You can specify an anonymous post to stay still anonymous',//'可以查看一次匿名用户的真实身份。',
 	'namepost_forum'		=> 'Target forums',//'允许使用本道具的版块',
 	'namepost_num'			=> 'Has a number: {magicnum}',//'拥有个数: {magicnum}',

@@ -30,7 +30,7 @@ $lang = array(
 	'ranklist_title_thread_favorite'	=> 'Top ulubionych',//'帖子收藏排行',
 	'ranklist_title_thread_heat'	=> 'Top gorących',//'帖子热度排行',
 
-	'ranklist_title_blog_heat'	=> 'Top ocenionych',//'日志人气排行',
+	'ranklist_title_blog_heat'	=> 'Top ocenianych',//'日志人气排行',
 	'ranklist_title_blog_reply'	=> 'Top komentarzy',//'日志评论排行',
 	'ranklist_title_blog_view'	=> 'Top wyświetleń',//'日志查看排行',
 	'ranklist_title_blog_share'	=> 'Top udostępnień',//'日志分享排行',
@@ -45,11 +45,11 @@ $lang = array(
 	'ranklist_title_poll_favorite'	=> 'Top ulubionych',//'投票收藏排行',
 	'ranklist_title_poll_share'	=> 'Top udostępnień',//'投票分享排行',
 
-	'ranklist_title_activity_heat'		=> 'Top ocenionych',//'活动热度排行',
+	'ranklist_title_activity_heat'		=> 'Top ocenianych',//'活动热度排行',
 	'ranklist_title_activity_favorite'	=> 'Top ulubionych',//'活动收藏排行',
 	'ranklist_title_activity_share'		=> 'Top udostępnień',//'活动分享排行',
 
-	'ranklist_title_picture_heat'	=> 'Top ocenionych',//'图片热图排行',
+	'ranklist_title_picture_heat'	=> 'Top ocenianych',//'图片热图排行',
 	'ranklist_title_picture_share'	=> 'Top udostępnień',//'图片分享排行',
 	'ranklist_title_picture_1'	=> 'Top Pretty',//'图片漂亮排行',
 	'ranklist_title_picture_2'	=> 'Top Cool',//'图片酷毙排行',
@@ -57,7 +57,7 @@ $lang = array(
 	'ranklist_title_picture_4'	=> 'Top Flowers',//'图片鲜花排行',
 	'ranklist_title_picture_5'	=> 'Top Eggs',//'图片鸡蛋排行',
 
-	'ranklist_title_forum_thread'	=> 'Top ocenionych',//'版块发帖排行',
+	'ranklist_title_forum_thread'	=> 'Top ocenianych',//'版块发帖排行',
 	'ranklist_title_forum_post'	=> 'Top postujących',//'版块回复排行',
 	'ranklist_title_forum_post_30'	=> 'Top postujących ostatniego miesiąca',//'版块 30 天发帖排行',
 	'ranklist_title_forum_post_24'	=> 'Top postujących ostatnich 24 godzin',//'版块最近 24 小时发帖排行',

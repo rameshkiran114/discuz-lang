@@ -112,14 +112,14 @@ $lang = array(
 
 	'active_email_subject'	=> 'Email Activation',//'您的邮箱激活邮件',
 	'active_email_msg'	=> 'Please copy the following link to your browser in order to activate your mailbox.<br>E-mail activation link:<br><a href="{url}" target="_blank">{url}</a>',//'请复制下面的激活链接到浏览器进行访问，以便激活你的邮箱。<br>邮箱激活链接:<br><a href="{url}" target="_blank">{url}</a>',
-	'share_space'		=> 'Udostępnij profil',//'分享了一个用户',
-	'share_blog'		=> 'Udostępnij blog',//'分享了一篇日志',
-	'share_album'		=> 'Udostępnij album',//'分享了一个相册',
+	'share_space'		=> 'udostępnił profil',//'分享了一个用户',
+	'share_blog'		=> 'udostępnił blog',//'分享了一篇日志',
+	'share_album'		=> 'udostępnił album',//'分享了一个相册',
 	'default_albumname'	=> 'Album domyślny',//'默认相册',
-	'share_image'		=> 'shared image',//'分享了一张图片',
-	'share_article'		=> 'Share an article',//'分享了一篇文章',
+	'share_image'		=> 'udostępnił zdjęcie',//'分享了一张图片',
+	'share_article'		=> 'udostępnił artykuł',//'分享了一篇文章',
 	'album'			=> 'Albumy',//'相册',
-	'share_thread'		=> 'shared thread',//'分享了一个帖子',
+	'share_thread'		=> 'udostępnił temat',//'分享了一个帖子',
 	'mtag'			=> 'Grupy',
 	'share_mtag'		=> 'Share the group',
 	'share_mtag_membernum'	=> 'has (membernum) members',//'现有 {membernum} 名成员',
@@ -130,9 +130,9 @@ $lang = array(
 	'share_music'		=> 'udostępnił muzykę',//'分享了一个音乐',
 	'share_flash'		=> 'udostępnił aplikację flash',//'分享了一个 Flash',
 	'share_event'		=> 'udostępnił wydarzenie',//'分享了一个活动',
-	'share_poll'		=> 'udostępnił ankietę \\1',//'分享了一个\\1投票',
+	'share_poll'		=> 'udostępnił ankietę',//'分享了一个\\1投票',
 	'event_time'		=> 'Czas',//'活动时间',
-	'event_location'	=> 'Location',//'活动地点',
+	'event_location'	=> 'Lokalizacja',//'活动地点',
 	'event_creator'		=> 'Autor',//'发起人',
 	'the_default_style'	=> 'Styl domyślny',//'默认风格',
 	'the_diy_style'		=> 'Własny styl',//'自定义风格',
@@ -212,7 +212,7 @@ $lang = array(
 //vot	'do_stat_post'		=> 'Replies',//'主题回帖',
 	'do_stat_click'		=> 'Sticks',//'表态',
 	'do_stat_wall'		=> 'Tablica',//'留言',
-	'do_stat_poke'		=> 'Pozdrów',//'打招呼',
+	'do_stat_poke'		=> 'Zaczep',//'打招呼',
 	'do_stat_sendpm'	=> 'Wiadomość',//'发短消息',
 	'do_stat_addfriend'	=> 'Friend request',//'好友请求',
 	'do_stat_friend'	=> 'Become friends',//'成为好友',
@@ -305,7 +305,7 @@ $lang = array(
 	'portal'		=> 'Portal',//'门户',
 	'group'			=> 'Grupy',//'群组',
 	'follow'		=> 'Follow',//'广播',
-	'collection'		=> 'Collection',//'淘帖',
+	'collection'		=> 'Kolekcja',//'淘帖',
 	'guide'			=> 'Przewodnik',//'导读',
 	'feed'			=> 'Feeds',//'动态',
 	'blog'			=> 'Blogi',//'日志',
@@ -324,13 +324,13 @@ $lang = array(
 	'filesize_lessthan'		=> 'File size should be less than ',//'文件大小应该小于',
 
 	'spacecp_message_prompt'	=> '(supported {msg} code, maximum 1000 characters)',//'(支持 {msg} 代码,最大 1000 字)',
-	'card_update_doing'		=> ' <a class="xi2" href="###">[update doings]</a>',//' <a class="xi2" href="###">[更新记录]</a>',
+	'card_update_doing'		=> ' <a class="xi2" href="###">[Zmień]</a>',//' <a class="xi2" href="###">[更新记录]</a>',
 	'email_acitve_message'		=> '<img src="{imgdir}/mail_inactive.png" alt="Unverified" class="vm" />
 						<span class="xi1">Email ({newemail}) oczekuje na aktywację ...</span><br />
 						System wysłał na podany adres E-Mail wiadomość, w której znajdziesz informacje dotyczące aktywacji konta.<br>
 						Jeśli nie otrzymałeś wiadomości z aktywacją konta, możesz zmienić adres E-Mail lub poprosić o <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">ponowną aktywację konta</a>.',
-	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
-	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
+	'qq_set_status'		=> 'Ustaw status QQ online',//'设置我的QQ在线状态',
+	'qq_dialog'		=> 'Rozpocznij czat w QQ',//'发起QQ聊天',
 
 );
 
