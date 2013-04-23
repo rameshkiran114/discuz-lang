@@ -3371,7 +3371,7 @@ $lang = array
 	'members_profile_edit_invisible_comment'	=> 'If set to Yes, then are not displayed in the personal profile page, no matter of personal privacy settings',//'如果设为是，则不论个人隐私如何设定都不会在个人空间资料页面显示',
 	'members_profile_edit_showincard'		=> 'Is displayed in the card',//'是否在名片中显示',
 	'members_profile_edit_showinthread'		=> 'Show in a post',//'是否在帖子中显示',
-	'members_profile_edit_showinthread_comment'	=> 'Select if the option is needed to placement in the <a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">Post content</a>',//'选择是，还需在<a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="__blank">帖子内容页</a>中选择展示位置',
+	'members_profile_edit_showinthread_comment'	=> 'Select if the option is needed to placement in the <a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">Post content</a>',//'选择是，还需在<a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">帖子内容页</a>中选择展示位置',
 	'members_profile_edit_showinregister'		=> 'Is displayed at the registration page',//'是否在注册页面显示',
 	'members_profile_edit_allowsearch'		=> 'Is searcheable',//'允许搜索',
 	'members_profile_edit_default_privacy'		=> 'Default privacy',//'默认隐私',
@@ -6632,6 +6632,7 @@ RepeatLimit 32
 
 //source/function/function_admincp.php
 	'upload_selectfile'		=> 'Browse',//'浏览',
+	'version_uptodate'		=> 'You are currently using up-to-date Discuz! program. To update, please refer to the prompts of following line',//'&#x60A8;&#x5F53;&#x524D;&#x4F7F;&#x7528;&#x7684; Discuz! &#x7A0B;&#x5E8F;&#x7248;&#x672C;&#x6709;&#x91CD;&#x8981;&#x66F4;&#x65B0;&#xFF0C;&#x8BF7;&#x53C2;&#x7167;&#x4EE5;&#x4E0B;&#x63D0;&#x793A;&#x8FDB;&#x884C;&#x53CA;&#x65F6;&#x5347;&#x7EA7;',
 
 //source/admincp/admincp_index.php - javascript function shownews()
 	'subscribe'		=> 'Subscribe',//'订阅',

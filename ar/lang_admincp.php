@@ -3372,7 +3372,7 @@ $lang = array
 	'members_profile_edit_invisible_comment'	=> 'إذا قمت بإختيار نعم, لن يتم إظهاره في الملف الشخصي, بغض النظر عن إعدادات الخصوصية الشخصية',//'如果设为是，则不论个人隐私如何设定都不会在个人空间资料页面显示',
 	'members_profile_edit_showincard'		=> 'إظهاره في بطاقة العضو',//'是否在名片中显示',
 	'members_profile_edit_showinthread'		=> 'إظهاره عند أسفل الصورة الرمزية للعضو',//'在帖子中显示',
-	'members_profile_edit_showinthread_comment'	=> 'عند إختيار نعم يجب الاطلاع على  <a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">محتوى المشاركة</a>',//'选择是，还需在<a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="__blank">帖子内容页</a>中选择展示位置',
+	'members_profile_edit_showinthread_comment'	=> 'عند إختيار نعم يجب الاطلاع على  <a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">محتوى المشاركة</a>',//'选择是，还需在<a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">帖子内容页</a>中选择展示位置',
 	'members_profile_edit_showinregister'		=> 'إظهاره عند التسجيل',//'是否在注册页面显示',
 	'members_profile_edit_allowsearch'		=> 'قابل للبحث',//'允许搜索',
 	'members_profile_edit_default_privacy'		=> 'خصوصية افتراضية',//'默认隐私',

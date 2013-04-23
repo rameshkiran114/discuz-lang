@@ -3369,7 +3369,7 @@ $lang = array
 	'members_profile_edit_invisible_comment' => 'ถ้าเลือก ใช่ ข้อมูลนี้จะไม่แสดงในหน้าโปรไฟล์ของสมาชิก',
 	'members_profile_edit_showincard' => 'แสดงในการ์ดข้อมูลสมาชิก',
 	'members_profile_edit_showinthread' => 'แสดงในหน้าเนื้อหากระทู้',
-	'members_profile_edit_showinthread_comment' => 'ถ้าเลือก ใช่ จะต้อง<a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="__blank">เลือกตำแหน่ง</a>ในหน้าเนื้อหากระทู้',
+	'members_profile_edit_showinthread_comment' => 'ถ้าเลือก ใช่ จะต้อง<a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">เลือกตำแหน่ง</a>ในหน้าเนื้อหากระทู้',
 	'members_profile_edit_showinregister' => 'แสดงในหน้าลงทะเบียน',
 	'members_profile_edit_allowsearch' => 'อนุญาตให้ค้นหา',
 	'members_profile_edit_default_privacy' => 'เริ่มต้นข้อมูลความเป็นส่วนตัว',

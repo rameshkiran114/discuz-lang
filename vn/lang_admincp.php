@@ -3368,7 +3368,7 @@ $lang = array
 	'members_profile_edit_invisible_comment' => 'Nếu thiết lập là Yes, bất kể các thiết lập bảo mật không được hiển thị trong không gian cá nhân của trang tiểu sử',
 	'members_profile_edit_showincard' => 'Được hiển thị trong thẻ',
 	'members_profile_edit_showinthread' => 'Được hiển thị trong bài',
-	'members_profile_edit_showinthread_comment' => 'Sự lựa chọn là, họ cần <a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="__blank">Nội dung bài viết</a> chọn vị trí',
+	'members_profile_edit_showinthread_comment' => 'Sự lựa chọn là, họ cần <a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">Nội dung bài viết</a> chọn vị trí',
 	'members_profile_edit_showinregister' => 'Được hiển thị ở trang đăng ký',
 	'members_profile_edit_allowsearch' => 'Cho phép tìm kiếm',
 	'members_profile_edit_default_privacy' => 'Bảo mật mặc định',

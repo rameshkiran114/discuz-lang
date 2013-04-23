@@ -3370,7 +3370,7 @@ $lang = array
 	'members_profile_edit_invisible_comment'	=> 'S\'il est d&#233;fini &#224; Oui, alors peu importe comment les param&#232;tres de vie priv&#233;e ne sont pas affich&#233;s dans la page de profil un espace personnel', // '如果设为是, 则不论个人隐私如何设定都不会在个人空间资料页面显示'
 	'members_profile_edit_showincard'		=> 'Est affich&#233; dans la carte', // '是否在名片中显示'
 	'members_profile_edit_showinthread'		=> 'Est affich&#233; dans le post', // '是否在帖子中显示'
-	'members_profile_edit_showinthread_comment'	=> 'Choix, dont ils ont besoin<a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="__blank">Message de son contenu page de contenu</a>Choisissez la position d\'affichage', // '选择是, 还需在<a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="__blank">帖子内容页</a>中选择展示位置'
+	'members_profile_edit_showinthread_comment'	=> 'Choix, dont ils ont besoin<a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">Message de son contenu page de contenu</a>Choisissez la position d\'affichage', // '选择是, 还需在<a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">帖子内容页</a>中选择展示位置'
 	'members_profile_edit_showinregister'	=> 'Que ce soit la page d\'inscription d\'affichage', // '是否在注册页面显示'
 	'members_profile_edit_allowsearch'	=> 'Autoriser recherche', // 'Allow search'
 	'members_profile_edit_default_privacy'	=> 'Confidentialit&#233; par d&#233;faut', // 'Default privacy'

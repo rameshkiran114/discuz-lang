@@ -3371,7 +3371,7 @@ $lang = array
 	'members_profile_edit_invisible_comment'	=> 'If set to Yes, then are not displayed in the personal profile page, no matter of personal privacy settings',//'如果设为是，则不论个人隐私如何设定都不会在个人空间资料页面显示',
 	'members_profile_edit_showincard'		=> 'Is displayed in the card',//'是否在名片中显示',
 	'members_profile_edit_showinthread'		=> 'Show in a post',//'是否在帖子中显示',
-	'members_profile_edit_showinthread_comment'	=> 'Select if the option is needed to placement in the <a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">Post content</a>',//'选择是，还需在<a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="__blank">帖子内容页</a>中选择展示位置',
+	'members_profile_edit_showinthread_comment'	=> 'Select if the option is needed to placement in the <a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">Post content</a>',//'选择是，还需在<a href="admin.php?action=setting&operation=styles&anchor=viewthread" target="_blank">帖子内容页</a>中选择展示位置',
 	'members_profile_edit_showinregister'		=> 'Is displayed at the registration page',//'是否在注册页面显示',
 	'members_profile_edit_allowsearch'		=> 'Is searcheable',//'允许搜索',
 	'members_profile_edit_default_privacy'		=> 'Default privacy',//'默认隐私',
