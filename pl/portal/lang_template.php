@@ -310,6 +310,9 @@ $lang = array (
 	'view_publisher'		=> 'Publisher',//'发布者',
 	'view_related'			=> 'Related readings',//'相关阅读',
 	'view_views'			=> 'Views',//'查看',
+/*!*/	'pre_article'			=> 'Prev.:',//'上一篇：',
+/*!*/	'next_article'			=> 'Next:',//'下一篇：',
+/*!*/	'display_order'			=> 'Display order',//'显示位置',
 
 // Added by Valery Votintsev
 	'select_all'	=> 'Wszystkie',//'全选',

@@ -359,8 +359,11 @@ $extend_lang = array
 	'security_thread_status'		=> 'Thread status',//'主题状态',
 	'security_post_status'			=> 'Replies status',//'回帖状态',
 	'security_thread_member'		=> 'User status',//'用户状态',
+/*!*/	'security_thread_member_group'		=> 'User group',//'用户组',
+/*!*/	'security_cron_lastpost'		=> 'Update Forums Last Post (Waterproof wall related)',//'更新版块最后发表(防水墙相关)',
+/*!*/	'security_cron_daily'			=> 'Waterproof wall daily optimization',//'防水墙每日优化',
 	'setting_update_succeed'		=> 'Current settings updated successfully',//'当前设置更新成功',
-
+/*!*/	'security_createtime'			=> 'Create time',//'违规日期',
 	'search_menu_setting'			=> 'Settings',//'设置',
 	'search_menu_service'			=> 'Functional configuration',//'功能配置',
 	'search_setting_allow_hot_topic'	=> 'Allow hot topics',//'开启热门话题',

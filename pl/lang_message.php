@@ -219,6 +219,7 @@ $lang = array (
 	'login_succeed'			=> 'Witam, {usergroup}, {username}!<br /> Przenoszę do poprzedniej strony...',//'欢迎您回来，{username}。现在将转入登录前页面。 {ucsynlogin} ',
 	'login_strike'			=> 'You have tried too many times, please login after 15 minutes',//'密码错误次数过多，请 15 分钟后重新登录',
 	'logout_succeed'		=> 'Zostałeś wylogowany poprawnie. Momencik... <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ Wyczyść ciasteczka ]</a> {ucsynlogout} ',//'您已退出站点，现在将以游客身份转入退出前页面。 <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 清除痕迹 ]</a> {ucsynlogout} ',
+	/*!*/	'location_logout_succeed_mobile'	=> 'Successfully logged out, now reloading the current page as a guest, wait please...<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ Clean cookies ]</a>',//'您已退出站点，现在将以游客身份转入退出前页面，请稍候…… <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 清除痕迹 ]</a>',
 	'register_activation_invalid'	=> 'Activation failed, please try to login again.',//'激活失败，请重新登录验证需要激活的用户。',
 	'profile_username_tooshort'	=> 'Nazwa użytkownika musi zawierać min. 3 znaki.',//'对不起，您输入的用户名小于 3 个字符, 请返回输入一个较长的用户名。',
 	'profile_username_toolong'	=> 'Nazwa użytkownika musi zawierać maks. 15 znaków.',//'对不起，您的用户名超过 15 个字符，请返回输入一个较短的用户名。',
@@ -261,7 +262,8 @@ $lang = array (
 
 	'forum_passwd_incorrect'	=> 'Your password is not correct, you can not access this forum.',//'您输入的密码不正确，不能访问这个版块。',
 	'forum_passwd_correct'		=> 'Verify password successfully, now redirect you to thread list page.',//'密码验证成功，现在将转入主题列表。',
-
+/*!*/	'forum_pay_incorrect'		=> 'Sorry, you have to pay {paycredits} {credits} to enter this forum. You have not enough {title}.',//'抱歉，此版块需要支付 {paycredits} {credits}才能进入此版块，您的{title}不足',
+	/*!*/	'forum_pay_correct'		=> 'Paid successfully, please continue to access this forum',//'支付成功，请继续可以访问此版块',
 	'group_rediret_now'		=> 'Upsss! Za chwilę nastąpi przekierowanie na stronę główną.',//'现在转入群组首页',
 	'group_verify'			=> '{_G/setting/navs/3/navname} is under verifying',//'{_G/setting/navs/3/navname}正在审核中',
 	'group_has_joined'		=> 'You have already joined this group',//'你已经加入该群组',
@@ -271,6 +273,7 @@ $lang = array (
 	'group_exit_founder'		=> 'Założyciel nie może opuszczać własnych grup.',//'群组创始人不能退出群组，请返回。',
 	'group_exit_succeed'		=> 'Exited the group successfully',//'已经成功退出群组',
 	'group_create_usergroup_failed'	=> 'Your user group is not allowed to create groups',//'您所在的用户组不能建立群组',
+	/*!*/	'group_create_usergroup_credits_failed'	=> 'Sorry, you have not enough credits. You need to have {buildgroupcredits} for create {_G/setting/navs/3/navname}',//'抱歉，您的积分不足，创建{_G/setting/navs/3/navname}需要消耗 {buildgroupcredits}',
 	'group_create_max_failed'	=> 'Can not create a new group. You have reached the maximum limit of created groups.',//'你的建立群组数量已经到达站长设置上限，不能建立新的群组',
 	'group_category_error'		=> 'Select group cateogry error.',//'选择群组分类错误。',
 	'group_create_mod_succeed'	=> 'Create {_G/setting/navs/3/navname} application is submitted, We will try to verify it as soon as possible',//'创建{_G/setting/navs/3/navname}的申请已经提交，我们会尽快进行审核',
@@ -464,7 +467,8 @@ $lang = array (
 
 	'faq_content_empty'		=> 'Wybrany temat FAQ nie istnieje.',//'指定的帮助项目不存在，请返回。',
 	'faq_keywords_empty'		=> 'Proszę wprowadzić szukane wyrażenia.',//'您没有指定要搜索的关键字，请返回重新填写。',
-
+/*!*/	'login_reward_succeed'		=> 'Logged in successfully!',//'签到成功!',
+	/*!*/	'login_reward_error'		=> 'Sorry, you have been signed today already!',//'抱歉，您今天已经签过到了哦！',
 	'imagepreview_errorcode_0'	=> 'The image does not meet the processing conditions, can not be processed',//'图片不符合处理条件，无法处理',
 	'imagepreview_errorcode_-1'	=> 'Invalid image, can not handle',//'无效的图片，无法处理',
 	'imagepreview_errorcode_-2'	=> 'No permissions to read and write file, can not handle the image',//'文件读写权限不足，无法处理图片',
@@ -572,6 +576,7 @@ $lang = array (
 	'recommend_expiration_invalid'		=> 'Time format is invalid, correct format is  "yyyy-mm-dd hh:mm"',//'时间期限格式无效，正确格式为“yyyy-mm-dd hh:mm”，请返回。',
 
 	'members_edit_succeed'			=> 'User information successfully updated, please continue',//'用户信息成功更新，请继续操作',
+	/*!*/	'modcp_member_ban_illegal'		=> 'You can not ban the user directly',//'您不能直接禁止该用户',
 	'modcp_member_ban_succeed'		=> 'User banned successfully',//'用户资料成功更新',
 
 	'modcp_noaction'			=> 'You did not choose any action',//'您没有选择执行任何操作',
@@ -650,7 +655,7 @@ $lang = array (
 	'post_reply_succeed'			=> 'Thanks, Your reply has been published, now redirect you to the thread content page.<br /><a href="forum.php?mod=forumdisplay&fid={fid}">[click here to thread list]</a>',//'非常感谢，您的回复已经发布，现在将转入主题页。<br /><a href="forum.php?mod=forumdisplay&fid={fid}">[ 需要转入主题列表请点击这里 ]</a>',
 	'trade_add_succeed'			=> 'Thanks, your product has been published and will now turn to commodities subject page.<br /><a href="forum.php?mod=post&action=reply&fid={fid}&tid={tid}&addtrade=yes">[ Click here to continue to add products ]</a><br /><a href="forum.php?mod=forumdisplay&fid={fid}">[ For go into a list of topics, please click here ]</a>',//'非常感谢，您的商品已经发布，现在将转入商品主题页。<br /><a href="forum.php?mod=post&action=reply&fid={fid}&tid={tid}&addtrade=yes">[ 继续添加商品请点击这里 ]</a><br /><a href="forum.php?mod=forumdisplay&fid={fid}">[ 需要转入主题列表请点击这里 ]</a>',
 
-	'postperm_login_nopermission_mobile'	=> 'You are not <a href="member.php?mod=logging&action=login&referer={referer}&mobile=yes">Log in</a>, and have permission to post in the forum',//'您尚未<a href="member.php?mod=logging&action=login&referer={referer}&mobile=yes">登录</a>，没有权限在该版块发帖',
+/*!*/	'postperm_login_nopermission_mobile'	=> 'You are not logged in and have no permission to post in the forum! <a href="member.php?mod=logging&action=login&referer={referer}">Log in</a>',//'您尚未<a href="member.php?mod=logging&action=login&referer={referer}">登录</a>，没有权限在该版块发帖',
 	'post_sort_isnull'			=> 'You did not select thread category.',//'您没有选择主题的分类，请返回修改。',
 	'post_poll_inputmore'			=> 'Sorry, you should input 2 options at least.',//'对不起，您至少应当填写 2 个投票选项，请返回修改。',
 	'poll_maxchoices_expiration_invalid'	=> 'Sorry, Options up to a few days of the effective counting only the number accepted.',//'对不起，最多可选项数与有效记票天数只接受数字，请返回修改。',
@@ -704,6 +709,7 @@ $lang = array (
 	'memcp_credits_card_msg_cleardateline_early'	=> 'Sorry, this card secret is expired',//'抱歉，此卡密已过期',
 	'memcp_credits_card_msg_succeed'	=> '<span class="xi1">{extcreditsval} {extcreditstitle}</span>, Recharged successfully ',//'<span class="xi1">{extcreditsval}{extcreditstitle}</span>，充值成功 ',
 	'memcp_credits_addfunds_msg_incorrect'	=> 'You have not enter the amount for exchange',//'您没有输入需要充值的数量',
+	/*!*/	'memcp_credits_addfunds_msg_notype'	=> 'Sorry, you did not selected a payment method',//'抱歉，您尚未选择支付方式',
 	'credits_addfunds_amount_invalid'	=> 'Your single purchase exceeds the maximum amout of points {ec_maxcredits} or minimum {ec_mincredits} restrictions.',//'您单次购买的积分数量超出最大值 {ec_maxcredits} 或最小值 {ec_mincredits} 的限制。',
 	'memcp_credits_transfer_msg_self_incorrect'	=> 'You do not need to own transfer',//'您无需给自己转账',
 	'credits_transfer_balance_insufficient'	=> 'Sorry, after the transfer your balance of {title} will less than minimum {minbalance}.',//'对不起，转账后{title}不足 {minbalance}，请返回。',//'对不起，转账后{title}不足 {minbalance}，请返回。',//'对不起，转账后{title}不足 {minbalance}，请返回。',
@@ -818,7 +824,7 @@ $lang = array (
 
 	'profile_passwd_empty'		=> 'Proszę wprowadzić nowe hasło.',//'请设置新密码',
 	'profile_passwd_wrong'		=> 'Hasło potwierdzające jest błędne. Aktualizacja ochrony nie powiodła się.',//'原密码不正确，您不能修改密码或 Email 或安全提问，请返回。',
-	'profile_email_verify'		=> 'Email has been sent, Please activate your account according the content of mail. If you did not receive our system mail, please click "re-verify Email" or change to another email. Attention: You may be unable to post beofre you activated your account.',//'确认 Email 已经发送，请用邮件中提供的方法激活您的帐号。如果您没有收到我们发送的系统邮件，请点击控制面板首页中的“重新验证 Email 有效性”，或尝试更换另外一个地址。注意：在完成激活之前，根据管理员设置，您将只能以待验证会员的身份访问站点，您可能不能进行发帖等操作。激活成功后，上述限制将自动取消。',
+	'profile_email_verify'		=> 'Email został wysłany. Prosimy o ponowną aktywację konta. Jeśli nie otrzymasz wiadomości wysłanej na podany adres, prosimy o kliknięcie "ponowna aktywacja konta" lub zmianę na adresu na inny. Ostrzeżenie: Możliwe, że nie będziesz mógł dodawać postów na forum, dopóki nie aktywujesz konta.',//'确认 Email 已经发送，请用邮件中提供的方法激活您的帐号。如果您没有收到我们发送的系统邮件，请点击控制面板首页中的“重新验证 Email 有效性”，或尝试更换另外一个地址。注意：在完成激活之前，根据管理员设置，您将只能以待验证会员的身份访问站点，您可能不能进行发帖等操作。激活成功后，上述限制将自动取消。',
 	'profile_succeed'		=> 'Save personal profile successfully.',//'个人资料已成功保存。',
 	'send_activate_mail_succeed'	=> 'Email został wysłany. W ciągiu najbliższych kilku minut powinien zostać dostarczony.',//'邮件已经送出，可能需要几分钟后才能收到邮件',
 	'send_activate_mail_error'	=> 'Wysyłanie wiadomości email nie powiodło się. Proszę spróbować raz jeszcze po upływie 5 minut.',//'邮件发送失败，请过5分钟后重试发送验证激活邮件',
@@ -1049,6 +1055,9 @@ $lang = array (
 	'magics_credit_message'		=> 'Gratulację, otrzymałeś {credit}',//'恭喜你获得 {credit}',
 
 	'magics_thunder_message'	=> '{magicname} was published successfully',//'已成功发布 {magicname}',
+	/*!*/	'topicadmin_live_noset_error'	=> 'The thread is not set for live posts',//'该主题并没有设置为直播帖',
+	/*!*/	'no_privilege_livethread'	=> 'Sorry, you have no permission to set live posts',//'抱歉，您没有权限设置直播帖',
+	/*!*/	'portal_category_has_no_folder_name'	=> 'Sorry, the article category directory name is not set',//'抱歉，文章所属的频道没有设置目录名称',
 
 // Added by Valery Votintsev
 	'timeout_or_data_error'		=> 'Czas operacji wygasł lub wystąpił błąd danych.',//'操作超时或者数据来源错误',

@@ -267,6 +267,8 @@ $lang = array (
 	'founder_perm_member_duplicate'		=> 'User {name} already exists, please return to change.',//'用户 {name} 已经存在，请返回更改。',
 	'founder_perm_gperm_update_succeed'	=> 'Administrative group permissions successfully updated.',//'管理团队权限资料已成功更新。',
 	'founder_perm_notifyusers_succeed'	=> 'Management notification recipients set Successfully',//'管理通知接收者设置成功 ',
+/*!*/  'founder_optimizer_setting_succeed'	=> 'Optimizer setting saved successfully',//'设置项优化成功 ',
+/*!*/  'founder_optimizer_setting_error'	=> 'Optimizer setting failed',//'优化中出现问题 ',
 
 	'group_status_off'			=> 'Please first turn on the group, now go to Group Settings page.',//'请先开启群组功能，现在转到群组设置页。',
 	'group_update_succeed'			=> 'Group Category settings successfully updated.',//'群组分类设置成功更新。',
@@ -580,10 +582,10 @@ $lang = array (
 	'trade_fee_error'			=> 'Transaction setttings are incorrect, please return to modify.',//'交易设置有误，请返回修改。',
 	'reward_credits_error'			=> 'Reward trade points set in error, please return to modify.',//'悬赏交易积分设置有误，请返回修改。',
 	'usergroups_edit_succeed'		=> 'User group permission settings updated successfully ',//'用户组权限设置更新成功 ',
-	'usergroups_copy_target_invalid'	=> 'You did not choose the target user group to copy, please return to modify.',//'你没有选择要复制的目标用户组，请返回修改。',
+/*!*/	'usergroups_copy_target_invalid'	=> 'You did not choose the target user group',//'您没有选择目标用户组',
 	'usergroups_copy_options_invalid'	=> 'You did not choose the item to copy, please return.',//'你没有选择要复制的项目，请返回修改。',
 	'usergroups_copy_succeed'		=> 'User group settings successfully replicated.',//'用户组设置成功复制。',
-
+/*!*/	'usergroups_merge_succeed'		=> 'User groups merged successfully ',//'用户组合并成功 ',
 	'usertag_delete_succeed'		=> 'Tag removed successfully',//'删除标签成功',
 	'usertag_merge_succeed'			=> 'Tag successfully merged',//'标签合并成功',
 	'usertag_add_succeed'			=> 'User tag added successfully',//'成功为用户添加标签',

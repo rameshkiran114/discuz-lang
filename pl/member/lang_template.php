@@ -40,7 +40,7 @@ $lang = array (
 	'login_inactive'		=> 'Give up invitation, <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',//'放弃激活，现在<a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
 	'login_now'			=> 'Masz już konto?<br> Zaloguj się!',//'已有帐号？现在登录',
 	'password_confirm'		=> 'Potwierdź hasło',//'确认密码',
-	'register_buyinvitecode'	=> 'No invitation code? Click here for',//'还没有邀请码？点击此处获取',
+	'register_buyinvitecode'	=> 'Brak kodu zaproszenia? Kliknij tutaj, aby go uzyskać',//'还没有邀请码？点击此处获取',
 	'register_email_tips'		=> 'Proszę wprowadzić aktywny adres Email',//'请输入正确的邮箱地址',
 	'register_message'		=> 'Powód rejestracji',//'注册原因',
 	'register_message1'		=> 'Zdecydowałeś się więc na rejestrację w naszym serwisie. Proszę wypełnić poprawnie wszystkie pola rejestracji. Wszystkie dane zostaną poddane weryfikacji.',//'你填写的注册原因会被当作申请注册的重要参考依据，请认真填写。',

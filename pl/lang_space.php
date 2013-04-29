@@ -132,7 +132,7 @@ $lang = array(
 	'album_li'		=> '<li style="width:70px"><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, Updated {date}><img src="{src}" alt="{albumname}" width="70" height="70" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname]}">{albumname}</a></p><span>Zdjęć:({picnum})</span> <span>Updated {date}</span></li>',//'<li><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank"><img src="{src}" alt="{albumname}" width="120" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname]}">{albumname}</a></p><span>图片数:({picnum})</span><span>更新 {date}</span></li>',
 	'doing_li'		=> '<li>{message}</li><br />{date} {from} Replies ({replynum})',//'<li>{message}</li><br />{date} {from} 回复({replynum})',
 	'visitor_anonymity'	=> '<div class="avatar48"><img src="image/magic/hidden.gif" alt="Anonymous"></div><p>Anonymous</p>',//'<div class="avatar48"><img src="image/magic/hidden.gif" alt="匿名"></div><p>匿名</p>',
-	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
+/*!*/	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="Remove the visit"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',//'<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="删除访问足迹"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
 	'wall_form'		=> '<div class="space_wall_post">
 					<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
 					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
@@ -181,7 +181,7 @@ $lang = array(
 	'block_profile_follow'		=> 'Zobacz aktywność',//'查看广播',
 	'block_profile_wall_to_me'	=> 'Pisz na tablicy',//'给我留言',
 	'block_profile_friend_add'	=> 'Dodaj do znajomych',//'加为好友',
-	'block_profile_friend_ignore'	=> 'Usuń z listy znajomych',//'解除好友',
+	'block_profile_friend_ignore'	=> 'Usuń znajomego',//'解除好友',
 	'block_profile_poke'		=> 'Zaczep',//'打个招呼',
 	'block_profile_sendmessage'	=> 'Wiadomość',//'发送消息',
 	'block_doing_reply'		=> 'Odpowiedz',//'回复',
@@ -252,6 +252,7 @@ $lang = array(
 	'viewthread_userinfo_sharings'	=> 'Udostępnień',//'分享',
 	'viewthread_userinfo_friends'	=> 'Znajomych',//'好友',
 	'viewthread_userinfo_digest'	=> 'Digests',//'精华',
+/*!*/	'viewthread_userinfo_digestposts'	=> 'Digests',//'精华',
 	'viewthread_userinfo_credits'	=> 'Kredytów',//'积分',
 	'viewthread_userinfo_readperm'	=> 'Read permission',//'阅读权限',
 	'viewthread_userinfo_regtime'	=> 'Data rejest.',//'注册时间',
@@ -259,9 +260,11 @@ $lang = array(
 	'viewthread_userinfo_oltime'	=> 'Czas online',//'在线时间',
 	'viewthread_userinfo_sellercredit'	=> 'Seller rating',//'卖家信用',
 	'viewthread_userinfo_buyercredit'	=> 'Buyer rating',//'买家信用',
-	'viewthread_userinfo_follower'		=> 'Number of followers',//'听众数',
-	'viewthread_userinfo_following'		=> 'Number of listenings',//'收听数',
-	'follow_view_follow'			=> 'I follow',//'我关注的',
+/*!*/	'viewthread_userinfo_follower'		=> 'Followers',//'听众',
+/*!*/	'viewthread_userinfo_following'		=> 'Listenings',//'收听',
+/*!*/	'viewthread_userinfo_feeds'		=> 'Aktywność',//'广播',
+/*!*/	'viewthread_userinfo_privacy'		=> 'Prywatność',//'保密',
+	'follow_view_follow'			=> 'Obserwuję',//'我关注的',
 	'follow_view_special'			=> 'Special attention',//'特别关注',
 	'follow_view_other'			=> 'Following Hall',//'广播大厅',
 	'follow_view_feed'			=> 'Aktywność użytkownika {who}',//'{who}的广播',
@@ -281,7 +284,7 @@ $lang = array(
 	'follow_view_fulltext'			=> '... Pokaż całość',//'...查看全文',
 	'follow_retract'			=> 'Zwiń',//'收起',
 	'follow_click_play'			=> 'Kliknij tutaj, aby zagrać',//'点击播放',
-	'follow_cancle_follow'			=> 'Cancel follow',//'取消收听',
+	'follow_cancle_follow'			=> 'Nie obserwuj',//'取消收听',
 	'follow_follow_ta'			=> 'Obserwuj',//'收听TA',
 
 

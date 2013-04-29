@@ -155,4 +155,19 @@ $lang = array(
 	'medal_completed'	=> 'User Medal data upgrade is completed',//'用户勋章数据升级完毕',
 	'data_update_completed'	=> 'Data update is completed',//'数据升级结束',
 	'group_stat_completed'	=> 'Forum Group statistics upgrade is completed',//'论坛版块统计数据升级完毕',
+//-----------------------------------------------------------------------------
+// Added in X3.0:
+/*!*/	'cron_todayheats_daily'	=> 'Count today hot posts daily',//'统计今日热帖',
+/*!*/	'hot_posts_completed'	=> 'Hot posts updated',//'热帖处理完毕',
+/*!*/	'reminder_update_completed'	=> 'Remind data upgrade finished',//'提醒数据升级完毕',
+/*!*/	'layout_update_completed'	=> 'Layout settings upgrade finished',//'布局方案设置升级完毕',
+/*!*/	'processed_from'	=> 'Being processed from ',//'正在处理从 ',
+/*!*/	'starting_from'		=> ' starting from ',//' 开始 ',
+/*!*/	'popular_posts'		=> 'popular posts',//'的热帖',
+//To lang_template:
+/*!*/	'default_layout'	=> 'Default layout',//'默认方案',
+/*!*/	'qq_bbcode_description'	=> 'QQ online status, points icon and his/her chat',//'显示 QQ 在线状态，点这个图标可以和他（她）聊天',
+/*!*/	'qq_enter'		=> 'Please enter the QQ number',//'请输入 QQ 号码',
+/*!*/	'qq_onlne_status'	=> 'Set QQ online status',//'设置QQ在线状态',
+	
 );

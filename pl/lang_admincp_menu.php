@@ -62,13 +62,13 @@ $lang = array
 	'menu_setting_ranklist'		=> 'Ranking',//'排行榜设置',
 	'menu_setting_mobile'		=> 'Dostęp mobile',//'手机访问设置',
 	'menu_setting_tag'		=> 'Tagi',//'标签管理',
-
+/*!*/	'menu_setting_antitheft'	=> 'Anti-capture settings',//'防采集设置',
 	'menu_forums'			=> 'Fora',//'版块管理',
 	'menu_forums_merge'		=> 'Forums merge',//'版块合并',
 	'menu_forums_threadtypes'	=> 'Thread types',//'主题分类',
 	'menu_forums_infotypes'		=> 'Forum types',//'分类信息',//vot: !!! May be 'Sort IDs',//'Category(ies)',/
 	'menu_forums_infooption'	=> 'Options types',//'分类信息选项',
-
+/*!*/	'menu_grid'			=> 'Home 4-frame',//'首页四格',
 	'menu_members_add'		=> 'Dodaj nowego',//'添加用户',
 	'menu_members_edit'		=> 'Edytuj',//'用户管理',
 	'menu_members_newsletter'	=> 'Newsletter',//'发送通知',
@@ -111,6 +111,7 @@ $lang = array
 	'menu_postcomment'		=> 'Post Comment Management',//'帖子点评管理',
 	'menu_maint_doing'		=> 'Doings Management',//'记录管理',
 	'menu_maint_blog'		=> 'Blogs Management',//'日志管理',
+	/*!*/	'menu_maint_blog_recycle_bin'	=> 'Blog Recycle Bin',//'日志回收站',
 	'menu_maint_feed'		=> 'Feeds Management',//'动态管理',
 	'menu_maint_album'		=> 'Albums Management',//'相册管理',
 	'menu_maint_pic'		=> 'Images Management',//'图片管理',
@@ -129,7 +130,7 @@ $lang = array
 
 	'menu_patch'			=> 'Bezpieczeństwo',//'安全中心',
 	'menu_upgrade'			=> 'Online Upgrade',//'在线升级',
-
+/*!*/	'menu_optimizer'		=> 'Optimizer wizard',//'优化大师',
 	'menu_addons'			=> 'Application Center',//'应用中心',
 	'menu_plugins'			=> 'Plugins',//'插件',
 	'menu_tasks'			=> 'Zadania',//'站点任务',
@@ -182,6 +183,7 @@ $lang = array
 	'menu_portalpermission'		=> 'Portal permissions',//'权限列表',
 	'menu_blockxml'			=> 'Third-party blocks',//'第三方模块',
 	'menu_topic'			=> 'Topic Management',//'专题管理',
+/*!*/	'menu_html'			=> 'HTML management',//'HTML管理',
 	'menu_diytemplate'		=> 'Custom Styles Management',//'DIY页面管理',
 
 	'menu_group_setting'		=> 'Group Settings',//'群组设置',
