@@ -40,7 +40,7 @@ $lang = array (
 	'login_inactive'		=> 'Give up invitation, <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',//'放弃激活，现在<a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
 	'login_now'			=> 'Masz już konto?<br> Zaloguj się!',//'已有帐号？现在登录',
 	'password_confirm'		=> 'Potwierdź hasło',//'确认密码',
-	'register_buyinvitecode'	=> 'Brak kodu zaproszenia? Kliknij tutaj, aby go uzyskać',//'还没有邀请码？点击此处获取',
+	'register_buyinvitecode'	=> 'No invitation code? Click here for',//'还没有邀请码？点击此处获取',
 	'register_email_tips'		=> 'Proszę wprowadzić aktywny adres Email',//'请输入正确的邮箱地址',
 	'register_message'		=> 'Powód rejestracji',//'注册原因',
 	'register_message1'		=> 'Zdecydowałeś się więc na rejestrację w naszym serwisie. Proszę wypełnić poprawnie wszystkie pola rejestracji. Wszystkie dane zostaną poddane weryfikacji.',//'你填写的注册原因会被当作申请注册的重要参考依据，请认真填写。',
@@ -50,6 +50,6 @@ $lang = array (
 	'register_repassword_tips'	=> 'Proszę uzupełnić pole potwierdzające hasło',//'请再次输入密码',
 	'register_username_tips'	=> 'Nazwa użytkownika musi zawierać od 3 do 15 znaków',//'用户名由 3 到 15 个字符组成',
 	'register_validate_email_tips'	=> 'Na samym początku rejestracja wymagać będzie potwierdzenia konta Email. Proszę się upewnić, że wprowadzony adres jest poprawny i aktualny, ponieważ to właśnie tam otrzymasz dalsze instrukcje. <br />Wiadomość powinna zostać dostarczona w ciągu najbliższych kilku minut. W przeciwnym razie, proszę sprawdzić również folder SPAM.',//'注册需要验证邮箱，请务必填写正确的邮箱，提交后请及时查收邮件。<br />您可能需要等待几分钟才能收到邮件，如果收件箱没有，请检查一下垃圾邮件箱。',
-	'rulemessage'			=> ' (Zasady oraz warunki korzystania z usług)',//'网站服务条款',
+	'rulemessage'			=> ' (zasady i warunki korzystania z usług)',//'网站服务条款',
 );
 

@@ -22,7 +22,7 @@ $lang = array
 	'anonymouspost_succeed'			=> 'Set as anonymous successfully',//'成功设置为匿名',
 	'anonymouspost_use_error'		=> 'Parameter error, you can not use the magic here.',//'参数错误，不能在此处使用本道具。',
 	'anonymouspost_info_noperm'		=> 'Using this magic for this forum is disabled',//'对不起，主题所在版块不允许使用本道具',
-	'anonymouspost_info_user_noperm'	=> 'Nie masz uprawnień do użycia zaklęcia.',//'对不起，你不能对此人使用本道具',
+	'anonymouspost_info_user_noperm'	=> 'You have no permission to use magic',//'对不起，你不能对此人使用本道具',
 	'anonymouspost_once_limit'		=> 'Is already anonymous, and can not re-use the magic.',//'已经是匿名状态了，不能重复使用本道具。',
 );
 

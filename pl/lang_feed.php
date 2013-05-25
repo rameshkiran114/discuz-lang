@@ -19,7 +19,7 @@ $lang = array
 	'feed_blog_body'	=> '<b>{subject}</b><br />{summary}',//'<b>{subject}</b><br />{summary}',
 	'feed_album_title'	=> '{actor} zaktualizował album zdjęć',//'{actor} 更新了相册',
 	'feed_album_body'	=> '<b>{album}</b><br />Łączna liczba zdjęć: {picnum}',//'<b>{album}</b><br />共 {picnum} 张图片',
-	'feed_pic_title'	=> '{actor} dodał nowe zdjęcie',//'{actor} 上传了新图片',
+	'feed_pic_title'	=> '{actor} dodał nowe obrazki',//'{actor} 上传了新图片',
 	'feed_pic_body'		=> '{title}',
 
 
@@ -27,10 +27,10 @@ $lang = array
 	'feed_poll'		=> '{actor} otworzył nową ankietę',//'{actor} 发起了新投票',
 
 	'feed_comment_space'	=> '{actor} zostawił wiadomość na ścianie {touser}',//'{actor} 在 {touser} 的留言板留了言',
-	'feed_comment_image'	=> '{actor} skomentował zdjęcie {touser}',//'{actor} 评论了 {touser} 的图片',
-	'feed_comment_blog'	=> '{actor} skomentował wpis na blogu {blog} of {touser}',//'{actor} 评论了 {touser} 的日志 {blog}',
-	'feed_comment_poll'	=> '{actor} skomentował ankietę {poll} of {touser}',//'{actor} 评论了 {touser} 的投票 {poll}',
-	'feed_comment_event'	=> '{actor} skomentował wydarzenie {event} started by {touser}',//'{actor} 在 {touser} 组织的活动 {event} 中留言了',
+	'feed_comment_image'	=> '{actor} skomentował obrazek użytkownika {touser}',//'{actor} 评论了 {touser} 的图片',
+	'feed_comment_blog'	=> '{actor} skomentował wpis na blogu {blog} użytkownika {touser}',//'{actor} 评论了 {touser} 的日志 {blog}',
+	'feed_comment_poll'	=> '{actor} skomentował ankietę {poll} użytkownika {touser}',//'{actor} 评论了 {touser} 的投票 {poll}',
+	'feed_comment_event'	=> '{actor} skomentował wydarzenie {event} utworzone przez {touser}',//'{actor} 在 {touser} 组织的活动 {event} 中留言了',
 	'feed_comment_share'	=> '{actor} skomentował {share} użytkownika {touser}',//'{actor} 对 {touser} 分享的 {share} 发表了评论',
 
 	'feed_showcredit'	=> '{actor} presented {credit} points to {fusername} for raise in <a href="misc.php?mod=ranklist&type=member">Top List</a>',//'{actor} 赠送给 {fusername} 竞价积分 {credit} 个，帮助好友提升在<a href="misc.php?mod=ranklist&type=member" target="_blank">竞价排行榜</a>中的名次',

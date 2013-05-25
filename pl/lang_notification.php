@@ -15,7 +15,7 @@ $lang = array
 (
 
 	'type_wall'		=> 'Tablica wiadomości',//'留言',
-	'type_piccomment'	=> 'Komentarz do zdjęcia',//'图片评论',
+	'type_piccomment'	=> 'Komentarz do obrazka',//'图片评论',
 	'type_blogcomment'	=> 'Komentarz na blogu',//'日志评论',
 	'type_clickblog'	=> 'Blog positioning',//'日志表态',
 	'type_clickarticle'	=> 'Article positioning',//'文章表态',
@@ -35,45 +35,45 @@ $lang = array
 	'share_space'		=> '{actor} polecił Twój profil.',//'{actor} 分享了你的空间',
 	'share_blog'		=> '{actor} polecił Twój wpis <a href="{url}" target="_blank">{subject}</a>',//'{actor} 分享了你的日志 <a href="{url}" target="_blank">{subject}</a>',
 	'share_album'		=> '{actor} polecił Twój album <a href="{url}" target="_blank">{albumname}</a>.',//'{actor} 分享了你的相册 <a href="{url}" target="_blank">{albumname}</a>',
-	'share_pic'		=> '{actor} polecił Twoje zdjęcie z albumu <a href="{url}" target="_blank">{albumname}</a>.',//'{actor} 分享了你的相册 {albumname} 中的 <a href="{url}" target="_blank"> 图片</a>',
+	'share_pic'		=> '{actor} polecił Twój obrazek z albumu <a href="{url}" target="_blank">{albumname}</a>.',//'{actor} 分享了你的相册 {albumname} 中的 <a href="{url}" target="_blank"> 图片</a>',
 	'share_thread'		=> '{actor} polecił Twój temat <a href="{url}" target="_blank">{subject}</a>.',//'{actor} 分享了你的帖子 <a href="{url}" target="_blank">{subject}</a>',
-	'share_article'		=> '{actor} polecił Twój artykuł <a href="{url}" target="_blank">{subject}</a>',//'{actor} 分享了你的文章 <a href="{url}" target="_blank">{subject}</a>',
+	'share_article'		=> '{actor} polecił Twój artykuł <a href="{url}" target="_blank">{subject}</a>.',//'{actor} 分享了你的文章 <a href="{url}" target="_blank">{subject}</a>',
 	'magic_present_note'	=> ' presented to you a magic <a href="{url}" target="_blank">{name}</a>.',//'送给你一个道具 <a href="{url}" target="_blank">{name}</a>',
 	'friend_add'		=> '{actor} i Ty zostaliście znajomymi.',//'{actor} 和你成为了好友',
 	'friend_request'	=> '{actor} wysłał zaproszenie do grona znajomych. {note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">Akceptuj</a>',//'{actor} 请求加您为好友{note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">批准申请</a>',
 	'doing_reply'		=> '{actor} odpowiedział na Twój <a href="{url}" target="_blank">status</a>.',//'{actor} 在 <a href="{url}" target="_blank">记录</a> 中对你进行了回复',
-	'wall_reply'		=> '{actor} odpowiedział na Twój <a href="{url}" target="_blank">komentarz na Ścianie</a>',//'{actor} 回复了你的 <a href="{url}" target="_blank">留言</a>',
-	'pic_comment_reply'	=> '{actor} odpowiedział na Twój <a href="{url}" target="_blank">komentarz do zdjęcia</a>',//'{actor} 回复了你的 <a href="{url}" target="_blank">图片评论</a>',
-	'blog_comment_reply'	=> '{actor} odpowiedział na <a href="{url}" target="_blank">komentarz w blogu</a>',//'{actor} 回复了你的 <a href="{url}" target="_blank">日志评论</a>',
-	'share_comment_reply'	=> '{actor} odpowiedział na Twoją <a href="{url}" target="_blank">udostępnioną zwartość</a>',//'{actor} 回复了你的 <a href="{url}" target="_blank">分享评论</a>',
+	'wall_reply'		=> '{actor} odpowiedział na Twój <a href="{url}" target="_blank">komentarz na ścianie</a>.',//'{actor} 回复了你的 <a href="{url}" target="_blank">留言</a>',
+	'pic_comment_reply'	=> '{actor} odpowiedział na Twój <a href="{url}" target="_blank">komentarz do obrazka</a>.',//'{actor} 回复了你的 <a href="{url}" target="_blank">图片评论</a>',
+	'blog_comment_reply'	=> '{actor} odpowiedział na <a href="{url}" target="_blank">komentarz w blogu</a>.',//'{actor} 回复了你的 <a href="{url}" target="_blank">日志评论</a>',
+	'share_comment_reply'	=> '{actor} odpowiedział na Twoją <a href="{url}" target="_blank">udostępnioną zwartość</a>.',//'{actor} 回复了你的 <a href="{url}" target="_blank">分享评论</a>',
 	'wall'			=> '{actor} zostawił <a href="{url}&fchannel=nwall" target="_blank">wiadomość</a> na Twojej tablicy.',//'{actor} 在留言板上给你 <a href="{url}&fchannel=nwall" target="_blank">留言</a>',
-	'pic_comment'		=> '{actor} dodał komentarz do <a href="{url}" target="_blank">zdjęcia</a>',//'{actor} 评论了你的 <a href="{url}" target="_blank">图片</a>',
-	'blog_comment'		=> '{actor} zamieścił komentarz na Twoim blogu <a href="{url}" target="_blank">{subject}</a>',//'{actor} 评论了你的日志 <a href="{url}" target="_blank">{subject}</a>',
-	'share_comment'		=> '{actor} skomentował Twój <a href="{url}" target="_blank">element udostępniony</a>',//'{actor} 评论了你的 <a href="{url}" target="_blank">分享</a>',
-	'click_blog'		=> '{actor} ratedon your blog <a href="{url}" target="_blank">{subject}</a> made a statement',//'{actor} 对你的日志 <a href="{url}" target="_blank">{subject}</a> 做了表态',
-	'click_pic'		=> '{actor} ocenił Twoje <a href="{url}" target="_blank">zdjęcie</a>',//'{actor} 对你的 <a href="{url}" target="_blank">图片</a> 做了表态',
-	'click_article'		=> '{actor} ocenił Twój <a href="{url}" target="_blank">artykuł</a>',//'{actor} 对你的 <a href="{url}" target="_blank">文章</a> 做了表态',
-	'show_out'		=> '{actor} visited your home page, this showed your final bid point also consumed',//'{actor} 访问了你的主页后，你在竞价排名榜中最后一个积分也被消费掉了',
+	'pic_comment'		=> '{actor} dodał komentarz do <a href="{url}" target="_blank">obrazka</a>.',//'{actor} 评论了你的 <a href="{url}" target="_blank">图片</a>',
+	'blog_comment'		=> '{actor} zamieścił komentarz na Twoim blogu <a href="{url}" target="_blank">{subject}</a>.',//'{actor} 评论了你的日志 <a href="{url}" target="_blank">{subject}</a>',
+	'share_comment'		=> '{actor} skomentował Twój <a href="{url}" target="_blank">element udostępniony</a>.',//'{actor} 评论了你的 <a href="{url}" target="_blank">分享</a>',
+	'click_blog'		=> '{actor} ratedon your blog <a href="{url}" target="_blank">{subject}</a> made a statement.',//'{actor} 对你的日志 <a href="{url}" target="_blank">{subject}</a> 做了表态',
+	'click_pic'		=> '{actor} ocenił Twój <a href="{url}" target="_blank">obrazek</a>.',//'{actor} 对你的 <a href="{url}" target="_blank">图片</a> 做了表态',
+	'click_article'		=> '{actor} ocenił Twój <a href="{url}" target="_blank">artykuł</a>.',//'{actor} 对你的 <a href="{url}" target="_blank">文章</a> 做了表态',
+	'show_out'		=> '{actor} visited your home page, this showed your final bid point also consumed.',//'{actor} 访问了你的主页后，你在竞价排名榜中最后一个积分也被消费掉了',
 	'puse_article'		=> 'Gratulację, Twój artykuł <a href="{url}" target="_blank">{subject}</a> został umieszczony na stronie głównej portalu. <a href="{newurl}" target="_blank">Kliknij tutaj, aby zobaczyć</a>.',//'恭喜你，你的<a href="{url}" target="_blank">{subject}</a>已被推送到门户， <a href="{newurl}" target="_blank">点击查看</a>',
 
 	'myinvite_request'	=> 'New application message <a href="home.php?mod=space&do=notice&view=userapp">Click here to enter the application info page and related operations</a>',//'有新的应用消息<a href="home.php?mod=space&do=notice&view=userapp">点此进入应用消息页面进行相关操作</a>',
 
 
-	'group_member_join'	=> '{actor} wysłał prośbę o dołączenie do grupy <a href="forum.php?mod=group&fid={fid}" target="_blank">{groupname}</a>, proszę udzielić odpowiedzi w <a href="{url}" target="_blank">panelu zarządzania</a>',//'{actor} 加入你的群组需要审核，请到群组 <a href="{url}" target="_blank">管理后台</a> 进行审核',
-	'group_member_invite'	=> '{actor} zaprosił Cię do grupy <a href="forum.php?mod=group&fid={fid}" target="_blank">{groupname}</a>, <a href="{url}" target="_blank">Kliknij by dołączyć</a>',//'{actor} 邀请你加入 <a href="forum.php?mod=group&fid={fid}" target="_blank">{groupname}</a> 群组，<a href="{url}" target="_blank">点此马上加入</a>',
-	'group_member_check'	=> 'Zapytanie o dołączeniu do grupy <a href="{url}" target="_blank">{groupname}</a> zostało rozpatrzone pozytywnie. <a href="{url}" target="_blank">Odwiedź grupę</a>.',//'你已经通过了 <a href="{url}" target="_blank">{groupname}</a> 群组的审核，请 <a href="{url}" target="_blank">点击访问</a>',
+	'group_member_join'	=> '{actor} wysłał prośbę o dołączenie do grupy <a href="forum.php?mod=group&fid={fid}" target="_blank">{groupname}</a>, proszę udzielić odpowiedzi w <a href="{url}" target="_blank">panelu zarządzania</a>.',//'{actor} 加入你的群组需要审核，请到群组 <a href="{url}" target="_blank">管理后台</a> 进行审核',
+	'group_member_invite'	=> '{actor} zaprosił Cię do grupy <a href="forum.php?mod=group&fid={fid}" target="_blank">{groupname}</a>, <a href="{url}" target="_blank">kliknij, aby dołączyć</a>.',//'{actor} 邀请你加入 <a href="forum.php?mod=group&fid={fid}" target="_blank">{groupname}</a> 群组，<a href="{url}" target="_blank">点此马上加入</a>',
+	'group_member_check'	=> 'Zapytanie o dołączenie do grupy <a href="{url}" target="_blank">{groupname}</a> zostało rozpatrzone pozytywnie. <a href="{url}" target="_blank">Odwiedź grupę</a>.',//'你已经通过了 <a href="{url}" target="_blank">{groupname}</a> 群组的审核，请 <a href="{url}" target="_blank">点击访问</a>',
 	'group_member_check_failed'	=> 'Grupa <a href="{url}" target="_blank">{groupname}</a> odrzuciła zapytanie o możliwość dołączenia.',//'你没有通过 <a href="{url}" target="_blank">{groupname}</a> 群组的审核。',
 	'group_mod_check'		=> 'The group you have created "<a href="{url}" target="_blank">{groupname}</a>" was approved, please <a href="{url}" target="_blank">Click here to visit</a>',//'您的创建的群组 <a href="{url}" target="_blank">{groupname}</a> 审核通过了，请 <a href="{url}" target="_blank">点击这里访问</a>',
 
-	'reason_moderate'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> został poddany moderacji ({modaction}) przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_moderate'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> został poddany moderacji ({modaction}) przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_merge'		=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> został poddany moderacji ({modaction}) przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_merge'		=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> został poddany moderacji ({modaction}) przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_delete_post'	=> 'Twoja odpowiedź w temacie <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> została usunięta przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你在 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的帖子被 {actor} 删除 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_delete_post'	=> 'Twoja odpowiedź w temacie <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> została usunięta przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你在 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的帖子被 {actor} 删除 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_delete_comment'	=> 'Twój komentarz w temacie <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> został usunięty przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你在 <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> 的点评被 {actor} 删除 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_delete_comment'	=> 'Twój komentarz w temacie <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> został usunięty przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你在 <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> 的点评被 {actor} 删除 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_ban_post'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> został poddany moderacji ({modaction}) przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_ban_post'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> został poddany moderacji ({modaction}) przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 //	'reason_warn_post' => '您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} {modaction}<br />
 //连续 {warningexpiration} 天内累计 {warninglimit} 次警告，您将被自动禁止发言 {warningexpiration} 天。<br />
@@ -83,28 +83,28 @@ $lang = array
 				Twoje konto zawiera {authorwarnings} warn(y)!
 				<div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_move'		=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> został przeniesiony do <a href="forum.php?mod=forumdisplay&fid={tofid}" target="_blank">{toname}</a> przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 移动到 <a href="forum.php?mod=forumdisplay&fid={tofid}" target="_blank">{toname}</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_move'		=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> został przeniesiony do <a href="forum.php?mod=forumdisplay&fid={tofid}" target="_blank">{toname}</a> przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 移动到 <a href="forum.php?mod=forumdisplay&fid={tofid}" target="_blank">{toname}</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_copy'		=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> został skopiowany do <a href="forum.php?mod=viewthread&tid={threadid}" target="_blank">{subject}</a> przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 复制为 <a href="forum.php?mod=viewthread&tid={threadid}" target="_blank">{subject}</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_copy'		=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> został skopiowany do <a href="forum.php?mod=viewthread&tid={threadid}" target="_blank">{subject}</a> przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 复制为 <a href="forum.php?mod=viewthread&tid={threadid}" target="_blank">{subject}</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_remove_reward'	=> 'Your reward thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> was removed by {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的悬赏主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 撤销 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_remove_reward'	=> 'Twoja nagroda w temacie <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> została usunięta przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你的悬赏主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 撤销 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_stamp_update'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> otrzymał pieczątkę {stamp} przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 添加了图章 {stamp} <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_stamp_update'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> otrzymał pieczątkę {stamp} przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 添加了图章 {stamp} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_stamp_delete'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> stracił pieczątkę przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 撤销了图章 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_stamp_delete'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> stracił pieczątkę przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 撤销了图章 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_stamplist_update'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> otrzymał ikonkę {stamp} przez {actor}  <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 添加了图标 {stamp} <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_stamplist_update'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> otrzymał ikonkę {stamp} przez {actor}  <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 添加了图标 {stamp} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_stamplist_delete'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> stracił ikonkę przez {actor}  <div class="quote"><blockquote>{reason}</blockquote></div>',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 撤销了图标 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_stamplist_delete'	=> 'Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> stracił ikonkę przez {actor}  <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 撤销了图标 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_stickreply'		=> 'Twoja odpowiedź w temacie <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> została przyklejona przez {actor}. <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_stickreply'		=> 'Twoja odpowiedź w temacie <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> została przyklejona przez {actor}. <div class="quote"><blockquote>{reason}</blockquote></div>.',
 
-	'reason_stickdeletereply'	=> 'Twoja odpowiedź w temacie <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> została odklejona przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你在主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的回帖被 {actor} 撤销置顶 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_stickdeletereply'	=> 'Twoja odpowiedź w temacie <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> została odklejona przez {actor} <div class="quote"><blockquote>{reason}</blockquote></div>.',//'你在主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的回帖被 {actor} 撤销置顶 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_quickclear'	=> 'Your {cleartype} was removed by {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的{cleartype} 被 {actor} 清除 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_quickclear'	=> 'Your {cleartype} was removed by {actor} <div class="quote"><blockquote>{reason}</blockquote></div>.',//'您的{cleartype} 被 {actor} 清除 <div class="quote"><blockquote>{reason}</blockquote></div>',
 	
-	/*!*/	'reason_live_update'	=> '{actor} added a live broadcast to your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 设置为直播贴 <div class="quote"><blockquote>{reason}</blockquote></div>',
-	/*!*/	'reason_live_cancle'	=> '{actor} removed a live broadcast to your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 取消直播 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	/*!*/	'reason_live_update'	=> '{actor} dodał transmisję do Twojego tematu <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, <div class="quote"><blockquote>{reason}</blockquote></div>.',//'您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 设置为直播贴 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	/*!*/	'reason_live_cancle'	=> '{actor} usunął transmisję z Twojego tematu <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, <div class="quote"><blockquote>{reason}</blockquote></div>.',//'您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 取消直播 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'modthreads_delete'	=> 'Twój temat {threadsubject} został odrzucony! <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 {threadsubject} 没有通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -114,7 +114,7 @@ $lang = array
 
 	'modreplies_validate'	=> 'Twója odpowiedź została zaakceptowana! &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">Kilknij tutaj, aby zobaczyć</a>. <p class="summary">Zawartość: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的回复已经审核通过！ &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <p class="summary">回复内容：<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'transfer'		=> '{actor} przesyła {credit} kredytów. &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">View</a>
+	'transfer'		=> '{actor} przesyła {credit} kredytów. &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">Pokaż</a>
 				<p class="summary">{actor} PS: <span>{transfermessage}</span></p>',
 
 //	'addfunds' => '您提交的积分充值请求已完成，相应数额的积分已存入您的积分账户 &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">查看 &rsaquo;</a>
@@ -127,7 +127,7 @@ $lang = array
 
 	'rate_reason'		=> '{actor} have rated [{ratescore}] your post in the thread <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a>. <div class="quote"><blockquote>{reason}</blockquote></div>',//'你在主题 <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> 的帖子被 {actor} 评分 {ratescore} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'recommend_note_post'	=> 'Congratulations, Your post <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> was recommended',//'恭喜，您的帖子 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被编辑采用',
+	'recommend_note_post'	=> 'Gratulacje, Twój post <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> został polecony.',//'恭喜，您的帖子 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被编辑采用',
 
 	'rate_removereason'	=> '{actor} removed rating {ratescore} from your thread <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> <div class="quote"><blockquote>{reason}</blockquote></div>',//'{actor} 撤销了你在主题 <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> 中帖子的评分 {ratescore} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -193,9 +193,9 @@ $lang = array
 	'profile_verify_error'		=> '{verify} data verification was rejected. The following fields need to be filled in:<br/>{profile}<br/>The reject reason: {reason}',//'{verify}资料审核被拒绝,以下字段需要重新填写:<br/>{profile}<br/>拒绝理由:{reason}',
 	'profile_verify_pass'		=> 'Congratulations, your {verify} data was verified by ',//'恭喜你，你填写的{verify}资料审核通过了',
 	'profile_verify_pass_refusal'	=> 'Sorry, your {verify} data was rejected',//'很遗憾，你填写的{verify}资料审核被拒绝了',
-	'member_ban_speak'		=> 'You have been prohibited to speak (R/O) by {user} for the period of {day} days (0 means permanently). R/O reason: {reason}',//'你已被 {user} 禁止发言，期限：{day}天(0：代表永久禁言)，禁言理由：{reason}',
-	'member_ban_visit'		=> 'You have been banned by {user} for the period of {day} days (0 means the permanent ban). Ban reason: {reason}',//'您已被 {user} 禁止访问，期限：{day}天(0：代表永久禁止访问)，禁止访问理由：{reason}',
-	'member_ban_status'		=> 'You have been banned by {user}, Ban reason: {reason}',//'您已被 {user} 锁定，禁止访问理由：{reason}',
+	'member_ban_speak'		=> 'Zostałeś wyciszony (prawa tylko do odczytu) przez {user} na okres {day} dni (0 oznacza czas nieokreślony). Powód wyciszenia: {reason}',//'你已被 {user} 禁止发言，期限：{day}天(0：代表永久禁言)，禁言理由：{reason}',
+	'member_ban_visit'		=> 'Zostałeś zbanowany przez {user} na okres {day} dni (0 oznacza czas nieokreślony). Powód banicji: {reason}',//'您已被 {user} 禁止访问，期限：{day}天(0：代表永久禁止访问)，禁止访问理由：{reason}',
+	'member_ban_status'		=> 'Zostałeś zbanowany przez {user}. Powód banicji: {reason}',//'您已被 {user} 锁定，禁止访问理由：{reason}',
 	'member_follow'			=> 'Otrzymałeś {count} nowych powiadomień od osób, których obserwujesz. <a href="home.php?mod=follow">Szczegóły</a>',//'您关注的人已有{count}条新动态。<a href="home.php?mod=follow">Click to view</a>',
 	'member_follow_add'		=> '{actor} dodał Cię do listy obserwowanych. <a href="home.php?mod=follow&do=follower">Szczegóły</a>',//'{actor} 收听了你。<a href="home.php?mod=follow&do=follower">Click to view</a>',
 
@@ -231,9 +231,9 @@ $lang = array
 	'invite_collection'		=> '{actor} poprosił Cię o dołączenie do kolekcji <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>.<br /><a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">Akceptuj</a>',//'{actor} 邀请您参与维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。<br /> <a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">接受邀请</a>',
 	'collection_removed'		=> 'Your participation in the collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> work team was canceled by {actor}.',//'您参与维护的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 已被 {actor} 关闭。',
 	'exit_collection'		=> 'You have successfully exited from the collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>.',//'您已经退出维护淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>。',
-	'collection_becommented'	=> 'Twoja kolekcja <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> otrzymała komentarz.',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收到了新评论。',
-	'collection_befollowed'		=> 'Twoja kolekcja <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> została zasubskrybowana!',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 有新用户订阅了！',
-	'collection_becollected'	=> 'Gratulujemy, Twój temat <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> został dodany do kolekcji <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> !',//'恭喜您的主题 <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> 被淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收录了！',
+	'collection_becommented'	=> 'Your collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> received new comment.',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收到了新评论。',
+	'collection_befollowed'		=> 'Your collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> new user subscribed!',//'您的淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 有新用户订阅了！',
+	'collection_becollected'	=> 'Congratulations, your thread <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> was added to collection <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> !',//'恭喜您的主题 <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> 被淘专辑  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> 收录了！',
 
 	'pmreportcontent'		=> '{pmreportcontent}',
 

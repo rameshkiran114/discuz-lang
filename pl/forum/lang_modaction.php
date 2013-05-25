@@ -14,7 +14,7 @@ if(!defined('IN_DISCUZ')) {
 $lang = array
 (
 
-	'EDT'	=> 'Edytowanie elementów',//'编辑',
+	'EDT'	=> 'Edycja elementów',//'编辑',
 
 	'DEL'	=> 'Usunięcie elementów',//'删除',
 	'DLP'	=> 'Usunięcie odpowiedzi',//'删除回复',
@@ -87,7 +87,7 @@ $lang = array
 
 	'REB'	=> 'Promowanie elementu',//'推送',
 
-/*!*/'LIV'	=> 'Live',//'直播',
-/*!*/'LIC'	=> 'Cancel Live',//'取消直播',
+/*!*/'LIV'	=> 'Transmisja',//'直播',
+/*!*/'LIC'	=> 'Anulowanie transmisji',//'取消直播',
 );
 

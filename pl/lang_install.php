@@ -331,7 +331,7 @@ $lang = array(
 	'dbuser'		=> 'Użytkownik bazy',//'数据库用户名',
 	'dbpw'			=> 'Hasło bazy',//'数据库密码',
 	'dbname'		=> 'Nazwa bazy',//'数据库名',
-	'tablepre'		=> 'Table prefix',//'数据表前缀',
+	'tablepre'		=> 'Prefiks tabel',//'数据表前缀',
 
 	'ucfounderpw'		=> 'Hasło administratora UCenter',//'创始人密码',
 	'ucfounderpw2'		=> 'Potwierdzenie hasła administratora UCenter',//'重复创始人密码',
@@ -360,6 +360,8 @@ $lang = array(
 //vot	'regiondata_check_label'	=> 'Install additional regional data (countries/regions/cities)',//'Install additional regional data (countries/regions/cities)',
 //vot	'install_region_data'		=> 'Install regional data',//'Install regional data',
 
+	'php_version_too_low'		=> 'Twoja wersja PHP jest za niska',
+	'php_version_too_low_comment'	=> 'For normal functioning Discuz! requires for more new version of PHP',
 //---------------------------------------------------------------
 
 );
