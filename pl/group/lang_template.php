@@ -210,5 +210,8 @@ $lang = array (
 /*!*/	'group_live_fastreply_notice'	=> '#Quick Reply#',//'#在这里快速回复#',
 /*!*/	'group_live_post'		=> 'Publish',//'发表',
 /*!*/	'group_live_nocontent_error'	=> 'Sorry, you have to enter anything',//'抱歉，您尚未输入内容',
+/*!*/	'login_to_reply'		=> 'You need to log in before you can reply',//'您需要登录后才可以回帖',
+/*!*/	'no_permission_to_post'		=> 'You are have no permissiont to post.',//'您现在无权发帖。',
+/*!*/	'click_to_show_reason'		=> 'Click here for show the reason',//'点击查看原因',
 );
 

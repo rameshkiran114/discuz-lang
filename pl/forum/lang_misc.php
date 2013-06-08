@@ -171,7 +171,7 @@ $lang = array
 	'pm_to'			=> 'Do',//'收件人',
 	'pm_date'		=> 'Data',//'日期',
 
-	'share_message'		=> 'Hejo! Przeczytałem ten temat {$_G[setting][bbname]} i uważam, że jest ciekawy, dlatego też pragnę Ci go polecić.\\n\\nTitle: $thread[subject]\\nAdres: [url={$threadurl}]{$threadurl}[/url]\\n\\nMam nadzieję, że Ci się spodoba.',//'您好！我在 {$_G[setting][bbname]} 看到了这篇帖子，认为很有价值，特推荐给您。\\n\\n$thread[subject]\\n地址 [url={$threadurl}]{$threadurl}[/url]\\n\\n希望您能喜欢',
+	'share_message'		=> 'Hejo! Przeczytałem ten temat {$_G[setting][bbname]} i uważam, że jest ciekawy, dlatego też pragnę Ci go polecić.\\n\\nTytuł: $thread[subject]\\nAdres: [url={$threadurl}]{$threadurl}[/url]\\n\\nMam nadzieję, że Ci się spodoba.',//'您好！我在 {$_G[setting][bbname]} 看到了这篇帖子，认为很有价值，特推荐给您。\\n\\n$thread[subject]\\n地址 [url={$threadurl}]{$threadurl}[/url]\\n\\n希望您能喜欢',
 
 	'week_0'	=> 'Nie',//'星期日',
 	'week_1'	=> 'Pon',//'星期一',
@@ -181,11 +181,13 @@ $lang = array
 	'week_5'	=> 'Pią',//'星期五',
 	'week_6'	=> 'Sob',//'星期六',
 
+/*!*/	'y_m_d'		=> 'R-m-d',//'Y年m月d日',
+
 	'notice_actor'		=> ', and so on. Łącznie: $actorcount osób',//'等 $actorcount 人',
 
 	'perms_allowvisit'		=> 'Dostęp',//'访问论坛',
 	'perms_readaccess'		=> 'Przeglądanie forum',//'阅读权限',
-	'perms_allowviewpro'		=> 'View member info',//'查看用户资料',
+	'perms_allowviewpro'		=> 'Pokaż informacje o użytkowniku',//'查看用户资料',
 	'perms_allowinvisible'		=> 'Ukryty',//'隐身',
 	'perms_allowsearch'		=> 'Wyszukiwarka',//'使用搜索',
 	'perms_allownickname'		=> 'Allow to use nickname',//'使用昵称',
@@ -206,9 +208,9 @@ $lang = array
 	'perms_allowbiobbcode'		=> 'Use BBCode in self-about',//'自我介绍中使用编辑器代码',
 	'perms_allowbioimgcode'		=> 'Use [img] tag in self-about',//'自我介绍中使用 [img] 代码',
 	'perms_allowgetattach'		=> 'Pobieranie ogólne',//'下载附件',
-	'perms_allowgetimage'		=> 'Podgląd zdjęć',//'查看图片',
+	'perms_allowgetimage'		=> 'Podgląd obrazków',//'查看图片',
 	'perms_allowpostattach'		=> 'Dodawanie załączników',//'上传附件',
-	'perms_allowpostimage'		=> 'Dodawanie zdjęć',//'上传图片',
+	'perms_allowpostimage'		=> 'Dodawanie obrazków',//'上传图片',
 	'perms_allowsetattachperm'	=> 'Zarządzanie załącznikami',//'允许设置附件权限',
 	'perms_maxspacesize'		=> 'Rozmiar ogólny',//'空间大小',
 	'perms_maxattachsize'		=> 'Limit pliku',//'单个最大附件尺寸',
@@ -255,7 +257,7 @@ $lang = array
 	'perms_replyperm'		=> 'Dodawanie odpowiedzi',//'发表回复',
 	'perms_getattachperm'		=> 'Dostęp do załączników',//'下载附件',
 	'perms_postattachperm'		=> 'Dodawanie załączników',//'上传附件',
-	'perms_postimageperm'		=> 'Dodawanie zdjęć',//'上传图片',
+	'perms_postimageperm'		=> 'Dodawanie obrazków',//'上传图片',
 	'perms_allowblog'		=> 'Publikowanie blogów',//'发表日志',
 	'perms_allowdoing'		=> 'Publikacja aktywności',//'发表记录',
 	'perms_allowupload'		=> 'Dodaj obrazek',//'上传图片',
@@ -323,5 +325,9 @@ $lang = array
 	'plugin_memo'		=> 'Dostępne aktualizacje: <span class="xi1">{number}</span>',//'您有 <span class="xi1">{number}</span> 款应用有可用更新',
 	'plugin_link'		=> 'Aktualizuj teraz!',//'现在更新',
 
+// Added by Valery Votintsev, codersclub.org
+	'poll_reply_no_perms'	=> 'You can not reply the poll',//'您不能对自己的回帖进行投票',
+	'poll_replyed_already'	=> 'You have already replied this poll',//'您已经对此回帖投过票了',
+	'poll_voted_ok'		=> 'You have voted successfully',//'投票成功',
 );
 

@@ -118,11 +118,11 @@ $lang = array(
 		'music'		=> 'Muzyka',//'音乐盒',
 		'statistic'	=> 'Statystyki',//'统计信息',
 		'myapp'		=> 'Aplikacje',//'应用',
-		'block1'	=> 'Free block 1',//'自由模块1',
-		'block2'	=> 'Free block 2',//'自由模块2',
-		'block3'	=> 'Free block 3',//'自由模块3',
-		'block4'	=> 'Free block 4',//'自由模块4',
-		'block5'	=> 'Free block 5',//'自由模块5'
+		'block1'	=> 'Blok statyczny 1',//'自由模块1',
+		'block2'	=> 'Blok statyczny 2',//'自由模块2',
+		'block3'	=> 'Blok statyczny 3',//'自由模块3',
+		'block4'	=> 'Blok statyczny 4',//'自由模块4',
+		'block5'	=> 'Blok statyczny 5',//'自由模块5'
 	),
 
 	'block_title'		=> '<div class="blocktitle title"><span>{bname}</span>{more}</div>',
@@ -173,7 +173,7 @@ $lang = array(
 	'poll_li'		=> '<div class="c z"><img alt="poll" src="static/image/feed/poll.gif" alt="poll" class="t" /><h4 class="h"><a target="_blank" href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a></h4><div class="mtn xg1">Posted: {dateline}</div></div>',//'<div class="c z"><img alt="poll" src="static/image/feed/poll.gif" alt="poll" class="t" /><h4 class="h"><a target="_blank" href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a></h4><div class="mtn xg1">发布时间：{dateline}</div></div>',
 	'myapp_li_icon'		=> '<li><img src="{icon}" onerror="this.onerror=null;this.src=\'http://appicon.manyou.com/icons/{appid}\'" alt="{appname}" class="vm" /> <a href="userapp.php?mod=app&id={appid}">{appname}</a></li>',
 	'myapp_li_logo'		=> '<li><a href="userapp.php?mod=app&id={appid}"><img src="http://appicon.manyou.com/logos/{appid}" alt="{appname}" /><p><a href="userapp.php?mod=app&id={appid}">{appname}</a></p></li>',
-	'music_no_content'	=> 'Music box has no content set',//'还没有设置音乐盒的内容',
+	'music_no_content'	=> 'Muzyczny panel nie zawiera żadnej zawartości.',//'还没有设置音乐盒的内容',
 	'block_profile_diy'		=> 'Szablon profilu',//'装扮空间',
 	'block_profile_wall'		=> 'Tablica',//'查看留言',
 	'block_profile_avatar'		=> 'Awatar',//'编辑头像',

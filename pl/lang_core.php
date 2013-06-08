@@ -55,7 +55,7 @@ $lang = array
 
 	'title_goruptype'		=> 'Typ grupy',//'类',
 	'title_of'			=> '\'s ',//'的',
-	'title_board_message'		=> 'Wiadomość',//'提示信息',
+	'title_board_message'		=> 'Komunikat',//'提示信息',
 	'title_view_all'		=> 'Wszystko',//'随便看看',
 	'title_activity'		=> 'Wydarzenia',//'活动',
 	'title_friend_activity'		=> 'Wydarzenia znajomych',//'好友发起的活动',
@@ -171,7 +171,7 @@ $lang = array
 	'title_memcp_promotion'		=> 'Promuj nas',//'访问推广',
 	'title_task'			=> 'Zadania',//'任务',
 	'title_login'			=> 'Login',//'登录',
-	'title_ranklist_picture'	=> 'Ranking zdjęć',//'图片排行',
+	'title_ranklist_picture'	=> 'Ranking obrazków',//'图片排行',
 	'title_ranklist_member'		=> 'Ranking użytkowników',//'用户排行',
 	'title_ranklist_thread'		=> 'Ranking tematów',//'帖子排行',
 	'title_ranklist_blog'		=> 'Ranking blogów',//'日志排行',

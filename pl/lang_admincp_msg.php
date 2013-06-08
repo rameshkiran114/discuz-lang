@@ -267,6 +267,7 @@ $lang = array (
 	'founder_perm_member_duplicate'		=> 'User {name} already exists, please return to change.',//'用户 {name} 已经存在，请返回更改。',
 	'founder_perm_gperm_update_succeed'	=> 'Administrative group permissions successfully updated.',//'管理团队权限资料已成功更新。',
 	'founder_perm_notifyusers_succeed'	=> 'Management notification recipients set Successfully',//'管理通知接收者设置成功 ',
+
 /*!*/  'founder_optimizer_setting_succeed'	=> 'Optimizer setting saved successfully',//'设置项优化成功 ',
 /*!*/  'founder_optimizer_setting_error'	=> 'Optimizer setting failed',//'优化中出现问题 ',
 
@@ -459,6 +460,7 @@ $lang = array (
 	'setting_seccode_ttf_lost'		=> 'Code to display the desired font file is missing, please upload a font file to the {path} directory.',//'验证码缺少显示所需的字库文件，请上传字库文件至 {path} 目录。',
 	'forum_name_duplicate'			=> 'This forum name already exists, re-set please',//'表单名称设置不能重复，请重新设置',
 	'alipay_ratio_invalid'			=> 'Entered cash/points conversion rate is less than 0, please return to modify.',//'您输入的现金/积分兑换比率小于 0，请返回修改。',
+/*!*/	'setting_threadprofile_name_empty'	=> 'The scheme name can not be empty',//'方案名称不能为空',
 	'ftp_password_short'			=> 'FTP Password must not be shorten than 3 characters, please return to modify.',//'FTP 密码不得少于 3 位，请返回修改。',
 	'cachethread_dir_noexists'		=> 'Sorry, the directory {cachethreaddir} does not exist or is not writeable! Please go back and try to set their permissions to 777 via FTP or Shell.',//'对不起，您所指定的目录 {cachethreaddir} 不存在或者不可写！请返回并尝试通过 FTP 将其属性改为 777。',
 	'ranklistcache_update'			=> 'Rank list cache was been updated.',//'排行榜缓存文件已更新。',
@@ -586,6 +588,7 @@ $lang = array (
 	'usergroups_copy_options_invalid'	=> 'You did not choose the item to copy, please return.',//'你没有选择要复制的项目，请返回修改。',
 	'usergroups_copy_succeed'		=> 'User group settings successfully replicated.',//'用户组设置成功复制。',
 /*!*/	'usergroups_merge_succeed'		=> 'User groups merged successfully ',//'用户组合并成功 ',
+
 	'usertag_delete_succeed'		=> 'Tag removed successfully',//'删除标签成功',
 	'usertag_merge_succeed'			=> 'Tag successfully merged',//'标签合并成功',
 	'usertag_add_succeed'			=> 'User tag added successfully',//'成功为用户添加标签',
@@ -628,9 +631,9 @@ $lang = array (
 	'cloudaddons_check_url_fopen_error'	=> 'Your server can not access the Application Center, This will cause the application can not be installed. Please contact your service provider or site technical staff, Ensure that your server can normal access to addon.discuz.com or addon1.discuz.com',//'您的服务器无法访问应用中心，这将会导致应用无法安装。请联系您的服务商或者网站技术人员，确保您的服务器能够正常访问 addon.discuz.com 或 addon1.discuz.com',
 	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
 	'cloudaddons_genuine_message'		=> 'Sorry, You installed not genuine applications, can not continue to implement the Setup.<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">Click here to install the genuine application</a>',//'对不起，您安装的不是正版应用，安装程序无法继续执行<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">点击这里安装正版应用</a>',
-	
-	/*!*/	'admincp_makehtml_cleanhtml_error'	=> 'Sorry, Enable to generate static HTML file, you can not clean up the HTML file.',//'对不起，开启生成HTML静态文件时，不能清理HTML文件。',
-	/*!*/	'admincp_makehtml_cleanhtml_succeed'	=> 'HTML file cleaned up successfully.',//'清理HTML文件成功。',
-	/*!*/	'admincp_makehtml_cleanhtml_choose_item'	=> 'Sorry, please select the HTML file need to be cleaned up.',//'对不起，请选择需要清理HTML文件。',
+
+/*!*/	'admincp_makehtml_cleanhtml_error'	=> 'Sorry, Enable to generate static HTML file, you can not clean up the HTML file.',//'对不起，开启生成HTML静态文件时，不能清理HTML文件。',
+/*!*/	'admincp_makehtml_cleanhtml_succeed'	=> 'HTML file cleaned up successfully.',//'清理HTML文件成功。',
+/*!*/	'admincp_makehtml_cleanhtml_choose_item'	=> 'Sorry, please select the HTML file need to be cleaned up.',//'对不起，请选择需要清理HTML文件。',
 );
 

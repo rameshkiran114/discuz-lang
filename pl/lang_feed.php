@@ -17,8 +17,8 @@ $lang = array
 	'feed_blog_password'	=> '{actor} zabezpieczył wpis {subject} hasłem',//'{actor} 发表了新加密日志 {subject}',
 	'feed_blog_title'	=> '{actor} opublikował nowy wpis na blogu',//'{actor} 发表了新日志',
 	'feed_blog_body'	=> '<b>{subject}</b><br />{summary}',//'<b>{subject}</b><br />{summary}',
-	'feed_album_title'	=> '{actor} zaktualizował album zdjęć',//'{actor} 更新了相册',
-	'feed_album_body'	=> '<b>{album}</b><br />Łączna liczba zdjęć: {picnum}',//'<b>{album}</b><br />共 {picnum} 张图片',
+	'feed_album_title'	=> '{actor} zaktualizował album obrazków',//'{actor} 更新了相册',
+	'feed_album_body'	=> '<b>{album}</b><br />Łączna liczba obrazków: {picnum}',//'<b>{album}</b><br />共 {picnum} 张图片',
 	'feed_pic_title'	=> '{actor} dodał nowe obrazki',//'{actor} 上传了新图片',
 	'feed_pic_body'		=> '{title}',
 

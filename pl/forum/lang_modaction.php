@@ -87,7 +87,7 @@ $lang = array
 
 	'REB'	=> 'Promowanie elementu',//'推送',
 
-/*!*/'LIV'	=> 'Transmisja',//'直播',
+/*!*/'LIV'	=> 'Transmisja live',//'直播',
 /*!*/'LIC'	=> 'Anulowanie transmisji',//'取消直播',
 );
 

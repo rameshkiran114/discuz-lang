@@ -289,10 +289,28 @@ var lng = {
 	'video_support'		: 'Wsparcie dla Youku, Potatoes, 56, 6, Cool video i innych serwisów.<br />Wspierane formaty: wmv avi rmvb mov swf flv.<br /> Przykład: http://server/movie.wmv',//'支持优酷、土豆、56、酷6等视频站的视频网址<br />支持 wmv avi rmvb mov swf flv 等视频格式<br />示例: http://server/movie.wmv',
 	'flash_support'		: 'Wspierane formaty: swf flv <br /> Przykład: http://server/flash.swf',//'支持 swf flv 等 Flash 网址<br />示例: http://server/flash.swf',
 	'paste_from_word'	: 'Wklej zawartość programu Word',//'从 Word 粘贴内容',
-	'paste_word_tip'	: 'Użyj skrótu wklejania treści (Ctrl + V), aby móc uzupełnić powyższe pole.',//'请通过快捷键(Ctrl+V)把 Word 文件中的内容粘贴到上',
+	'paste_word_tip'	: 'Użyj skrótu wklejania (Ctrl + V), aby uzupełnić powyższe pole.',//'请通过快捷键(Ctrl+V)把 Word 文件中的内容粘贴到上',
 	'show_tips'		: 'Pokaż wskazówki',//'友情提示',
 	'expire_days'		: 'Valid for (days)',//'有效天数',
 	'expire_days_invalid'	: 'Distance from the posting date is greater than the number of days when the label automatically expire',//'距离发帖日期大于这个天数时标签自动失效',
+	'download_remote'	: 'Downloading remote attachment, please wait ...',//'正在下载远程附件，请稍等……',
+	'create_post_directory'	: 'Create post directory',//'创建帖子目录',
+	'page_number'		: 'Numer strony',//'页码',
+	'jump_to_page'		: 'Skocz do wybranej strony',//'跳转到指定的页',
+	'jump_to_page_comment'	: 'Użyj [page], aby dodać nową stronę',//'用 [page] 对当前帖子分页后的页码',
+	'jump_to_post'		: 'Skocz do wybrantego posta',//'跳转到指定的帖子',
+	'jump_tip_pid'		: 'Post TID and PID',//'帖子的 TID 和 PID',
+	'add_indent'		: 'Add the first line indent',//'添加行首缩进',
+	'enter_post_password'	: 'Please enter the post password',//'请输入帖子密码',
+	'begin_flash_img'	: 'Wprowadź adres URL animacji flash lub obrazka',//'请输入开头动画 Flash 或 图片 地址',
+	'begin_click_url'	: 'Przekierowanie linku',//'点击链接地址',
+	'begin_stay_seconds'	: 'Czas wyświetlania (sek.)',//'停留秒数',
+	'begin_disappearance'	: 'Efekt po załadowaniu',//'载入、消失的效果',
+	'none'			: 'Brak',//'无',
+	'begin_fade'		: 'Zanikanie',//'淡入淡出',
+	'begin_explosive'	: 'Ekspozja',//'展开闭合',
+	'begin_info'		: 'Wspierane formaty: swf flv jpg gif png<br/>Zakres szerokości: 400~1024, zakres wysokości: 300~640<br/>Przykład: http://server/flash.swf',//'支持 swf flv jpg gif png 网址<br />宽高范围: 宽400~1024 高300~640<br />示例: http://server/flash.swf',
+	
 //--------------------------------
 //static/js/forum.js
 
@@ -463,8 +481,35 @@ var lng = {
 
 //---------------------------
 //static/js/makehtml.js
-	'generated_ok'	: ' wygenerowano prawidłowo',//'生成成功',
 	'generate'	: 'Generuj ',//'生成',
+	'generate_ok'	: ' wygenerowano prawidłowo',//'生成成功',
+	'generate_error'	: ' generation failed',//'生成失败',
+	'generate_start'	: 'Start generating of ',//'开始生成 ',
+	'generate_click_continue'	: 'If your browser does not respond, Click to continue...',//'如果您的浏览器没有反应，请点击继续...',
+	'generate_completed'	: ' generation is completed',//' 生成完成',
+	'generate_total'	: 'Total need to generate ',//'本次共需要生成 ',
+	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 '
+	'generate_first'	: 'generated first ',//'正在生成第 ',
+	'generate_percent'	: 'has been completed ',//'已经完成 ',
+
+//---------------------------
+//static/js/mobile/common.js
+//	'first'	: 'First ',//'第 ',
+//	'page'	: ' Page',//' 页',
+//	'prev_page'	: 'Prev',//'上一页',
+//	'click_to_reload'	: 'Click to reload',//'点击重新加载',
+//	'submit'		: 'Submit',//'确定',
+//	'cancel'		: 'Cancel',//'取消',
+//	'loading'	: 'Loading...',//'正在加载...',
+//	'loading'		: 'Loading...',//'加载中...',
+
+//	''	: 'Get location timeout, please try again',//'获取位置超时，请重试',
+//	''	: 'Unable to detect your current location',//'无法检测到您的当前位置',
+//	''	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
+//	''	: 'Unknown error occurred',//'发生未知错误',
+//	''	: 'Dropdown can refresh',//'下拉可以刷新',
+//	''	: 'Dropdown can refresh',//'下拉可以刷新',
+//	''	: 'Release can refresh',//'松开可以刷新',
 //	''	: '',//'',
 
 //--------------------------------
@@ -548,7 +593,7 @@ var lng = {
 //!!! mainly the same as 'color' !!!!!!
 //	'colour'		: 'Colour',//'色',
 	'add_new_title'		: 'Dodaj nowy tytuł',//'添加新标题',
-	'delete_this_sure'	: 'Are you sure to delete it? It can not be restored if you delete it.',//'您确实要删除吗,删除以后将不可恢复',
+	'delete_this_sure'	: 'Czy na pewno chcesz to usunąć? Wszelkie dane zostaną utracone.',//'您确实要删除吗,删除以后将不可恢复',
 	'loading_content'	: 'Wczytywanie zawartości...',//'正在加载内容...',
 	'modified_import'	: 'You have made some modifications, please import it after you save it, otherwise the imported data won\'t include modification of this time.',//'您已经做过修改，请保存后再做导出，否则导出的数据将不包括您这次所做的修改。',
 	'total'			: 'Łącznie ',//'共',
@@ -578,6 +623,22 @@ var lng = {
 //--------------------------------
 //static/js/qshare.js
 	'from_tencent'		: 'I come from Tencent microblogging an open platform',//"\u6211\u6765\u81EA\u4E8E\u817E\u8BAF\u5FAE\u535A\u5F00\u653E\u5E73\u53F0",
+
+//---------------------------
+//static/js/redef.js
+//[2]:  参数
+//[3]:  parent			放置瀑布流元素的容器，默认为 $("waterfall")
+//[4]:  container		放置瀑布流的父容器，默认为 $("threadlist")
+//[5]:  maxcolumn		最多多少列，默认为 0 不限制
+//[6]:  space			图片间距，默认为 10
+//[7]:  index			从第几张开始排列，默认为 0
+//[8]:  tag			瀑布流元素的 tagName，默认为 li
+//[9]:  columnsheight	存放列高度的数组
+//[11]:  返回值
+//[12]:  index			当前瀑布流已经排列了多少个图片
+//[13]:  totalwidth		当前瀑布流的总宽度
+//[14]:  totalheight	当前瀑布流的总高度
+//[15]:  columnsheight	存放瀑布流列高的数组
 
 //--------------------------------
 //static/js/register.js
@@ -641,6 +702,19 @@ var lng = {
 //static/js/upload.js
 
 	'file_not_supported'	: 'Przepraszamy, ten typ pliku nie jest wspierany',//'对不起，不支持上传此类文件',
+//[1099]: 			progress.setStatus("等待上传...");
+//[1117]: 			showDialog("您选择的文件个数超过限制。\n"+(message === 0 ? "您已达到上传文件的上限了。" : "您还可以选择 " + message + " 个文件"), 'notice', null, null, 0, null, null, null, null, sdCloseTime);
+//[1127]: 				progress.setStatus("文件太大.");
+//[1131]: 				progress.setStatus("不能上传零字节文件.");
+//[1135]: 				progress.setStatus("禁止上传该类型的文件.");
+//[1200]: 		progress.setStatus("上传中...");
+//[1219]: 		progress.setStatus("正在上传("+percent+"%)...");
+//[1276]: 						progress.setStatus("取消上传");
+//[1303]: 				newTd.innerHTML = '图片描述<br/><textarea name="title['+data.picid+']" cols="40" rows="2" class="pt"></textarea>';
+//[1307]: 				showDialog('图片上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
+//[1327]: 				showDialog('图片上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
+//[1344]: 				showDialog('上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
+//[1352]: 			progress.setStatus("上传完成.");
 
 //-------------------------------------
 //source/function/function_admincp.php
@@ -662,6 +736,6 @@ var lng = {
 //-------------------------------------
 //	''	: '',//'',
 
-'fiction'	: ''
+'fiction'	: '' // This key MUST BE THE LAST!
 
 };
