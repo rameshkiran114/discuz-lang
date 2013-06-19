@@ -262,4 +262,7 @@ $lang = array(
 	'ZM'	=> 'Zambia',
 	'ZW'	=> 'Zimbabwe',
 	'??'	=> 'Nieznane',
+	'LAN'	=> 'LAN',
+	'LOC'	=> 'Localhost',
+	'ERR'	=> 'Invalid IP Address',
 );

@@ -262,4 +262,7 @@ $lang = array(
 	'ZM'	=> 'زامبيا',
 	'ZW'	=> 'زيمبابوي',
 	'??'	=> 'غير محدد',
+	'LAN'	=> 'LAN',
+	'LOC'	=> 'Localhost',
+	'ERR'	=> 'Invalid IP Address',
 );
