@@ -927,11 +927,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      'Block Management' => 'action=block',
+      'Bloki portalu' => 'action=block',
     ),
     'text' =>
     array (
-      0 => 'Block Management',//'模块管理',
+      0 => 'Bloki portalu',//'模块管理',
     ),
   ),
   84 =>

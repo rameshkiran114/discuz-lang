@@ -26,7 +26,7 @@ $lang = array
 
 	'feed_poll'		=> '{actor} otworzył nową ankietę',//'{actor} 发起了新投票',
 
-	'feed_comment_space'	=> '{actor} zostawił wiadomość na ścianie {touser}',//'{actor} 在 {touser} 的留言板留了言',
+	'feed_comment_space'	=> '{actor} zostawił wiadomość na tablicy {touser}',//'{actor} 在 {touser} 的留言板留了言',
 	'feed_comment_image'	=> '{actor} skomentował obrazek użytkownika {touser}',//'{actor} 评论了 {touser} 的图片',
 	'feed_comment_blog'	=> '{actor} skomentował wpis na blogu {blog} użytkownika {touser}',//'{actor} 评论了 {touser} 的日志 {blog}',
 	'feed_comment_poll'	=> '{actor} skomentował ankietę {poll} użytkownika {touser}',//'{actor} 评论了 {touser} 的投票 {poll}',

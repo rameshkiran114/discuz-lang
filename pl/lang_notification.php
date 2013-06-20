@@ -42,7 +42,7 @@ $lang = array
 	'friend_add'		=> '{actor} i Ty zostaliście znajomymi.',//'{actor} 和你成为了好友',
 	'friend_request'	=> '{actor} wysłał zaproszenie do grona znajomych. {note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">Akceptuj</a>',//'{actor} 请求加您为好友{note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">批准申请</a>',
 	'doing_reply'		=> '{actor} odpowiedział na Twój <a href="{url}" target="_blank">status</a>.',//'{actor} 在 <a href="{url}" target="_blank">记录</a> 中对你进行了回复',
-	'wall_reply'		=> '{actor} odpowiedział na Twój <a href="{url}" target="_blank">komentarz na ścianie</a>.',//'{actor} 回复了你的 <a href="{url}" target="_blank">留言</a>',
+	'wall_reply'		=> '{actor} odpowiedział na Twój <a href="{url}" target="_blank">komentarz na tablicy</a>.',//'{actor} 回复了你的 <a href="{url}" target="_blank">留言</a>',
 	'pic_comment_reply'	=> '{actor} odpowiedział na Twój <a href="{url}" target="_blank">komentarz do obrazka</a>.',//'{actor} 回复了你的 <a href="{url}" target="_blank">图片评论</a>',
 	'blog_comment_reply'	=> '{actor} odpowiedział na <a href="{url}" target="_blank">komentarz w blogu</a>.',//'{actor} 回复了你的 <a href="{url}" target="_blank">日志评论</a>',
 	'share_comment_reply'	=> '{actor} odpowiedział na Twoją <a href="{url}" target="_blank">udostępnioną zwartość</a>.',//'{actor} 回复了你的 <a href="{url}" target="_blank">分享评论</a>',
@@ -185,7 +185,7 @@ $lang = array
 	'grouplevel_update'	=> 'Congratulation! Your group {groupname} level is upgraded to {newlevel}.',//'恭喜你，你的群组 {groupname} 已经升级到了 {newlevel}。',
 
 	'thread_invite'		=> '{actor} invite {invitename} to the <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>. &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">View it</a>',//'{actor} 邀请你{invitename} <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
-	'blog_invite'		=> '{actor} invited you to view the blog <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a>, &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">View &rsaquo;</a>',//'{actor} 邀请您查看日志 <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a> &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">查看 &rsaquo;</a>',
+	'blog_invite'		=> '{actor} zaprosił Cię do wpisu na blogu <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a>, &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">Pokaż &rsaquo;</a>',//'{actor} 邀请您查看日志 <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a> &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 	'article_invite'	=> '{actor} invited you to view the article <a href="portal.php?mod=view&aid={aid}" target="_blank">{subject}</a>, &nbsp; <a href="portal.php?mod=view&aid={aid}" target="_blank" class="lit">View &rsaquo;</a>',//'{actor} 邀请您查看文章 <a href="portal.php?mod=view&aid={aid}" target="_blank">{subject}</a> &nbsp; <a href="portal.php?mod=view&aid={aid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 	'invite_friend'		=> 'Congratulation! You have invited and successfully added as a friend by {actor}.',//'恭喜你成功邀请到 {actor} 并成为你的好友',
 
@@ -194,9 +194,9 @@ $lang = array
 	'profile_verify_error'		=> '{verify} data verification was rejected. The following fields need to be filled in:<br/>{profile}<br/>The reject reason: {reason}',//'{verify}资料审核被拒绝,以下字段需要重新填写:<br/>{profile}<br/>拒绝理由:{reason}',
 	'profile_verify_pass'		=> 'Congratulations, your {verify} data was verified by ',//'恭喜你，你填写的{verify}资料审核通过了',
 	'profile_verify_pass_refusal'	=> 'Sorry, your {verify} data was rejected',//'很遗憾，你填写的{verify}资料审核被拒绝了',
-	'member_ban_speak'		=> 'Zostałeś wyciszony (prawa tylko do odczytu) przez {user} na okres {day} dni (0 oznacza czas nieokreślony). Powód wyciszenia: {reason}',//'你已被 {user} 禁止发言，期限：{day}天(0：代表永久禁言)，禁言理由：{reason}',
-	'member_ban_visit'		=> 'Zostałeś zbanowany przez {user} na okres {day} dni (0 oznacza czas nieokreślony). Powód banicji: {reason}',//'您已被 {user} 禁止访问，期限：{day}天(0：代表永久禁止访问)，禁止访问理由：{reason}',
-	'member_ban_status'		=> 'Zostałeś zbanowany przez {user}. Powód banicji: {reason}',//'您已被 {user} 锁定，禁止访问理由：{reason}',
+	'member_ban_speak'		=> 'Zostałeś wyciszony (od teraz możesz tylko przeglądać to forum) przez {user} na okres {day} dni (0 oznacza czas nieokreślony). Powód wyciszenia: {reason}',//'你已被 {user} 禁止发言，期限：{day}天(0：代表永久禁言)，禁言理由：{reason}',
+	'member_ban_visit'		=> 'Zostałeś zbanowany przez {user} na okres {day} dni (0 oznacza czas nieokreślony). Powód blokady: {reason}',//'您已被 {user} 禁止访问，期限：{day}天(0：代表永久禁止访问)，禁止访问理由：{reason}',
+	'member_ban_status'		=> 'Zostałeś zbanowany przez {user}. Powód blokady: {reason}',//'您已被 {user} 锁定，禁止访问理由：{reason}',
 	'member_follow'			=> 'Otrzymałeś {count} nowych powiadomień od osób, których obserwujesz. <a href="home.php?mod=follow">Szczegóły</a>',//'您关注的人已有{count}条新动态。<a href="home.php?mod=follow">Click to view</a>',
 	'member_follow_add'		=> '{actor} dodał Cię do listy obserwowanych. <a href="home.php?mod=follow&do=follower">Szczegóły</a>',//'{actor} 收听了你。<a href="home.php?mod=follow&do=follower">Click to view</a>',
 

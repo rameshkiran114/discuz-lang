@@ -382,7 +382,7 @@ $lang = array (
 	'focus_topic_noexists'		=> 'Specified for Recommended topic does not exist.',//'指定的站长推荐不存在。',
 	'focus_edit_succeed'		=> 'Recommended edited successfully.',//'站长推荐编辑成功。',
 	'focus_conf_succeed'		=> 'Recommended setting successfully updated.',//'站长推荐设置成功。',
-	'custommenu_add_succeed'	=> 'Menu {title} successfully added to the common operation, and will return to the previous page, you can edit <a href="'.ADMINSCRIPT.'?action=misc&operation=custommenu">common operations here</a>',//'菜单 {title} 已成功添加到常用操作，即将返回上一页，你可以<a href="'.ADMINSCRIPT.'?action=misc&operation=custommenu">点这里编辑常用操作</a>',
+	'custommenu_add_succeed'	=> 'Pozycja {title} została dodana do nawigacji głównej. Za chwilę powrócisz do poprzedniej strony. Jeśli chcesz, możesz edytować  <a href="'.ADMINSCRIPT.'?action=misc&operation=custommenu">pozostałe pozycje</a>.',//'菜单 {title} 已成功添加到常用操作，即将返回上一页，你可以<a href="'.ADMINSCRIPT.'?action=misc&operation=custommenu">点这里编辑常用操作</a>',
 
 	'patch_no_privilege_autoupdate'		=> 'Do not have permission to modify files, Automatic Update can not be performed',//'没有权限修改文件，无法开启自动更新',
 	'patch_updatesetting_successful'	=> 'Settings updated successfully',//'设置更新成功',

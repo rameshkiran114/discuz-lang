@@ -71,7 +71,7 @@ $lang = array
 	'attach_readperm'		=> 'Zezwolenia',//'阅读权限',
 	'attach_img_zoom'		=> 'Kliknij tutaj, aby wyświetlić obrazek w nowym oknie.\\nCTRL + kółko myszki zwiększa lub zmniejsza rozmiary obrazka.',//'点击在新窗口查看全图\\nCTRL+鼠标滚轮放大或缩小',
 	'attach_img_thumb'		=> 'Kliknij tutaj, aby wyświetlić obrazek w nowym oknie.',//'点击在新窗口查看全图',
-	'attach_downloads'		=> 'Ilość pobrań',//'下载次数',
+	'attach_downloads'		=> 'Liczba pobrań',//'下载次数',
 
 	'post_trade_transport'		=> 'Transport fee',//'邮费',
 //vot	'post_trade_transport_mail'	=> 'Snail mail',//'平邮',
@@ -181,7 +181,7 @@ $lang = array
 	'week_5'	=> 'Pią',//'星期五',
 	'week_6'	=> 'Sob',//'星期六',
 
-/*!*/	'y_m_d'		=> 'R-m-d',//'Y年m月d日',
+/*!*/	'y_m_d'		=> 'Y-m-d',//'Y年m月d日',
 
 	'notice_actor'		=> ', and so on. Łącznie: $actorcount osób',//'等 $actorcount 人',
 

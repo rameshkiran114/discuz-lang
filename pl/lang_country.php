@@ -264,5 +264,5 @@ $lang = array(
 	'??'	=> 'Nieznane',
 	'LAN'	=> 'LAN',
 	'LOC'	=> 'Localhost',
-	'ERR'	=> 'Invalid IP Address',
+	'ERR'	=> 'B³êdny adres IP'
 );
