@@ -1,0 +1,1 @@
+Language Packs for International Discuz!X (Multilingual) created by codersclub.org international team.
